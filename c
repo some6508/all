@@ -5,53 +5,130 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1","server":"88.218.92.139","port":51122,"type":"ss","country":"https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1","cipher":"aes-256-gcm","password":"dongtaiwang.com"}
-  - {"name":"https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3","server":"88.218.92.176","port":31211,"type":"ss","country":"https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3","cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"name":"🇰🇷韩国(yudou66_com玉豆分享)_1","server":"146.56.108.108","port":26113,"type":"vmess","uuid":"1071810b-8a51-4fba-de7f-1efe88c87ea8","alterId":0,"cipher":"auto","country":"🇰🇷韩国(yudou66_com玉豆分享)_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"146.56.108.108"}}}
+  - {"name":"🇫🇷FR(TG/＠yzcloud)_14","server":"ppy-unicom.0098dns02in.work","port":26021,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇫🇷FR(TG/＠yzcloud)_14","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"Pool_🇬🇧GB_183","server":"146.70.73.2","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"Pool_🇬🇧GB_183","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"italy-milan.mah3Hoet.com"}}}
+  - {"name":"github_com/mianfeifq_v2cross_com_3","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"github_com/mianfeifq_v2cross_com_3","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
+  - {"name":"俄罗斯(yudou66_com玉豆分享)_5","server":"ru1.lolvps.xyz","port":40040,"type":"vmess","uuid":"2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99","alterId":0,"cipher":"auto","country":"俄罗斯(yudou66_com玉豆分享)_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/6129CFHR","headers":{"host":"ru1.lolvps.xyz"}}}
+  - {"name":"github_com/v2rayfree-加拿大65_6","server":"0319hzm01.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/v2rayfree-加拿大65_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319hzm01.fans8.xyz"}}}
+  - {"name":"日本（TGat阿伟科技/油管）_7","server":"jp2.lolvps.xyz","port":30031,"type":"vmess","uuid":"c838324f-06e7-4754-9953-7043c3ca6a81","alterId":0,"cipher":"auto","country":"日本（TGat阿伟科技/油管）_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/0IY50BPB","headers":{"host":"jp2.lolvps.xyz"}}}
+  - {"name":"defaultName_56","server":"103.172.116.9","port":9018,"type":"ssr","country":"defaultName_56","password":"fG2artUmHfNT2cX7","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"日本-中继-10(CNRelayJapan10)_49","server":"cmrelay01.yiyorelay.xyz","port":3709,"type":"ssr","country":"日本-中继-10(CNRelayJapan10)_49","password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","obfs":"plain","protocol-param":"67249:ojZU44","obfs-param":"microsoft.com"}
+  - {"name":"defaultName_10","server":"185.126.116.125","port":9019,"type":"ssr","country":"defaultName_10","password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"韩国（TGat阿伟科技/油管）_11","server":"150.230.249.169","port":8888,"type":"vmess","uuid":"f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef","alterId":0,"cipher":"auto","country":"韩国（TGat阿伟科技/油管）_11","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/IqTUMDzwOI","headers":{"host":"150.230.249.169"}}}
+  - {"name":"CYL-科技（2022_04_06）_12","server":"217.30.10.66","port":9059,"type":"ssr","country":"CYL-科技（2022_04_06）_12","password":"9XwYyZsK8SNzQDtY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"github_com/mianfeifq_github_com/freefq-美国19_31","server":"ussc.scsevers.cf","port":443,"type":"trojan","country":"github_com/mianfeifq_github_com/freefq-美国19_31","skip-cert-verify":true,"udp":true,"password":"sharecentre"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
+      - 🇰🇷韩国(yudou66_com玉豆分享)_1
+      - 🇫🇷FR(TG/＠yzcloud)_14
+      - Pool_🇬🇧GB_183
+      - github_com/mianfeifq_v2cross_com_3
+      - 俄罗斯(yudou66_com玉豆分享)_5
+      - github_com/v2rayfree-加拿大65_6
+      - 日本（TGat阿伟科技/油管）_7
+      - defaultName_56
+      - 日本-中继-10(CNRelayJapan10)_49
+      - defaultName_10
+      - 韩国（TGat阿伟科技/油管）_11
+      - CYL-科技（2022_04_06）_12
+      - github_com/mianfeifq_github_com/freefq-美国19_31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
+      - 🇰🇷韩国(yudou66_com玉豆分享)_1
+      - 🇫🇷FR(TG/＠yzcloud)_14
+      - Pool_🇬🇧GB_183
+      - github_com/mianfeifq_v2cross_com_3
+      - 俄罗斯(yudou66_com玉豆分享)_5
+      - github_com/v2rayfree-加拿大65_6
+      - 日本（TGat阿伟科技/油管）_7
+      - defaultName_56
+      - 日本-中继-10(CNRelayJapan10)_49
+      - defaultName_10
+      - 韩国（TGat阿伟科技/油管）_11
+      - CYL-科技（2022_04_06）_12
+      - github_com/mianfeifq_github_com/freefq-美国19_31
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
+      - 🇰🇷韩国(yudou66_com玉豆分享)_1
+      - 🇫🇷FR(TG/＠yzcloud)_14
+      - Pool_🇬🇧GB_183
+      - github_com/mianfeifq_v2cross_com_3
+      - 俄罗斯(yudou66_com玉豆分享)_5
+      - github_com/v2rayfree-加拿大65_6
+      - 日本（TGat阿伟科技/油管）_7
+      - defaultName_56
+      - 日本-中继-10(CNRelayJapan10)_49
+      - defaultName_10
+      - 韩国（TGat阿伟科技/油管）_11
+      - CYL-科技（2022_04_06）_12
+      - github_com/mianfeifq_github_com/freefq-美国19_31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
+      - 🇰🇷韩国(yudou66_com玉豆分享)_1
+      - 🇫🇷FR(TG/＠yzcloud)_14
+      - Pool_🇬🇧GB_183
+      - github_com/mianfeifq_v2cross_com_3
+      - 俄罗斯(yudou66_com玉豆分享)_5
+      - github_com/v2rayfree-加拿大65_6
+      - 日本（TGat阿伟科技/油管）_7
+      - defaultName_56
+      - 日本-中继-10(CNRelayJapan10)_49
+      - defaultName_10
+      - 韩国（TGat阿伟科技/油管）_11
+      - CYL-科技（2022_04_06）_12
+      - github_com/mianfeifq_github_com/freefq-美国19_31
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
+      - 🇰🇷韩国(yudou66_com玉豆分享)_1
+      - 🇫🇷FR(TG/＠yzcloud)_14
+      - Pool_🇬🇧GB_183
+      - github_com/mianfeifq_v2cross_com_3
+      - 俄罗斯(yudou66_com玉豆分享)_5
+      - github_com/v2rayfree-加拿大65_6
+      - 日本（TGat阿伟科技/油管）_7
+      - defaultName_56
+      - 日本-中继-10(CNRelayJapan10)_49
+      - defaultName_10
+      - 韩国（TGat阿伟科技/油管）_11
+      - CYL-科技（2022_04_06）_12
+      - github_com/mianfeifq_github_com/freefq-美国19_31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
+      - 🇰🇷韩国(yudou66_com玉豆分享)_1
+      - 🇫🇷FR(TG/＠yzcloud)_14
+      - Pool_🇬🇧GB_183
+      - github_com/mianfeifq_v2cross_com_3
+      - 俄罗斯(yudou66_com玉豆分享)_5
+      - github_com/v2rayfree-加拿大65_6
+      - 日本（TGat阿伟科技/油管）_7
+      - defaultName_56
+      - 日本-中继-10(CNRelayJapan10)_49
+      - defaultName_10
+      - 韩国（TGat阿伟科技/油管）_11
+      - CYL-科技（2022_04_06）_12
+      - github_com/mianfeifq_github_com/freefq-美国19_31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +151,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
-      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
+      - 🇰🇷韩国(yudou66_com玉豆分享)_1
+      - 🇫🇷FR(TG/＠yzcloud)_14
+      - Pool_🇬🇧GB_183
+      - github_com/mianfeifq_v2cross_com_3
+      - 俄罗斯(yudou66_com玉豆分享)_5
+      - github_com/v2rayfree-加拿大65_6
+      - 日本（TGat阿伟科技/油管）_7
+      - defaultName_56
+      - 日本-中继-10(CNRelayJapan10)_49
+      - defaultName_10
+      - 韩国（TGat阿伟科技/油管）_11
+      - CYL-科技（2022_04_06）_12
+      - github_com/mianfeifq_github_com/freefq-美国19_31
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
