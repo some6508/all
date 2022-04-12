@@ -5,26 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _BG_保加利亚_1, server: 213.183.63.219, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: _GB_英国_2, server: 152.89.210.105, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: _GB_英国_3, server: 152.89.210.105, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: _CH_瑞士_4, server: 185.126.116.124, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: _CH_瑞士_5, server: 185.126.116.124, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: _CH_瑞士_6, server: 185.126.116.124, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: _CH_瑞士_7, server: 185.126.116.124, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: _GB_英国_8, server: 152.89.210.105, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: defaultName_9, server: 152.89.210.105, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: default_name_10, server: 103.172.116.9, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_11, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_12, server: trojan.linkdns.xyz, port: 40217, type: trojan, password: 9e92cf38-9f6b-3bae-8061-271f9d0e4ae2, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_13, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_14, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国_15, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_16, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_17, server: $*@180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159, udp: true}
-  - {name: _DE_德国_18, server: 5.183.179.148, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: _DE_德国_19, server: 5.183.179.148, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: _DE_德国_20, server: 5.183.179.148, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1, server: 88.218.92.139, port: 51122, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3, server: 88.218.92.176, port: 31211, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 104.24.233.251, port: 443, type: vmess, uuid: cae63f0a-8e68-409e-bf8a-3ffc7e46622a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cae63f0a-8e68-409e-bf8a-3ffc7e46622a-vmess, headers: {Host: fang1.wiseebook.workers.dev}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1932,26 +1914,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _BG_保加利亚_1
-      - _GB_英国_2
-      - _GB_英国_3
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_6
-      - _CH_瑞士_7
-      - _GB_英国_8
-      - defaultName_9
-      - default_name_10
-      - _CN_中国->🇰🇷_KR_韩国_11
-      - _CN_中国->🇺🇸_US_美国_12
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_13
-      - _CN_中国->🇯🇵_JP_日本_14
-      - _CN_中国_15
-      - _CN_中国->🇺🇸_US_美国_16
-      - _CN_中国->🇰🇷_KR_韩国_17
-      - _DE_德国_18
-      - _DE_德国_19
-      - _DE_德国_20
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -3859,26 +3823,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _BG_保加利亚_1
-      - _GB_英国_2
-      - _GB_英国_3
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_6
-      - _CH_瑞士_7
-      - _GB_英国_8
-      - defaultName_9
-      - default_name_10
-      - _CN_中国->🇰🇷_KR_韩国_11
-      - _CN_中国->🇺🇸_US_美国_12
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_13
-      - _CN_中国->🇯🇵_JP_日本_14
-      - _CN_中国_15
-      - _CN_中国->🇺🇸_US_美国_16
-      - _CN_中国->🇰🇷_KR_韩国_17
-      - _DE_德国_18
-      - _DE_德国_19
-      - _DE_德国_20
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶3+SS_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶4+SS_3
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
