@@ -5,19 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v2cross_com_1, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: v2cross_com_2, server: 172.67.170.52, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /319285eb2d/}, udp: true}
-  - {name: v2cross_com_3, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: v2cross_com_4, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2cross_com_5, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: v2cross_com_6, server: 172.86.127.98, port: 23671, type: vmess, uuid: 134b7349-539f-369e-b7ec-f339dd09a24a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2cross_com_7, server: 155.94.128.121, port: 6666, type: vmess, uuid: 134b7349-539f-369e-b7ec-f339dd09a24a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2cross_com_8, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: v2cross_com_9, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: v2cross_com_10, server: ct.cnhost.top, port: 16634, type: vmess, uuid: 84345c01-ba40-4d55-9109-e3a18253e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mjp, headers: {Host: ct.cnhost.top}}, udp: true}
-  - {name: v2cross_com_11, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: v2cross_com_12, server: 112.33.32.136, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2cross_com_13, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 翻墙党fanqiangdang_com_1, server: hk01.linkzones.xyz, port: 31911, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk01.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_2, server: hk02.linkzones.xyz, port: 31913, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk02.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_3, server: hk03.linkzones.xyz, port: 47093, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk03.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_4, server: jp01.linkzones.xyz, port: 31961, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp01.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_5, server: jp02.linkzones.xyz, port: 31972, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp02.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_6, server: sg02.linkzones.xyz, port: 31983, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sg02.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_7, server: sg03.linkzones.xyz, port: 31984, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sg03.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_8, server: tw02.linkzones.xyz, port: 41982, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw02.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_9, server: tw03.linkzones.xyz, port: 51984, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw03.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_10, server: us01.linkzones.xyz, port: 31954, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: us01.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_11, server: us03.linkzones.xyz, port: 31974, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: us03.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_12, server: ca01.linkzones.xyz, port: 31975, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ca01.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_13, server: ca03.linkzones.xyz, port: 31977, type: vmess, uuid: c608cb86-52bb-3b14-8564-905d6bf27bb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ca03.linkzones.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_14, server: cu.mj-cn.cyou, port: 16633, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_15, server: ct.mj-cn.cyou, port: 16633, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_16, server: cu.mj-cn.cyou, port: 26633, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_17, server: cm.mj-cn.cyou, port: 26633, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_18, server: ct.mj-cn.cyou, port: 26633, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_19, server: cu.mj-cn.cyou, port: 26622, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_20, server: cm.mj-cn.cyou, port: 26622, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_21, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_22, server: cu.mj-cn.cyou, port: 16621, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_23, server: cm.mj-cn.cyou, port: 16621, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_24, server: ct.mj-cn.cyou, port: 16621, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_25, server: cu.mj-cn.cyou, port: 16631, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_26, server: cm.mj-cn.cyou, port: 16631, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_27, server: ct.mj-cn.cyou, port: 16631, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_28, server: 137.116.161.188, port: 6622, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 翻墙党fanqiangdang_com_29, server: cu.mj-cn.cyou, port: 16627, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.mj-cn.cyou}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 161.117.249.118, port: 34345, type: vmess, uuid: 267821ff-9eb0-489d-9499-8deb549e87d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: sg1.31vpn.com, port: 80, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: sg1.31vpn.com, port: 80, type: vmess, uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ppdt/624dde181c76e/, headers: {Host: sg1.31vpn.com}}, udp: true}
@@ -1575,19 +1591,35 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
+      - 翻墙党fanqiangdang_com_1
+      - 翻墙党fanqiangdang_com_2
+      - 翻墙党fanqiangdang_com_3
+      - 翻墙党fanqiangdang_com_4
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_6
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_9
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_11
+      - 翻墙党fanqiangdang_com_12
+      - 翻墙党fanqiangdang_com_13
+      - 翻墙党fanqiangdang_com_14
+      - 翻墙党fanqiangdang_com_15
+      - 翻墙党fanqiangdang_com_16
+      - 翻墙党fanqiangdang_com_17
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_19
+      - 翻墙党fanqiangdang_com_20
+      - 翻墙党fanqiangdang_com_21
+      - 翻墙党fanqiangdang_com_22
+      - 翻墙党fanqiangdang_com_23
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_25
+      - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -3145,19 +3177,35 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
+      - 翻墙党fanqiangdang_com_1
+      - 翻墙党fanqiangdang_com_2
+      - 翻墙党fanqiangdang_com_3
+      - 翻墙党fanqiangdang_com_4
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_6
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_9
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_11
+      - 翻墙党fanqiangdang_com_12
+      - 翻墙党fanqiangdang_com_13
+      - 翻墙党fanqiangdang_com_14
+      - 翻墙党fanqiangdang_com_15
+      - 翻墙党fanqiangdang_com_16
+      - 翻墙党fanqiangdang_com_17
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_19
+      - 翻墙党fanqiangdang_com_20
+      - 翻墙党fanqiangdang_com_21
+      - 翻墙党fanqiangdang_com_22
+      - 翻墙党fanqiangdang_com_23
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_25
+      - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
