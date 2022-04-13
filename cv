@@ -807,17 +807,16 @@ proxies:
   - {name: "SG,", server: 54.179.181.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "US, 5", server: 65.49.193.51, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
   - {name: "JP, 3", server: 54.254.25.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: nn1.boom.party:40000, server: nn1.boom.party, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: opt7.boom.party:17000, server: opt7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: n48.boom.party:36000, server: n48.boom.party, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: n22.boom.party:32200, server: n22.boom.party, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: opt13.boom.party:23000, server: opt13.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: n116.boom.party:33200, server: n116.boom.party, port: 33200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: ntemp08.boom.party:17000, server: ntemp08.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: ntemp09.boom.party:18000, server: ntemp09.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: ntemp07.boom.party:16000, server: ntemp07.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: ntemp05.boom.party:14000, server: ntemp05.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: ntemp04.boom.party:13000, server: ntemp04.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: ntemp03.boom.party:12000, server: ntemp03.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: nm9.boom.party:19000, server: nm9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: opt2.boom.party:12000, server: opt2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
   - {name: opt4.boom.party:14000, server: opt4.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: opt8.boom.party:18000, server: opt8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: opt14.boom.party:24000, server: opt14.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
-  - {name: opt20.boom.party:30000, server: opt20.boom.party, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: opt12.boom.party:22000, server: opt12.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
+  - {name: opt1.boom.party:11000, server: opt1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "?�隮", obfs-param: "v�'���.�)ݣ\x0b.�֭.r�", udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -2472,17 +2471,16 @@ proxy-groups:
       - SG,
       - US, 5
       - JP, 3
-      - nn1.boom.party:40000
-      - opt7.boom.party:17000
-      - n48.boom.party:36000
-      - n22.boom.party:32200
-      - opt13.boom.party:23000
-      - n116.boom.party:33200
-      - ntemp08.boom.party:17000
+      - ntemp09.boom.party:18000
+      - ntemp07.boom.party:16000
+      - ntemp05.boom.party:14000
+      - ntemp04.boom.party:13000
+      - ntemp03.boom.party:12000
+      - nm9.boom.party:19000
+      - opt2.boom.party:12000
       - opt4.boom.party:14000
-      - opt8.boom.party:18000
-      - opt14.boom.party:24000
-      - opt20.boom.party:30000
+      - opt12.boom.party:22000
+      - opt1.boom.party:11000
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -4137,17 +4135,16 @@ proxy-groups:
       - SG,
       - US, 5
       - JP, 3
-      - nn1.boom.party:40000
-      - opt7.boom.party:17000
-      - n48.boom.party:36000
-      - n22.boom.party:32200
-      - opt13.boom.party:23000
-      - n116.boom.party:33200
-      - ntemp08.boom.party:17000
+      - ntemp09.boom.party:18000
+      - ntemp07.boom.party:16000
+      - ntemp05.boom.party:14000
+      - ntemp04.boom.party:13000
+      - ntemp03.boom.party:12000
+      - nm9.boom.party:19000
+      - opt2.boom.party:12000
       - opt4.boom.party:14000
-      - opt8.boom.party:18000
-      - opt14.boom.party:24000
-      - opt20.boom.party:30000
+      - opt12.boom.party:22000
+      - opt1.boom.party:11000
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3

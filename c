@@ -5,207 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"EXTM3U-香港-nf-iplc_1","server":"120.233.10.55","port":40123,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"EXTM3U-香港-nf-iplc_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"EXTM3U-香港HKT-nf-iplc_2","server":"120.233.10.55","port":40328,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"EXTM3U-香港HKT-nf-iplc_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"EXTM3U-香港-nf-iplc_3","server":"120.233.10.55","port":40309,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"EXTM3U-香港-nf-iplc_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260","server":"juzi-iplc001.ddns-oink.xyz","port":40328,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"juzi-iplc001.ddns-oink.xyz"}}}
-  - {"name":"V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257","server":"juzi-iplc001.ddns-oink.xyz","port":40308,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"juzi-iplc001.ddns-oink.xyz"}}}
-  - {"name":"EXTM3U-香港-nf-iplc_6","server":"120.233.10.55","port":40310,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"EXTM3U-香港-nf-iplc_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"EXTM3U-香港HKT-nf-iplc_7","server":"120.233.10.55","port":40308,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"EXTM3U-香港HKT-nf-iplc_7","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"US_391","server":"hkmf2.speedcncnforward2.tk","port":8443,"type":"trojan","country":"US_391","skip-cert-verify":true,"udp":true,"password":"d0173f59-c7e7-4bb0-bc09-3da657c70dd6"}
-  - {"name":"Relay_日本-_24","server":"jplin004.xmrth-node.xyz","port":10613,"type":"vmess","uuid":"49bc55d8-69bf-3c60-9a57-2899fd43f74c","alterId":2,"cipher":"auto","country":"Relay_日本-_24","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255","server":"juzi-iplc001.ddns-oink.xyz","port":40306,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"juzi-iplc001.ddns-oink.xyz"}}}
-  - {"name":"IR_595+_49_42Mb_11","server":"185.148.14.58","port":53514,"type":"trojan","country":"IR_595+_49_42Mb_11","skip-cert-verify":true,"udp":true,"password":"3r90JDGBYA"}
-  - {"name":"V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252","server":"juzi-iplc001.ddns-oink.xyz","port":40175,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"juzi-iplc001.ddns-oink.xyz"}}}
-  - {"name":"_US_美国_13","server":"167.88.61.50","port":7307,"type":"ss","country":"_US_美国_13","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_US_美国_14","server":"169.197.142.216","port":6697,"type":"ss","country":"_US_美国_14","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"github_com/freefq+-+韩国首尔Choopa数据中心+35_15","server":"141.164.56.250","port":2375,"type":"ss","country":"github_com/freefq+-+韩国首尔Choopa数据中心+35_15","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"US_395","server":"hkmf2.speedcncnforward2.tk","port":8443,"type":"trojan","country":"US_395","skip-cert-verify":true,"udp":true,"password":"e816d28a-c617-4954-87f6-aac16c3189f5"}
-  - {"name":"EXTM3U-SG-nf-iplc_17","server":"120.233.10.55","port":40175,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"EXTM3U-SG-nf-iplc_17","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256","server":"juzi-iplc001.ddns-oink.xyz","port":40307,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"juzi-iplc001.ddns-oink.xyz"}}}
-  - {"name":"V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259","server":"juzi-iplc001.ddns-oink.xyz","port":40310,"type":"vmess","uuid":"e4cba870-e545-3e17-bd03-f3ce5e3e292e","alterId":0,"cipher":"auto","country":"V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"juzi-iplc001.ddns-oink.xyz"}}}
-  - {"name":"_KR_韩国_20","server":"141.164.47.208","port":5001,"type":"ss","country":"_KR_韩国_20","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_KR_韩国_22","server":"141.164.47.208","port":5001,"type":"ss","country":"_KR_韩国_22","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_KR_韩国_24","server":"141.164.47.208","port":5001,"type":"ss","country":"_KR_韩国_24","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_KR_韩国_26","server":"141.164.47.208","port":5001,"type":"ss","country":"_KR_韩国_26","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_KR_韩国_28","server":"141.164.47.208","port":5001,"type":"ss","country":"_KR_韩国_28","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"default_name_1","server":"v6d1.moonfree.top","port":443,"type":"vmess","uuid":"8fb115e3-4870-4396-b276-7fee9964298e","alterId":0,"cipher":"auto","country":"default_name_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"headers":{"host":"v6d1.moonfree.top"}}}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"116.129.253.177","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","skip-cert-verify":true,"udp":true,"password":"ca911d30af65ef1b"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","server":"cm-jm.okvpn.xyz","port":20000,"type":"trojan","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","skip-cert-verify":true,"udp":true,"password":"912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e"}
+  - {"name":"🇺🇸_US_美国_4","server":"38.114.114.19","port":7307,"type":"ss","country":"🇺🇸_US_美国_4","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - EXTM3U-香港-nf-iplc_1
-      - EXTM3U-香港HKT-nf-iplc_2
-      - EXTM3U-香港-nf-iplc_3
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc_6
-      - EXTM3U-香港HKT-nf-iplc_7
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+_49_42Mb_11
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国_13
-      - _US_美国_14
-      - github_com/freefq+-+韩国首尔Choopa数据中心+35_15
-      - US_395
-      - EXTM3U-SG-nf-iplc_17
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国_20
-      - _KR_韩国_22
-      - _KR_韩国_24
-      - _KR_韩国_26
-      - _KR_韩国_28
+      - default_name_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - EXTM3U-香港-nf-iplc_1
-      - EXTM3U-香港HKT-nf-iplc_2
-      - EXTM3U-香港-nf-iplc_3
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc_6
-      - EXTM3U-香港HKT-nf-iplc_7
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+_49_42Mb_11
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国_13
-      - _US_美国_14
-      - github_com/freefq+-+韩国首尔Choopa数据中心+35_15
-      - US_395
-      - EXTM3U-SG-nf-iplc_17
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国_20
-      - _KR_韩国_22
-      - _KR_韩国_24
-      - _KR_韩国_26
-      - _KR_韩国_28
+      - default_name_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-香港-nf-iplc_1
-      - EXTM3U-香港HKT-nf-iplc_2
-      - EXTM3U-香港-nf-iplc_3
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc_6
-      - EXTM3U-香港HKT-nf-iplc_7
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+_49_42Mb_11
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国_13
-      - _US_美国_14
-      - github_com/freefq+-+韩国首尔Choopa数据中心+35_15
-      - US_395
-      - EXTM3U-SG-nf-iplc_17
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国_20
-      - _KR_韩国_22
-      - _KR_韩国_24
-      - _KR_韩国_26
-      - _KR_韩国_28
+      - default_name_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - EXTM3U-香港-nf-iplc_1
-      - EXTM3U-香港HKT-nf-iplc_2
-      - EXTM3U-香港-nf-iplc_3
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc_6
-      - EXTM3U-香港HKT-nf-iplc_7
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+_49_42Mb_11
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国_13
-      - _US_美国_14
-      - github_com/freefq+-+韩国首尔Choopa数据中心+35_15
-      - US_395
-      - EXTM3U-SG-nf-iplc_17
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国_20
-      - _KR_韩国_22
-      - _KR_韩国_24
-      - _KR_韩国_26
-      - _KR_韩国_28
+      - default_name_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - EXTM3U-香港-nf-iplc_1
-      - EXTM3U-香港HKT-nf-iplc_2
-      - EXTM3U-香港-nf-iplc_3
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc_6
-      - EXTM3U-香港HKT-nf-iplc_7
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+_49_42Mb_11
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国_13
-      - _US_美国_14
-      - github_com/freefq+-+韩国首尔Choopa数据中心+35_15
-      - US_395
-      - EXTM3U-SG-nf-iplc_17
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国_20
-      - _KR_韩国_22
-      - _KR_韩国_24
-      - _KR_韩国_26
-      - _KR_韩国_28
+      - default_name_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - EXTM3U-香港-nf-iplc_1
-      - EXTM3U-香港HKT-nf-iplc_2
-      - EXTM3U-香港-nf-iplc_3
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc_6
-      - EXTM3U-香港HKT-nf-iplc_7
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+_49_42Mb_11
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国_13
-      - _US_美国_14
-      - github_com/freefq+-+韩国首尔Choopa数据中心+35_15
-      - US_395
-      - EXTM3U-SG-nf-iplc_17
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国_20
-      - _KR_韩国_22
-      - _KR_韩国_24
-      - _KR_韩国_26
-      - _KR_韩国_28
+      - default_name_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,30 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EXTM3U-香港-nf-iplc_1
-      - EXTM3U-香港HKT-nf-iplc_2
-      - EXTM3U-香港-nf-iplc_3
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc_6
-      - EXTM3U-香港HKT-nf-iplc_7
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+_49_42Mb_11
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国_13
-      - _US_美国_14
-      - github_com/freefq+-+韩国首尔Choopa数据中心+35_15
-      - US_395
-      - EXTM3U-SG-nf-iplc_17
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国_20
-      - _KR_韩国_22
-      - _KR_韩国_24
-      - _KR_韩国_26
-      - _KR_韩国_28
+      - default_name_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
