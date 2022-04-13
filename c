@@ -5,74 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"github_com/freefq-亚太地区15_8","server":"103.172.116.9","port":9027,"type":"ss","country":"github_com/freefq-亚太地区15_8","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"name":"github_com/freefq-北美地区17_10","server":"134.195.198.252","port":443,"type":"ss","country":"github_com/freefq-北美地区17_10","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"github_com/freefq-北美地区20_13","server":"169.197.142.99","port":9101,"type":"ss","country":"github_com/freefq-北美地区20_13","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"github_com/freefq-北美地区27_20","server":"169.197.142.99","port":8091,"type":"ss","country":"github_com/freefq-北美地区27_20","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"github_com/freefq-上海市电信30_23","server":"101.91.121.247","port":50004,"type":"ss","country":"github_com/freefq-上海市电信30_23","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"🇨🇳_CN_中国_1","server":"120.233.10.230","port":50500,"type":"ss","country":"🇨🇳_CN_中国_1","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","server":"120.233.10.230","port":50300,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_3","server":"eu.licom.ga","port":60001,"type":"trojan","country":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_3","skip-cert-verify":true,"udp":true,"password":"f81e990e-1283-48f9-9eff-acacad6fb661"}
+  - {"name":"🇸🇬_SG_新加坡_4","server":"sg.sharecentrepro.tk","port":443,"type":"trojan","country":"🇸🇬_SG_新加坡_4","skip-cert-verify":true,"udp":true,"password":"sharecentre"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github_com/freefq-亚太地区15_8
-      - github_com/freefq-北美地区17_10
-      - github_com/freefq-北美地区20_13
-      - github_com/freefq-北美地区27_20
-      - github_com/freefq-上海市电信30_23
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github_com/freefq-亚太地区15_8
-      - github_com/freefq-北美地区17_10
-      - github_com/freefq-北美地区20_13
-      - github_com/freefq-北美地区27_20
-      - github_com/freefq-上海市电信30_23
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github_com/freefq-亚太地区15_8
-      - github_com/freefq-北美地区17_10
-      - github_com/freefq-北美地区20_13
-      - github_com/freefq-北美地区27_20
-      - github_com/freefq-上海市电信30_23
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github_com/freefq-亚太地区15_8
-      - github_com/freefq-北美地区17_10
-      - github_com/freefq-北美地区20_13
-      - github_com/freefq-北美地区27_20
-      - github_com/freefq-上海市电信30_23
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github_com/freefq-亚太地区15_8
-      - github_com/freefq-北美地区17_10
-      - github_com/freefq-北美地区20_13
-      - github_com/freefq-北美地区27_20
-      - github_com/freefq-上海市电信30_23
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github_com/freefq-亚太地区15_8
-      - github_com/freefq-北美地区17_10
-      - github_com/freefq-北美地区20_13
-      - github_com/freefq-北美地区27_20
-      - github_com/freefq-上海市电信30_23
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github_com/freefq-亚太地区15_8
-      - github_com/freefq-北美地区17_10
-      - github_com/freefq-北美地区20_13
-      - github_com/freefq-北美地区27_20
-      - github_com/freefq-上海市电信30_23
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
