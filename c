@@ -5,242 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"翻墙党fanqiangdang_com_1","server":"hk01.linkzones.xyz","port":31911,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk01.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_2","server":"hk02.linkzones.xyz","port":31913,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk02.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_3","server":"hk03.linkzones.xyz","port":47093,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk03.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_4","server":"jp01.linkzones.xyz","port":31961,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"jp01.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_5","server":"jp02.linkzones.xyz","port":31972,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"jp02.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_6","server":"sg02.linkzones.xyz","port":31983,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"sg02.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_7","server":"sg03.linkzones.xyz","port":31984,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"sg03.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_8","server":"tw02.linkzones.xyz","port":41982,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"tw02.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_9","server":"tw03.linkzones.xyz","port":51984,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"tw03.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_10","server":"us01.linkzones.xyz","port":31954,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"us01.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_11","server":"us03.linkzones.xyz","port":31974,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"us03.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_12","server":"ca01.linkzones.xyz","port":31975,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ca01.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_13","server":"ca03.linkzones.xyz","port":31977,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_13","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ca03.linknodes.xyz"}}}
-  - {"name":"翻墙党fanqiangdang_com_14","server":"cu.mj-cn.cyou","port":16633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_14","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_15","server":"ct.mj-cn.cyou","port":16633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_15","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_16","server":"cu.mj-cn.cyou","port":26633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_16","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_17","server":"cm.mj-cn.cyou","port":26633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_17","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_18","server":"ct.mj-cn.cyou","port":26633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_18","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_19","server":"cu.mj-cn.cyou","port":26622,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_19","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_20","server":"cm.mj-cn.cyou","port":26622,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_20","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_21","server":"ct.mj-cn.cyou","port":26622,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_21","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_22","server":"cu.mj-cn.cyou","port":16621,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_22","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_23","server":"cm.mj-cn.cyou","port":16621,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_23","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_24","server":"ct.mj-cn.cyou","port":16621,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_24","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_25","server":"cu.mj-cn.cyou","port":16631,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_25","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_26","server":"cm.mj-cn.cyou","port":16631,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_26","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_27","server":"ct.mj-cn.cyou","port":16631,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_27","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_28","server":"137.116.161.188","port":6622,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_28","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"翻墙党fanqiangdang_com_29","server":"cu.mj-cn.cyou","port":16627,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_29","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_1","server":"38.68.134.69","port":8091,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 翻墙党fanqiangdang_com_1
-      - 翻墙党fanqiangdang_com_2
-      - 翻墙党fanqiangdang_com_3
-      - 翻墙党fanqiangdang_com_4
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_6
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_9
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_11
-      - 翻墙党fanqiangdang_com_12
-      - 翻墙党fanqiangdang_com_13
-      - 翻墙党fanqiangdang_com_14
-      - 翻墙党fanqiangdang_com_15
-      - 翻墙党fanqiangdang_com_16
-      - 翻墙党fanqiangdang_com_17
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_19
-      - 翻墙党fanqiangdang_com_20
-      - 翻墙党fanqiangdang_com_21
-      - 翻墙党fanqiangdang_com_22
-      - 翻墙党fanqiangdang_com_23
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_25
-      - 翻墙党fanqiangdang_com_26
-      - 翻墙党fanqiangdang_com_27
-      - 翻墙党fanqiangdang_com_28
-      - 翻墙党fanqiangdang_com_29
+      - 🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 翻墙党fanqiangdang_com_1
-      - 翻墙党fanqiangdang_com_2
-      - 翻墙党fanqiangdang_com_3
-      - 翻墙党fanqiangdang_com_4
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_6
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_9
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_11
-      - 翻墙党fanqiangdang_com_12
-      - 翻墙党fanqiangdang_com_13
-      - 翻墙党fanqiangdang_com_14
-      - 翻墙党fanqiangdang_com_15
-      - 翻墙党fanqiangdang_com_16
-      - 翻墙党fanqiangdang_com_17
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_19
-      - 翻墙党fanqiangdang_com_20
-      - 翻墙党fanqiangdang_com_21
-      - 翻墙党fanqiangdang_com_22
-      - 翻墙党fanqiangdang_com_23
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_25
-      - 翻墙党fanqiangdang_com_26
-      - 翻墙党fanqiangdang_com_27
-      - 翻墙党fanqiangdang_com_28
-      - 翻墙党fanqiangdang_com_29
+      - 🇺🇸_US_美国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_com_1
-      - 翻墙党fanqiangdang_com_2
-      - 翻墙党fanqiangdang_com_3
-      - 翻墙党fanqiangdang_com_4
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_6
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_9
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_11
-      - 翻墙党fanqiangdang_com_12
-      - 翻墙党fanqiangdang_com_13
-      - 翻墙党fanqiangdang_com_14
-      - 翻墙党fanqiangdang_com_15
-      - 翻墙党fanqiangdang_com_16
-      - 翻墙党fanqiangdang_com_17
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_19
-      - 翻墙党fanqiangdang_com_20
-      - 翻墙党fanqiangdang_com_21
-      - 翻墙党fanqiangdang_com_22
-      - 翻墙党fanqiangdang_com_23
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_25
-      - 翻墙党fanqiangdang_com_26
-      - 翻墙党fanqiangdang_com_27
-      - 翻墙党fanqiangdang_com_28
-      - 翻墙党fanqiangdang_com_29
+      - 🇺🇸_US_美国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_com_1
-      - 翻墙党fanqiangdang_com_2
-      - 翻墙党fanqiangdang_com_3
-      - 翻墙党fanqiangdang_com_4
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_6
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_9
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_11
-      - 翻墙党fanqiangdang_com_12
-      - 翻墙党fanqiangdang_com_13
-      - 翻墙党fanqiangdang_com_14
-      - 翻墙党fanqiangdang_com_15
-      - 翻墙党fanqiangdang_com_16
-      - 翻墙党fanqiangdang_com_17
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_19
-      - 翻墙党fanqiangdang_com_20
-      - 翻墙党fanqiangdang_com_21
-      - 翻墙党fanqiangdang_com_22
-      - 翻墙党fanqiangdang_com_23
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_25
-      - 翻墙党fanqiangdang_com_26
-      - 翻墙党fanqiangdang_com_27
-      - 翻墙党fanqiangdang_com_28
-      - 翻墙党fanqiangdang_com_29
+      - 🇺🇸_US_美国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 翻墙党fanqiangdang_com_1
-      - 翻墙党fanqiangdang_com_2
-      - 翻墙党fanqiangdang_com_3
-      - 翻墙党fanqiangdang_com_4
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_6
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_9
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_11
-      - 翻墙党fanqiangdang_com_12
-      - 翻墙党fanqiangdang_com_13
-      - 翻墙党fanqiangdang_com_14
-      - 翻墙党fanqiangdang_com_15
-      - 翻墙党fanqiangdang_com_16
-      - 翻墙党fanqiangdang_com_17
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_19
-      - 翻墙党fanqiangdang_com_20
-      - 翻墙党fanqiangdang_com_21
-      - 翻墙党fanqiangdang_com_22
-      - 翻墙党fanqiangdang_com_23
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_25
-      - 翻墙党fanqiangdang_com_26
-      - 翻墙党fanqiangdang_com_27
-      - 翻墙党fanqiangdang_com_28
-      - 翻墙党fanqiangdang_com_29
+      - 🇺🇸_US_美国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_com_1
-      - 翻墙党fanqiangdang_com_2
-      - 翻墙党fanqiangdang_com_3
-      - 翻墙党fanqiangdang_com_4
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_6
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_9
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_11
-      - 翻墙党fanqiangdang_com_12
-      - 翻墙党fanqiangdang_com_13
-      - 翻墙党fanqiangdang_com_14
-      - 翻墙党fanqiangdang_com_15
-      - 翻墙党fanqiangdang_com_16
-      - 翻墙党fanqiangdang_com_17
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_19
-      - 翻墙党fanqiangdang_com_20
-      - 翻墙党fanqiangdang_com_21
-      - 翻墙党fanqiangdang_com_22
-      - 翻墙党fanqiangdang_com_23
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_25
-      - 翻墙党fanqiangdang_com_26
-      - 翻墙党fanqiangdang_com_27
-      - 翻墙党fanqiangdang_com_28
-      - 翻墙党fanqiangdang_com_29
+      - 🇺🇸_US_美国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -263,35 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 翻墙党fanqiangdang_com_1
-      - 翻墙党fanqiangdang_com_2
-      - 翻墙党fanqiangdang_com_3
-      - 翻墙党fanqiangdang_com_4
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_6
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_9
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_11
-      - 翻墙党fanqiangdang_com_12
-      - 翻墙党fanqiangdang_com_13
-      - 翻墙党fanqiangdang_com_14
-      - 翻墙党fanqiangdang_com_15
-      - 翻墙党fanqiangdang_com_16
-      - 翻墙党fanqiangdang_com_17
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_19
-      - 翻墙党fanqiangdang_com_20
-      - 翻墙党fanqiangdang_com_21
-      - 翻墙党fanqiangdang_com_22
-      - 翻墙党fanqiangdang_com_23
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_25
-      - 翻墙党fanqiangdang_com_26
-      - 翻墙党fanqiangdang_com_27
-      - 翻墙党fanqiangdang_com_28
-      - 翻墙党fanqiangdang_com_29
+      - 🇺🇸_US_美国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
