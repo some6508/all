@@ -5,127 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"俄罗斯F_2","server":"195.245.239.15","port":9101,"type":"ssr","country":"俄罗斯F_2","password":"lncn.org
-    8g","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯G_3","server":"194.156.121.170","port":9101,"type":"ssr","country":"俄罗斯G_3","password":"lncn.org
-    8g","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯H_4","server":"91.198.220.69","port":9101,"type":"ssr","country":"俄罗斯H_4","password":"lncn.org
-    8g","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯I_5","server":"194.147.34.32","port":9101,"type":"ssr","country":"俄罗斯I_5","password":"lncn.org
-    t5","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯J_6","server":"45.130.147.192","port":9101,"type":"ssr","country":"俄罗斯J_6","password":"lncn.org
-    t5","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯K_7","server":"176.32.32.118","port":9101,"type":"ssr","country":"俄罗斯K_7","password":"lncn.org
-    t5","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯L_8","server":"91.198.220.84","port":9101,"type":"ssr","country":"俄罗斯L_8","password":"lncn.org
-    t5","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯M_9","server":"194.147.34.162","port":9101,"type":"ssr","country":"俄罗斯M_9","password":"lncn.org
-    9o","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯N_10","server":"45.130.146.233","port":9101,"type":"ssr","country":"俄罗斯N_10","password":"lncn.org
-    9o","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯O_11","server":"46.17.47.156","port":9101,"type":"ssr","country":"俄罗斯O_11","password":"lncn.org
-    9o","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯P_12","server":"46.29.160.101","port":9101,"type":"ssr","country":"俄罗斯P_12","password":"lncn.org
-    9o","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"洛杉矶SS_1","server":"45.66.157.212","port":10077,"type":"ss","country":"洛杉矶SS_1","cipher":"aes-256-gcm","password":"dongtaiwang.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 洛杉矶SS_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 洛杉矶SS_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 洛杉矶SS_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 洛杉矶SS_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 洛杉矶SS_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 洛杉矶SS_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,17 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 洛杉矶SS_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
