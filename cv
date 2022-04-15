@@ -15,6 +15,9 @@ proxies:
   - {name: _US_美国_8, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: d7ff202a-7f5b-4190-93cb-92e086d2ebdc, skip-cert-verify: true, udp: true}
   - {name: _SG_新加坡_9, server: 161.117.249.118, port: 34345, type: vmess, uuid: 267821ff-9eb0-489d-9499-8deb549e87d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _HK_香港_10, server: vn.mumi.bid, port: 10125, type: vmess, uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn.mumi.bid}}, udp: true}
+  - {name: defaultName_11, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_12, server: opt21.boom.party, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_13, server: gz2.52168.xyz, port: 2110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: sg1.31vpn.com, port: 80, type: vmess, uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ppdt/624dde181c76e/, headers: {Host: sg1.31vpn.com}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: sg1.31vpn.com, port: 80, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ccvcxds/6252624d4fda3/, headers: {Host: sg1.31vpn.com}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: iplc.wenxuedianzishu.xyz, port: 10101, type: vmess, uuid: 7bd044af-23cd-3ea4-91c9-160d9d14f8dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1448,6 +1451,9 @@ proxy-groups:
       - _US_美国_8
       - _SG_新加坡_9
       - _HK_香港_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君)
@@ -2881,6 +2887,9 @@ proxy-groups:
       - _US_美国_8
       - _SG_新加坡_9
       - _HK_香港_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君)
