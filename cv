@@ -5,14 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国_2, server: azhk.fenglingcloud.com, port: 28007, type: trojan, password: 4b3903e2-f2a2-4831-95be-03cc8e3a7244, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: hax.hax01.tk, port: 443, type: vmess, uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax.hax01.tk}}, udp: true}
-  - {name: defaultName_4, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_5, server: gz2.52168.xyz, port: 2110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_6, server: l131u4st.ted1.xyz, port: 26554, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_7, server: l123j2pt.ted1.xyz, port: 26532, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, skip-cert-verify: true, udp: true}
-  - {name: default_name_8, server: oz.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
+  - {name: defaultName_1, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国_2, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: defaultName_3, server: n09.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_4, server: gz2.52168.xyz, port: 2105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _HK_香港_5, server: baidu.hongkong.dnsfree.top, port: 55092, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_6, server: baidu.hongkong.dnsfree.top, port: 55091, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_7, server: hax2.hax01.ml, port: 443, type: vmess, uuid: 25af03c3-27ff-4c14-c142-ad7694ec42f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax2.hax01.ml}}, udp: true}
+  - {name: _US_美国_8, server: 20.222.84.185, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_9, server: superjapan1111.dnsfree.top, port: 12389, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_10, server: aead.tls.sksupersususu.dnsfree.top, port: 12347, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇲🇾_MY_马来西亚_11, server: c106d6z2q.mczu62b33.95bvz0g12.soabgo.com, port: 25003, type: vmess, uuid: 1AD7CB74-F19E-22E0-F5A6-C227CE5EE440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_12, server: baidu.hongkong.dnsfree.top, port: 55093, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_13, server: pro.tls.hongkongaz.dnsfree.top, port: 55093, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_14, server: 20.212.197.126, port: 443, type: trojan, password: a17ad3d8-6b83-4a57-8e4a-98b8be9fe72e, skip-cert-verify: true, udp: true}
+  - {name: defaultName_15, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _HK_香港_16, server: heinuproxy.gimovo.com, port: 12345, type: vmess, uuid: 61aa0ec9-ceef-4d60-ac38-00ad982fba38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heinuproxy.gimovo.com}}, udp: true}
+  - {name: _JP_日本_17, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: defaultName_18, server: gz2.52168.xyz, port: 2103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_19, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_20, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CN_中国->🇹🇷_TR_土耳其_21, server: in01.dns2333.xyz, port: 63028, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in01.dns2333.xyz}}, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_22, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_23, server: 40.83.89.223, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_24, server: baidu.hongkong.dnsfree.top, port: 55095, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国_25, server: 141.164.49.240, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _KR_韩国_26, server: 141.164.49.240, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _SG_新加坡_27, server: 128.199.131.91, port: 41976, type: vmess, uuid: 5db07bd0-e392-45a4-ad73-4663b4b59155, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _TW_台湾_28, server: tw03.kuli888.xyz, port: 35256, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾_29, server: taiwjing.kuli888.xyz, port: 520, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, skip-cert-verify: true, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君), server: 20.194.18.187, port: 80, type: vmess, uuid: a17ad3d8-6b83-4a57-8e4a-98b8be9fe72e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: telelink.cc}}, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
@@ -1221,11 +1242,11 @@ proxies:
   - {name: defaultName_2, server: iepl-hn01.qqgg.work, port: 44702, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 120.232.251.206:29994, server: 120.232.251.206, port: 29994, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: defaultName_6, server: iepl-hn01.qqgg.work, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_18, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 120.232.251.206:29998, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: defaultName_18 2, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 120.232.251.206:29998, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: defaultName_18 3, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: CN 18 *hi-moon.pw, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: defaultName_19, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_19 2, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 新加坡_R_441, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: tg@nfeng6 207 2, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: tg@nfeng6 195 2, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -1300,14 +1321,35 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _HK_香港->🇺🇸_US_美国_2
-      - _US_美国_3
+      - defaultName_1
+      - _US_美国_2
+      - defaultName_3
       - defaultName_4
-      - defaultName_5
-      - _CN_中国->🇺🇸_US_美国_6
-      - _CN_中国->🇯🇵_JP_日本_7
-      - default_name_8
+      - _HK_香港_5
+      - _HK_香港_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - _US_美国_10
+      - _CN_中国->🇲🇾_MY_马来西亚_11
+      - _HK_香港_12
+      - _HK_香港_13
+      - _US_美国_14
+      - defaultName_15
+      - _HK_香港_16
+      - _JP_日本_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - _CN_中国->🇹🇷_TR_土耳其_21
+      - _CN_中国->🇹🇼_TW_台湾_22
+      - _HK_香港_23
+      - _HK_香港_24
+      - _KR_韩国_25
+      - _KR_韩国_26
+      - _SG_新加坡_27
+      - _TW_台湾_28
+      - _TW_台湾_29
       - 韩国(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -2516,11 +2558,11 @@ proxy-groups:
       - defaultName_2
       - 120.232.251.206:29994
       - defaultName_6
-      - defaultName_18
-      - 120.232.251.206:29998
       - defaultName_18 2
+      - 120.232.251.206:29998
+      - defaultName_18 3
       - CN 18 *hi-moon.pw
-      - defaultName_19
+      - defaultName_19 2
       - 新加坡_R_441
       - tg@nfeng6 207 2
       - tg@nfeng6 195 2
@@ -2595,14 +2637,35 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _HK_香港->🇺🇸_US_美国_2
-      - _US_美国_3
+      - defaultName_1
+      - _US_美国_2
+      - defaultName_3
       - defaultName_4
-      - defaultName_5
-      - _CN_中国->🇺🇸_US_美国_6
-      - _CN_中国->🇯🇵_JP_日本_7
-      - default_name_8
+      - _HK_香港_5
+      - _HK_香港_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - _US_美国_10
+      - _CN_中国->🇲🇾_MY_马来西亚_11
+      - _HK_香港_12
+      - _HK_香港_13
+      - _US_美国_14
+      - defaultName_15
+      - _HK_香港_16
+      - _JP_日本_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - _CN_中国->🇹🇷_TR_土耳其_21
+      - _CN_中国->🇹🇼_TW_台湾_22
+      - _HK_香港_23
+      - _HK_香港_24
+      - _KR_韩国_25
+      - _KR_韩国_26
+      - _SG_新加坡_27
+      - _TW_台湾_28
+      - _TW_台湾_29
       - 韩国(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -3811,11 +3874,11 @@ proxy-groups:
       - defaultName_2
       - 120.232.251.206:29994
       - defaultName_6
-      - defaultName_18
-      - 120.232.251.206:29998
       - defaultName_18 2
+      - 120.232.251.206:29998
+      - defaultName_18 3
       - CN 18 *hi-moon.pw
-      - defaultName_19
+      - defaultName_19 2
       - 新加坡_R_441
       - tg@nfeng6 207 2
       - tg@nfeng6 195 2
