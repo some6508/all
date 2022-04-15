@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"德国_1","server":"9710190.xyz","port":443,"type":"trojan","country":"德国_1","skip-cert-verify":true,"udp":true,"password":717671175}
+  - {"name":"github_com/freefq-美国Microsoft公司7_7","server":"nfjp1.qingyun123.xyz","port":10000,"type":"trojan","country":"github_com/freefq-美国Microsoft公司7_7","skip-cert-verify":true,"udp":true,"password":"dfd4f3f6-22d0-40f0-857d-23ff4358164d"}
+  - {"name":"github_com/freefq-欧盟8_8","server":"45.66.157.206","port":23456,"type":"ss","country":"github_com/freefq-欧盟8_8","cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"name":"github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9","server":"213.183.53.177","port":9020,"type":"ss","country":"github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
+  - {"name":"github_com/freefq-俄罗斯11_11","server":"92.38.184.228","port":55231,"type":"ss","country":"github_com/freefq-俄罗斯11_11","cipher":"chacha20-ietf-poly1305","password":"zidKl2rcLVBm"}
+  - {"name":"github_com/freefq-奥地利12_12","server":"92.223.65.31","port":29092,"type":"ss","country":"github_com/freefq-奥地利12_12","cipher":"chacha20-ietf-poly1305","password":"ypoq8dJBPqst"}
+  - {"name":"github_com/freefq-上海市电信13_13","server":"101.91.121.247","port":50004,"type":"ss","country":"github_com/freefq-上海市电信13_13","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15","server":"nfus.qingyun123.xyz","port":10050,"type":"trojan","country":"github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15","skip-cert-verify":true,"udp":true,"password":"dfd4f3f6-22d0-40f0-857d-23ff4358164d"}
+  - {"name":"github_com/freefq-法国27_27","server":"92.243.24.236","port":443,"type":"ss","country":"github_com/freefq-法国27_27","cipher":"chacha20-ietf-poly1305","password":"LE6Ee6PELhVu"}
+  - {"name":"github_com/freefq-荷兰29_29","server":"fhcamd1.gaox.ml","port":443,"type":"trojan","country":"github_com/freefq-荷兰29_29","skip-cert-verify":true,"udp":true,"password":"e23f408a-012e-4030-8b31-02022031cb50"}
+  - {"name":"github_com/freefq-新加坡DigitalOcean数据中心32_32","server":"sg.sharecentrepro.tk","port":443,"type":"trojan","country":"github_com/freefq-新加坡DigitalOcean数据中心32_32","skip-cert-verify":true,"udp":true,"password":"sharecentre"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 德国_1
+      - github_com/freefq-美国Microsoft公司7_7
+      - github_com/freefq-欧盟8_8
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9
+      - github_com/freefq-俄罗斯11_11
+      - github_com/freefq-奥地利12_12
+      - github_com/freefq-上海市电信13_13
+      - github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15
+      - github_com/freefq-法国27_27
+      - github_com/freefq-荷兰29_29
+      - github_com/freefq-新加坡DigitalOcean数据中心32_32
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 德国_1
+      - github_com/freefq-美国Microsoft公司7_7
+      - github_com/freefq-欧盟8_8
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9
+      - github_com/freefq-俄罗斯11_11
+      - github_com/freefq-奥地利12_12
+      - github_com/freefq-上海市电信13_13
+      - github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15
+      - github_com/freefq-法国27_27
+      - github_com/freefq-荷兰29_29
+      - github_com/freefq-新加坡DigitalOcean数据中心32_32
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国_1
+      - github_com/freefq-美国Microsoft公司7_7
+      - github_com/freefq-欧盟8_8
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9
+      - github_com/freefq-俄罗斯11_11
+      - github_com/freefq-奥地利12_12
+      - github_com/freefq-上海市电信13_13
+      - github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15
+      - github_com/freefq-法国27_27
+      - github_com/freefq-荷兰29_29
+      - github_com/freefq-新加坡DigitalOcean数据中心32_32
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 德国_1
+      - github_com/freefq-美国Microsoft公司7_7
+      - github_com/freefq-欧盟8_8
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9
+      - github_com/freefq-俄罗斯11_11
+      - github_com/freefq-奥地利12_12
+      - github_com/freefq-上海市电信13_13
+      - github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15
+      - github_com/freefq-法国27_27
+      - github_com/freefq-荷兰29_29
+      - github_com/freefq-新加坡DigitalOcean数据中心32_32
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 德国_1
+      - github_com/freefq-美国Microsoft公司7_7
+      - github_com/freefq-欧盟8_8
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9
+      - github_com/freefq-俄罗斯11_11
+      - github_com/freefq-奥地利12_12
+      - github_com/freefq-上海市电信13_13
+      - github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15
+      - github_com/freefq-法国27_27
+      - github_com/freefq-荷兰29_29
+      - github_com/freefq-新加坡DigitalOcean数据中心32_32
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 德国_1
+      - github_com/freefq-美国Microsoft公司7_7
+      - github_com/freefq-欧盟8_8
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9
+      - github_com/freefq-俄罗斯11_11
+      - github_com/freefq-奥地利12_12
+      - github_com/freefq-上海市电信13_13
+      - github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15
+      - github_com/freefq-法国27_27
+      - github_com/freefq-荷兰29_29
+      - github_com/freefq-新加坡DigitalOcean数据中心32_32
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国_1
+      - github_com/freefq-美国Microsoft公司7_7
+      - github_com/freefq-欧盟8_8
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心9_9
+      - github_com/freefq-俄罗斯11_11
+      - github_com/freefq-奥地利12_12
+      - github_com/freefq-上海市电信13_13
+      - github_com/freefq-美国加利福尼亚州圣克拉拉Microsoft公司15_15
+      - github_com/freefq-法国27_27
+      - github_com/freefq-荷兰29_29
+      - github_com/freefq-新加坡DigitalOcean数据中心32_32
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
