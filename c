@@ -5,74 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"defaultName_1","server":"ota2wier.nodeinfo.icu","port":7001,"type":"ssr","country":"defaultName_1","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth"}
-  - {"name":"defaultName_2","server":"ahch4moo.nodeinfo.icu","port":1124,"type":"ssr","country":"defaultName_2","password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth"}
-  - {"name":"defaultName_3","server":"eeth0aey.nodeinfo.icu","port":6303,"type":"ssr","country":"defaultName_3","password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth"}
-  - {"name":"defaultName_4","server":"mcdns.made1nheaven.xyz","port":39386,"type":"ssr","country":"defaultName_4","password":"GhQrDS","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","obfs":"plain"}
-  - {"name":"defaultName_5","server":"mcdns.made1nheaven.xyz","port":39375,"type":"ssr","country":"defaultName_5","password":"GhQrDS","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","obfs":"plain"}
+  - {"name":"🇩🇪_DE_德国_1","server":"65.108.246.231","port":443,"type":"ss","country":"🇩🇪_DE_德国_1","cipher":"chacha20-ietf-poly1305","password":"hyS4uZ56KQaB"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
+      - 🇩🇪_DE_德国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
+      - 🇩🇪_DE_德国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
+      - 🇩🇪_DE_德国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
+      - 🇩🇪_DE_德国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
+      - 🇩🇪_DE_德国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
+      - 🇩🇪_DE_德国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
+      - 🇩🇪_DE_德国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
