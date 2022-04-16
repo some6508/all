@@ -5,10 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _HK_香港_1, server: pro.tls.hongkongaz.dnsfree.top, port: 55091, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_2, server: aead.tls.sksupersususu.dnsfree.top, port: 12349, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: aead.tls.sksupersususu.dnsfree.top, port: 12346, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_4, server: hk01.xniuniu888.club, port: 30104, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇷_TR_土耳其_1, server: in01.dns2333.xyz, port: 63028, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in01.dns2333.xyz}}, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_2, server: hk01.xniuniu888.club, port: 30104, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_3, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: defaultName_4, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国_5, server: aead.tls.sksupersususu.dnsfree.top, port: 12346, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_6, server: pro.tls.hongkongaz.dnsfree.top, port: 55091, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
+  - {name: defaultName_7, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_8, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_9, server: 213.183.53.177, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国_10, server: aead.tls.sksupersususu.dnsfree.top, port: 12349, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君), server: 20.194.18.187, port: 80, type: vmess, uuid: a17ad3d8-6b83-4a57-8e4a-98b8be9fe72e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: telelink.cc}}, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
@@ -178,16 +184,16 @@ proxies:
   - {name: 荷兰（YouTube资源分享者） 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
   - {name: 德国（YouTube资源分享者）, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr, udp: true}
   - {name: 美国（YouTube资源分享者） 33, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CN_中国->🇹🇷_TR_土耳其_1, server: in01.dns2333.xyz, port: 63028, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in01.dns2333.xyz}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_2, server: hk01.xniuniu888.club, port: 30104, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_3, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: defaultName_4, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_5, server: aead.tls.sksupersususu.dnsfree.top, port: 12346, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港_6, server: pro.tls.hongkongaz.dnsfree.top, port: 55091, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
-  - {name: defaultName_7, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_8, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_9, server: 213.183.53.177, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_10, server: aead.tls.sksupersususu.dnsfree.top, port: 12349, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇷_TR_土耳其_1 2, server: in01.dns2333.xyz, port: 63028, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in01.dns2333.xyz}}, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_2 2, server: hk01.xniuniu888.club, port: 30104, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_3 2, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: defaultName_4 2, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国_5 2, server: aead.tls.sksupersususu.dnsfree.top, port: 12346, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_6 2, server: pro.tls.hongkongaz.dnsfree.top, port: 55091, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
+  - {name: defaultName_7 2, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_8 2, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: defaultName_9 2, server: 213.183.53.177, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国_10 2, server: aead.tls.sksupersususu.dnsfree.top, port: 12349, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 付费推荐:dlj.tf/ssrsub__01, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 付费推荐:dlj.tf/ssrsub__02, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
@@ -1153,10 +1159,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _HK_香港_1
-      - _US_美国_2
-      - _US_美国_3
-      - _CN_中国->🇭🇰_HK_香港_4
+      - _CN_中国->🇹🇷_TR_土耳其_1
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - _US_美国_5
+      - _HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - _US_美国_10
       - 韩国(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -1326,16 +1338,16 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 3
       - 德国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 33
-      - _CN_中国->🇹🇷_TR_土耳其_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_3
-      - defaultName_4
-      - _US_美国_5
-      - _HK_香港_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - _US_美国_10
+      - _CN_中国->🇹🇷_TR_土耳其_1 2
+      - _CN_中国->🇭🇰_HK_香港_2 2
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦_3 2
+      - defaultName_4 2
+      - _US_美国_5 2
+      - _HK_香港_6 2
+      - defaultName_7 2
+      - defaultName_8 2
+      - defaultName_9 2
+      - _US_美国_10 2
       - 公益机场:https://bit.ly/3BPeo5G
       - 付费推荐:dlj.tf/ssrsub__01
       - 付费推荐:dlj.tf/ssrsub__02
@@ -2301,10 +2313,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _HK_香港_1
-      - _US_美国_2
-      - _US_美国_3
-      - _CN_中国->🇭🇰_HK_香港_4
+      - _CN_中国->🇹🇷_TR_土耳其_1
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - _US_美国_5
+      - _HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - _US_美国_10
       - 韩国(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -2474,16 +2492,16 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 3
       - 德国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 33
-      - _CN_中国->🇹🇷_TR_土耳其_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_3
-      - defaultName_4
-      - _US_美国_5
-      - _HK_香港_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - _US_美国_10
+      - _CN_中国->🇹🇷_TR_土耳其_1 2
+      - _CN_中国->🇭🇰_HK_香港_2 2
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦_3 2
+      - defaultName_4 2
+      - _US_美国_5 2
+      - _HK_香港_6 2
+      - defaultName_7 2
+      - defaultName_8 2
+      - defaultName_9 2
+      - _US_美国_10 2
       - 公益机场:https://bit.ly/3BPeo5G
       - 付费推荐:dlj.tf/ssrsub__01
       - 付费推荐:dlj.tf/ssrsub__02
