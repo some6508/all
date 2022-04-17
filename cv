@@ -5,147 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1, server: github.com, port: 443, type: vmess, uuid: 0d854b46-15ac-452a-8c09-35e1d0141efb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_🇺🇸+__+_+_美国阿伟科技atTG/油管+6_26, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_177, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}, udp: true}
-  - {name: github_com/mianfeifq___🇺🇸US_365, server: 95.181.189.60, port: 28629, type: vmess, uuid: 872808d3-c7de-4f61-a60e-8b2b0bd399d9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_美国+05_10, server: ai1.susenl.com, port: 10031, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: GB_9050WangCai_1, server: 185.167.117.171, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 荷兰_9024, server: 213.183.51.172, port: 9024, type: ssr, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq__🇰🇷韩国(yudou66_com玉豆分享)_4, server: 146.56.108.108, port: 26113, type: vmess, uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: www_dongtaiwang_com新加坡DigitalOcean数据中心24_9, server: sg1.31vpn.com, port: 80, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ccvcxds/6252624d4fda3/, headers: {Host: sg1.31vpn.com}}, udp: true}
-  - {name: defaultName_10, server: 152.89.210.105, port: 9037, type: ssr, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _12, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 荷兰_9097, server: 213.183.51.172, port: 9097, type: ssr, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 荷兰_9093, server: 213.183.51.172, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq__v2cross_com_7, server: 144.34.248.26, port: 13917, type: vmess, uuid: 00492cd1-7f5e-4ed5-b9ef-821e9b89ca72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 荷兰_9057, server: 213.183.51.172, port: 9057, type: ssr, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 荷兰_Tg频道:https://t_me/bpjzx2_53, server: 213.183.51.171, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_56, server: 152.89.210.105, port: 9032, type: ssr, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_128, server: 152.89.210.105, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: GB_9020WangCai_1, server: 185.167.117.171, port: 9020, type: ssr, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_20, server: 152.89.210.105, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: GB_9046WangCai_1, server: 185.167.117.171, port: 9046, type: ssr, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 英国_Tg频道:https://t_me/bpjzx2_191, server: 152.89.210.84, port: 9015, type: ssr, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇺🇸US_1306, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: _5_72Mb_24, server: sg01.xniuniu888.club, port: 30164, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_🇺🇸+_github_com/freefq-美国19_31, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: 荷兰【由零开始YouTube】_26, server: 130.162.149.18, port: 3371, type: vmess, uuid: 512746c1-d51b-47c0-ed90-5d764296cb93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "github_com/mianfeifq__🇸🇬,SG,[47_241_191_179],117_94", server: 47.241.191.179, port: 46104, type: vmess, uuid: 5b7f1d0e-4821-4108-e4bf-fa765ab28f2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _122_10Mb_28, server: sg04.xniuniu888.club, port: 30467, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国_9027, server: 152.89.210.84, port: 9027, type: ssr, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq_+_翻墙党fanqiangdang_com_14, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_181, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: italy-milan.mah3Hoet.com}}, udp: true}
-  - {name: github_com/mianfeifq_🇨🇳_CN_中国->🇭🇰_HK_香港_12, server: hk01.xniuniu888.club, port: 30104, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_____YouTubeat阿阳AYANG_20, server: 13.113.22.120, port: 43993, type: vmess, uuid: cdc7dc87-a395-479e-fdc0-4de148cdbc11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RU_871, server: 2.56.241.14, port: 13955, type: vmess, uuid: 1e2f3cfc-16e5-4304-d441-db91088a91dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国_9046, server: 152.89.210.84, port: 9046, type: ssr, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq__v2cross_com_44, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国阿伟科技atTG*油管_37, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 荷兰_Tg频道:https://t_me/bpjzx2_174, server: 213.183.51.172, port: 9079, type: ssr, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _126_52Mb_39, server: sg03.xniuniu888.club, port: 30366, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 稳定④关注公众号：ios黑科技_17, server: 45.142.157.69, port: 40002, type: ssr, cipher: dummy, password: sealplus001, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_254, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
-  - {name: github_com/mianfeifq__🇸🇬SG-Openit_ml_108, server: 14.128.54.171, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_美国+06_11, server: ai1.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_Relay_🇱🇹LT-🇱🇹LT_19, server: ai2.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: GB_9070WangCai_1, server: 185.167.117.171, port: 9070, type: ssr, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_368, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
-  - {name: 荷兰_Tg频道:https://t_me/bpjzx2_48, server: 213.183.51.171, port: 9003, type: ssr, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_48, server: 152.89.210.105, port: 9042, type: ssr, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq_+_🇰🇷_KR_韩国_98, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
-  - {name: GB_9060WangCai_1, server: 185.167.117.171, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 荷兰_TGatnodesharing_113, server: 46.182.107.118, port: 443, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/353021140201}, udp: true}
-  - {name: github_com/mianfeifq_+_翻墙党fanqiangdang_com_8, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国_53, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shuier}, udp: true}
-  - {name: GB_9032WangCai_1, server: 185.167.117.171, port: 9032, type: ssr, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 荷兰_9056, server: 213.183.51.172, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_28, server: 152.89.210.105, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq_🇩🇪_🇩🇪DE_214, server: 78.46.244.34, port: 33655, type: vmess, uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰_Tg频道:https://t_me/bpjzx2_176, server: 213.183.51.172, port: 9088, type: ssr, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_167, server: 185.126.116.125, port: 9005, type: ssr, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: US_1316, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG_902, server: 025.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 204204eb-0f49-41e5-bd91-b2f3cd8fca89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 025.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: github_com/mianfeifq_+_翻墙党fanqiangdang_com_3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
-  - {name: RO_1231_19_29Mb_142, server: 185.126.116.125, port: 9008, type: ssr, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_58, server: 5.183.179.139, port: 9001, type: ssr, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq__YouTubeat阿阳AYANG_97, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq__🇸🇬SG-Openit_ml_115, server: 14.128.54.177, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇺🇸US_358, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: defaultName_139, server: 185.126.116.125, port: 9018, type: ssr, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq_+_github_com/freefq-乌克兰30_20, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_+_Relay_🇰🇷KR-🇰🇷KR_997, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: true, udp: true}
-  - {name: defaultName_71, server: 152.89.210.105, port: 9038, type: ssr, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq_github_com/v2rayfree-美国16_44, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-美国7_73, server: ai2.susenl.com, port: 30010, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq__🇸🇬SG-Openit_ml_113, server: 14.128.54.174, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _120_25Mb_75, server: sg02.xniuniu888.club, port: 30265, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1318, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}, udp: true}
-  - {name: Pool_🇬🇧GB_183, server: 146.70.73.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: github_com/mianfeifq_+_🇺🇸US-Openit_ml_144, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: 荷兰_9011, server: 213.183.51.172, port: 9011, type: ssr, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇬🇧GB_178, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: 德国(yudou66_com玉豆分享)_81, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
-  - {name: defaultName_64, server: 152.89.210.105, port: 9088, type: ssr, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq___🇸🇬SG-Openit_ml_109, server: 172.104.50.145, port: 58789, type: vmess, uuid: 6e4c3659-aae6-4d13-be44-edc6a7123af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB_9053WangCai_1, server: 185.167.117.171, port: 9053, type: ssr, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: www_dongtaiwang_com欧盟35_85, server: 45.66.159.74, port: 58055, type: vmess, uuid: e5dfca9a-b6cb-11ec-9c2f-00163cbed88a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xEzyADCa/}, udp: true}
-  - {name: defaultName_103, server: 185.126.116.124, port: 9098, type: ssr, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq__v2cross_com_3, server: 194.195.240.132, port: 33210, type: vmess, uuid: f46d05d6-8d41-4e0a-993e-e2658ac29f85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国_88, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/310910211916}, udp: true}
-  - {name: github_com/mianfeifq_+_+_Relay_🇺🇸US-🇺🇸US_3516, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: GB_9084WangCai_1, server: 185.167.117.171, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_58 2, server: 152.89.210.105, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_59, server: 152.89.210.105, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 香蕉美国CN2GIA-76_5, server: 154.3.6.247, port: 40000, type: ssr, cipher: dummy, password: banana@@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq_+_v2cross_com_32, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq__v2cross_com_4, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: defaultName_29, server: 152.89.210.105, port: 9073, type: ssr, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_63, server: 152.89.210.105, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: GB_9027WangCai_1, server: 185.167.117.171, port: 9027, type: ssr, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq_香港+02_15, server: gyazm.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_100, server: s2.520guge.com, port: 443, type: vmess, uuid: cf1819c8-e530-4626-aec0-87ac04200385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: s2.520guge.com}}, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_115, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: github_com/mianfeifq_🇺🇸US_1011_16_59Mb_1, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq__🇸🇬SG-Openit_ml_119, server: 14.128.54.170, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_+_+_+_FR法国TG/油管at阿伟科技_13, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq__馃嚚馃嚦CN_285, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰_9040, server: 213.183.51.172, port: 9040, type: ssr, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_112, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: _US_美国_108, server: hk4.fdns.unino.tech, port: 443, type: vmess, uuid: ae5e3f3a-b392-409c-a768-ce63bfe453c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.fdns.unino.tech}}, udp: true}
-  - {name: 荷兰_9038, server: 213.183.51.172, port: 9038, type: ssr, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _12_72Mb_110, server: sg05.xniuniu888.club, port: 30568, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 洛杉矶SSR_1, server: 45.66.157.106, port: 33333, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 荷兰_9010, server: 213.183.51.172, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_130, server: 152.89.210.105, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_114, server: 152.89.210.105, port: 9045, type: ssr, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 荷兰_Tg频道:https://t_me/bpjzx2_139, server: 213.183.51.172, port: 9005, type: ssr, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 稳定①关注公众号：ios黑科技_15, server: 173.82.186.25, port: 60001, type: ssr, cipher: dummy, password: enterpassword, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
-  - {name: github_com/mianfeifq_🇺🇸_🇺🇸US_2279_25_50Mb_4, server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇮🇳IN-🇮🇳IN_547, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
-  - {name: defaultName_70, server: 152.89.210.105, port: 9098, type: ssr, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: defaultName_165, server: 185.126.116.125, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_121, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_+_v2cross_com_143, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, skip-cert-verify: true, udp: true}
-  - {name: GB_9073WangCai_1, server: 185.167.117.171, port: 9073, type: ssr, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: github_com/mianfeifq__🇸🇬SG-Openit_ml_114, server: 14.128.51.179, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_github_com/v2rayfree-美国81_97, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_v2cross_com_14, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "github_com/mianfeifq__🇯🇵,JP,[45_77_22_155],121_98", server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: defaultName_163, server: 152.89.210.105, port: 9064, type: ssr, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: SG_900, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq_日本(欢迎订阅Youtube破解资源君)_51, server: 18.181.176.32, port: 17465, type: vmess, uuid: 8a74fb3c-fce1-4e28-ee11-4b5368cb2ad7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇩🇪DE-🇩🇪DE_168, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: github_com/mianfeifq_🇺🇸_US_美国_23, server: 209.141.32.70, port: 50369, type: vmess, uuid: 15bf42a4-91ef-4312-b7f4-14698c52df24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: defaultName_62, server: 152.89.210.105, port: 9046, type: ssr, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1301, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github_com/mianfeifq_v2cross_com_1, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1319, server: us-ny-rn.licom.ga, port: 62008, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-ny-rn.licom.ga}}, udp: true}
-  - {name: github_com/mianfeifq__v2cross_com_15, server: 61.222.202.213, port: 12880, type: vmess, uuid: d4b64497-2773-4281-96f1-fc2914ea3c28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 荷兰_Tg频道:https://t_me/bpjzx2_55, server: 213.183.51.171, port: 9014, type: ssr, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _7_04Mb_140, server: 43.229.115.134, port: 47950, type: vmess, uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（TGat阿伟科技/油管）_141, server: 45.79.97.24, port: 50339, type: vmess, uuid: 18cb53b1-75f2-4322-a982-bcdabfee04c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github_com/mianfeifq__🇸🇬SG-Openit_ml_116, server: 14.128.54.165, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_1, server: 140.82.22.122, port: 37572, type: vmess, uuid: 81e3f426-bc02-11ec-b4df-560003f2aa40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qgbdnHwN/}, udp: true}
+  - {name: 美国_2, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: true, udp: true}
+  - {name: https://t_me/bpjzx1_3, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 法国_3, server: 92.243.24.236, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LE6Ee6PELhVu, udp: true}
+  - {name: 新加坡_4, server: sg1.31vpn.com, port: 80, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ccvcxds/6252624d4fda3/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: 美国_5, server: 45.77.126.179, port: 57745, type: vmess, uuid: e8b99f3e-bc07-11ec-bc51-560003f2ac4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /SfqyKoZu/}, udp: true}
+  - {name: https://t_me/bpjzx2_7, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 香港_6, server: hkml.fenglingcloud.com, port: 80, type: vmess, uuid: 4b3903e2-f2a2-4831-95be-03cc8e3a7244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkml.fenglingcloud.com}}, udp: true}
+  - {name: 中国_7, server: 113.31.155.165, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 中国_8, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 中国_9, server: 120.232.192.250, port: 3384, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 香港_10, server: zz.vip341.xyz, port: 48003, type: vmess, uuid: cff7d4c4-4d4b-3fa0-a059-81f8f939910e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: zz.vip341.xyz}}, udp: true}
+  - {name: 中国_11, server: 120.132.50.158, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 中国_12, server: 123.59.72.193, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 中国_13, server: 120.232.174.85, port: 27419, type: ss, cipher: aes-128-gcm, password: 3ZCVsHk42KK0eeDp, udp: true}
+  - {name: 中国_14, server: bgp.samshui.cn, port: 20243, type: trojan, password: co61rwoeb, skip-cert-verify: true, udp: true}
+  - {name: 中国_15, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 台湾_16, server: 60.249.3.125, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 中国_17, server: 120.232.192.250, port: 3382, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 113.240.72.211, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 120.240.48.19, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
@@ -1284,157 +1162,35 @@ proxies:
   - {name: T.07.法国.中继2, server: t2.doggogogo.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gzy002.xyz, skip-cert-verify: true, udp: true}
   - {name: T.07.法国.中继3, server: cscu.wecanfly.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gzy002.xyz, skip-cert-verify: true, udp: true}
   - {name: S5香港05| IEPL | 2, server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: defaultName_63 2, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_63, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: tg@nfeng6 65, server: 5.183.179.137, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: defaultName_63 3, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_63 2, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 萨拉热窝a, server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
-  - {name: defaultName_28 2, server: jx-002.yyuuii.cyou, port: 10007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_28, server: jx-002.yyuuii.cyou, port: 10007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
-      - github_com/mianfeifq_🇺🇸+__+_+_美国阿伟科技atTG/油管+6_26
-      - Relay_🇬🇧GB-🇬🇧GB_177
-      - github_com/mianfeifq___🇺🇸US_365
-      - github_com/mianfeifq_美国+05_10
-      - GB_9050WangCai_1
-      - 荷兰_9024
-      - github_com/mianfeifq__🇰🇷韩国(yudou66_com玉豆分享)_4
-      - www_dongtaiwang_com新加坡DigitalOcean数据中心24_9
-      - defaultName_10
-      - _12
-      - 荷兰_9097
-      - 荷兰_9093
-      - github_com/mianfeifq__v2cross_com_7
-      - 荷兰_9057
-      - 荷兰_Tg频道:https://t_me/bpjzx2_53
-      - defaultName_56
-      - defaultName_128
-      - GB_9020WangCai_1
-      - defaultName_20
-      - GB_9046WangCai_1
-      - 英国_Tg频道:https://t_me/bpjzx2_191
-      - Pool_🇺🇸US_1306
-      - _5_72Mb_24
-      - github_com/mianfeifq_🇺🇸+_github_com/freefq-美国19_31
-      - 荷兰【由零开始YouTube】_26
-      - github_com/mianfeifq__🇸🇬,SG,[47_241_191_179],117_94
-      - _122_10Mb_28
-      - 英国_9027
-      - github_com/mianfeifq_+_翻墙党fanqiangdang_com_14
-      - Relay_🇬🇧GB-🇬🇧GB_181
-      - github_com/mianfeifq_🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github_com/mianfeifq_____YouTubeat阿阳AYANG_20
-      - RU_871
-      - 英国_9046
-      - github_com/mianfeifq__v2cross_com_44
-      - 美国阿伟科技atTG*油管_37
-      - 荷兰_Tg频道:https://t_me/bpjzx2_174
-      - _126_52Mb_39
-      - 稳定④关注公众号：ios黑科技_17
-      - Relay_🇸🇬SG-🇸🇬SG_254
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_108
-      - github_com/mianfeifq_美国+06_11
-      - github_com/mianfeifq_Relay_🇱🇹LT-🇱🇹LT_19
-      - GB_9070WangCai_1
-      - Relay_🇺🇸US-🇺🇸US_368
-      - 荷兰_Tg频道:https://t_me/bpjzx2_48
-      - defaultName_48
-      - github_com/mianfeifq_+_🇰🇷_KR_韩国_98
-      - GB_9060WangCai_1
-      - 荷兰_TGatnodesharing_113
-      - github_com/mianfeifq_+_翻墙党fanqiangdang_com_8
-      - _US_美国->🇫🇷_FR_法国_53
-      - GB_9032WangCai_1
-      - 荷兰_9056
-      - defaultName_28
-      - github_com/mianfeifq_🇩🇪_🇩🇪DE_214
-      - 荷兰_Tg频道:https://t_me/bpjzx2_176
-      - defaultName_167
-      - US_1316
-      - SG_902
-      - github_com/mianfeifq_+_翻墙党fanqiangdang_com_3
-      - RO_1231_19_29Mb_142
-      - defaultName_58
-      - github_com/mianfeifq__YouTubeat阿阳AYANG_97
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_115
-      - Pool_🇺🇸US_358
-      - defaultName_139
-      - github_com/mianfeifq_+_github_com/freefq-乌克兰30_20
-      - github_com/mianfeifq_+_Relay_🇰🇷KR-🇰🇷KR_997
-      - defaultName_71
-      - github_com/mianfeifq_github_com/v2rayfree-美国16_44
-      - github_com/freefq-美国7_73
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_113
-      - _120_25Mb_75
-      - Relay_🇺🇸US-🇺🇸US_1318
-      - Pool_🇬🇧GB_183
-      - github_com/mianfeifq_+_🇺🇸US-Openit_ml_144
-      - 荷兰_9011
-      - Pool_🇬🇧GB_178
-      - 德国(yudou66_com玉豆分享)_81
-      - defaultName_64
-      - github_com/mianfeifq___🇸🇬SG-Openit_ml_109
-      - GB_9053WangCai_1
-      - www_dongtaiwang_com欧盟35_85
-      - defaultName_103
-      - github_com/mianfeifq__v2cross_com_3
-      - _US_美国_88
-      - github_com/mianfeifq_+_+_Relay_🇺🇸US-🇺🇸US_3516
-      - GB_9084WangCai_1
-      - defaultName_58 2
-      - defaultName_59
-      - 香蕉美国CN2GIA-76_5
-      - github_com/mianfeifq_+_v2cross_com_32
-      - github_com/mianfeifq__v2cross_com_4
-      - defaultName_29
-      - defaultName_63
-      - GB_9027WangCai_1
-      - github_com/mianfeifq_香港+02_15
-      - _US_美国_100
-      - Relay_🇨🇦CA-🇨🇦CA_115
-      - github_com/mianfeifq_🇺🇸US_1011_16_59Mb_1
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_119
-      - github_com/mianfeifq_+_+_+_FR法国TG/油管at阿伟科技_13
-      - github_com/mianfeifq__馃嚚馃嚦CN_285
-      - 荷兰_9040
-      - Relay_🇨🇦CA-🇨🇦CA_112
-      - _US_美国_108
-      - 荷兰_9038
-      - _12_72Mb_110
-      - 洛杉矶SSR_1
-      - 荷兰_9010
-      - defaultName_130
-      - defaultName_114
-      - 荷兰_Tg频道:https://t_me/bpjzx2_139
-      - 稳定①关注公众号：ios黑科技_15
-      - github_com/mianfeifq_🇺🇸_🇺🇸US_2279_25_50Mb_4
-      - Relay_🇮🇳IN-🇮🇳IN_547
-      - defaultName_70
-      - defaultName_165
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_121
-      - github_com/mianfeifq_+_v2cross_com_143
-      - GB_9073WangCai_1
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_114
-      - github_com/mianfeifq_github_com/v2rayfree-美国81_97
-      - github_com/mianfeifq_v2cross_com_14
-      - github_com/mianfeifq__🇯🇵,JP,[45_77_22_155],121_98
-      - defaultName_163
-      - SG_900
-      - github_com/mianfeifq_日本(欢迎订阅Youtube破解资源君)_51
-      - Relay_🇩🇪DE-🇩🇪DE_168
-      - github_com/mianfeifq_🇺🇸_US_美国_23
-      - defaultName_62
-      - Relay_🇺🇸US-🇺🇸US_1301
-      - github_com/mianfeifq_v2cross_com_1
-      - Relay_🇺🇸US-🇺🇸US_1319
-      - github_com/mianfeifq__v2cross_com_15
-      - 荷兰_Tg频道:https://t_me/bpjzx2_55
-      - _7_04Mb_140
-      - 美国（TGat阿伟科技/油管）_141
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_116
+      - 美国_1
+      - 美国_2
+      - https://t_me/bpjzx1_3
+      - 法国_3
+      - 新加坡_4
+      - 美国_5
+      - https://t_me/bpjzx2_7
+      - 香港_6
+      - 中国_7
+      - 中国_8
+      - 中国_9
+      - 香港_10
+      - 中国_11
+      - 中国_12
+      - 中国_13
+      - 中国_14
+      - 中国_15
+      - 台湾_16
+      - 中国_17
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2573,157 +2329,35 @@ proxy-groups:
       - T.07.法国.中继2
       - T.07.法国.中继3
       - S5香港05| IEPL | 2
-      - defaultName_63 2
+      - defaultName_63
       - tg@nfeng6 65
-      - defaultName_63 3
+      - defaultName_63 2
       - 萨拉热窝a
-      - defaultName_28 2
+      - defaultName_28
   - name: ♻️ 自动选择节点
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
-      - github_com/mianfeifq_🇺🇸+__+_+_美国阿伟科技atTG/油管+6_26
-      - Relay_🇬🇧GB-🇬🇧GB_177
-      - github_com/mianfeifq___🇺🇸US_365
-      - github_com/mianfeifq_美国+05_10
-      - GB_9050WangCai_1
-      - 荷兰_9024
-      - github_com/mianfeifq__🇰🇷韩国(yudou66_com玉豆分享)_4
-      - www_dongtaiwang_com新加坡DigitalOcean数据中心24_9
-      - defaultName_10
-      - _12
-      - 荷兰_9097
-      - 荷兰_9093
-      - github_com/mianfeifq__v2cross_com_7
-      - 荷兰_9057
-      - 荷兰_Tg频道:https://t_me/bpjzx2_53
-      - defaultName_56
-      - defaultName_128
-      - GB_9020WangCai_1
-      - defaultName_20
-      - GB_9046WangCai_1
-      - 英国_Tg频道:https://t_me/bpjzx2_191
-      - Pool_🇺🇸US_1306
-      - _5_72Mb_24
-      - github_com/mianfeifq_🇺🇸+_github_com/freefq-美国19_31
-      - 荷兰【由零开始YouTube】_26
-      - github_com/mianfeifq__🇸🇬,SG,[47_241_191_179],117_94
-      - _122_10Mb_28
-      - 英国_9027
-      - github_com/mianfeifq_+_翻墙党fanqiangdang_com_14
-      - Relay_🇬🇧GB-🇬🇧GB_181
-      - github_com/mianfeifq_🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github_com/mianfeifq_____YouTubeat阿阳AYANG_20
-      - RU_871
-      - 英国_9046
-      - github_com/mianfeifq__v2cross_com_44
-      - 美国阿伟科技atTG*油管_37
-      - 荷兰_Tg频道:https://t_me/bpjzx2_174
-      - _126_52Mb_39
-      - 稳定④关注公众号：ios黑科技_17
-      - Relay_🇸🇬SG-🇸🇬SG_254
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_108
-      - github_com/mianfeifq_美国+06_11
-      - github_com/mianfeifq_Relay_🇱🇹LT-🇱🇹LT_19
-      - GB_9070WangCai_1
-      - Relay_🇺🇸US-🇺🇸US_368
-      - 荷兰_Tg频道:https://t_me/bpjzx2_48
-      - defaultName_48
-      - github_com/mianfeifq_+_🇰🇷_KR_韩国_98
-      - GB_9060WangCai_1
-      - 荷兰_TGatnodesharing_113
-      - github_com/mianfeifq_+_翻墙党fanqiangdang_com_8
-      - _US_美国->🇫🇷_FR_法国_53
-      - GB_9032WangCai_1
-      - 荷兰_9056
-      - defaultName_28
-      - github_com/mianfeifq_🇩🇪_🇩🇪DE_214
-      - 荷兰_Tg频道:https://t_me/bpjzx2_176
-      - defaultName_167
-      - US_1316
-      - SG_902
-      - github_com/mianfeifq_+_翻墙党fanqiangdang_com_3
-      - RO_1231_19_29Mb_142
-      - defaultName_58
-      - github_com/mianfeifq__YouTubeat阿阳AYANG_97
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_115
-      - Pool_🇺🇸US_358
-      - defaultName_139
-      - github_com/mianfeifq_+_github_com/freefq-乌克兰30_20
-      - github_com/mianfeifq_+_Relay_🇰🇷KR-🇰🇷KR_997
-      - defaultName_71
-      - github_com/mianfeifq_github_com/v2rayfree-美国16_44
-      - github_com/freefq-美国7_73
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_113
-      - _120_25Mb_75
-      - Relay_🇺🇸US-🇺🇸US_1318
-      - Pool_🇬🇧GB_183
-      - github_com/mianfeifq_+_🇺🇸US-Openit_ml_144
-      - 荷兰_9011
-      - Pool_🇬🇧GB_178
-      - 德国(yudou66_com玉豆分享)_81
-      - defaultName_64
-      - github_com/mianfeifq___🇸🇬SG-Openit_ml_109
-      - GB_9053WangCai_1
-      - www_dongtaiwang_com欧盟35_85
-      - defaultName_103
-      - github_com/mianfeifq__v2cross_com_3
-      - _US_美国_88
-      - github_com/mianfeifq_+_+_Relay_🇺🇸US-🇺🇸US_3516
-      - GB_9084WangCai_1
-      - defaultName_58 2
-      - defaultName_59
-      - 香蕉美国CN2GIA-76_5
-      - github_com/mianfeifq_+_v2cross_com_32
-      - github_com/mianfeifq__v2cross_com_4
-      - defaultName_29
-      - defaultName_63
-      - GB_9027WangCai_1
-      - github_com/mianfeifq_香港+02_15
-      - _US_美国_100
-      - Relay_🇨🇦CA-🇨🇦CA_115
-      - github_com/mianfeifq_🇺🇸US_1011_16_59Mb_1
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_119
-      - github_com/mianfeifq_+_+_+_FR法国TG/油管at阿伟科技_13
-      - github_com/mianfeifq__馃嚚馃嚦CN_285
-      - 荷兰_9040
-      - Relay_🇨🇦CA-🇨🇦CA_112
-      - _US_美国_108
-      - 荷兰_9038
-      - _12_72Mb_110
-      - 洛杉矶SSR_1
-      - 荷兰_9010
-      - defaultName_130
-      - defaultName_114
-      - 荷兰_Tg频道:https://t_me/bpjzx2_139
-      - 稳定①关注公众号：ios黑科技_15
-      - github_com/mianfeifq_🇺🇸_🇺🇸US_2279_25_50Mb_4
-      - Relay_🇮🇳IN-🇮🇳IN_547
-      - defaultName_70
-      - defaultName_165
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_121
-      - github_com/mianfeifq_+_v2cross_com_143
-      - GB_9073WangCai_1
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_114
-      - github_com/mianfeifq_github_com/v2rayfree-美国81_97
-      - github_com/mianfeifq_v2cross_com_14
-      - github_com/mianfeifq__🇯🇵,JP,[45_77_22_155],121_98
-      - defaultName_163
-      - SG_900
-      - github_com/mianfeifq_日本(欢迎订阅Youtube破解资源君)_51
-      - Relay_🇩🇪DE-🇩🇪DE_168
-      - github_com/mianfeifq_🇺🇸_US_美国_23
-      - defaultName_62
-      - Relay_🇺🇸US-🇺🇸US_1301
-      - github_com/mianfeifq_v2cross_com_1
-      - Relay_🇺🇸US-🇺🇸US_1319
-      - github_com/mianfeifq__v2cross_com_15
-      - 荷兰_Tg频道:https://t_me/bpjzx2_55
-      - _7_04Mb_140
-      - 美国（TGat阿伟科技/油管）_141
-      - github_com/mianfeifq__🇸🇬SG-Openit_ml_116
+      - 美国_1
+      - 美国_2
+      - https://t_me/bpjzx1_3
+      - 法国_3
+      - 新加坡_4
+      - 美国_5
+      - https://t_me/bpjzx2_7
+      - 香港_6
+      - 中国_7
+      - 中国_8
+      - 中国_9
+      - 香港_10
+      - 中国_11
+      - 中国_12
+      - 中国_13
+      - 中国_14
+      - 中国_15
+      - 台湾_16
+      - 中国_17
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -3862,11 +3496,11 @@ proxy-groups:
       - T.07.法国.中继2
       - T.07.法国.中继3
       - S5香港05| IEPL | 2
-      - defaultName_63 2
+      - defaultName_63
       - tg@nfeng6 65
-      - defaultName_63 3
+      - defaultName_63 2
       - 萨拉热窝a
-      - defaultName_28 2
+      - defaultName_28
   - name: Other
     type: select
     proxies:
