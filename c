@@ -5,46 +5,228 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"vmess_1","server":"108.162.250.176","port":443,"type":"vmess","uuid":"54b7c04e-7a7a-4554-b5d7-ba9b77c68263","alterId":0,"cipher":"auto","country":"vmess_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/dangxia","headers":{"host":"purple-night-c317.niubihaha.workers.dev"}}}
+  - {"name":"🇳🇿AU_9015atWangCai_1","server":"185.167.116.250","port":9015,"type":"ss","country":"🇳🇿AU_9015atWangCai_1","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
+  - {"name":"🇳🇿AU_9037atWangCai_1","server":"185.167.116.250","port":9037,"type":"ss","country":"🇳🇿AU_9037atWangCai_1","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"🇳🇿AU_9042atWangCai_1","server":"185.167.116.250","port":9042,"type":"ss","country":"🇳🇿AU_9042atWangCai_1","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"name":"🇳🇿AU_9018atWangCai_1","server":"185.167.116.250","port":9018,"type":"ss","country":"🇳🇿AU_9018atWangCai_1","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"🇳🇿AU_9064atWangCai_1","server":"185.167.116.250","port":9064,"type":"ss","country":"🇳🇿AU_9064atWangCai_1","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":"🇳🇿AU_9088atWangCai_1","server":"185.167.116.250","port":9088,"type":"ss","country":"🇳🇿AU_9088atWangCai_1","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"name":"🇳🇿AU_9001atWangCai_1","server":"185.167.116.250","port":9001,"type":"ss","country":"🇳🇿AU_9001atWangCai_1","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
+  - {"name":"🇳🇿AU_9053atWangCai_1","server":"185.167.116.250","port":9053,"type":"ss","country":"🇳🇿AU_9053atWangCai_1","cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C"}
+  - {"name":"🇳🇿AU_9027atWangCai_1","server":"185.167.116.250","port":9027,"type":"ss","country":"🇳🇿AU_9027atWangCai_1","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"name":"🇳🇿AU_9010atWangCai_1","server":"185.167.116.250","port":9010,"type":"ss","country":"🇳🇿AU_9010atWangCai_1","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
+  - {"name":"🇳🇿AU_9005atWangCai_1","server":"185.167.116.252","port":9005,"type":"ss","country":"🇳🇿AU_9005atWangCai_1","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"name":"🇳🇿AU_9024atWangCai_1","server":"185.167.116.252","port":9024,"type":"ss","country":"🇳🇿AU_9024atWangCai_1","cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
+  - {"name":"🇳🇿AU_9041atWangCai_1","server":"185.167.116.252","port":9041,"type":"ss","country":"🇳🇿AU_9041atWangCai_1","cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
+  - {"name":"🇳🇿AU_9094atWangCai_1","server":"185.167.116.252","port":9094,"type":"ss","country":"🇳🇿AU_9094atWangCai_1","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"name":"🇳🇿AU_9093atWangCai_1","server":"185.167.116.252","port":9093,"type":"ss","country":"🇳🇿AU_9093atWangCai_1","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"🇳🇿AU_9070atWangCai_1","server":"185.167.116.252","port":9070,"type":"ss","country":"🇳🇿AU_9070atWangCai_1","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
+  - {"name":"🇳🇿AU_9019atWangCai_1","server":"185.167.116.250","port":9019,"type":"ss","country":"🇳🇿AU_9019atWangCai_1","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"🇳🇿AU_9041atWangCai_1","server":"185.167.116.250","port":9041,"type":"ss","country":"🇳🇿AU_9041atWangCai_1","cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
+  - {"name":"🇳🇿AU_9094atWangCai_1","server":"185.167.116.250","port":9094,"type":"ss","country":"🇳🇿AU_9094atWangCai_1","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"name":"🇳🇿AU_9093atWangCai_1","server":"185.167.116.250","port":9093,"type":"ss","country":"🇳🇿AU_9093atWangCai_1","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"🇳🇿AU_9070atWangCai_1","server":"185.167.116.250","port":9070,"type":"ss","country":"🇳🇿AU_9070atWangCai_1","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
+  - {"name":"🇳🇿AU_9032atWangCai_1","server":"185.167.116.250","port":9032,"type":"ss","country":"🇳🇿AU_9032atWangCai_1","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇳🇿AU_9059atWangCai_1","server":"185.167.116.250","port":9059,"type":"ss","country":"🇳🇿AU_9059atWangCai_1","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
+  - {"name":"🇳🇿AU_9050atWangCai_1","server":"185.167.116.250","port":9050,"type":"ss","country":"🇳🇿AU_9050atWangCai_1","cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE"}
+  - {"name":"🇳🇿AU_9038atWangCai_1","server":"185.167.116.250","port":9038,"type":"ss","country":"🇳🇿AU_9038atWangCai_1","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
+  - {"name":"🇳🇿AU_9006atWangCai_1","server":"185.167.116.250","port":9006,"type":"ss","country":"🇳🇿AU_9006atWangCai_1","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
+  - {"name":"🇳🇿AU_9097atWangCai_1","server":"185.167.116.250","port":9097,"type":"ss","country":"🇳🇿AU_9097atWangCai_1","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - vmess_1
+      - 🇳🇿AU_9015atWangCai_1
+      - 🇳🇿AU_9037atWangCai_1
+      - 🇳🇿AU_9042atWangCai_1
+      - 🇳🇿AU_9018atWangCai_1
+      - 🇳🇿AU_9064atWangCai_1
+      - 🇳🇿AU_9088atWangCai_1
+      - 🇳🇿AU_9001atWangCai_1
+      - 🇳🇿AU_9053atWangCai_1
+      - 🇳🇿AU_9027atWangCai_1
+      - 🇳🇿AU_9010atWangCai_1
+      - 🇳🇿AU_9005atWangCai_1
+      - 🇳🇿AU_9024atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9019atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9032atWangCai_1
+      - 🇳🇿AU_9059atWangCai_1
+      - 🇳🇿AU_9050atWangCai_1
+      - 🇳🇿AU_9038atWangCai_1
+      - 🇳🇿AU_9006atWangCai_1
+      - 🇳🇿AU_9097atWangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vmess_1
+      - 🇳🇿AU_9015atWangCai_1
+      - 🇳🇿AU_9037atWangCai_1
+      - 🇳🇿AU_9042atWangCai_1
+      - 🇳🇿AU_9018atWangCai_1
+      - 🇳🇿AU_9064atWangCai_1
+      - 🇳🇿AU_9088atWangCai_1
+      - 🇳🇿AU_9001atWangCai_1
+      - 🇳🇿AU_9053atWangCai_1
+      - 🇳🇿AU_9027atWangCai_1
+      - 🇳🇿AU_9010atWangCai_1
+      - 🇳🇿AU_9005atWangCai_1
+      - 🇳🇿AU_9024atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9019atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9032atWangCai_1
+      - 🇳🇿AU_9059atWangCai_1
+      - 🇳🇿AU_9050atWangCai_1
+      - 🇳🇿AU_9038atWangCai_1
+      - 🇳🇿AU_9006atWangCai_1
+      - 🇳🇿AU_9097atWangCai_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - vmess_1
+      - 🇳🇿AU_9015atWangCai_1
+      - 🇳🇿AU_9037atWangCai_1
+      - 🇳🇿AU_9042atWangCai_1
+      - 🇳🇿AU_9018atWangCai_1
+      - 🇳🇿AU_9064atWangCai_1
+      - 🇳🇿AU_9088atWangCai_1
+      - 🇳🇿AU_9001atWangCai_1
+      - 🇳🇿AU_9053atWangCai_1
+      - 🇳🇿AU_9027atWangCai_1
+      - 🇳🇿AU_9010atWangCai_1
+      - 🇳🇿AU_9005atWangCai_1
+      - 🇳🇿AU_9024atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9019atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9032atWangCai_1
+      - 🇳🇿AU_9059atWangCai_1
+      - 🇳🇿AU_9050atWangCai_1
+      - 🇳🇿AU_9038atWangCai_1
+      - 🇳🇿AU_9006atWangCai_1
+      - 🇳🇿AU_9097atWangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - vmess_1
+      - 🇳🇿AU_9015atWangCai_1
+      - 🇳🇿AU_9037atWangCai_1
+      - 🇳🇿AU_9042atWangCai_1
+      - 🇳🇿AU_9018atWangCai_1
+      - 🇳🇿AU_9064atWangCai_1
+      - 🇳🇿AU_9088atWangCai_1
+      - 🇳🇿AU_9001atWangCai_1
+      - 🇳🇿AU_9053atWangCai_1
+      - 🇳🇿AU_9027atWangCai_1
+      - 🇳🇿AU_9010atWangCai_1
+      - 🇳🇿AU_9005atWangCai_1
+      - 🇳🇿AU_9024atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9019atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9032atWangCai_1
+      - 🇳🇿AU_9059atWangCai_1
+      - 🇳🇿AU_9050atWangCai_1
+      - 🇳🇿AU_9038atWangCai_1
+      - 🇳🇿AU_9006atWangCai_1
+      - 🇳🇿AU_9097atWangCai_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - vmess_1
+      - 🇳🇿AU_9015atWangCai_1
+      - 🇳🇿AU_9037atWangCai_1
+      - 🇳🇿AU_9042atWangCai_1
+      - 🇳🇿AU_9018atWangCai_1
+      - 🇳🇿AU_9064atWangCai_1
+      - 🇳🇿AU_9088atWangCai_1
+      - 🇳🇿AU_9001atWangCai_1
+      - 🇳🇿AU_9053atWangCai_1
+      - 🇳🇿AU_9027atWangCai_1
+      - 🇳🇿AU_9010atWangCai_1
+      - 🇳🇿AU_9005atWangCai_1
+      - 🇳🇿AU_9024atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9019atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9032atWangCai_1
+      - 🇳🇿AU_9059atWangCai_1
+      - 🇳🇿AU_9050atWangCai_1
+      - 🇳🇿AU_9038atWangCai_1
+      - 🇳🇿AU_9006atWangCai_1
+      - 🇳🇿AU_9097atWangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - vmess_1
+      - 🇳🇿AU_9015atWangCai_1
+      - 🇳🇿AU_9037atWangCai_1
+      - 🇳🇿AU_9042atWangCai_1
+      - 🇳🇿AU_9018atWangCai_1
+      - 🇳🇿AU_9064atWangCai_1
+      - 🇳🇿AU_9088atWangCai_1
+      - 🇳🇿AU_9001atWangCai_1
+      - 🇳🇿AU_9053atWangCai_1
+      - 🇳🇿AU_9027atWangCai_1
+      - 🇳🇿AU_9010atWangCai_1
+      - 🇳🇿AU_9005atWangCai_1
+      - 🇳🇿AU_9024atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9019atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9032atWangCai_1
+      - 🇳🇿AU_9059atWangCai_1
+      - 🇳🇿AU_9050atWangCai_1
+      - 🇳🇿AU_9038atWangCai_1
+      - 🇳🇿AU_9006atWangCai_1
+      - 🇳🇿AU_9097atWangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +249,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - vmess_1
+      - 🇳🇿AU_9015atWangCai_1
+      - 🇳🇿AU_9037atWangCai_1
+      - 🇳🇿AU_9042atWangCai_1
+      - 🇳🇿AU_9018atWangCai_1
+      - 🇳🇿AU_9064atWangCai_1
+      - 🇳🇿AU_9088atWangCai_1
+      - 🇳🇿AU_9001atWangCai_1
+      - 🇳🇿AU_9053atWangCai_1
+      - 🇳🇿AU_9027atWangCai_1
+      - 🇳🇿AU_9010atWangCai_1
+      - 🇳🇿AU_9005atWangCai_1
+      - 🇳🇿AU_9024atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9019atWangCai_1
+      - 🇳🇿AU_9041atWangCai_1
+      - 🇳🇿AU_9094atWangCai_1
+      - 🇳🇿AU_9093atWangCai_1
+      - 🇳🇿AU_9070atWangCai_1
+      - 🇳🇿AU_9032atWangCai_1
+      - 🇳🇿AU_9059atWangCai_1
+      - 🇳🇿AU_9050atWangCai_1
+      - 🇳🇿AU_9038atWangCai_1
+      - 🇳🇿AU_9006atWangCai_1
+      - 🇳🇿AU_9097atWangCai_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
