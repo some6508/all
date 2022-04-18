@@ -5,116 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"us1.lolvps.xyz","port":60060,"type":"vmess","uuid":"95886c76-9207-48bd-9e64-d1422e75ad89","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/AY920UMR","headers":{"host":"us1.lolvps.xyz"}}}
-  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_2","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"70899a48-be67-11ec-bebc-000017022008","alterId":64,"cipher":"auto","country":"🇺🇸_US_美国->🇬🇧_GB_英国_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
-  - {"name":"🇺🇸_US_美国_3","server":"142.4.127.67","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","country":"🇺🇸_US_美国_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/path/310910211916","headers":{"host":"www.47727450.xyz"}}}
-  - {"name":"default_name_4","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"default_name_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
-  - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_5","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇿_CZ_捷克_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸_US_美国_6","server":"sgp.xrenblog.com","port":18888,"type":"vmess","uuid":"6731a7a4-cac0-4218-d3e7-a4fe8c933b5a","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog"}}
-  - {"name":"🇺🇸_US_美国->🇫🇮_FI_芬兰_7","server":"hax2.hax01.ml","port":443,"type":"vmess","uuid":"25af03c3-27ff-4c14-c142-ad7694ec42f9","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇮_FI_芬兰_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_8","server":"ru1.qiushi.buzz","port":5858,"type":"vmess","uuid":"78213db6-516e-35db-9577-18789a761a70","alterId":0,"cipher":"auto","country":"🇷🇺_RU_俄罗斯联邦_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"name":"🇺🇸_US_美国->🇫🇮_FI_芬兰_9","server":"hax.hax01.tk","port":443,"type":"vmess","uuid":"e2e073ce-c1d4-43ed-89f5-ca978507548a","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇮_FI_芬兰_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_10","server":"v4.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇿_CZ_捷克_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_11","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇷_FR_法国_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
+  - {"name":"233v2_com_43_154_149_38","server":"43.154.149.38","port":7890,"type":"vmess","uuid":"5938b8c5-281a-4e31-993f-57ae74aa0f12","alterId":0,"cipher":"auto","country":"233v2_com_43_154_149_38","skip-cert-verify":true,"tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - 233v2_com_43_154_149_38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - 233v2_com_43_154_149_38
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - 233v2_com_43_154_149_38
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - 233v2_com_43_154_149_38
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - 233v2_com_43_154_149_38
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - 233v2_com_43_154_149_38
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -137,17 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - 233v2_com_43_154_149_38
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
