@@ -5,7 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 233v2_com_43_154_149_38, server: 43.154.149.38, port: 7890, type: vmess, uuid: 5938b8c5-281a-4e31-993f-57ae74aa0f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_1, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_2, server: 223.166.157.41, port: 60021, type: vmess, uuid: 4ea8c14c-b0af-359d-b846-4eb19b31739d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CN_中国->🇲🇴_MO_澳门_3, server: 223.166.80.206, port: 60012, type: vmess, uuid: 4ea8c14c-b0af-359d-b846-4eb19b31739d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: ai1.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: ai1.susenl.com, port: 10031, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: v2-3.godlight.xyz, port: 39270, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
@@ -1194,7 +1196,9 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 233v2_com_43_154_149_38
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇯🇵_JP_日本_2
+      - _CN_中国->🇲🇴_MO_澳门_3
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君)
@@ -2383,7 +2387,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - 233v2_com_43_154_149_38
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇯🇵_JP_日本_2
+      - _CN_中国->🇲🇴_MO_澳门_3
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君)
