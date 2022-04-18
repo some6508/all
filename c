@@ -5,116 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"us1.lolvps.xyz","port":60060,"type":"vmess","uuid":"95886c76-9207-48bd-9e64-d1422e75ad89","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/AY920UMR","headers":{"host":"us1.lolvps.xyz"}}}
-  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_2","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"70899a48-be67-11ec-bebc-000017022008","alterId":64,"cipher":"auto","country":"🇺🇸_US_美国->🇬🇧_GB_英国_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
-  - {"name":"🇺🇸_US_美国_3","server":"142.4.127.67","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","country":"🇺🇸_US_美国_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/path/310910211916","headers":{"host":"www.47727450.xyz"}}}
-  - {"name":"default_name_4","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"default_name_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
-  - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_5","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇿_CZ_捷克_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸_US_美国_6","server":"sgp.xrenblog.com","port":18888,"type":"vmess","uuid":"6731a7a4-cac0-4218-d3e7-a4fe8c933b5a","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog"}}
-  - {"name":"🇺🇸_US_美国->🇫🇮_FI_芬兰_7","server":"hax2.hax01.ml","port":443,"type":"vmess","uuid":"25af03c3-27ff-4c14-c142-ad7694ec42f9","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇮_FI_芬兰_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_8","server":"ru1.qiushi.buzz","port":5858,"type":"vmess","uuid":"78213db6-516e-35db-9577-18789a761a70","alterId":0,"cipher":"auto","country":"🇷🇺_RU_俄罗斯联邦_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"name":"🇺🇸_US_美国->🇫🇮_FI_芬兰_9","server":"hax.hax01.tk","port":443,"type":"vmess","uuid":"e2e073ce-c1d4-43ed-89f5-ca978507548a","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇮_FI_芬兰_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_10","server":"v4.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇿_CZ_捷克_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_11","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇷_FR_法国_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
+  - {"name":"Tokyo,SS-BGroup_1","server":"SS-NODE-1-B.GFWAIRPORT.NET","port":50001,"type":"ss","country":"Tokyo,SS-BGroup_1","cipher":"chacha20-ietf-poly1305","password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Incheon,SS-BGroup_2","server":"SS-NODE-2-B.GFWAIRPORT.NET","port":50001,"type":"ss","country":"Incheon,SS-BGroup_2","cipher":"chacha20-ietf-poly1305","password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Singapore,SS-BGroup_3","server":"SS-NODE-3-B.GFWAIRPORT.NET","port":50001,"type":"ss","country":"Singapore,SS-BGroup_3","cipher":"chacha20-ietf-poly1305","password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Hongkong,SS-BGroup_4","server":"SS-NODE-4-B.GFWAIRPORT.NET","port":50001,"type":"ss","country":"Hongkong,SS-BGroup_4","cipher":"chacha20-ietf-poly1305","password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"California,SS-BGroup_5","server":"SS-NODE-5-B.GFWAIRPORT.NET","port":50001,"type":"ss","country":"California,SS-BGroup_5","cipher":"chacha20-ietf-poly1305","password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Tokyo,Tj-BGroup_6","server":"TJ-NODE-1-B.GFWAIRPORT.NET","port":50001,"type":"trojan","country":"Tokyo,Tj-BGroup_6","skip-cert-verify":true,"udp":true,"password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Incheon,Tj-BGroup_7","server":"TJ-NODE-2-B.GFWAIRPORT.NET","port":50001,"type":"trojan","country":"Incheon,Tj-BGroup_7","skip-cert-verify":true,"udp":true,"password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Singapore,Tj-BGroup_8","server":"TJ-NODE-3-B.GFWAIRPORT.NET","port":50001,"type":"trojan","country":"Singapore,Tj-BGroup_8","skip-cert-verify":true,"udp":true,"password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Hongkong,Tj-BGroup_9","server":"TJ-NODE-4-B.GFWAIRPORT.NET","port":50001,"type":"trojan","country":"Hongkong,Tj-BGroup_9","skip-cert-verify":true,"udp":true,"password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"California,Tj-BGroup_10","server":"TJ-NODE-5-B.GFWAIRPORT.NET","port":50001,"type":"trojan","country":"California,Tj-BGroup_10","skip-cert-verify":true,"udp":true,"password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Tokyo,V2-BGroup_11","server":"V2-NODE-1-B.GFWAIRPORT.NET","port":50001,"type":"vmess","uuid":"9e7256ac-f3bb-4f60-830f-48e75191c207","alterId":0,"cipher":"auto","country":"Tokyo,V2-BGroup_11","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"Incheon,V2-BGroup_12","server":"V2-NODE-2-B.GFWAIRPORT.NET","port":50001,"type":"vmess","uuid":"9e7256ac-f3bb-4f60-830f-48e75191c207","alterId":0,"cipher":"auto","country":"Incheon,V2-BGroup_12","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"Singapore,V2-BGroup_13","server":"V2-NODE-3-B.GFWAIRPORT.NET","port":50001,"type":"vmess","uuid":"9e7256ac-f3bb-4f60-830f-48e75191c207","alterId":0,"cipher":"auto","country":"Singapore,V2-BGroup_13","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"Hongkong,V2-BGroup_14","server":"V2-NODE-4-B.GFWAIRPORT.NET","port":50001,"type":"vmess","uuid":"9e7256ac-f3bb-4f60-830f-48e75191c207","alterId":0,"cipher":"auto","country":"Hongkong,V2-BGroup_14","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"California,V2-BGroup_15","server":"V2-NODE-5-B.GFWAIRPORT.NET","port":50001,"type":"vmess","uuid":"9e7256ac-f3bb-4f60-830f-48e75191c207","alterId":0,"cipher":"auto","country":"California,V2-BGroup_15","skip-cert-verify":true,"tls":false,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - Tokyo,SS-BGroup_1
+      - Incheon,SS-BGroup_2
+      - Singapore,SS-BGroup_3
+      - Hongkong,SS-BGroup_4
+      - California,SS-BGroup_5
+      - Tokyo,Tj-BGroup_6
+      - Incheon,Tj-BGroup_7
+      - Singapore,Tj-BGroup_8
+      - Hongkong,Tj-BGroup_9
+      - California,Tj-BGroup_10
+      - Tokyo,V2-BGroup_11
+      - Incheon,V2-BGroup_12
+      - Singapore,V2-BGroup_13
+      - Hongkong,V2-BGroup_14
+      - California,V2-BGroup_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - Tokyo,SS-BGroup_1
+      - Incheon,SS-BGroup_2
+      - Singapore,SS-BGroup_3
+      - Hongkong,SS-BGroup_4
+      - California,SS-BGroup_5
+      - Tokyo,Tj-BGroup_6
+      - Incheon,Tj-BGroup_7
+      - Singapore,Tj-BGroup_8
+      - Hongkong,Tj-BGroup_9
+      - California,Tj-BGroup_10
+      - Tokyo,V2-BGroup_11
+      - Incheon,V2-BGroup_12
+      - Singapore,V2-BGroup_13
+      - Hongkong,V2-BGroup_14
+      - California,V2-BGroup_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - Tokyo,SS-BGroup_1
+      - Incheon,SS-BGroup_2
+      - Singapore,SS-BGroup_3
+      - Hongkong,SS-BGroup_4
+      - California,SS-BGroup_5
+      - Tokyo,Tj-BGroup_6
+      - Incheon,Tj-BGroup_7
+      - Singapore,Tj-BGroup_8
+      - Hongkong,Tj-BGroup_9
+      - California,Tj-BGroup_10
+      - Tokyo,V2-BGroup_11
+      - Incheon,V2-BGroup_12
+      - Singapore,V2-BGroup_13
+      - Hongkong,V2-BGroup_14
+      - California,V2-BGroup_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - Tokyo,SS-BGroup_1
+      - Incheon,SS-BGroup_2
+      - Singapore,SS-BGroup_3
+      - Hongkong,SS-BGroup_4
+      - California,SS-BGroup_5
+      - Tokyo,Tj-BGroup_6
+      - Incheon,Tj-BGroup_7
+      - Singapore,Tj-BGroup_8
+      - Hongkong,Tj-BGroup_9
+      - California,Tj-BGroup_10
+      - Tokyo,V2-BGroup_11
+      - Incheon,V2-BGroup_12
+      - Singapore,V2-BGroup_13
+      - Hongkong,V2-BGroup_14
+      - California,V2-BGroup_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - Tokyo,SS-BGroup_1
+      - Incheon,SS-BGroup_2
+      - Singapore,SS-BGroup_3
+      - Hongkong,SS-BGroup_4
+      - California,SS-BGroup_5
+      - Tokyo,Tj-BGroup_6
+      - Incheon,Tj-BGroup_7
+      - Singapore,Tj-BGroup_8
+      - Hongkong,Tj-BGroup_9
+      - California,Tj-BGroup_10
+      - Tokyo,V2-BGroup_11
+      - Incheon,V2-BGroup_12
+      - Singapore,V2-BGroup_13
+      - Hongkong,V2-BGroup_14
+      - California,V2-BGroup_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - Tokyo,SS-BGroup_1
+      - Incheon,SS-BGroup_2
+      - Singapore,SS-BGroup_3
+      - Hongkong,SS-BGroup_4
+      - California,SS-BGroup_5
+      - Tokyo,Tj-BGroup_6
+      - Incheon,Tj-BGroup_7
+      - Singapore,Tj-BGroup_8
+      - Hongkong,Tj-BGroup_9
+      - California,Tj-BGroup_10
+      - Tokyo,V2-BGroup_11
+      - Incheon,V2-BGroup_12
+      - Singapore,V2-BGroup_13
+      - Hongkong,V2-BGroup_14
+      - California,V2-BGroup_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -137,17 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_9
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
+      - Tokyo,SS-BGroup_1
+      - Incheon,SS-BGroup_2
+      - Singapore,SS-BGroup_3
+      - Hongkong,SS-BGroup_4
+      - California,SS-BGroup_5
+      - Tokyo,Tj-BGroup_6
+      - Incheon,Tj-BGroup_7
+      - Singapore,Tj-BGroup_8
+      - Hongkong,Tj-BGroup_9
+      - California,Tj-BGroup_10
+      - Tokyo,V2-BGroup_11
+      - Incheon,V2-BGroup_12
+      - Singapore,V2-BGroup_13
+      - Hongkong,V2-BGroup_14
+      - California,V2-BGroup_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
