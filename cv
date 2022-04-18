@@ -5,9 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇭🇰_HK_香港_1, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_2, server: 223.166.157.41, port: 60021, type: vmess, uuid: 4ea8c14c-b0af-359d-b846-4eb19b31739d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _CN_中国->🇲🇴_MO_澳门_3, server: 223.166.80.206, port: 60012, type: vmess, uuid: 4ea8c14c-b0af-359d-b846-4eb19b31739d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CA_261, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_262, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_263, server: ca-trojan.bonds.id, port: 443, type: trojan, password: 28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_264, server: ca-trojan.bonds.id, port: 443, type: trojan, password: TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_265, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_266, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_267, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_268, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_269, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_270, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_271, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_272, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_273, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_274, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_275, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_276, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_277, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_278, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_279, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_280, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_281, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_282, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_283, server: ca-trojan.bonds.id, port: 443, type: trojan, password: 36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_284, server: ca-trojan.bonds.id, port: 443, type: trojan, password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: FR_398, server: 92.243.24.236, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LE6Ee6PELhVu, udp: true}
+  - {name: ID_495, server: id2-trojan.bonds.id, port: 443, type: trojan, password: 8d4ab0f0-79be-11eb-be0b-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇺🇸US_589, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: JP_591, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY2023115_5a451f03, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇺🇸US_593, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: JP_594, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, skip-cert-verify: true, udp: true}
+  - {name: JP_598, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: JP_599, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: JP_600, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇱🇹LT-🇱🇹LT_611, server: ai2.susenl.com, port: 30010, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
+  - {name: SG_733, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: SG_734, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: SG_735, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_739, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: TW_740, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: TW_741, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: US_755, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: ai1.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: ai1.susenl.com, port: 10031, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: v2-3.godlight.xyz, port: 39270, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
@@ -1196,9 +1234,47 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->🇯🇵_JP_日本_2
-      - _CN_中国->🇲🇴_MO_澳门_3
+      - CA_261
+      - CA_262
+      - CA_263
+      - CA_264
+      - CA_265
+      - CA_266
+      - CA_267
+      - CA_268
+      - CA_269
+      - CA_270
+      - CA_271
+      - CA_272
+      - CA_273
+      - CA_274
+      - CA_275
+      - CA_276
+      - CA_277
+      - CA_278
+      - CA_279
+      - CA_280
+      - CA_281
+      - CA_282
+      - CA_283
+      - CA_284
+      - FR_398
+      - ID_495
+      - Relay_🇯🇵JP-🇺🇸US_589
+      - JP_591
+      - Relay_🇯🇵JP-🇺🇸US_593
+      - JP_594
+      - JP_598
+      - JP_599
+      - JP_600
+      - Relay_🇱🇹LT-🇱🇹LT_611
+      - SG_733
+      - SG_734
+      - SG_735
+      - Relay_🇹🇼TW-🇹🇼TW_739
+      - TW_740
+      - TW_741
+      - US_755
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君)
@@ -2387,9 +2463,47 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->🇯🇵_JP_日本_2
-      - _CN_中国->🇲🇴_MO_澳门_3
+      - CA_261
+      - CA_262
+      - CA_263
+      - CA_264
+      - CA_265
+      - CA_266
+      - CA_267
+      - CA_268
+      - CA_269
+      - CA_270
+      - CA_271
+      - CA_272
+      - CA_273
+      - CA_274
+      - CA_275
+      - CA_276
+      - CA_277
+      - CA_278
+      - CA_279
+      - CA_280
+      - CA_281
+      - CA_282
+      - CA_283
+      - CA_284
+      - FR_398
+      - ID_495
+      - Relay_🇯🇵JP-🇺🇸US_589
+      - JP_591
+      - Relay_🇯🇵JP-🇺🇸US_593
+      - JP_594
+      - JP_598
+      - JP_599
+      - JP_600
+      - Relay_🇱🇹LT-🇱🇹LT_611
+      - SG_733
+      - SG_734
+      - SG_735
+      - Relay_🇹🇼TW-🇹🇼TW_739
+      - TW_740
+      - TW_741
+      - US_755
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君)
