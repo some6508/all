@@ -5,16 +5,33 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ♥️YouTube梦歌♥️_70, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_27, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_46, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_39, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_106, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_45, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_92, server: 60.249.3.226, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_41, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_8, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 599d9e75-08dc-4e9c-b93a-5e455fb5ec42, skip-cert-verify: true, udp: true}
-  - {name: 中国-4_87MB/s(Youtube:不良林)_10, server: 123.59.87.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_1, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_4, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇧🇬_BG_保加利亚_5, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: _CN_中国_6, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_7, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_8, server: 123.59.87.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _PL_波兰_9, server: 217.30.10.64, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_10, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_11, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_12, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_13, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_14, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_15, server: 213.183.53.177, port: 9019, type: ssr, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_16, server: 213.183.53.177, port: 9007, type: ssr, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_17, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_18, server: 54.168.241.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _RU_俄罗斯联邦_19, server: 213.183.53.177, port: 9042, type: ssr, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_20, server: 213.183.53.177, port: 9037, type: ssr, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_21, server: 213.183.53.177, port: 9070, type: ssr, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_22, server: 213.183.53.177, port: 9053, type: ssr, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_23, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_24, server: 213.183.53.177, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_25, server: 213.183.53.177, port: 9045, type: ssr, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _PL_波兰_26, server: 217.30.10.65, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: _PL_波兰_27, server: 217.30.10.65, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: ai1.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: ai1.susenl.com, port: 10031, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: v2-3.godlight.xyz, port: 39270, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
@@ -1197,16 +1214,33 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_27
-      - ♥️YouTube梦歌♥️_46
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_106
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_8
-      - 中国-4_87MB/s(Youtube:不良林)_10
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _CN_中国->🇸🇬_SG_新加坡_4
+      - _CN_中国->🇧🇬_BG_保加利亚_5
+      - _CN_中国_6
+      - _CN_中国->🇸🇬_SG_新加坡_7
+      - _CN_中国->🇯🇵_JP_日本_8
+      - _PL_波兰_9
+      - _CN_中国->🇸🇬_SG_新加坡_10
+      - _CN_中国->🇸🇬_SG_新加坡_11
+      - _CN_中国->🇯🇵_JP_日本_12
+      - _CN_中国->🇸🇬_SG_新加坡_13
+      - _CN_中国->🇹🇼_TW_台湾_14
+      - _RU_俄罗斯联邦_15
+      - _RU_俄罗斯联邦_16
+      - _CN_中国->🇸🇬_SG_新加坡_17
+      - _JP_日本_18
+      - _RU_俄罗斯联邦_19
+      - _RU_俄罗斯联邦_20
+      - _RU_俄罗斯联邦_21
+      - _RU_俄罗斯联邦_22
+      - _RU_俄罗斯联邦_23
+      - _RU_俄罗斯联邦_24
+      - _RU_俄罗斯联邦_25
+      - _PL_波兰_26
+      - _PL_波兰_27
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君)
@@ -2389,16 +2423,33 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_27
-      - ♥️YouTube梦歌♥️_46
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_106
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_8
-      - 中国-4_87MB/s(Youtube:不良林)_10
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _CN_中国->🇸🇬_SG_新加坡_4
+      - _CN_中国->🇧🇬_BG_保加利亚_5
+      - _CN_中国_6
+      - _CN_中国->🇸🇬_SG_新加坡_7
+      - _CN_中国->🇯🇵_JP_日本_8
+      - _PL_波兰_9
+      - _CN_中国->🇸🇬_SG_新加坡_10
+      - _CN_中国->🇸🇬_SG_新加坡_11
+      - _CN_中国->🇯🇵_JP_日本_12
+      - _CN_中国->🇸🇬_SG_新加坡_13
+      - _CN_中国->🇹🇼_TW_台湾_14
+      - _RU_俄罗斯联邦_15
+      - _RU_俄罗斯联邦_16
+      - _CN_中国->🇸🇬_SG_新加坡_17
+      - _JP_日本_18
+      - _RU_俄罗斯联邦_19
+      - _RU_俄罗斯联邦_20
+      - _RU_俄罗斯联邦_21
+      - _RU_俄罗斯联邦_22
+      - _RU_俄罗斯联邦_23
+      - _RU_俄罗斯联邦_24
+      - _RU_俄罗斯联邦_25
+      - _PL_波兰_26
+      - _PL_波兰_27
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君)
