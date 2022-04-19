@@ -5,56 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: trojan1.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_2, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇱🇺_LU_卢森堡_3, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_4, server: ai2.susenl.com, port: 30010, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国_5, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_6, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_7, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_9, server: 213.183.53.177, port: 9000, type: ssr, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_10, server: 213.183.53.177, port: 9098, type: ssr, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_11, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_12, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_13, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: _RU_俄罗斯联邦_14, server: 213.183.53.177, port: 9079, type: ssr, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_15, server: 213.183.53.177, port: 9070, type: ssr, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_16, server: 213.183.53.177, port: 9045, type: ssr, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_17, server: 213.183.53.177, port: 9020, type: ssr, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_18, server: 213.183.53.177, port: 9042, type: ssr, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_19, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _GB_英国_20, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: _US_美国_21, server: ai1.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇩🇪_DE_德国_22, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: _RU_俄罗斯联邦_23, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: _JP_日本_24, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚_25, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_26, server: 213.183.53.177, port: 9064, type: ssr, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CN_中国->🇧🇬_BG_保加利亚_27, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚_28, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: _GB_英国_29, server: 152.89.210.84, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: _RU_俄罗斯联邦_30, server: 213.183.53.177, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_31, server: 213.183.53.177, port: 9019, type: ssr, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_32, server: 213.183.53.177, port: 9032, type: ssr, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_33, server: 213.183.53.177, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_34, server: 213.183.53.177, port: 9053, type: ssr, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_35, server: 213.183.53.177, port: 9026, type: ssr, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_36, server: 213.183.53.177, port: 9018, type: ssr, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_37, server: 213.183.53.177, port: 9011, type: ssr, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_38, server: ai2.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_39, server: 213.183.51.172, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: _NL_荷兰_40, server: 213.183.51.172, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: _SG_新加坡_41, server: 128.199.131.91, port: 41976, type: vmess, uuid: 5db07bd0-e392-45a4-ad73-4663b4b59155, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _RU_俄罗斯联邦_42, server: 213.183.53.177, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_43, server: 213.183.53.200, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_44, server: hax.hax01.tk, port: 443, type: vmess, uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax.hax01.tk}}, udp: true}
-  - {name: _US_美国_45, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_46, server: 117.50.106.86, port: 3389, type: trojan, password: edf497f40f71aeeb, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡_47, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_48, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
-  - {name: default_name_49, server: hax2.hax01.ml, port: 443, type: vmess, uuid: 25af03c3-27ff-4c14-c142-ad7694ec42f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax2.hax01.ml}}, udp: true}
-  - {name: _RU_俄罗斯联邦_50, server: 213.183.53.177, port: 9046, type: ssr, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_1, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇱🇺_LU_卢森堡_2, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国_3, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_4, server: 213.183.53.177, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_5, server: 117.50.106.86, port: 3389, type: trojan, password: edf497f40f71aeeb, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_6, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_7, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_8, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_9, server: ai1.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_10, server: 213.183.53.177, port: 9001, type: ssr, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_11, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: _RU_俄罗斯联邦_12, server: 213.183.53.177, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _JP_日本_13, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 599d9e75-08dc-4e9c-b93a-5e455fb5ec42, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_14, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_15, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_16, server: 213.183.53.177, port: 9042, type: ssr, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: ai1.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: ai1.susenl.com, port: 10031, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: v2-3.godlight.xyz, port: 39270, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
@@ -1276,56 +1242,22 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _US_美国_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _CN_中国->🇱🇺_LU_卢森堡_3
-      - _US_美国_4
-      - _KR_韩国_5
-      - _US_美国_6
-      - _GB_英国_7
-      - _US_美国_8
-      - _RU_俄罗斯联邦_9
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇱🇺_LU_卢森堡_2
+      - _KR_韩国_3
+      - _RU_俄罗斯联邦_4
+      - _CN_中国->🇯🇵_JP_日本_5
+      - _CN_中国->🇸🇬_SG_新加坡_6
+      - _CN_中国->🇸🇬_SG_新加坡_7
+      - _CN_中国->🇸🇬_SG_新加坡_8
+      - _US_美国_9
       - _RU_俄罗斯联邦_10
-      - _US_美国_11
-      - _US_美国_12
-      - _CN_中国->🇺🇸_US_美国_13
-      - _RU_俄罗斯联邦_14
-      - _RU_俄罗斯联邦_15
+      - _CN_中国->🇺🇸_US_美国_11
+      - _RU_俄罗斯联邦_12
+      - _JP_日本_13
+      - _US_美国_14
+      - _US_美国_15
       - _RU_俄罗斯联邦_16
-      - _RU_俄罗斯联邦_17
-      - _RU_俄罗斯联邦_18
-      - _RU_俄罗斯联邦_19
-      - _GB_英国_20
-      - _US_美国_21
-      - _CN_中国->🇩🇪_DE_德国_22
-      - _RU_俄罗斯联邦_23
-      - _JP_日本_24
-      - _AU_澳大利亚_25
-      - _RU_俄罗斯联邦_26
-      - _CN_中国->🇧🇬_BG_保加利亚_27
-      - _CN_中国->🇦🇺_AU_澳大利亚_28
-      - _GB_英国_29
-      - _RU_俄罗斯联邦_30
-      - _RU_俄罗斯联邦_31
-      - _RU_俄罗斯联邦_32
-      - _RU_俄罗斯联邦_33
-      - _RU_俄罗斯联邦_34
-      - _RU_俄罗斯联邦_35
-      - _RU_俄罗斯联邦_36
-      - _RU_俄罗斯联邦_37
-      - _US_美国_38
-      - _NL_荷兰_39
-      - _NL_荷兰_40
-      - _SG_新加坡_41
-      - _RU_俄罗斯联邦_42
-      - _RU_俄罗斯联邦_43
-      - _US_美国_44
-      - _US_美国_45
-      - _CN_中国->🇯🇵_JP_日本_46
-      - _SG_新加坡_47
-      - _JP_日本_48
-      - default_name_49
-      - _RU_俄罗斯联邦_50
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君)
@@ -2547,56 +2479,22 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _US_美国_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _CN_中国->🇱🇺_LU_卢森堡_3
-      - _US_美国_4
-      - _KR_韩国_5
-      - _US_美国_6
-      - _GB_英国_7
-      - _US_美国_8
-      - _RU_俄罗斯联邦_9
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇱🇺_LU_卢森堡_2
+      - _KR_韩国_3
+      - _RU_俄罗斯联邦_4
+      - _CN_中国->🇯🇵_JP_日本_5
+      - _CN_中国->🇸🇬_SG_新加坡_6
+      - _CN_中国->🇸🇬_SG_新加坡_7
+      - _CN_中国->🇸🇬_SG_新加坡_8
+      - _US_美国_9
       - _RU_俄罗斯联邦_10
-      - _US_美国_11
-      - _US_美国_12
-      - _CN_中国->🇺🇸_US_美国_13
-      - _RU_俄罗斯联邦_14
-      - _RU_俄罗斯联邦_15
+      - _CN_中国->🇺🇸_US_美国_11
+      - _RU_俄罗斯联邦_12
+      - _JP_日本_13
+      - _US_美国_14
+      - _US_美国_15
       - _RU_俄罗斯联邦_16
-      - _RU_俄罗斯联邦_17
-      - _RU_俄罗斯联邦_18
-      - _RU_俄罗斯联邦_19
-      - _GB_英国_20
-      - _US_美国_21
-      - _CN_中国->🇩🇪_DE_德国_22
-      - _RU_俄罗斯联邦_23
-      - _JP_日本_24
-      - _AU_澳大利亚_25
-      - _RU_俄罗斯联邦_26
-      - _CN_中国->🇧🇬_BG_保加利亚_27
-      - _CN_中国->🇦🇺_AU_澳大利亚_28
-      - _GB_英国_29
-      - _RU_俄罗斯联邦_30
-      - _RU_俄罗斯联邦_31
-      - _RU_俄罗斯联邦_32
-      - _RU_俄罗斯联邦_33
-      - _RU_俄罗斯联邦_34
-      - _RU_俄罗斯联邦_35
-      - _RU_俄罗斯联邦_36
-      - _RU_俄罗斯联邦_37
-      - _US_美国_38
-      - _NL_荷兰_39
-      - _NL_荷兰_40
-      - _SG_新加坡_41
-      - _RU_俄罗斯联邦_42
-      - _RU_俄罗斯联邦_43
-      - _US_美国_44
-      - _US_美国_45
-      - _CN_中国->🇯🇵_JP_日本_46
-      - _SG_新加坡_47
-      - _JP_日本_48
-      - default_name_49
-      - _RU_俄罗斯联邦_50
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君)
