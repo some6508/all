@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"45.66.157.212","port":10077,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"name":"♥️YouTube梦歌♥️_70","server":"116.129.253.134","port":3389,"type":"trojan","country":"♥️YouTube梦歌♥️_70","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"♥️YouTube梦歌♥️_27","server":"116.129.254.47","port":3389,"type":"trojan","country":"♥️YouTube梦歌♥️_27","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"♥️YouTube梦歌♥️_46","server":"116.129.253.177","port":3389,"type":"trojan","country":"♥️YouTube梦歌♥️_46","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"♥️YouTube梦歌♥️_39","server":"116.129.253.187","port":3389,"type":"trojan","country":"♥️YouTube梦歌♥️_39","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"♥️YouTube梦歌♥️_106","server":"116.129.254.29","port":3389,"type":"trojan","country":"♥️YouTube梦歌♥️_106","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"♥️YouTube梦歌♥️_45","server":"116.129.253.191","port":3389,"type":"trojan","country":"♥️YouTube梦歌♥️_45","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"♥️YouTube梦歌♥️_92","server":"60.249.3.226","port":3389,"type":"trojan","country":"♥️YouTube梦歌♥️_92","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"♥️YouTube梦歌♥️_41","server":"120.232.192.250","port":3385,"type":"trojan","country":"♥️YouTube梦歌♥️_41","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"♥️YouTube梦歌♥️_8","server":"nfjp1.qingyun123.xyz","port":10000,"type":"trojan","country":"♥️YouTube梦歌♥️_8","skip-cert-verify":true,"udp":true,"password":"599d9e75-08dc-4e9c-b93a-5e455fb5ec42"}
+  - {"name":"中国-4_87MB/s(Youtube:不良林)_10","server":"123.59.87.29","port":3389,"type":"trojan","country":"中国-4_87MB/s(Youtube:不良林)_10","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_8
+      - 中国-4_87MB/s(Youtube:不良林)_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_8
+      - 中国-4_87MB/s(Youtube:不良林)_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_8
+      - 中国-4_87MB/s(Youtube:不良林)_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_8
+      - 中国-4_87MB/s(Youtube:不良林)_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_8
+      - 中国-4_87MB/s(Youtube:不良林)_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_8
+      - 中国-4_87MB/s(Youtube:不良林)_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_8
+      - 中国-4_87MB/s(Youtube:不良林)_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
