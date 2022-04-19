@@ -1229,10 +1229,10 @@ proxies:
   - {name: South Korea 01 2, server: s1.lg-blpop.wds-dsa.com, port: 19610, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
   - {name: 荷兰c 2, server: 122.9.62.16, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
   - {name: 新加坡_R_441 3, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: T.07.法国.中继2, server: t2.doggogogo.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gzy002.xyz, skip-cert-verify: true, udp: true}
+  - {name: T.07.法国.中继2, server: t2.doggogogo.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
   - {name: -GB-0415-恢复更新 6, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: defaultName_63 2, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: T.07.法国.中继3, server: cscu.wecanfly.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gzy002.xyz, skip-cert-verify: true, udp: true}
+  - {name: T.07.法国.中继3, server: cscu.wecanfly.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
   - {name: -NL-0416节点 14:00-5, server: 213.183.51.172, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
   - {name: 全球直连② 2, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
   - {name: -NL-0416节点 14:00-25 2, server: 213.183.51.171, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
