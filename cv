@@ -5,30 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇭🇰_HK_香港_1, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_4, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国_5, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_6, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_7, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_8, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_9, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_10, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_11, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡_12, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_13, server: 123.59.72.193, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇧🇬_BG_保加利亚_14, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_15, server: 120.132.50.158, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚_16, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_17, server: 106.75.154.24, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_18, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_19, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_20, server: 113.31.155.165, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_21, server: 113.31.109.30, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_22, server: 106.75.168.104, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾_23, server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾_24, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: _US_美国_2, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_3, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: jgw4.gaox.ml, port: 443, type: trojan, password: b7e0e71f-070c-437a-9826-6e23caeb0307, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 183.240.181.57, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
@@ -1255,30 +1234,9 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _CN_中国_5
-      - _CN_中国->🇸🇬_SG_新加坡_6
-      - _CN_中国->🇸🇬_SG_新加坡_7
-      - _CN_中国->🇸🇬_SG_新加坡_8
-      - _CN_中国->🇸🇬_SG_新加坡_9
-      - _CN_中国->🇹🇼_TW_台湾_10
-      - _CN_中国->🇸🇬_SG_新加坡_11
-      - _SG_新加坡_12
-      - _CN_中国->🇯🇵_JP_日本_13
-      - _CN_中国->🇧🇬_BG_保加利亚_14
-      - _CN_中国->🇯🇵_JP_日本_15
-      - _CN_中国->🇦🇺_AU_澳大利亚_16
-      - _CN_中国->🇯🇵_JP_日本_17
-      - _CN_中国->🇺🇸_US_美国_18
-      - _CN_中国->🇯🇵_JP_日本_19
-      - _CN_中国->🇯🇵_JP_日本_20
-      - _CN_中国->🇯🇵_JP_日本_21
-      - _CN_中国->🇯🇵_JP_日本_22
-      - _TW_台湾_23
-      - _TW_台湾_24
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_2
+      - _CN_中国->🇯🇵_JP_日本_3
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2505,30 +2463,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _CN_中国_5
-      - _CN_中国->🇸🇬_SG_新加坡_6
-      - _CN_中国->🇸🇬_SG_新加坡_7
-      - _CN_中国->🇸🇬_SG_新加坡_8
-      - _CN_中国->🇸🇬_SG_新加坡_9
-      - _CN_中国->🇹🇼_TW_台湾_10
-      - _CN_中国->🇸🇬_SG_新加坡_11
-      - _SG_新加坡_12
-      - _CN_中国->🇯🇵_JP_日本_13
-      - _CN_中国->🇧🇬_BG_保加利亚_14
-      - _CN_中国->🇯🇵_JP_日本_15
-      - _CN_中国->🇦🇺_AU_澳大利亚_16
-      - _CN_中国->🇯🇵_JP_日本_17
-      - _CN_中国->🇺🇸_US_美国_18
-      - _CN_中国->🇯🇵_JP_日本_19
-      - _CN_中国->🇯🇵_JP_日本_20
-      - _CN_中国->🇯🇵_JP_日本_21
-      - _CN_中国->🇯🇵_JP_日本_22
-      - _TW_台湾_23
-      - _TW_台湾_24
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_2
+      - _CN_中国->🇯🇵_JP_日本_3
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
