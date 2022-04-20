@@ -5,16 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_4, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_5, server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_6, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_7, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_8, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_9, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡_10, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: vn.iplc.skin, port: 11113, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn.iplc.skin}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
@@ -1297,16 +1287,6 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _CN_中国->🇸🇬_SG_新加坡_5
-      - _CN_中国->🇸🇬_SG_新加坡_6
-      - _CN_中国->🇸🇬_SG_新加坡_7
-      - _CN_中国->🇸🇬_SG_新加坡_8
-      - _CN_中国->🇸🇬_SG_新加坡_9
-      - _SG_新加坡_10
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2589,16 +2569,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _CN_中国->🇸🇬_SG_新加坡_5
-      - _CN_中国->🇸🇬_SG_新加坡_6
-      - _CN_中国->🇸🇬_SG_新加坡_7
-      - _CN_中国->🇸🇬_SG_新加坡_8
-      - _CN_中国->🇸🇬_SG_新加坡_9
-      - _SG_新加坡_10
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
