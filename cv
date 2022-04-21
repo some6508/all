@@ -5,39 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: SG_0443atWangCai_1, server: 139.162.52.177, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: SG_2375atWangCai_1, server: 139.162.52.177, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: SG_2376atWangCai_1, server: 139.162.52.177, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: SG_3306atWangCai_1, server: 139.162.52.177, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG_3389atWangCai_1, server: 139.162.52.177, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG_4444atWangCai_1, server: 139.162.52.177, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: SG_5000atWangCai_1, server: 139.162.52.177, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG_5001atWangCai_1, server: 139.162.52.177, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG_5003atWangCai_1, server: 139.162.52.177, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: SG_5004atWangCai_1, server: 139.162.52.177, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: SG_5500atWangCai_1, server: 139.162.52.177, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: SG_5600atWangCai_1, server: 139.162.52.177, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG_5601atWangCai_1, server: 139.162.52.177, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG_6379atWangCai_1, server: 139.162.52.177, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: SG_6679atWangCai_1, server: 139.162.52.177, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: SG_6697atWangCai_1, server: 139.162.52.177, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: SG_7001atWangCai_1, server: 139.162.52.177, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: SG_7002atWangCai_1, server: 139.162.52.177, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: SG_7306atWangCai_1, server: 139.162.52.177, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: SG_7307atWangCai_1, server: 139.162.52.177, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: SG_8000atWangCai_1, server: 139.162.52.177, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: SG_8008atWangCai_1, server: 139.162.52.177, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: SG_8009atWangCai_1, server: 139.162.52.177, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: SG_8080atWangCai_1, server: 139.162.52.177, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: SG_8090atWangCai_1, server: 139.162.52.177, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: SG_8091atWangCai_1, server: 139.162.52.177, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: SG_8118atWangCai_1, server: 139.162.52.177, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: SG_8119atWangCai_1, server: 139.162.52.177, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: SG_8881atWangCai_1, server: 139.162.52.177, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: SG_8882atWangCai_1, server: 139.162.52.177, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: SG_8888atWangCai_1, server: 139.162.52.177, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG_9101atWangCai_1, server: 139.162.52.177, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: SG_9102atWangCai_1, server: 139.162.52.177, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 洛杉矶SSR_1, server: 149.28.66.52, port: 12345, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 洛杉矶SSR_3, server: 45.66.157.106, port: 33333, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, sni: 116.129.253.134, skip-cert-verify: true, udp: true}
@@ -1173,39 +1142,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - SG_0443atWangCai_1
-      - SG_2375atWangCai_1
-      - SG_2376atWangCai_1
-      - SG_3306atWangCai_1
-      - SG_3389atWangCai_1
-      - SG_4444atWangCai_1
-      - SG_5000atWangCai_1
-      - SG_5001atWangCai_1
-      - SG_5003atWangCai_1
-      - SG_5004atWangCai_1
-      - SG_5500atWangCai_1
-      - SG_5600atWangCai_1
-      - SG_5601atWangCai_1
-      - SG_6379atWangCai_1
-      - SG_6679atWangCai_1
-      - SG_6697atWangCai_1
-      - SG_7001atWangCai_1
-      - SG_7002atWangCai_1
-      - SG_7306atWangCai_1
-      - SG_7307atWangCai_1
-      - SG_8000atWangCai_1
-      - SG_8008atWangCai_1
-      - SG_8009atWangCai_1
-      - SG_8080atWangCai_1
-      - SG_8090atWangCai_1
-      - SG_8091atWangCai_1
-      - SG_8118atWangCai_1
-      - SG_8119atWangCai_1
-      - SG_8881atWangCai_1
-      - SG_8882atWangCai_1
-      - SG_8888atWangCai_1
-      - SG_9101atWangCai_1
-      - SG_9102atWangCai_1
+      - 洛杉矶SSR_1
+      - 洛杉矶SSR_3
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2341,39 +2279,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - SG_0443atWangCai_1
-      - SG_2375atWangCai_1
-      - SG_2376atWangCai_1
-      - SG_3306atWangCai_1
-      - SG_3389atWangCai_1
-      - SG_4444atWangCai_1
-      - SG_5000atWangCai_1
-      - SG_5001atWangCai_1
-      - SG_5003atWangCai_1
-      - SG_5004atWangCai_1
-      - SG_5500atWangCai_1
-      - SG_5600atWangCai_1
-      - SG_5601atWangCai_1
-      - SG_6379atWangCai_1
-      - SG_6679atWangCai_1
-      - SG_6697atWangCai_1
-      - SG_7001atWangCai_1
-      - SG_7002atWangCai_1
-      - SG_7306atWangCai_1
-      - SG_7307atWangCai_1
-      - SG_8000atWangCai_1
-      - SG_8008atWangCai_1
-      - SG_8009atWangCai_1
-      - SG_8080atWangCai_1
-      - SG_8090atWangCai_1
-      - SG_8091atWangCai_1
-      - SG_8118atWangCai_1
-      - SG_8119atWangCai_1
-      - SG_8881atWangCai_1
-      - SG_8882atWangCai_1
-      - SG_8888atWangCai_1
-      - SG_9101atWangCai_1
-      - SG_9102atWangCai_1
+      - 洛杉矶SSR_1
+      - 洛杉矶SSR_3
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
