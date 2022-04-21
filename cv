@@ -5,42 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_4, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_5, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_6, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_7, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡_8, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_9, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_10, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚_11, server: 185.167.116.253, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: _AU_澳大利亚_12, server: 185.167.116.253, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_13, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_14, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_15, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_16, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_17, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _PL_波兰_18, server: 217.30.10.66, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: _PL_波兰_19, server: 217.30.10.66, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: _US_美国_20, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_21, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_22, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_23, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_24, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_25, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _AU_澳大利亚_26, server: 185.167.116.253, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: _PL_波兰_27, server: 217.30.10.64, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: _US_美国_28, server: 97.64.21.214, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: _JP_日本_29, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_30, server: 213.183.53.177, port: 9097, type: ssr, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_31, server: 213.183.53.177, port: 9037, type: ssr, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_32, server: 213.183.53.177, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _PL_波兰_33, server: 217.30.10.66, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: _PL_波兰_34, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: _US_美国_35, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国_36, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github_com/freefq-美国Microsoft数据中心2_1, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 6500b5f0-ca3f-4bfe-bc54-75ca11c22830, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-美国Microsoft数据中心3_2, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: e7bfb243-785a-46a5-9fb1-5f67737aa972, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心7_3, server: 213.183.51.171, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: github_com/freefq-英国伦敦Oracle云计算数据中心12_4, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-乌克兰14_5, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-乌克兰20_6, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-日本东京Linode数据中心21_7, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-澳大利亚悉尼Oracle云计算数据中心27_8, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-乌克兰29_9, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-美国32_10, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-美国3COM公司企业网33_11, server: jgwxn1.gaox.ml, port: 443, type: trojan, password: 0f715619-0037-4358-a7c6-958106bc6b49, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-美国加利福尼亚州洛杉矶QuadraNet数据中心34_12, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-美国Microsoft数据中心35_13, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-捷克布拉格Friendhosting有限责任公司37_14, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: vn.iplc.skin, port: 11113, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn.iplc.skin}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
@@ -1307,42 +1285,20 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _CN_中国->🇸🇬_SG_新加坡_5
-      - _CN_中国->🇸🇬_SG_新加坡_6
-      - _CN_中国->🇸🇬_SG_新加坡_7
-      - _SG_新加坡_8
-      - _CN_中国->🇸🇬_SG_新加坡_9
-      - _CN_中国->🇸🇬_SG_新加坡_10
-      - _AU_澳大利亚_11
-      - _AU_澳大利亚_12
-      - _CN_中国->🇯🇵_JP_日本_13
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_14
-      - _CN_中国->🇹🇼_TW_台湾_15
-      - _CN_中国->🇺🇸_US_美国_16
-      - _CN_中国->🇰🇷_KR_韩国_17
-      - _PL_波兰_18
-      - _PL_波兰_19
-      - _US_美国_20
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_21
-      - _CN_中国->🇯🇵_JP_日本_22
-      - _CN_中国->🇺🇸_US_美国_23
-      - _CN_中国->🇰🇷_KR_韩国_24
-      - _CN_中国->🇹🇼_TW_台湾_25
-      - _AU_澳大利亚_26
-      - _PL_波兰_27
-      - _US_美国_28
-      - _JP_日本_29
-      - _RU_俄罗斯联邦_30
-      - _RU_俄罗斯联邦_31
-      - _RU_俄罗斯联邦_32
-      - _PL_波兰_33
-      - _PL_波兰_34
-      - _US_美国_35
-      - _US_美国_36
+      - github_com/freefq-美国Microsoft数据中心2_1
+      - github_com/freefq-美国Microsoft数据中心3_2
+      - github_com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心7_3
+      - github_com/freefq-英国伦敦Oracle云计算数据中心12_4
+      - github_com/freefq-乌克兰14_5
+      - github_com/freefq-乌克兰20_6
+      - github_com/freefq-日本东京Linode数据中心21_7
+      - github_com/freefq-澳大利亚悉尼Oracle云计算数据中心27_8
+      - github_com/freefq-乌克兰29_9
+      - github_com/freefq-美国32_10
+      - github_com/freefq-美国3COM公司企业网33_11
+      - github_com/freefq-美国加利福尼亚州洛杉矶QuadraNet数据中心34_12
+      - github_com/freefq-美国Microsoft数据中心35_13
+      - github_com/freefq-捷克布拉格Friendhosting有限责任公司37_14
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2609,42 +2565,20 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _CN_中国->🇸🇬_SG_新加坡_5
-      - _CN_中国->🇸🇬_SG_新加坡_6
-      - _CN_中国->🇸🇬_SG_新加坡_7
-      - _SG_新加坡_8
-      - _CN_中国->🇸🇬_SG_新加坡_9
-      - _CN_中国->🇸🇬_SG_新加坡_10
-      - _AU_澳大利亚_11
-      - _AU_澳大利亚_12
-      - _CN_中国->🇯🇵_JP_日本_13
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_14
-      - _CN_中国->🇹🇼_TW_台湾_15
-      - _CN_中国->🇺🇸_US_美国_16
-      - _CN_中国->🇰🇷_KR_韩国_17
-      - _PL_波兰_18
-      - _PL_波兰_19
-      - _US_美国_20
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_21
-      - _CN_中国->🇯🇵_JP_日本_22
-      - _CN_中国->🇺🇸_US_美国_23
-      - _CN_中国->🇰🇷_KR_韩国_24
-      - _CN_中国->🇹🇼_TW_台湾_25
-      - _AU_澳大利亚_26
-      - _PL_波兰_27
-      - _US_美国_28
-      - _JP_日本_29
-      - _RU_俄罗斯联邦_30
-      - _RU_俄罗斯联邦_31
-      - _RU_俄罗斯联邦_32
-      - _PL_波兰_33
-      - _PL_波兰_34
-      - _US_美国_35
-      - _US_美国_36
+      - github_com/freefq-美国Microsoft数据中心2_1
+      - github_com/freefq-美国Microsoft数据中心3_2
+      - github_com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心7_3
+      - github_com/freefq-英国伦敦Oracle云计算数据中心12_4
+      - github_com/freefq-乌克兰14_5
+      - github_com/freefq-乌克兰20_6
+      - github_com/freefq-日本东京Linode数据中心21_7
+      - github_com/freefq-澳大利亚悉尼Oracle云计算数据中心27_8
+      - github_com/freefq-乌克兰29_9
+      - github_com/freefq-美国32_10
+      - github_com/freefq-美国3COM公司企业网33_11
+      - github_com/freefq-美国加利福尼亚州洛杉矶QuadraNet数据中心34_12
+      - github_com/freefq-美国Microsoft数据中心35_13
+      - github_com/freefq-捷克布拉格Friendhosting有限责任公司37_14
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
