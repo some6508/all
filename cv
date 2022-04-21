@@ -646,9 +646,7 @@ proxies:
   - {name: "SG,", server: 54.179.181.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "US, 5", server: 65.49.193.51, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
   - {name: "JP, 3", server: 54.254.25.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: v3-node99.mimemi-y7et.com:7001, server: v3-node99.mimemi-y7et.com, port: 7001, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: _GB_英国, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1050,255 +1048,186 @@ proxies:
   - {name: github.com/freefq - 美国Microsoft数据中心 36, server: hkforward.qtylink.tk, port: 10001, type: trojan, password: 6afcbe8f-c4a7-3aa3-9965-e1dfd71e8c28, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 乌克兰  37, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 美国Microsoft数据中心 38, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线6, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线1, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线5, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK01｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线9, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 01香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线01, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线8, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 09香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线1, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线5, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线3, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线04, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 02香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线03, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线3, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线4, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK02｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线06, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线4, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK09｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线07, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线02, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线08, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK06｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 05香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线6, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK03｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线8, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK04｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 03香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线2, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜运营商专线7, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线09, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK08｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线2, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 04香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK07｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线9, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港BGP｜游戏专线05, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 07香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK倍率0｜商务专线7, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 流解｜HK05｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 233v2.com_52.140.213.121, server: 52.140.213.121, port: 80, type: vmess, uuid: fb558ac3-584b-4b9e-af34-be4e06833cf1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本大板_AS_1G_J4_17, server: jp4.bpyun.live, port: 443, type: vmess, uuid: b081acc8-a10c-359a-85b0-97157767fe8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cocksucker, headers: {Host: jp4.bpyun.live}}, udp: true}
-  - {name: 日本大板_AS_1G_J3_16, server: jp3.bpyun.live, port: 443, type: vmess, uuid: b081acc8-a10c-359a-85b0-97157767fe8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cocksucker, headers: {Host: jp3.bpyun.live}}, udp: true}
-  - {name: RU_tg+univstar, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: 213.183.51.171:9008, server: 213.183.51.171, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: KR_tg univstar, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: VIP-v2ray-Hong Kong 06, server: iepl.hk.stohb.nodeg.cloud, port: 30021, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VIP-v2ray-Hong Kong 05, server: iepl.hk.stoha.nodeg.cloud, port: 30020, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VIP-v2ray-Taiwan 01, server: iepl.hk.stoha.nodeg.cloud, port: 30009, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VIP-v2ray-Hong Kong 02, server: iepl.hk.stohb.nodeg.cloud, port: 30002, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bing.com}}, udp: true}
-  - {name: VIP-v2ray-Taiwan 02, server: iepl.hk.stohb.nodeg.cloud, port: 30010, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VIP-v2ray-Singapore 01, server: iepl.hk.stoha.nodeg.cloud, port: 30007, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray-Hong Kong 04, server: gtr.ghz2.nodeg.cloud, port: 25026, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray-Hong Kong 02, server: gtr.ghz2.nodeg.cloud, port: 25025, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VIP-v2ray-Hong Kong 01, server: iepl.hk.stoha.nodeg.cloud, port: 30001, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VIP-v2ray-Japan 01, server: iepl.hk.stoha.nodeg.cloud, port: 30005, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray-Taiwan 02, server: gtr.ghz2.nodeg.cloud, port: 25015, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray-Hong Kong 05, server: gtr.ghz1.nodeg.cloud, port: 25023, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray-Singapore 02, server: gtr.ghz2.nodeg.cloud, port: 25013, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray-Hong Kong 03, server: gtr.ghz1.nodeg.cloud, port: 25022, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray-Hong Kong 01, server: gtr.ghz1.nodeg.cloud, port: 25021, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 【TLS】/台湾/A/Hinet/NF/动画疯/, server: bd-01.leafff.com, port: 50224, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 【Tunnel】台湾/D/Hinet/NF/动画疯/, server: tw-04.linkstar.icu, port: 50706, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw-04.linkstar.icu}}, udp: true}
-  - {name: 【Tunnel】日本/F/NF/D /, server: jp-06.linkstar.icu, port: 50715, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-06.linkstar.icu}}, udp: true}
-  - {name: 【TLS】/荷兰/A/, server: nl-01.linkstar.icu, port: 51014, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 【Tunnel】香港/A/NF/, server: hk-01.linkstar.icu, port: 50705, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-01.linkstar.icu}}, udp: true}
-  - {name: 【TLS】/洛杉矶/B/, server: la-02.linkstar.icu, port: 51202, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 【TLS】/圣何塞/B/, server: sj-02.linkstar.icu, port: 51115, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 【TLS】/洛杉矶/A/, server: la-01.linkstar.icu, port: 50924, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 【TLS】/Novosibirsk/C/NF/, server: novosibirsk-03.leafff.com, port: 50225, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 【TLS】/Novosibirsk/D/NF/, server: novosibirsk-04.leafff.com, port: 50225, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 【TLS】/Vegas/H/NF/D /, server: las-08.leafff.com, port: 50228, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 【TLS】/Vegas/E/NF/D /, server: las-05.leafff.com, port: 50225, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: defaultName_43, server: 213.183.53.200, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: defaultName_36, server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: defaultName_9, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: _US_美国_11, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_7, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: defaultName_22, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: _US_美国_8, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: JP_TG univstar_87, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
-  - {name: SG_TG univstar_94, server: v2-2.godlight.xyz, port: 30523, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
-  - {name: JP_TG univstar_88, server: v2-1.godlight.xyz, port: 12233, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
-  - {name: US_TG+univstar_26, server: in-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Japan 03, server: s1.lg-blpop.wds-dsa.com, port: 19607, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: Japan 02, server: s1.lg-blpop.wds-dsa.com, port: 19606, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: Singapore 01, server: s1.lg-blpop.wds-dsa.com, port: 19705, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: South Korea 02, server: s1.lg-blpop.wds-dsa.com, port: 19611, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: America 02, server: s1.lg-blpop.wds-dsa.com, port: 19601, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: America 03, server: s1.lg-blpop.wds-dsa.com, port: 19602, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: <about:@freeyule>, server: s1.lg-blpop.wds-dsa.com, port: 19700, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong 02, server: s1.lg-blpop.wds-dsa.com, port: 19701, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_51, server: 120.232.192.250, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_57, server: 120.232.192.250, port: 3384, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_36, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_55, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_40, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_39, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_52, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_48, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_65, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_41, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_61, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_58, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_34, server: 120.232.192.250, port: 3384, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: HK 107, server: hkaz7.xmrth-node.xyz, port: 10162, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 节点421 30, server: v4-node47.mimemi-u1sd.com, port: 13107, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 8, server: v3-node29.mimemi-y7et.com, port: 13139, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 4, server: v3-node27.mimemi-u1sd.com, port: 13141, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 2, server: v3-node29.mimemi-y7et.com, port: 13139, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 6, server: v4-node85.mimemi-u1sd.com, port: 7015, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 香港, server: dns.ysguanggang.xyz, port: 30008, type: vmess, uuid: f1886be0-5338-493d-ae5e-2cfea20a73b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: "%7B%22Host%22:%22dns.ysguanggang.xyz%22%7D"}}, udp: true}
+  - {name: 日本 3, server: jpaz4.xmrth-node.xyz, port: 10091, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: 节点421 19, server: v3-node13.mimemi-y7et.com, port: 13121, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 9, server: v4-node85.mimemi-u1sd.com, port: 7015, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 35, server: v3-node99.mimemi-y7et.com, port: 7001, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 25, server: v3-node99.mimemi-y7et.com, port: 7001, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 33, server: v4-node47.mimemi-u1sd.com, port: 13107, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 23, server: v3-node28.mimemi-y7et.com, port: 13116, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 27, server: v3-node28.mimemi-y7et.com, port: 13116, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 21, server: v4-node55.mimemi-y7et.com, port: 8101, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 节点421 40, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: Large 港17 - all | IEPL | 倍率:1.8, server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Play2 港 - 遊戲專用|視頻限速 | 倍率:20, server: loe5aeno.nodeinfo.icu, port: 520, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港03 - allmedia | MIEPL | 倍率:1.8, server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港11 - nf | IEPL | 倍率:1.6, server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港24 - nfo | IEPL | 倍率:1.6, server: phahx7xo.nodeinfo.icu, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港23 - nfo | IEPL | 倍率:1.6, server: shei5eij.nodeinfo.icu, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港10 - nf | IEPL | 倍率:1.6, server: thoo6foh.nodeinfo.icu, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港04 - allmedia | MIEPL | 倍率:1.8, server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港15 - allmedia | MIEPL | 倍率:1.6, server: phu8iej2.nodeinfo.icu, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港08 - all | IEPL | 倍率:1.6, server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: Large 港14 - nf | MIEPL | 倍率:1.6, server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 159729:555, obfs-param: fdca9192702.www.gov.hk, udp: true}
+  - {name: 香港-A | 直连 | 公益节点服务永远不会降级 | V2ray, server: hk-a.vmess.top, port: 53601, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdxsaduesadwadxi, headers: {Host: hk-a.vmess.top}}, udp: true}
+  - {name: 香港-D | 隧道 | V2ray, server: dx-hk.vmess.top, port: 53810, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdasdxusadexi, headers: {Host: dx-hk.vmess.top}}, udp: true}
+  - {name: 印度-B | 隧道 | Trojan, server: dx-hk.vmess.top, port: 53713, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-B | 隧道 | Trojan, server: lt-jp.vmess.top, port: 53702, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-H | 隧道 | Trojan, server: lt-jp.vmess.top, port: 53709, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-G | 直连 | V2ray, server: az-jp-a.vmess.top, port: 53602, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdasdueasdasdasdxi, headers: {Host: az-jp-a.vmess.top}}, udp: true}
+  - {name: 日本-C | 直连 | Tg群组内不定时发放福利 | Trojan, server: jp-b.vmess.top, port: 56656, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: jp-b.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 香港-C | 直连 | 下载用 |V2ray, server: hk-a.vmess.top, port: 53603, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdxsaduesadwadxi, headers: {Host: hk-a.vmess.top}}, udp: true}
+  - {name: 新加坡-D | 隧道 | Trojan, server: dx-hk.vmess.top, port: 53711, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-D | 隧道 | Trojan, server: lt-jp.vmess.top, port: 53707, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-H | 隧道 | V2ray, server: lt-jp.vmess.top, port: 53809, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdasdueasddasi, headers: {Host: lt-jp.vmess.top}}, udp: true}
+  - {name: 日本-F | 隧道 | V2ray, server: lt-jp.vmess.top, port: 53808, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdasdxasdueasdasdasdxi, headers: {Host: lt-jp.vmess.top}}, udp: true}
+  - {name: 日本-F | 隧道 | Trojan, server: lt-jp.vmess.top, port: 53708, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-A | 直连 | Trojan, server: jp-a.vmess.top, port: 56656, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: jp-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-D | 隧道 | V2ray, server: lt-jp.vmess.top, port: 53807, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdadsxuasdasdexasdasdi, headers: {Host: lt-jp.vmess.top}}, udp: true}
+  - {name: 日本-E | 直连 | Trojan, server: jp-c.vmess.top, port: 56656, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: jp-c.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-B | 隧道 | V2ray, server: lt-jp.vmess.top, port: 53802, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sdawasdxuesadwaxi, headers: {Host: lt-jp.vmess.top}}, udp: true}
+  - {name: 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan, server: us-b.vmess.top, port: 56656, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: us-b.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-A | 直连 | V2ray, server: jp-a.vmess.top, port: 56669, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xuexsadwadsadwaxi, headers: {Host: jp-a.vmess.top}}, udp: true}
+  - {name: 日本-E | 直连 | V2ray, server: jp-c.vmess.top, port: 56669, type: vmess, uuid: 0105a9ef-9025-4c26-9dd0-fb898b852c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdasdxuasdasdeasdasdxi, headers: {Host: jp-c.vmess.top}}, udp: true}
+  - {name: 美国-A | 直连 | Netflix | Trojan, server: us-a.vmess.top, port: 56656, type: trojan, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96, sni: us-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: HK_TG univstar_32, server: 104.208.99.147, port: 80, type: vmess, uuid: 7f887396-1b8d-4ebc-a28b-8b046295be57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: JP_q, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: US_, server: hk-a.vmess.top, port: 53601, type: trojan, password: e4701d38-c416-4049-9c2b-59b837616830, sni: hk-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: RO_TG univstar_31, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: italy-milan.mah3Hoet.com}}, udp: true}
+  - {name: GB_TG univstar_30, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}, udp: true}
+  - {name: 185.126.116.125:9027, server: 185.126.116.125, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: HK 102, server: hkaz2.xmrth-node.xyz, port: 11157, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK 005, server: hkaz005.xmrth-node.xyz, port: 10276, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK 006, server: hkaz006.xmrth-node.xyz, port: 10037, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: HK 003, server: hkaz003.xmrth-node.xyz, port: 10002, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: HK 103, server: hkaz3.xmrth-node.xyz, port: 10305, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: HK 002, server: hkaz002.xmrth-node.xyz, port: 10281, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: HK 009, server: hkaz009.xmrth-node.xyz, port: 10275, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: HK 105, server: hkaz5.xmrth-node.xyz, port: 11495, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: HK 101, server: hkaz1.xmrth-node.xyz, port: 10978, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: HK 001, server: hkaz001.xmrth-node.xyz, port: 10163, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: HK 007, server: hkaz007.xmrth-node.xyz, port: 10296, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK 004, server: hkaz004.xmrth-node.xyz, port: 10003, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: HK 106, server: hkaz6.xmrth-node.xyz, port: 11283, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: "|33.16Mb", server: 43.155.117.192, port: 37132, type: vmess, uuid: 0dda776a-5426-4003-8b08-c791971613c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU_24 |10.65Mb, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU_21 | 5.42Mb, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU_18 |29.43Mb, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU_21 | 7.87Mb, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_8, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_5, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_3, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_7, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_10, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_6, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: 120.232.192.250, port: 3384, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_1, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: -NL-0416节点 14:00-29, server: 213.183.51.172, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: -NL-0416节点 14:00-45, server: 213.183.51.172, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: -NL-0416节点 14:00-28, server: 213.183.51.171, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: -NL-0416节点 14:00-10, server: 213.183.51.172, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: -NL-0416节点 14:00-23, server: 213.183.51.171, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: -GB-0415-恢复更新, server: 152.89.210.84, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: -GB-0415-恢复更新 2, server: 152.89.210.84, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: -GB-0415-恢复更新 3, server: 152.89.210.84, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: -GB-0415-恢复更新 4, server: 152.89.210.84, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: -GB-0415-恢复更新 5, server: 152.89.210.84, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 日本节点1(免费已限速)vmess协议, server: 20.27.54.191, port: 10001, type: vmess, uuid: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: HK 002 2, server: hkaz002.xmrth-node.xyz, port: 10281, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: HK 105 2, server: hkaz5.xmrth-node.xyz, port: 11495, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: HK 106 2, server: hkaz6.xmrth-node.xyz, port: 11283, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: HK 010, server: hkaz010.xmrth-node.xyz, port: 10283, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: HK 005, server: hkaz005.xmrth-node.xyz, port: 10276, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: HK 001 2, server: hkaz001.xmrth-node.xyz, port: 10163, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: HK 102, server: hkaz2.xmrth-node.xyz, port: 11157, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: JP 101, server: jpaz1.xmrth-node.xyz, port: 10052, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: defaultName_15, server: ieplszhk-sz.qqgg.work, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_5, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_6, server: iepl-hn01.qqgg.work, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_37, server: ieplszhk-sz.qqgg.work, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: HK 006, server: hkaz006.xmrth-node.xyz, port: 10037, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 新加坡_R_441, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_5 2, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: AU_18 |29.43Mb 2, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU_21 | 7.87Mb 2, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾_R_338, server: iepl-hn01.qqgg.work, port: 20399, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: Hong Kong 03, server: s1.lg-blpop.wds-dsa.com, port: 19702, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: defaultName_25, server: iepl-gz.yyuuii.cyou, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: SG A 003, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: SG A 006, server: hkaz6.xmrth-node.xyz, port: 11284, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: JP 101, server: jpaz1.xmrth-node.xyz, port: 10052, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: JP 104, server: jpaz4.xmrth-node.xyz, port: 10088, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 新加坡_R_441 2, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: JP B 004, server: jpaz4.xmrth-node.xyz, port: 10091, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: JP B 003, server: jpaz3.xmrth-node.xyz, port: 11012, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 越南_R_380, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: JP 103, server: jpaz3.xmrth-node.xyz, port: 11140, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_61 2, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 香港_R_160, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_36 2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_58 2, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_52 2, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 日本_R_498, server: iepl-hn01.qqgg.work, port: 27078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 新加坡_1 2, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_5 2, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_39 2, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_7 2, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_40 2, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_10 2, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: defaultName_33, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_48 2, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_51 2, server: 120.232.192.250, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_6 2, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_8 2, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: JP 004, server: jplin004.xmrth-node.xyz, port: 11307, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: defaultName_33 2, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: T.07.法国.中继3, server: cscu.wecanfly.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
-  - {name: 越南_R_377, server: iepl-gz.yyuuii.cyou, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: KR A 002, server: hkaz2.xmrth-node.xyz, port: 11152, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 萨拉热窝b, server: 120.232.214.153, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
-  - {name: 荷兰c, server: 122.9.62.16, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: "PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]", server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
-  - {name: 荷兰c 2, server: 122.9.62.16, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: 挪威推荐, server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
-  - {name: KR 006, server: kraws006.xmrth-node.xyz, port: 11895, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 萨拉热窝a, server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
-  - {name: Japan 02 2, server: s1.lg-blpop.wds-dsa.com, port: 19606, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: Taiwan 01, server: s1.lg-blpop.wds-dsa.com, port: 19710, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: 萨拉热窝a 2, server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
-  - {name: T.07.法国.中继2, server: t2.doggogogo.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
-  - {name: South Korea 01, server: s1.lg-blpop.wds-dsa.com, port: 19610, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: "PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]", server: 122.9.54.58, port: 2266, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: "PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦] 2", server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
-  - {name: defaultName_49, server: gzyd-01.yyuuii.cyou, port: 20003, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 荷兰b, server: 122.9.62.6, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: South Korea 01 2, server: s1.lg-blpop.wds-dsa.com, port: 19610, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: 荷兰a, server: 122.9.54.58, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: 全球直连①, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: defaultName_41, server: gzyd-01.yyuuii.cyou, port: 20002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_18, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 挪威推荐 2, server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
-  - {name: 全球直连③, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: -NL-0416节点 14:00-45 2, server: 213.183.51.172, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: KR 003, server: kraws003.xmrth-node.xyz, port: 11889, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: -NL-0416节点 14:00-25, server: 213.183.51.171, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: Singapore 03, server: s1.lg-blpop.wds-dsa.com, port: 19707, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: -NL-0416节点 14:00-56, server: 213.183.51.172, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 全球直连②, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: defaultName_63, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 印度_R_361, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 伊斯坦布尔d, server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
-  - {name: Taiwan 02, server: s1.lg-blpop.wds-dsa.com, port: 19711, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: -GB-0415-恢复更新 6, server: 152.89.210.84, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: Singapore 01 2, server: s1.lg-blpop.wds-dsa.com, port: 19705, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: defaultName_63 2, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: Singapore 01 3, server: s1.lg-blpop.wds-dsa.com, port: 19705, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: South Korea 02 2, server: s1.lg-blpop.wds-dsa.com, port: 19611, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: IN B 003, server: jpaz3.xmrth-node.xyz, port: 11015, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: -GB-0415-恢复更新 7, server: 152.89.210.84, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: -GB-0415-恢复更新 8, server: 152.89.210.84, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 全球直连③ 2, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: -NL-0416节点 14:00-5, server: 213.183.51.172, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: "网址: upyun.online/reg", server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: America 02 2, server: s1.lg-blpop.wds-dsa.com, port: 19601, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: defaultName_18 2, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_41 2, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Taiwan 02 2, server: s1.lg-blpop.wds-dsa.com, port: 19711, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong 03 2, server: s1.lg-blpop.wds-dsa.com, port: 19702, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
+  - {name: IN A 002, server: hkaz2.xmrth-node.xyz, port: 11154, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK 201, server: hgc1.xmrth-node.xyz, port: 12848, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: SG 001, server: sgaws001.xmrth-node.xyz, port: 12868, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: JP B 001, server: jpaz1.xmrth-node.xyz, port: 11178, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: AU_20 | 6.71Mb, server: 43.132.109.14, port: 24886, type: vmess, uuid: 55711bf8-4785-4e86-9f5e-2fa64466c233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_24 |10.65Mb, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港 2, server: 120.232.192.250, port: 3384, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: AU_21 | 5.42Mb, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_21 | 7.87Mb, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_18 |29.43Mb, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|33.13Mb", server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "CTVIP-HK-3[ran-out](trojan)", server: h961359.droplet.today, port: 13545, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
+  - {name: "CTVIP-US-3[ran-out](trojan)", server: h961359.droplet.today, port: 13245, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
+  - {name: "CM-JP-3[ran-out](trojan)", server: h890361.droplet.today, port: 13445, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
+  - {name: "CU-DE-3[ran-out](trojan)", server: h961684.droplet.today, port: 13745, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
+  - {name: "CU-US-3[ran-out](trojan)", server: h961684.droplet.today, port: 13245, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
+  - {name: "CM-TW-3[ran-out](trojan)", server: h3816tw.droplet.today, port: 29443, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
+  - {name: "CTVIP-DE-3[ran-out](trojan)", server: h961359.droplet.today, port: 13745, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
+  - {name: "CTVIP-JP-3[ran-out](trojan)", server: h961359.droplet.today, port: 13445, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
+  - {name: "CU-JP-3[ran-out](trojan)", server: h961684.droplet.today, port: 13445, type: trojan, password: 26bae9b023, skip-cert-verify: true, udp: true}
   - {name: 付费高速节点购买网址↓, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: America 02 3, server: s1.lg-blpop.wds-dsa.com, port: 19601, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_R_446, server: ieplszhk-sz.qqgg.work, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港_R_160, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 韩国(解锁Netflix)(免费)倍率0x不消耗流量), server: hgmf.speedcncnforward2.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: HK 005 2, server: hkaz005.xmrth-node.xyz, port: 10276, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: JP 103, server: jpaz3.xmrth-node.xyz, port: 11140, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: HK 201 2, server: hgc1.xmrth-node.xyz, port: 12848, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: HK 103, server: hkaz3.xmrth-node.xyz, port: 10305, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK 010, server: hkaz010.xmrth-node.xyz, port: 10283, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 香港BGP｜游戏专线04, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK 009, server: hkaz009.xmrth-node.xyz, port: 10275, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: 01香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 02香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK倍率0｜商务专线7, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港BGP｜游戏专线09, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 深港IPLC｜运营商专线1, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 流解｜HK05｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港BGP｜游戏专线05, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK倍率0｜商务专线3, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国-佛吉尼亞B__tk_12, server: vpn2.52tgds666.tk, port: 443, type: vmess, uuid: 976cf9fb-3ff1-48f7-939d-56a0e25f7376, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: "%7B%22host%22:%22vpnb.tgds.workers.dev%22%7D"}}, udp: true}
-  - {name: _美国_4, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: 付费高速节点购买网址↓ 2, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: AU_24 |10.65Mb 2, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: defaultName_37, server: ieplszhk-sz.qqgg.work, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: HK倍率0｜商务专线8, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 流解｜HK06｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 深港IPLC｜运营商专线3, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_21 | 7.87Mb 2, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_21 | 7.87Mb 3, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港BGP｜游戏专线02, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK倍率0｜商务专线9, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_18 |29.43Mb 2, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_18 |29.43Mb 3, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK倍率0｜商务专线6, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 流解｜HK07｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP 101 2, server: jpaz1.xmrth-node.xyz, port: 10052, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 新加坡_R_441, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_15, server: ieplszhk-sz.qqgg.work, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: HK 003 2, server: hkaz003.xmrth-node.xyz, port: 10002, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: 深港IPLC｜运营商专线5, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港BGP｜游戏专线06, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 越南_R_377, server: iepl-gz.yyuuii.cyou, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_63, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 流解｜HK01｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: defaultName_41, server: gzyd-01.yyuuii.cyou, port: 20002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 流解｜HK08｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 萨拉热窝a, server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
+  - {name: 09香港高级IPLC, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 萨拉热窝b, server: 120.232.214.153, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
+  - {name: JP B 004, server: jpaz4.xmrth-node.xyz, port: 10091, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 萨拉热窝b 2, server: 120.232.214.153, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
+  - {name: 日本_R_498, server: iepl-hn01.qqgg.work, port: 27078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 荷兰c, server: 122.9.62.16, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: 荷兰c 2, server: 122.9.62.16, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: "PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]", server: 122.9.54.58, port: 2266, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: 深港IPLC｜运营商专线9, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 流解｜HK03｜IEPL, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度_R_361, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 越南_R_380, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_49, server: gzyd-01.yyuuii.cyou, port: 20003, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: T.07.法国.中继2, server: t2.doggogogo.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
+  - {name: -NL-0416节点 14:00-25, server: 213.183.51.171, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: defaultName_33, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 荷兰a, server: 122.9.54.58, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: -NL-0416节点 14:00-23, server: 213.183.51.171, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 伊斯坦布尔d, server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
+  - {name: JP 004, server: jplin004.xmrth-node.xyz, port: 11307, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: -NL-0416节点 14:00-5, server: 213.183.51.172, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: T.07.法国.中继3, server: cscu.wecanfly.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
+  - {name: defaultName_18, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]", server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
+  - {name: 荷兰b, server: 122.9.62.6, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: 深港IPLC｜运营商专线8, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: defaultName_33 2, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_63 2, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 新加坡_R_441 2, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_6, server: iepl-hn01.qqgg.work, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_22, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 付费高速节点购买网址↓ 2, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 全球直连③, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RU_tg+univstar, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: HK倍率0｜商务专线5, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 全球直连③ 2, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 香港BGP｜游戏专线07, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 挪威推荐, server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
+  - {name: US_TG+univstar_26, server: in-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "网址: upyun.online/reg", server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 全球直连①, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_7, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
   - {name: "网址: upyun.online/reg 2", server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: _台湾_2, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: "%7B%22host%22:%22330tw.fans8.xyz%22%7D"}}, udp: true}
+  - {name: 付费高速节点购买网址↓ 3, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _美国_4, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: SG_TG univstar_94, server: v2-2.godlight.xyz, port: 30523, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: JP_TG univstar_87, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: JP_TG univstar_88, server: v2-1.godlight.xyz, port: 12233, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -1945,8 +1874,6 @@ proxy-groups:
       - SG,
       - US, 5
       - JP, 3
-      - v3-node99.mimemi-y7et.com:7001
-      - _GB_英国
       - _US_美国
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
@@ -2349,255 +2276,186 @@ proxy-groups:
       - github.com/freefq - 美国Microsoft数据中心 36
       - github.com/freefq - 乌克兰  37
       - github.com/freefq - 美国Microsoft数据中心 38
-      - HK倍率0｜商务专线6
-      - HK倍率0｜商务专线1
-      - 深港IPLC｜运营商专线5
-      - 流解｜HK01｜IEPL
-      - 深港IPLC｜运营商专线9
-      - 01香港高级IPLC
-      - 香港BGP｜游戏专线01
-      - 深港IPLC｜运营商专线8
-      - 09香港高级IPLC
-      - 深港IPLC｜运营商专线1
-      - HK倍率0｜商务专线5
-      - 深港IPLC｜运营商专线3
-      - 香港BGP｜游戏专线04
-      - 02香港高级IPLC
-      - 香港BGP｜游戏专线03
-      - HK倍率0｜商务专线3
-      - HK倍率0｜商务专线4
-      - 流解｜HK02｜IEPL
-      - 香港BGP｜游戏专线06
-      - 深港IPLC｜运营商专线4
-      - 流解｜HK09｜IEPL
-      - 香港BGP｜游戏专线07
-      - 香港BGP｜游戏专线02
-      - 香港BGP｜游戏专线08
-      - 流解｜HK06｜IEPL
-      - 05香港高级IPLC
-      - 深港IPLC｜运营商专线6
-      - 流解｜HK03｜IEPL
-      - HK倍率0｜商务专线8
-      - 流解｜HK04｜IEPL
-      - 03香港高级IPLC
-      - 深港IPLC｜运营商专线2
-      - 深港IPLC｜运营商专线7
-      - 08香港高级IPLC
-      - 香港BGP｜游戏专线09
-      - 流解｜HK08｜IEPL
-      - HK倍率0｜商务专线2
-      - 04香港高级IPLC
-      - 流解｜HK07｜IEPL
-      - HK倍率0｜商务专线9
-      - 香港BGP｜游戏专线05
-      - 07香港高级IPLC
-      - HK倍率0｜商务专线7
-      - 流解｜HK05｜IEPL
-      - 233v2.com_52.140.213.121
-      - 日本大板_AS_1G_J4_17
-      - 日本大板_AS_1G_J3_16
-      - RU_tg+univstar
-      - 213.183.51.171:9008
-      - KR_tg univstar
-      - VIP-v2ray-Hong Kong 06
-      - VIP-v2ray-Hong Kong 05
-      - VIP-v2ray-Taiwan 01
-      - VIP-v2ray-Hong Kong 02
-      - VIP-v2ray-Taiwan 02
-      - VIP-v2ray-Singapore 01
-      - v2ray-Hong Kong 04
-      - v2ray-Hong Kong 02
-      - VIP-v2ray-Hong Kong 01
-      - VIP-v2ray-Japan 01
-      - v2ray-Taiwan 02
-      - v2ray-Hong Kong 05
-      - v2ray-Singapore 02
-      - v2ray-Hong Kong 03
-      - v2ray-Hong Kong 01
-      - 【TLS】/台湾/A/Hinet/NF/动画疯/
-      - 【Tunnel】台湾/D/Hinet/NF/动画疯/
-      - 【Tunnel】日本/F/NF/D /
-      - 【TLS】/荷兰/A/
-      - 【Tunnel】香港/A/NF/
-      - 【TLS】/洛杉矶/B/
-      - 【TLS】/圣何塞/B/
-      - 【TLS】/洛杉矶/A/
-      - 【TLS】/Novosibirsk/C/NF/
-      - 【TLS】/Novosibirsk/D/NF/
-      - 【TLS】/Vegas/H/NF/D /
-      - 【TLS】/Vegas/E/NF/D /
-      - defaultName_43
-      - defaultName_36
-      - defaultName_9
-      - _US_美国_11
-      - _GB_英国_7
-      - defaultName_22
-      - _US_美国_8
-      - JP_TG univstar_87
-      - SG_TG univstar_94
-      - JP_TG univstar_88
-      - US_TG+univstar_26
-      - Japan 03
-      - Japan 02
-      - Singapore 01
-      - South Korea 02
-      - America 02
-      - America 03
-      - <about:@freeyule>
-      - Hong Kong 02
-      - Relay_🇨🇳CN-🇹🇼TW_51
-      - Relay_🇨🇳CN-🇹🇼TW_57
-      - Relay_🇨🇳CN-🇹🇼TW_36
-      - Relay_🇨🇳CN-🇹🇼TW_55
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_52
-      - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_61
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_34
-      - HK 107
-      - HK 003
-      - HK 103
-      - HK 002
-      - HK 009
-      - HK 105
-      - HK 101
-      - HK 001
-      - HK 007
-      - HK 106
-      - "|33.16Mb"
-      - AU_24 |10.65Mb
-      - AU_21 | 5.42Mb
-      - AU_18 |29.43Mb
-      - AU_21 | 7.87Mb
-      - 新加坡_8
-      - 新加坡_5
-      - 新加坡_3
-      - 新加坡_7
-      - 新加坡_2
-      - 新加坡_10
-      - 新加坡_6
+      - jc.ap.fastqvpn.com:29980
+      - 节点421 30
+      - 节点421 8
+      - 节点421 4
+      - 节点421 2
+      - 节点421 6
       - 香港
-      - 新加坡_1
-      - -NL-0416节点 14:00-29
-      - -NL-0416节点 14:00-45
-      - -NL-0416节点 14:00-28
-      - -NL-0416节点 14:00-10
-      - -NL-0416节点 14:00-23
-      - -GB-0415-恢复更新
-      - -GB-0415-恢复更新 2
-      - -GB-0415-恢复更新 3
-      - -GB-0415-恢复更新 4
-      - -GB-0415-恢复更新 5
-      - 日本节点1(免费已限速)vmess协议
-      - HK 002 2
-      - HK 105 2
-      - HK 106 2
-      - HK 010
-      - HK 005
-      - HK 001 2
+      - 日本 3
+      - 节点421 19
+      - 节点421 9
+      - 节点421 35
+      - 节点421 25
+      - 节点421 33
+      - 节点421 23
+      - 节点421 27
+      - 节点421 21
+      - 节点421 40
+      - Large 港17 - all | IEPL | 倍率:1.8
+      - Play2 港 - 遊戲專用|視頻限速 | 倍率:20
+      - Large 港03 - allmedia | MIEPL | 倍率:1.8
+      - Large 港11 - nf | IEPL | 倍率:1.6
+      - Large 港24 - nfo | IEPL | 倍率:1.6
+      - Large 港23 - nfo | IEPL | 倍率:1.6
+      - Large 港10 - nf | IEPL | 倍率:1.6
+      - Large 港04 - allmedia | MIEPL | 倍率:1.8
+      - Large 港15 - allmedia | MIEPL | 倍率:1.6
+      - Large 港08 - all | IEPL | 倍率:1.6
+      - Large 港14 - nf | MIEPL | 倍率:1.6
+      - 香港-A | 直连 | 公益节点服务永远不会降级 | V2ray
+      - 香港-D | 隧道 | V2ray
+      - 印度-B | 隧道 | Trojan
+      - 日本-B | 隧道 | Trojan
+      - 日本-H | 隧道 | Trojan
+      - 日本-G | 直连 | V2ray
+      - 日本-C | 直连 | Tg群组内不定时发放福利 | Trojan
+      - 香港-C | 直连 | 下载用 |V2ray
+      - 新加坡-D | 隧道 | Trojan
+      - 日本-D | 隧道 | Trojan
+      - 日本-H | 隧道 | V2ray
+      - 日本-F | 隧道 | V2ray
+      - 日本-F | 隧道 | Trojan
+      - 日本-A | 直连 | Trojan
+      - 日本-D | 隧道 | V2ray
+      - 日本-E | 直连 | Trojan
+      - 日本-B | 隧道 | V2ray
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan
+      - 日本-A | 直连 | V2ray
+      - 日本-E | 直连 | V2ray
+      - 美国-A | 直连 | Netflix | Trojan
+      - HK_TG univstar_32
+      - JP_q
+      - US_
+      - RO_TG univstar_31
+      - GB_TG univstar_30
+      - 185.126.116.125:9027
       - HK 102
-      - JP 101
-      - defaultName_15
-      - defaultName_5
-      - defaultName_6
-      - defaultName_37
+      - HK 005
       - HK 006
-      - 新加坡_R_441
-      - defaultName_5 2
-      - AU_18 |29.43Mb 2
-      - AU_21 | 7.87Mb 2
-      - 台湾_R_338
-      - Hong Kong 03
-      - defaultName_25
+      - HK 003
+      - HK 004
+      - HK 106
+      - SG A 003
+      - SG A 006
+      - JP 101
       - JP 104
-      - 新加坡_R_441 2
-      - JP B 004
       - JP B 003
-      - 越南_R_380
-      - JP 103
-      - Relay_🇨🇳CN-🇹🇼TW_61 2
-      - 香港_R_160
-      - Relay_🇨🇳CN-🇹🇼TW_36 2
-      - Relay_🇨🇳CN-🇹🇼TW_58 2
-      - Relay_🇨🇳CN-🇹🇼TW_52 2
-      - 日本_R_498
-      - 新加坡_1 2
-      - 新加坡_5 2
-      - Relay_🇨🇳CN-🇹🇼TW_39 2
-      - 新加坡_7 2
-      - Relay_🇨🇳CN-🇹🇼TW_40 2
-      - 新加坡_10 2
-      - defaultName_33
-      - Relay_🇨🇳CN-🇹🇼TW_48 2
-      - Relay_🇨🇳CN-🇹🇼TW_51 2
-      - 新加坡_6 2
-      - 新加坡_8 2
-      - JP 004
-      - defaultName_33 2
-      - T.07.法国.中继3
-      - 越南_R_377
-      - KR A 002
-      - 萨拉热窝b
-      - 荷兰c
-      - PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
-      - 荷兰c 2
-      - 挪威推荐
-      - KR 006
-      - 萨拉热窝a
-      - Japan 02 2
-      - Taiwan 01
-      - 萨拉热窝a 2
-      - T.07.法国.中继2
-      - South Korea 01
-      - PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]
-      - PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦] 2
-      - defaultName_49
-      - 荷兰b
-      - South Korea 01 2
-      - 荷兰a
-      - 全球直连①
-      - defaultName_41
-      - defaultName_18
-      - 挪威推荐 2
-      - 全球直连③
-      - -NL-0416节点 14:00-45 2
-      - KR 003
-      - -NL-0416节点 14:00-25
-      - Singapore 03
-      - -NL-0416节点 14:00-56
-      - 全球直连②
-      - defaultName_63
-      - 印度_R_361
-      - 伊斯坦布尔d
-      - Taiwan 02
-      - -GB-0415-恢复更新 6
-      - Singapore 01 2
-      - defaultName_63 2
-      - Singapore 01 3
-      - South Korea 02 2
-      - IN B 003
-      - -GB-0415-恢复更新 7
-      - -GB-0415-恢复更新 8
-      - 全球直连③ 2
-      - -NL-0416节点 14:00-5
-      - "网址: upyun.online/reg"
-      - America 02 2
-      - defaultName_18 2
-      - Relay_🇨🇳CN-🇹🇼TW_41 2
-      - Taiwan 02 2
-      - Hong Kong 03 2
+      - IN A 002
+      - HK 201
+      - SG 001
+      - JP B 001
+      - AU_20 | 6.71Mb
+      - AU_24 |10.65Mb
+      - 香港 2
+      - AU_21 | 5.42Mb
+      - AU_21 | 7.87Mb
+      - AU_18 |29.43Mb
+      - "|33.13Mb"
+      - CTVIP-HK-3[ran-out](trojan)
+      - CTVIP-US-3[ran-out](trojan)
+      - CM-JP-3[ran-out](trojan)
+      - CU-DE-3[ran-out](trojan)
+      - CU-US-3[ran-out](trojan)
+      - CM-TW-3[ran-out](trojan)
+      - CTVIP-DE-3[ran-out](trojan)
+      - CTVIP-JP-3[ran-out](trojan)
+      - CU-JP-3[ran-out](trojan)
       - 付费高速节点购买网址↓
-      - America 02 3
+      - 香港_R_446
+      - 香港_R_160
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - HK 005 2
+      - JP 103
+      - HK 201 2
+      - HK 103
+      - HK 010
+      - 香港BGP｜游戏专线04
+      - HK 009
+      - 01香港高级IPLC
+      - 02香港高级IPLC
+      - HK倍率0｜商务专线7
+      - 香港BGP｜游戏专线09
+      - 深港IPLC｜运营商专线1
+      - 流解｜HK05｜IEPL
+      - 08香港高级IPLC
+      - 香港BGP｜游戏专线05
+      - HK倍率0｜商务专线3
       - 美国-佛吉尼亞B__tk_12
-      - _美国_4
-      - 付费高速节点购买网址↓ 2
+      - AU_24 |10.65Mb 2
+      - defaultName_37
+      - HK倍率0｜商务专线8
+      - 流解｜HK06｜IEPL
+      - 深港IPLC｜运营商专线3
+      - AU_21 | 7.87Mb 2
+      - AU_21 | 7.87Mb 3
+      - 香港BGP｜游戏专线02
+      - HK倍率0｜商务专线9
+      - AU_18 |29.43Mb 2
+      - AU_18 |29.43Mb 3
+      - HK倍率0｜商务专线6
+      - 流解｜HK07｜IEPL
+      - JP 101 2
+      - 新加坡_R_441
+      - defaultName_15
+      - HK 003 2
+      - 深港IPLC｜运营商专线5
+      - 香港BGP｜游戏专线06
+      - 越南_R_377
+      - defaultName_63
+      - 流解｜HK01｜IEPL
+      - defaultName_41
+      - 流解｜HK08｜IEPL
+      - 萨拉热窝a
+      - 09香港高级IPLC
+      - 萨拉热窝b
+      - JP B 004
       - 萨拉热窝b 2
+      - 日本_R_498
+      - 荷兰c
+      - 荷兰c 2
+      - PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]
+      - 深港IPLC｜运营商专线9
+      - 流解｜HK03｜IEPL
+      - 印度_R_361
+      - 越南_R_380
+      - defaultName_49
+      - T.07.法国.中继2
+      - -NL-0416节点 14:00-25
+      - defaultName_33
+      - 荷兰a
+      - -NL-0416节点 14:00-23
+      - 伊斯坦布尔d
+      - JP 004
+      - -NL-0416节点 14:00-5
+      - T.07.法国.中继3
+      - defaultName_18
+      - PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 荷兰b
+      - 深港IPLC｜运营商专线8
+      - defaultName_33 2
+      - defaultName_63 2
+      - 新加坡_R_441 2
+      - defaultName_6
+      - defaultName_22
+      - 付费高速节点购买网址↓ 2
+      - 全球直连③
+      - RU_tg+univstar
+      - HK倍率0｜商务专线5
+      - 全球直连③ 2
+      - 香港BGP｜游戏专线07
+      - 挪威推荐
+      - US_TG+univstar_26
+      - "网址: upyun.online/reg"
+      - 全球直连①
+      - _GB_英国_7
       - "网址: upyun.online/reg 2"
-      - _台湾_2
+      - 付费高速节点购买网址↓ 3
+      - _美国_4
+      - SG_TG univstar_94
+      - JP_TG univstar_87
+      - JP_TG univstar_88
   - name: ♻️ 自动选择节点
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -3244,8 +3102,6 @@ proxy-groups:
       - SG,
       - US, 5
       - JP, 3
-      - v3-node99.mimemi-y7et.com:7001
-      - _GB_英国
       - _US_美国
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
@@ -3648,255 +3504,186 @@ proxy-groups:
       - github.com/freefq - 美国Microsoft数据中心 36
       - github.com/freefq - 乌克兰  37
       - github.com/freefq - 美国Microsoft数据中心 38
-      - HK倍率0｜商务专线6
-      - HK倍率0｜商务专线1
-      - 深港IPLC｜运营商专线5
-      - 流解｜HK01｜IEPL
-      - 深港IPLC｜运营商专线9
-      - 01香港高级IPLC
-      - 香港BGP｜游戏专线01
-      - 深港IPLC｜运营商专线8
-      - 09香港高级IPLC
-      - 深港IPLC｜运营商专线1
-      - HK倍率0｜商务专线5
-      - 深港IPLC｜运营商专线3
-      - 香港BGP｜游戏专线04
-      - 02香港高级IPLC
-      - 香港BGP｜游戏专线03
-      - HK倍率0｜商务专线3
-      - HK倍率0｜商务专线4
-      - 流解｜HK02｜IEPL
-      - 香港BGP｜游戏专线06
-      - 深港IPLC｜运营商专线4
-      - 流解｜HK09｜IEPL
-      - 香港BGP｜游戏专线07
-      - 香港BGP｜游戏专线02
-      - 香港BGP｜游戏专线08
-      - 流解｜HK06｜IEPL
-      - 05香港高级IPLC
-      - 深港IPLC｜运营商专线6
-      - 流解｜HK03｜IEPL
-      - HK倍率0｜商务专线8
-      - 流解｜HK04｜IEPL
-      - 03香港高级IPLC
-      - 深港IPLC｜运营商专线2
-      - 深港IPLC｜运营商专线7
-      - 08香港高级IPLC
-      - 香港BGP｜游戏专线09
-      - 流解｜HK08｜IEPL
-      - HK倍率0｜商务专线2
-      - 04香港高级IPLC
-      - 流解｜HK07｜IEPL
-      - HK倍率0｜商务专线9
-      - 香港BGP｜游戏专线05
-      - 07香港高级IPLC
-      - HK倍率0｜商务专线7
-      - 流解｜HK05｜IEPL
-      - 233v2.com_52.140.213.121
-      - 日本大板_AS_1G_J4_17
-      - 日本大板_AS_1G_J3_16
-      - RU_tg+univstar
-      - 213.183.51.171:9008
-      - KR_tg univstar
-      - VIP-v2ray-Hong Kong 06
-      - VIP-v2ray-Hong Kong 05
-      - VIP-v2ray-Taiwan 01
-      - VIP-v2ray-Hong Kong 02
-      - VIP-v2ray-Taiwan 02
-      - VIP-v2ray-Singapore 01
-      - v2ray-Hong Kong 04
-      - v2ray-Hong Kong 02
-      - VIP-v2ray-Hong Kong 01
-      - VIP-v2ray-Japan 01
-      - v2ray-Taiwan 02
-      - v2ray-Hong Kong 05
-      - v2ray-Singapore 02
-      - v2ray-Hong Kong 03
-      - v2ray-Hong Kong 01
-      - 【TLS】/台湾/A/Hinet/NF/动画疯/
-      - 【Tunnel】台湾/D/Hinet/NF/动画疯/
-      - 【Tunnel】日本/F/NF/D /
-      - 【TLS】/荷兰/A/
-      - 【Tunnel】香港/A/NF/
-      - 【TLS】/洛杉矶/B/
-      - 【TLS】/圣何塞/B/
-      - 【TLS】/洛杉矶/A/
-      - 【TLS】/Novosibirsk/C/NF/
-      - 【TLS】/Novosibirsk/D/NF/
-      - 【TLS】/Vegas/H/NF/D /
-      - 【TLS】/Vegas/E/NF/D /
-      - defaultName_43
-      - defaultName_36
-      - defaultName_9
-      - _US_美国_11
-      - _GB_英国_7
-      - defaultName_22
-      - _US_美国_8
-      - JP_TG univstar_87
-      - SG_TG univstar_94
-      - JP_TG univstar_88
-      - US_TG+univstar_26
-      - Japan 03
-      - Japan 02
-      - Singapore 01
-      - South Korea 02
-      - America 02
-      - America 03
-      - <about:@freeyule>
-      - Hong Kong 02
-      - Relay_🇨🇳CN-🇹🇼TW_51
-      - Relay_🇨🇳CN-🇹🇼TW_57
-      - Relay_🇨🇳CN-🇹🇼TW_36
-      - Relay_🇨🇳CN-🇹🇼TW_55
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - Relay_🇨🇳CN-🇹🇼TW_39
-      - Relay_🇨🇳CN-🇹🇼TW_52
-      - Relay_🇨🇳CN-🇹🇼TW_48
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_41
-      - Relay_🇨🇳CN-🇹🇼TW_61
-      - Relay_🇨🇳CN-🇹🇼TW_58
-      - Relay_🇨🇳CN-🇹🇼TW_34
-      - HK 107
-      - HK 003
-      - HK 103
-      - HK 002
-      - HK 009
-      - HK 105
-      - HK 101
-      - HK 001
-      - HK 007
-      - HK 106
-      - "|33.16Mb"
-      - AU_24 |10.65Mb
-      - AU_21 | 5.42Mb
-      - AU_18 |29.43Mb
-      - AU_21 | 7.87Mb
-      - 新加坡_8
-      - 新加坡_5
-      - 新加坡_3
-      - 新加坡_7
-      - 新加坡_2
-      - 新加坡_10
-      - 新加坡_6
+      - jc.ap.fastqvpn.com:29980
+      - 节点421 30
+      - 节点421 8
+      - 节点421 4
+      - 节点421 2
+      - 节点421 6
       - 香港
-      - 新加坡_1
-      - -NL-0416节点 14:00-29
-      - -NL-0416节点 14:00-45
-      - -NL-0416节点 14:00-28
-      - -NL-0416节点 14:00-10
-      - -NL-0416节点 14:00-23
-      - -GB-0415-恢复更新
-      - -GB-0415-恢复更新 2
-      - -GB-0415-恢复更新 3
-      - -GB-0415-恢复更新 4
-      - -GB-0415-恢复更新 5
-      - 日本节点1(免费已限速)vmess协议
-      - HK 002 2
-      - HK 105 2
-      - HK 106 2
-      - HK 010
-      - HK 005
-      - HK 001 2
+      - 日本 3
+      - 节点421 19
+      - 节点421 9
+      - 节点421 35
+      - 节点421 25
+      - 节点421 33
+      - 节点421 23
+      - 节点421 27
+      - 节点421 21
+      - 节点421 40
+      - Large 港17 - all | IEPL | 倍率:1.8
+      - Play2 港 - 遊戲專用|視頻限速 | 倍率:20
+      - Large 港03 - allmedia | MIEPL | 倍率:1.8
+      - Large 港11 - nf | IEPL | 倍率:1.6
+      - Large 港24 - nfo | IEPL | 倍率:1.6
+      - Large 港23 - nfo | IEPL | 倍率:1.6
+      - Large 港10 - nf | IEPL | 倍率:1.6
+      - Large 港04 - allmedia | MIEPL | 倍率:1.8
+      - Large 港15 - allmedia | MIEPL | 倍率:1.6
+      - Large 港08 - all | IEPL | 倍率:1.6
+      - Large 港14 - nf | MIEPL | 倍率:1.6
+      - 香港-A | 直连 | 公益节点服务永远不会降级 | V2ray
+      - 香港-D | 隧道 | V2ray
+      - 印度-B | 隧道 | Trojan
+      - 日本-B | 隧道 | Trojan
+      - 日本-H | 隧道 | Trojan
+      - 日本-G | 直连 | V2ray
+      - 日本-C | 直连 | Tg群组内不定时发放福利 | Trojan
+      - 香港-C | 直连 | 下载用 |V2ray
+      - 新加坡-D | 隧道 | Trojan
+      - 日本-D | 隧道 | Trojan
+      - 日本-H | 隧道 | V2ray
+      - 日本-F | 隧道 | V2ray
+      - 日本-F | 隧道 | Trojan
+      - 日本-A | 直连 | Trojan
+      - 日本-D | 隧道 | V2ray
+      - 日本-E | 直连 | Trojan
+      - 日本-B | 隧道 | V2ray
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan
+      - 日本-A | 直连 | V2ray
+      - 日本-E | 直连 | V2ray
+      - 美国-A | 直连 | Netflix | Trojan
+      - HK_TG univstar_32
+      - JP_q
+      - US_
+      - RO_TG univstar_31
+      - GB_TG univstar_30
+      - 185.126.116.125:9027
       - HK 102
-      - JP 101
-      - defaultName_15
-      - defaultName_5
-      - defaultName_6
-      - defaultName_37
+      - HK 005
       - HK 006
-      - 新加坡_R_441
-      - defaultName_5 2
-      - AU_18 |29.43Mb 2
-      - AU_21 | 7.87Mb 2
-      - 台湾_R_338
-      - Hong Kong 03
-      - defaultName_25
+      - HK 003
+      - HK 004
+      - HK 106
+      - SG A 003
+      - SG A 006
+      - JP 101
       - JP 104
-      - 新加坡_R_441 2
-      - JP B 004
       - JP B 003
-      - 越南_R_380
-      - JP 103
-      - Relay_🇨🇳CN-🇹🇼TW_61 2
-      - 香港_R_160
-      - Relay_🇨🇳CN-🇹🇼TW_36 2
-      - Relay_🇨🇳CN-🇹🇼TW_58 2
-      - Relay_🇨🇳CN-🇹🇼TW_52 2
-      - 日本_R_498
-      - 新加坡_1 2
-      - 新加坡_5 2
-      - Relay_🇨🇳CN-🇹🇼TW_39 2
-      - 新加坡_7 2
-      - Relay_🇨🇳CN-🇹🇼TW_40 2
-      - 新加坡_10 2
-      - defaultName_33
-      - Relay_🇨🇳CN-🇹🇼TW_48 2
-      - Relay_🇨🇳CN-🇹🇼TW_51 2
-      - 新加坡_6 2
-      - 新加坡_8 2
-      - JP 004
-      - defaultName_33 2
-      - T.07.法国.中继3
-      - 越南_R_377
-      - KR A 002
-      - 萨拉热窝b
-      - 荷兰c
-      - PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
-      - 荷兰c 2
-      - 挪威推荐
-      - KR 006
-      - 萨拉热窝a
-      - Japan 02 2
-      - Taiwan 01
-      - 萨拉热窝a 2
-      - T.07.法国.中继2
-      - South Korea 01
-      - PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]
-      - PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦] 2
-      - defaultName_49
-      - 荷兰b
-      - South Korea 01 2
-      - 荷兰a
-      - 全球直连①
-      - defaultName_41
-      - defaultName_18
-      - 挪威推荐 2
-      - 全球直连③
-      - -NL-0416节点 14:00-45 2
-      - KR 003
-      - -NL-0416节点 14:00-25
-      - Singapore 03
-      - -NL-0416节点 14:00-56
-      - 全球直连②
-      - defaultName_63
-      - 印度_R_361
-      - 伊斯坦布尔d
-      - Taiwan 02
-      - -GB-0415-恢复更新 6
-      - Singapore 01 2
-      - defaultName_63 2
-      - Singapore 01 3
-      - South Korea 02 2
-      - IN B 003
-      - -GB-0415-恢复更新 7
-      - -GB-0415-恢复更新 8
-      - 全球直连③ 2
-      - -NL-0416节点 14:00-5
-      - "网址: upyun.online/reg"
-      - America 02 2
-      - defaultName_18 2
-      - Relay_🇨🇳CN-🇹🇼TW_41 2
-      - Taiwan 02 2
-      - Hong Kong 03 2
+      - IN A 002
+      - HK 201
+      - SG 001
+      - JP B 001
+      - AU_20 | 6.71Mb
+      - AU_24 |10.65Mb
+      - 香港 2
+      - AU_21 | 5.42Mb
+      - AU_21 | 7.87Mb
+      - AU_18 |29.43Mb
+      - "|33.13Mb"
+      - CTVIP-HK-3[ran-out](trojan)
+      - CTVIP-US-3[ran-out](trojan)
+      - CM-JP-3[ran-out](trojan)
+      - CU-DE-3[ran-out](trojan)
+      - CU-US-3[ran-out](trojan)
+      - CM-TW-3[ran-out](trojan)
+      - CTVIP-DE-3[ran-out](trojan)
+      - CTVIP-JP-3[ran-out](trojan)
+      - CU-JP-3[ran-out](trojan)
       - 付费高速节点购买网址↓
-      - America 02 3
+      - 香港_R_446
+      - 香港_R_160
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - HK 005 2
+      - JP 103
+      - HK 201 2
+      - HK 103
+      - HK 010
+      - 香港BGP｜游戏专线04
+      - HK 009
+      - 01香港高级IPLC
+      - 02香港高级IPLC
+      - HK倍率0｜商务专线7
+      - 香港BGP｜游戏专线09
+      - 深港IPLC｜运营商专线1
+      - 流解｜HK05｜IEPL
+      - 08香港高级IPLC
+      - 香港BGP｜游戏专线05
+      - HK倍率0｜商务专线3
       - 美国-佛吉尼亞B__tk_12
-      - _美国_4
-      - 付费高速节点购买网址↓ 2
+      - AU_24 |10.65Mb 2
+      - defaultName_37
+      - HK倍率0｜商务专线8
+      - 流解｜HK06｜IEPL
+      - 深港IPLC｜运营商专线3
+      - AU_21 | 7.87Mb 2
+      - AU_21 | 7.87Mb 3
+      - 香港BGP｜游戏专线02
+      - HK倍率0｜商务专线9
+      - AU_18 |29.43Mb 2
+      - AU_18 |29.43Mb 3
+      - HK倍率0｜商务专线6
+      - 流解｜HK07｜IEPL
+      - JP 101 2
+      - 新加坡_R_441
+      - defaultName_15
+      - HK 003 2
+      - 深港IPLC｜运营商专线5
+      - 香港BGP｜游戏专线06
+      - 越南_R_377
+      - defaultName_63
+      - 流解｜HK01｜IEPL
+      - defaultName_41
+      - 流解｜HK08｜IEPL
+      - 萨拉热窝a
+      - 09香港高级IPLC
+      - 萨拉热窝b
+      - JP B 004
       - 萨拉热窝b 2
+      - 日本_R_498
+      - 荷兰c
+      - 荷兰c 2
+      - PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]
+      - 深港IPLC｜运营商专线9
+      - 流解｜HK03｜IEPL
+      - 印度_R_361
+      - 越南_R_380
+      - defaultName_49
+      - T.07.法国.中继2
+      - -NL-0416节点 14:00-25
+      - defaultName_33
+      - 荷兰a
+      - -NL-0416节点 14:00-23
+      - 伊斯坦布尔d
+      - JP 004
+      - -NL-0416节点 14:00-5
+      - T.07.法国.中继3
+      - defaultName_18
+      - PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 荷兰b
+      - 深港IPLC｜运营商专线8
+      - defaultName_33 2
+      - defaultName_63 2
+      - 新加坡_R_441 2
+      - defaultName_6
+      - defaultName_22
+      - 付费高速节点购买网址↓ 2
+      - 全球直连③
+      - RU_tg+univstar
+      - HK倍率0｜商务专线5
+      - 全球直连③ 2
+      - 香港BGP｜游戏专线07
+      - 挪威推荐
+      - US_TG+univstar_26
+      - "网址: upyun.online/reg"
+      - 全球直连①
+      - _GB_英国_7
       - "网址: upyun.online/reg 2"
-      - _台湾_2
+      - 付费高速节点购买网址↓ 3
+      - _美国_4
+      - SG_TG univstar_94
+      - JP_TG univstar_87
+      - JP_TG univstar_88
   - name: Other
     type: select
     proxies:
