@@ -5,79 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "HK,", server: 3.36.126.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US,", server: 97.64.21.214, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: "US, 2", server: 3.35.230.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "HK, 2", server: 54.254.241.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "KR,", server: 3.35.230.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "CA,", server: 52.32.128.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP,", server: 13.212.75.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 3", server: 52.79.161.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "TW,", server: 18.138.253.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 2", server: 52.79.161.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 4", server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: "SG,", server: 54.179.181.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 5", server: 65.49.193.51, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
-  - {name: "JP, 3", server: 54.254.25.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: F|V00, server: cmi.db-link.in, port: 21152, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us2.db-link.in}, udp: true}
+  - {name: F|V02-TG@moneyflychat, server: cmi.db-link.in, port: 21153, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us3.db-link.in}, udp: true}
+  - {name: F|V03-中继中转隧道线路覆盖, server: cmi.db-link.in, port: 21153, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us3.db-link.in}, udp: true}
+  - {name: F|V04-公益等级线路限速, server: cmi.db-link.in, port: 21154, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us4.db-link.in}, udp: true}
+  - {name: F|V05-, server: cmi.db-link.in, port: 21154, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us4.db-link.in}, udp: true}
+  - {name: F|V06-, server: cm.db-link.in, port: 443, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us01.db-link.in}, udp: true}
+  - {name: F|V07-, server: cm.db-link.in, port: 443, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us02.db-link.in}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK,
-      - US,
-      - US, 2
-      - HK, 2
-      - KR,
-      - CA,
-      - JP,
-      - US, 3
-      - TW,
-      - JP, 2
-      - US, 4
-      - SG,
-      - US, 5
-      - JP, 3
+      - F|V00-优惠活动进行中
+      - F|V02-TG@moneyflychat
+      - F|V03-中继中转隧道线路覆盖
+      - F|V04-公益等级线路限速
+      - F|V05-
+      - F|V06-
+      - F|V07-
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK,
-      - US,
-      - US, 2
-      - HK, 2
-      - KR,
-      - CA,
-      - JP,
-      - US, 3
-      - TW,
-      - JP, 2
-      - US, 4
-      - SG,
-      - US, 5
-      - JP, 3
+      - F|V00-优惠活动进行中
+      - F|V02-TG@moneyflychat
+      - F|V03-中继中转隧道线路覆盖
+      - F|V04-公益等级线路限速
+      - F|V05-
+      - F|V06-
+      - F|V07-
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK,
-      - US,
-      - US, 2
-      - HK, 2
-      - KR,
-      - CA,
-      - JP,
-      - US, 3
-      - TW,
-      - JP, 2
-      - US, 4
-      - SG,
-      - US, 5
-      - JP, 3
+      - F|V00-优惠活动进行中
+      - F|V02-TG@moneyflychat
+      - F|V03-中继中转隧道线路覆盖
+      - F|V04-公益等级线路限速
+      - F|V05-
+      - F|V06-
+      - F|V07-
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,20 +68,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK,
-      - US,
-      - US, 2
-      - HK, 2
-      - KR,
-      - CA,
-      - JP,
-      - US, 3
-      - TW,
-      - JP, 2
-      - US, 4
-      - SG,
-      - US, 5
-      - JP, 3
+      - F|V00-优惠活动进行中
+      - F|V02-TG@moneyflychat
+      - F|V03-中继中转隧道线路覆盖
+      - F|V04-公益等级线路限速
+      - F|V05-
+      - F|V06-
+      - F|V07-
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -120,59 +85,38 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK,
-      - US,
-      - US, 2
-      - HK, 2
-      - KR,
-      - CA,
-      - JP,
-      - US, 3
-      - TW,
-      - JP, 2
-      - US, 4
-      - SG,
-      - US, 5
-      - JP, 3
+      - F|V00-优惠活动进行中
+      - F|V02-TG@moneyflychat
+      - F|V03-中继中转隧道线路覆盖
+      - F|V04-公益等级线路限速
+      - F|V05-
+      - F|V06-
+      - F|V07-
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK,
-      - US,
-      - US, 2
-      - HK, 2
-      - KR,
-      - CA,
-      - JP,
-      - US, 3
-      - TW,
-      - JP, 2
-      - US, 4
-      - SG,
-      - US, 5
-      - JP, 3
+      - F|V00-优惠活动进行中
+      - F|V02-TG@moneyflychat
+      - F|V03-中继中转隧道线路覆盖
+      - F|V04-公益等级线路限速
+      - F|V05-
+      - F|V06-
+      - F|V07-
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK,
-      - US,
-      - US, 2
-      - HK, 2
-      - KR,
-      - CA,
-      - JP,
-      - US, 3
-      - TW,
-      - JP, 2
-      - US, 4
-      - SG,
-      - US, 5
-      - JP, 3
+      - F|V00-优惠活动进行中
+      - F|V02-TG@moneyflychat
+      - F|V03-中继中转隧道线路覆盖
+      - F|V04-公益等级线路限速
+      - F|V05-
+      - F|V06-
+      - F|V07-
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,20 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK,
-      - US,
-      - US, 2
-      - HK, 2
-      - KR,
-      - CA,
-      - JP,
-      - US, 3
-      - TW,
-      - JP, 2
-      - US, 4
-      - SG,
-      - US, 5
-      - JP, 3
+      - F|V00-优惠活动进行中
+      - F|V02-TG@moneyflychat
+      - F|V03-中继中转隧道线路覆盖
+      - F|V04-公益等级线路限速
+      - F|V05-
+      - F|V06-
+      - F|V07-
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
