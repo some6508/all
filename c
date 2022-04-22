@@ -5,46 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_atwbnet_377","server":"142.202.48.14","port":8090,"type":"ss","country":"🇺🇸_US_atwbnet_377","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_1","server":"aead.tls.sksupersususu.dnsfree.top","port":12345,"type":"trojan","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"udp":true,"password":"8d23f8a8-64b8-42c4-9c31-304f7c86669c"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_2","server":"213.183.53.177","port":9007,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_2","password":"kSPmvwdFzGMMW5pY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_3","server":"213.183.53.177","port":9098,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_3","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇦🇺_AU_澳大利亚_4","server":"185.167.116.252","port":9015,"type":"ss","country":"🇦🇺_AU_澳大利亚_4","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_5","server":"213.183.53.177","port":9018,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_5","password":"fG2artUmHfNT2cX7","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_atwbnet_377
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇷🇺_RU_俄罗斯联邦_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_atwbnet_377
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇷🇺_RU_俄罗斯联邦_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_atwbnet_377
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇷🇺_RU_俄罗斯联邦_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_atwbnet_377
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇷🇺_RU_俄罗斯联邦_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_atwbnet_377
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇷🇺_RU_俄罗斯联邦_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_atwbnet_377
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇷🇺_RU_俄罗斯联邦_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_atwbnet_377
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇷🇺_RU_俄罗斯联邦_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
