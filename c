@@ -5,46 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"233v2_com_107_174_172_154","server":"107.174.172.154","port":61827,"type":"vmess","uuid":"49855b66-4e28-4e4f-8b65-fbf801cc2839","alterId":0,"cipher":"auto","country":"233v2_com_107_174_172_154","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇩🇪_DE_德国_1","server":"gz2.52168.xyz","port":2101,"type":"ssr","country":"🇨🇳_CN_中国->🇩🇪_DE_德国_1","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_2","server":"213.183.53.177","port":9073,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_2","password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 233v2_com_107_174_172_154
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 233v2_com_107_174_172_154
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 233v2_com_107_174_172_154
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 233v2_com_107_174_172_154
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 233v2_com_107_174_172_154
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 233v2_com_107_174_172_154
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 233v2_com_107_174_172_154
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
