@@ -5,40 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国_1, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_2, server: v3-node102.mimemi-y7et.com, port: 13129, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: _CN_中国_3, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _PL_波兰_4, server: 217.30.10.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_5, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_6, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_7, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_8, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国_9, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_10, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _SG_新加坡_11, server: 139.99.123.156, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_12, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_13, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇹🇷_TR_土耳其_14, server: v3-node43.mimemi-y7et.com, port: 7901, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_15, server: v3-node60.mimemi-y7et.com, port: 13124, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: _JP_日本_16, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_17, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_18, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_19, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_20, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_21, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_22, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_23, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_24, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大_25, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _AU_澳大利亚_26, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_27, server: v3-node28.mimemi-y7et.com, port: 13116, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: _RU_俄罗斯联邦_28, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: _RU_俄罗斯联邦_29, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_30, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_31, server: v3bgptw.kuli888.xyz, port: 52025, type: trojan, password: f0b0f2dd-5a35-3c8e-8ec2-27ebaad71184, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_32, server: 213.183.53.177, port: 9015, type: ssr, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_33, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚_34, server: 185.167.116.252, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: keroku-with_1, server: with.top-pc.workers.dev, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: with.top-pc.workers.dev}}, udp: true}
+  - {name: vps02cnd_2, server: very.top-pc.workers.dev, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: very.top-pc.workers.dev}}, udp: true}
+  - {name: vps04_3, server: tro.beeos.xyz, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: tro.beeos.xyz}}, udp: true}
+  - {name: vpsip6_4, server: winter.top-pc.workers.dev, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: winter.top-pc.workers.dev}}, udp: true}
+  - {name: vps01_5, server: vry.beeos.xyz, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: vry.beeos.xyz}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 119.147.20.236, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
@@ -1264,40 +1235,11 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _CN_中国_3
-      - _PL_波兰_4
-      - _CN_中国->🇹🇼_TW_台湾_5
-      - _CN_中国->🇯🇵_JP_日本_6
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_7
-      - _CN_中国->🇯🇵_JP_日本_8
-      - _CN_中国_9
-      - _CN_中国->🇹🇼_TW_台湾_10
-      - _SG_新加坡_11
-      - _CN_中国->🇰🇷_KR_韩国_12
-      - _CN_中国->🇰🇷_KR_韩国_13
-      - _CN_中国->🇹🇷_TR_土耳其_14
-      - _CN_中国->🇭🇰_HK_香港_15
-      - _JP_日本_16
-      - _US_美国_17
-      - _CA_加拿大_18
-      - _CA_加拿大_19
-      - _CA_加拿大_20
-      - _CA_加拿大_21
-      - _CA_加拿大_22
-      - _US_美国_23
-      - _CA_加拿大_24
-      - _CA_加拿大_25
-      - _AU_澳大利亚_26
-      - _CN_中国->🇭🇰_HK_香港_27
-      - _RU_俄罗斯联邦_28
-      - _RU_俄罗斯联邦_29
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_30
-      - _CN_中国->🇹🇼_TW_台湾_31
-      - _RU_俄罗斯联邦_32
-      - _US_美国_33
-      - _AU_澳大利亚_34
+      - keroku-with_1
+      - vps02cnd_2
+      - vps04_3
+      - vpsip6_4
+      - vps01_5
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2523,40 +2465,11 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _CN_中国_3
-      - _PL_波兰_4
-      - _CN_中国->🇹🇼_TW_台湾_5
-      - _CN_中国->🇯🇵_JP_日本_6
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_7
-      - _CN_中国->🇯🇵_JP_日本_8
-      - _CN_中国_9
-      - _CN_中国->🇹🇼_TW_台湾_10
-      - _SG_新加坡_11
-      - _CN_中国->🇰🇷_KR_韩国_12
-      - _CN_中国->🇰🇷_KR_韩国_13
-      - _CN_中国->🇹🇷_TR_土耳其_14
-      - _CN_中国->🇭🇰_HK_香港_15
-      - _JP_日本_16
-      - _US_美国_17
-      - _CA_加拿大_18
-      - _CA_加拿大_19
-      - _CA_加拿大_20
-      - _CA_加拿大_21
-      - _CA_加拿大_22
-      - _US_美国_23
-      - _CA_加拿大_24
-      - _CA_加拿大_25
-      - _AU_澳大利亚_26
-      - _CN_中国->🇭🇰_HK_香港_27
-      - _RU_俄罗斯联邦_28
-      - _RU_俄罗斯联邦_29
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_30
-      - _CN_中国->🇹🇼_TW_台湾_31
-      - _RU_俄罗斯联邦_32
-      - _US_美国_33
-      - _AU_澳大利亚_34
+      - keroku-with_1
+      - vps02cnd_2
+      - vps04_3
+      - vpsip6_4
+      - vps01_5
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
