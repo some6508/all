@@ -5,11 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: keroku-with_1, server: with.top-pc.workers.dev, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: with.top-pc.workers.dev}}, udp: true}
-  - {name: vps02cnd_2, server: very.top-pc.workers.dev, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: very.top-pc.workers.dev}}, udp: true}
-  - {name: vps04_3, server: tro.beeos.xyz, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: tro.beeos.xyz}}, udp: true}
-  - {name: vpsip6_4, server: winter.top-pc.workers.dev, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: winter.top-pc.workers.dev}}, udp: true}
-  - {name: vps01_5, server: vry.beeos.xyz, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: vry.beeos.xyz}}, udp: true}
+  - {name: _US_美国_1, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9027, type: ssr, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _PL_波兰_3, server: 217.30.10.66, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: _US_美国_4, server: 208.85.23.137, port: 27297, type: ss, cipher: aes-256-cfb, password: 67d4e302ac8f47bf92c42afe6f085221, udp: true}
+  - {name: _CA_加拿大_5, server: 134.195.196.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_6, server: 134.195.196.150, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 119.147.20.236, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
@@ -1231,11 +1232,12 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - _US_美国_1
+      - _RU_俄罗斯联邦_2
+      - _PL_波兰_3
+      - _US_美国_4
+      - _CA_加拿大_5
+      - _CA_加拿大_6
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2457,11 +2459,12 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - _US_美国_1
+      - _RU_俄罗斯联邦_2
+      - _PL_波兰_3
+      - _US_美国_4
+      - _CA_加拿大_5
+      - _CA_加拿大_6
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
