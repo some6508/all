@@ -5,74 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"keroku-with_1","server":"with.top-pc.workers.dev","port":443,"type":"vmess","uuid":"b9d62af8-ae33-4630-92cb-8b9b54560416","alterId":0,"cipher":"auto","country":"keroku-with_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"with.top-pc.workers.dev"}}}
-  - {"name":"vps02cnd_2","server":"very.top-pc.workers.dev","port":443,"type":"vmess","uuid":"b9d62af8-ae33-4630-92cb-8b9b54560416","alterId":0,"cipher":"auto","country":"vps02cnd_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"very.top-pc.workers.dev"}}}
-  - {"name":"vps04_3","server":"tro.beeos.xyz","port":443,"type":"vmess","uuid":"b9d62af8-ae33-4630-92cb-8b9b54560416","alterId":0,"cipher":"auto","country":"vps04_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tro.beeos.xyz"}}}
-  - {"name":"vpsip6_4","server":"winter.top-pc.workers.dev","port":443,"type":"vmess","uuid":"b9d62af8-ae33-4630-92cb-8b9b54560416","alterId":0,"cipher":"auto","country":"vpsip6_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"winter.top-pc.workers.dev"}}}
-  - {"name":"vps01_5","server":"vry.beeos.xyz","port":443,"type":"vmess","uuid":"b9d62af8-ae33-4630-92cb-8b9b54560416","alterId":0,"cipher":"auto","country":"vps01_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"vry.beeos.xyz"}}}
+  - {"name":"🇺🇸_US_美国_1","server":"kr2.qingyun123.xyz","port":10050,"type":"trojan","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"udp":true,"password":"869d7217-8ad4-4265-be69-5a848afadebf"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_2","server":"213.183.53.177","port":9027,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_2","password":"EXN3S3eQpjE7EJu8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇵🇱_PL_波兰_3","server":"217.30.10.66","port":9014,"type":"ss","country":"🇵🇱_PL_波兰_3","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"🇺🇸_US_美国_4","server":"208.85.23.137","port":27297,"type":"ss","country":"🇺🇸_US_美国_4","cipher":"aes-256-cfb","password":"67d4e302ac8f47bf92c42afe6f085221"}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.150","port":5003,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.150","port":8080,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇵🇱_PL_波兰_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇵🇱_PL_波兰_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇵🇱_PL_波兰_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇵🇱_PL_波兰_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇵🇱_PL_波兰_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇵🇱_PL_波兰_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - keroku-with_1
-      - vps02cnd_2
-      - vps04_3
-      - vpsip6_4
-      - vps01_5
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇵🇱_PL_波兰_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
