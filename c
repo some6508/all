@@ -5,130 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA加拿大_1","server":"134.195.196.68","port":6379,"type":"ss","country":"🇨🇦_CA加拿大_1","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA加拿大_2","server":"134.195.196.68","port":8118,"type":"ss","country":"🇨🇦_CA加拿大_2","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA加拿大_3","server":"134.195.196.68","port":5601,"type":"ss","country":"🇨🇦_CA加拿大_3","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_4","server":"134.195.196.68","port":443,"type":"ss","country":"🇨🇦_CA加拿大_4","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA加拿大_5","server":"134.195.196.68","port":8888,"type":"ss","country":"🇨🇦_CA加拿大_5","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_6","server":"134.195.196.68","port":8090,"type":"ss","country":"🇨🇦_CA加拿大_6","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA加拿大_7","server":"134.195.196.68","port":7002,"type":"ss","country":"🇨🇦_CA加拿大_7","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA加拿大_8","server":"134.195.196.68","port":9101,"type":"ss","country":"🇨🇦_CA加拿大_8","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA加拿大_9","server":"134.195.196.68","port":5001,"type":"ss","country":"🇨🇦_CA加拿大_9","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_10","server":"134.195.196.68","port":7001,"type":"ss","country":"🇨🇦_CA加拿大_10","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA加拿大_11","server":"134.195.196.68","port":8009,"type":"ss","country":"🇨🇦_CA加拿大_11","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA加拿大_12","server":"134.195.196.68","port":8008,"type":"ss","country":"🇨🇦_CA加拿大_12","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.68","port":6697,"type":"ss","country":"🇨🇦_CA_加拿大_13","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_1","server":"213.183.53.177","port":9097,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_1","password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_2","server":"cm-jm.okvpn.xyz","port":20003,"type":"trojan","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_2","skip-cert-verify":true,"udp":true,"password":"da650643-87d3-4279-9b19-c8aa68568d16"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA加拿大_1
-      - 🇨🇦_CA加拿大_2
-      - 🇨🇦_CA加拿大_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇨🇦_CA加拿大_12
-      - 🇨🇦_CA_加拿大_13
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA加拿大_1
-      - 🇨🇦_CA加拿大_2
-      - 🇨🇦_CA加拿大_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇨🇦_CA加拿大_12
-      - 🇨🇦_CA_加拿大_13
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA加拿大_1
-      - 🇨🇦_CA加拿大_2
-      - 🇨🇦_CA加拿大_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇨🇦_CA加拿大_12
-      - 🇨🇦_CA_加拿大_13
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA加拿大_1
-      - 🇨🇦_CA加拿大_2
-      - 🇨🇦_CA加拿大_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇨🇦_CA加拿大_12
-      - 🇨🇦_CA_加拿大_13
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA加拿大_1
-      - 🇨🇦_CA加拿大_2
-      - 🇨🇦_CA加拿大_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇨🇦_CA加拿大_12
-      - 🇨🇦_CA_加拿大_13
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA加拿大_1
-      - 🇨🇦_CA加拿大_2
-      - 🇨🇦_CA加拿大_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇨🇦_CA加拿大_12
-      - 🇨🇦_CA_加拿大_13
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,19 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA加拿大_1
-      - 🇨🇦_CA加拿大_2
-      - 🇨🇦_CA加拿大_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇨🇦_CA加拿大_12
-      - 🇨🇦_CA_加拿大_13
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
