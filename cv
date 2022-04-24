@@ -581,8 +581,11 @@ proxies:
   - {name: F|V05-, server: cmi.db-link.in, port: 21154, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us4.db-link.in}}, udp: true}
   - {name: F|V06-, server: cm.db-link.in, port: 443, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us01.db-link.in}}, udp: true}
   - {name: F|V07-, server: cm.db-link.in, port: 443, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us02.db-link.in}}, udp: true}
-  - {name: _PL_波兰, server: 217.30.10.66, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: _AU_澳大利亚, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇿_CZ_捷克, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: default_name, server: bwg.qiyisoft.xyz, port: 443, type: vmess, uuid: 6ba05f2f-d319-46f0-92fd-8fa0ad30eed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /upgrade, headers: {Host: bwg.qiyisoft.xyz}}, udp: true}
+  - {name: default_name 2, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: _US_美国, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly5.xyz}}, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -776,12 +779,12 @@ proxies:
   - {name: _CN_中国->🇭🇰_HK_香港 19, server: hk01.xniuniu888.club, port: 30104, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦 2, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 213.183.53.177:9093, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: _US_美国, server: aead.tls.sksupersususu.dnsfree.top, port: 12346, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: aead.tls.sksupersususu.dnsfree.top, port: 12346, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
   - {name: _HK_香港 2, server: pro.tls.hongkongaz.dnsfree.top, port: 55091, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: true, udp: true}
   - {name: gz2.52168.xyz:2104, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "?�隮", obfs-param: y�6�^=.m��.r�, udp: true}
   - {name: gz2.52168.xyz:2101, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "?�隮", obfs-param: y�6�^=.m��.r�, udp: true}
   - {name: 213.183.53.177:9094, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: _US_美国 2, server: aead.tls.sksupersususu.dnsfree.top, port: 12349, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: aead.tls.sksupersususu.dnsfree.top, port: 12349, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: true, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G 4, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
@@ -994,8 +997,8 @@ proxies:
   - {name: "狮城 01 通用 流媒 [vpnhat]", server: azhk.relay01.insnow.xyz, port: 19904, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: awssg.node001.insnow.xyz, skip-cert-verify: true, udp: true}
   - {name: "印尼 01 通用 流媒 [vpnpool]", server: azhk.relay01.insnow.xyz, port: 19916, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: "韩国 02 华南 [vpnpool]", server: gzcm.relay02.insnow.xyz, port: 19912, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: kr.node003.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: 208.85.23.137, port: 27297, type: ss, cipher: aes-256-cfb, password: 67d4e302ac8f47bf92c42afe6f085221, udp: true}
-  - {name: _PL_波兰 2, server: 217.30.10.66, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: _US_美国 4, server: 208.85.23.137, port: 27297, type: ss, cipher: aes-256-cfb, password: 67d4e302ac8f47bf92c42afe6f085221, udp: true}
+  - {name: _PL_波兰, server: 217.30.10.66, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
   - {name: _RU_俄罗斯联邦, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
   - {name: _ 5_61Mb_11, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: Relay_ _ 2_02Mb_1, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
@@ -1722,8 +1725,11 @@ proxy-groups:
       - F|V05-
       - F|V06-
       - F|V07-
-      - _PL_波兰
-      - _AU_澳大利亚
+      - _US_美国->🇨🇿_CZ_捷克
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - default_name
+      - default_name 2
+      - _US_美国
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -1917,12 +1923,12 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 19
       - _CN_中国->🇷🇺_RU_俄罗斯联邦 2
       - 213.183.53.177:9093
-      - _US_美国
+      - _US_美国 2
       - _HK_香港 2
       - gz2.52168.xyz:2104
       - gz2.52168.xyz:2101
       - 213.183.53.177:9094
-      - _US_美国 2
+      - _US_美国 3
       - 公益机场:https://bit.ly/3BPeo5G 4
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
@@ -2135,8 +2141,8 @@ proxy-groups:
       - 狮城 01 通用 流媒 [vpnhat]
       - 印尼 01 通用 流媒 [vpnpool]
       - 韩国 02 华南 [vpnpool]
-      - _US_美国 3
-      - _PL_波兰 2
+      - _US_美国 4
+      - _PL_波兰
       - _RU_俄罗斯联邦
       - _ 5_61Mb_11
       - Relay_ _ 2_02Mb_1
@@ -2863,8 +2869,11 @@ proxy-groups:
       - F|V05-
       - F|V06-
       - F|V07-
-      - _PL_波兰
-      - _AU_澳大利亚
+      - _US_美国->🇨🇿_CZ_捷克
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - default_name
+      - default_name 2
+      - _US_美国
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -3058,12 +3067,12 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 19
       - _CN_中国->🇷🇺_RU_俄罗斯联邦 2
       - 213.183.53.177:9093
-      - _US_美国
+      - _US_美国 2
       - _HK_香港 2
       - gz2.52168.xyz:2104
       - gz2.52168.xyz:2101
       - 213.183.53.177:9094
-      - _US_美国 2
+      - _US_美国 3
       - 公益机场:https://bit.ly/3BPeo5G 4
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
@@ -3276,8 +3285,8 @@ proxy-groups:
       - 狮城 01 通用 流媒 [vpnhat]
       - 印尼 01 通用 流媒 [vpnpool]
       - 韩国 02 华南 [vpnpool]
-      - _US_美国 3
-      - _PL_波兰 2
+      - _US_美国 4
+      - _PL_波兰
       - _RU_俄罗斯联邦
       - _ 5_61Mb_11
       - Relay_ _ 2_02Mb_1
