@@ -5,16 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇺🇸_US_美国_1, server: cs.anoob.icu, port: 12001, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
-  - {name: _US_美国_2, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_3, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _IN_印度_4, server: doin.node003.insnow.xyz, port: 9933, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_5, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_6, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _RU_俄罗斯联邦_7, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国_8, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
-  - {name: _SE_瑞典_9, server: 20.91.188.160, port: 235, type: vmess, uuid: e3aa90f7-57b9-4e46-a539-6e8d0c4db6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_10, server: gz2.52168.xyz, port: 2103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: _AU_澳大利亚_1, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_2, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_3, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇲🇾_MY_马来西亚_4, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰_5, server: r00t_2017@45.147.160.86, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_6, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, skip-cert-verify: true, udp: true}
+  - {name: _PL_波兰_7, server: 217.30.10.66, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: _US_美国_8, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_9, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_10, server: 213.183.53.177, port: 9011, type: ssr, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: ru-1-fast.teacher2060.com, port: 31319, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: ru-1-fast.teacher2060.com, port: 31319, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: ru-1-fast.teacher2060.com, port: 31319, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1142,16 +1142,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇺🇸_US_美国_1
-      - _US_美国_2
-      - _CA_加拿大_3
-      - _IN_印度_4
-      - _CA_加拿大_5
-      - _CA_加拿大_6
-      - _RU_俄罗斯联邦_7
-      - _US_美国->🇩🇪_DE_德国_8
-      - _SE_瑞典_9
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_10
+      - _AU_澳大利亚_1
+      - _CN_中国->🇹🇼_TW_台湾_2
+      - _CN_中国->🇭🇰_HK_香港_3
+      - _CN_中国->🇲🇾_MY_马来西亚_4
+      - _NL_荷兰_5
+      - _CN_中国->🇯🇵_JP_日本_6
+      - _PL_波兰_7
+      - _US_美国_8
+      - _US_美国_9
+      - _RU_俄罗斯联邦_10
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -2279,16 +2279,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇺🇸_US_美国_1
-      - _US_美国_2
-      - _CA_加拿大_3
-      - _IN_印度_4
-      - _CA_加拿大_5
-      - _CA_加拿大_6
-      - _RU_俄罗斯联邦_7
-      - _US_美国->🇩🇪_DE_德国_8
-      - _SE_瑞典_9
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_10
+      - _AU_澳大利亚_1
+      - _CN_中国->🇹🇼_TW_台湾_2
+      - _CN_中国->🇭🇰_HK_香港_3
+      - _CN_中国->🇲🇾_MY_马来西亚_4
+      - _NL_荷兰_5
+      - _CN_中国->🇯🇵_JP_日本_6
+      - _PL_波兰_7
+      - _US_美国_8
+      - _US_美国_9
+      - _RU_俄罗斯联邦_10
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3

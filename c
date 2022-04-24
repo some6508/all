@@ -15,6 +15,10 @@ proxies:
   - {"name":"🇺🇸_US_美国_8","server":"kr2.qingyun123.xyz","port":10050,"type":"trojan","country":"🇺🇸_US_美国_8","skip-cert-verify":true,"udp":true,"password":"928bb264-85ee-48f7-9e1d-6f78e625caf8"}
   - {"name":"🇺🇸_US_美国_9","server":"nfus.qingyun123.xyz","port":10050,"type":"trojan","country":"🇺🇸_US_美国_9","skip-cert-verify":true,"udp":true,"password":"928bb264-85ee-48f7-9e1d-6f78e625caf8"}
   - {"name":"🇷🇺_RU_俄罗斯联邦_10","server":"213.183.53.177","port":9011,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_10","password":"M3t2ZEQcMGRWBjRa","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_11","server":"213.183.53.177","port":9010,"type":"ss","country":"🇷🇺_RU_俄罗斯联邦_11","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_12","server":"fumetsuseiko.tk","port":443,"type":"vmess","uuid":"3364a992-7e4a-4551-d488-e3fad37421ad","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇩🇪_DE_德国_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"headers":{"host":"fumetsuseiko.tk"}}}
+  - {"name":"🇺🇸_US_美国_13","server":"jgwdj4.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_13","skip-cert-verify":true,"udp":true,"password":"c09eb137-bf68-4658-84e0-102d94b74168"}
+  - {"name":"🇺🇸_US_美国_14","server":"share.fanqiangvpn.com","port":80,"type":"vmess","uuid":"ee8d15c0-927d-497a-ba84-65447a790f56","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_14","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"headers":{"host":"share.fanqiangvpn.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +35,10 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇷🇺_RU_俄罗斯联邦_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,6 +55,10 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇷🇺_RU_俄罗斯联邦_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,6 +75,10 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇷🇺_RU_俄罗斯联邦_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,6 +94,10 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇷🇺_RU_俄罗斯联邦_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -93,6 +113,10 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇷🇺_RU_俄罗斯联邦_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -108,6 +132,10 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇷🇺_RU_俄罗斯联邦_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,6 +168,10 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇷🇺_RU_俄罗斯联邦_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
