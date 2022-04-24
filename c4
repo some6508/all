@@ -11,7 +11,7 @@ external-controller: :9090
 proxy-providers:
   bihai:
     type: http
-    url: "https://raw.githubusercontent.com/lcx12901/v2ray-/master/sspool.herokuapp.com/bihai.yaml"
+    url: "https://v2ray-lcx12901.vercel.app/sspool.herokuapp.com/bihai.yaml"
     path: sspool.herokuapp.com/bihai.yaml
     health-check:
       enable: true
@@ -19,88 +19,20 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ednovas:
     type: http
-    url: "https://raw.githubusercontent.com/lcx12901/v2ray-/master/sspool.herokuapp.com/ednovas.yaml"
+    url: "https://v2ray-lcx12901.vercel.app/sspool.herokuapp.com/ednovas.yaml"
     path: sspool.herokuapp.com/bihai.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-proxies:
-  - {name: v2cross.com, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com, skip-cert-verify: false, udp: true}
-  - {name: v2cross.com 2, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: false, udp: true}
-  - {name: v2cross.com 3, server: twodays.rutracker-cn.com, port: 443, type: trojan, password: IPcvYBswKx8I7JwU, sni: twodays.rutracker-cn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com, server: in02.dns2333.xyz, port: 63087, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
-  - {name: v2cross.com 4, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.47727450.xyz}, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 2, server: jm-yd-3421.cloudapicloudapi.top, port: 1008, type: ss, cipher: aes-256-gcm, password: 615CC959-8002-9CB4-1F8F-6B38C4166368, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 2, server: 149.28.66.87, port: 22135, type: vmess, uuid: 92cf0366-bcca-11ec-8cef-560003f2ffbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /i7qcJo6E/, ws-headers: {Host: 149.28.66.87}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 3, server: 149.28.66.87, port: 22135, type: vmess, uuid: 92cf0366-bcca-11ec-8cef-560003f2ffbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /i7qcJo6E/, ws-headers: {Host: 149.28.66.87}, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 3, server: jm-yd-3421.cloudapicloudapi.top, port: 1010, type: ss, cipher: aes-256-gcm, password: 615CC959-8002-9CB4-1F8F-6B38C4166368, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 4, server: 412sgsg.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 412sgsg.fans8.xyz}, udp: true}
-  - {name: v2cross.com 5, server: hax.hax01.tk, port: 443, type: vmess, uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hax.hax01.tk}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 4, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 5, server: oz.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 6, server: oz.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: v2cross.com 6, server: hax.hax01.tk, port: 443, type: vmess, uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hax.hax01.tk}, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 5, server: in01.dns2333.xyz, port: 63028, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: mugua-tr01.covid19.rip}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 7, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 8, server: hax2.hax01.ml, port: 443, type: vmess, uuid: 25af03c3-27ff-4c14-c142-ad7694ec42f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hax2.hax01.ml}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 9, server: hk4.fdns.unino.tech, port: 443, type: vmess, uuid: ae5e3f3a-b392-409c-a768-ce63bfe453c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk4.fdns.unino.tech}, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 6, server: 120.240.48.19, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 10, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 7, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: v2cross.com 7, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /wsssdr1, ws-headers: {Host: niaop.tk}, udp: true}
-  - {name: NL-v2cross.com, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 11, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: 04d83e9e-d6ff-49ca-9c32-082b9b9c9c54, sni: rbmf.speedcncnforward3.tk, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 8, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-v1.sdgdn.com}, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 9, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 🇸🇬 SG-v2cross.com, server: sg1.31vpn.com, port: 80, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /fastssh/ccvcxds/6252624d4fda3/, ws-headers: {Host: sg1.31vpn.com}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 12, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: rbmf.speedcncnforward3.tk, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG-v2cross.com 2, server: sg1.31vpn.com, port: 80, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /fastssh/ccvcxds/6252624d4fda3/, ws-headers: {Host: sg1.31vpn.com}, udp: true}
-  - {name: 🇺🇸 US-v2cross.com 13, server: xjpmf.speedcncnforward2.tk, port: 10001, type: trojan, password: 32f3466c-2483-4de6-83b8-f4008c750102, sni: xjpmf.speedcncnforward2.tk, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN-v2cross.com 10, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-v1.sdgdn.com}, udp: true}
-  - {name: 🇸🇬 SG_@v2cross.com01, server: tj-node-3.gfwairport.net, port: 50001, type: trojan, password: 94663697-512d-47fe-ad13-14984e1ebffa, sni: tj-node-3.gfwairport.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP_@v2cross.com01, server: V2-NODE-1.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 94663697-512d-47fe-ad13-14984e1ebffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-1.GFWAIRPORT.NET}, udp: true}
-  - {name: 🇭🇰 HK_@v2cross.com01, server: hk21.holiganfan.com, port: 10088, type: trojan, password: 4e9dac0d-ae86-45e8-af61-668ce5825d61, sni: hk21.holiganfan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK_@v2cross.com01 2, server: tj-node-4.gfwairport.net, port: 50001, type: trojan, password: 94663697-512d-47fe-ad13-14984e1ebffa, sni: tj-node-4.gfwairport.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK_@v2cross.com01 3, server: V2-NODE-4.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 94663697-512d-47fe-ad13-14984e1ebffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-4.GFWAIRPORT.NET}, udp: true}
-  - {name: 🇺🇸 US_@v2cross.com01, server: tj-node-5.gfwairport.net, port: 50001, type: trojan, password: 94663697-512d-47fe-ad13-14984e1ebffa, sni: tj-node-5.gfwairport.net, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US_@v2cross.com01 2, server: ss-node-2.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 94663697-512d-47fe-ad13-14984e1ebffa, udp: true}
-  - {name: 🇭🇰 HK_@v2cross.com01 4, server: hk20.holiganfan.com, port: 10088, type: trojan, password: 4e9dac0d-ae86-45e8-af61-668ce5825d61, sni: hk20.holiganfan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP_@v2cross.com01 2, server: tj-node-1.gfwairport.net, port: 50001, type: trojan, password: 94663697-512d-47fe-ad13-14984e1ebffa, sni: tj-node-1.gfwairport.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP_@v2cross.com01 3, server: ss-node-1.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 94663697-512d-47fe-ad13-14984e1ebffa, udp: true}
-  - {name: 🇭🇰 v2cross.com - 香港Microsoft数据中心 1, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 32ba9f2a-0a02-42aa-9e1c-040bc9813f12, sni: hknf2.qingyun123.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国Microsoft数据中心 2, server: pro.tls.hongkongaz.dnsfree.top, port: 55091, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, sni: pro.tls.hongkongaz.dnsfree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国Microsoft数据中心 3, server: superjapan1111.dnsfree.top, port: 12389, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, sni: superjapan1111.dnsfree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国Microsoft数据中心 4, server: superjapan1111.dnsfree.top, port: 12392, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, sni: superjapan1111.dnsfree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 v2cross.com - 香港特别行政区 5, server: baidu.hongkong.dnsfree.top, port: 55094, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, sni: baidu.hongkong.dnsfree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 v2cross.com - 香港特别行政区 6, server: baidu.hongkong.dnsfree.top, port: 55093, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, sni: baidu.hongkong.dnsfree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国Microsoft公司 7, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 32ba9f2a-0a02-42aa-9e1c-040bc9813f12, sni: nfjp1.qingyun123.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国Microsoft数据中心 8, server: aead.tls.sksupersususu.dnsfree.top, port: 12346, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶Choopa数据中心 9, server: 45.77.126.179, port: 57745, type: vmess, uuid: e8b99f3e-bc07-11ec-bc51-560003f2ac4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /SfqyKoZu/, ws-headers: {Host: 45.77.126.179}, udp: true}
-  - {name: v2cross.com - 欧盟  10, server: 45.66.159.74, port: 58055, type: vmess, uuid: e5dfca9a-b6cb-11ec-9c2f-00163cbed88a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /xEzyADCa/, ws-headers: {Host: 45.66.159.74}, udp: true}
-  - {name: 🇷🇺 v2cross.com - 俄罗斯莫斯科Melbicom数据中心 11, server: 213.183.53.200, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: 🇸🇬 v2cross.com - 美国新泽西州皮斯卡特维Vultr数据中心 12, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 v2cross.com - 新加坡DigitalOcean数据中心 13, server: sg1.31vpn.com, port: 80, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /fastssh/ccvcxds/6252624d4fda3/, ws-headers: {Host: sg1.31vpn.com}, udp: true}
-  - {name: 🇺🇸 v2cross.com - 北美地区  14, server: tls.us01.dnsfree.top, port: 12345, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, sni: tls.us01.dnsfree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶Choopa数据中心 15, server: 140.82.22.122, port: 37572, type: vmess, uuid: 81e3f426-bc02-11ec-b4df-560003f2aa40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /qgbdnHwN/, ws-headers: {Host: 140.82.22.122}, udp: true}
-  - {name: 🇨🇦 v2cross.com - 加拿大  16, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0326hk01.fans8.xyz}, udp: true}
-  - {name: 🇨🇳 v2cross.com - 上海市电信 17, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 18, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}, udp: true}
-  - {name: 🇨🇦 v2cross.com - 加拿大  19, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 330hk02.fans8.xyz}, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 20, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: 🇨🇦 v2cross.com - 加拿大  21, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 22, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 23, server: hax.hax01.tk, port: 443, type: vmess, uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hax.hax01.tk}, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 24, server: oz.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 25, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 🇫🇷 v2cross.com - 法国  26, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nl, ws-headers: {Host: 0316ro.fans8.xyz}, udp: true}
-  - {name: 🇫🇷 v2cross.com - 法国  27, server: 92.243.24.236, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LE6Ee6PELhVu, udp: true}
-  - {name: 🇭🇰 v2cross.com - 香港电讯盈科有限公司 28, server: hkt2.node.qchwnd.moe, port: 44614, type: trojan, password: 1925c4ba-616a-416f-a494-392f2ba9eb77, sni: hkt2.node.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇿🇦 v2cross.com - 南非豪登省约翰内斯堡Cloudinnovation数据中心 29, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
-  - {name: 🇺🇸 v2cross.com - 北美地区  30, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: 🇺🇸 v2cross.com - 美国3COM公司企业网 31, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 v2cross.com - 荷兰  32, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: false, udp: true}
+  other:
+    type: http
+    url: "https://v2ray-lcx12901.vercel.app/sspool.herokuapp.com/provider-other.yaml"
+    path: sspool.herokuapp.com/provider-other.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 proxy-groups:
   - name: 😜 碧海
     type: select
@@ -116,6 +48,13 @@ proxy-groups:
     tolerance: 50
     use:
       - ednovas
+  - name: 💯 other
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - other
   - name: ♻️ 手动选择
     type: select
     url: http://www.gstatic.com/generate_204
@@ -124,81 +63,7 @@ proxy-groups:
     proxies:
       - 😜 碧海
       - 💯 ednovas
-      - v2cross.com
-      - v2cross.com 2
-      - v2cross.com 3
-      - 🇨🇳 CN-v2cross.com
-      - v2cross.com 4
-      - 🇺🇸 US-v2cross.com
-      - 🇨🇳 CN-v2cross.com 2
-      - 🇺🇸 US-v2cross.com 2
-      - 🇺🇸 US-v2cross.com 3
-      - 🇨🇳 CN-v2cross.com 3
-      - 🇨🇳 CN-v2cross.com 4
-      - v2cross.com 5
-      - 🇺🇸 US-v2cross.com 4
-      - 🇺🇸 US-v2cross.com 5
-      - 🇺🇸 US-v2cross.com 6
-      - v2cross.com 6
-      - 🇨🇳 CN-v2cross.com 5
-      - 🇺🇸 US-v2cross.com 7
-      - 🇺🇸 US-v2cross.com 8
-      - 🇺🇸 US-v2cross.com 9
-      - 🇨🇳 CN-v2cross.com 6
-      - 🇺🇸 US-v2cross.com 10
-      - 🇨🇳 CN-v2cross.com 7
-      - v2cross.com 7
-      - NL-v2cross.com
-      - 🇺🇸 US-v2cross.com 11
-      - 🇨🇳 CN-v2cross.com 8
-      - 🇨🇳 CN-v2cross.com 9
-      - 🇸🇬 SG-v2cross.com
-      - 🇺🇸 US-v2cross.com 12
-      - 🇸🇬 SG-v2cross.com 2
-      - 🇺🇸 US-v2cross.com 13
-      - 🇨🇳 CN-v2cross.com 10
-      - 🇸🇬 SG_@v2cross.com01
-      - 🇯🇵 JP_@v2cross.com01
-      - 🇭🇰 HK_@v2cross.com01
-      - 🇭🇰 HK_@v2cross.com01 2
-      - 🇭🇰 HK_@v2cross.com01 3
-      - 🇺🇸 US_@v2cross.com01
-      - 🇺🇸 US_@v2cross.com01 2
-      - 🇭🇰 HK_@v2cross.com01 4
-      - 🇯🇵 JP_@v2cross.com01 2
-      - 🇯🇵 JP_@v2cross.com01 3
-      - 🇭🇰 v2cross.com - 香港Microsoft数据中心 1
-      - 🇺🇸 v2cross.com - 美国Microsoft数据中心 2
-      - 🇺🇸 v2cross.com - 美国Microsoft数据中心 3
-      - 🇺🇸 v2cross.com - 美国Microsoft数据中心 4
-      - 🇭🇰 v2cross.com - 香港特别行政区 5
-      - 🇭🇰 v2cross.com - 香港特别行政区 6
-      - 🇺🇸 v2cross.com - 美国Microsoft公司 7
-      - 🇺🇸 v2cross.com - 美国Microsoft数据中心 8
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶Choopa数据中心 9
-      - v2cross.com - 欧盟  10
-      - 🇷🇺 v2cross.com - 俄罗斯莫斯科Melbicom数据中心 11
-      - 🇸🇬 v2cross.com - 美国新泽西州皮斯卡特维Vultr数据中心 12
-      - 🇸🇬 v2cross.com - 新加坡DigitalOcean数据中心 13
-      - 🇺🇸 v2cross.com - 北美地区  14
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶Choopa数据中心 15
-      - 🇨🇦 v2cross.com - 加拿大  16
-      - 🇨🇳 v2cross.com - 上海市电信 17
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
-      - 🇨🇦 v2cross.com - 加拿大  19
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 20
-      - 🇨🇦 v2cross.com - 加拿大  21
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 22
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 23
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 24
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 25
-      - 🇫🇷 v2cross.com - 法国  26
-      - 🇫🇷 v2cross.com - 法国  27
-      - 🇭🇰 v2cross.com - 香港电讯盈科有限公司 28
-      - 🇿🇦 v2cross.com - 南非豪登省约翰内斯堡Cloudinnovation数据中心 29
-      - 🇺🇸 v2cross.com - 北美地区  30
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 31
-      - 🇳🇱 v2cross.com - 荷兰  32
+      - 💯 other
 rule-providers:
   # github host文件：https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts
   reject:
@@ -218,7 +83,7 @@ rule-providers:
   mydirect:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/lcx12901/v2ray-/master/ruleset/mydirect.yaml"
+    url: "https://v2ray-lcx12901.vercel.app/ruleset/mydirect.yaml"
     path: ./ruleset/mydirect.yaml
     interval: 86400
 
@@ -239,19 +104,19 @@ rule-providers:
   proxyme:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/lcx12901/v2ray-/master/ruleset/proxyme.yaml"
+    url: "https://v2ray-lcx12901.vercel.app/ruleset/proxyme.yaml"
     path: ./ruleset/proxyme.yaml
     interval: 86400
   GTAR2:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/lcx12901/v2ray-/master/ruleset/GTA-R.yaml"
+    url: "https://v2ray-lcx12901.vercel.app/ruleset/GTA-R.yaml"
     path: ./ruleset/GTA-R.yaml
     interval: 86400
   baha:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/lcx12901/v2ray-/master/ruleset/baha.yaml"
+    url: "https://v2ray-lcx12901.vercel.app/ruleset/baha.yaml"
     path: ./ruleset/baha.yaml
     interval: 86400
   Hijacking:
