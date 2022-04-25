@@ -5,16 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇭🇰_HK_香港_1, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇲🇾_MY_马来西亚_2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _ZA_南非_3, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_4, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇱🇺_LU_卢森堡_5, server: sh-cu.mikuyun.xyz, port: 19932, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_6, server: sh-cu.mikuyun.xyz, port: 19923, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: _BR_巴西_7, server: zhilian-br-a.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇱🇺_LU_卢森堡_8, server: sh-cu.mikuyun.xyz, port: 19933, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: _CN_中国->🇱🇺_LU_卢森堡_9, server: sh-cu.mikuyun.xyz, port: 19931, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: _US_美国_10, server: 38.114.114.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 0219_1128_wulabing_kirakirasevennine_com_1, server: kirakirasevennine.com, port: 443, type: vmess, uuid: 67068812-0f6c-437e-ab13-f480f23bf004, alterId: 13, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9f21/, headers: {Host: kirakirasevennine.com}}, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君), server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君) 2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
   - {name: 印度(欢迎订阅Youtube破解资源君), server: yifaer.tk, port: 19436, type: trojan, password: WDuipbwYYl, skip-cert-verify: true, udp: true}
@@ -990,16 +981,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->🇲🇾_MY_马来西亚_2
-      - _ZA_南非_3
-      - _CN_中国->🇹🇼_TW_台湾_4
-      - _CN_中国->🇱🇺_LU_卢森堡_5
-      - _CN_中国->🇹🇼_TW_台湾_6
-      - _BR_巴西_7
-      - _CN_中国->🇱🇺_LU_卢森堡_8
-      - _CN_中国->🇱🇺_LU_卢森堡_9
-      - _US_美国_10
+      - 0219_1128_wulabing_kirakirasevennine_com_1
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君)
@@ -1975,16 +1957,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->🇲🇾_MY_马来西亚_2
-      - _ZA_南非_3
-      - _CN_中国->🇹🇼_TW_台湾_4
-      - _CN_中国->🇱🇺_LU_卢森堡_5
-      - _CN_中国->🇹🇼_TW_台湾_6
-      - _BR_巴西_7
-      - _CN_中国->🇱🇺_LU_卢森堡_8
-      - _CN_中国->🇱🇺_LU_卢森堡_9
-      - _US_美国_10
+      - 0219_1128_wulabing_kirakirasevennine_com_1
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君)
