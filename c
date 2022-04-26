@@ -5,137 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"香港_101_HKT_1x_1","server":"hk01.linkzones.xyz","port":31911,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"香港_101_HKT_1x_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk01.linknodes.xyz"}}}
-  - {"name":"香港_102_HGC_1x_2","server":"hk02.linkzones.xyz","port":31913,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"香港_102_HGC_1x_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk02.linknodes.xyz"}}}
-  - {"name":"香港_103_IEPL专线_2x_3","server":"hk03.linkzones.xyz","port":47093,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"香港_103_IEPL专线_2x_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk03.linknodes.xyz"}}}
-  - {"name":"日本_101_负载优化_1x_4","server":"jp01.linkzones.xyz","port":31961,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"日本_101_负载优化_1x_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"jp01.linknodes.xyz"}}}
-  - {"name":"日本_102_线路优化_1x_5","server":"jp02.linkzones.xyz","port":31972,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"日本_102_线路优化_1x_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"jp02.linknodes.xyz"}}}
-  - {"name":"日本_103_电信优化_1x_6","server":"jp03.linkzones.xyz","port":31991,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"日本_103_电信优化_1x_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"jp03.linknodes.xyz"}}}
-  - {"name":"新加坡_101_负载优化_1x_7","server":"sg01.linkzones.xyz","port":31982,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"新加坡_101_负载优化_1x_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"sg01.linknodes.xyz"}}}
-  - {"name":"新加坡_103_电信优化_2x_8","server":"sg03.linkzones.xyz","port":31984,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"新加坡_103_电信优化_2x_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"sg03.linknodes.xyz"}}}
-  - {"name":"台湾_101_负载优化_1x_9","server":"tw01.linkzones.xyz","port":31981,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"台湾_101_负载优化_1x_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"tw01.linknodes.xyz"}}}
-  - {"name":"台湾_103_电信优化_2x_10","server":"tw03.linkzones.xyz","port":51984,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"台湾_103_电信优化_2x_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"tw03.linknodes.xyz"}}}
-  - {"name":"美国_102_负载优化_1x_11","server":"us02.linkzones.xyz","port":31964,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"美国_102_负载优化_1x_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"us02.linknodes.xyz"}}}
-  - {"name":"美国_103_电信优化_2x_12","server":"us03.linkzones.xyz","port":31974,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"美国_103_电信优化_2x_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"us03.linknodes.xyz"}}}
-  - {"name":"加拿大_101_负载优化_1x_13","server":"ca01.linkzones.xyz","port":31975,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"加拿大_101_负载优化_1x_13","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ca01.linknodes.xyz"}}}
-  - {"name":"加拿大_102_负载优化_1x_14","server":"ca02.linkzones.xyz","port":31976,"type":"vmess","uuid":"750ca823-8e86-347a-ac3f-5145f9e4d043","alterId":0,"cipher":"auto","country":"加拿大_102_负载优化_1x_14","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ca02.linknodes.xyz"}}}
+  - {"name":"🇿🇦_ZA_南非_1","server":"156.251.191.241","port":32898,"type":"vmess","uuid":"7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb","alterId":0,"cipher":"auto","country":"🇿🇦_ZA_南非_1","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","server":"cm-jm.okvpn.xyz","port":20004,"type":"trojan","country":"🇨🇳_CN_中国->🇺🇸_US_美国_2","skip-cert-verify":true,"udp":true,"password":"fdb88add-f0a3-4984-8a54-2969d84d6aef"}
+  - {"name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3","server":"cm-jm.okvpn.xyz","port":20005,"type":"trojan","country":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3","skip-cert-verify":true,"udp":true,"password":"fdb88add-f0a3-4984-8a54-2969d84d6aef"}
+  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_4","server":"cm-jm.okvpn.xyz","port":20003,"type":"trojan","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_4","skip-cert-verify":true,"udp":true,"password":"fdb88add-f0a3-4984-8a54-2969d84d6aef"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_5","server":"cm-jm.okvpn.xyz","port":20000,"type":"trojan","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_5","skip-cert-verify":true,"udp":true,"password":"fdb88add-f0a3-4984-8a54-2969d84d6aef"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_6","server":"gy.sharecentrepro.tk","port":13397,"type":"trojan","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_6","skip-cert-verify":true,"udp":true,"password":"d3b04e55-f2ae-4500-b317-e23946dde463"}
+  - {"name":"🇨🇳_CN_中国->🇬🇧_GB_英国_7","server":"cm-jm.okvpn.xyz","port":20006,"type":"trojan","country":"🇨🇳_CN_中国->🇬🇧_GB_英国_7","skip-cert-verify":true,"udp":true,"password":"fdb88add-f0a3-4984-8a54-2969d84d6aef"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_8","server":"v4-node66.mimemi-u1sd.com","port":13114,"type":"ssr","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_8","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"256:ySh8ar","obfs-param":"hk2sch7dd6f256.wns.windows.com"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_9","server":"213.183.53.177","port":9050,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_9","password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇺🇸_US_美国_10","server":"89.208.248.114","port":443,"type":"vmess","uuid":"ef1af6e9-2029-4d16-9fc5-c23ff022f143","alterId":64,"cipher":"auto","country":"🇺🇸_US_美国_10","skip-cert-verify":true,"tls":true,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_IEPL专线_2x_3
-      - 日本_101_负载优化_1x_4
-      - 日本_102_线路优化_1x_5
-      - 日本_103_电信优化_1x_6
-      - 新加坡_101_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 台湾_101_负载优化_1x_9
-      - 台湾_103_电信优化_2x_10
-      - 美国_102_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_101_负载优化_1x_13
-      - 加拿大_102_负载优化_1x_14
+      - 🇿🇦_ZA_南非_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇷🇺_RU_俄罗斯联邦_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_IEPL专线_2x_3
-      - 日本_101_负载优化_1x_4
-      - 日本_102_线路优化_1x_5
-      - 日本_103_电信优化_1x_6
-      - 新加坡_101_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 台湾_101_负载优化_1x_9
-      - 台湾_103_电信优化_2x_10
-      - 美国_102_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_101_负载优化_1x_13
-      - 加拿大_102_负载优化_1x_14
+      - 🇿🇦_ZA_南非_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇷🇺_RU_俄罗斯联邦_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_IEPL专线_2x_3
-      - 日本_101_负载优化_1x_4
-      - 日本_102_线路优化_1x_5
-      - 日本_103_电信优化_1x_6
-      - 新加坡_101_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 台湾_101_负载优化_1x_9
-      - 台湾_103_电信优化_2x_10
-      - 美国_102_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_101_负载优化_1x_13
-      - 加拿大_102_负载优化_1x_14
+      - 🇿🇦_ZA_南非_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇷🇺_RU_俄罗斯联邦_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_IEPL专线_2x_3
-      - 日本_101_负载优化_1x_4
-      - 日本_102_线路优化_1x_5
-      - 日本_103_电信优化_1x_6
-      - 新加坡_101_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 台湾_101_负载优化_1x_9
-      - 台湾_103_电信优化_2x_10
-      - 美国_102_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_101_负载优化_1x_13
-      - 加拿大_102_负载优化_1x_14
+      - 🇿🇦_ZA_南非_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇷🇺_RU_俄罗斯联邦_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_IEPL专线_2x_3
-      - 日本_101_负载优化_1x_4
-      - 日本_102_线路优化_1x_5
-      - 日本_103_电信优化_1x_6
-      - 新加坡_101_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 台湾_101_负载优化_1x_9
-      - 台湾_103_电信优化_2x_10
-      - 美国_102_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_101_负载优化_1x_13
-      - 加拿大_102_负载优化_1x_14
+      - 🇿🇦_ZA_南非_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇷🇺_RU_俄罗斯联邦_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_IEPL专线_2x_3
-      - 日本_101_负载优化_1x_4
-      - 日本_102_线路优化_1x_5
-      - 日本_103_电信优化_1x_6
-      - 新加坡_101_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 台湾_101_负载优化_1x_9
-      - 台湾_103_电信优化_2x_10
-      - 美国_102_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_101_负载优化_1x_13
-      - 加拿大_102_负载优化_1x_14
+      - 🇿🇦_ZA_南非_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇷🇺_RU_俄罗斯联邦_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,20 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_IEPL专线_2x_3
-      - 日本_101_负载优化_1x_4
-      - 日本_102_线路优化_1x_5
-      - 日本_103_电信优化_1x_6
-      - 新加坡_101_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 台湾_101_负载优化_1x_9
-      - 台湾_103_电信优化_2x_10
-      - 美国_102_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_101_负载优化_1x_13
-      - 加拿大_102_负载优化_1x_14
+      - 🇿🇦_ZA_南非_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇷🇺_RU_俄罗斯联邦_9
+      - 🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
