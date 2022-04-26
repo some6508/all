@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1","server":"cm-jm.okvpn.xyz","port":20005,"type":"trojan","country":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1","skip-cert-verify":true,"udp":true,"password":"fdb88add-f0a3-4984-8a54-2969d84d6aef"}
+  - {"name":"cloudflare-heroku_1","server":"162.159.160.241","port":443,"type":"vmess","uuid":"ad806487-2d26-4636-98b6-ab85cc8521f7","alterId":0,"cipher":"auto","country":"cloudflare-heroku_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"round-mouse-7110.xny.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
+      - cloudflare-heroku_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
+      - cloudflare-heroku_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
+      - cloudflare-heroku_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
+      - cloudflare-heroku_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
+      - cloudflare-heroku_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
+      - cloudflare-heroku_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
+      - cloudflare-heroku_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
