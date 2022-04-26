@@ -5,16 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _ZA_南非_1, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_2, server: cm-jm.okvpn.xyz, port: 20004, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇲🇾_MY_马来西亚_3, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_4, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_5, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_6, server: gy.sharecentrepro.tk, port: 13397, type: trojan, password: d3b04e55-f2ae-4500-b317-e23946dde463, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国_7, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_8, server: v4-node66.mimemi-u1sd.com, port: 13114, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: _RU_俄罗斯联邦_9, server: 213.183.53.177, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_10, server: 89.208.248.114, port: 443, type: vmess, uuid: ef1af6e9-2029-4d16-9fc5-c23ff022f143, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US_18, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly5.xyz}}, udp: true}
+  - {name: ZZ_4548, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_3009_4_82Mb_3, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: jpaz1.xmrth-node.xyz}}, udp: true}
+  - {name: US_3626, server: 167.88.61.175, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_3641, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: IN_986, server: 172.105.42.160, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_2985, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: NL_1302, server: 213.183.51.172, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: ZZ_4677, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: DE_atv2cross_com01_10, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: v8.heduian.online, port: 30866, type: vmess, uuid: bba2cd65-2149-3089-9f1a-fed4c69c76bf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 103.28.23.162, port: 12300, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home, headers: {Host: in.academicpapers.eu.org}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
@@ -1056,16 +1056,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _ZA_南非_1
-      - _CN_中国->🇺🇸_US_美国_2
-      - _CN_中国->🇲🇾_MY_马来西亚_3
-      - _CN_中国->🇹🇼_TW_台湾_4
-      - _CN_中国->🇭🇰_HK_香港_5
-      - _CN_中国->🇭🇰_HK_香港_6
-      - _CN_中国->🇬🇧_GB_英国_7
-      - _CN_中国->🇭🇰_HK_香港_8
-      - _RU_俄罗斯联邦_9
-      - _US_美国_10
+      - US_18
+      - ZZ_4548
+      - US_3009_4_82Mb_3
+      - US_3626
+      - US_3641
+      - IN_986
+      - US_2985
+      - NL_1302
+      - ZZ_4677
+      - DE_atv2cross_com01_10
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2107,16 +2107,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _ZA_南非_1
-      - _CN_中国->🇺🇸_US_美国_2
-      - _CN_中国->🇲🇾_MY_马来西亚_3
-      - _CN_中国->🇹🇼_TW_台湾_4
-      - _CN_中国->🇭🇰_HK_香港_5
-      - _CN_中国->🇭🇰_HK_香港_6
-      - _CN_中国->🇬🇧_GB_英国_7
-      - _CN_中国->🇭🇰_HK_香港_8
-      - _RU_俄罗斯联邦_9
-      - _US_美国_10
+      - US_18
+      - ZZ_4548
+      - US_3009_4_82Mb_3
+      - US_3626
+      - US_3641
+      - IN_986
+      - US_2985
+      - NL_1302
+      - ZZ_4677
+      - DE_atv2cross_com01_10
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
