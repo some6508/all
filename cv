@@ -546,13 +546,38 @@ proxies:
   - {name: Ytb:鹏哥分享_IN_印度_330, server: 172.104.207.231, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_331, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_332, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: F|V00, server: cmi.db-link.in, port: 21152, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us2.db-link.in}}, udp: true}
-  - {name: F|V02-TG@moneyflychat, server: cmi.db-link.in, port: 21153, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us3.db-link.in}}, udp: true}
-  - {name: F|V03-中继中转隧道线路覆盖, server: cmi.db-link.in, port: 21153, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us3.db-link.in}}, udp: true}
-  - {name: F|V04-公益等级线路限速, server: cmi.db-link.in, port: 21154, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us4.db-link.in}}, udp: true}
-  - {name: F|V05-, server: cmi.db-link.in, port: 21154, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us4.db-link.in}}, udp: true}
-  - {name: F|V06-, server: cm.db-link.in, port: 443, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us01.db-link.in}}, udp: true}
-  - {name: F|V07-, server: cm.db-link.in, port: 443, type: vmess, uuid: 2eaa2daa-c0a6-3191-bc05-c2143b965f9a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us02.db-link.in}}, udp: true}
+  - {name: 免费线路, server: 142.0.128.250, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.74313428.xyz}}, udp: true}
+  - {name: ★美国加州A★年付专线, server: 142.4.112.60, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.32754213.xyz}}, udp: true}
+  - {name: 中国台湾, server: 142.4.112.60, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.32754213.xyz}}, udp: true}
+  - {name: ★中国香港A★年付专线, server: 154.84.1.213, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.44590130.xyz}}, udp: true}
+  - {name: 移动专线A, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.68737987.xyz}}, udp: true}
+  - {name: 俄罗斯A, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.54872833.xyz}}, udp: true}
+  - {name: 英国伦敦B, server: 23.225.57.222, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.21188776.xyz}}, udp: true}
+  - {name: 日本大阪B, server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
+  - {name: ★韩国首尔A★年付专线, server: 142.0.130.140, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.57015294.xyz}}, udp: true}
+  - {name: ★新加坡A★年付专线, server: 198.2.200.117, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.68478520.xyz}}, udp: true}
+  - {name: 瑞典, server: 154.84.1.213, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.44590130.xyz}}, udp: true}
+  - {name: 澳大利亚悉尼B, server: 154.84.1.3, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.86718563.xyz}}, udp: true}
+  - {name: 波兰华沙, server: 154.84.1.5, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.86718563.xyz}}, udp: true}
+  - {name: 意大利米兰, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
+  - {name: 泰国01, server: 154.84.1.249, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.77555071.xyz}}, udp: true}
+  - {name: 芬兰, server: 154.84.1.240, port: 443, type: vmess, uuid: bcca23ea-be73-4caf-b143-cbab2be93145, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.80952549.xyz}}, udp: true}
+  - {name: 卢森堡, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.54872833.xyz}}, udp: true}
+  - {name: 土耳其, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.68737987.xyz}}, udp: true}
+  - {name: 立陶宛, server: 154.84.1.3, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.86718563.xyz}}, udp: true}
+  - {name: 西班牙, server: 142.4.125.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.22453300.xyz}}, udp: true}
+  - {name: 匈牙利, server: 23.225.57.222, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.21188776.xyz}}, udp: true}
+  - {name: 塞尔维亚, server: 154.84.1.118, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.73345741.xyz}}, udp: true}
+  - {name: 丹麦哥本哈根, server: 23.225.57.222, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.21188776.xyz}}, udp: true}
+  - {name: 比利时, server: 46.182.107.166, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.07890885.xyz}}, udp: true}
+  - {name: 爱尔兰, server: 154.84.1.249, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.77555071.xyz}}, udp: true}
+  - {name: 埃及开罗, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
+  - {name: 荷兰B, server: 154.84.1.213, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.44590130.xyz}}, udp: true}
+  - {name: 德国Dusseldorf, server: 23.225.213.243, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.95314708.xyz}}, udp: true}
+  - {name: 加拿大温哥华B, server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
+  - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
+  - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
+  - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
   - {name: wulabing_www.huiyong.trade, server: www.huiyong.trade, port: 443, type: vmess, uuid: fb5e6419-71e2-4e46-b52c-a7e4b5f73380, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /30dcb49cc00d/, headers: {Host: www.huiyong.trade}}, udp: true}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 2, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
@@ -1572,13 +1597,38 @@ proxy-groups:
       - Ytb:鹏哥分享_IN_印度_330
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - F|V00
-      - F|V02-TG@moneyflychat
-      - F|V03-中继中转隧道线路覆盖
-      - F|V04-公益等级线路限速
-      - F|V05-
-      - F|V06-
-      - F|V07-
+      - 免费线路
+      - ★美国加州A★年付专线
+      - 中国台湾
+      - ★中国香港A★年付专线
+      - 移动专线A
+      - 俄罗斯A
+      - 英国伦敦B
+      - 日本大阪B
+      - ★韩国首尔A★年付专线
+      - ★新加坡A★年付专线
+      - 瑞典
+      - 澳大利亚悉尼B
+      - 波兰华沙
+      - 意大利米兰
+      - 泰国01
+      - 芬兰
+      - 卢森堡
+      - 土耳其
+      - 立陶宛
+      - 西班牙
+      - 匈牙利
+      - 塞尔维亚
+      - 丹麦哥本哈根
+      - 比利时
+      - 爱尔兰
+      - 埃及开罗
+      - 荷兰B
+      - 德国Dusseldorf
+      - 加拿大温哥华B
+      - 摩尔多瓦
+      - 挪威
+      - 电信一区(广东)
       - wulabing_www.huiyong.trade
       - _US_美国->🇷🇺_RU_俄罗斯联邦
       - _US_美国->🇷🇺_RU_俄罗斯联邦 2
@@ -2598,13 +2648,38 @@ proxy-groups:
       - Ytb:鹏哥分享_IN_印度_330
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - F|V00
-      - F|V02-TG@moneyflychat
-      - F|V03-中继中转隧道线路覆盖
-      - F|V04-公益等级线路限速
-      - F|V05-
-      - F|V06-
-      - F|V07-
+      - 免费线路
+      - ★美国加州A★年付专线
+      - 中国台湾
+      - ★中国香港A★年付专线
+      - 移动专线A
+      - 俄罗斯A
+      - 英国伦敦B
+      - 日本大阪B
+      - ★韩国首尔A★年付专线
+      - ★新加坡A★年付专线
+      - 瑞典
+      - 澳大利亚悉尼B
+      - 波兰华沙
+      - 意大利米兰
+      - 泰国01
+      - 芬兰
+      - 卢森堡
+      - 土耳其
+      - 立陶宛
+      - 西班牙
+      - 匈牙利
+      - 塞尔维亚
+      - 丹麦哥本哈根
+      - 比利时
+      - 爱尔兰
+      - 埃及开罗
+      - 荷兰B
+      - 德国Dusseldorf
+      - 加拿大温哥华B
+      - 摩尔多瓦
+      - 挪威
+      - 电信一区(广东)
       - wulabing_www.huiyong.trade
       - _US_美国->🇷🇺_RU_俄罗斯联邦
       - _US_美国->🇷🇺_RU_俄罗斯联邦 2
