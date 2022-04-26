@@ -5,46 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"cloudflare-heroku_1","server":"162.159.160.241","port":443,"type":"vmess","uuid":"ad806487-2d26-4636-98b6-ab85cc8521f7","alterId":0,"cipher":"auto","country":"cloudflare-heroku_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"round-mouse-7110.xny.workers.dev"}}}
+  - {"name":"github_com/freefq-美国Microsoft数据中心1_1","server":"hkaz4.xmrth-node.xyz","port":13302,"type":"vmess","uuid":"ececdd8d-d257-3e9b-a770-9abaf61e4920","alterId":2,"cipher":"auto","country":"github_com/freefq-美国Microsoft数据中心1_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"github_com/freefq-日本2_2","server":"421sg2.fans8.xyz","port":443,"type":"vmess","uuid":"82a96743-115b-356d-90ae-2928f32d8958","alterId":2,"cipher":"auto","country":"github_com/freefq-日本2_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"421sg2.fans8.xyz"}}}
+  - {"name":"github_com/freefq-美国3_3","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"github_com/freefq-美国3_3","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
+  - {"name":"github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4","server":"fhcamd2.gaox.ml","port":443,"type":"trojan","country":"github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4","skip-cert-verify":true,"udp":true,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989"}
+  - {"name":"github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5","server":"vw.vwvwvw.xyz","port":8443,"type":"vmess","uuid":"dd350843-2ff2-cda7-e5b0-575448c5b370","alterId":0,"cipher":"auto","country":"github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/osqlvws","headers":{"host":"vw.vwvwvw.xyz"}}}
+  - {"name":"github_com/freefq-美国6_6","server":"fhcarm2.gaox.ml","port":443,"type":"trojan","country":"github_com/freefq-美国6_6","skip-cert-verify":true,"udp":true,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178"}
+  - {"name":"github_com/freefq-乌克兰7_7","server":"v2cross.com.03.v2ce.com","port":443,"type":"trojan","country":"github_com/freefq-乌克兰7_7","skip-cert-verify":true,"udp":true,"password":"ZD4dLSBXiMrmzdLd"}
+  - {"name":"github_com/freefq-美国3COM公司企业网8_8","server":"jgwxn1.gaox.ml","port":443,"type":"trojan","country":"github_com/freefq-美国3COM公司企业网8_8","skip-cert-verify":true,"udp":true,"password":"0f715619-0037-4358-a7c6-958106bc6b49"}
+  - {"name":"github_com/freefq-美国9_9","server":"misaka1433.tk","port":443,"type":"trojan","country":"github_com/freefq-美国9_9","skip-cert-verify":true,"udp":true,"password":"YcQgIbGZNNd1PwsF"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - cloudflare-heroku_1
+      - github_com/freefq-美国Microsoft数据中心1_1
+      - github_com/freefq-日本2_2
+      - github_com/freefq-美国3_3
+      - github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5
+      - github_com/freefq-美国6_6
+      - github_com/freefq-乌克兰7_7
+      - github_com/freefq-美国3COM公司企业网8_8
+      - github_com/freefq-美国9_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - cloudflare-heroku_1
+      - github_com/freefq-美国Microsoft数据中心1_1
+      - github_com/freefq-日本2_2
+      - github_com/freefq-美国3_3
+      - github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5
+      - github_com/freefq-美国6_6
+      - github_com/freefq-乌克兰7_7
+      - github_com/freefq-美国3COM公司企业网8_8
+      - github_com/freefq-美国9_9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - cloudflare-heroku_1
+      - github_com/freefq-美国Microsoft数据中心1_1
+      - github_com/freefq-日本2_2
+      - github_com/freefq-美国3_3
+      - github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5
+      - github_com/freefq-美国6_6
+      - github_com/freefq-乌克兰7_7
+      - github_com/freefq-美国3COM公司企业网8_8
+      - github_com/freefq-美国9_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - cloudflare-heroku_1
+      - github_com/freefq-美国Microsoft数据中心1_1
+      - github_com/freefq-日本2_2
+      - github_com/freefq-美国3_3
+      - github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5
+      - github_com/freefq-美国6_6
+      - github_com/freefq-乌克兰7_7
+      - github_com/freefq-美国3COM公司企业网8_8
+      - github_com/freefq-美国9_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - cloudflare-heroku_1
+      - github_com/freefq-美国Microsoft数据中心1_1
+      - github_com/freefq-日本2_2
+      - github_com/freefq-美国3_3
+      - github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5
+      - github_com/freefq-美国6_6
+      - github_com/freefq-乌克兰7_7
+      - github_com/freefq-美国3COM公司企业网8_8
+      - github_com/freefq-美国9_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - cloudflare-heroku_1
+      - github_com/freefq-美国Microsoft数据中心1_1
+      - github_com/freefq-日本2_2
+      - github_com/freefq-美国3_3
+      - github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5
+      - github_com/freefq-美国6_6
+      - github_com/freefq-乌克兰7_7
+      - github_com/freefq-美国3COM公司企业网8_8
+      - github_com/freefq-美国9_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - cloudflare-heroku_1
+      - github_com/freefq-美国Microsoft数据中心1_1
+      - github_com/freefq-日本2_2
+      - github_com/freefq-美国3_3
+      - github_com/freefq-美国亚利桑那州凤凰城Oracle云计算数据中心4_4
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心5_5
+      - github_com/freefq-美国6_6
+      - github_com/freefq-乌克兰7_7
+      - github_com/freefq-美国3COM公司企业网8_8
+      - github_com/freefq-美国9_9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
