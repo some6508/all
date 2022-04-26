@@ -5,109 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸US_18","server":"vfly5.xyz","port":443,"type":"vmess","uuid":"825136bb-fc0a-4f43-8307-dc2e36f27e2d","alterId":64,"cipher":"auto","country":"🇺🇸US_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/myblog"}}
-  - {"name":"🏁ZZ_4548","server":"169.197.142.39","port":6697,"type":"ss","country":"🏁ZZ_4548","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸US_3009_4_82Mb_3","server":"jpaz1.xmrth-node.xyz","port":10058,"type":"vmess","uuid":"49aed705-ac45-332c-aa62-7ac9a9d8cb0b","alterId":2,"cipher":"auto","country":"🇺🇸US_3009_4_82Mb_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"🇺🇸US_3626","server":"167.88.61.175","port":8888,"type":"ss","country":"🇺🇸US_3626","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_3641","server":"167.88.61.175","port":8080,"type":"ss","country":"🇺🇸US_3641","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇮🇳IN_986","server":"172.105.42.160","port":8091,"type":"ss","country":"🇮🇳IN_986","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US_2985","server":"167.88.61.50","port":7307,"type":"ss","country":"🇺🇸US_2985","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇳🇱NL_1302","server":"213.183.51.172","port":9027,"type":"ss","country":"🇳🇱NL_1302","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"name":"🏁ZZ_4677","server":"169.197.142.39","port":8119,"type":"ss","country":"🏁ZZ_4677","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"DE_atv2cross_com01_10","server":"s3.upyun.online","port":12340,"type":"trojan","country":"DE_atv2cross_com01_10","skip-cert-verify":true,"udp":true,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2"}
+  - {"name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1","server":"cm-jm.okvpn.xyz","port":20005,"type":"trojan","country":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1","skip-cert-verify":true,"udp":true,"password":"fdb88add-f0a3-4984-8a54-2969d84d6aef"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸US_18
-      - 🏁ZZ_4548
-      - 🇺🇸US_3009_4_82Mb_3
-      - 🇺🇸US_3626
-      - 🇺🇸US_3641
-      - 🇮🇳IN_986
-      - 🇺🇸US_2985
-      - 🇳🇱NL_1302
-      - 🏁ZZ_4677
-      - DE_atv2cross_com01_10
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸US_18
-      - 🏁ZZ_4548
-      - 🇺🇸US_3009_4_82Mb_3
-      - 🇺🇸US_3626
-      - 🇺🇸US_3641
-      - 🇮🇳IN_986
-      - 🇺🇸US_2985
-      - 🇳🇱NL_1302
-      - 🏁ZZ_4677
-      - DE_atv2cross_com01_10
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸US_18
-      - 🏁ZZ_4548
-      - 🇺🇸US_3009_4_82Mb_3
-      - 🇺🇸US_3626
-      - 🇺🇸US_3641
-      - 🇮🇳IN_986
-      - 🇺🇸US_2985
-      - 🇳🇱NL_1302
-      - 🏁ZZ_4677
-      - DE_atv2cross_com01_10
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US_18
-      - 🏁ZZ_4548
-      - 🇺🇸US_3009_4_82Mb_3
-      - 🇺🇸US_3626
-      - 🇺🇸US_3641
-      - 🇮🇳IN_986
-      - 🇺🇸US_2985
-      - 🇳🇱NL_1302
-      - 🏁ZZ_4677
-      - DE_atv2cross_com01_10
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸US_18
-      - 🏁ZZ_4548
-      - 🇺🇸US_3009_4_82Mb_3
-      - 🇺🇸US_3626
-      - 🇺🇸US_3641
-      - 🇮🇳IN_986
-      - 🇺🇸US_2985
-      - 🇳🇱NL_1302
-      - 🏁ZZ_4677
-      - DE_atv2cross_com01_10
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US_18
-      - 🏁ZZ_4548
-      - 🇺🇸US_3009_4_82Mb_3
-      - 🇺🇸US_3626
-      - 🇺🇸US_3641
-      - 🇮🇳IN_986
-      - 🇺🇸US_2985
-      - 🇳🇱NL_1302
-      - 🏁ZZ_4677
-      - DE_atv2cross_com01_10
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸US_18
-      - 🏁ZZ_4548
-      - 🇺🇸US_3009_4_82Mb_3
-      - 🇺🇸US_3626
-      - 🇺🇸US_3641
-      - 🇮🇳IN_986
-      - 🇺🇸US_2985
-      - 🇳🇱NL_1302
-      - 🏁ZZ_4677
-      - DE_atv2cross_com01_10
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
