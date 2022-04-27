@@ -5,18 +5,28 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: default_name_1, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 1ae053d9-90a9-4548-a0e3-327f62171331, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
-  - {name: _GB_英国_2, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港_4, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _SG_新加坡_5, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: _IN_印度_6, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_7, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 09982e0d-8fc0-4a6a-ac58-473610881121, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国_8, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 80cbe86c-99cc-416a-87ce-74006d863e3a, skip-cert-verify: true, udp: true}
-  - {name: _IN_印度_9, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国_10, server: 213.167.242.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BDybfjpcRuiW, udp: true}
-  - {name: _SG_新加坡_11, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_12, server: v4-node66.mimemi-u1sd.com, port: 13114, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_1, server: 120.233.10.71, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: _KR_韩国_2, server: SS-NODE-2-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 5e053988-980b-4527-88c3-97e222f25fba, udp: true}
+  - {name: _US_美国_3, server: top.njiang.tk, port: 443, type: vmess, uuid: b2d062be-1912-4523-96c9-4f0f101c931b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wivhvws, headers: {Host: top.njiang.tk}}, udp: true}
+  - {name: default_name_4, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar}, udp: true}
+  - {name: _US_美国->🇬🇧_GB_英国_5, server: app.ssfree.ru, port: 443, type: vmess, uuid: ee05e08a-c579-11ec-824d-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_6, server: gy.sharecentrepro.tk, port: 10001, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog, headers: {Host: gy.sharecentrepro.tk}}, udp: true}
+  - {name: _US_美国_7, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
+  - {name: _US_美国->🇰🇷_KR_韩国_8, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_9, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: default_name_10, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: _CA_加拿大_11, server: 72.140.224.195, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CA_加拿大_12, server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CA_加拿大_13, server: 72.140.224.195, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_14, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: _CA_加拿大_15, server: 72.140.224.195, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CA_加拿大_16, server: 72.140.224.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CA_加拿大_17, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _US_美国->🇨🇿_CZ_捷克_18, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: _US_美国_19, server: 104.24.208.82, port: 443, type: vmess, uuid: c504edd2-f15e-45a6-ad63-3a9840c19d1a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zgjvvws}, udp: true}
+  - {name: _CA_加拿大_20, server: 72.140.224.195, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _NL_荷兰_21, server: r00t_2017@45.147.160.86, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_22, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君), server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君) 2, server: uk001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
@@ -1029,18 +1039,28 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - default_name_1
-      - _GB_英国_2
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _KR_韩国_2
       - _US_美国_3
-      - _HK_香港_4
-      - _SG_新加坡_5
-      - _IN_印度_6
+      - default_name_4
+      - _US_美国->🇬🇧_GB_英国_5
+      - _CN_中国->🇺🇸_US_美国_6
       - _US_美国_7
-      - _KR_韩国_8
-      - _IN_印度_9
-      - _FR_法国_10
-      - _SG_新加坡_11
-      - _CN_中国->🇭🇰_HK_香港_12
+      - _US_美国->🇰🇷_KR_韩国_8
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_9
+      - default_name_10
+      - _CA_加拿大_11
+      - _CA_加拿大_12
+      - _CA_加拿大_13
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_14
+      - _CA_加拿大_15
+      - _CA_加拿大_16
+      - _CA_加拿大_17
+      - _US_美国->🇨🇿_CZ_捷克_18
+      - _US_美国_19
+      - _CA_加拿大_20
+      - _NL_荷兰_21
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_22
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
@@ -2053,18 +2073,28 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - default_name_1
-      - _GB_英国_2
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _KR_韩国_2
       - _US_美国_3
-      - _HK_香港_4
-      - _SG_新加坡_5
-      - _IN_印度_6
+      - default_name_4
+      - _US_美国->🇬🇧_GB_英国_5
+      - _CN_中国->🇺🇸_US_美国_6
       - _US_美国_7
-      - _KR_韩国_8
-      - _IN_印度_9
-      - _FR_法国_10
-      - _SG_新加坡_11
-      - _CN_中国->🇭🇰_HK_香港_12
+      - _US_美国->🇰🇷_KR_韩国_8
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_9
+      - default_name_10
+      - _CA_加拿大_11
+      - _CA_加拿大_12
+      - _CA_加拿大_13
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_14
+      - _CA_加拿大_15
+      - _CA_加拿大_16
+      - _CA_加拿大_17
+      - _US_美国->🇨🇿_CZ_捷克_18
+      - _US_美国_19
+      - _CA_加拿大_20
+      - _NL_荷兰_21
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_22
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
