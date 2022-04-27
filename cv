@@ -590,16 +590,7 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
-  - {name: VIP-日本東京-2线/專線_27, server: jp07.vip.msservicevip.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: VIP-韩国首爾-2线/專線_25, server: vipkr2.msservicevip.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 尊-韩国首爾-2线/專線_9, server: sknf.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 尊-中國香港-1线/IPLC_3, server: hkbali.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 尊-韩国首爾-3线/專線_10, server: kr3-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 尊-韩国首爾-1线/專線_8, server: mmkr1ss.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 美国2-洛杉磯/專線_13, server: bmsfmiao2.msserviceus.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 尊-新加坡2线/專線_12, server: xjp2-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: VIP-中國臺灣-1线/專線_23, server: tw01.msservicevip.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 尊-新加坡1线/專線_11, server: xjpmiaosj.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: _US_美国, server: 38.68.134.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1625,16 +1616,7 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - VIP-日本東京-2线/專線_27
-      - VIP-韩国首爾-2线/專線_25
-      - 尊-韩国首爾-2线/專線_9
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-韩国首爾-3线/專線_10
-      - 尊-韩国首爾-1线/專線_8
-      - 美国2-洛杉磯/專線_13
-      - 尊-新加坡2线/專線_12
-      - VIP-中國臺灣-1线/專線_23
-      - 尊-新加坡1线/專線_11
+      - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2660,16 +2642,7 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - VIP-日本東京-2线/專線_27
-      - VIP-韩国首爾-2线/專線_25
-      - 尊-韩国首爾-2线/專線_9
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-韩国首爾-3线/專線_10
-      - 尊-韩国首爾-1线/專線_8
-      - 美国2-洛杉磯/專線_13
-      - 尊-新加坡2线/專線_12
-      - VIP-中國臺灣-1线/專線_23
-      - 尊-新加坡1线/專線_11
+      - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
