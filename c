@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"default_name_1","server":"fr1t.moonfree.top","port":8443,"type":"vmess","uuid":"1ae053d9-90a9-4548-a0e3-327f62171331","alterId":0,"cipher":"auto","country":"default_name_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"headers":{"host":"fr1t.moonfree.top"}}}
+  - {"name":"🇰🇷_KR_韩国_1","server":"krnf1.qingyun123.xyz","port":10050,"type":"trojan","country":"🇰🇷_KR_韩国_1","skip-cert-verify":true,"udp":true,"password":"80cbe86c-99cc-416a-87ce-74006d863e3a"}
   - {"name":"🇯🇵_JP_日本_2","server":"jp2.mayiyun.vip","port":80,"type":"vmess","uuid":"54b3ef87-0084-4362-af57-2fb494d8ca15","alterId":0,"cipher":"auto","country":"🇯🇵_JP_日本_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"headers":{"host":"shoutingtoutiao3.10010.com"}}}
-  - {"name":"🇬🇧_GB_英国_3","server":"jgwld3.gaox.ml","port":443,"type":"trojan","country":"🇬🇧_GB_英国_3","skip-cert-verify":true,"udp":true,"password":"71b55a84-3fac-4458-abff-eaad79219c91"}
-  - {"name":"🇰🇷_KR_韩国_4","server":"krnf1.qingyun123.xyz","port":10050,"type":"trojan","country":"🇰🇷_KR_韩国_4","skip-cert-verify":true,"udp":true,"password":"80cbe86c-99cc-416a-87ce-74006d863e3a"}
-  - {"name":"🇯🇵_JP_日本_5","server":"jgwdb1.gaox.ml","port":443,"type":"trojan","country":"🇯🇵_JP_日本_5","skip-cert-verify":true,"udp":true,"password":"a580d839-ee41-4df1-bf03-6789dca32e30"}
+  - {"name":"default_name_3","server":"fr1t.moonfree.top","port":8443,"type":"vmess","uuid":"1ae053d9-90a9-4548-a0e3-327f62171331","alterId":0,"cipher":"auto","country":"default_name_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"headers":{"host":"fr1t.moonfree.top"}}}
+  - {"name":"🇯🇵_JP_日本_4","server":"jgwdb1.gaox.ml","port":443,"type":"trojan","country":"🇯🇵_JP_日本_4","skip-cert-verify":true,"udp":true,"password":"a580d839-ee41-4df1-bf03-6789dca32e30"}
+  - {"name":"🇬🇧_GB_英国_5","server":"jgwld3.gaox.ml","port":443,"type":"trojan","country":"🇬🇧_GB_英国_5","skip-cert-verify":true,"udp":true,"password":"71b55a84-3fac-4458-abff-eaad79219c91"}
   - {"name":"🇬🇧_GB_英国_6","server":"jgwcc1.gaox.ml","port":443,"type":"trojan","country":"🇬🇧_GB_英国_6","skip-cert-verify":true,"udp":true,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -17,11 +17,11 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - default_name_1
+      - 🇰🇷_KR_韩国_1
       - 🇯🇵_JP_日本_2
-      - 🇬🇧_GB_英国_3
-      - 🇰🇷_KR_韩国_4
-      - 🇯🇵_JP_日本_5
+      - default_name_3
+      - 🇯🇵_JP_日本_4
+      - 🇬🇧_GB_英国_5
       - 🇬🇧_GB_英国_6
   - name: ♻️ 自动选择
     type: url-test
@@ -29,11 +29,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - default_name_1
+      - 🇰🇷_KR_韩国_1
       - 🇯🇵_JP_日本_2
-      - 🇬🇧_GB_英国_3
-      - 🇰🇷_KR_韩国_4
-      - 🇯🇵_JP_日本_5
+      - default_name_3
+      - 🇯🇵_JP_日本_4
+      - 🇬🇧_GB_英国_5
       - 🇬🇧_GB_英国_6
   - name: 🌍 国外媒体
     type: select
@@ -41,44 +41,44 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇰🇷_KR_韩国_1
       - 🇯🇵_JP_日本_2
-      - 🇬🇧_GB_英国_3
-      - 🇰🇷_KR_韩国_4
-      - 🇯🇵_JP_日本_5
+      - default_name_3
+      - 🇯🇵_JP_日本_4
+      - 🇬🇧_GB_英国_5
       - 🇬🇧_GB_英国_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇰🇷_KR_韩国_1
       - 🇯🇵_JP_日本_2
-      - 🇬🇧_GB_英国_3
-      - 🇰🇷_KR_韩国_4
-      - 🇯🇵_JP_日本_5
+      - default_name_3
+      - 🇯🇵_JP_日本_4
+      - 🇬🇧_GB_英国_5
       - 🇬🇧_GB_英国_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - default_name_1
+      - 🇰🇷_KR_韩国_1
       - 🇯🇵_JP_日本_2
-      - 🇬🇧_GB_英国_3
-      - 🇰🇷_KR_韩国_4
-      - 🇯🇵_JP_日本_5
+      - default_name_3
+      - 🇯🇵_JP_日本_4
+      - 🇬🇧_GB_英国_5
       - 🇬🇧_GB_英国_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇰🇷_KR_韩国_1
       - 🇯🇵_JP_日本_2
-      - 🇬🇧_GB_英国_3
-      - 🇰🇷_KR_韩国_4
-      - 🇯🇵_JP_日本_5
+      - default_name_3
+      - 🇯🇵_JP_日本_4
+      - 🇬🇧_GB_英国_5
       - 🇬🇧_GB_英国_6
   - name: 🎯 全球直连
     type: select
@@ -102,11 +102,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name_1
+      - 🇰🇷_KR_韩国_1
       - 🇯🇵_JP_日本_2
-      - 🇬🇧_GB_英国_3
-      - 🇰🇷_KR_韩国_4
-      - 🇯🇵_JP_日本_5
+      - default_name_3
+      - 🇯🇵_JP_日本_4
+      - 🇬🇧_GB_英国_5
       - 🇬🇧_GB_英国_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
