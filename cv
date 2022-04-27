@@ -5,7 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: dxy国内G口-全国停机1-空配_1, server: v2.dxy5213.top, port: 80, type: vmess, uuid: 7a484e56-f73b-4367-8b75-502f23e0c5f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2022-4-28_1, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: f4c09da2-2709-42d4-a012-34bb7f5c4435, skip-cert-verify: true, udp: true}
+  - {name: 日本节点更新https://bit_ly/36b6iJh_2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
+  - {name: 香港节点更新https://bit_ly/36b6iJh_3, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: f4c09da2-2709-42d4-a012-34bb7f5c4435, skip-cert-verify: true, udp: true}
+  - {name: 香港节点更新https://bit_ly/36b6iJh_4, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 85f1f2fc-42e7-48a0-a6a2-a8bccb0d64cd, skip-cert-verify: true, udp: true}
+  - {name: 日本节点更新https://bit_ly/36b6iJh_5, server: fs.keaiyun.top, port: 48520, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本节点更新https://bit_ly/36b6iJh_6, server: fs.keaiyun.top, port: 48521, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本节点更新https://bit_ly/36b6iJh_7, server: v2.godlight.xyz, port: 26936, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: 荷兰节点更新https://bit_ly/36b6iJh_8, server: 104.16.147.69, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 俄罗斯节点更新https://bit_ly/36b6iJh_9, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
+  - {name: 节点更新https://bit_ly/36b6iJh_10, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君), server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君) 2, server: uk001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
@@ -1020,7 +1029,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 日本节点更新https://bit_ly/36b6iJh_2
+      - 香港节点更新https://bit_ly/36b6iJh_3
+      - 香港节点更新https://bit_ly/36b6iJh_4
+      - 日本节点更新https://bit_ly/36b6iJh_5
+      - 日本节点更新https://bit_ly/36b6iJh_6
+      - 日本节点更新https://bit_ly/36b6iJh_7
+      - 荷兰节点更新https://bit_ly/36b6iJh_8
+      - 俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
@@ -2035,7 +2053,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 日本节点更新https://bit_ly/36b6iJh_2
+      - 香港节点更新https://bit_ly/36b6iJh_3
+      - 香港节点更新https://bit_ly/36b6iJh_4
+      - 日本节点更新https://bit_ly/36b6iJh_5
+      - 日本节点更新https://bit_ly/36b6iJh_6
+      - 日本节点更新https://bit_ly/36b6iJh_7
+      - 荷兰节点更新https://bit_ly/36b6iJh_8
+      - 俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
