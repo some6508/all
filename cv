@@ -629,56 +629,16 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: ppy-moble.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr.mayiyun.vip}}, udp: true}
-  - {name: 185.126.116.125:9038, server: 185.126.116.125, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: default_name, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 1ae053d9-90a9-4548-a0e3-327f62171331, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
-  - {name: _US_美国 2, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 09982e0d-8fc0-4a6a-ac58-473610881121, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 80cbe86c-99cc-416a-87ce-74006d863e3a, skip-cert-verify: true, udp: true}
-  - {name: us-am32-5.eqnode.net:8081, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: v4-node66.mimemi-u1sd.com:13114, server: v4-node66.mimemi-u1sd.com, port: 13114, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: _US_美国 3, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: jp13.boom.party:39300, server: jp13.boom.party, port: 39300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt3.boom.party:13000, server: opt3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: ntemp01.boom.party:10000, server: ntemp01.boom.party, port: 10000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt11.boom.party:21000, server: opt11.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: ntemp04.boom.party:13000, server: ntemp04.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nm8.boom.party:18000, server: nm8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: ntemp08.boom.party:17000, server: ntemp08.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: ntemp05.boom.party:14000, server: ntemp05.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: ntemp06.boom.party:15000, server: ntemp06.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: jp1.boom.party:30000, server: jp1.boom.party, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nf8.boom.party:18000, server: nf8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: n48.boom.party:36000, server: n48.boom.party, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: n116.boom.party:33200, server: n116.boom.party, port: 33200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt7.boom.party:17000, server: opt7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt13.boom.party:23000, server: opt13.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt23.boom.party:33000, server: opt23.boom.party, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: jp14.boom.party:39400, server: jp14.boom.party, port: 39400, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nn6.boom.party:45000, server: nn6.boom.party, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt15.boom.party:25000, server: opt15.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: us5.edge.boom.party:44001, server: us5.edge.boom.party, port: 44001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nn7.boom.party:46000, server: nn7.boom.party, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: n47.boom.party:31100, server: n47.boom.party, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nf9.boom.party:19000, server: nf9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nn4.boom.party:43000, server: nn4.boom.party, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nn1.boom.party:40000, server: nn1.boom.party, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: jp11.boom.party:39100, server: jp11.boom.party, port: 39100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: jp6.boom.party:35000, server: jp6.boom.party, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt9.boom.party:19000, server: opt9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt14.boom.party:24000, server: opt14.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt12.boom.party:22000, server: opt12.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nj1.boom.party:11000, server: nj1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: ntemp09.boom.party:18000, server: ntemp09.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nn3.boom.party:42000, server: nn3.boom.party, port: 42000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: jp15.boom.party:39500, server: jp15.boom.party, port: 39500, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: jp12.boom.party:39200, server: jp12.boom.party, port: 39200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: n111.boom.party:29000, server: n111.boom.party, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: n05.boom.party:30001, server: n05.boom.party, port: 30001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: opt2.boom.party:12000, server: opt2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: nn5.boom.party:44000, server: nn5.boom.party, port: 44000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: n22.boom.party:32200, server: n22.boom.party, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: VIP-日本東京-2线/專線_27, server: jp07.vip.msservicevip.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: VIP-韩国首爾-2线/專線_25, server: vipkr2.msservicevip.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: 尊-韩国首爾-2线/專線_9, server: sknf.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: 尊-中國香港-1线/IPLC_3, server: hkbali.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: 尊-韩国首爾-3线/專線_10, server: kr3-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: 尊-韩国首爾-1线/專線_8, server: mmkr1ss.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: 美国2-洛杉磯/專線_13, server: bmsfmiao2.msserviceus.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: 尊-新加坡2线/專線_12, server: xjp2-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: VIP-中國臺灣-1线/專線_23, server: tw01.msservicevip.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: 尊-新加坡1线/專線_11, server: xjpmiaosj.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1755,56 +1715,16 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国
-      - 185.126.116.125:9038
-      - default_name
-      - _US_美国 2
-      - _KR_韩国
-      - us-am32-5.eqnode.net:8081
-      - v4-node66.mimemi-u1sd.com:13114
-      - _US_美国 3
-      - _US_美国 4
-      - jp13.boom.party:39300
-      - opt3.boom.party:13000
-      - ntemp01.boom.party:10000
-      - opt11.boom.party:21000
-      - ntemp04.boom.party:13000
-      - nm8.boom.party:18000
-      - ntemp08.boom.party:17000
-      - ntemp05.boom.party:14000
-      - ntemp06.boom.party:15000
-      - jp1.boom.party:30000
-      - nf8.boom.party:18000
-      - n48.boom.party:36000
-      - n116.boom.party:33200
-      - opt7.boom.party:17000
-      - opt13.boom.party:23000
-      - opt23.boom.party:33000
-      - jp14.boom.party:39400
-      - nn6.boom.party:45000
-      - opt15.boom.party:25000
-      - us5.edge.boom.party:44001
-      - nn7.boom.party:46000
-      - n47.boom.party:31100
-      - nf9.boom.party:19000
-      - nn4.boom.party:43000
-      - nn1.boom.party:40000
-      - jp11.boom.party:39100
-      - jp6.boom.party:35000
-      - opt9.boom.party:19000
-      - opt14.boom.party:24000
-      - opt12.boom.party:22000
-      - nj1.boom.party:11000
-      - ntemp09.boom.party:18000
-      - nn3.boom.party:42000
-      - jp15.boom.party:39500
-      - jp12.boom.party:39200
-      - n111.boom.party:29000
-      - n05.boom.party:30001
-      - opt2.boom.party:12000
-      - nn5.boom.party:44000
-      - n22.boom.party:32200
+      - VIP-日本東京-2线/專線_27
+      - VIP-韩国首爾-2线/專線_25
+      - 尊-韩国首爾-2线/專線_9
+      - 尊-中國香港-1线/IPLC_3
+      - 尊-韩国首爾-3线/專線_10
+      - 尊-韩国首爾-1线/專線_8
+      - 美国2-洛杉磯/專線_13
+      - 尊-新加坡2线/專線_12
+      - VIP-中國臺灣-1线/專線_23
+      - 尊-新加坡1线/專線_11
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2881,56 +2801,16 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国
-      - 185.126.116.125:9038
-      - default_name
-      - _US_美国 2
-      - _KR_韩国
-      - us-am32-5.eqnode.net:8081
-      - v4-node66.mimemi-u1sd.com:13114
-      - _US_美国 3
-      - _US_美国 4
-      - jp13.boom.party:39300
-      - opt3.boom.party:13000
-      - ntemp01.boom.party:10000
-      - opt11.boom.party:21000
-      - ntemp04.boom.party:13000
-      - nm8.boom.party:18000
-      - ntemp08.boom.party:17000
-      - ntemp05.boom.party:14000
-      - ntemp06.boom.party:15000
-      - jp1.boom.party:30000
-      - nf8.boom.party:18000
-      - n48.boom.party:36000
-      - n116.boom.party:33200
-      - opt7.boom.party:17000
-      - opt13.boom.party:23000
-      - opt23.boom.party:33000
-      - jp14.boom.party:39400
-      - nn6.boom.party:45000
-      - opt15.boom.party:25000
-      - us5.edge.boom.party:44001
-      - nn7.boom.party:46000
-      - n47.boom.party:31100
-      - nf9.boom.party:19000
-      - nn4.boom.party:43000
-      - nn1.boom.party:40000
-      - jp11.boom.party:39100
-      - jp6.boom.party:35000
-      - opt9.boom.party:19000
-      - opt14.boom.party:24000
-      - opt12.boom.party:22000
-      - nj1.boom.party:11000
-      - ntemp09.boom.party:18000
-      - nn3.boom.party:42000
-      - jp15.boom.party:39500
-      - jp12.boom.party:39200
-      - n111.boom.party:29000
-      - n05.boom.party:30001
-      - opt2.boom.party:12000
-      - nn5.boom.party:44000
-      - n22.boom.party:32200
+      - VIP-日本東京-2线/專線_27
+      - VIP-韩国首爾-2线/專線_25
+      - 尊-韩国首爾-2线/專線_9
+      - 尊-中國香港-1线/IPLC_3
+      - 尊-韩国首爾-3线/專線_10
+      - 尊-韩国首爾-1线/專線_8
+      - 美国2-洛杉磯/專線_13
+      - 尊-新加坡2线/專線_12
+      - VIP-中國臺灣-1线/專線_23
+      - 尊-新加坡1线/專線_11
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
