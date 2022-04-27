@@ -5,46 +5,130 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"dxy国内G口-全国停机1-空配_1","server":"v2.dxy5213.top","port":80,"type":"vmess","uuid":"7a484e56-f73b-4367-8b75-502f23e0c5f0","alterId":0,"cipher":"auto","country":"dxy国内G口-全国停机1-空配_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}}}
+  - {"name":"2022-4-28_1","server":"krnf1.qingyun123.xyz","port":10050,"type":"trojan","country":"2022-4-28_1","skip-cert-verify":true,"udp":true,"password":"f4c09da2-2709-42d4-a012-34bb7f5c4435"}
+  - {"name":"🇯🇵日本节点更新https://bit_ly/36b6iJh_2","server":"cn1.relay.iepl.pw","port":50300,"type":"ss","country":"🇯🇵日本节点更新https://bit_ly/36b6iJh_2","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
+  - {"name":"🇭🇰香港节点更新https://bit_ly/36b6iJh_3","server":"hk1.qingyun123.xyz","port":10000,"type":"trojan","country":"🇭🇰香港节点更新https://bit_ly/36b6iJh_3","skip-cert-verify":true,"udp":true,"password":"f4c09da2-2709-42d4-a012-34bb7f5c4435"}
+  - {"name":"🇭🇰香港节点更新https://bit_ly/36b6iJh_4","server":"hknf2.qingyun123.xyz","port":10070,"type":"trojan","country":"🇭🇰香港节点更新https://bit_ly/36b6iJh_4","skip-cert-verify":true,"udp":true,"password":"85f1f2fc-42e7-48a0-a6a2-a8bccb0d64cd"}
+  - {"name":"🇯🇵日本节点更新https://bit_ly/36b6iJh_5","server":"fs.keaiyun.top","port":48520,"type":"vmess","uuid":"048da825-d468-3a29-b015-2d60886f830d","alterId":0,"cipher":"auto","country":"🇯🇵日本节点更新https://bit_ly/36b6iJh_5","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"🇯🇵日本节点更新https://bit_ly/36b6iJh_6","server":"fs.keaiyun.top","port":48521,"type":"vmess","uuid":"048da825-d468-3a29-b015-2d60886f830d","alterId":0,"cipher":"auto","country":"🇯🇵日本节点更新https://bit_ly/36b6iJh_6","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"🇯🇵日本节点更新https://bit_ly/36b6iJh_7","server":"v2.godlight.xyz","port":26936,"type":"vmess","uuid":"1a059eff-ad8a-42ad-921c-465c5b31f183","alterId":0,"cipher":"auto","country":"🇯🇵日本节点更新https://bit_ly/36b6iJh_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/f34f3-f32f364","headers":{"host":"v2.godlight.xyz"}}}
+  - {"name":"🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8","server":"104.16.147.69","port":443,"type":"vmess","uuid":"248f4f6f-270c-47f7-bea8-ed9d89440054","alterId":0,"cipher":"auto","country":"🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"headers":{"host":"yzkoyeb-7595333.koyeb.app"}}}
+  - {"name":"🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9","server":"cn1.relay.iepl.pw","port":50700,"type":"ss","country":"🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
+  - {"name":"节点更新https://bit_ly/36b6iJh_10","server":"cn1.relay.iepl.pw","port":50500,"type":"ss","country":"节点更新https://bit_ly/36b6iJh_10","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
+  - {"name":"104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11","server":"104.18.96.69","port":443,"country":"104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11","type":"vless","uuid":"c675b1c1-b668-46fc-97eb-6bdcc57fd3a3","cipher":"auto","skip-cert-verify":true,"tls":true,"path":"/Support-Putin-Kill-all-Ukrainians_ws","host":"in.884899.cf","network":"http"}
+  - {"name":"in_884899_cf_12","server":"104.18.27.64","port":443,"country":"in_884899_cf_12","type":"vless","uuid":"c675b1c1-b668-46fc-97eb-6bdcc57fd3a3","cipher":"auto","skip-cert-verify":true,"tls":true,"path":"/Support-Putin-Kill-all-Ukrainians_ws","host":"in.884899.cf","network":"http"}
+  - {"name":"India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13","server":"in.884899.cf","port":443,"country":"India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13","type":"vless","uuid":"c675b1c1-b668-46fc-97eb-6bdcc57fd3a3","cipher":"auto","skip-cert-verify":true,"tls":true,"path":"/Support-Putin-Kill-all-Ukrainians_ws","host":"in.884899.cf","network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_2
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_3
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_4
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_5
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_6
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_7
+      - 🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8
+      - 🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
+      -     104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11
+      - in_884899_cf_12
+      -     India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_2
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_3
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_4
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_5
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_6
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_7
+      - 🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8
+      - 🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
+      -     104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11
+      - in_884899_cf_12
+      -     India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_2
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_3
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_4
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_5
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_6
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_7
+      - 🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8
+      - 🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
+      -     104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11
+      - in_884899_cf_12
+      -     India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_2
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_3
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_4
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_5
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_6
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_7
+      - 🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8
+      - 🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
+      -     104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11
+      - in_884899_cf_12
+      -     India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_2
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_3
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_4
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_5
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_6
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_7
+      - 🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8
+      - 🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
+      -     104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11
+      - in_884899_cf_12
+      -     India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_2
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_3
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_4
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_5
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_6
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_7
+      - 🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8
+      - 🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
+      -     104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11
+      - in_884899_cf_12
+      -     India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +151,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dxy国内G口-全国停机1-空配_1
+      - 2022-4-28_1
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_2
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_3
+      - 🇭🇰香港节点更新https://bit_ly/36b6iJh_4
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_5
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_6
+      - 🇯🇵日本节点更新https://bit_ly/36b6iJh_7
+      - 🇳🇱荷兰节点更新https://bit_ly/36b6iJh_8
+      - 🇷🇺俄罗斯节点更新https://bit_ly/36b6iJh_9
+      - 节点更新https://bit_ly/36b6iJh_10
+      -     104_25_234_170%2B%E5%B3%B0%E5%80%BC%E9%80%9F%E5%BA%A6%2B245760%2BkB%2Fs-clone_11
+      - in_884899_cf_12
+      -     India%20%28IN%29-Linode-%2B%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0%20https%3A%2_13
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
