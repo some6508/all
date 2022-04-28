@@ -10,51 +10,34 @@ proxies:
   - {name: _AU_澳大利亚_3, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
   - {name: _US_美国_4, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, skip-cert-verify: true, udp: true}
   - {name: _US_美国_5, server: shop-two.defun.us, port: 8080, type: trojan, password: OzKXGbFNHwAurRQ0, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡_6, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_7, server: 42.157.195.242, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_8, server: 14.152.92.72, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_9, server: 42.157.195.229, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_10, server: 14.152.92.74, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_11, server: 42.157.195.238, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_12, server: 14.152.92.76, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_13, server: 14.152.92.77, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_14, server: 42.157.195.241, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_15, server: 14.152.92.82, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_16, server: 42.157.195.232, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_17, server: 42.157.195.228, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_18, server: 42.157.195.245, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_19, server: 14.152.92.78, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_20, server: 42.157.195.246, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_21, server: 42.157.195.244, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_22, server: 14.152.92.75, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_23, server: 42.157.195.230, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国_24, server: 42.157.195.234, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _SG_新加坡_25, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_26, server: us001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_27, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_28, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_29, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚_30, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: _RO_罗马尼亚_31, server: 62.216.91.229, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: _US_美国_32, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_33, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚_34, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: _DE_德国_35, server: deu001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_36, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_37, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_38, server: 42.157.195.243, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_39, server: 14.152.92.73, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_40, server: 42.157.195.240, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_41, server: 14.152.92.70, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_42, server: 14.152.92.71, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本_43, server: 14.152.92.80, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_44, server: fs.keaiyun.top, port: 55154, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_45, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_46, server: r00t_2017@45.147.160.86, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr, udp: true}
-  - {name: _US_美国_47, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡_48, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_49, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_50, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_6, server: 14.152.92.74, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_7, server: 42.157.195.238, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_8, server: 14.152.92.76, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_9, server: 42.157.195.241, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_10, server: 42.157.195.232, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_11, server: 14.152.92.78, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_12, server: 42.157.195.245, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_13, server: 42.157.195.228, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _SG_新加坡_14, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_15, server: us001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_16, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_17, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_18, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: _AU_澳大利亚_19, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: _RO_罗马尼亚_20, server: 62.216.91.229, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: _US_美国_21, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_22, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: true, udp: true}
+  - {name: _AU_澳大利亚_23, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国_24, server: deu001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_25, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_26, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_27, server: 42.157.195.243, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_28, server: fs.keaiyun.top, port: 55154, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_29, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡_30, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_31, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_32, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_33, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君), server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君) 2, server: uk001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
@@ -224,18 +207,6 @@ proxies:
   - {name: 荷兰（YouTube资源分享者） 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
   - {name: 德国（YouTube资源分享者）, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr, udp: true}
   - {name: 美国（YouTube资源分享者） 33, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国_1, server: us001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 美国_2, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 美国_3, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 加拿大_4, server: can001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 英国_5, server: uk001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_6, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_7, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 德国_8, server: deu001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 日本_9, server: jp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 美国_10, server: us001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 美国_11, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 美国_12, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 付费推荐:dlj.tf/ssrsub__01, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 付费推荐:dlj.tf/ssrsub__02, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
@@ -763,18 +734,6 @@ proxies:
   - {name: 荷兰（YouTube资源分享者） 6, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
   - {name: 德国（YouTube资源分享者） 2, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr, udp: true}
   - {name: 美国（YouTube资源分享者） 66, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国, server: us001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us001.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 2, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us002.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 3, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us003.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 加拿大, server: can001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 英国, server: uk001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 新加坡, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 2, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 德国, server: deu001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 日本, server: jp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 美国 4, server: us001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 美国 5, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
-  - {name: 美国 6, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: true, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G 4, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
@@ -1122,51 +1081,34 @@ proxy-groups:
       - _AU_澳大利亚_3
       - _US_美国_4
       - _US_美国_5
-      - _SG_新加坡_6
+      - _CN_中国->🇺🇸_US_美国_6
       - _CN_中国->🇺🇸_US_美国_7
-      - _CN_中国->🇺🇸_US_美国_8
+      - _CN_中国->🇯🇵_JP_日本_8
       - _CN_中国->🇺🇸_US_美国_9
       - _CN_中国->🇺🇸_US_美国_10
-      - _CN_中国->🇺🇸_US_美国_11
+      - _CN_中国->🇯🇵_JP_日本_11
       - _CN_中国->🇯🇵_JP_日本_12
-      - _CN_中国->🇯🇵_JP_日本_13
-      - _CN_中国->🇺🇸_US_美国_14
-      - _CN_中国->🇸🇬_SG_新加坡_15
-      - _CN_中国->🇺🇸_US_美国_16
-      - _CN_中国->🇺🇸_US_美国_17
-      - _CN_中国->🇯🇵_JP_日本_18
-      - _CN_中国->🇯🇵_JP_日本_19
-      - _CN_中国->🇯🇵_JP_日本_20
-      - _CN_中国->🇯🇵_JP_日本_21
-      - _CN_中国->🇯🇵_JP_日本_22
-      - _CN_中国->🇺🇸_US_美国_23
-      - _CN_中国_24
-      - _SG_新加坡_25
+      - _CN_中国->🇺🇸_US_美国_13
+      - _SG_新加坡_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _AU_澳大利亚_19
+      - _RO_罗马尼亚_20
+      - _US_美国_21
+      - _US_美国_22
+      - _AU_澳大利亚_23
+      - _DE_德国_24
+      - _US_美国_25
       - _US_美国_26
-      - _US_美国_27
-      - _US_美国_28
-      - _US_美国_29
-      - _AU_澳大利亚_30
-      - _RO_罗马尼亚_31
+      - _CN_中国->🇯🇵_JP_日本_27
+      - _CN_中国->🇹🇼_TW_台湾_28
+      - _GB_英国_29
+      - _SG_新加坡_30
+      - _US_美国_31
       - _US_美国_32
-      - _US_美国_33
-      - _AU_澳大利亚_34
-      - _DE_德国_35
-      - _US_美国_36
-      - _US_美国_37
-      - _CN_中国->🇯🇵_JP_日本_38
-      - _CN_中国->🇺🇸_US_美国_39
-      - _CN_中国->🇺🇸_US_美国_40
-      - _CN_中国->🇺🇸_US_美国_41
-      - _CN_中国->🇺🇸_US_美国_42
-      - _CN_中国->🇯🇵_JP_日本_43
-      - _CN_中国->🇹🇼_TW_台湾_44
-      - _GB_英国_45
-      - _NL_荷兰_46
-      - _US_美国_47
-      - _SG_新加坡_48
-      - _US_美国_49
-      - _JP_日本_50
+      - _JP_日本_33
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
@@ -1336,18 +1278,6 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 3
       - 德国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 33
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - 加拿大_4
-      - 英国_5
-      - 新加坡_6
-      - 新加坡_7
-      - 德国_8
-      - 日本_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
       - 公益机场:https://bit.ly/3BPeo5G
       - 付费推荐:dlj.tf/ssrsub__01
       - 付费推荐:dlj.tf/ssrsub__02
@@ -1875,18 +1805,6 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 6
       - 德国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 66
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 加拿大
-      - 英国
-      - 新加坡
-      - 新加坡 2
-      - 德国
-      - 日本
-      - 美国 4
-      - 美国 5
-      - 美国 6
       - 公益机场:https://bit.ly/3BPeo5G 4
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
@@ -2234,51 +2152,34 @@ proxy-groups:
       - _AU_澳大利亚_3
       - _US_美国_4
       - _US_美国_5
-      - _SG_新加坡_6
+      - _CN_中国->🇺🇸_US_美国_6
       - _CN_中国->🇺🇸_US_美国_7
-      - _CN_中国->🇺🇸_US_美国_8
+      - _CN_中国->🇯🇵_JP_日本_8
       - _CN_中国->🇺🇸_US_美国_9
       - _CN_中国->🇺🇸_US_美国_10
-      - _CN_中国->🇺🇸_US_美国_11
+      - _CN_中国->🇯🇵_JP_日本_11
       - _CN_中国->🇯🇵_JP_日本_12
-      - _CN_中国->🇯🇵_JP_日本_13
-      - _CN_中国->🇺🇸_US_美国_14
-      - _CN_中国->🇸🇬_SG_新加坡_15
-      - _CN_中国->🇺🇸_US_美国_16
-      - _CN_中国->🇺🇸_US_美国_17
-      - _CN_中国->🇯🇵_JP_日本_18
-      - _CN_中国->🇯🇵_JP_日本_19
-      - _CN_中国->🇯🇵_JP_日本_20
-      - _CN_中国->🇯🇵_JP_日本_21
-      - _CN_中国->🇯🇵_JP_日本_22
-      - _CN_中国->🇺🇸_US_美国_23
-      - _CN_中国_24
-      - _SG_新加坡_25
+      - _CN_中国->🇺🇸_US_美国_13
+      - _SG_新加坡_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _AU_澳大利亚_19
+      - _RO_罗马尼亚_20
+      - _US_美国_21
+      - _US_美国_22
+      - _AU_澳大利亚_23
+      - _DE_德国_24
+      - _US_美国_25
       - _US_美国_26
-      - _US_美国_27
-      - _US_美国_28
-      - _US_美国_29
-      - _AU_澳大利亚_30
-      - _RO_罗马尼亚_31
+      - _CN_中国->🇯🇵_JP_日本_27
+      - _CN_中国->🇹🇼_TW_台湾_28
+      - _GB_英国_29
+      - _SG_新加坡_30
+      - _US_美国_31
       - _US_美国_32
-      - _US_美国_33
-      - _AU_澳大利亚_34
-      - _DE_德国_35
-      - _US_美国_36
-      - _US_美国_37
-      - _CN_中国->🇯🇵_JP_日本_38
-      - _CN_中国->🇺🇸_US_美国_39
-      - _CN_中国->🇺🇸_US_美国_40
-      - _CN_中国->🇺🇸_US_美国_41
-      - _CN_中国->🇺🇸_US_美国_42
-      - _CN_中国->🇯🇵_JP_日本_43
-      - _CN_中国->🇹🇼_TW_台湾_44
-      - _GB_英国_45
-      - _NL_荷兰_46
-      - _US_美国_47
-      - _SG_新加坡_48
-      - _US_美国_49
-      - _JP_日本_50
+      - _JP_日本_33
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
@@ -2448,18 +2349,6 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 3
       - 德国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 33
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - 加拿大_4
-      - 英国_5
-      - 新加坡_6
-      - 新加坡_7
-      - 德国_8
-      - 日本_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
       - 公益机场:https://bit.ly/3BPeo5G
       - 付费推荐:dlj.tf/ssrsub__01
       - 付费推荐:dlj.tf/ssrsub__02
@@ -2987,18 +2876,6 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 6
       - 德国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 66
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 加拿大
-      - 英国
-      - 新加坡
-      - 新加坡 2
-      - 德国
-      - 日本
-      - 美国 4
-      - 美国 5
-      - 美国 6
       - 公益机场:https://bit.ly/3BPeo5G 4
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
