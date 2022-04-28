@@ -628,16 +628,42 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
-  - {name: _AU_澳大利亚, server: 172.105.162.49, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.51, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _GB_英国, server: 185.237.98.69, port: 3212, type: ss, cipher: aes-256-gcm, password: 13f91d7fd2461aa8ac178d360d94b2a8, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国 4, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
-  - {name: _JP_日本, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _NZ_新西兰, server: 103.62.49.141, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _SG_新加坡, server: 139.162.52.177, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: cm1-tw.jflashfal.xyz:18551, server: cm1-tw.jflashfal.xyz, port: 18551, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1-tw.jflashfal.xyz:18552, server: cm1-tw.jflashfal.xyz, port: 18552, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1-tw.jflashfal.xyz:18553, server: cm1-tw.jflashfal.xyz, port: 18553, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1-tw.jflashfal.xyz:18554, server: cm1-tw.jflashfal.xyz, port: 18554, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1-tw.jflashfal.xyz:18555, server: cm1-tw.jflashfal.xyz, port: 18555, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1-tw.jflashfal.xyz:18556, server: cm1-tw.jflashfal.xyz, port: 18556, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18351, server: cm1.jflashfal.xyz, port: 18351, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18352, server: cm1.jflashfal.xyz, port: 18352, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18353, server: cm1.jflashfal.xyz, port: 18353, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18354, server: cm1.jflashfal.xyz, port: 18354, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18355, server: cm1.jflashfal.xyz, port: 18355, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18356, server: cm1.jflashfal.xyz, port: 18356, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18151, server: cm1.jflashfal.xyz, port: 18151, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18152, server: cm1.jflashfal.xyz, port: 18152, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18153, server: cm1.jflashfal.xyz, port: 18153, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18154, server: cm1.jflashfal.xyz, port: 18154, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18155, server: cm1.jflashfal.xyz, port: 18155, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18156, server: cm1.jflashfal.xyz, port: 18156, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18451, server: cm1.jflashfal.xyz, port: 18451, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18452, server: cm1.jflashfal.xyz, port: 18452, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18453, server: cm1.jflashfal.xyz, port: 18453, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18454, server: cm1.jflashfal.xyz, port: 18454, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18455, server: cm1.jflashfal.xyz, port: 18455, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18456, server: cm1.jflashfal.xyz, port: 18456, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18251, server: cm1.jflashfal.xyz, port: 18251, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18252, server: cm1.jflashfal.xyz, port: 18252, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18253, server: cm1.jflashfal.xyz, port: 18253, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18254, server: cm1.jflashfal.xyz, port: 18254, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18255, server: cm1.jflashfal.xyz, port: 18255, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18256, server: cm1.jflashfal.xyz, port: 18256, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18051, server: cm1.jflashfal.xyz, port: 18051, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18052, server: cm1.jflashfal.xyz, port: 18052, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18053, server: cm1.jflashfal.xyz, port: 18053, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18054, server: cm1.jflashfal.xyz, port: 18054, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18055, server: cm1.jflashfal.xyz, port: 18055, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
+  - {name: cm1.jflashfal.xyz:18056, server: cm1.jflashfal.xyz, port: 18056, type: ssr, cipher: chacha20-ietf, password: DXpeG4IEEFY5LQyw, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 802:lBOSxS8OhsN8zyLe, obfs-param: 90ab9802.microsoft.com, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1723,16 +1749,42 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _AU_澳大利亚
-      - _CA_加拿大
-      - _GB_英国
-      - _GB_英国 2
-      - _GB_英国 3
-      - _GB_英国 4
-      - _HK_香港
-      - _JP_日本
-      - _NZ_新西兰
-      - _SG_新加坡
+      - cm1-tw.jflashfal.xyz:18551
+      - cm1-tw.jflashfal.xyz:18552
+      - cm1-tw.jflashfal.xyz:18553
+      - cm1-tw.jflashfal.xyz:18554
+      - cm1-tw.jflashfal.xyz:18555
+      - cm1-tw.jflashfal.xyz:18556
+      - cm1.jflashfal.xyz:18351
+      - cm1.jflashfal.xyz:18352
+      - cm1.jflashfal.xyz:18353
+      - cm1.jflashfal.xyz:18354
+      - cm1.jflashfal.xyz:18355
+      - cm1.jflashfal.xyz:18356
+      - cm1.jflashfal.xyz:18151
+      - cm1.jflashfal.xyz:18152
+      - cm1.jflashfal.xyz:18153
+      - cm1.jflashfal.xyz:18154
+      - cm1.jflashfal.xyz:18155
+      - cm1.jflashfal.xyz:18156
+      - cm1.jflashfal.xyz:18451
+      - cm1.jflashfal.xyz:18452
+      - cm1.jflashfal.xyz:18453
+      - cm1.jflashfal.xyz:18454
+      - cm1.jflashfal.xyz:18455
+      - cm1.jflashfal.xyz:18456
+      - cm1.jflashfal.xyz:18251
+      - cm1.jflashfal.xyz:18252
+      - cm1.jflashfal.xyz:18253
+      - cm1.jflashfal.xyz:18254
+      - cm1.jflashfal.xyz:18255
+      - cm1.jflashfal.xyz:18256
+      - cm1.jflashfal.xyz:18051
+      - cm1.jflashfal.xyz:18052
+      - cm1.jflashfal.xyz:18053
+      - cm1.jflashfal.xyz:18054
+      - cm1.jflashfal.xyz:18055
+      - cm1.jflashfal.xyz:18056
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2818,16 +2870,42 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _AU_澳大利亚
-      - _CA_加拿大
-      - _GB_英国
-      - _GB_英国 2
-      - _GB_英国 3
-      - _GB_英国 4
-      - _HK_香港
-      - _JP_日本
-      - _NZ_新西兰
-      - _SG_新加坡
+      - cm1-tw.jflashfal.xyz:18551
+      - cm1-tw.jflashfal.xyz:18552
+      - cm1-tw.jflashfal.xyz:18553
+      - cm1-tw.jflashfal.xyz:18554
+      - cm1-tw.jflashfal.xyz:18555
+      - cm1-tw.jflashfal.xyz:18556
+      - cm1.jflashfal.xyz:18351
+      - cm1.jflashfal.xyz:18352
+      - cm1.jflashfal.xyz:18353
+      - cm1.jflashfal.xyz:18354
+      - cm1.jflashfal.xyz:18355
+      - cm1.jflashfal.xyz:18356
+      - cm1.jflashfal.xyz:18151
+      - cm1.jflashfal.xyz:18152
+      - cm1.jflashfal.xyz:18153
+      - cm1.jflashfal.xyz:18154
+      - cm1.jflashfal.xyz:18155
+      - cm1.jflashfal.xyz:18156
+      - cm1.jflashfal.xyz:18451
+      - cm1.jflashfal.xyz:18452
+      - cm1.jflashfal.xyz:18453
+      - cm1.jflashfal.xyz:18454
+      - cm1.jflashfal.xyz:18455
+      - cm1.jflashfal.xyz:18456
+      - cm1.jflashfal.xyz:18251
+      - cm1.jflashfal.xyz:18252
+      - cm1.jflashfal.xyz:18253
+      - cm1.jflashfal.xyz:18254
+      - cm1.jflashfal.xyz:18255
+      - cm1.jflashfal.xyz:18256
+      - cm1.jflashfal.xyz:18051
+      - cm1.jflashfal.xyz:18052
+      - cm1.jflashfal.xyz:18053
+      - cm1.jflashfal.xyz:18054
+      - cm1.jflashfal.xyz:18055
+      - cm1.jflashfal.xyz:18056
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
