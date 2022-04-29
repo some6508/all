@@ -5,151 +5,1138 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1","server":"cm-jm.okvpn.xyz","port":20005,"type":"trojan","country":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1","skip-cert-verify":true,"udp":true,"password":"da650643-87d3-4279-9b19-c8aa68568d16"}
-  - {"name":"🇨🇳_CN_中国_2","server":"43.154.77.196","port":38539,"type":"vmess","uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国_2","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.77.196"}}}
-  - {"name":"🇨🇳_CN_中国_3","server":"43.154.104.180","port":43318,"type":"vmess","uuid":"d6941f19-de1e-4176-b1c8-b328c9b98ccb","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国_3","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.104.180"}}}
-  - {"name":"🇸🇬_SG_新加坡_4","server":"cp-asus.ml","port":50275,"type":"trojan","country":"🇸🇬_SG_新加坡_4","skip-cert-verify":true,"udp":true,"password":"7Z29DRr1ts"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_5","server":"116.129.253.130","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_5","skip-cert-verify":true,"udp":true,"password":"f6f2072a2e4cfc91"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_6","server":"116.129.253.134","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_6","skip-cert-verify":true,"udp":true,"password":"c3c448da2363a6f7"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_7","server":"116.129.253.191","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_7","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_8","server":"116.129.253.177","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_8","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_9","server":"116.129.254.47","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_9","skip-cert-verify":true,"udp":true,"password":"e37c6d7efa845d60"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_10","server":"120.232.192.250","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_10","skip-cert-verify":true,"udp":true,"password":"f6f2072a2e4cfc91"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_11","server":"116.129.253.227","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_11","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_12","server":"116.129.254.29","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_12","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇺🇸_US_美国_13","server":"fhcarm2.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_13","skip-cert-verify":true,"udp":true,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178"}
-  - {"name":"🇸🇬_SG_新加坡_14","server":"43.135.70.192","port":24740,"type":"vmess","uuid":"3749de34-a1a9-44db-b72a-510712a52d11","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡_14","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.135.70.192"}}}
-  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_15","server":"$*@180.163.62.91","port":10065,"type":"ss","country":"🇨🇳_CN_中国->🇰🇷_KR_韩国_15","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_16","server":"cm-jm.okvpn.xyz","port":20003,"type":"trojan","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_16","skip-cert-verify":true,"udp":true,"password":"da650643-87d3-4279-9b19-c8aa68568d16"}
+  - {"name":"节点每日更新_1","server":"172.99.190.205","port":5003,"type":"ss","country":"节点每日更新_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"优先在YouTube频道公布_2","server":"134.195.196.81","port":8009,"type":"ss","country":"优先在YouTube频道公布_2","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"t_me/vvkj11(节点失效会在群里补上)_3","server":"38.91.100.134","port":8118,"type":"ss","country":"t_me/vvkj11(节点失效会在群里补上)_3","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"(便宜账号购买)https://suo_yt/7OYFdU3_4","server":"169.197.141.244","port":8118,"type":"ss","country":"(便宜账号购买)https://suo_yt/7OYFdU3_4","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇯🇵_日本_YouTube:VV科技_5","server":"69.64.248.199","port":443,"type":"vmess","uuid":"7235b329-e205-4fcb-bcd6-81c19fbb9e85","alterId":0,"cipher":"auto","country":"🇯🇵_日本_YouTube:VV科技_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"govacaxixo.watchdoctor.xyz"}}}
+  - {"name":"🇨🇳_中国_YouTube:VV科技_6","server":"120.232.214.89","port":110,"type":"vmess","uuid":"b5b579f4-3320-301c-a04b-c2473062b46c","alterId":1,"cipher":"auto","country":"🇨🇳_中国_YouTube:VV科技_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/vvv","headers":{"host":"qwertyproxypool426"}}}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_7","server":"145.239.1.100","port":8882,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_7","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_8","server":"172.99.190.188","port":2376,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_8","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_9","server":"145.239.1.100","port":8881,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_9","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_10","server":"45.32.94.150","port":443,"type":"vmess","uuid":"5974cc5f-7869-4c54-835d-6726fc552e34","alterId":0,"cipher":"auto","country":"🇺🇸_美国_YouTube:VV科技_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"govacaxixo.watchdoctor.xyz"}}}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_11","server":"167.88.62.34","port":8118,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_11","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_12","server":"167.88.63.61","port":8118,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_12","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_13","server":"172.99.190.149","port":9101,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_13","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_14","server":"172.99.190.149","port":8119,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_14","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_15","server":"145.239.1.100","port":8000,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_15","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_16","server":"145.239.1.100","port":9101,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_16","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇸🇬_新加坡_YouTube:VV科技_17","server":"lin-sg.tgproxy.wtf","port":443,"type":"vmess","uuid":"d064d11b-477c-4c5d-a2d8-9fd599ef8e79","alterId":0,"cipher":"auto","country":"🇸🇬_新加坡_YouTube:VV科技_17","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","headers":{"host":"lin-sg.tgproxy.wtf"}}}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_18","server":"145.239.1.100","port":2375,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_18","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_19","server":"172.99.190.149","port":5001,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_19","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_20","server":"172.99.190.149","port":7307,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_20","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_21","server":"198.57.27.241","port":8090,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_21","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_22","server":"145.239.1.100","port":5500,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_22","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇳_中国_YouTube:VV科技_23","server":"in01.dns2333.xyz","port":63088,"type":"vmess","uuid":"6d807eef-f2b2-39fe-8922-f7f5ae69931d","alterId":0,"cipher":"auto","country":"🇨🇳_中国_YouTube:VV科技_23","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"cdn.bootcdn.net"}}}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_24","server":"145.239.1.100","port":8888,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_24","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_25","server":"145.239.1.100","port":8118,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_25","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_26","server":"145.239.1.100","port":9102,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_26","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_27","server":"145.239.1.100","port":8080,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_27","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_28","server":"145.239.1.100","port":8008,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_28","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_29","server":"167.88.63.74","port":8888,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_29","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_30","server":"167.88.63.74","port":8000,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_30","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_31","server":"145.239.1.100","port":6679,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_31","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_32","server":"172.99.190.39","port":2375,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_32","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_33","server":"198.57.27.241","port":8091,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_33","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇩🇪_德国_YouTube:VV科技_34","server":"193.108.118.36","port":7306,"type":"ss","country":"🇩🇪_德国_YouTube:VV科技_34","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_35","server":"62.210.209.50","port":8000,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_35","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_36","server":"172.99.190.205","port":8881,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_36","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇩🇪_德国_YouTube:VV科技_37","server":"217.79.184.107","port":7307,"type":"ss","country":"🇩🇪_德国_YouTube:VV科技_37","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_38","server":"172.99.190.39","port":5001,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_38","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_39","server":"198.57.27.241","port":8882,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_39","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_40","server":"62.210.209.50","port":8882,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_40","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_41","server":"172.99.190.149","port":3389,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_41","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_42","server":"198.57.27.172","port":2376,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_42","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_43","server":"172.99.190.39","port":8000,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_43","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_44","server":"172.99.190.205","port":5500,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_44","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_45","server":"172.99.190.39","port":443,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_45","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_46","server":"172.99.190.39","port":8090,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_46","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_47","server":"142.202.48.34","port":8091,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_47","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_48","server":"172.99.190.205","port":3389,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_48","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_49","server":"198.57.27.184","port":6697,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_49","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_50","server":"172.99.190.39","port":9101,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_50","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_51","server":"134.195.196.200","port":2376,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_51","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷_韩国_YouTube:VV科技_52","server":"158.247.224.123","port":8091,"type":"ss","country":"🇰🇷_韩国_YouTube:VV科技_52","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_53","server":"172.99.190.205","port":6679,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_53","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_54","server":"134.195.196.200","port":6379,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_54","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_55","server":"38.121.43.71","port":8091,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_55","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_56","server":"172.99.190.39","port":8888,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_56","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_57","server":"38.91.101.11","port":7307,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_57","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_58","server":"172.99.190.205","port":8882,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_58","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_59","server":"172.99.190.205","port":7002,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_59","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_60","server":"134.195.196.200","port":5003,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_60","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_61","server":"142.202.48.34","port":5004,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_61","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇯🇵_日本_YouTube:VV科技_62","server":"jp-group-a-direct.node001.xyz","port":80,"type":"vmess","uuid":"6d807eef-f2b2-39fe-8922-f7f5ae69931d","alterId":0,"cipher":"auto","country":"🇯🇵_日本_YouTube:VV科技_62","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"new.vip.weibo.cn"}}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_63","server":"198.57.27.184","port":2375,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_63","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷_韩国_YouTube:VV科技_64","server":"141.164.35.41","port":8080,"type":"ss","country":"🇰🇷_韩国_YouTube:VV科技_64","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_65","server":"134.195.196.200","port":7002,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_65","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇯🇵_日本_YouTube:VV科技_66","server":"139.162.116.239","port":8118,"type":"ss","country":"🇯🇵_日本_YouTube:VV科技_66","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_67","server":"198.57.27.152","port":6679,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_67","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_68","server":"test.0dc.cn","port":443,"type":"vmess","uuid":"ebe5703b-c18e-4664-c3a7-9fcf52453898","alterId":0,"cipher":"auto","country":"🇺🇸_美国_YouTube:VV科技_68","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"test.0dc.cn"}}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_69","server":"134.195.196.200","port":8888,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_69","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_70","server":"134.195.196.43","port":5001,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_70","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_71","server":"134.195.196.184","port":8080,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_71","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇭🇰_香港_YouTube:VV科技_72","server":"v124.wgong.xyz","port":52224,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"🇭🇰_香港_YouTube:VV科技_72","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_73","server":"134.195.196.184","port":3389,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_73","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_74","server":"134.195.196.43","port":5601,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_74","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_75","server":"134.195.196.200","port":6679,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_75","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_76","server":"198.57.27.152","port":9102,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_76","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇳_中国_YouTube:VV科技_77","server":"120.232.214.89","port":115,"type":"vmess","uuid":"b5b579f4-3320-301c-a04b-c2473062b46c","alterId":1,"cipher":"auto","country":"🇨🇳_中国_YouTube:VV科技_77","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/vvv","headers":{"host":"qwertyproxypool426"}}}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_78","server":"167.88.63.28","port":6679,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_78","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_79","server":"134.195.196.184","port":5004,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_79","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_80","server":"198.57.27.152","port":5004,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_80","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_81","server":"38.91.100.134","port":5500,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_81","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_82","server":"134.195.196.193","port":8090,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_82","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_83","server":"169.197.141.91","port":6379,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_83","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_84","server":"167.88.63.28","port":8119,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_84","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_85","server":"167.88.63.28","port":8091,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_85","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_86","server":"167.88.63.28","port":3389,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_86","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_87","server":"167.88.63.28","port":9102,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_87","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"YouTube:VV科技_88","server":"198.41.212.9","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"YouTube:VV科技_88","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_89","server":"38.75.137.71","port":3389,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_89","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_90","server":"134.195.196.193","port":5003,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_90","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_91","server":"172.99.190.205","port":8090,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_91","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇯🇵_日本_YouTube:VV科技_92","server":"167.179.96.100","port":8888,"type":"vmess","uuid":"4413f54a-2744-4274-b960-4509b800e1c0","alterId":0,"cipher":"auto","country":"🇯🇵_日本_YouTube:VV科技_92","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/FNRWR48K","headers":{"host":"167.179.96.100"}}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_93","server":"198.57.27.172","port":9101,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_93","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"YouTube:VV科技_94","server":"198.41.212.5","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"YouTube:VV科技_94","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_95","server":"134.195.196.81","port":7307,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_95","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_96","server":"172.99.190.205","port":7306,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_96","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_97","server":"142.202.48.34","port":2375,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_97","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_98","server":"38.91.102.123","port":8090,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_98","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_99","server":"38.91.107.80","port":5500,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_99","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_100","server":"167.88.63.61","port":8881,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_100","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_101","server":"172.99.190.205","port":7307,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_101","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇷🇴_罗马尼亚_YouTube:VV科技_102","server":"ro.scsevers.cf","port":443,"type":"trojan","country":"🇷🇴_罗马尼亚_YouTube:VV科技_102","skip-cert-verify":true,"udp":true,"password":"scyyds"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_103","server":"172.99.190.149","port":2375,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_103","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇳_中国_YouTube:VV科技_104","server":"109.wgong.xyz","port":52209,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"🇨🇳_中国_YouTube:VV科技_104","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"109.wgong.xyz"}}}
+  - {"name":"🇹🇼_台湾_YouTube:VV科技_105","server":"nat.tw.tgproxy.wtf","port":10562,"type":"vmess","uuid":"d064d11b-477c-4c5d-a2d8-9fd599ef8e79","alterId":0,"cipher":"auto","country":"🇹🇼_台湾_YouTube:VV科技_105","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","headers":{"host":"nat.tw.tgproxy.wtf"}}}
+  - {"name":"YouTube:VV科技_106","server":"198.41.212.15","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"YouTube:VV科技_106","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_107","server":"198.57.27.172","port":6697,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_107","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_108","server":"198.57.27.241","port":2375,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_108","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_109","server":"172.99.190.149","port":8881,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_109","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_110","server":"172.99.190.205","port":8000,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_110","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_111","server":"172.99.190.149","port":2376,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_111","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_112","server":"145.239.1.100","port":5003,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_112","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_113","server":"172.99.190.205","port":5004,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_113","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇳_中国_YouTube:VV科技_114","server":"82.wgong.xyz","port":52282,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"🇨🇳_中国_YouTube:VV科技_114","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_115","server":"134.195.196.193","port":8881,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_115","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇳_中国_YouTube:VV科技_116","server":"105.wgong.xyz","port":52205,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"🇨🇳_中国_YouTube:VV科技_116","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"105.wgong.xyz"}}}
+  - {"name":"🇭🇰_香港_YouTube:VV科技_117","server":"v111.wgong.xyz","port":52211,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"🇭🇰_香港_YouTube:VV科技_117","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_118","server":"172.99.190.39","port":5500,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_118","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇩🇪_德国_YouTube:VV科技_119","server":"37.61.213.94","port":443,"type":"vmess","uuid":"97ff78ea-8807-4c33-93e5-d8481ac0539e","alterId":0,"cipher":"auto","country":"🇩🇪_德国_YouTube:VV科技_119","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"govacaxixo.watchdoctor.xyz"}}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_120","server":"134.195.196.147","port":8090,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_120","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_121","server":"20.24.66.67","port":52332,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"🇺🇸_美国_YouTube:VV科技_121","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"132.wgong.xyz"}}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_122","server":"198.57.27.184","port":7306,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_122","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_123","server":"145.239.1.100","port":8119,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_123","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_124","server":"167.88.63.28","port":7002,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_124","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇳_中国_YouTube:VV科技_125","server":"in01.dns2333.xyz","port":63078,"type":"vmess","uuid":"6d807eef-f2b2-39fe-8922-f7f5ae69931d","alterId":0,"cipher":"auto","country":"🇨🇳_中国_YouTube:VV科技_125","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk-balancer.airport-v2.com"}}}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_126","server":"134.195.196.193","port":8080,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_126","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇳_中国_YouTube:VV科技_127","server":"103.wgong.xyz","port":52203,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"🇨🇳_中国_YouTube:VV科技_127","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_128","server":"134.195.196.149","port":7307,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_128","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇸🇬_新加坡_YouTube:VV科技_129","server":"139.99.123.171","port":8119,"type":"ss","country":"🇸🇬_新加坡_YouTube:VV科技_129","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_130","server":"198.57.27.152","port":8888,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_130","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_131","server":"198.57.27.152","port":7307,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_131","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_132","server":"172.99.190.39","port":5003,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_132","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"YouTube:VV科技_133","server":"v1.ssrsub.com","port":443,"type":"vmess","uuid":"916251fa-6aa5-459d-b7a1-968b49a01e4e","alterId":0,"cipher":"auto","country":"YouTube:VV科技_133","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_134","server":"oz1.mooncloud.bike","port":8443,"type":"vmess","uuid":"2c42a34e-5f88-492b-8a59-3531090578f8","alterId":0,"cipher":"auto","country":"🇺🇸_美国_YouTube:VV科技_134","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oz.mooncloud.bike"}}}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_135","server":"62.210.209.50","port":5003,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_135","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_136","server":"vm.wsaly.icu","port":25960,"type":"vmess","uuid":"a84d58cd-c499-48e0-9713-33addd1447e9","alterId":0,"cipher":"auto","country":"🇺🇸_美国_YouTube:VV科技_136","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xyz","headers":{"host":"vm.wsaly.icu"}}}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_137","server":"172.99.190.39","port":6679,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_137","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_138","server":"62.210.209.50","port":8118,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_138","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇫🇷_法国_YouTube:VV科技_139","server":"62.210.209.50","port":8009,"type":"ss","country":"🇫🇷_法国_YouTube:VV科技_139","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_140","server":"167.88.63.74","port":7002,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_140","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_141","server":"172.99.190.188","port":2375,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_141","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_142","server":"134.195.196.147","port":8881,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_142","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_143","server":"172.99.190.205","port":7001,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_143","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_144","server":"167.88.63.74","port":9102,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_144","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_145","server":"172.99.190.149","port":443,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_145","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_146","server":"172.99.190.39","port":8009,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_146","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_147","server":"198.57.27.184","port":2376,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_147","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷_韩国_YouTube:VV科技_148","server":"158.247.224.123","port":2376,"type":"ss","country":"🇰🇷_韩国_YouTube:VV科技_148","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇬🇧_英国_YouTube:VV科技_149","server":"172.99.190.205","port":6697,"type":"ss","country":"🇬🇧_英国_YouTube:VV科技_149","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_150","server":"169.197.141.91","port":9101,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_150","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_151","server":"167.88.62.34","port":8119,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_151","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_152","server":"198.57.27.152","port":9101,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_152","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_153","server":"167.88.62.34","port":8009,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_153","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇰🇷_韩国_YouTube:VV科技_154","server":"141.164.35.41","port":443,"type":"ss","country":"🇰🇷_韩国_YouTube:VV科技_154","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_155","server":"134.195.196.184","port":7307,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_155","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_加拿大_YouTube:VV科技_156","server":"134.195.196.147","port":5001,"type":"ss","country":"🇨🇦_加拿大_YouTube:VV科技_156","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_157","server":"38.75.137.71","port":5004,"type":"ss","country":"🇺🇸_美国_YouTube:VV科技_157","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - 🇸🇬_SG_新加坡_14
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_15
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_16
+      - 节点每日更新_1
+      - 优先在YouTube频道公布_2
+      - t_me/vvkj11(节点失效会在群里补上)_3
+      - (便宜账号购买)https://suo_yt/7OYFdU3_4
+      - 🇯🇵_日本_YouTube:VV科技_5
+      - 🇨🇳_中国_YouTube:VV科技_6
+      - 🇫🇷_法国_YouTube:VV科技_7
+      - 🇬🇧_英国_YouTube:VV科技_8
+      - 🇫🇷_法国_YouTube:VV科技_9
+      - 🇺🇸_美国_YouTube:VV科技_10
+      - 🇺🇸_美国_YouTube:VV科技_11
+      - 🇺🇸_美国_YouTube:VV科技_12
+      - 🇬🇧_英国_YouTube:VV科技_13
+      - 🇬🇧_英国_YouTube:VV科技_14
+      - 🇫🇷_法国_YouTube:VV科技_15
+      - 🇫🇷_法国_YouTube:VV科技_16
+      - 🇸🇬_新加坡_YouTube:VV科技_17
+      - 🇫🇷_法国_YouTube:VV科技_18
+      - 🇬🇧_英国_YouTube:VV科技_19
+      - 🇬🇧_英国_YouTube:VV科技_20
+      - 🇨🇦_加拿大_YouTube:VV科技_21
+      - 🇫🇷_法国_YouTube:VV科技_22
+      - 🇨🇳_中国_YouTube:VV科技_23
+      - 🇫🇷_法国_YouTube:VV科技_24
+      - 🇫🇷_法国_YouTube:VV科技_25
+      - 🇫🇷_法国_YouTube:VV科技_26
+      - 🇫🇷_法国_YouTube:VV科技_27
+      - 🇫🇷_法国_YouTube:VV科技_28
+      - 🇺🇸_美国_YouTube:VV科技_29
+      - 🇺🇸_美国_YouTube:VV科技_30
+      - 🇫🇷_法国_YouTube:VV科技_31
+      - 🇬🇧_英国_YouTube:VV科技_32
+      - 🇨🇦_加拿大_YouTube:VV科技_33
+      - 🇩🇪_德国_YouTube:VV科技_34
+      - 🇫🇷_法国_YouTube:VV科技_35
+      - 🇬🇧_英国_YouTube:VV科技_36
+      - 🇩🇪_德国_YouTube:VV科技_37
+      - 🇬🇧_英国_YouTube:VV科技_38
+      - 🇨🇦_加拿大_YouTube:VV科技_39
+      - 🇫🇷_法国_YouTube:VV科技_40
+      - 🇬🇧_英国_YouTube:VV科技_41
+      - 🇨🇦_加拿大_YouTube:VV科技_42
+      - 🇬🇧_英国_YouTube:VV科技_43
+      - 🇬🇧_英国_YouTube:VV科技_44
+      - 🇬🇧_英国_YouTube:VV科技_45
+      - 🇬🇧_英国_YouTube:VV科技_46
+      - 🇺🇸_美国_YouTube:VV科技_47
+      - 🇬🇧_英国_YouTube:VV科技_48
+      - 🇨🇦_加拿大_YouTube:VV科技_49
+      - 🇬🇧_英国_YouTube:VV科技_50
+      - 🇨🇦_加拿大_YouTube:VV科技_51
+      - 🇰🇷_韩国_YouTube:VV科技_52
+      - 🇬🇧_英国_YouTube:VV科技_53
+      - 🇨🇦_加拿大_YouTube:VV科技_54
+      - 🇺🇸_美国_YouTube:VV科技_55
+      - 🇬🇧_英国_YouTube:VV科技_56
+      - 🇺🇸_美国_YouTube:VV科技_57
+      - 🇬🇧_英国_YouTube:VV科技_58
+      - 🇬🇧_英国_YouTube:VV科技_59
+      - 🇨🇦_加拿大_YouTube:VV科技_60
+      - 🇺🇸_美国_YouTube:VV科技_61
+      - 🇯🇵_日本_YouTube:VV科技_62
+      - 🇨🇦_加拿大_YouTube:VV科技_63
+      - 🇰🇷_韩国_YouTube:VV科技_64
+      - 🇨🇦_加拿大_YouTube:VV科技_65
+      - 🇯🇵_日本_YouTube:VV科技_66
+      - 🇨🇦_加拿大_YouTube:VV科技_67
+      - 🇺🇸_美国_YouTube:VV科技_68
+      - 🇨🇦_加拿大_YouTube:VV科技_69
+      - 🇨🇦_加拿大_YouTube:VV科技_70
+      - 🇨🇦_加拿大_YouTube:VV科技_71
+      - 🇭🇰_香港_YouTube:VV科技_72
+      - 🇨🇦_加拿大_YouTube:VV科技_73
+      - 🇨🇦_加拿大_YouTube:VV科技_74
+      - 🇨🇦_加拿大_YouTube:VV科技_75
+      - 🇨🇦_加拿大_YouTube:VV科技_76
+      - 🇨🇳_中国_YouTube:VV科技_77
+      - 🇺🇸_美国_YouTube:VV科技_78
+      - 🇨🇦_加拿大_YouTube:VV科技_79
+      - 🇨🇦_加拿大_YouTube:VV科技_80
+      - 🇺🇸_美国_YouTube:VV科技_81
+      - 🇨🇦_加拿大_YouTube:VV科技_82
+      - 🇺🇸_美国_YouTube:VV科技_83
+      - 🇺🇸_美国_YouTube:VV科技_84
+      - 🇺🇸_美国_YouTube:VV科技_85
+      - 🇺🇸_美国_YouTube:VV科技_86
+      - 🇺🇸_美国_YouTube:VV科技_87
+      - YouTube:VV科技_88
+      - 🇺🇸_美国_YouTube:VV科技_89
+      - 🇨🇦_加拿大_YouTube:VV科技_90
+      - 🇬🇧_英国_YouTube:VV科技_91
+      - 🇯🇵_日本_YouTube:VV科技_92
+      - 🇨🇦_加拿大_YouTube:VV科技_93
+      - YouTube:VV科技_94
+      - 🇨🇦_加拿大_YouTube:VV科技_95
+      - 🇬🇧_英国_YouTube:VV科技_96
+      - 🇺🇸_美国_YouTube:VV科技_97
+      - 🇺🇸_美国_YouTube:VV科技_98
+      - 🇺🇸_美国_YouTube:VV科技_99
+      - 🇺🇸_美国_YouTube:VV科技_100
+      - 🇬🇧_英国_YouTube:VV科技_101
+      - 🇷🇴_罗马尼亚_YouTube:VV科技_102
+      - 🇬🇧_英国_YouTube:VV科技_103
+      - 🇨🇳_中国_YouTube:VV科技_104
+      - 🇹🇼_台湾_YouTube:VV科技_105
+      - YouTube:VV科技_106
+      - 🇨🇦_加拿大_YouTube:VV科技_107
+      - 🇨🇦_加拿大_YouTube:VV科技_108
+      - 🇬🇧_英国_YouTube:VV科技_109
+      - 🇬🇧_英国_YouTube:VV科技_110
+      - 🇬🇧_英国_YouTube:VV科技_111
+      - 🇫🇷_法国_YouTube:VV科技_112
+      - 🇬🇧_英国_YouTube:VV科技_113
+      - 🇨🇳_中国_YouTube:VV科技_114
+      - 🇨🇦_加拿大_YouTube:VV科技_115
+      - 🇨🇳_中国_YouTube:VV科技_116
+      - 🇭🇰_香港_YouTube:VV科技_117
+      - 🇬🇧_英国_YouTube:VV科技_118
+      - 🇩🇪_德国_YouTube:VV科技_119
+      - 🇨🇦_加拿大_YouTube:VV科技_120
+      - 🇺🇸_美国_YouTube:VV科技_121
+      - 🇨🇦_加拿大_YouTube:VV科技_122
+      - 🇫🇷_法国_YouTube:VV科技_123
+      - 🇺🇸_美国_YouTube:VV科技_124
+      - 🇨🇳_中国_YouTube:VV科技_125
+      - 🇨🇦_加拿大_YouTube:VV科技_126
+      - 🇨🇳_中国_YouTube:VV科技_127
+      - 🇨🇦_加拿大_YouTube:VV科技_128
+      - 🇸🇬_新加坡_YouTube:VV科技_129
+      - 🇨🇦_加拿大_YouTube:VV科技_130
+      - 🇨🇦_加拿大_YouTube:VV科技_131
+      - 🇬🇧_英国_YouTube:VV科技_132
+      - YouTube:VV科技_133
+      - 🇺🇸_美国_YouTube:VV科技_134
+      - 🇫🇷_法国_YouTube:VV科技_135
+      - 🇺🇸_美国_YouTube:VV科技_136
+      - 🇬🇧_英国_YouTube:VV科技_137
+      - 🇫🇷_法国_YouTube:VV科技_138
+      - 🇫🇷_法国_YouTube:VV科技_139
+      - 🇺🇸_美国_YouTube:VV科技_140
+      - 🇬🇧_英国_YouTube:VV科技_141
+      - 🇨🇦_加拿大_YouTube:VV科技_142
+      - 🇬🇧_英国_YouTube:VV科技_143
+      - 🇺🇸_美国_YouTube:VV科技_144
+      - 🇬🇧_英国_YouTube:VV科技_145
+      - 🇬🇧_英国_YouTube:VV科技_146
+      - 🇨🇦_加拿大_YouTube:VV科技_147
+      - 🇰🇷_韩国_YouTube:VV科技_148
+      - 🇬🇧_英国_YouTube:VV科技_149
+      - 🇺🇸_美国_YouTube:VV科技_150
+      - 🇺🇸_美国_YouTube:VV科技_151
+      - 🇨🇦_加拿大_YouTube:VV科技_152
+      - 🇺🇸_美国_YouTube:VV科技_153
+      - 🇰🇷_韩国_YouTube:VV科技_154
+      - 🇨🇦_加拿大_YouTube:VV科技_155
+      - 🇨🇦_加拿大_YouTube:VV科技_156
+      - 🇺🇸_美国_YouTube:VV科技_157
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - 🇸🇬_SG_新加坡_14
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_15
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_16
+      - 节点每日更新_1
+      - 优先在YouTube频道公布_2
+      - t_me/vvkj11(节点失效会在群里补上)_3
+      - (便宜账号购买)https://suo_yt/7OYFdU3_4
+      - 🇯🇵_日本_YouTube:VV科技_5
+      - 🇨🇳_中国_YouTube:VV科技_6
+      - 🇫🇷_法国_YouTube:VV科技_7
+      - 🇬🇧_英国_YouTube:VV科技_8
+      - 🇫🇷_法国_YouTube:VV科技_9
+      - 🇺🇸_美国_YouTube:VV科技_10
+      - 🇺🇸_美国_YouTube:VV科技_11
+      - 🇺🇸_美国_YouTube:VV科技_12
+      - 🇬🇧_英国_YouTube:VV科技_13
+      - 🇬🇧_英国_YouTube:VV科技_14
+      - 🇫🇷_法国_YouTube:VV科技_15
+      - 🇫🇷_法国_YouTube:VV科技_16
+      - 🇸🇬_新加坡_YouTube:VV科技_17
+      - 🇫🇷_法国_YouTube:VV科技_18
+      - 🇬🇧_英国_YouTube:VV科技_19
+      - 🇬🇧_英国_YouTube:VV科技_20
+      - 🇨🇦_加拿大_YouTube:VV科技_21
+      - 🇫🇷_法国_YouTube:VV科技_22
+      - 🇨🇳_中国_YouTube:VV科技_23
+      - 🇫🇷_法国_YouTube:VV科技_24
+      - 🇫🇷_法国_YouTube:VV科技_25
+      - 🇫🇷_法国_YouTube:VV科技_26
+      - 🇫🇷_法国_YouTube:VV科技_27
+      - 🇫🇷_法国_YouTube:VV科技_28
+      - 🇺🇸_美国_YouTube:VV科技_29
+      - 🇺🇸_美国_YouTube:VV科技_30
+      - 🇫🇷_法国_YouTube:VV科技_31
+      - 🇬🇧_英国_YouTube:VV科技_32
+      - 🇨🇦_加拿大_YouTube:VV科技_33
+      - 🇩🇪_德国_YouTube:VV科技_34
+      - 🇫🇷_法国_YouTube:VV科技_35
+      - 🇬🇧_英国_YouTube:VV科技_36
+      - 🇩🇪_德国_YouTube:VV科技_37
+      - 🇬🇧_英国_YouTube:VV科技_38
+      - 🇨🇦_加拿大_YouTube:VV科技_39
+      - 🇫🇷_法国_YouTube:VV科技_40
+      - 🇬🇧_英国_YouTube:VV科技_41
+      - 🇨🇦_加拿大_YouTube:VV科技_42
+      - 🇬🇧_英国_YouTube:VV科技_43
+      - 🇬🇧_英国_YouTube:VV科技_44
+      - 🇬🇧_英国_YouTube:VV科技_45
+      - 🇬🇧_英国_YouTube:VV科技_46
+      - 🇺🇸_美国_YouTube:VV科技_47
+      - 🇬🇧_英国_YouTube:VV科技_48
+      - 🇨🇦_加拿大_YouTube:VV科技_49
+      - 🇬🇧_英国_YouTube:VV科技_50
+      - 🇨🇦_加拿大_YouTube:VV科技_51
+      - 🇰🇷_韩国_YouTube:VV科技_52
+      - 🇬🇧_英国_YouTube:VV科技_53
+      - 🇨🇦_加拿大_YouTube:VV科技_54
+      - 🇺🇸_美国_YouTube:VV科技_55
+      - 🇬🇧_英国_YouTube:VV科技_56
+      - 🇺🇸_美国_YouTube:VV科技_57
+      - 🇬🇧_英国_YouTube:VV科技_58
+      - 🇬🇧_英国_YouTube:VV科技_59
+      - 🇨🇦_加拿大_YouTube:VV科技_60
+      - 🇺🇸_美国_YouTube:VV科技_61
+      - 🇯🇵_日本_YouTube:VV科技_62
+      - 🇨🇦_加拿大_YouTube:VV科技_63
+      - 🇰🇷_韩国_YouTube:VV科技_64
+      - 🇨🇦_加拿大_YouTube:VV科技_65
+      - 🇯🇵_日本_YouTube:VV科技_66
+      - 🇨🇦_加拿大_YouTube:VV科技_67
+      - 🇺🇸_美国_YouTube:VV科技_68
+      - 🇨🇦_加拿大_YouTube:VV科技_69
+      - 🇨🇦_加拿大_YouTube:VV科技_70
+      - 🇨🇦_加拿大_YouTube:VV科技_71
+      - 🇭🇰_香港_YouTube:VV科技_72
+      - 🇨🇦_加拿大_YouTube:VV科技_73
+      - 🇨🇦_加拿大_YouTube:VV科技_74
+      - 🇨🇦_加拿大_YouTube:VV科技_75
+      - 🇨🇦_加拿大_YouTube:VV科技_76
+      - 🇨🇳_中国_YouTube:VV科技_77
+      - 🇺🇸_美国_YouTube:VV科技_78
+      - 🇨🇦_加拿大_YouTube:VV科技_79
+      - 🇨🇦_加拿大_YouTube:VV科技_80
+      - 🇺🇸_美国_YouTube:VV科技_81
+      - 🇨🇦_加拿大_YouTube:VV科技_82
+      - 🇺🇸_美国_YouTube:VV科技_83
+      - 🇺🇸_美国_YouTube:VV科技_84
+      - 🇺🇸_美国_YouTube:VV科技_85
+      - 🇺🇸_美国_YouTube:VV科技_86
+      - 🇺🇸_美国_YouTube:VV科技_87
+      - YouTube:VV科技_88
+      - 🇺🇸_美国_YouTube:VV科技_89
+      - 🇨🇦_加拿大_YouTube:VV科技_90
+      - 🇬🇧_英国_YouTube:VV科技_91
+      - 🇯🇵_日本_YouTube:VV科技_92
+      - 🇨🇦_加拿大_YouTube:VV科技_93
+      - YouTube:VV科技_94
+      - 🇨🇦_加拿大_YouTube:VV科技_95
+      - 🇬🇧_英国_YouTube:VV科技_96
+      - 🇺🇸_美国_YouTube:VV科技_97
+      - 🇺🇸_美国_YouTube:VV科技_98
+      - 🇺🇸_美国_YouTube:VV科技_99
+      - 🇺🇸_美国_YouTube:VV科技_100
+      - 🇬🇧_英国_YouTube:VV科技_101
+      - 🇷🇴_罗马尼亚_YouTube:VV科技_102
+      - 🇬🇧_英国_YouTube:VV科技_103
+      - 🇨🇳_中国_YouTube:VV科技_104
+      - 🇹🇼_台湾_YouTube:VV科技_105
+      - YouTube:VV科技_106
+      - 🇨🇦_加拿大_YouTube:VV科技_107
+      - 🇨🇦_加拿大_YouTube:VV科技_108
+      - 🇬🇧_英国_YouTube:VV科技_109
+      - 🇬🇧_英国_YouTube:VV科技_110
+      - 🇬🇧_英国_YouTube:VV科技_111
+      - 🇫🇷_法国_YouTube:VV科技_112
+      - 🇬🇧_英国_YouTube:VV科技_113
+      - 🇨🇳_中国_YouTube:VV科技_114
+      - 🇨🇦_加拿大_YouTube:VV科技_115
+      - 🇨🇳_中国_YouTube:VV科技_116
+      - 🇭🇰_香港_YouTube:VV科技_117
+      - 🇬🇧_英国_YouTube:VV科技_118
+      - 🇩🇪_德国_YouTube:VV科技_119
+      - 🇨🇦_加拿大_YouTube:VV科技_120
+      - 🇺🇸_美国_YouTube:VV科技_121
+      - 🇨🇦_加拿大_YouTube:VV科技_122
+      - 🇫🇷_法国_YouTube:VV科技_123
+      - 🇺🇸_美国_YouTube:VV科技_124
+      - 🇨🇳_中国_YouTube:VV科技_125
+      - 🇨🇦_加拿大_YouTube:VV科技_126
+      - 🇨🇳_中国_YouTube:VV科技_127
+      - 🇨🇦_加拿大_YouTube:VV科技_128
+      - 🇸🇬_新加坡_YouTube:VV科技_129
+      - 🇨🇦_加拿大_YouTube:VV科技_130
+      - 🇨🇦_加拿大_YouTube:VV科技_131
+      - 🇬🇧_英国_YouTube:VV科技_132
+      - YouTube:VV科技_133
+      - 🇺🇸_美国_YouTube:VV科技_134
+      - 🇫🇷_法国_YouTube:VV科技_135
+      - 🇺🇸_美国_YouTube:VV科技_136
+      - 🇬🇧_英国_YouTube:VV科技_137
+      - 🇫🇷_法国_YouTube:VV科技_138
+      - 🇫🇷_法国_YouTube:VV科技_139
+      - 🇺🇸_美国_YouTube:VV科技_140
+      - 🇬🇧_英国_YouTube:VV科技_141
+      - 🇨🇦_加拿大_YouTube:VV科技_142
+      - 🇬🇧_英国_YouTube:VV科技_143
+      - 🇺🇸_美国_YouTube:VV科技_144
+      - 🇬🇧_英国_YouTube:VV科技_145
+      - 🇬🇧_英国_YouTube:VV科技_146
+      - 🇨🇦_加拿大_YouTube:VV科技_147
+      - 🇰🇷_韩国_YouTube:VV科技_148
+      - 🇬🇧_英国_YouTube:VV科技_149
+      - 🇺🇸_美国_YouTube:VV科技_150
+      - 🇺🇸_美国_YouTube:VV科技_151
+      - 🇨🇦_加拿大_YouTube:VV科技_152
+      - 🇺🇸_美国_YouTube:VV科技_153
+      - 🇰🇷_韩国_YouTube:VV科技_154
+      - 🇨🇦_加拿大_YouTube:VV科技_155
+      - 🇨🇦_加拿大_YouTube:VV科技_156
+      - 🇺🇸_美国_YouTube:VV科技_157
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - 🇸🇬_SG_新加坡_14
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_15
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_16
+      - 节点每日更新_1
+      - 优先在YouTube频道公布_2
+      - t_me/vvkj11(节点失效会在群里补上)_3
+      - (便宜账号购买)https://suo_yt/7OYFdU3_4
+      - 🇯🇵_日本_YouTube:VV科技_5
+      - 🇨🇳_中国_YouTube:VV科技_6
+      - 🇫🇷_法国_YouTube:VV科技_7
+      - 🇬🇧_英国_YouTube:VV科技_8
+      - 🇫🇷_法国_YouTube:VV科技_9
+      - 🇺🇸_美国_YouTube:VV科技_10
+      - 🇺🇸_美国_YouTube:VV科技_11
+      - 🇺🇸_美国_YouTube:VV科技_12
+      - 🇬🇧_英国_YouTube:VV科技_13
+      - 🇬🇧_英国_YouTube:VV科技_14
+      - 🇫🇷_法国_YouTube:VV科技_15
+      - 🇫🇷_法国_YouTube:VV科技_16
+      - 🇸🇬_新加坡_YouTube:VV科技_17
+      - 🇫🇷_法国_YouTube:VV科技_18
+      - 🇬🇧_英国_YouTube:VV科技_19
+      - 🇬🇧_英国_YouTube:VV科技_20
+      - 🇨🇦_加拿大_YouTube:VV科技_21
+      - 🇫🇷_法国_YouTube:VV科技_22
+      - 🇨🇳_中国_YouTube:VV科技_23
+      - 🇫🇷_法国_YouTube:VV科技_24
+      - 🇫🇷_法国_YouTube:VV科技_25
+      - 🇫🇷_法国_YouTube:VV科技_26
+      - 🇫🇷_法国_YouTube:VV科技_27
+      - 🇫🇷_法国_YouTube:VV科技_28
+      - 🇺🇸_美国_YouTube:VV科技_29
+      - 🇺🇸_美国_YouTube:VV科技_30
+      - 🇫🇷_法国_YouTube:VV科技_31
+      - 🇬🇧_英国_YouTube:VV科技_32
+      - 🇨🇦_加拿大_YouTube:VV科技_33
+      - 🇩🇪_德国_YouTube:VV科技_34
+      - 🇫🇷_法国_YouTube:VV科技_35
+      - 🇬🇧_英国_YouTube:VV科技_36
+      - 🇩🇪_德国_YouTube:VV科技_37
+      - 🇬🇧_英国_YouTube:VV科技_38
+      - 🇨🇦_加拿大_YouTube:VV科技_39
+      - 🇫🇷_法国_YouTube:VV科技_40
+      - 🇬🇧_英国_YouTube:VV科技_41
+      - 🇨🇦_加拿大_YouTube:VV科技_42
+      - 🇬🇧_英国_YouTube:VV科技_43
+      - 🇬🇧_英国_YouTube:VV科技_44
+      - 🇬🇧_英国_YouTube:VV科技_45
+      - 🇬🇧_英国_YouTube:VV科技_46
+      - 🇺🇸_美国_YouTube:VV科技_47
+      - 🇬🇧_英国_YouTube:VV科技_48
+      - 🇨🇦_加拿大_YouTube:VV科技_49
+      - 🇬🇧_英国_YouTube:VV科技_50
+      - 🇨🇦_加拿大_YouTube:VV科技_51
+      - 🇰🇷_韩国_YouTube:VV科技_52
+      - 🇬🇧_英国_YouTube:VV科技_53
+      - 🇨🇦_加拿大_YouTube:VV科技_54
+      - 🇺🇸_美国_YouTube:VV科技_55
+      - 🇬🇧_英国_YouTube:VV科技_56
+      - 🇺🇸_美国_YouTube:VV科技_57
+      - 🇬🇧_英国_YouTube:VV科技_58
+      - 🇬🇧_英国_YouTube:VV科技_59
+      - 🇨🇦_加拿大_YouTube:VV科技_60
+      - 🇺🇸_美国_YouTube:VV科技_61
+      - 🇯🇵_日本_YouTube:VV科技_62
+      - 🇨🇦_加拿大_YouTube:VV科技_63
+      - 🇰🇷_韩国_YouTube:VV科技_64
+      - 🇨🇦_加拿大_YouTube:VV科技_65
+      - 🇯🇵_日本_YouTube:VV科技_66
+      - 🇨🇦_加拿大_YouTube:VV科技_67
+      - 🇺🇸_美国_YouTube:VV科技_68
+      - 🇨🇦_加拿大_YouTube:VV科技_69
+      - 🇨🇦_加拿大_YouTube:VV科技_70
+      - 🇨🇦_加拿大_YouTube:VV科技_71
+      - 🇭🇰_香港_YouTube:VV科技_72
+      - 🇨🇦_加拿大_YouTube:VV科技_73
+      - 🇨🇦_加拿大_YouTube:VV科技_74
+      - 🇨🇦_加拿大_YouTube:VV科技_75
+      - 🇨🇦_加拿大_YouTube:VV科技_76
+      - 🇨🇳_中国_YouTube:VV科技_77
+      - 🇺🇸_美国_YouTube:VV科技_78
+      - 🇨🇦_加拿大_YouTube:VV科技_79
+      - 🇨🇦_加拿大_YouTube:VV科技_80
+      - 🇺🇸_美国_YouTube:VV科技_81
+      - 🇨🇦_加拿大_YouTube:VV科技_82
+      - 🇺🇸_美国_YouTube:VV科技_83
+      - 🇺🇸_美国_YouTube:VV科技_84
+      - 🇺🇸_美国_YouTube:VV科技_85
+      - 🇺🇸_美国_YouTube:VV科技_86
+      - 🇺🇸_美国_YouTube:VV科技_87
+      - YouTube:VV科技_88
+      - 🇺🇸_美国_YouTube:VV科技_89
+      - 🇨🇦_加拿大_YouTube:VV科技_90
+      - 🇬🇧_英国_YouTube:VV科技_91
+      - 🇯🇵_日本_YouTube:VV科技_92
+      - 🇨🇦_加拿大_YouTube:VV科技_93
+      - YouTube:VV科技_94
+      - 🇨🇦_加拿大_YouTube:VV科技_95
+      - 🇬🇧_英国_YouTube:VV科技_96
+      - 🇺🇸_美国_YouTube:VV科技_97
+      - 🇺🇸_美国_YouTube:VV科技_98
+      - 🇺🇸_美国_YouTube:VV科技_99
+      - 🇺🇸_美国_YouTube:VV科技_100
+      - 🇬🇧_英国_YouTube:VV科技_101
+      - 🇷🇴_罗马尼亚_YouTube:VV科技_102
+      - 🇬🇧_英国_YouTube:VV科技_103
+      - 🇨🇳_中国_YouTube:VV科技_104
+      - 🇹🇼_台湾_YouTube:VV科技_105
+      - YouTube:VV科技_106
+      - 🇨🇦_加拿大_YouTube:VV科技_107
+      - 🇨🇦_加拿大_YouTube:VV科技_108
+      - 🇬🇧_英国_YouTube:VV科技_109
+      - 🇬🇧_英国_YouTube:VV科技_110
+      - 🇬🇧_英国_YouTube:VV科技_111
+      - 🇫🇷_法国_YouTube:VV科技_112
+      - 🇬🇧_英国_YouTube:VV科技_113
+      - 🇨🇳_中国_YouTube:VV科技_114
+      - 🇨🇦_加拿大_YouTube:VV科技_115
+      - 🇨🇳_中国_YouTube:VV科技_116
+      - 🇭🇰_香港_YouTube:VV科技_117
+      - 🇬🇧_英国_YouTube:VV科技_118
+      - 🇩🇪_德国_YouTube:VV科技_119
+      - 🇨🇦_加拿大_YouTube:VV科技_120
+      - 🇺🇸_美国_YouTube:VV科技_121
+      - 🇨🇦_加拿大_YouTube:VV科技_122
+      - 🇫🇷_法国_YouTube:VV科技_123
+      - 🇺🇸_美国_YouTube:VV科技_124
+      - 🇨🇳_中国_YouTube:VV科技_125
+      - 🇨🇦_加拿大_YouTube:VV科技_126
+      - 🇨🇳_中国_YouTube:VV科技_127
+      - 🇨🇦_加拿大_YouTube:VV科技_128
+      - 🇸🇬_新加坡_YouTube:VV科技_129
+      - 🇨🇦_加拿大_YouTube:VV科技_130
+      - 🇨🇦_加拿大_YouTube:VV科技_131
+      - 🇬🇧_英国_YouTube:VV科技_132
+      - YouTube:VV科技_133
+      - 🇺🇸_美国_YouTube:VV科技_134
+      - 🇫🇷_法国_YouTube:VV科技_135
+      - 🇺🇸_美国_YouTube:VV科技_136
+      - 🇬🇧_英国_YouTube:VV科技_137
+      - 🇫🇷_法国_YouTube:VV科技_138
+      - 🇫🇷_法国_YouTube:VV科技_139
+      - 🇺🇸_美国_YouTube:VV科技_140
+      - 🇬🇧_英国_YouTube:VV科技_141
+      - 🇨🇦_加拿大_YouTube:VV科技_142
+      - 🇬🇧_英国_YouTube:VV科技_143
+      - 🇺🇸_美国_YouTube:VV科技_144
+      - 🇬🇧_英国_YouTube:VV科技_145
+      - 🇬🇧_英国_YouTube:VV科技_146
+      - 🇨🇦_加拿大_YouTube:VV科技_147
+      - 🇰🇷_韩国_YouTube:VV科技_148
+      - 🇬🇧_英国_YouTube:VV科技_149
+      - 🇺🇸_美国_YouTube:VV科技_150
+      - 🇺🇸_美国_YouTube:VV科技_151
+      - 🇨🇦_加拿大_YouTube:VV科技_152
+      - 🇺🇸_美国_YouTube:VV科技_153
+      - 🇰🇷_韩国_YouTube:VV科技_154
+      - 🇨🇦_加拿大_YouTube:VV科技_155
+      - 🇨🇦_加拿大_YouTube:VV科技_156
+      - 🇺🇸_美国_YouTube:VV科技_157
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - 🇸🇬_SG_新加坡_14
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_15
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_16
+      - 节点每日更新_1
+      - 优先在YouTube频道公布_2
+      - t_me/vvkj11(节点失效会在群里补上)_3
+      - (便宜账号购买)https://suo_yt/7OYFdU3_4
+      - 🇯🇵_日本_YouTube:VV科技_5
+      - 🇨🇳_中国_YouTube:VV科技_6
+      - 🇫🇷_法国_YouTube:VV科技_7
+      - 🇬🇧_英国_YouTube:VV科技_8
+      - 🇫🇷_法国_YouTube:VV科技_9
+      - 🇺🇸_美国_YouTube:VV科技_10
+      - 🇺🇸_美国_YouTube:VV科技_11
+      - 🇺🇸_美国_YouTube:VV科技_12
+      - 🇬🇧_英国_YouTube:VV科技_13
+      - 🇬🇧_英国_YouTube:VV科技_14
+      - 🇫🇷_法国_YouTube:VV科技_15
+      - 🇫🇷_法国_YouTube:VV科技_16
+      - 🇸🇬_新加坡_YouTube:VV科技_17
+      - 🇫🇷_法国_YouTube:VV科技_18
+      - 🇬🇧_英国_YouTube:VV科技_19
+      - 🇬🇧_英国_YouTube:VV科技_20
+      - 🇨🇦_加拿大_YouTube:VV科技_21
+      - 🇫🇷_法国_YouTube:VV科技_22
+      - 🇨🇳_中国_YouTube:VV科技_23
+      - 🇫🇷_法国_YouTube:VV科技_24
+      - 🇫🇷_法国_YouTube:VV科技_25
+      - 🇫🇷_法国_YouTube:VV科技_26
+      - 🇫🇷_法国_YouTube:VV科技_27
+      - 🇫🇷_法国_YouTube:VV科技_28
+      - 🇺🇸_美国_YouTube:VV科技_29
+      - 🇺🇸_美国_YouTube:VV科技_30
+      - 🇫🇷_法国_YouTube:VV科技_31
+      - 🇬🇧_英国_YouTube:VV科技_32
+      - 🇨🇦_加拿大_YouTube:VV科技_33
+      - 🇩🇪_德国_YouTube:VV科技_34
+      - 🇫🇷_法国_YouTube:VV科技_35
+      - 🇬🇧_英国_YouTube:VV科技_36
+      - 🇩🇪_德国_YouTube:VV科技_37
+      - 🇬🇧_英国_YouTube:VV科技_38
+      - 🇨🇦_加拿大_YouTube:VV科技_39
+      - 🇫🇷_法国_YouTube:VV科技_40
+      - 🇬🇧_英国_YouTube:VV科技_41
+      - 🇨🇦_加拿大_YouTube:VV科技_42
+      - 🇬🇧_英国_YouTube:VV科技_43
+      - 🇬🇧_英国_YouTube:VV科技_44
+      - 🇬🇧_英国_YouTube:VV科技_45
+      - 🇬🇧_英国_YouTube:VV科技_46
+      - 🇺🇸_美国_YouTube:VV科技_47
+      - 🇬🇧_英国_YouTube:VV科技_48
+      - 🇨🇦_加拿大_YouTube:VV科技_49
+      - 🇬🇧_英国_YouTube:VV科技_50
+      - 🇨🇦_加拿大_YouTube:VV科技_51
+      - 🇰🇷_韩国_YouTube:VV科技_52
+      - 🇬🇧_英国_YouTube:VV科技_53
+      - 🇨🇦_加拿大_YouTube:VV科技_54
+      - 🇺🇸_美国_YouTube:VV科技_55
+      - 🇬🇧_英国_YouTube:VV科技_56
+      - 🇺🇸_美国_YouTube:VV科技_57
+      - 🇬🇧_英国_YouTube:VV科技_58
+      - 🇬🇧_英国_YouTube:VV科技_59
+      - 🇨🇦_加拿大_YouTube:VV科技_60
+      - 🇺🇸_美国_YouTube:VV科技_61
+      - 🇯🇵_日本_YouTube:VV科技_62
+      - 🇨🇦_加拿大_YouTube:VV科技_63
+      - 🇰🇷_韩国_YouTube:VV科技_64
+      - 🇨🇦_加拿大_YouTube:VV科技_65
+      - 🇯🇵_日本_YouTube:VV科技_66
+      - 🇨🇦_加拿大_YouTube:VV科技_67
+      - 🇺🇸_美国_YouTube:VV科技_68
+      - 🇨🇦_加拿大_YouTube:VV科技_69
+      - 🇨🇦_加拿大_YouTube:VV科技_70
+      - 🇨🇦_加拿大_YouTube:VV科技_71
+      - 🇭🇰_香港_YouTube:VV科技_72
+      - 🇨🇦_加拿大_YouTube:VV科技_73
+      - 🇨🇦_加拿大_YouTube:VV科技_74
+      - 🇨🇦_加拿大_YouTube:VV科技_75
+      - 🇨🇦_加拿大_YouTube:VV科技_76
+      - 🇨🇳_中国_YouTube:VV科技_77
+      - 🇺🇸_美国_YouTube:VV科技_78
+      - 🇨🇦_加拿大_YouTube:VV科技_79
+      - 🇨🇦_加拿大_YouTube:VV科技_80
+      - 🇺🇸_美国_YouTube:VV科技_81
+      - 🇨🇦_加拿大_YouTube:VV科技_82
+      - 🇺🇸_美国_YouTube:VV科技_83
+      - 🇺🇸_美国_YouTube:VV科技_84
+      - 🇺🇸_美国_YouTube:VV科技_85
+      - 🇺🇸_美国_YouTube:VV科技_86
+      - 🇺🇸_美国_YouTube:VV科技_87
+      - YouTube:VV科技_88
+      - 🇺🇸_美国_YouTube:VV科技_89
+      - 🇨🇦_加拿大_YouTube:VV科技_90
+      - 🇬🇧_英国_YouTube:VV科技_91
+      - 🇯🇵_日本_YouTube:VV科技_92
+      - 🇨🇦_加拿大_YouTube:VV科技_93
+      - YouTube:VV科技_94
+      - 🇨🇦_加拿大_YouTube:VV科技_95
+      - 🇬🇧_英国_YouTube:VV科技_96
+      - 🇺🇸_美国_YouTube:VV科技_97
+      - 🇺🇸_美国_YouTube:VV科技_98
+      - 🇺🇸_美国_YouTube:VV科技_99
+      - 🇺🇸_美国_YouTube:VV科技_100
+      - 🇬🇧_英国_YouTube:VV科技_101
+      - 🇷🇴_罗马尼亚_YouTube:VV科技_102
+      - 🇬🇧_英国_YouTube:VV科技_103
+      - 🇨🇳_中国_YouTube:VV科技_104
+      - 🇹🇼_台湾_YouTube:VV科技_105
+      - YouTube:VV科技_106
+      - 🇨🇦_加拿大_YouTube:VV科技_107
+      - 🇨🇦_加拿大_YouTube:VV科技_108
+      - 🇬🇧_英国_YouTube:VV科技_109
+      - 🇬🇧_英国_YouTube:VV科技_110
+      - 🇬🇧_英国_YouTube:VV科技_111
+      - 🇫🇷_法国_YouTube:VV科技_112
+      - 🇬🇧_英国_YouTube:VV科技_113
+      - 🇨🇳_中国_YouTube:VV科技_114
+      - 🇨🇦_加拿大_YouTube:VV科技_115
+      - 🇨🇳_中国_YouTube:VV科技_116
+      - 🇭🇰_香港_YouTube:VV科技_117
+      - 🇬🇧_英国_YouTube:VV科技_118
+      - 🇩🇪_德国_YouTube:VV科技_119
+      - 🇨🇦_加拿大_YouTube:VV科技_120
+      - 🇺🇸_美国_YouTube:VV科技_121
+      - 🇨🇦_加拿大_YouTube:VV科技_122
+      - 🇫🇷_法国_YouTube:VV科技_123
+      - 🇺🇸_美国_YouTube:VV科技_124
+      - 🇨🇳_中国_YouTube:VV科技_125
+      - 🇨🇦_加拿大_YouTube:VV科技_126
+      - 🇨🇳_中国_YouTube:VV科技_127
+      - 🇨🇦_加拿大_YouTube:VV科技_128
+      - 🇸🇬_新加坡_YouTube:VV科技_129
+      - 🇨🇦_加拿大_YouTube:VV科技_130
+      - 🇨🇦_加拿大_YouTube:VV科技_131
+      - 🇬🇧_英国_YouTube:VV科技_132
+      - YouTube:VV科技_133
+      - 🇺🇸_美国_YouTube:VV科技_134
+      - 🇫🇷_法国_YouTube:VV科技_135
+      - 🇺🇸_美国_YouTube:VV科技_136
+      - 🇬🇧_英国_YouTube:VV科技_137
+      - 🇫🇷_法国_YouTube:VV科技_138
+      - 🇫🇷_法国_YouTube:VV科技_139
+      - 🇺🇸_美国_YouTube:VV科技_140
+      - 🇬🇧_英国_YouTube:VV科技_141
+      - 🇨🇦_加拿大_YouTube:VV科技_142
+      - 🇬🇧_英国_YouTube:VV科技_143
+      - 🇺🇸_美国_YouTube:VV科技_144
+      - 🇬🇧_英国_YouTube:VV科技_145
+      - 🇬🇧_英国_YouTube:VV科技_146
+      - 🇨🇦_加拿大_YouTube:VV科技_147
+      - 🇰🇷_韩国_YouTube:VV科技_148
+      - 🇬🇧_英国_YouTube:VV科技_149
+      - 🇺🇸_美国_YouTube:VV科技_150
+      - 🇺🇸_美国_YouTube:VV科技_151
+      - 🇨🇦_加拿大_YouTube:VV科技_152
+      - 🇺🇸_美国_YouTube:VV科技_153
+      - 🇰🇷_韩国_YouTube:VV科技_154
+      - 🇨🇦_加拿大_YouTube:VV科技_155
+      - 🇨🇦_加拿大_YouTube:VV科技_156
+      - 🇺🇸_美国_YouTube:VV科技_157
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - 🇸🇬_SG_新加坡_14
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_15
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_16
+      - 节点每日更新_1
+      - 优先在YouTube频道公布_2
+      - t_me/vvkj11(节点失效会在群里补上)_3
+      - (便宜账号购买)https://suo_yt/7OYFdU3_4
+      - 🇯🇵_日本_YouTube:VV科技_5
+      - 🇨🇳_中国_YouTube:VV科技_6
+      - 🇫🇷_法国_YouTube:VV科技_7
+      - 🇬🇧_英国_YouTube:VV科技_8
+      - 🇫🇷_法国_YouTube:VV科技_9
+      - 🇺🇸_美国_YouTube:VV科技_10
+      - 🇺🇸_美国_YouTube:VV科技_11
+      - 🇺🇸_美国_YouTube:VV科技_12
+      - 🇬🇧_英国_YouTube:VV科技_13
+      - 🇬🇧_英国_YouTube:VV科技_14
+      - 🇫🇷_法国_YouTube:VV科技_15
+      - 🇫🇷_法国_YouTube:VV科技_16
+      - 🇸🇬_新加坡_YouTube:VV科技_17
+      - 🇫🇷_法国_YouTube:VV科技_18
+      - 🇬🇧_英国_YouTube:VV科技_19
+      - 🇬🇧_英国_YouTube:VV科技_20
+      - 🇨🇦_加拿大_YouTube:VV科技_21
+      - 🇫🇷_法国_YouTube:VV科技_22
+      - 🇨🇳_中国_YouTube:VV科技_23
+      - 🇫🇷_法国_YouTube:VV科技_24
+      - 🇫🇷_法国_YouTube:VV科技_25
+      - 🇫🇷_法国_YouTube:VV科技_26
+      - 🇫🇷_法国_YouTube:VV科技_27
+      - 🇫🇷_法国_YouTube:VV科技_28
+      - 🇺🇸_美国_YouTube:VV科技_29
+      - 🇺🇸_美国_YouTube:VV科技_30
+      - 🇫🇷_法国_YouTube:VV科技_31
+      - 🇬🇧_英国_YouTube:VV科技_32
+      - 🇨🇦_加拿大_YouTube:VV科技_33
+      - 🇩🇪_德国_YouTube:VV科技_34
+      - 🇫🇷_法国_YouTube:VV科技_35
+      - 🇬🇧_英国_YouTube:VV科技_36
+      - 🇩🇪_德国_YouTube:VV科技_37
+      - 🇬🇧_英国_YouTube:VV科技_38
+      - 🇨🇦_加拿大_YouTube:VV科技_39
+      - 🇫🇷_法国_YouTube:VV科技_40
+      - 🇬🇧_英国_YouTube:VV科技_41
+      - 🇨🇦_加拿大_YouTube:VV科技_42
+      - 🇬🇧_英国_YouTube:VV科技_43
+      - 🇬🇧_英国_YouTube:VV科技_44
+      - 🇬🇧_英国_YouTube:VV科技_45
+      - 🇬🇧_英国_YouTube:VV科技_46
+      - 🇺🇸_美国_YouTube:VV科技_47
+      - 🇬🇧_英国_YouTube:VV科技_48
+      - 🇨🇦_加拿大_YouTube:VV科技_49
+      - 🇬🇧_英国_YouTube:VV科技_50
+      - 🇨🇦_加拿大_YouTube:VV科技_51
+      - 🇰🇷_韩国_YouTube:VV科技_52
+      - 🇬🇧_英国_YouTube:VV科技_53
+      - 🇨🇦_加拿大_YouTube:VV科技_54
+      - 🇺🇸_美国_YouTube:VV科技_55
+      - 🇬🇧_英国_YouTube:VV科技_56
+      - 🇺🇸_美国_YouTube:VV科技_57
+      - 🇬🇧_英国_YouTube:VV科技_58
+      - 🇬🇧_英国_YouTube:VV科技_59
+      - 🇨🇦_加拿大_YouTube:VV科技_60
+      - 🇺🇸_美国_YouTube:VV科技_61
+      - 🇯🇵_日本_YouTube:VV科技_62
+      - 🇨🇦_加拿大_YouTube:VV科技_63
+      - 🇰🇷_韩国_YouTube:VV科技_64
+      - 🇨🇦_加拿大_YouTube:VV科技_65
+      - 🇯🇵_日本_YouTube:VV科技_66
+      - 🇨🇦_加拿大_YouTube:VV科技_67
+      - 🇺🇸_美国_YouTube:VV科技_68
+      - 🇨🇦_加拿大_YouTube:VV科技_69
+      - 🇨🇦_加拿大_YouTube:VV科技_70
+      - 🇨🇦_加拿大_YouTube:VV科技_71
+      - 🇭🇰_香港_YouTube:VV科技_72
+      - 🇨🇦_加拿大_YouTube:VV科技_73
+      - 🇨🇦_加拿大_YouTube:VV科技_74
+      - 🇨🇦_加拿大_YouTube:VV科技_75
+      - 🇨🇦_加拿大_YouTube:VV科技_76
+      - 🇨🇳_中国_YouTube:VV科技_77
+      - 🇺🇸_美国_YouTube:VV科技_78
+      - 🇨🇦_加拿大_YouTube:VV科技_79
+      - 🇨🇦_加拿大_YouTube:VV科技_80
+      - 🇺🇸_美国_YouTube:VV科技_81
+      - 🇨🇦_加拿大_YouTube:VV科技_82
+      - 🇺🇸_美国_YouTube:VV科技_83
+      - 🇺🇸_美国_YouTube:VV科技_84
+      - 🇺🇸_美国_YouTube:VV科技_85
+      - 🇺🇸_美国_YouTube:VV科技_86
+      - 🇺🇸_美国_YouTube:VV科技_87
+      - YouTube:VV科技_88
+      - 🇺🇸_美国_YouTube:VV科技_89
+      - 🇨🇦_加拿大_YouTube:VV科技_90
+      - 🇬🇧_英国_YouTube:VV科技_91
+      - 🇯🇵_日本_YouTube:VV科技_92
+      - 🇨🇦_加拿大_YouTube:VV科技_93
+      - YouTube:VV科技_94
+      - 🇨🇦_加拿大_YouTube:VV科技_95
+      - 🇬🇧_英国_YouTube:VV科技_96
+      - 🇺🇸_美国_YouTube:VV科技_97
+      - 🇺🇸_美国_YouTube:VV科技_98
+      - 🇺🇸_美国_YouTube:VV科技_99
+      - 🇺🇸_美国_YouTube:VV科技_100
+      - 🇬🇧_英国_YouTube:VV科技_101
+      - 🇷🇴_罗马尼亚_YouTube:VV科技_102
+      - 🇬🇧_英国_YouTube:VV科技_103
+      - 🇨🇳_中国_YouTube:VV科技_104
+      - 🇹🇼_台湾_YouTube:VV科技_105
+      - YouTube:VV科技_106
+      - 🇨🇦_加拿大_YouTube:VV科技_107
+      - 🇨🇦_加拿大_YouTube:VV科技_108
+      - 🇬🇧_英国_YouTube:VV科技_109
+      - 🇬🇧_英国_YouTube:VV科技_110
+      - 🇬🇧_英国_YouTube:VV科技_111
+      - 🇫🇷_法国_YouTube:VV科技_112
+      - 🇬🇧_英国_YouTube:VV科技_113
+      - 🇨🇳_中国_YouTube:VV科技_114
+      - 🇨🇦_加拿大_YouTube:VV科技_115
+      - 🇨🇳_中国_YouTube:VV科技_116
+      - 🇭🇰_香港_YouTube:VV科技_117
+      - 🇬🇧_英国_YouTube:VV科技_118
+      - 🇩🇪_德国_YouTube:VV科技_119
+      - 🇨🇦_加拿大_YouTube:VV科技_120
+      - 🇺🇸_美国_YouTube:VV科技_121
+      - 🇨🇦_加拿大_YouTube:VV科技_122
+      - 🇫🇷_法国_YouTube:VV科技_123
+      - 🇺🇸_美国_YouTube:VV科技_124
+      - 🇨🇳_中国_YouTube:VV科技_125
+      - 🇨🇦_加拿大_YouTube:VV科技_126
+      - 🇨🇳_中国_YouTube:VV科技_127
+      - 🇨🇦_加拿大_YouTube:VV科技_128
+      - 🇸🇬_新加坡_YouTube:VV科技_129
+      - 🇨🇦_加拿大_YouTube:VV科技_130
+      - 🇨🇦_加拿大_YouTube:VV科技_131
+      - 🇬🇧_英国_YouTube:VV科技_132
+      - YouTube:VV科技_133
+      - 🇺🇸_美国_YouTube:VV科技_134
+      - 🇫🇷_法国_YouTube:VV科技_135
+      - 🇺🇸_美国_YouTube:VV科技_136
+      - 🇬🇧_英国_YouTube:VV科技_137
+      - 🇫🇷_法国_YouTube:VV科技_138
+      - 🇫🇷_法国_YouTube:VV科技_139
+      - 🇺🇸_美国_YouTube:VV科技_140
+      - 🇬🇧_英国_YouTube:VV科技_141
+      - 🇨🇦_加拿大_YouTube:VV科技_142
+      - 🇬🇧_英国_YouTube:VV科技_143
+      - 🇺🇸_美国_YouTube:VV科技_144
+      - 🇬🇧_英国_YouTube:VV科技_145
+      - 🇬🇧_英国_YouTube:VV科技_146
+      - 🇨🇦_加拿大_YouTube:VV科技_147
+      - 🇰🇷_韩国_YouTube:VV科技_148
+      - 🇬🇧_英国_YouTube:VV科技_149
+      - 🇺🇸_美国_YouTube:VV科技_150
+      - 🇺🇸_美国_YouTube:VV科技_151
+      - 🇨🇦_加拿大_YouTube:VV科技_152
+      - 🇺🇸_美国_YouTube:VV科技_153
+      - 🇰🇷_韩国_YouTube:VV科技_154
+      - 🇨🇦_加拿大_YouTube:VV科技_155
+      - 🇨🇦_加拿大_YouTube:VV科技_156
+      - 🇺🇸_美国_YouTube:VV科技_157
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - 🇸🇬_SG_新加坡_14
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_15
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_16
+      - 节点每日更新_1
+      - 优先在YouTube频道公布_2
+      - t_me/vvkj11(节点失效会在群里补上)_3
+      - (便宜账号购买)https://suo_yt/7OYFdU3_4
+      - 🇯🇵_日本_YouTube:VV科技_5
+      - 🇨🇳_中国_YouTube:VV科技_6
+      - 🇫🇷_法国_YouTube:VV科技_7
+      - 🇬🇧_英国_YouTube:VV科技_8
+      - 🇫🇷_法国_YouTube:VV科技_9
+      - 🇺🇸_美国_YouTube:VV科技_10
+      - 🇺🇸_美国_YouTube:VV科技_11
+      - 🇺🇸_美国_YouTube:VV科技_12
+      - 🇬🇧_英国_YouTube:VV科技_13
+      - 🇬🇧_英国_YouTube:VV科技_14
+      - 🇫🇷_法国_YouTube:VV科技_15
+      - 🇫🇷_法国_YouTube:VV科技_16
+      - 🇸🇬_新加坡_YouTube:VV科技_17
+      - 🇫🇷_法国_YouTube:VV科技_18
+      - 🇬🇧_英国_YouTube:VV科技_19
+      - 🇬🇧_英国_YouTube:VV科技_20
+      - 🇨🇦_加拿大_YouTube:VV科技_21
+      - 🇫🇷_法国_YouTube:VV科技_22
+      - 🇨🇳_中国_YouTube:VV科技_23
+      - 🇫🇷_法国_YouTube:VV科技_24
+      - 🇫🇷_法国_YouTube:VV科技_25
+      - 🇫🇷_法国_YouTube:VV科技_26
+      - 🇫🇷_法国_YouTube:VV科技_27
+      - 🇫🇷_法国_YouTube:VV科技_28
+      - 🇺🇸_美国_YouTube:VV科技_29
+      - 🇺🇸_美国_YouTube:VV科技_30
+      - 🇫🇷_法国_YouTube:VV科技_31
+      - 🇬🇧_英国_YouTube:VV科技_32
+      - 🇨🇦_加拿大_YouTube:VV科技_33
+      - 🇩🇪_德国_YouTube:VV科技_34
+      - 🇫🇷_法国_YouTube:VV科技_35
+      - 🇬🇧_英国_YouTube:VV科技_36
+      - 🇩🇪_德国_YouTube:VV科技_37
+      - 🇬🇧_英国_YouTube:VV科技_38
+      - 🇨🇦_加拿大_YouTube:VV科技_39
+      - 🇫🇷_法国_YouTube:VV科技_40
+      - 🇬🇧_英国_YouTube:VV科技_41
+      - 🇨🇦_加拿大_YouTube:VV科技_42
+      - 🇬🇧_英国_YouTube:VV科技_43
+      - 🇬🇧_英国_YouTube:VV科技_44
+      - 🇬🇧_英国_YouTube:VV科技_45
+      - 🇬🇧_英国_YouTube:VV科技_46
+      - 🇺🇸_美国_YouTube:VV科技_47
+      - 🇬🇧_英国_YouTube:VV科技_48
+      - 🇨🇦_加拿大_YouTube:VV科技_49
+      - 🇬🇧_英国_YouTube:VV科技_50
+      - 🇨🇦_加拿大_YouTube:VV科技_51
+      - 🇰🇷_韩国_YouTube:VV科技_52
+      - 🇬🇧_英国_YouTube:VV科技_53
+      - 🇨🇦_加拿大_YouTube:VV科技_54
+      - 🇺🇸_美国_YouTube:VV科技_55
+      - 🇬🇧_英国_YouTube:VV科技_56
+      - 🇺🇸_美国_YouTube:VV科技_57
+      - 🇬🇧_英国_YouTube:VV科技_58
+      - 🇬🇧_英国_YouTube:VV科技_59
+      - 🇨🇦_加拿大_YouTube:VV科技_60
+      - 🇺🇸_美国_YouTube:VV科技_61
+      - 🇯🇵_日本_YouTube:VV科技_62
+      - 🇨🇦_加拿大_YouTube:VV科技_63
+      - 🇰🇷_韩国_YouTube:VV科技_64
+      - 🇨🇦_加拿大_YouTube:VV科技_65
+      - 🇯🇵_日本_YouTube:VV科技_66
+      - 🇨🇦_加拿大_YouTube:VV科技_67
+      - 🇺🇸_美国_YouTube:VV科技_68
+      - 🇨🇦_加拿大_YouTube:VV科技_69
+      - 🇨🇦_加拿大_YouTube:VV科技_70
+      - 🇨🇦_加拿大_YouTube:VV科技_71
+      - 🇭🇰_香港_YouTube:VV科技_72
+      - 🇨🇦_加拿大_YouTube:VV科技_73
+      - 🇨🇦_加拿大_YouTube:VV科技_74
+      - 🇨🇦_加拿大_YouTube:VV科技_75
+      - 🇨🇦_加拿大_YouTube:VV科技_76
+      - 🇨🇳_中国_YouTube:VV科技_77
+      - 🇺🇸_美国_YouTube:VV科技_78
+      - 🇨🇦_加拿大_YouTube:VV科技_79
+      - 🇨🇦_加拿大_YouTube:VV科技_80
+      - 🇺🇸_美国_YouTube:VV科技_81
+      - 🇨🇦_加拿大_YouTube:VV科技_82
+      - 🇺🇸_美国_YouTube:VV科技_83
+      - 🇺🇸_美国_YouTube:VV科技_84
+      - 🇺🇸_美国_YouTube:VV科技_85
+      - 🇺🇸_美国_YouTube:VV科技_86
+      - 🇺🇸_美国_YouTube:VV科技_87
+      - YouTube:VV科技_88
+      - 🇺🇸_美国_YouTube:VV科技_89
+      - 🇨🇦_加拿大_YouTube:VV科技_90
+      - 🇬🇧_英国_YouTube:VV科技_91
+      - 🇯🇵_日本_YouTube:VV科技_92
+      - 🇨🇦_加拿大_YouTube:VV科技_93
+      - YouTube:VV科技_94
+      - 🇨🇦_加拿大_YouTube:VV科技_95
+      - 🇬🇧_英国_YouTube:VV科技_96
+      - 🇺🇸_美国_YouTube:VV科技_97
+      - 🇺🇸_美国_YouTube:VV科技_98
+      - 🇺🇸_美国_YouTube:VV科技_99
+      - 🇺🇸_美国_YouTube:VV科技_100
+      - 🇬🇧_英国_YouTube:VV科技_101
+      - 🇷🇴_罗马尼亚_YouTube:VV科技_102
+      - 🇬🇧_英国_YouTube:VV科技_103
+      - 🇨🇳_中国_YouTube:VV科技_104
+      - 🇹🇼_台湾_YouTube:VV科技_105
+      - YouTube:VV科技_106
+      - 🇨🇦_加拿大_YouTube:VV科技_107
+      - 🇨🇦_加拿大_YouTube:VV科技_108
+      - 🇬🇧_英国_YouTube:VV科技_109
+      - 🇬🇧_英国_YouTube:VV科技_110
+      - 🇬🇧_英国_YouTube:VV科技_111
+      - 🇫🇷_法国_YouTube:VV科技_112
+      - 🇬🇧_英国_YouTube:VV科技_113
+      - 🇨🇳_中国_YouTube:VV科技_114
+      - 🇨🇦_加拿大_YouTube:VV科技_115
+      - 🇨🇳_中国_YouTube:VV科技_116
+      - 🇭🇰_香港_YouTube:VV科技_117
+      - 🇬🇧_英国_YouTube:VV科技_118
+      - 🇩🇪_德国_YouTube:VV科技_119
+      - 🇨🇦_加拿大_YouTube:VV科技_120
+      - 🇺🇸_美国_YouTube:VV科技_121
+      - 🇨🇦_加拿大_YouTube:VV科技_122
+      - 🇫🇷_法国_YouTube:VV科技_123
+      - 🇺🇸_美国_YouTube:VV科技_124
+      - 🇨🇳_中国_YouTube:VV科技_125
+      - 🇨🇦_加拿大_YouTube:VV科技_126
+      - 🇨🇳_中国_YouTube:VV科技_127
+      - 🇨🇦_加拿大_YouTube:VV科技_128
+      - 🇸🇬_新加坡_YouTube:VV科技_129
+      - 🇨🇦_加拿大_YouTube:VV科技_130
+      - 🇨🇦_加拿大_YouTube:VV科技_131
+      - 🇬🇧_英国_YouTube:VV科技_132
+      - YouTube:VV科技_133
+      - 🇺🇸_美国_YouTube:VV科技_134
+      - 🇫🇷_法国_YouTube:VV科技_135
+      - 🇺🇸_美国_YouTube:VV科技_136
+      - 🇬🇧_英国_YouTube:VV科技_137
+      - 🇫🇷_法国_YouTube:VV科技_138
+      - 🇫🇷_法国_YouTube:VV科技_139
+      - 🇺🇸_美国_YouTube:VV科技_140
+      - 🇬🇧_英国_YouTube:VV科技_141
+      - 🇨🇦_加拿大_YouTube:VV科技_142
+      - 🇬🇧_英国_YouTube:VV科技_143
+      - 🇺🇸_美国_YouTube:VV科技_144
+      - 🇬🇧_英国_YouTube:VV科技_145
+      - 🇬🇧_英国_YouTube:VV科技_146
+      - 🇨🇦_加拿大_YouTube:VV科技_147
+      - 🇰🇷_韩国_YouTube:VV科技_148
+      - 🇬🇧_英国_YouTube:VV科技_149
+      - 🇺🇸_美国_YouTube:VV科技_150
+      - 🇺🇸_美国_YouTube:VV科技_151
+      - 🇨🇦_加拿大_YouTube:VV科技_152
+      - 🇺🇸_美国_YouTube:VV科技_153
+      - 🇰🇷_韩国_YouTube:VV科技_154
+      - 🇨🇦_加拿大_YouTube:VV科技_155
+      - 🇨🇦_加拿大_YouTube:VV科技_156
+      - 🇺🇸_美国_YouTube:VV科技_157
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,22 +1159,163 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - 🇸🇬_SG_新加坡_14
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_15
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_16
+      - 节点每日更新_1
+      - 优先在YouTube频道公布_2
+      - t_me/vvkj11(节点失效会在群里补上)_3
+      - (便宜账号购买)https://suo_yt/7OYFdU3_4
+      - 🇯🇵_日本_YouTube:VV科技_5
+      - 🇨🇳_中国_YouTube:VV科技_6
+      - 🇫🇷_法国_YouTube:VV科技_7
+      - 🇬🇧_英国_YouTube:VV科技_8
+      - 🇫🇷_法国_YouTube:VV科技_9
+      - 🇺🇸_美国_YouTube:VV科技_10
+      - 🇺🇸_美国_YouTube:VV科技_11
+      - 🇺🇸_美国_YouTube:VV科技_12
+      - 🇬🇧_英国_YouTube:VV科技_13
+      - 🇬🇧_英国_YouTube:VV科技_14
+      - 🇫🇷_法国_YouTube:VV科技_15
+      - 🇫🇷_法国_YouTube:VV科技_16
+      - 🇸🇬_新加坡_YouTube:VV科技_17
+      - 🇫🇷_法国_YouTube:VV科技_18
+      - 🇬🇧_英国_YouTube:VV科技_19
+      - 🇬🇧_英国_YouTube:VV科技_20
+      - 🇨🇦_加拿大_YouTube:VV科技_21
+      - 🇫🇷_法国_YouTube:VV科技_22
+      - 🇨🇳_中国_YouTube:VV科技_23
+      - 🇫🇷_法国_YouTube:VV科技_24
+      - 🇫🇷_法国_YouTube:VV科技_25
+      - 🇫🇷_法国_YouTube:VV科技_26
+      - 🇫🇷_法国_YouTube:VV科技_27
+      - 🇫🇷_法国_YouTube:VV科技_28
+      - 🇺🇸_美国_YouTube:VV科技_29
+      - 🇺🇸_美国_YouTube:VV科技_30
+      - 🇫🇷_法国_YouTube:VV科技_31
+      - 🇬🇧_英国_YouTube:VV科技_32
+      - 🇨🇦_加拿大_YouTube:VV科技_33
+      - 🇩🇪_德国_YouTube:VV科技_34
+      - 🇫🇷_法国_YouTube:VV科技_35
+      - 🇬🇧_英国_YouTube:VV科技_36
+      - 🇩🇪_德国_YouTube:VV科技_37
+      - 🇬🇧_英国_YouTube:VV科技_38
+      - 🇨🇦_加拿大_YouTube:VV科技_39
+      - 🇫🇷_法国_YouTube:VV科技_40
+      - 🇬🇧_英国_YouTube:VV科技_41
+      - 🇨🇦_加拿大_YouTube:VV科技_42
+      - 🇬🇧_英国_YouTube:VV科技_43
+      - 🇬🇧_英国_YouTube:VV科技_44
+      - 🇬🇧_英国_YouTube:VV科技_45
+      - 🇬🇧_英国_YouTube:VV科技_46
+      - 🇺🇸_美国_YouTube:VV科技_47
+      - 🇬🇧_英国_YouTube:VV科技_48
+      - 🇨🇦_加拿大_YouTube:VV科技_49
+      - 🇬🇧_英国_YouTube:VV科技_50
+      - 🇨🇦_加拿大_YouTube:VV科技_51
+      - 🇰🇷_韩国_YouTube:VV科技_52
+      - 🇬🇧_英国_YouTube:VV科技_53
+      - 🇨🇦_加拿大_YouTube:VV科技_54
+      - 🇺🇸_美国_YouTube:VV科技_55
+      - 🇬🇧_英国_YouTube:VV科技_56
+      - 🇺🇸_美国_YouTube:VV科技_57
+      - 🇬🇧_英国_YouTube:VV科技_58
+      - 🇬🇧_英国_YouTube:VV科技_59
+      - 🇨🇦_加拿大_YouTube:VV科技_60
+      - 🇺🇸_美国_YouTube:VV科技_61
+      - 🇯🇵_日本_YouTube:VV科技_62
+      - 🇨🇦_加拿大_YouTube:VV科技_63
+      - 🇰🇷_韩国_YouTube:VV科技_64
+      - 🇨🇦_加拿大_YouTube:VV科技_65
+      - 🇯🇵_日本_YouTube:VV科技_66
+      - 🇨🇦_加拿大_YouTube:VV科技_67
+      - 🇺🇸_美国_YouTube:VV科技_68
+      - 🇨🇦_加拿大_YouTube:VV科技_69
+      - 🇨🇦_加拿大_YouTube:VV科技_70
+      - 🇨🇦_加拿大_YouTube:VV科技_71
+      - 🇭🇰_香港_YouTube:VV科技_72
+      - 🇨🇦_加拿大_YouTube:VV科技_73
+      - 🇨🇦_加拿大_YouTube:VV科技_74
+      - 🇨🇦_加拿大_YouTube:VV科技_75
+      - 🇨🇦_加拿大_YouTube:VV科技_76
+      - 🇨🇳_中国_YouTube:VV科技_77
+      - 🇺🇸_美国_YouTube:VV科技_78
+      - 🇨🇦_加拿大_YouTube:VV科技_79
+      - 🇨🇦_加拿大_YouTube:VV科技_80
+      - 🇺🇸_美国_YouTube:VV科技_81
+      - 🇨🇦_加拿大_YouTube:VV科技_82
+      - 🇺🇸_美国_YouTube:VV科技_83
+      - 🇺🇸_美国_YouTube:VV科技_84
+      - 🇺🇸_美国_YouTube:VV科技_85
+      - 🇺🇸_美国_YouTube:VV科技_86
+      - 🇺🇸_美国_YouTube:VV科技_87
+      - YouTube:VV科技_88
+      - 🇺🇸_美国_YouTube:VV科技_89
+      - 🇨🇦_加拿大_YouTube:VV科技_90
+      - 🇬🇧_英国_YouTube:VV科技_91
+      - 🇯🇵_日本_YouTube:VV科技_92
+      - 🇨🇦_加拿大_YouTube:VV科技_93
+      - YouTube:VV科技_94
+      - 🇨🇦_加拿大_YouTube:VV科技_95
+      - 🇬🇧_英国_YouTube:VV科技_96
+      - 🇺🇸_美国_YouTube:VV科技_97
+      - 🇺🇸_美国_YouTube:VV科技_98
+      - 🇺🇸_美国_YouTube:VV科技_99
+      - 🇺🇸_美国_YouTube:VV科技_100
+      - 🇬🇧_英国_YouTube:VV科技_101
+      - 🇷🇴_罗马尼亚_YouTube:VV科技_102
+      - 🇬🇧_英国_YouTube:VV科技_103
+      - 🇨🇳_中国_YouTube:VV科技_104
+      - 🇹🇼_台湾_YouTube:VV科技_105
+      - YouTube:VV科技_106
+      - 🇨🇦_加拿大_YouTube:VV科技_107
+      - 🇨🇦_加拿大_YouTube:VV科技_108
+      - 🇬🇧_英国_YouTube:VV科技_109
+      - 🇬🇧_英国_YouTube:VV科技_110
+      - 🇬🇧_英国_YouTube:VV科技_111
+      - 🇫🇷_法国_YouTube:VV科技_112
+      - 🇬🇧_英国_YouTube:VV科技_113
+      - 🇨🇳_中国_YouTube:VV科技_114
+      - 🇨🇦_加拿大_YouTube:VV科技_115
+      - 🇨🇳_中国_YouTube:VV科技_116
+      - 🇭🇰_香港_YouTube:VV科技_117
+      - 🇬🇧_英国_YouTube:VV科技_118
+      - 🇩🇪_德国_YouTube:VV科技_119
+      - 🇨🇦_加拿大_YouTube:VV科技_120
+      - 🇺🇸_美国_YouTube:VV科技_121
+      - 🇨🇦_加拿大_YouTube:VV科技_122
+      - 🇫🇷_法国_YouTube:VV科技_123
+      - 🇺🇸_美国_YouTube:VV科技_124
+      - 🇨🇳_中国_YouTube:VV科技_125
+      - 🇨🇦_加拿大_YouTube:VV科技_126
+      - 🇨🇳_中国_YouTube:VV科技_127
+      - 🇨🇦_加拿大_YouTube:VV科技_128
+      - 🇸🇬_新加坡_YouTube:VV科技_129
+      - 🇨🇦_加拿大_YouTube:VV科技_130
+      - 🇨🇦_加拿大_YouTube:VV科技_131
+      - 🇬🇧_英国_YouTube:VV科技_132
+      - YouTube:VV科技_133
+      - 🇺🇸_美国_YouTube:VV科技_134
+      - 🇫🇷_法国_YouTube:VV科技_135
+      - 🇺🇸_美国_YouTube:VV科技_136
+      - 🇬🇧_英国_YouTube:VV科技_137
+      - 🇫🇷_法国_YouTube:VV科技_138
+      - 🇫🇷_法国_YouTube:VV科技_139
+      - 🇺🇸_美国_YouTube:VV科技_140
+      - 🇬🇧_英国_YouTube:VV科技_141
+      - 🇨🇦_加拿大_YouTube:VV科技_142
+      - 🇬🇧_英国_YouTube:VV科技_143
+      - 🇺🇸_美国_YouTube:VV科技_144
+      - 🇬🇧_英国_YouTube:VV科技_145
+      - 🇬🇧_英国_YouTube:VV科技_146
+      - 🇨🇦_加拿大_YouTube:VV科技_147
+      - 🇰🇷_韩国_YouTube:VV科技_148
+      - 🇬🇧_英国_YouTube:VV科技_149
+      - 🇺🇸_美国_YouTube:VV科技_150
+      - 🇺🇸_美国_YouTube:VV科技_151
+      - 🇨🇦_加拿大_YouTube:VV科技_152
+      - 🇺🇸_美国_YouTube:VV科技_153
+      - 🇰🇷_韩国_YouTube:VV科技_154
+      - 🇨🇦_加拿大_YouTube:VV科技_155
+      - 🇨🇦_加拿大_YouTube:VV科技_156
+      - 🇺🇸_美国_YouTube:VV科技_157
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
