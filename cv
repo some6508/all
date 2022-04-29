@@ -591,7 +591,20 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
-  - {name: _CN中国->🇵🇭_PH菲律宾, server: 120.233.10.71, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: _CN_中国->🇲🇾_MY_马来西亚, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
+  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
+  - {name: sh.shcuddns.xyz:11429, server: sh.shcuddns.xyz, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: sh.shcuddns.xyz:11423, server: sh.shcuddns.xyz, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: gzydddns.xyz:22848, server: gzydddns.xyz, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: sh.shcuddns.xyz:11427, server: sh.shcuddns.xyz, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: gzydddns.xyz:11005, server: gzydddns.xyz, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: gzydddns.xyz:11851, server: gzydddns.xyz, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: gzydddns.xyz:11842, server: gzydddns.xyz, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: gzydddns.xyz:11807, server: gzydddns.xyz, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: sh.shcuddns.xyz:11420, server: sh.shcuddns.xyz, port: 11420, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国 2, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.104.180]}}, udp: true}
+  - {name: _US_美国, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, skip-cert-verify: true, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1606,7 +1619,20 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _CN中国->🇵🇭_PH菲律宾
+      - _CN_中国->🇲🇾_MY_马来西亚
+      - _CN_中国
+      - _HK_香港
+      - sh.shcuddns.xyz:11429
+      - sh.shcuddns.xyz:11423
+      - gzydddns.xyz:22848
+      - sh.shcuddns.xyz:11427
+      - gzydddns.xyz:11005
+      - gzydddns.xyz:11851
+      - gzydddns.xyz:11842
+      - gzydddns.xyz:11807
+      - sh.shcuddns.xyz:11420
+      - _CN_中国 2
+      - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2621,7 +2647,20 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _CN中国->🇵🇭_PH菲律宾
+      - _CN_中国->🇲🇾_MY_马来西亚
+      - _CN_中国
+      - _HK_香港
+      - sh.shcuddns.xyz:11429
+      - sh.shcuddns.xyz:11423
+      - gzydddns.xyz:22848
+      - sh.shcuddns.xyz:11427
+      - gzydddns.xyz:11005
+      - gzydddns.xyz:11851
+      - gzydddns.xyz:11842
+      - gzydddns.xyz:11807
+      - sh.shcuddns.xyz:11420
+      - _CN_中国 2
+      - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
