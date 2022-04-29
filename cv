@@ -5,101 +5,84 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _IN_印度_1, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_2, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_3, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇲🇾_MY_马来西亚_4, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_5, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_6, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_7, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_8, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_9, server: 183.240.60.133, port: 48552, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_10, server: gzydddns.xyz, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 149.248.1.76, port: 27266, type: vmess, uuid: 1a79bde9-ac7a-4cd9-899c-6dbbe35e16dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /QEc5C9RG/, headers: {Host: 149.248.1.76}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 192.18.138.167, port: 25250, type: vmess, uuid: 0a4164a6-9485-4ba5-f233-a936f8a1d023, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 192.18.142.28, port: 55051, type: vmess, uuid: 3f7c0994-0b8c-49b7-e4d1-5af10d554c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: hkaz4.xmrth-node.xyz, port: 13302, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: sgp002.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: hkaz4.xmrth-node.xyz, port: 13302, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz4.xmrth-node.xyz}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 8.ezydfdd.com}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 11, server: us001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us001.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us002.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 13, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us003.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 14, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 15, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 16, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 17, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 18, server: us-03.pickaxe.sh, port: 443, type: trojan, password: Rq8MSfJZYw9pcmB3, sni: us-03.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 19, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk3.fdns.cloudlink123.com}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 20, server: 104.16.147.69, port: 443, type: vmess, uuid: c14d7a06-9e86-4dcb-8c0d-ade3d3361bad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yzjd03.7595333.workers.dev}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 21, server: 104.16.147.69, port: 443, type: vmess, uuid: dce29820-0a9b-416a-8d52-f671fff7a226, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yzjd02.7595333.workers.dev}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 22, server: mm002.zhuan666.top, port: 11507, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 23, server: mm001.zhuan666.top, port: 11506, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 24, server: rr015.zhuan666.top, port: 11215, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 25, server: rr012.zhuan666.top, port: 11212, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 26, server: rr016.zhuan666.top, port: 11216, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 27, server: mm003.zhuan666.top, port: 11508, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 28, server: rr014.zhuan666.top, port: 11214, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 29, server: rr005.zhuan666.top, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 30, server: mm004.zhuan666.top, port: 11509, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 31, server: rr017.zhuan666.top, port: 11217, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 32, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 33, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 34, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, sni: us-01.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 35, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, sni: shop-three.defun.us, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 36, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, sni: shop-one.defun.us, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 37, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 38, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk3.fdns.cloudlink123.com}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 39, server: 152.67.221.109, port: 15479, type: vmess, uuid: 25a086a2-31a6-45b8-afe5-147726de370c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 881118.ml, port: 25222, type: trojan, password: Lpz8k0ydSa, sni: 881118.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: vps.qweasdzxc.ml, port: 443, type: vmess, uuid: 4850777c-1d10-4651-9936-27a2a500b9a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.qweasdzxc.ml}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: deu001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: deu001.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: rr013.zhuan666.top, port: 11213, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君) 3, server: 146.56.102.175, port: 54312, type: vmess, uuid: bd2990ce-dd8e-4b62-c75d-5c793906db7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君) 4, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君) 5, server: jp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: jp001.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾(欢迎订阅Youtube破解资源君), server: c27821f.rd.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/c27821f.fm.icloud.com:16708, headers: {Host: c27821f.rd.cloudflare.systems}}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ebb8920a-63c4-368f-b3fd-3794f4fa1c98, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 4, server: 119.147.20.236, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: _CN_中国->🇲🇾_MY_马来西亚_1, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_2, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _HK_香港_3, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_4, server: sh.shcuddns.xyz, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_5, server: sh.shcuddns.xyz, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_6, server: gzydddns.xyz, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_7, server: sh.shcuddns.xyz, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国_8, server: gzydddns.xyz, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_9, server: gzydddns.xyz, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_10, server: gzydddns.xyz, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_11, server: gzydddns.xyz, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_12, server: sh.shcuddns.xyz, port: 11420, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
+  - {name: _CN_中国_13, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _US_美国_14, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 4, server: 119.147.20.236, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 5, server: 183.240.181.57, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 183.240.181.57}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 6, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 7, server: centralchina1.cloudlink123.com, port: 37003, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 8, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 9, server: 119.147.20.236, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 10, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 11, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 12, server: 183.240.181.57, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 13, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 14, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 15, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Asq7j5Mb/, headers: {Host: 85.209.159.107}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 16, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 17, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 18, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君) 4, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君), server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: gz-1.jiasugou.one, port: 15000, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: gz-1.jiasugou.one, port: 15000, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 4, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 5, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ebb8920a-63c4-368f-b3fd-3794f4fa1c98, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 6, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: dd005.zhuan666.top, port: 11605, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 4, server: rr006.zhuan666.top, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 5, server: dd004.zhuan666.top, port: 11604, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 6, server: rr003.zhuan666.top, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 7, server: rr002.zhuan666.top, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 8, server: dd002.zhuan666.top, port: 11602, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 9, server: rr001.zhuan666.top, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 10, server: rr010.zhuan666.top, port: 11210, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君) 11, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan2.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 183.240.181.57, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 4, server: 119.147.20.236, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 5, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 6, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Asq7j5Mb/, headers: {Host: 85.209.159.107}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 7, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 8, server: centralchina1.cloudlink123.com, port: 37003, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 9, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 101.230.149.29}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 10, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: 英国(欢迎订阅Youtube破解资源君), server: uk001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: uk001.laxiyun.com, skip-cert-verify: true, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 6, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ebb8920a-63c4-368f-b3fd-3794f4fa1c98, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 台湾(欢迎订阅Youtube破解资源君), server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 台湾(欢迎订阅Youtube破解资源君) 2, server: taiwjing.kuli888.xyz, port: 520, type: trojan, password: 5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101, skip-cert-verify: true, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君), server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 3, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 120.240.48.19}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: vps.qweasdzxc.ml, port: 443, type: vmess, uuid: 4850777c-1d10-4651-9936-27a2a500b9a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.qweasdzxc.ml}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: zones.defun.us, port: 443, type: trojan, password: lpmMwDKeBbKKPq8K, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: 04d83e9e-d6ff-49ca-9c32-082b9b9c9c54, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: shop-two.defun.us, port: 8080, type: trojan, password: OzKXGbFNHwAurRQ0, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 11, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: hkaz4.xmrth-node.xyz, port: 13302, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 13, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 8.ezydfdd.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 14, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 15, server: 149.248.1.76, port: 27266, type: vmess, uuid: 1a79bde9-ac7a-4cd9-899c-6dbbe35e16dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /QEc5C9RG/, headers: {Host: 149.248.1.76}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 16, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 17, server: hkaz4.xmrth-node.xyz, port: 13302, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz4.xmrth-node.xyz}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 18, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 19, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: 香港（YouTube资源分享者）, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者）, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 2, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -907,142 +890,260 @@ proxies:
   - {name: github.com/freefq - 美国3COM公司企业网 41, server: jgwxn1.gaox.ml, port: 443, type: trojan, password: 0f715619-0037-4358-a7c6-958106bc6b49, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 新加坡DigitalOcean数据中心 42, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
   - {name: github.com/freefq - 湖北省宜昌市联通 43, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: HK_5500 @WangCai_1, server: xltc.ethash.as4812.com, port: 5500, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: HK_5513 @WangCai_1, server: xltc.ethash.as4812.com, port: 5513, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: HK_5507 @WangCai_1, server: xltc.ethash.as4812.com, port: 5507, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: HK_5516 @WangCai_1, server: xltc.ethash.as4812.com, port: 5516, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: HK_5519 @WangCai_1, server: xltc.ethash.as4812.com, port: 5519, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: HK_5501 @WangCai_1, server: xltc.ethash.as4812.com, port: 5501, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: HK_5510 @WangCai_1, server: xltc.ethash.as4812.com, port: 5510, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: HK_5504 @WangCai_1, server: xltc.ethash.as4812.com, port: 5504, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: TW_5567 @WangCai_1, server: xltc.ethash.as4812.com, port: 5567, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: SG_6605 @WangCai_1, server: xltc.ethash.as4812.com, port: 6605, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: TW_5561 @WangCai_1, server: xltc.ethash.as4812.com, port: 5561, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: SG_6614 @WangCai_1, server: xltc.ethash.as4812.com, port: 6614, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: JP_7710 @WangCai_1, server: xltc.ethash.as4812.com, port: 7710, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: JP_7713 @WangCai_1, server: xltc.ethash.as4812.com, port: 7713, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: VN_8833 @WangCai_1, server: xltc.ethash.as4812.com, port: 8833, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: SG_6608 @WangCai_1, server: xltc.ethash.as4812.com, port: 6608, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: SG_6611 @WangCai_1, server: xltc.ethash.as4812.com, port: 6611, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: SG_6618 @WangCai_1, server: xltc.ethash.as4812.com, port: 6618, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: JP_7707 @WangCai_1, server: xltc.ethash.as4812.com, port: 7707, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: JP_7700 @WangCai_1, server: xltc.ethash.as4812.com, port: 7700, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: JP_7704 @WangCai_1, server: xltc.ethash.as4812.com, port: 7704, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: SG_6600 @WangCai_1, server: xltc.ethash.as4812.com, port: 6600, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: TW_5564 @WangCai_1, server: xltc.ethash.as4812.com, port: 5564, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: ID_8829 @WangCai_1, server: xltc.ethash.as4812.com, port: 8829, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: TW_5555 @WangCai_1, server: xltc.ethash.as4812.com, port: 5555, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: IN_8870 @WangCai_1, server: xltc.ethash.as4812.com, port: 8870, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: US_8800 @WangCai_1, server: xltc.ethash.as4812.com, port: 8800, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: FR_8863 @WangCai_1, server: xltc.ethash.as4812.com, port: 8863, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: GB_8860 @WangCai_1, server: xltc.ethash.as4812.com, port: 8860, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: US_8818 @WangCai_1, server: xltc.ethash.as4812.com, port: 8818, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: US_8804 @WangCai_1, server: xltc.ethash.as4812.com, port: 8804, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: US_8807 @WangCai_1, server: xltc.ethash.as4812.com, port: 8807, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: MX_8866 @WangCai_1, server: xltc.ethash.as4812.com, port: 8866, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: US_8810 @WangCai_1, server: xltc.ethash.as4812.com, port: 8810, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: US_8814 @WangCai_1, server: xltc.ethash.as4812.com, port: 8814, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: DE_8855 @WangCai_1, server: xltc.ethash.as4812.com, port: 8855, type: ss, cipher: aes-256-gcm, password: a347951c-211e-4a8c-bb9c-7f7ed5802239, udp: true}
-  - {name: 香港 | E | 流媒體解鎖 |, server: CMZHUYUN002.baiyun.pw, port: 5023, type: ss, cipher: aes-256-gcm, password: 65d9c835-c06e-4baa-99fc-eb6f7e22f3fc, udp: true}
-  - {name: 香港 | C | HKT | 動態 | 原生 | X2, server: CMZHUYUN002.baiyun.pw, port: 5021, type: ss, cipher: aes-256-gcm, password: 65d9c835-c06e-4baa-99fc-eb6f7e22f3fc, udp: true}
-  - {name: 香港 | D | 流媒體解鎖 |, server: CMZHUYUN002.baiyun.pw, port: 5022, type: ss, cipher: aes-256-gcm, password: 65d9c835-c06e-4baa-99fc-eb6f7e22f3fc, udp: true}
-  - {name: 香港 | G |, server: CMZHUYUN002.baiyun.pw, port: 5025, type: ss, cipher: aes-256-gcm, password: 65d9c835-c06e-4baa-99fc-eb6f7e22f3fc, udp: true}
-  - {name: 新加坡 | D |, server: CMZHUYUN.baiyun.pw, port: 5004, type: ss, cipher: aes-256-gcm, password: 65d9c835-c06e-4baa-99fc-eb6f7e22f3fc, udp: true}
-  - {name: "[DnsFree]香港 02", server: 20.187.104.186, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 63bc1528-72f0-4881-b19e-699ec248fbb4, udp: true}
-  - {name: "[DnsFree]香港 01", server: 20.187.104.186, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 63bc1528-72f0-4881-b19e-699ec248fbb4, udp: true}
-  - {name: "[DnsFree]香港 02 2", server: 20.187.104.186, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 24085114-c2b0-47a0-80fe-d2a0d409aa5c, udp: true}
-  - {name: "[DnsFree]香港 01 2", server: 20.187.104.186, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 24085114-c2b0-47a0-80fe-d2a0d409aa5c, udp: true}
-  - {name: 新加坡 E01, server: szdx.sub-nthu.com, port: 35003, type: trojan, password: 2eb3d644-0151-47af-ac39-7a8fc6a7acb6, sni: sg-1.sub-nthu.com, skip-cert-verify: true, udp: true}
-  - {name: 香港 E01, server: szdx.sub-nthu.com, port: 35002, type: trojan, password: 2eb3d644-0151-47af-ac39-7a8fc6a7acb6, sni: hk-1.sub-nthu.com, skip-cert-verify: true, udp: true}
-  - {name: 台灣 A01, server: ygzyd.sub-nthu.com, port: 35005, type: trojan, password: 2eb3d644-0151-47af-ac39-7a8fc6a7acb6, sni: tw-1.sub-nthu.com, skip-cert-verify: true, udp: true}
-  - {name: 東京 A01, server: ygzyd.sub-nthu.com, port: 35001, type: trojan, password: 2eb3d644-0151-47af-ac39-7a8fc6a7acb6, sni: jp-1.sub-nthu.com, skip-cert-verify: true, udp: true}
-  - {name: 東京 B01, server: shlt.sub-nthu.com, port: 35001, type: trojan, password: 2eb3d644-0151-47af-ac39-7a8fc6a7acb6, sni: jp-1.sub-nthu.com, skip-cert-verify: true, udp: true}
-  - {name: 香港B Netflix, server: hkb.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港E Netflix, server: hke.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港E TLS, server: hke.quickconnect.buzz, port: 443, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港A Netflix, server: hka.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: gd.189.cn}}, udp: true}
-  - {name: 日本D Netflix, server: jpd.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本E Netflix, server: jpe.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国弗吉尼亚 | 壹 | StarTrip, server: use1a1.sakurajimamai.love, port: 10086, type: vmess, uuid: 2da6f020-ae4d-30e5-b218-e8837a57135e, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: true, udp: true}
-  - {name: HK-B专线|香港, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 13931d4f-e667-3688-9bbd-973b4fe161bb, sni: bnbq.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: HongKong 02, server: api-gzct.malibaba.xyz, port: 10081, type: trojan, password: 0bf3107d-9fad-3073-8b86-c9cde7ad1f94, sni: hk2.daydaygeek.icu, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC, server: 210.0.159.90, port: 38443, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 北京亚马逊-4负载均衡聚合-新加坡DO(中转), server: bjaws.xxcv.cc, port: 20010, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: linode日本-亚马逊北京双线路(中转), server: bjaws.xxcv.cc, port: 20020, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港AZ-2号, server: 20.239.157.77, port: 28443, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港AZ-广东移动负载聚合双线(中转), server: gzyd.xxcv.cc, port: 20070, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 7| 备用 |0.001x|低带宽分享转卖|1兆|无限设备|美国, server: share-1mbps.fanqiangvpn.com, port: 80, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: share-1mbps.fanqiangvpn.com}}, udp: true}
-  - {name: 香港AZ-2号_30, server: 20.239.157.77, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 香港AZ-1号_29, server: 20.205.98.64, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 广东移动负载均衡聚合-新加坡DO双线路_18, server: gdyd.xxcv.cc, port: 42001, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: linode日本-2号_21, server: 172.104.96.170, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: linode日本-1号_20, server: 139.162.124.250, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: Linode日本2号-湖南三线-SS_10, server: 113.240.72.244, port: 22005, type: ss, cipher: chacha20-ietf-poly1305, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, udp: true}
-  - {name: 台湾Hinet_33, server: hinet.xxcv.cc, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet-4号线路_8, server: gdyd.xxcv.cc, port: 36660, type: vmess, uuid: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: "%7B%22host%22:%22huayun.xyz%22%7D"}}, udp: true}
-  - {name: 韩国亚马逊-5号_38, server: 52.78.89.199, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-2号_35, server: 15.164.228.182, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-1号_34, server: 13.124.60.125, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-4号_37, server: 54.180.139.211, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-3号_36, server: 52.79.44.148, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 德国Linode-1号_26, server: 164.92.171.104, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 法国Do1号_23, server: 159.223.29.152, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 法国Do2号_24, server: 165.22.93.103, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC1_5×_13, server: 210.0.159.90, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 新加坡DO-1号_16, server: 165.22.53.6, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-6号_39, server: 3.34.94.150, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 香港AZ-1号_29 2, server: 20.205.98.64, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 香港AZ-1号_29 3, server: 20.205.98.64, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 尊-中國香港-2线/IPLC_4, server: hkt2dyn.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: HK被墙走cf, server: zzz.kelagua.cf, port: 443, type: vmess, uuid: a8a5dbdd-e49c-438d-8779-4603a60274ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zzjdvws, headers: {Host: zzz.kelagua.cf}}, udp: true}
+  - {name: 牧场 - Hong Kong 02|B, server: cmcm-a.txwd.xyz, port: 50008, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Singapore 01|B, server: cucu-aa.txwd.xyz, port: 50022, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Taiwan 02|B, server: cmcm-a.txwd.xyz, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Taiwan 01|B, server: cucu-aa.txwd.xyz, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Singapore 02|B, server: cmcm-a.txwd.xyz, port: 50222, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Japan 01|B, server: cucu-aa.txwd.xyz, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - United Kingdom |B, server: b-mc.txwd.xyz, port: 50051, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Japan 01|A, server: aaa-666.txwd.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Netherlands |B, server: b-mc.txwd.xyz, port: 50055, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Luxembourg |B, server: b-mc.txwd.xyz, port: 50056, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Singapore 01|A, server: aaa-666.txwd.xyz, port: 60019, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Korea 02|B, server: cucu-aa.txwd.xyz, port: 50044, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Hong Kong 01|A, server: aaa-666.txwd.xyz, port: 60011, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Singapore 02|A, server: aaa-666.txwd.xyz, port: 60021, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Korea 01|B, server: cmcm-a.txwd.xyz, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - United States 02|A, server: aaa-666.txwd.xyz, port: 60004, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - France |B, server: b-mc.txwd.xyz, port: 50054, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Hong Kong 02|A, server: aaa-666.txwd.xyz, port: 60015, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - United States 01|B, server: cucu-aa.txwd.xyz, port: 50006, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: 牧场 - Turkey |B, server: b-mc.txwd.xyz, port: 50058, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
+  - {name: "Hongkong, SS", server: ss-node-4.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 2e1470e9-f545-43b0-a0aa-1ed0032c3727, udp: true}
+  - {name: TG@p2psharing 香港VIP专线★2, server: www.hgzz.xyz, port: 4949, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing D香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 161, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing A香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 2020, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing F香港HK ⇄ 隧道中转, server: 121.11.214.148, port: 5513, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing E香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 2219, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing B香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 2120, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 香港VIP专线★1, server: www.hgzz.xyz, port: 4141, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 香港VIP专线★3, server: www.hgzz.xyz, port: 4343, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 香港VIP专线★4, server: www.hgzz.xyz, port: 4646, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing C香港HK ⇄ 隧道中转, server: www.hgzz.xyz, port: 899, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 台湾TW ⇄隧道中转D, server: zz.gzyd.xyz, port: 5152, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 台湾TW ⇄隧道中转B, server: zz.gzyd.xyz, port: 1717, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 台湾TW ⇄隧道中转A, server: zz.gzyd.xyz, port: 5959, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: "Tokyo, V2", server: V2-NODE-1.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: d3bd4f04-f99b-4905-9916-bac87c728277, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-1.GFWAIRPORT.NET}}, udp: true}
+  - {name: TG@p2psharing 日本JP ⇄ 隧道中转D, server: zz.gzyd.xyz, port: 5254, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 日本JP ⇄ 隧道中转A, server: zz.gzyd.xyz, port: 5221, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 香港丨Trojan丨沪港中继丨5, server: v1hugang5.kuli888.xyz, port: 10028, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1hugang5.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@p2psharing 日本VIP专线★1, server: zz.gzyd.xyz, port: 2666, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 日本JP ⇄ 隧道中转C, server: zz.gzyd.xyz, port: 5255, type: vmess, uuid: f7c72015-dcf1-3903-981d-78fd7f8977a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: TG@p2psharing 香港丨Trojan丨沪港中继丨4, server: v1hugang4.kuli888.xyz, port: 11151, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1hugang4.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港Az-不计费, server: az.gzfxd.xyz, port: 16650, type: vmess, uuid: bde01551-2517-4ee8-a04a-e47f57811b51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az.gzfxd.xyz}}, udp: true}
+  - {name: LV1 新加坡 - realm隧道, server: sg.youzi.win, port: 27773, type: vmess, uuid: d60c9b1e-4e18-49eb-a764-fa9731f8265a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: LV1 香港 - realm隧道, server: hk.youzi.win, port: 27771, type: vmess, uuid: d60c9b1e-4e18-49eb-a764-fa9731f8265a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: LV1 韩国 - realm隧道, server: kr.youzi.win, port: 27772, type: vmess, uuid: d60c9b1e-4e18-49eb-a764-fa9731f8265a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: LV1 日本 - realm隧道, server: jp.youzi.win, port: 27775, type: vmess, uuid: d60c9b1e-4e18-49eb-a764-fa9731f8265a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HKG IEPL.A/10 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG IEPL.A/07 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG IEPL.A/01 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: TWN IEPL.A/02 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: TWN IEPL.A/01 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.C/11 x0.3, server: in4ba0929902b470.404sx.com, port: 21011, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.A/04 x0.3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.A HKT負載均衡 x0.3x, server: in1a18ba11dfa254.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: JPN CM.B/03 x0.3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: TWN CM.A/02 x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.B/04 x0.3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.C/03 x0.3, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.C/02 x0.3, server: in4ba0929902b470.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.A/03 x0.3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG IEPL.A/09 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG IEPL.A/05 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: JPN CM.B/02 x0.3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG IEPL.A/03 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: TWN IEPL.A/03 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG IEPL.A/06 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG IEPL.A/04 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG IEPL.A/08 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: JPN CM.A/01 x0.3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: TWN CM.A/01 x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: JPN IEPL.A/01 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.C/05 x0.3, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.B/03 x0.3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: HKG CM.C/01 x0.3, server: in4ba0929902b470.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 香港-09_10, server: v4zx.v6speed.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-01_2, server: v4zx.v6speed.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-03_4, server: v4zx.v6speed.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-04_5, server: v4zx.v6speed.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-05_6, server: v4zx.v6speed.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-06_7, server: v4zx.v6speed.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-10_11, server: v4zx.v6speed.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-02_3, server: v4zx.v6speed.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-07_8, server: v4zx.v6speed.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港-08_9, server: v4zx.v6speed.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 菲律宾-01_34, server: v4zx.v6speed.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-04_20, server: v4zx.v6speed.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 越南-01_33, server: v4zx.v6speed.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-05_16, server: v4zx.v6speed.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-01_12, server: v4zx.v6speed.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-03_14, server: v4zx.v6speed.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-04_15, server: v4zx.v6speed.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾-02_13, server: v4zx.v6speed.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 泰国-01_35, server: v4zx.v6speed.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-02_22, server: v4zx.v6speed.com, port: 38302, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-03_23, server: v4zx.v6speed.com, port: 38303, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 中国-台湾3【1x】_3, server: tw2501.cloudmatrix.xyz, port: 2501, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22host%22:%22tw2501.cloudmatrix.xyz%22%7D"}}, udp: true}
+  - {name: 印度-01_36, server: v4zx.v6speed.com, port: 38613, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-05_25, server: v4zx.v6speed.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-03_19, server: v4zx.v6speed.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 日本-04_24, server: v4zx.v6speed.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国-02_27, server: v4zx.v6speed.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 新加坡-02_18, server: v4zx.v6speed.com, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 韩国-01_26, server: v4zx.v6speed.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-02_29, server: v4zx.v6speed.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-04_31, server: v4zx.v6speed.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-01_28, server: v4zx.v6speed.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-05_32, server: v4zx.v6speed.com, port: 38505, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 英国-01_39, server: v4zx.v6speed.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 美国-03_30, server: v4zx.v6speed.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 德国-01_37, server: v4zx.v6speed.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 法国-01_38, server: v4zx.v6speed.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 阿根廷-01_40, server: v4zx.v6speed.com, port: 38611, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 俄罗斯1【1x】_15, server: ru21701.cloudmatrix.xyz, port: 21701, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22host%22:%22ru21701.cloudmatrix.xyz%22%7D"}}, udp: true}
+  - {name: 中国-台湾5【1x】_5, server: tw2505.cloudmatrix.xyz, port: 2505, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22host%22:%22tw2505.cloudmatrix.xyz%22%7D"}}, udp: true}
+  - {name: v2auto_智能优化线路_1, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /8a76fb13/, headers: {Host: yyyy.wwwbhjy.com}}, udp: true}
+  - {name: 美国 | 临时节点 | 0.5x, server: us.fnyun.cyou, port: 443, type: vmess, uuid: b4e51cf9-c0cf-4247-b0e7-0816b1111bdd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.fnyun.cyou}}, udp: true}
+  - {name: 斯洛伐克 | BGP中转 | 0.5x, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: b4e51cf9-c0cf-4247-b0e7-0816b1111bdd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sk.fnyun.cyou}}, udp: true}
+  - {name: 广州-香港 HKG丨全解锁丨A1丨V2ray测试节点, server: gzydddns.xyz, port: 16627, type: vmess, uuid: 1feec331-4072-3261-b5ce-81bc650dbdc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 218.189.130.228}}, udp: true}
+  - {name: 抱橙一团|Aws新加坡①-1x, server: sg1.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: sg1.bcyituan.xyz, skip-cert-verify: true, udp: true}
+  - {name: 抱橙一团|Aws新加坡②-1x, server: sg2.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: sg2.bcyituan.xyz, skip-cert-verify: true, udp: true}
+  - {name: 抱橙一团|Aws日本③-1x, server: jp3.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: jp3.bcyituan.xyz, skip-cert-verify: true, udp: true}
+  - {name: 抱橙一团|Aws日本①-1x, server: jp1.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: jp1.bcyituan.xyz, skip-cert-verify: true, udp: true}
+  - {name: 抱橙一团|Aws韩国①-1x, server: kr1.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: kr1.bcyituan.xyz, skip-cert-verify: true, udp: true}
+  - {name: 抱橙一团|Aws韩国②-1x, server: kr2.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: kr2.bcyituan.xyz, skip-cert-verify: true, udp: true}
+  - {name: ✔️推荐 美国 01〖中转-V2〗, server: gz-1.jiasugou.one, port: 15006, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 新加坡 01〖中转-V2〗, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 新加坡 02〖中转-V2〗, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 香港 HKBN 〖中转-V2〗, server: gz-1.jiasugou.one, port: 15000, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 日本 02〖中转-V2〗, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: "✔️推荐 香港 HKT2 〖中转-V2〗\t", server: gz-1.jiasugou.one, port: 15001, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 英国 01〖中转-V2〗, server: gz-1.jiasugou.one, port: 15005, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 英国 02〖中转-V2〗, server: gz-1.jiasugou.one, port: 15005, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 美国 02〖中转-V2〗, server: gz-1.jiasugou.one, port: 15006, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 日本 01〖中转-V2〗, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: ✔️推荐 台湾 02〖中转-V2〗, server: gz-1.jiasugou.one, port: 15007, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: lv.5-中国==>香港9, server: zh01lv5hk09.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 21d2158a-45a3-4c76-afc5-8a69cfcbf272, udp: true}
+  - {name: lv.5-中国==>香港2, server: zh01lv5hk02.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 21d2158a-45a3-4c76-afc5-8a69cfcbf272, udp: true}
+  - {name: lv.5-中国==>日本4, server: zh01lv5jp04.feiguayun.xyz, port: 32087, type: ss, cipher: aes-256-gcm, password: 21d2158a-45a3-4c76-afc5-8a69cfcbf272, udp: true}
+  - {name: lv.5-中国==>印度1, server: zh01lv5in01.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 21d2158a-45a3-4c76-afc5-8a69cfcbf272, udp: true}
+  - {name: 183.240.9.30:29983, server: 183.240.9.30, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 120.232.251.206:29996, server: 120.232.251.206, port: 29996, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港AZ-2号_30 2, server: 20.239.157.77, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 120.232.251.206:29996 2, server: 120.232.251.206, port: 29996, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 120.232.251.206:29998, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 120.232.251.206:29994, server: 120.232.251.206, port: 29994, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 120.232.251.206:29998 2, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 120.232.251.206:29994 2, server: 120.232.251.206, port: 29994, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港AZ-2号_30 3, server: 20.239.157.77, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 183.240.9.28:29983, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 广东移动负载均衡聚合-新加坡DO双线路_18 2, server: gdyd.xxcv.cc, port: 42001, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 120.232.251.206:29996 2, server: 120.232.251.206, port: 29996, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港HGC1_5×_13, server: 210.0.159.90, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 120.232.251.206:29998 2, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港HGC1_5×_13 2, server: 210.0.159.90, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 韩国亚马逊-5号_38, server: 52.78.89.199, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 韩国亚马逊-6号_39, server: 3.34.94.150, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
   - {name: 120.232.251.206:29980, server: 120.232.251.206, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国亚马逊-2号_35, server: 15.164.228.182, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
   - {name: 120.232.251.206:29980 2, server: 120.232.251.206, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 183.240.9.28:29979, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国亚马逊-1号_34, server: 13.124.60.125, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 香港HGC, server: 210.0.159.90, port: 38888, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 120.232.251.206:29979, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 120.232.251.206:29979 2, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 183.240.9.30:29983, server: 183.240.9.30, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 183.240.9.28:29987, server: 183.240.9.28, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国亚马逊-3号_36, server: 52.79.44.148, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 韩国亚马逊-4号_37, server: 54.180.139.211, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 183.240.9.28:29983, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港AZ-广东移动负载聚合双线(中转), server: gzyd.xxcv.cc, port: 20070, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港AZ-2号_30, server: 20.239.157.77, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 香港HGC 2, server: 210.0.159.90, port: 38443, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港AZ-1号_29, server: 20.205.98.64, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 香港AZ-2号_30 2, server: 20.239.157.77, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 香港AZ-1号_29 2, server: 20.205.98.64, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
   - {name: 挪威推荐, server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
   - {name: 萨拉热窝b, server: 120.232.214.153, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
   - {name: 萨拉热窝a, server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
-  - {name: 183.240.9.28:29984, server: 183.240.9.28, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 荷兰a, server: 122.9.54.58, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: "PD - 荷蘭 - 鹿特丹 [BGPA] [SVIP] [Disney ] [Netflix]", server: 122.9.54.58, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: "PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]", server: 122.9.54.58, port: 2266, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: 台湾Hinet_33 2, server: hinet.xxcv.cc, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 伊斯坦布尔d, server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
-  - {name: 伊斯坦布尔c, server: 122.9.62.10, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
-  - {name: 全球直连①, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC1_5×_13 2, server: 210.0.159.90, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC 2, server: 210.0.159.90, port: 38888, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: "网址: upyun.online/reg", server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 香港AZ-1号_29 3, server: 20.205.98.64, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
   - {name: 荷兰b, server: 122.9.62.6, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
-  - {name: 新加坡_R_441, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 183.240.9.28:29984, server: 183.240.9.28, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet_33, server: hinet.xxcv.cc, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 183.240.9.28:29979, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]", server: 122.9.54.58, port: 2266, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: "PD - 荷蘭 - 鹿特丹 [BGPA] [SVIP] [Disney ] [Netflix]", server: 122.9.54.58, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: 香港AZ-2号, server: 20.239.157.77, port: 28443, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet_33 2, server: hinet.xxcv.cc, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 香港AZ-2号_30 3, server: 20.239.157.77, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 伊斯坦布尔c, server: 122.9.62.10, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
+  - {name: 伊斯坦布尔d, server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
+  - {name: 183.240.9.28:29987, server: 183.240.9.28, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 全球直连②, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 新加坡DO-1号_16, server: 165.22.53.6, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 德国Linode-1号_26, server: 164.92.171.104, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 法国Do2号_24, server: 165.22.93.103, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: 全球直连①, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 120.232.251.206:29979 2, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 法国Do1号_23, server: 159.223.29.152, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _IN_印度_1
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇭🇰_HK_香港_3
-      - _CN_中国->🇲🇾_MY_马来西亚_4
-      - _US_美国_5
-      - _CN_中国->🇭🇰_HK_香港_6
-      - _CN_中国->🇹🇼_TW_台湾_7
-      - _CN_中国->🇰🇷_KR_韩国_8
+      - _CN_中国->🇲🇾_MY_马来西亚_1
+      - _CN_中国_2
+      - _HK_香港_3
+      - _CN_中国->🇸🇬_SG_新加坡_4
+      - _CN_中国->🇺🇸_US_美国_5
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦_6
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇬🇧_GB_英国_8
       - _CN_中国->🇸🇬_SG_新加坡_9
-      - _CN_中国->🇭🇰_HK_香港_10
+      - _CN_中国->🇯🇵_JP_日本_10
+      - _CN_中国->🇸🇬_SG_新加坡_11
+      - _CN_中国->🇭🇰_HK_香港_12
+      - _CN_中国_13
+      - _US_美国_14
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 亚洲(欢迎订阅Youtube破解资源君) 2
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
+      - 亚洲(欢迎订阅Youtube破解资源君) 4
+      - 亚洲(欢迎订阅Youtube破解资源君) 5
+      - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 亚洲(欢迎订阅Youtube破解资源君) 7
+      - 亚洲(欢迎订阅Youtube破解资源君) 8
+      - 亚洲(欢迎订阅Youtube破解资源君) 9
+      - 亚洲(欢迎订阅Youtube破解资源君) 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 11
+      - 亚洲(欢迎订阅Youtube破解资源君) 12
+      - 亚洲(欢迎订阅Youtube破解资源君) 13
+      - 亚洲(欢迎订阅Youtube破解资源君) 14
+      - 亚洲(欢迎订阅Youtube破解资源君) 15
+      - 亚洲(欢迎订阅Youtube破解资源君) 16
+      - 亚洲(欢迎订阅Youtube破解资源君) 17
+      - 亚洲(欢迎订阅Youtube破解资源君) 18
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 新加坡(欢迎订阅Youtube破解资源君) 4
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 香港(欢迎订阅Youtube破解资源君) 2
+      - 香港(欢迎订阅Youtube破解资源君) 3
+      - 香港(欢迎订阅Youtube破解资源君) 4
+      - 香港(欢迎订阅Youtube破解资源君) 5
+      - 香港(欢迎订阅Youtube破解资源君) 6
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 台湾(欢迎订阅Youtube破解资源君) 2
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 日本(欢迎订阅Youtube破解资源君) 2
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 10
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -1062,72 +1163,8 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 17
       - 美国(欢迎订阅Youtube破解资源君) 18
       - 美国(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 20
-      - 美国(欢迎订阅Youtube破解资源君) 21
-      - 美国(欢迎订阅Youtube破解资源君) 22
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 美国(欢迎订阅Youtube破解资源君) 24
-      - 美国(欢迎订阅Youtube破解资源君) 25
-      - 美国(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 27
-      - 美国(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 29
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - 美国(欢迎订阅Youtube破解资源君) 31
-      - 美国(欢迎订阅Youtube破解资源君) 32
-      - 美国(欢迎订阅Youtube破解资源君) 33
-      - 美国(欢迎订阅Youtube破解资源君) 34
-      - 美国(欢迎订阅Youtube破解资源君) 35
-      - 美国(欢迎订阅Youtube破解资源君) 36
-      - 美国(欢迎订阅Youtube破解资源君) 37
-      - 美国(欢迎订阅Youtube破解资源君) 38
-      - 美国(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 日本(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君) 4
-      - 日本(欢迎订阅Youtube破解资源君) 5
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - 香港(欢迎订阅Youtube破解资源君) 3
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 香港(欢迎订阅Youtube破解资源君) 6
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡(欢迎订阅Youtube破解资源君) 3
-      - 新加坡(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君) 5
-      - 新加坡(欢迎订阅Youtube破解资源君) 6
-      - 新加坡(欢迎订阅Youtube破解资源君) 7
-      - 新加坡(欢迎订阅Youtube破解资源君) 8
-      - 新加坡(欢迎订阅Youtube破解资源君) 9
-      - 新加坡(欢迎订阅Youtube破解资源君) 10
-      - 新加坡(欢迎订阅Youtube破解资源君) 11
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 亚洲(欢迎订阅Youtube破解资源君) 4
-      - 亚洲(欢迎订阅Youtube破解资源君) 5
-      - 亚洲(欢迎订阅Youtube破解资源君) 6
-      - 亚洲(欢迎订阅Youtube破解资源君) 7
-      - 亚洲(欢迎订阅Youtube破解资源君) 8
-      - 亚洲(欢迎订阅Youtube破解资源君) 9
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - 英国(欢迎订阅Youtube破解资源君)
+      - 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 香港（YouTube资源分享者）
       - 美国（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -1935,142 +1972,260 @@ proxy-groups:
       - github.com/freefq - 美国3COM公司企业网 41
       - github.com/freefq - 新加坡DigitalOcean数据中心 42
       - github.com/freefq - 湖北省宜昌市联通 43
-      - HK_5500 @WangCai_1
-      - HK_5513 @WangCai_1
-      - HK_5507 @WangCai_1
-      - HK_5516 @WangCai_1
-      - HK_5519 @WangCai_1
-      - HK_5501 @WangCai_1
-      - HK_5510 @WangCai_1
-      - HK_5504 @WangCai_1
-      - TW_5567 @WangCai_1
-      - SG_6605 @WangCai_1
-      - TW_5561 @WangCai_1
-      - SG_6614 @WangCai_1
-      - JP_7710 @WangCai_1
-      - JP_7713 @WangCai_1
-      - VN_8833 @WangCai_1
-      - SG_6608 @WangCai_1
-      - SG_6611 @WangCai_1
-      - SG_6618 @WangCai_1
-      - JP_7707 @WangCai_1
-      - JP_7700 @WangCai_1
-      - JP_7704 @WangCai_1
-      - SG_6600 @WangCai_1
-      - TW_5564 @WangCai_1
-      - ID_8829 @WangCai_1
-      - TW_5555 @WangCai_1
-      - IN_8870 @WangCai_1
-      - US_8800 @WangCai_1
-      - FR_8863 @WangCai_1
-      - GB_8860 @WangCai_1
-      - US_8818 @WangCai_1
-      - US_8804 @WangCai_1
-      - US_8807 @WangCai_1
-      - MX_8866 @WangCai_1
-      - US_8810 @WangCai_1
-      - US_8814 @WangCai_1
-      - DE_8855 @WangCai_1
-      - 香港 | E | 流媒體解鎖 |
-      - 香港 | C | HKT | 動態 | 原生 | X2
-      - 香港 | D | 流媒體解鎖 |
-      - 香港 | G |
-      - 新加坡 | D |
-      - "[DnsFree]香港 02"
-      - "[DnsFree]香港 01"
-      - "[DnsFree]香港 02 2"
-      - "[DnsFree]香港 01 2"
-      - 新加坡 E01
-      - 香港 E01
-      - 台灣 A01
-      - 東京 A01
-      - 東京 B01
-      - 香港B Netflix
-      - 香港E Netflix
-      - 香港E TLS
-      - 香港A Netflix
-      - 日本D Netflix
-      - 日本E Netflix
-      - 美国弗吉尼亚 | 壹 | StarTrip
-      - HK-B专线|香港
-      - HongKong 02
-      - 香港HGC
-      - 北京亚马逊-4负载均衡聚合-新加坡DO(中转)
-      - linode日本-亚马逊北京双线路(中转)
-      - 香港AZ-2号
-      - 香港AZ-广东移动负载聚合双线(中转)
-      - 7| 备用 |0.001x|低带宽分享转卖|1兆|无限设备|美国
-      - 香港AZ-2号_30
-      - 香港AZ-1号_29
-      - 广东移动负载均衡聚合-新加坡DO双线路_18
-      - linode日本-2号_21
-      - linode日本-1号_20
-      - Linode日本2号-湖南三线-SS_10
-      - 台湾Hinet_33
-      - 台湾Hinet-4号线路_8
-      - 韩国亚马逊-5号_38
-      - 韩国亚马逊-2号_35
-      - 韩国亚马逊-1号_34
-      - 韩国亚马逊-4号_37
-      - 韩国亚马逊-3号_36
-      - 德国Linode-1号_26
-      - 法国Do1号_23
-      - 法国Do2号_24
-      - 香港HGC1_5×_13
-      - 新加坡DO-1号_16
-      - 韩国亚马逊-6号_39
-      - 香港AZ-1号_29 2
-      - 香港AZ-1号_29 3
+      - 尊-中國香港-2线/IPLC_4
+      - HK被墙走cf
+      - 牧场 - Hong Kong 02|B
+      - 牧场 - Singapore 01|B
+      - 牧场 - Taiwan 02|B
+      - 牧场 - Taiwan 01|B
+      - 牧场 - Singapore 02|B
+      - 牧场 - Japan 01|B
+      - 牧场 - United Kingdom |B
+      - 牧场 - Japan 01|A
+      - 牧场 - Netherlands |B
+      - 牧场 - Luxembourg |B
+      - 牧场 - Singapore 01|A
+      - 牧场 - Korea 02|B
+      - 牧场 - Hong Kong 01|A
+      - 牧场 - Singapore 02|A
+      - 牧场 - Korea 01|B
+      - 牧场 - United States 02|A
+      - 牧场 - France |B
+      - 牧场 - Hong Kong 02|A
+      - 牧场 - United States 01|B
+      - 牧场 - Turkey |B
+      - Hongkong, SS
+      - TG@p2psharing 香港VIP专线★2
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing F香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★3
+      - TG@p2psharing 香港VIP专线★4
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing 台湾TW ⇄隧道中转D
+      - TG@p2psharing 台湾TW ⇄隧道中转B
+      - TG@p2psharing 台湾TW ⇄隧道中转A
+      - Tokyo, V2
+      - TG@p2psharing 日本JP ⇄ 隧道中转D
+      - TG@p2psharing 日本JP ⇄ 隧道中转A
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 日本VIP专线★1
+      - TG@p2psharing 日本JP ⇄ 隧道中转C
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - 香港Az-不计费
+      - LV1 新加坡 - realm隧道
+      - LV1 香港 - realm隧道
+      - LV1 韩国 - realm隧道
+      - LV1 日本 - realm隧道
+      - HKG IEPL.A/10 x1.0
+      - HKG IEPL.A/07 x1.0
+      - HKG IEPL.A/01 x1.0
+      - TWN IEPL.A/02 x1.0
+      - TWN IEPL.A/01 x1.0
+      - HKG CM.C/11 x0.3
+      - HKG CM.A/04 x0.3
+      - HKG CM.A HKT負載均衡 x0.3x
+      - JPN CM.B/03 x0.3
+      - TWN CM.A/02 x1.0
+      - HKG CM.B/04 x0.3
+      - HKG CM.C/03 x0.3
+      - HKG CM.C/02 x0.3
+      - HKG CM.A/03 x0.3
+      - HKG IEPL.A/09 x1.0
+      - HKG IEPL.A/05 x1.0
+      - JPN CM.B/02 x0.3
+      - HKG IEPL.A/03 x1.0
+      - TWN IEPL.A/03 x1.0
+      - HKG IEPL.A/06 x1.0
+      - HKG IEPL.A/04 x1.0
+      - HKG IEPL.A/08 x1.0
+      - JPN CM.A/01 x0.3
+      - TWN CM.A/01 x1.0
+      - JPN IEPL.A/01 x1.0
+      - HKG CM.C/05 x0.3
+      - HKG CM.B/03 x0.3
+      - HKG CM.C/01 x0.3
+      - 香港-09_10
+      - 香港-01_2
+      - 香港-03_4
+      - 香港-04_5
+      - 香港-05_6
+      - 香港-06_7
+      - 香港-10_11
+      - 香港-02_3
+      - 香港-07_8
+      - 香港-08_9
+      - 菲律宾-01_34
+      - 新加坡-04_20
+      - 越南-01_33
+      - 台湾-05_16
+      - 台湾-01_12
+      - 台湾-03_14
+      - 台湾-04_15
+      - 台湾-02_13
+      - 泰国-01_35
+      - 日本-02_22
+      - 日本-03_23
+      - 中国-台湾3【1x】_3
+      - 印度-01_36
+      - 日本-05_25
+      - 新加坡-03_19
+      - 日本-04_24
+      - 韩国-02_27
+      - 新加坡-02_18
+      - 韩国-01_26
+      - 美国-02_29
+      - 美国-04_31
+      - 美国-01_28
+      - 美国-05_32
+      - 英国-01_39
+      - 美国-03_30
+      - 德国-01_37
+      - 法国-01_38
+      - 阿根廷-01_40
+      - 俄罗斯1【1x】_15
+      - 中国-台湾5【1x】_5
+      - v2auto_智能优化线路_1
+      - 美国 | 临时节点 | 0.5x
+      - 斯洛伐克 | BGP中转 | 0.5x
+      - 广州-香港 HKG丨全解锁丨A1丨V2ray测试节点
+      - 抱橙一团|Aws新加坡①-1x
+      - 抱橙一团|Aws新加坡②-1x
+      - 抱橙一团|Aws日本③-1x
+      - 抱橙一团|Aws日本①-1x
+      - 抱橙一团|Aws韩国①-1x
+      - 抱橙一团|Aws韩国②-1x
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - ✔️推荐 新加坡 02〖中转-V2〗
+      - ✔️推荐 香港 HKBN 〖中转-V2〗
+      - ✔️推荐 日本 02〖中转-V2〗
+      - "✔️推荐 香港 HKT2 〖中转-V2〗\t"
+      - ✔️推荐 英国 01〖中转-V2〗
+      - ✔️推荐 英国 02〖中转-V2〗
+      - ✔️推荐 美国 02〖中转-V2〗
+      - ✔️推荐 日本 01〖中转-V2〗
+      - ✔️推荐 台湾 02〖中转-V2〗
+      - lv.5-中国==>香港9
+      - lv.5-中国==>香港2
+      - lv.5-中国==>日本4
+      - lv.5-中国==>印度1
+      - 183.240.9.30:29983
       - 120.232.251.206:29996
-      - 香港AZ-2号_30 2
-      - 120.232.251.206:29996 2
       - 120.232.251.206:29998
       - 120.232.251.206:29994
-      - 120.232.251.206:29998 2
       - 120.232.251.206:29994 2
-      - 香港AZ-2号_30 3
-      - 183.240.9.28:29983
-      - 广东移动负载均衡聚合-新加坡DO双线路_18 2
+      - 120.232.251.206:29996 2
+      - 香港HGC1_5×_13
+      - 120.232.251.206:29998 2
+      - 香港HGC1_5×_13 2
+      - 韩国亚马逊-5号_38
+      - 韩国亚马逊-6号_39
       - 120.232.251.206:29980
       - jc.ap.fastqvpn.com:29980
+      - 韩国亚马逊-2号_35
       - 120.232.251.206:29980 2
-      - 183.240.9.28:29979
+      - 韩国亚马逊-1号_34
+      - 香港HGC
       - 120.232.251.206:29979
-      - 120.232.251.206:29979 2
-      - 183.240.9.30:29983
-      - 183.240.9.28:29987
+      - 韩国亚马逊-3号_36
+      - 韩国亚马逊-4号_37
+      - 183.240.9.28:29983
+      - 香港AZ-广东移动负载聚合双线(中转)
+      - 香港AZ-2号_30
+      - 香港HGC 2
+      - 香港AZ-1号_29
+      - 香港AZ-2号_30 2
+      - 香港AZ-1号_29 2
       - 挪威推荐
       - 萨拉热窝b
       - 萨拉热窝a
-      - 183.240.9.28:29984
       - 荷兰a
-      - PD - 荷蘭 - 鹿特丹 [BGPA] [SVIP] [Disney ] [Netflix]
-      - PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]
-      - 台湾Hinet_33 2
-      - 伊斯坦布尔d
-      - 伊斯坦布尔c
-      - 全球直连①
-      - 香港HGC1_5×_13 2
-      - 香港HGC 2
-      - "网址: upyun.online/reg"
+      - 香港AZ-1号_29 3
       - 荷兰b
-      - 新加坡_R_441
+      - 183.240.9.28:29984
+      - 台湾Hinet_33
+      - 183.240.9.28:29979
+      - PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]
+      - PD - 荷蘭 - 鹿特丹 [BGPA] [SVIP] [Disney ] [Netflix]
+      - 香港AZ-2号
+      - 台湾Hinet_33 2
+      - 香港AZ-2号_30 3
+      - 伊斯坦布尔c
+      - 伊斯坦布尔d
+      - 183.240.9.28:29987
       - 全球直连②
+      - 新加坡DO-1号_16
+      - 德国Linode-1号_26
+      - 法国Do2号_24
+      - 全球直连①
+      - 120.232.251.206:29979 2
+      - 法国Do1号_23
   - name: ♻️ 自动选择节点
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _IN_印度_1
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇭🇰_HK_香港_3
-      - _CN_中国->🇲🇾_MY_马来西亚_4
-      - _US_美国_5
-      - _CN_中国->🇭🇰_HK_香港_6
-      - _CN_中国->🇹🇼_TW_台湾_7
-      - _CN_中国->🇰🇷_KR_韩国_8
+      - _CN_中国->🇲🇾_MY_马来西亚_1
+      - _CN_中国_2
+      - _HK_香港_3
+      - _CN_中国->🇸🇬_SG_新加坡_4
+      - _CN_中国->🇺🇸_US_美国_5
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦_6
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇬🇧_GB_英国_8
       - _CN_中国->🇸🇬_SG_新加坡_9
-      - _CN_中国->🇭🇰_HK_香港_10
+      - _CN_中国->🇯🇵_JP_日本_10
+      - _CN_中国->🇸🇬_SG_新加坡_11
+      - _CN_中国->🇭🇰_HK_香港_12
+      - _CN_中国_13
+      - _US_美国_14
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 亚洲(欢迎订阅Youtube破解资源君) 2
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
+      - 亚洲(欢迎订阅Youtube破解资源君) 4
+      - 亚洲(欢迎订阅Youtube破解资源君) 5
+      - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 亚洲(欢迎订阅Youtube破解资源君) 7
+      - 亚洲(欢迎订阅Youtube破解资源君) 8
+      - 亚洲(欢迎订阅Youtube破解资源君) 9
+      - 亚洲(欢迎订阅Youtube破解资源君) 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 11
+      - 亚洲(欢迎订阅Youtube破解资源君) 12
+      - 亚洲(欢迎订阅Youtube破解资源君) 13
+      - 亚洲(欢迎订阅Youtube破解资源君) 14
+      - 亚洲(欢迎订阅Youtube破解资源君) 15
+      - 亚洲(欢迎订阅Youtube破解资源君) 16
+      - 亚洲(欢迎订阅Youtube破解资源君) 17
+      - 亚洲(欢迎订阅Youtube破解资源君) 18
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 新加坡(欢迎订阅Youtube破解资源君) 4
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 香港(欢迎订阅Youtube破解资源君) 2
+      - 香港(欢迎订阅Youtube破解资源君) 3
+      - 香港(欢迎订阅Youtube破解资源君) 4
+      - 香港(欢迎订阅Youtube破解资源君) 5
+      - 香港(欢迎订阅Youtube破解资源君) 6
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 台湾(欢迎订阅Youtube破解资源君) 2
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 日本(欢迎订阅Youtube破解资源君) 2
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 10
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -2090,72 +2245,8 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 17
       - 美国(欢迎订阅Youtube破解资源君) 18
       - 美国(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 20
-      - 美国(欢迎订阅Youtube破解资源君) 21
-      - 美国(欢迎订阅Youtube破解资源君) 22
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 美国(欢迎订阅Youtube破解资源君) 24
-      - 美国(欢迎订阅Youtube破解资源君) 25
-      - 美国(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 27
-      - 美国(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 29
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - 美国(欢迎订阅Youtube破解资源君) 31
-      - 美国(欢迎订阅Youtube破解资源君) 32
-      - 美国(欢迎订阅Youtube破解资源君) 33
-      - 美国(欢迎订阅Youtube破解资源君) 34
-      - 美国(欢迎订阅Youtube破解资源君) 35
-      - 美国(欢迎订阅Youtube破解资源君) 36
-      - 美国(欢迎订阅Youtube破解资源君) 37
-      - 美国(欢迎订阅Youtube破解资源君) 38
-      - 美国(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 日本(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君) 4
-      - 日本(欢迎订阅Youtube破解资源君) 5
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - 香港(欢迎订阅Youtube破解资源君) 3
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 香港(欢迎订阅Youtube破解资源君) 6
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡(欢迎订阅Youtube破解资源君) 3
-      - 新加坡(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君) 5
-      - 新加坡(欢迎订阅Youtube破解资源君) 6
-      - 新加坡(欢迎订阅Youtube破解资源君) 7
-      - 新加坡(欢迎订阅Youtube破解资源君) 8
-      - 新加坡(欢迎订阅Youtube破解资源君) 9
-      - 新加坡(欢迎订阅Youtube破解资源君) 10
-      - 新加坡(欢迎订阅Youtube破解资源君) 11
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 亚洲(欢迎订阅Youtube破解资源君) 4
-      - 亚洲(欢迎订阅Youtube破解资源君) 5
-      - 亚洲(欢迎订阅Youtube破解资源君) 6
-      - 亚洲(欢迎订阅Youtube破解资源君) 7
-      - 亚洲(欢迎订阅Youtube破解资源君) 8
-      - 亚洲(欢迎订阅Youtube破解资源君) 9
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - 英国(欢迎订阅Youtube破解资源君)
+      - 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 香港（YouTube资源分享者）
       - 美国（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -2963,127 +3054,198 @@ proxy-groups:
       - github.com/freefq - 美国3COM公司企业网 41
       - github.com/freefq - 新加坡DigitalOcean数据中心 42
       - github.com/freefq - 湖北省宜昌市联通 43
-      - HK_5500 @WangCai_1
-      - HK_5513 @WangCai_1
-      - HK_5507 @WangCai_1
-      - HK_5516 @WangCai_1
-      - HK_5519 @WangCai_1
-      - HK_5501 @WangCai_1
-      - HK_5510 @WangCai_1
-      - HK_5504 @WangCai_1
-      - TW_5567 @WangCai_1
-      - SG_6605 @WangCai_1
-      - TW_5561 @WangCai_1
-      - SG_6614 @WangCai_1
-      - JP_7710 @WangCai_1
-      - JP_7713 @WangCai_1
-      - VN_8833 @WangCai_1
-      - SG_6608 @WangCai_1
-      - SG_6611 @WangCai_1
-      - SG_6618 @WangCai_1
-      - JP_7707 @WangCai_1
-      - JP_7700 @WangCai_1
-      - JP_7704 @WangCai_1
-      - SG_6600 @WangCai_1
-      - TW_5564 @WangCai_1
-      - ID_8829 @WangCai_1
-      - TW_5555 @WangCai_1
-      - IN_8870 @WangCai_1
-      - US_8800 @WangCai_1
-      - FR_8863 @WangCai_1
-      - GB_8860 @WangCai_1
-      - US_8818 @WangCai_1
-      - US_8804 @WangCai_1
-      - US_8807 @WangCai_1
-      - MX_8866 @WangCai_1
-      - US_8810 @WangCai_1
-      - US_8814 @WangCai_1
-      - DE_8855 @WangCai_1
-      - 香港 | E | 流媒體解鎖 |
-      - 香港 | C | HKT | 動態 | 原生 | X2
-      - 香港 | D | 流媒體解鎖 |
-      - 香港 | G |
-      - 新加坡 | D |
-      - "[DnsFree]香港 02"
-      - "[DnsFree]香港 01"
-      - "[DnsFree]香港 02 2"
-      - "[DnsFree]香港 01 2"
-      - 新加坡 E01
-      - 香港 E01
-      - 台灣 A01
-      - 東京 A01
-      - 東京 B01
-      - 香港B Netflix
-      - 香港E Netflix
-      - 香港E TLS
-      - 香港A Netflix
-      - 日本D Netflix
-      - 日本E Netflix
-      - 美国弗吉尼亚 | 壹 | StarTrip
-      - HK-B专线|香港
-      - HongKong 02
-      - 香港HGC
-      - 北京亚马逊-4负载均衡聚合-新加坡DO(中转)
-      - linode日本-亚马逊北京双线路(中转)
-      - 香港AZ-2号
-      - 香港AZ-广东移动负载聚合双线(中转)
-      - 7| 备用 |0.001x|低带宽分享转卖|1兆|无限设备|美国
-      - 香港AZ-2号_30
-      - 香港AZ-1号_29
-      - 广东移动负载均衡聚合-新加坡DO双线路_18
-      - linode日本-2号_21
-      - linode日本-1号_20
-      - Linode日本2号-湖南三线-SS_10
-      - 台湾Hinet_33
-      - 台湾Hinet-4号线路_8
-      - 韩国亚马逊-5号_38
-      - 韩国亚马逊-2号_35
-      - 韩国亚马逊-1号_34
-      - 韩国亚马逊-4号_37
-      - 韩国亚马逊-3号_36
-      - 德国Linode-1号_26
-      - 法国Do1号_23
-      - 法国Do2号_24
-      - 香港HGC1_5×_13
-      - 新加坡DO-1号_16
-      - 韩国亚马逊-6号_39
-      - 香港AZ-1号_29 2
-      - 香港AZ-1号_29 3
+      - 尊-中國香港-2线/IPLC_4
+      - HK被墙走cf
+      - 牧场 - Hong Kong 02|B
+      - 牧场 - Singapore 01|B
+      - 牧场 - Taiwan 02|B
+      - 牧场 - Taiwan 01|B
+      - 牧场 - Singapore 02|B
+      - 牧场 - Japan 01|B
+      - 牧场 - United Kingdom |B
+      - 牧场 - Japan 01|A
+      - 牧场 - Netherlands |B
+      - 牧场 - Luxembourg |B
+      - 牧场 - Singapore 01|A
+      - 牧场 - Korea 02|B
+      - 牧场 - Hong Kong 01|A
+      - 牧场 - Singapore 02|A
+      - 牧场 - Korea 01|B
+      - 牧场 - United States 02|A
+      - 牧场 - France |B
+      - 牧场 - Hong Kong 02|A
+      - 牧场 - United States 01|B
+      - 牧场 - Turkey |B
+      - Hongkong, SS
+      - TG@p2psharing 香港VIP专线★2
+      - TG@p2psharing D香港HK ⇄ 隧道中转
+      - TG@p2psharing A香港HK ⇄ 隧道中转
+      - TG@p2psharing F香港HK ⇄ 隧道中转
+      - TG@p2psharing E香港HK ⇄ 隧道中转
+      - TG@p2psharing B香港HK ⇄ 隧道中转
+      - TG@p2psharing 香港VIP专线★1
+      - TG@p2psharing 香港VIP专线★3
+      - TG@p2psharing 香港VIP专线★4
+      - TG@p2psharing C香港HK ⇄ 隧道中转
+      - TG@p2psharing 台湾TW ⇄隧道中转D
+      - TG@p2psharing 台湾TW ⇄隧道中转B
+      - TG@p2psharing 台湾TW ⇄隧道中转A
+      - Tokyo, V2
+      - TG@p2psharing 日本JP ⇄ 隧道中转D
+      - TG@p2psharing 日本JP ⇄ 隧道中转A
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨5
+      - TG@p2psharing 日本VIP专线★1
+      - TG@p2psharing 日本JP ⇄ 隧道中转C
+      - TG@p2psharing 香港丨Trojan丨沪港中继丨4
+      - 香港Az-不计费
+      - LV1 新加坡 - realm隧道
+      - LV1 香港 - realm隧道
+      - LV1 韩国 - realm隧道
+      - LV1 日本 - realm隧道
+      - HKG IEPL.A/10 x1.0
+      - HKG IEPL.A/07 x1.0
+      - HKG IEPL.A/01 x1.0
+      - TWN IEPL.A/02 x1.0
+      - TWN IEPL.A/01 x1.0
+      - HKG CM.C/11 x0.3
+      - HKG CM.A/04 x0.3
+      - HKG CM.A HKT負載均衡 x0.3x
+      - JPN CM.B/03 x0.3
+      - TWN CM.A/02 x1.0
+      - HKG CM.B/04 x0.3
+      - HKG CM.C/03 x0.3
+      - HKG CM.C/02 x0.3
+      - HKG CM.A/03 x0.3
+      - HKG IEPL.A/09 x1.0
+      - HKG IEPL.A/05 x1.0
+      - JPN CM.B/02 x0.3
+      - HKG IEPL.A/03 x1.0
+      - TWN IEPL.A/03 x1.0
+      - HKG IEPL.A/06 x1.0
+      - HKG IEPL.A/04 x1.0
+      - HKG IEPL.A/08 x1.0
+      - JPN CM.A/01 x0.3
+      - TWN CM.A/01 x1.0
+      - JPN IEPL.A/01 x1.0
+      - HKG CM.C/05 x0.3
+      - HKG CM.B/03 x0.3
+      - HKG CM.C/01 x0.3
+      - 香港-09_10
+      - 香港-01_2
+      - 香港-03_4
+      - 香港-04_5
+      - 香港-05_6
+      - 香港-06_7
+      - 香港-10_11
+      - 香港-02_3
+      - 香港-07_8
+      - 香港-08_9
+      - 菲律宾-01_34
+      - 新加坡-04_20
+      - 越南-01_33
+      - 台湾-05_16
+      - 台湾-01_12
+      - 台湾-03_14
+      - 台湾-04_15
+      - 台湾-02_13
+      - 泰国-01_35
+      - 日本-02_22
+      - 日本-03_23
+      - 中国-台湾3【1x】_3
+      - 印度-01_36
+      - 日本-05_25
+      - 新加坡-03_19
+      - 日本-04_24
+      - 韩国-02_27
+      - 新加坡-02_18
+      - 韩国-01_26
+      - 美国-02_29
+      - 美国-04_31
+      - 美国-01_28
+      - 美国-05_32
+      - 英国-01_39
+      - 美国-03_30
+      - 德国-01_37
+      - 法国-01_38
+      - 阿根廷-01_40
+      - 俄罗斯1【1x】_15
+      - 中国-台湾5【1x】_5
+      - v2auto_智能优化线路_1
+      - 美国 | 临时节点 | 0.5x
+      - 斯洛伐克 | BGP中转 | 0.5x
+      - 广州-香港 HKG丨全解锁丨A1丨V2ray测试节点
+      - 抱橙一团|Aws新加坡①-1x
+      - 抱橙一团|Aws新加坡②-1x
+      - 抱橙一团|Aws日本③-1x
+      - 抱橙一团|Aws日本①-1x
+      - 抱橙一团|Aws韩国①-1x
+      - 抱橙一团|Aws韩国②-1x
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - ✔️推荐 新加坡 02〖中转-V2〗
+      - ✔️推荐 香港 HKBN 〖中转-V2〗
+      - ✔️推荐 日本 02〖中转-V2〗
+      - "✔️推荐 香港 HKT2 〖中转-V2〗\t"
+      - ✔️推荐 英国 01〖中转-V2〗
+      - ✔️推荐 英国 02〖中转-V2〗
+      - ✔️推荐 美国 02〖中转-V2〗
+      - ✔️推荐 日本 01〖中转-V2〗
+      - ✔️推荐 台湾 02〖中转-V2〗
+      - lv.5-中国==>香港9
+      - lv.5-中国==>香港2
+      - lv.5-中国==>日本4
+      - lv.5-中国==>印度1
+      - 183.240.9.30:29983
       - 120.232.251.206:29996
-      - 香港AZ-2号_30 2
-      - 120.232.251.206:29996 2
       - 120.232.251.206:29998
       - 120.232.251.206:29994
-      - 120.232.251.206:29998 2
       - 120.232.251.206:29994 2
-      - 香港AZ-2号_30 3
-      - 183.240.9.28:29983
-      - 广东移动负载均衡聚合-新加坡DO双线路_18 2
+      - 120.232.251.206:29996 2
+      - 香港HGC1_5×_13
+      - 120.232.251.206:29998 2
+      - 香港HGC1_5×_13 2
+      - 韩国亚马逊-5号_38
+      - 韩国亚马逊-6号_39
       - 120.232.251.206:29980
       - jc.ap.fastqvpn.com:29980
+      - 韩国亚马逊-2号_35
       - 120.232.251.206:29980 2
-      - 183.240.9.28:29979
+      - 韩国亚马逊-1号_34
+      - 香港HGC
       - 120.232.251.206:29979
-      - 120.232.251.206:29979 2
-      - 183.240.9.30:29983
-      - 183.240.9.28:29987
+      - 韩国亚马逊-3号_36
+      - 韩国亚马逊-4号_37
+      - 183.240.9.28:29983
+      - 香港AZ-广东移动负载聚合双线(中转)
+      - 香港AZ-2号_30
+      - 香港HGC 2
+      - 香港AZ-1号_29
+      - 香港AZ-2号_30 2
+      - 香港AZ-1号_29 2
       - 挪威推荐
       - 萨拉热窝b
       - 萨拉热窝a
-      - 183.240.9.28:29984
       - 荷兰a
-      - PD - 荷蘭 - 鹿特丹 [BGPA] [SVIP] [Disney ] [Netflix]
-      - PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]
-      - 台湾Hinet_33 2
-      - 伊斯坦布尔d
-      - 伊斯坦布尔c
-      - 全球直连①
-      - 香港HGC1_5×_13 2
-      - 香港HGC 2
-      - "网址: upyun.online/reg"
+      - 香港AZ-1号_29 3
       - 荷兰b
-      - 新加坡_R_441
+      - 183.240.9.28:29984
+      - 台湾Hinet_33
+      - 183.240.9.28:29979
+      - PX - 荷兰 - 鹿特丹 [PremiumA] [IPLC] [Disney ] [Netflix]
+      - PD - 荷蘭 - 鹿特丹 [BGPA] [SVIP] [Disney ] [Netflix]
+      - 香港AZ-2号
+      - 台湾Hinet_33 2
+      - 香港AZ-2号_30 3
+      - 伊斯坦布尔c
+      - 伊斯坦布尔d
+      - 183.240.9.28:29987
       - 全球直连②
+      - 新加坡DO-1号_16
+      - 德国Linode-1号_26
+      - 法国Do2号_24
+      - 全球直连①
+      - 120.232.251.206:29979 2
+      - 法国Do1号_23
   - name: Other
     type: select
     proxies:
