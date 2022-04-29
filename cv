@@ -5,24 +5,142 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _IN_印度_1, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_2, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_3, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇲🇾_MY_马来西亚_4, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_5, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_6, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_7, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_8, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_9, server: 183.240.60.133, port: 48552, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_10, server: gzydddns.xyz, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 14955:XPVSb1, obfs-param: 7f5ce14955.microsoft.com, udp: true}
-  - {name: _CN_中国_11, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _HK_香港_12, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _US_美国_13, server: 167.172.135.97, port: 25453, type: ss, cipher: aes-256-cfb, password: a40ff797db5c4b948cfe5a5234a0e74c, udp: true}
-  - {name: _US_美国_14, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚_15, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_16, server: 183.240.60.133, port: 48551, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_17, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_18, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_1, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_3, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_4, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_5, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_6, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_7, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_8, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_9, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_10, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_11, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_12, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_13, server: in1a18ba11dfa254.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_14, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_15, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_16, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_17, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_18, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_19, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_20, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_21, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_22, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_23, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_24, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_25, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_26, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_27, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_28, server: in4ba0929902b470.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_29, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_30, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_31, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_32, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_33, server: in4ba0929902b470.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_34, server: in4ba0929902b470.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_35, server: in4ba0929902b470.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_36, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_37, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_38, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_39, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_40, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_41, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 日本_TGatnodesharing_42, server: v2.godlight.xyz, port: 26936, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: 中国_TGatnodesharing_43, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_44, server: in4ba0929902b470.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_45, server: in4ba0929902b470.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_46, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_47, server: in4ba0929902b470.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_48, server: in4ba0929902b470.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 日本_TGatnodesharing_49, server: jp3.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_50, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_51, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_52, server: in4ba0929902b470.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_53, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_54, server: in4ba0929902b470.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_55, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_56, server: fs.keaiyun.top, port: 48517, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_TGatnodesharing_57, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 中国_TGatnodesharing_58, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 日本_TGatnodesharing_59, server: jp2.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_60, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 美国_TGatnodesharing_61, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 美国_TGatnodesharing_62, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: true, udp: true}
+  - {name: 英国_TGatnodesharing_63, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_64, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 美国_TGatnodesharing_65, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_66, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 日本_TGatnodesharing_67, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: 美国_TGatnodesharing_68, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: true, udp: true}
+  - {name: 德国_TGatnodesharing_69, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, skip-cert-verify: true, udp: true}
+  - {name: 日本_TGatnodesharing_70, server: v2.godlight.xyz, port: 26936, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: 中国_TGatnodesharing_71, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
+  - {name: 德国_TGatnodesharing_72, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, skip-cert-verify: true, udp: true}
+  - {name: 美国_TGatnodesharing_73, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_TGatnodesharing_74, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: 中国_TGatnodesharing_75, server: in4ba0929902b470.404sx.com, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_76, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 韩国_TGatnodesharing_77, server: kr2.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_78, server: in4ba0929902b470.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 日本_TGatnodesharing_79, server: v2.godlight.xyz, port: 26936, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: 中国_TGatnodesharing_80, server: in4ba0929902b470.404sx.com, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_81, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
+  - {name: 中国_TGatnodesharing_82, server: fs.keaiyun.top, port: 48518, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_83, server: fs.keaiyun.top, port: 48517, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_TGatnodesharing_84, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 中国_TGatnodesharing_85, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
+  - {name: 中国_TGatnodesharing_86, server: fs.keaiyun.top, port: 55154, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_TGatnodesharing_87, server: sg2.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_88, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 中国_TGatnodesharing_89, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
+  - {name: 中国_TGatnodesharing_90, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
+  - {name: 美国_TGatnodesharing_91, server: 20.211.32.62, port: 6666, type: vmess, uuid: 95ea233c-5044-4771-bee6-53fe0ea38727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 中国_TGatnodesharing_92, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
+  - {name: 中国_TGatnodesharing_93, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 日本_TGatnodesharing_94, server: jp1.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_95, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
+  - {name: 日本_TGatnodesharing_96, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: 中国_TGatnodesharing_97, server: fs.keaiyun.top, port: 48519, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_98, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
+  - {name: 中国_TGatnodesharing_99, server: fs.keaiyun.top, port: 48517, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 卢森堡_TGatnodesharing_100, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_101, server: fs.keaiyun.top, port: 55154, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_102, server: fs.keaiyun.top, port: 48519, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_TGatnodesharing_103, server: 170.178.189.54, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
+  - {name: 美国_TGatnodesharing_104, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
+  - {name: 中国_TGatnodesharing_105, server: fs.keaiyun.top, port: 48519, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_TGatnodesharing_106, server: 67.21.87.226, port: 443, type: vmess, uuid: 8c679b81-84fc-43ce-9553-ddca575a6949, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
+  - {name: 中国_TGatnodesharing_107, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
+  - {name: 美国_TGatnodesharing_108, server: 170.178.189.59, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
+  - {name: 美国_TGatnodesharing_109, server: 104.25.234.170, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
+  - {name: 中国_TGatnodesharing_110, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
+  - {name: 新加坡_TGatnodesharing_111, server: ceshi.speedcncnforward3.tk, port: 8443, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, skip-cert-verify: true, udp: true}
+  - {name: 美国_TGatnodesharing_112, server: 67.21.69.220, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
+  - {name: 新加坡_TGatnodesharing_113, server: ceshi.speedcncnforward3.tk, port: 8443, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, skip-cert-verify: true, udp: true}
+  - {name: TGatnodesharing_114, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly5.xyz}}, udp: true}
+  - {name: 中国_TGatnodesharing_115, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 卢森堡_TGatnodesharing_116, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: 美国_TGatnodesharing_117, server: vps.qweasdzxc.ml, port: 443, type: vmess, uuid: 4850777c-1d10-4651-9936-27a2a500b9a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.qweasdzxc.ml}}, udp: true}
+  - {name: 中国_TGatnodesharing_118, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 美国_TGatnodesharing_119, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uscera.moonfree.top}}, udp: true}
+  - {name: TGatnodesharing_120, server: 104.17.67.190, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
+  - {name: 中国_TGatnodesharing_121, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_TGatnodesharing_122, server: ceshi.speedcncnforward3.tk, port: 8443, type: trojan, password: e816d28a-c617-4954-87f6-aac16c3189f5, skip-cert-verify: true, udp: true}
+  - {name: TGatnodesharing_123, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: 中国_TGatnodesharing_124, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
+  - {name: 美国_TGatnodesharing_125, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 135284c6-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /E94olUFf/, headers: {Host: v2ray.wefuckgfw.ga}}, udp: true}
+  - {name: TGatnodesharing_126, server: vps.gpdsm.top, port: 443, type: vmess, uuid: 8c99d825-821d-4999-a1ac-9276c38e8c58, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.gpdsm.top}}, udp: true}
+  - {name: 美国_TGatnodesharing_127, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: TGatnodesharing_128, server: vps.gpdsm.top, port: 443, type: vmess, uuid: 8c99d825-821d-4999-a1ac-9276c38e8c58, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.gpdsm.top}}, udp: true}
+  - {name: 美国_TGatnodesharing_129, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
+  - {name: 中国_TGatnodesharing_130, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: 中国_TGatnodesharing_131, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: TGatnodesharing_132, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
+  - {name: 美国_TGatnodesharing_133, server: oz.moonfree.top, port: 443, type: vmess, uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
+  - {name: 捷克_TGatnodesharing_134, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
+  - {name: 捷克_TGatnodesharing_135, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_TGatnodesharing_136, server: v2-3.godlight.xyz, port: 39276, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 149.248.1.76, port: 27266, type: vmess, uuid: 1a79bde9-ac7a-4cd9-899c-6dbbe35e16dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /QEc5C9RG/, headers: {Host: 149.248.1.76}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 192.18.138.167, port: 25250, type: vmess, uuid: 0a4164a6-9485-4ba5-f233-a936f8a1d023, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 192.18.142.28, port: 55051, type: vmess, uuid: 3f7c0994-0b8c-49b7-e4d1-5af10d554c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1045,24 +1163,142 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _IN_印度_1
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇭🇰_HK_香港_3
-      - _CN_中国->🇲🇾_MY_马来西亚_4
-      - _US_美国_5
-      - _CN_中国->🇭🇰_HK_香港_6
-      - _CN_中国->🇹🇼_TW_台湾_7
-      - _CN_中国->🇰🇷_KR_韩国_8
-      - _CN_中国->🇸🇬_SG_新加坡_9
-      - _CN_中国->🇭🇰_HK_香港_10
-      - _CN_中国_11
-      - _HK_香港_12
-      - _US_美国_13
-      - _US_美国_14
-      - _AU_澳大利亚_15
-      - _CN_中国->🇸🇬_SG_新加坡_16
-      - _JP_日本_17
-      - _US_美国_18
+      - 中国_TGatnodesharing_1
+      - 中国_TGatnodesharing_2
+      - 中国_TGatnodesharing_3
+      - 中国_TGatnodesharing_4
+      - 中国_TGatnodesharing_5
+      - 中国_TGatnodesharing_6
+      - 中国_TGatnodesharing_7
+      - 中国_TGatnodesharing_8
+      - 中国_TGatnodesharing_9
+      - 中国_TGatnodesharing_10
+      - 中国_TGatnodesharing_11
+      - 中国_TGatnodesharing_12
+      - 中国_TGatnodesharing_13
+      - 中国_TGatnodesharing_14
+      - 中国_TGatnodesharing_15
+      - 中国_TGatnodesharing_16
+      - 中国_TGatnodesharing_17
+      - 中国_TGatnodesharing_18
+      - 中国_TGatnodesharing_19
+      - 中国_TGatnodesharing_20
+      - 中国_TGatnodesharing_21
+      - 中国_TGatnodesharing_22
+      - 中国_TGatnodesharing_23
+      - 中国_TGatnodesharing_24
+      - 中国_TGatnodesharing_25
+      - 中国_TGatnodesharing_26
+      - 中国_TGatnodesharing_27
+      - 中国_TGatnodesharing_28
+      - 中国_TGatnodesharing_29
+      - 中国_TGatnodesharing_30
+      - 中国_TGatnodesharing_31
+      - 中国_TGatnodesharing_32
+      - 中国_TGatnodesharing_33
+      - 中国_TGatnodesharing_34
+      - 中国_TGatnodesharing_35
+      - 中国_TGatnodesharing_36
+      - 中国_TGatnodesharing_37
+      - 中国_TGatnodesharing_38
+      - 中国_TGatnodesharing_39
+      - 中国_TGatnodesharing_40
+      - 中国_TGatnodesharing_41
+      - 日本_TGatnodesharing_42
+      - 中国_TGatnodesharing_43
+      - 中国_TGatnodesharing_44
+      - 中国_TGatnodesharing_45
+      - 中国_TGatnodesharing_46
+      - 中国_TGatnodesharing_47
+      - 中国_TGatnodesharing_48
+      - 日本_TGatnodesharing_49
+      - 中国_TGatnodesharing_50
+      - 中国_TGatnodesharing_51
+      - 中国_TGatnodesharing_52
+      - 中国_TGatnodesharing_53
+      - 中国_TGatnodesharing_54
+      - 中国_TGatnodesharing_55
+      - 中国_TGatnodesharing_56
+      - 美国_TGatnodesharing_57
+      - 中国_TGatnodesharing_58
+      - 日本_TGatnodesharing_59
+      - 中国_TGatnodesharing_60
+      - 美国_TGatnodesharing_61
+      - 美国_TGatnodesharing_62
+      - 英国_TGatnodesharing_63
+      - 中国_TGatnodesharing_64
+      - 美国_TGatnodesharing_65
+      - 中国_TGatnodesharing_66
+      - 日本_TGatnodesharing_67
+      - 美国_TGatnodesharing_68
+      - 德国_TGatnodesharing_69
+      - 日本_TGatnodesharing_70
+      - 中国_TGatnodesharing_71
+      - 德国_TGatnodesharing_72
+      - 美国_TGatnodesharing_73
+      - 新加坡_TGatnodesharing_74
+      - 中国_TGatnodesharing_75
+      - 中国_TGatnodesharing_76
+      - 韩国_TGatnodesharing_77
+      - 中国_TGatnodesharing_78
+      - 日本_TGatnodesharing_79
+      - 中国_TGatnodesharing_80
+      - 中国_TGatnodesharing_81
+      - 中国_TGatnodesharing_82
+      - 中国_TGatnodesharing_83
+      - 美国_TGatnodesharing_84
+      - 中国_TGatnodesharing_85
+      - 中国_TGatnodesharing_86
+      - 新加坡_TGatnodesharing_87
+      - 中国_TGatnodesharing_88
+      - 中国_TGatnodesharing_89
+      - 中国_TGatnodesharing_90
+      - 美国_TGatnodesharing_91
+      - 中国_TGatnodesharing_92
+      - 中国_TGatnodesharing_93
+      - 日本_TGatnodesharing_94
+      - 中国_TGatnodesharing_95
+      - 日本_TGatnodesharing_96
+      - 中国_TGatnodesharing_97
+      - 中国_TGatnodesharing_98
+      - 中国_TGatnodesharing_99
+      - 卢森堡_TGatnodesharing_100
+      - 中国_TGatnodesharing_101
+      - 中国_TGatnodesharing_102
+      - 美国_TGatnodesharing_103
+      - 美国_TGatnodesharing_104
+      - 中国_TGatnodesharing_105
+      - 美国_TGatnodesharing_106
+      - 中国_TGatnodesharing_107
+      - 美国_TGatnodesharing_108
+      - 美国_TGatnodesharing_109
+      - 中国_TGatnodesharing_110
+      - 新加坡_TGatnodesharing_111
+      - 美国_TGatnodesharing_112
+      - 新加坡_TGatnodesharing_113
+      - TGatnodesharing_114
+      - 中国_TGatnodesharing_115
+      - 卢森堡_TGatnodesharing_116
+      - 美国_TGatnodesharing_117
+      - 中国_TGatnodesharing_118
+      - 美国_TGatnodesharing_119
+      - TGatnodesharing_120
+      - 中国_TGatnodesharing_121
+      - 新加坡_TGatnodesharing_122
+      - TGatnodesharing_123
+      - 中国_TGatnodesharing_124
+      - 美国_TGatnodesharing_125
+      - TGatnodesharing_126
+      - 美国_TGatnodesharing_127
+      - TGatnodesharing_128
+      - 美国_TGatnodesharing_129
+      - 中国_TGatnodesharing_130
+      - 中国_TGatnodesharing_131
+      - TGatnodesharing_132
+      - 美国_TGatnodesharing_133
+      - 捷克_TGatnodesharing_134
+      - 捷克_TGatnodesharing_135
+      - 新加坡_TGatnodesharing_136
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -2085,24 +2321,142 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _IN_印度_1
-      - _CN_中国->🇹🇼_TW_台湾_2
-      - _CN_中国->🇭🇰_HK_香港_3
-      - _CN_中国->🇲🇾_MY_马来西亚_4
-      - _US_美国_5
-      - _CN_中国->🇭🇰_HK_香港_6
-      - _CN_中国->🇹🇼_TW_台湾_7
-      - _CN_中国->🇰🇷_KR_韩国_8
-      - _CN_中国->🇸🇬_SG_新加坡_9
-      - _CN_中国->🇭🇰_HK_香港_10
-      - _CN_中国_11
-      - _HK_香港_12
-      - _US_美国_13
-      - _US_美国_14
-      - _AU_澳大利亚_15
-      - _CN_中国->🇸🇬_SG_新加坡_16
-      - _JP_日本_17
-      - _US_美国_18
+      - 中国_TGatnodesharing_1
+      - 中国_TGatnodesharing_2
+      - 中国_TGatnodesharing_3
+      - 中国_TGatnodesharing_4
+      - 中国_TGatnodesharing_5
+      - 中国_TGatnodesharing_6
+      - 中国_TGatnodesharing_7
+      - 中国_TGatnodesharing_8
+      - 中国_TGatnodesharing_9
+      - 中国_TGatnodesharing_10
+      - 中国_TGatnodesharing_11
+      - 中国_TGatnodesharing_12
+      - 中国_TGatnodesharing_13
+      - 中国_TGatnodesharing_14
+      - 中国_TGatnodesharing_15
+      - 中国_TGatnodesharing_16
+      - 中国_TGatnodesharing_17
+      - 中国_TGatnodesharing_18
+      - 中国_TGatnodesharing_19
+      - 中国_TGatnodesharing_20
+      - 中国_TGatnodesharing_21
+      - 中国_TGatnodesharing_22
+      - 中国_TGatnodesharing_23
+      - 中国_TGatnodesharing_24
+      - 中国_TGatnodesharing_25
+      - 中国_TGatnodesharing_26
+      - 中国_TGatnodesharing_27
+      - 中国_TGatnodesharing_28
+      - 中国_TGatnodesharing_29
+      - 中国_TGatnodesharing_30
+      - 中国_TGatnodesharing_31
+      - 中国_TGatnodesharing_32
+      - 中国_TGatnodesharing_33
+      - 中国_TGatnodesharing_34
+      - 中国_TGatnodesharing_35
+      - 中国_TGatnodesharing_36
+      - 中国_TGatnodesharing_37
+      - 中国_TGatnodesharing_38
+      - 中国_TGatnodesharing_39
+      - 中国_TGatnodesharing_40
+      - 中国_TGatnodesharing_41
+      - 日本_TGatnodesharing_42
+      - 中国_TGatnodesharing_43
+      - 中国_TGatnodesharing_44
+      - 中国_TGatnodesharing_45
+      - 中国_TGatnodesharing_46
+      - 中国_TGatnodesharing_47
+      - 中国_TGatnodesharing_48
+      - 日本_TGatnodesharing_49
+      - 中国_TGatnodesharing_50
+      - 中国_TGatnodesharing_51
+      - 中国_TGatnodesharing_52
+      - 中国_TGatnodesharing_53
+      - 中国_TGatnodesharing_54
+      - 中国_TGatnodesharing_55
+      - 中国_TGatnodesharing_56
+      - 美国_TGatnodesharing_57
+      - 中国_TGatnodesharing_58
+      - 日本_TGatnodesharing_59
+      - 中国_TGatnodesharing_60
+      - 美国_TGatnodesharing_61
+      - 美国_TGatnodesharing_62
+      - 英国_TGatnodesharing_63
+      - 中国_TGatnodesharing_64
+      - 美国_TGatnodesharing_65
+      - 中国_TGatnodesharing_66
+      - 日本_TGatnodesharing_67
+      - 美国_TGatnodesharing_68
+      - 德国_TGatnodesharing_69
+      - 日本_TGatnodesharing_70
+      - 中国_TGatnodesharing_71
+      - 德国_TGatnodesharing_72
+      - 美国_TGatnodesharing_73
+      - 新加坡_TGatnodesharing_74
+      - 中国_TGatnodesharing_75
+      - 中国_TGatnodesharing_76
+      - 韩国_TGatnodesharing_77
+      - 中国_TGatnodesharing_78
+      - 日本_TGatnodesharing_79
+      - 中国_TGatnodesharing_80
+      - 中国_TGatnodesharing_81
+      - 中国_TGatnodesharing_82
+      - 中国_TGatnodesharing_83
+      - 美国_TGatnodesharing_84
+      - 中国_TGatnodesharing_85
+      - 中国_TGatnodesharing_86
+      - 新加坡_TGatnodesharing_87
+      - 中国_TGatnodesharing_88
+      - 中国_TGatnodesharing_89
+      - 中国_TGatnodesharing_90
+      - 美国_TGatnodesharing_91
+      - 中国_TGatnodesharing_92
+      - 中国_TGatnodesharing_93
+      - 日本_TGatnodesharing_94
+      - 中国_TGatnodesharing_95
+      - 日本_TGatnodesharing_96
+      - 中国_TGatnodesharing_97
+      - 中国_TGatnodesharing_98
+      - 中国_TGatnodesharing_99
+      - 卢森堡_TGatnodesharing_100
+      - 中国_TGatnodesharing_101
+      - 中国_TGatnodesharing_102
+      - 美国_TGatnodesharing_103
+      - 美国_TGatnodesharing_104
+      - 中国_TGatnodesharing_105
+      - 美国_TGatnodesharing_106
+      - 中国_TGatnodesharing_107
+      - 美国_TGatnodesharing_108
+      - 美国_TGatnodesharing_109
+      - 中国_TGatnodesharing_110
+      - 新加坡_TGatnodesharing_111
+      - 美国_TGatnodesharing_112
+      - 新加坡_TGatnodesharing_113
+      - TGatnodesharing_114
+      - 中国_TGatnodesharing_115
+      - 卢森堡_TGatnodesharing_116
+      - 美国_TGatnodesharing_117
+      - 中国_TGatnodesharing_118
+      - 美国_TGatnodesharing_119
+      - TGatnodesharing_120
+      - 中国_TGatnodesharing_121
+      - 新加坡_TGatnodesharing_122
+      - TGatnodesharing_123
+      - 中国_TGatnodesharing_124
+      - 美国_TGatnodesharing_125
+      - TGatnodesharing_126
+      - 美国_TGatnodesharing_127
+      - TGatnodesharing_128
+      - 美国_TGatnodesharing_129
+      - 中国_TGatnodesharing_130
+      - 中国_TGatnodesharing_131
+      - TGatnodesharing_132
+      - 美国_TGatnodesharing_133
+      - 捷克_TGatnodesharing_134
+      - 捷克_TGatnodesharing_135
+      - 新加坡_TGatnodesharing_136
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
