@@ -5,88 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1","server":"cm-jm.okvpn.xyz","port":20005,"type":"trojan","country":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1","skip-cert-verify":true,"udp":true,"password":"4ea642c6-ca67-4025-aed6-f743f13d0e20"}
-  - {"name":"🇺🇸_US_美国_2","server":"38.75.136.21","port":8881,"type":"ss","country":"🇺🇸_US_美国_2","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_3","server":"167.88.61.70","port":5003,"type":"ss","country":"🇺🇸_US_美国_3","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇳_CN_中国_4","server":"43.154.77.196","port":38539,"type":"vmess","uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国_4","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.77.196"}}}
-  - {"name":"🇺🇸_US_美国_5","server":"38.114.114.19","port":5500,"type":"ss","country":"🇺🇸_US_美国_5","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_6","server":"167.88.61.70","port":2376,"type":"ss","country":"🇺🇸_US_美国_6","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_7","server":"38.75.136.116","port":5601,"type":"ss","country":"🇺🇸_US_美国_7","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🚀收藏本站不迷路_1","server":"54.223.185.171","port":8003,"type":"vmess","uuid":"e854d8f1-f0f7-40fe-a77d-345cf7a78e05","alterId":1,"cipher":"auto","country":"🚀收藏本站不迷路_1","skip-cert-verify":true,"tls":false,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🚀收藏本站不迷路_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🚀收藏本站不迷路_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🚀收藏本站不迷路_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🚀收藏本站不迷路_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🚀收藏本站不迷路_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🚀收藏本站不迷路_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,13 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🚀收藏本站不迷路_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
