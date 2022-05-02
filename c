@@ -5,389 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"加拿大_TGatyzcloud_1","server":"198.57.27.225","port":5004,"type":"ss","country":"加拿大_TGatyzcloud_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"加拿大_TGatyzcloud_2","server":"198.57.27.225","port":5500,"type":"ss","country":"加拿大_TGatyzcloud_2","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"日本_TGatyzcloud_3","server":"85.208.108.58","port":8080,"type":"ss","country":"日本_TGatyzcloud_3","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"新加坡_TGatyzcloud_4","server":"43.135.70.192","port":24740,"type":"vmess","uuid":"3749de34-a1a9-44db-b72a-510712a52d11","alterId":0,"cipher":"auto","country":"新加坡_TGatyzcloud_4","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.135.70.192"}}}
-  - {"name":"中国_TGatyzcloud_5","server":"43.154.77.196","port":38539,"type":"vmess","uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","country":"中国_TGatyzcloud_5","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.77.196"}}}
-  - {"name":"德国_TGatyzcloud_6","server":"5.183.179.145","port":9018,"type":"ss","country":"德国_TGatyzcloud_6","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"name":"香港_TGatyzcloud_7","server":"43.129.227.60","port":27727,"type":"vmess","uuid":"d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b","alterId":0,"cipher":"auto","country":"香港_TGatyzcloud_7","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.129.227.60"}}}
-  - {"name":"加拿大_TGatyzcloud_8","server":"198.57.27.225","port":7001,"type":"ss","country":"加拿大_TGatyzcloud_8","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"加拿大_TGatyzcloud_9","server":"198.57.27.225","port":8118,"type":"ss","country":"加拿大_TGatyzcloud_9","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"保加利亚_TGatyzcloud_10","server":"213.183.63.219","port":9003,"type":"ss","country":"保加利亚_TGatyzcloud_10","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"name":"波兰_TGatyzcloud_11","server":"217.30.10.66","port":9059,"type":"ss","country":"波兰_TGatyzcloud_11","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
-  - {"name":"波兰_TGatyzcloud_12","server":"217.30.10.66","port":9097,"type":"ss","country":"波兰_TGatyzcloud_12","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
-  - {"name":"捷克_TGatyzcloud_13","server":"v2cross.com.05.v2ce.com","port":443,"type":"trojan","country":"捷克_TGatyzcloud_13","skip-cert-verify":true,"udp":true,"password":"kGrwqmB1nEKUsDwE"}
-  - {"name":"美国_TGatyzcloud_14","server":"167.88.61.70","port":8881,"type":"ss","country":"美国_TGatyzcloud_14","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"美国_TGatyzcloud_15","server":"167.88.63.71","port":9102,"type":"ss","country":"美国_TGatyzcloud_15","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"美国_TGatyzcloud_16","server":"167.88.63.60","port":8091,"type":"ss","country":"美国_TGatyzcloud_16","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"英国_TGatyzcloud_17","server":"172.99.190.92","port":9102,"type":"ss","country":"英国_TGatyzcloud_17","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"美国_TGatyzcloud_18","server":"38.68.135.19","port":6379,"type":"ss","country":"美国_TGatyzcloud_18","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"美国_TGatyzcloud_19","server":"167.88.63.108","port":8881,"type":"ss","country":"美国_TGatyzcloud_19","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"英国_TGatyzcloud_20","server":"172.99.190.92","port":8888,"type":"ss","country":"英国_TGatyzcloud_20","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"美国_TGatyzcloud_21","server":"167.88.61.70","port":7002,"type":"ss","country":"美国_TGatyzcloud_21","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"美国_TGatyzcloud_22","server":"167.88.61.70","port":3389,"type":"ss","country":"美国_TGatyzcloud_22","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"美国_TGatyzcloud_23","server":"167.88.61.70","port":2376,"type":"ss","country":"美国_TGatyzcloud_23","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"美国_TGatyzcloud_24","server":"167.88.61.70","port":8009,"type":"ss","country":"美国_TGatyzcloud_24","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"美国_TGatyzcloud_25","server":"167.88.61.70","port":8882,"type":"ss","country":"美国_TGatyzcloud_25","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"美国_TGatyzcloud_26","server":"167.88.61.70","port":8008,"type":"ss","country":"美国_TGatyzcloud_26","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"韩国_TGatyzcloud_27","server":"158.247.203.168","port":7307,"type":"ss","country":"韩国_TGatyzcloud_27","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"美国_TGatyzcloud_28","server":"167.88.61.70","port":5500,"type":"ss","country":"美国_TGatyzcloud_28","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"美国_TGatyzcloud_29","server":"167.88.63.71","port":7307,"type":"ss","country":"美国_TGatyzcloud_29","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"美国_TGatyzcloud_30","server":"167.88.61.70","port":8090,"type":"ss","country":"美国_TGatyzcloud_30","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"美国_TGatyzcloud_31","server":"167.88.61.70","port":7001,"type":"ss","country":"美国_TGatyzcloud_31","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"美国_TGatyzcloud_32","server":"167.88.61.70","port":9102,"type":"ss","country":"美国_TGatyzcloud_32","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"韩国_TGatyzcloud_33","server":"158.247.203.168","port":8008,"type":"ss","country":"韩国_TGatyzcloud_33","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"美国_TGatyzcloud_34","server":"167.88.61.70","port":8119,"type":"ss","country":"美国_TGatyzcloud_34","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"美国_TGatyzcloud_35","server":"167.88.61.70","port":6679,"type":"ss","country":"美国_TGatyzcloud_35","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"美国_TGatyzcloud_36","server":"167.88.61.70","port":8118,"type":"ss","country":"美国_TGatyzcloud_36","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"美国_TGatyzcloud_37","server":"167.88.61.70","port":5004,"type":"ss","country":"美国_TGatyzcloud_37","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"韩国_TGatyzcloud_38","server":"158.247.219.68","port":3389,"type":"ss","country":"韩国_TGatyzcloud_38","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"英国_TGatyzcloud_39","server":"172.99.190.92","port":7307,"type":"ss","country":"英国_TGatyzcloud_39","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"美国_TGatyzcloud_40","server":"167.88.61.70","port":6697,"type":"ss","country":"美国_TGatyzcloud_40","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"美国_TGatyzcloud_41","server":"167.88.61.70","port":9101,"type":"ss","country":"美国_TGatyzcloud_41","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"美国_TGatyzcloud_42","server":"fhcarm1.gaox.ml","port":443,"type":"trojan","country":"美国_TGatyzcloud_42","skip-cert-verify":true,"udp":true,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4"}
-  - {"name":"美国_TGatyzcloud_43","server":"169.197.142.99","port":3306,"type":"ss","country":"美国_TGatyzcloud_43","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"美国_TGatyzcloud_44","server":"169.197.142.99","port":9102,"type":"ss","country":"美国_TGatyzcloud_44","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"加拿大_TGatyzcloud_45","server":"134.195.196.97","port":8881,"type":"ss","country":"加拿大_TGatyzcloud_45","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"美国_TGatyzcloud_46","server":"169.197.142.99","port":443,"type":"ss","country":"美国_TGatyzcloud_46","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"加拿大_TGatyzcloud_47","server":"134.195.196.97","port":8091,"type":"ss","country":"加拿大_TGatyzcloud_47","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"加拿大_TGatyzcloud_48","server":"134.195.196.41","port":4444,"type":"ss","country":"加拿大_TGatyzcloud_48","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"美国_TGatyzcloud_49","server":"169.197.142.99","port":5004,"type":"ss","country":"美国_TGatyzcloud_49","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"德国_TGatyzcloud_50","server":"5.183.179.146","port":9093,"type":"ss","country":"德国_TGatyzcloud_50","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"🇺🇸_US_美国_1","server":"fhcarm1.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"udp":true,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4"}
+  - {"name":"🇰🇷_KR_韩国_2","server":"158.247.203.168","port":8008,"type":"ss","country":"🇰🇷_KR_韩国_2","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇰🇷_KR_韩国_3","server":"158.247.203.168","port":7307,"type":"ss","country":"🇰🇷_KR_韩国_3","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_4","server":"169.197.142.99","port":3306,"type":"ss","country":"🇺🇸_US_美国_4","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_5","server":"169.197.142.99","port":9102,"type":"ss","country":"🇺🇸_US_美国_5","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇯🇵_JP_日本_6","server":"85.208.108.58","port":8080,"type":"ss","country":"🇯🇵_JP_日本_6","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_7","server":"167.88.61.70","port":8008,"type":"ss","country":"🇺🇸_US_美国_7","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_8","server":"167.88.61.70","port":9102,"type":"ss","country":"🇺🇸_US_美国_8","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_9","server":"167.88.61.70","port":7002,"type":"ss","country":"🇺🇸_US_美国_9","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_10","server":"167.88.61.70","port":8119,"type":"ss","country":"🇺🇸_US_美国_10","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 加拿大_TGatyzcloud_1
-      - 加拿大_TGatyzcloud_2
-      - 日本_TGatyzcloud_3
-      - 新加坡_TGatyzcloud_4
-      - 中国_TGatyzcloud_5
-      - 德国_TGatyzcloud_6
-      - 香港_TGatyzcloud_7
-      - 加拿大_TGatyzcloud_8
-      - 加拿大_TGatyzcloud_9
-      - 保加利亚_TGatyzcloud_10
-      - 波兰_TGatyzcloud_11
-      - 波兰_TGatyzcloud_12
-      - 捷克_TGatyzcloud_13
-      - 美国_TGatyzcloud_14
-      - 美国_TGatyzcloud_15
-      - 美国_TGatyzcloud_16
-      - 英国_TGatyzcloud_17
-      - 美国_TGatyzcloud_18
-      - 美国_TGatyzcloud_19
-      - 英国_TGatyzcloud_20
-      - 美国_TGatyzcloud_21
-      - 美国_TGatyzcloud_22
-      - 美国_TGatyzcloud_23
-      - 美国_TGatyzcloud_24
-      - 美国_TGatyzcloud_25
-      - 美国_TGatyzcloud_26
-      - 韩国_TGatyzcloud_27
-      - 美国_TGatyzcloud_28
-      - 美国_TGatyzcloud_29
-      - 美国_TGatyzcloud_30
-      - 美国_TGatyzcloud_31
-      - 美国_TGatyzcloud_32
-      - 韩国_TGatyzcloud_33
-      - 美国_TGatyzcloud_34
-      - 美国_TGatyzcloud_35
-      - 美国_TGatyzcloud_36
-      - 美国_TGatyzcloud_37
-      - 韩国_TGatyzcloud_38
-      - 英国_TGatyzcloud_39
-      - 美国_TGatyzcloud_40
-      - 美国_TGatyzcloud_41
-      - 美国_TGatyzcloud_42
-      - 美国_TGatyzcloud_43
-      - 美国_TGatyzcloud_44
-      - 加拿大_TGatyzcloud_45
-      - 美国_TGatyzcloud_46
-      - 加拿大_TGatyzcloud_47
-      - 加拿大_TGatyzcloud_48
-      - 美国_TGatyzcloud_49
-      - 德国_TGatyzcloud_50
+      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 加拿大_TGatyzcloud_1
-      - 加拿大_TGatyzcloud_2
-      - 日本_TGatyzcloud_3
-      - 新加坡_TGatyzcloud_4
-      - 中国_TGatyzcloud_5
-      - 德国_TGatyzcloud_6
-      - 香港_TGatyzcloud_7
-      - 加拿大_TGatyzcloud_8
-      - 加拿大_TGatyzcloud_9
-      - 保加利亚_TGatyzcloud_10
-      - 波兰_TGatyzcloud_11
-      - 波兰_TGatyzcloud_12
-      - 捷克_TGatyzcloud_13
-      - 美国_TGatyzcloud_14
-      - 美国_TGatyzcloud_15
-      - 美国_TGatyzcloud_16
-      - 英国_TGatyzcloud_17
-      - 美国_TGatyzcloud_18
-      - 美国_TGatyzcloud_19
-      - 英国_TGatyzcloud_20
-      - 美国_TGatyzcloud_21
-      - 美国_TGatyzcloud_22
-      - 美国_TGatyzcloud_23
-      - 美国_TGatyzcloud_24
-      - 美国_TGatyzcloud_25
-      - 美国_TGatyzcloud_26
-      - 韩国_TGatyzcloud_27
-      - 美国_TGatyzcloud_28
-      - 美国_TGatyzcloud_29
-      - 美国_TGatyzcloud_30
-      - 美国_TGatyzcloud_31
-      - 美国_TGatyzcloud_32
-      - 韩国_TGatyzcloud_33
-      - 美国_TGatyzcloud_34
-      - 美国_TGatyzcloud_35
-      - 美国_TGatyzcloud_36
-      - 美国_TGatyzcloud_37
-      - 韩国_TGatyzcloud_38
-      - 英国_TGatyzcloud_39
-      - 美国_TGatyzcloud_40
-      - 美国_TGatyzcloud_41
-      - 美国_TGatyzcloud_42
-      - 美国_TGatyzcloud_43
-      - 美国_TGatyzcloud_44
-      - 加拿大_TGatyzcloud_45
-      - 美国_TGatyzcloud_46
-      - 加拿大_TGatyzcloud_47
-      - 加拿大_TGatyzcloud_48
-      - 美国_TGatyzcloud_49
-      - 德国_TGatyzcloud_50
+      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 加拿大_TGatyzcloud_1
-      - 加拿大_TGatyzcloud_2
-      - 日本_TGatyzcloud_3
-      - 新加坡_TGatyzcloud_4
-      - 中国_TGatyzcloud_5
-      - 德国_TGatyzcloud_6
-      - 香港_TGatyzcloud_7
-      - 加拿大_TGatyzcloud_8
-      - 加拿大_TGatyzcloud_9
-      - 保加利亚_TGatyzcloud_10
-      - 波兰_TGatyzcloud_11
-      - 波兰_TGatyzcloud_12
-      - 捷克_TGatyzcloud_13
-      - 美国_TGatyzcloud_14
-      - 美国_TGatyzcloud_15
-      - 美国_TGatyzcloud_16
-      - 英国_TGatyzcloud_17
-      - 美国_TGatyzcloud_18
-      - 美国_TGatyzcloud_19
-      - 英国_TGatyzcloud_20
-      - 美国_TGatyzcloud_21
-      - 美国_TGatyzcloud_22
-      - 美国_TGatyzcloud_23
-      - 美国_TGatyzcloud_24
-      - 美国_TGatyzcloud_25
-      - 美国_TGatyzcloud_26
-      - 韩国_TGatyzcloud_27
-      - 美国_TGatyzcloud_28
-      - 美国_TGatyzcloud_29
-      - 美国_TGatyzcloud_30
-      - 美国_TGatyzcloud_31
-      - 美国_TGatyzcloud_32
-      - 韩国_TGatyzcloud_33
-      - 美国_TGatyzcloud_34
-      - 美国_TGatyzcloud_35
-      - 美国_TGatyzcloud_36
-      - 美国_TGatyzcloud_37
-      - 韩国_TGatyzcloud_38
-      - 英国_TGatyzcloud_39
-      - 美国_TGatyzcloud_40
-      - 美国_TGatyzcloud_41
-      - 美国_TGatyzcloud_42
-      - 美国_TGatyzcloud_43
-      - 美国_TGatyzcloud_44
-      - 加拿大_TGatyzcloud_45
-      - 美国_TGatyzcloud_46
-      - 加拿大_TGatyzcloud_47
-      - 加拿大_TGatyzcloud_48
-      - 美国_TGatyzcloud_49
-      - 德国_TGatyzcloud_50
+      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 加拿大_TGatyzcloud_1
-      - 加拿大_TGatyzcloud_2
-      - 日本_TGatyzcloud_3
-      - 新加坡_TGatyzcloud_4
-      - 中国_TGatyzcloud_5
-      - 德国_TGatyzcloud_6
-      - 香港_TGatyzcloud_7
-      - 加拿大_TGatyzcloud_8
-      - 加拿大_TGatyzcloud_9
-      - 保加利亚_TGatyzcloud_10
-      - 波兰_TGatyzcloud_11
-      - 波兰_TGatyzcloud_12
-      - 捷克_TGatyzcloud_13
-      - 美国_TGatyzcloud_14
-      - 美国_TGatyzcloud_15
-      - 美国_TGatyzcloud_16
-      - 英国_TGatyzcloud_17
-      - 美国_TGatyzcloud_18
-      - 美国_TGatyzcloud_19
-      - 英国_TGatyzcloud_20
-      - 美国_TGatyzcloud_21
-      - 美国_TGatyzcloud_22
-      - 美国_TGatyzcloud_23
-      - 美国_TGatyzcloud_24
-      - 美国_TGatyzcloud_25
-      - 美国_TGatyzcloud_26
-      - 韩国_TGatyzcloud_27
-      - 美国_TGatyzcloud_28
-      - 美国_TGatyzcloud_29
-      - 美国_TGatyzcloud_30
-      - 美国_TGatyzcloud_31
-      - 美国_TGatyzcloud_32
-      - 韩国_TGatyzcloud_33
-      - 美国_TGatyzcloud_34
-      - 美国_TGatyzcloud_35
-      - 美国_TGatyzcloud_36
-      - 美国_TGatyzcloud_37
-      - 韩国_TGatyzcloud_38
-      - 英国_TGatyzcloud_39
-      - 美国_TGatyzcloud_40
-      - 美国_TGatyzcloud_41
-      - 美国_TGatyzcloud_42
-      - 美国_TGatyzcloud_43
-      - 美国_TGatyzcloud_44
-      - 加拿大_TGatyzcloud_45
-      - 美国_TGatyzcloud_46
-      - 加拿大_TGatyzcloud_47
-      - 加拿大_TGatyzcloud_48
-      - 美国_TGatyzcloud_49
-      - 德国_TGatyzcloud_50
+      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 加拿大_TGatyzcloud_1
-      - 加拿大_TGatyzcloud_2
-      - 日本_TGatyzcloud_3
-      - 新加坡_TGatyzcloud_4
-      - 中国_TGatyzcloud_5
-      - 德国_TGatyzcloud_6
-      - 香港_TGatyzcloud_7
-      - 加拿大_TGatyzcloud_8
-      - 加拿大_TGatyzcloud_9
-      - 保加利亚_TGatyzcloud_10
-      - 波兰_TGatyzcloud_11
-      - 波兰_TGatyzcloud_12
-      - 捷克_TGatyzcloud_13
-      - 美国_TGatyzcloud_14
-      - 美国_TGatyzcloud_15
-      - 美国_TGatyzcloud_16
-      - 英国_TGatyzcloud_17
-      - 美国_TGatyzcloud_18
-      - 美国_TGatyzcloud_19
-      - 英国_TGatyzcloud_20
-      - 美国_TGatyzcloud_21
-      - 美国_TGatyzcloud_22
-      - 美国_TGatyzcloud_23
-      - 美国_TGatyzcloud_24
-      - 美国_TGatyzcloud_25
-      - 美国_TGatyzcloud_26
-      - 韩国_TGatyzcloud_27
-      - 美国_TGatyzcloud_28
-      - 美国_TGatyzcloud_29
-      - 美国_TGatyzcloud_30
-      - 美国_TGatyzcloud_31
-      - 美国_TGatyzcloud_32
-      - 韩国_TGatyzcloud_33
-      - 美国_TGatyzcloud_34
-      - 美国_TGatyzcloud_35
-      - 美国_TGatyzcloud_36
-      - 美国_TGatyzcloud_37
-      - 韩国_TGatyzcloud_38
-      - 英国_TGatyzcloud_39
-      - 美国_TGatyzcloud_40
-      - 美国_TGatyzcloud_41
-      - 美国_TGatyzcloud_42
-      - 美国_TGatyzcloud_43
-      - 美国_TGatyzcloud_44
-      - 加拿大_TGatyzcloud_45
-      - 美国_TGatyzcloud_46
-      - 加拿大_TGatyzcloud_47
-      - 加拿大_TGatyzcloud_48
-      - 美国_TGatyzcloud_49
-      - 德国_TGatyzcloud_50
+      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 加拿大_TGatyzcloud_1
-      - 加拿大_TGatyzcloud_2
-      - 日本_TGatyzcloud_3
-      - 新加坡_TGatyzcloud_4
-      - 中国_TGatyzcloud_5
-      - 德国_TGatyzcloud_6
-      - 香港_TGatyzcloud_7
-      - 加拿大_TGatyzcloud_8
-      - 加拿大_TGatyzcloud_9
-      - 保加利亚_TGatyzcloud_10
-      - 波兰_TGatyzcloud_11
-      - 波兰_TGatyzcloud_12
-      - 捷克_TGatyzcloud_13
-      - 美国_TGatyzcloud_14
-      - 美国_TGatyzcloud_15
-      - 美国_TGatyzcloud_16
-      - 英国_TGatyzcloud_17
-      - 美国_TGatyzcloud_18
-      - 美国_TGatyzcloud_19
-      - 英国_TGatyzcloud_20
-      - 美国_TGatyzcloud_21
-      - 美国_TGatyzcloud_22
-      - 美国_TGatyzcloud_23
-      - 美国_TGatyzcloud_24
-      - 美国_TGatyzcloud_25
-      - 美国_TGatyzcloud_26
-      - 韩国_TGatyzcloud_27
-      - 美国_TGatyzcloud_28
-      - 美国_TGatyzcloud_29
-      - 美国_TGatyzcloud_30
-      - 美国_TGatyzcloud_31
-      - 美国_TGatyzcloud_32
-      - 韩国_TGatyzcloud_33
-      - 美国_TGatyzcloud_34
-      - 美国_TGatyzcloud_35
-      - 美国_TGatyzcloud_36
-      - 美国_TGatyzcloud_37
-      - 韩国_TGatyzcloud_38
-      - 英国_TGatyzcloud_39
-      - 美国_TGatyzcloud_40
-      - 美国_TGatyzcloud_41
-      - 美国_TGatyzcloud_42
-      - 美国_TGatyzcloud_43
-      - 美国_TGatyzcloud_44
-      - 加拿大_TGatyzcloud_45
-      - 美国_TGatyzcloud_46
-      - 加拿大_TGatyzcloud_47
-      - 加拿大_TGatyzcloud_48
-      - 美国_TGatyzcloud_49
-      - 德国_TGatyzcloud_50
+      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,56 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 加拿大_TGatyzcloud_1
-      - 加拿大_TGatyzcloud_2
-      - 日本_TGatyzcloud_3
-      - 新加坡_TGatyzcloud_4
-      - 中国_TGatyzcloud_5
-      - 德国_TGatyzcloud_6
-      - 香港_TGatyzcloud_7
-      - 加拿大_TGatyzcloud_8
-      - 加拿大_TGatyzcloud_9
-      - 保加利亚_TGatyzcloud_10
-      - 波兰_TGatyzcloud_11
-      - 波兰_TGatyzcloud_12
-      - 捷克_TGatyzcloud_13
-      - 美国_TGatyzcloud_14
-      - 美国_TGatyzcloud_15
-      - 美国_TGatyzcloud_16
-      - 英国_TGatyzcloud_17
-      - 美国_TGatyzcloud_18
-      - 美国_TGatyzcloud_19
-      - 英国_TGatyzcloud_20
-      - 美国_TGatyzcloud_21
-      - 美国_TGatyzcloud_22
-      - 美国_TGatyzcloud_23
-      - 美国_TGatyzcloud_24
-      - 美国_TGatyzcloud_25
-      - 美国_TGatyzcloud_26
-      - 韩国_TGatyzcloud_27
-      - 美国_TGatyzcloud_28
-      - 美国_TGatyzcloud_29
-      - 美国_TGatyzcloud_30
-      - 美国_TGatyzcloud_31
-      - 美国_TGatyzcloud_32
-      - 韩国_TGatyzcloud_33
-      - 美国_TGatyzcloud_34
-      - 美国_TGatyzcloud_35
-      - 美国_TGatyzcloud_36
-      - 美国_TGatyzcloud_37
-      - 韩国_TGatyzcloud_38
-      - 英国_TGatyzcloud_39
-      - 美国_TGatyzcloud_40
-      - 美国_TGatyzcloud_41
-      - 美国_TGatyzcloud_42
-      - 美国_TGatyzcloud_43
-      - 美国_TGatyzcloud_44
-      - 加拿大_TGatyzcloud_45
-      - 美国_TGatyzcloud_46
-      - 加拿大_TGatyzcloud_47
-      - 加拿大_TGatyzcloud_48
-      - 美国_TGatyzcloud_49
-      - 德国_TGatyzcloud_50
+      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
