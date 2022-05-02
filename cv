@@ -5,37 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 加拿大_-tg频道:atunivstar_1, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大_-tg频道:atunivstar_2, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 波兰_-tg频道:atunivstar_3, server: 217.30.10.67, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 英国_-tg频道:atunivstar_4, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 美国_-tg频道:atunivstar_5, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 波兰_-tg频道:atunivstar_6, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: 加拿大_-tg频道:atunivstar_7, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国_-tg频道:atunivstar_8, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 德国_-tg频道:atunivstar_9, server: 5.183.179.167, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 美国_-tg频道:atunivstar_10, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 波兰_-tg频道:atunivstar_11, server: 217.30.10.65, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 香港_-tg频道:atbpjzx2_12, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: 中国_-tg频道:atunivstar_13, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 英国_-tg频道:atunivstar_14, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 日本_-tg频道:atunivstar_15, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国_-tg频道:atunivstar_16, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 德国_-tg频道:atunivstar_17, server: 5.183.179.167, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 德国_-tg频道:atunivstar_18, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 加拿大_-tg频道:atunivstar_19, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国_-tg频道:atunivstar_20, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 波兰_-tg频道:atunivstar_21, server: 217.30.10.67, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 波兰_-tg频道:atunivstar_22, server: 217.30.10.67, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: 加拿大_-tg频道:atunivstar_23, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 澳大利亚_-tg频道:atunivstar_24, server: 185.167.116.253, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: 澳大利亚_-tg频道:atunivstar_25, server: 185.167.116.253, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 美国_-tg频道:atunivstar_26, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 澳大利亚_-tg频道:atunivstar_27, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: 德国_-tg频道:atunivstar_28, server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: 德国_-tg频道:atunivstar_29, server: 5.183.179.167, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: 波兰_-tg频道:atunivstar_30, server: 217.30.10.67, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: 德国_-tg频道:atunivstar_31, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _CA_加拿大_1, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
@@ -1111,37 +1081,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 加拿大_-tg频道:atunivstar_1
-      - 加拿大_-tg频道:atunivstar_2
-      - 波兰_-tg频道:atunivstar_3
-      - 英国_-tg频道:atunivstar_4
-      - 美国_-tg频道:atunivstar_5
-      - 波兰_-tg频道:atunivstar_6
-      - 加拿大_-tg频道:atunivstar_7
-      - 美国_-tg频道:atunivstar_8
-      - 德国_-tg频道:atunivstar_9
-      - 美国_-tg频道:atunivstar_10
-      - 波兰_-tg频道:atunivstar_11
-      - 香港_-tg频道:atbpjzx2_12
-      - 中国_-tg频道:atunivstar_13
-      - 英国_-tg频道:atunivstar_14
-      - 日本_-tg频道:atunivstar_15
-      - 美国_-tg频道:atunivstar_16
-      - 德国_-tg频道:atunivstar_17
-      - 德国_-tg频道:atunivstar_18
-      - 加拿大_-tg频道:atunivstar_19
-      - 美国_-tg频道:atunivstar_20
-      - 波兰_-tg频道:atunivstar_21
-      - 波兰_-tg频道:atunivstar_22
-      - 加拿大_-tg频道:atunivstar_23
-      - 澳大利亚_-tg频道:atunivstar_24
-      - 澳大利亚_-tg频道:atunivstar_25
-      - 美国_-tg频道:atunivstar_26
-      - 澳大利亚_-tg频道:atunivstar_27
-      - 德国_-tg频道:atunivstar_28
-      - 德国_-tg频道:atunivstar_29
-      - 波兰_-tg频道:atunivstar_30
-      - 德国_-tg频道:atunivstar_31
+      - _CA_加拿大_1
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -2217,37 +2157,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - 加拿大_-tg频道:atunivstar_1
-      - 加拿大_-tg频道:atunivstar_2
-      - 波兰_-tg频道:atunivstar_3
-      - 英国_-tg频道:atunivstar_4
-      - 美国_-tg频道:atunivstar_5
-      - 波兰_-tg频道:atunivstar_6
-      - 加拿大_-tg频道:atunivstar_7
-      - 美国_-tg频道:atunivstar_8
-      - 德国_-tg频道:atunivstar_9
-      - 美国_-tg频道:atunivstar_10
-      - 波兰_-tg频道:atunivstar_11
-      - 香港_-tg频道:atbpjzx2_12
-      - 中国_-tg频道:atunivstar_13
-      - 英国_-tg频道:atunivstar_14
-      - 日本_-tg频道:atunivstar_15
-      - 美国_-tg频道:atunivstar_16
-      - 德国_-tg频道:atunivstar_17
-      - 德国_-tg频道:atunivstar_18
-      - 加拿大_-tg频道:atunivstar_19
-      - 美国_-tg频道:atunivstar_20
-      - 波兰_-tg频道:atunivstar_21
-      - 波兰_-tg频道:atunivstar_22
-      - 加拿大_-tg频道:atunivstar_23
-      - 澳大利亚_-tg频道:atunivstar_24
-      - 澳大利亚_-tg频道:atunivstar_25
-      - 美国_-tg频道:atunivstar_26
-      - 澳大利亚_-tg频道:atunivstar_27
-      - 德国_-tg频道:atunivstar_28
-      - 德国_-tg频道:atunivstar_29
-      - 波兰_-tg频道:atunivstar_30
-      - 德国_-tg频道:atunivstar_31
+      - _CA_加拿大_1
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
