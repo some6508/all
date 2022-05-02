@@ -644,6 +644,46 @@ proxies:
   - {name: _DE_德国 2, server: 5.183.179.140, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
   - {name: 152.89.210.105:9088, server: 152.89.210.105, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
   - {name: 152.89.210.105:9032, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: _BG_保加利亚, server: 213.183.63.219, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: x.gotout.work, port: 30021, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: _DE_德国 3, server: 5.183.179.166, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _DE_德国 4, server: 5.183.179.140, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: _DE_德国 5, server: 5.183.179.140, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: _DE_德国 6, server: 5.183.179.140, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _GB_英国 3, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 152.89.210.105:9094, server: 152.89.210.105, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 152.89.210.105:9098, server: 152.89.210.105, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 152.89.210.105:9037, server: 152.89.210.105, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 152.89.210.105:9050, server: 152.89.210.105, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: _PL_波兰 3, server: 217.30.10.67, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: _US_美国 2, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: _DE_德国 7, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本 2, server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: cn.speedabc.xyz, port: 42011, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国 8, server: 5.183.179.145, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: _DE_德国 9, server: 5.183.179.146, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: _DE_德国 10, server: 5.183.179.145, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: _DE_德国 11, server: 5.183.179.140, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: _DE_德国 12, server: 5.183.179.146, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: _DE_德国 13, server: 5.183.179.166, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: _DE_德国 14, server: 5.183.179.140, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: _DE_德国 15, server: 5.183.179.140, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: _DE_德国 16, server: 5.183.179.145, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: _DE_德国 17, server: 5.183.179.140, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: _DE_德国 18, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 152.89.210.105:9084, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 152.89.210.105:9056, server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _US_美国 3, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国 4, server: 185.167.117.171, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _GB_英国 5, server: 185.167.117.171, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国, server: ggiplc03.jfjfhg.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: _DE_德国 19, server: 5.183.179.137, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: _DE_德国 20, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: _DE_德国 21, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: _DE_德国 22, server: 5.183.179.167, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: _DE_德国 23, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1802,6 +1842,46 @@ proxy-groups:
       - _DE_德国 2
       - 152.89.210.105:9088
       - 152.89.210.105:9032
+      - _BG_保加利亚
+      - _CN_中国->🇹🇼_TW_台湾
+      - _DE_德国 3
+      - _DE_德国 4
+      - _DE_德国 5
+      - _DE_德国 6
+      - _GB_英国 3
+      - 152.89.210.105:9094
+      - 152.89.210.105:9098
+      - 152.89.210.105:9037
+      - 152.89.210.105:9050
+      - _PL_波兰 3
+      - _US_美国 2
+      - _CN_中国
+      - _CN_中国->🇯🇵_JP_日本
+      - _DE_德国 7
+      - _CN_中国->🇯🇵_JP_日本 2
+      - _CN_中国->🇭🇰_HK_香港
+      - _DE_德国 8
+      - _DE_德国 9
+      - _DE_德国 10
+      - _DE_德国 11
+      - _DE_德国 12
+      - _DE_德国 13
+      - _DE_德国 14
+      - _DE_德国 15
+      - _DE_德国 16
+      - _DE_德国 17
+      - _DE_德国 18
+      - 152.89.210.105:9084
+      - 152.89.210.105:9056
+      - _US_美国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _CN_中国->🇬🇧_GB_英国
+      - _DE_德国 19
+      - _DE_德国 20
+      - _DE_德国 21
+      - _DE_德国 22
+      - _DE_德国 23
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2960,6 +3040,46 @@ proxy-groups:
       - _DE_德国 2
       - 152.89.210.105:9088
       - 152.89.210.105:9032
+      - _BG_保加利亚
+      - _CN_中国->🇹🇼_TW_台湾
+      - _DE_德国 3
+      - _DE_德国 4
+      - _DE_德国 5
+      - _DE_德国 6
+      - _GB_英国 3
+      - 152.89.210.105:9094
+      - 152.89.210.105:9098
+      - 152.89.210.105:9037
+      - 152.89.210.105:9050
+      - _PL_波兰 3
+      - _US_美国 2
+      - _CN_中国
+      - _CN_中国->🇯🇵_JP_日本
+      - _DE_德国 7
+      - _CN_中国->🇯🇵_JP_日本 2
+      - _CN_中国->🇭🇰_HK_香港
+      - _DE_德国 8
+      - _DE_德国 9
+      - _DE_德国 10
+      - _DE_德国 11
+      - _DE_德国 12
+      - _DE_德国 13
+      - _DE_德国 14
+      - _DE_德国 15
+      - _DE_德国 16
+      - _DE_德国 17
+      - _DE_德国 18
+      - 152.89.210.105:9084
+      - 152.89.210.105:9056
+      - _US_美国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _CN_中国->🇬🇧_GB_英国
+      - _DE_德国 19
+      - _DE_德国 20
+      - _DE_德国 21
+      - _DE_德国 22
+      - _DE_德国 23
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
