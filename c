@@ -5,389 +5,256 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇭🇰_HK_香港_1","server":"ssl.tcpbbr.net","port":443,"type":"trojan","country":"🇭🇰_HK_香港_1","skip-cert-verify":true,"udp":true,"password":"7b4066ae-accc-11eb-a8bf-f23c91cfbbc9"}
-  - {"name":"🇬🇧_GB_英国_2","server":"152.89.210.105","port":9050,"type":"ss","country":"🇬🇧_GB_英国_2","cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE"}
-  - {"name":"🇬🇧_GB_英国_3","server":"152.89.210.105","port":9088,"type":"ssr","country":"🇬🇧_GB_英国_3","password":"f8npKgNzdkss2ytn","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇬🇧_GB_英国_4","server":"152.89.210.105","port":9037,"type":"ssr","country":"🇬🇧_GB_英国_4","password":"TN2YqghxeFDKZfLU","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇨🇳_CN_中国_5","server":"43.154.77.196","port":38539,"type":"vmess","uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国_5","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.77.196"}}}
-  - {"name":"🇬🇧_GB_英国_6","server":"152.89.210.105","port":9084,"type":"ssr","country":"🇬🇧_GB_英国_6","password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇬🇧_GB_英国_7","server":"152.89.210.105","port":9064,"type":"ssr","country":"🇬🇧_GB_英国_7","password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇬🇧_GB_英国_8","server":"152.89.210.105","port":9094,"type":"ss","country":"🇬🇧_GB_英国_8","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
-  - {"name":"🇬🇧_GB_英国_9","server":"152.89.210.105","port":9093,"type":"ss","country":"🇬🇧_GB_英国_9","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
-  - {"name":"🇬🇧_GB_英国_10","server":"152.89.210.105","port":9088,"type":"ss","country":"🇬🇧_GB_英国_10","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
-  - {"name":"🇬🇧_GB_英国_11","server":"152.89.210.105","port":9093,"type":"ssr","country":"🇬🇧_GB_英国_11","password":"wfLC2y7rzZyCmuyt","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇧🇬_BG_保加利亚_12","server":"213.183.63.219","port":9033,"type":"ss","country":"🇧🇬_BG_保加利亚_12","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
-  - {"name":"🇬🇧_GB_英国_13","server":"152.89.210.105","port":9042,"type":"ss","country":"🇬🇧_GB_英国_13","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
-  - {"name":"🇺🇸_US_美国_14","server":"fhcarm1.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_14","skip-cert-verify":true,"udp":true,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4"}
-  - {"name":"🇵🇱_PL_波兰_15","server":"217.30.10.65","port":9027,"type":"ss","country":"🇵🇱_PL_波兰_15","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"name":"🇵🇱_PL_波兰_16","server":"217.30.10.65","port":9046,"type":"ss","country":"🇵🇱_PL_波兰_16","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
-  - {"name":"🇨🇦_CA_加拿大_17","server":"198.57.27.225","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_17","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_18","server":"198.57.27.225","port":6697,"type":"ss","country":"🇨🇦_CA_加拿大_18","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_19","server":"198.57.27.225","port":5004,"type":"ss","country":"🇨🇦_CA_加拿大_19","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_20","server":"198.57.27.225","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_20","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_21","server":"169.197.142.99","port":443,"type":"ss","country":"🇺🇸_US_美国_21","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_US_美国_22","server":"169.197.142.99","port":8090,"type":"ss","country":"🇺🇸_US_美国_22","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇩🇪_DE_德国_23","server":"5.183.179.146","port":9097,"type":"ss","country":"🇩🇪_DE_德国_23","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
-  - {"name":"🇩🇪_DE_德国_24","server":"5.183.179.146","port":9003,"type":"ss","country":"🇩🇪_DE_德国_24","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"name":"🇬🇧_GB_英国_25","server":"152.89.210.105","port":9056,"type":"ss","country":"🇬🇧_GB_英国_25","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"name":"🇬🇧_GB_英国_26","server":"152.89.210.105","port":9073,"type":"ss","country":"🇬🇧_GB_英国_26","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_27","server":"cn.speedabc.xyz","port":42011,"type":"trojan","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_27","skip-cert-verify":true,"udp":true,"password":"cfbabf31-2cf6-40ca-9688-abbb682370aa"}
-  - {"name":"🇩🇪_DE_德国_28","server":"5.183.179.140","port":9003,"type":"ss","country":"🇩🇪_DE_德国_28","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"name":"🇩🇪_DE_德国_29","server":"5.183.179.146","port":9057,"type":"ss","country":"🇩🇪_DE_德国_29","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"name":"🇩🇪_DE_德国_30","server":"5.183.179.145","port":9056,"type":"ss","country":"🇩🇪_DE_德国_30","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"name":"🇩🇪_DE_德国_31","server":"5.183.179.146","port":9043,"type":"ss","country":"🇩🇪_DE_德国_31","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
-  - {"name":"🇩🇪_DE_德国_32","server":"5.183.179.146","port":9079,"type":"ss","country":"🇩🇪_DE_德国_32","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"name":"🇩🇪_DE_德国_33","server":"5.183.179.167","port":9031,"type":"ss","country":"🇩🇪_DE_德国_33","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"🇩🇪_DE_德国_34","server":"5.183.179.140","port":9057,"type":"ss","country":"🇩🇪_DE_德国_34","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"name":"🇩🇪_DE_德国_35","server":"5.183.179.167","port":9093,"type":"ss","country":"🇩🇪_DE_德国_35","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
-  - {"name":"🇬🇧_GB_英国_36","server":"185.167.117.171","port":9032,"type":"ss","country":"🇬🇧_GB_英国_36","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
-  - {"name":"🇬🇧_GB_英国_37","server":"185.167.117.171","port":9003,"type":"ss","country":"🇬🇧_GB_英国_37","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"name":"🇬🇧_GB_英国_38","server":"152.89.210.105","port":9000,"type":"ss","country":"🇬🇧_GB_英国_38","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
-  - {"name":"🇬🇧_GB_英国_39","server":"185.167.117.171","port":9084,"type":"ss","country":"🇬🇧_GB_英国_39","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"🇬🇧_GB_英国_40","server":"185.167.117.171","port":9020,"type":"ss","country":"🇬🇧_GB_英国_40","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"🇬🇧_GB_英国_41","server":"152.89.210.105","port":9032,"type":"ssr","country":"🇬🇧_GB_英国_41","password":"UWZQeLRWnkqgkseq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇧🇬_BG_保加利亚_42","server":"213.183.63.218","port":9097,"type":"ss","country":"🇧🇬_BG_保加利亚_42","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
-  - {"name":"🇧🇬_BG_保加利亚_43","server":"213.183.63.219","port":9003,"type":"ss","country":"🇧🇬_BG_保加利亚_43","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"name":"🇧🇬_BG_保加利亚_44","server":"213.183.63.218","port":9040,"type":"ss","country":"🇧🇬_BG_保加利亚_44","cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
-  - {"name":"🇳🇱_NL_荷兰_45","server":"213.183.51.172","port":9070,"type":"ss","country":"🇳🇱_NL_荷兰_45","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"name":"🇷🇴_RO_罗马尼亚_46","server":"62.216.91.232","port":9005,"type":"ss","country":"🇷🇴_RO_罗马尼亚_46","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
-  - {"name":"🇵🇱_PL_波兰_47","server":"217.30.10.67","port":9079,"type":"ss","country":"🇵🇱_PL_波兰_47","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"name":"🇵🇱_PL_波兰_48","server":"217.30.10.66","port":9059,"type":"ss","country":"🇵🇱_PL_波兰_48","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
-  - {"name":"🇵🇱_PL_波兰_49","server":"217.30.10.66","port":9038,"type":"ss","country":"🇵🇱_PL_波兰_49","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
-  - {"name":"🇵🇱_PL_波兰_50","server":"217.30.10.66","port":9093,"type":"ss","country":"🇵🇱_PL_波兰_50","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"加拿大_-tg频道:atunivstar_1","server":"198.57.27.225","port":5004,"type":"ss","country":"加拿大_-tg频道:atunivstar_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"加拿大_-tg频道:atunivstar_2","server":"198.57.27.225","port":6679,"type":"ss","country":"加拿大_-tg频道:atunivstar_2","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"波兰_-tg频道:atunivstar_3","server":"217.30.10.67","port":9043,"type":"ss","country":"波兰_-tg频道:atunivstar_3","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
+  - {"name":"英国_-tg频道:atunivstar_4","server":"152.89.210.84","port":9032,"type":"ss","country":"英国_-tg频道:atunivstar_4","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"美国_-tg频道:atunivstar_5","server":"38.68.135.19","port":2376,"type":"ss","country":"美国_-tg频道:atunivstar_5","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"波兰_-tg频道:atunivstar_6","server":"217.30.10.65","port":9019,"type":"ss","country":"波兰_-tg频道:atunivstar_6","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"加拿大_-tg频道:atunivstar_7","server":"198.57.27.225","port":6697,"type":"ss","country":"加拿大_-tg频道:atunivstar_7","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_-tg频道:atunivstar_8","server":"169.197.142.99","port":6679,"type":"ss","country":"美国_-tg频道:atunivstar_8","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"德国_-tg频道:atunivstar_9","server":"5.183.179.167","port":9084,"type":"ss","country":"德国_-tg频道:atunivstar_9","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"美国_-tg频道:atunivstar_10","server":"38.68.135.19","port":7306,"type":"ss","country":"美国_-tg频道:atunivstar_10","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"波兰_-tg频道:atunivstar_11","server":"217.30.10.65","port":9042,"type":"ss","country":"波兰_-tg频道:atunivstar_11","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"name":"香港_-tg频道:atbpjzx2_12","server":"43.129.227.60","port":27727,"type":"vmess","uuid":"d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b","alterId":0,"cipher":"auto","country":"香港_-tg频道:atbpjzx2_12","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.129.227.60"}}}
+  - {"name":"中国_-tg频道:atunivstar_13","server":"180.163.62.91","port":10064,"type":"ss","country":"中国_-tg频道:atunivstar_13","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"英国_-tg频道:atunivstar_14","server":"152.89.210.84","port":9015,"type":"ss","country":"英国_-tg频道:atunivstar_14","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
+  - {"name":"日本_-tg频道:atunivstar_15","server":"85.208.108.58","port":8080,"type":"ss","country":"日本_-tg频道:atunivstar_15","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_-tg频道:atunivstar_16","server":"38.68.135.19","port":8119,"type":"ss","country":"美国_-tg频道:atunivstar_16","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"德国_-tg频道:atunivstar_17","server":"5.183.179.167","port":9037,"type":"ss","country":"德国_-tg频道:atunivstar_17","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"德国_-tg频道:atunivstar_18","server":"5.183.179.167","port":9032,"type":"ss","country":"德国_-tg频道:atunivstar_18","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"加拿大_-tg频道:atunivstar_19","server":"198.57.27.225","port":8118,"type":"ss","country":"加拿大_-tg频道:atunivstar_19","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_-tg频道:atunivstar_20","server":"38.68.135.19","port":9102,"type":"ss","country":"美国_-tg频道:atunivstar_20","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"波兰_-tg频道:atunivstar_21","server":"217.30.10.67","port":9042,"type":"ss","country":"波兰_-tg频道:atunivstar_21","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"name":"波兰_-tg频道:atunivstar_22","server":"217.30.10.67","port":9079,"type":"ss","country":"波兰_-tg频道:atunivstar_22","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"加拿大_-tg频道:atunivstar_23","server":"198.57.27.225","port":7002,"type":"ss","country":"加拿大_-tg频道:atunivstar_23","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"澳大利亚_-tg频道:atunivstar_24","server":"185.167.116.253","port":9080,"type":"ss","country":"澳大利亚_-tg频道:atunivstar_24","cipher":"aes-256-cfb","password":"VP8ZPxQpJtZRCjfZ"}
+  - {"name":"澳大利亚_-tg频道:atunivstar_25","server":"185.167.116.253","port":9057,"type":"ss","country":"澳大利亚_-tg频道:atunivstar_25","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
+  - {"name":"美国_-tg频道:atunivstar_26","server":"38.68.135.19","port":5004,"type":"ss","country":"美国_-tg频道:atunivstar_26","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"澳大利亚_-tg频道:atunivstar_27","server":"185.167.116.253","port":9040,"type":"ss","country":"澳大利亚_-tg频道:atunivstar_27","cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
+  - {"name":"德国_-tg频道:atunivstar_28","server":"5.183.179.167","port":9053,"type":"ss","country":"德国_-tg频道:atunivstar_28","cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C"}
+  - {"name":"德国_-tg频道:atunivstar_29","server":"5.183.179.167","port":9093,"type":"ss","country":"德国_-tg频道:atunivstar_29","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"波兰_-tg频道:atunivstar_30","server":"217.30.10.67","port":9098,"type":"ss","country":"波兰_-tg频道:atunivstar_30","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk"}
+  - {"name":"德国_-tg频道:atunivstar_31","server":"5.183.179.145","port":9056,"type":"ss","country":"德国_-tg频道:atunivstar_31","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_HK_香港_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇨🇳_CN_中国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇵🇱_PL_波兰_15
-      - 🇵🇱_PL_波兰_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇩🇪_DE_德国_23
-      - 🇩🇪_DE_德国_24
-      - 🇬🇧_GB_英国_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇩🇪_DE_德国_28
-      - 🇩🇪_DE_德国_29
-      - 🇩🇪_DE_德国_30
-      - 🇩🇪_DE_德国_31
-      - 🇩🇪_DE_德国_32
-      - 🇩🇪_DE_德国_33
-      - 🇩🇪_DE_德国_34
-      - 🇩🇪_DE_德国_35
-      - 🇬🇧_GB_英国_36
-      - 🇬🇧_GB_英国_37
-      - 🇬🇧_GB_英国_38
-      - 🇬🇧_GB_英国_39
-      - 🇬🇧_GB_英国_40
-      - 🇬🇧_GB_英国_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇧🇬_BG_保加利亚_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇳🇱_NL_荷兰_45
-      - 🇷🇴_RO_罗马尼亚_46
-      - 🇵🇱_PL_波兰_47
-      - 🇵🇱_PL_波兰_48
-      - 🇵🇱_PL_波兰_49
-      - 🇵🇱_PL_波兰_50
+      - 加拿大_-tg频道:atunivstar_1
+      - 加拿大_-tg频道:atunivstar_2
+      - 波兰_-tg频道:atunivstar_3
+      - 英国_-tg频道:atunivstar_4
+      - 美国_-tg频道:atunivstar_5
+      - 波兰_-tg频道:atunivstar_6
+      - 加拿大_-tg频道:atunivstar_7
+      - 美国_-tg频道:atunivstar_8
+      - 德国_-tg频道:atunivstar_9
+      - 美国_-tg频道:atunivstar_10
+      - 波兰_-tg频道:atunivstar_11
+      - 香港_-tg频道:atbpjzx2_12
+      - 中国_-tg频道:atunivstar_13
+      - 英国_-tg频道:atunivstar_14
+      - 日本_-tg频道:atunivstar_15
+      - 美国_-tg频道:atunivstar_16
+      - 德国_-tg频道:atunivstar_17
+      - 德国_-tg频道:atunivstar_18
+      - 加拿大_-tg频道:atunivstar_19
+      - 美国_-tg频道:atunivstar_20
+      - 波兰_-tg频道:atunivstar_21
+      - 波兰_-tg频道:atunivstar_22
+      - 加拿大_-tg频道:atunivstar_23
+      - 澳大利亚_-tg频道:atunivstar_24
+      - 澳大利亚_-tg频道:atunivstar_25
+      - 美国_-tg频道:atunivstar_26
+      - 澳大利亚_-tg频道:atunivstar_27
+      - 德国_-tg频道:atunivstar_28
+      - 德国_-tg频道:atunivstar_29
+      - 波兰_-tg频道:atunivstar_30
+      - 德国_-tg频道:atunivstar_31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇨🇳_CN_中国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇵🇱_PL_波兰_15
-      - 🇵🇱_PL_波兰_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇩🇪_DE_德国_23
-      - 🇩🇪_DE_德国_24
-      - 🇬🇧_GB_英国_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇩🇪_DE_德国_28
-      - 🇩🇪_DE_德国_29
-      - 🇩🇪_DE_德国_30
-      - 🇩🇪_DE_德国_31
-      - 🇩🇪_DE_德国_32
-      - 🇩🇪_DE_德国_33
-      - 🇩🇪_DE_德国_34
-      - 🇩🇪_DE_德国_35
-      - 🇬🇧_GB_英国_36
-      - 🇬🇧_GB_英国_37
-      - 🇬🇧_GB_英国_38
-      - 🇬🇧_GB_英国_39
-      - 🇬🇧_GB_英国_40
-      - 🇬🇧_GB_英国_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇧🇬_BG_保加利亚_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇳🇱_NL_荷兰_45
-      - 🇷🇴_RO_罗马尼亚_46
-      - 🇵🇱_PL_波兰_47
-      - 🇵🇱_PL_波兰_48
-      - 🇵🇱_PL_波兰_49
-      - 🇵🇱_PL_波兰_50
+      - 加拿大_-tg频道:atunivstar_1
+      - 加拿大_-tg频道:atunivstar_2
+      - 波兰_-tg频道:atunivstar_3
+      - 英国_-tg频道:atunivstar_4
+      - 美国_-tg频道:atunivstar_5
+      - 波兰_-tg频道:atunivstar_6
+      - 加拿大_-tg频道:atunivstar_7
+      - 美国_-tg频道:atunivstar_8
+      - 德国_-tg频道:atunivstar_9
+      - 美国_-tg频道:atunivstar_10
+      - 波兰_-tg频道:atunivstar_11
+      - 香港_-tg频道:atbpjzx2_12
+      - 中国_-tg频道:atunivstar_13
+      - 英国_-tg频道:atunivstar_14
+      - 日本_-tg频道:atunivstar_15
+      - 美国_-tg频道:atunivstar_16
+      - 德国_-tg频道:atunivstar_17
+      - 德国_-tg频道:atunivstar_18
+      - 加拿大_-tg频道:atunivstar_19
+      - 美国_-tg频道:atunivstar_20
+      - 波兰_-tg频道:atunivstar_21
+      - 波兰_-tg频道:atunivstar_22
+      - 加拿大_-tg频道:atunivstar_23
+      - 澳大利亚_-tg频道:atunivstar_24
+      - 澳大利亚_-tg频道:atunivstar_25
+      - 美国_-tg频道:atunivstar_26
+      - 澳大利亚_-tg频道:atunivstar_27
+      - 德国_-tg频道:atunivstar_28
+      - 德国_-tg频道:atunivstar_29
+      - 波兰_-tg频道:atunivstar_30
+      - 德国_-tg频道:atunivstar_31
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇨🇳_CN_中国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇵🇱_PL_波兰_15
-      - 🇵🇱_PL_波兰_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇩🇪_DE_德国_23
-      - 🇩🇪_DE_德国_24
-      - 🇬🇧_GB_英国_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇩🇪_DE_德国_28
-      - 🇩🇪_DE_德国_29
-      - 🇩🇪_DE_德国_30
-      - 🇩🇪_DE_德国_31
-      - 🇩🇪_DE_德国_32
-      - 🇩🇪_DE_德国_33
-      - 🇩🇪_DE_德国_34
-      - 🇩🇪_DE_德国_35
-      - 🇬🇧_GB_英国_36
-      - 🇬🇧_GB_英国_37
-      - 🇬🇧_GB_英国_38
-      - 🇬🇧_GB_英国_39
-      - 🇬🇧_GB_英国_40
-      - 🇬🇧_GB_英国_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇧🇬_BG_保加利亚_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇳🇱_NL_荷兰_45
-      - 🇷🇴_RO_罗马尼亚_46
-      - 🇵🇱_PL_波兰_47
-      - 🇵🇱_PL_波兰_48
-      - 🇵🇱_PL_波兰_49
-      - 🇵🇱_PL_波兰_50
+      - 加拿大_-tg频道:atunivstar_1
+      - 加拿大_-tg频道:atunivstar_2
+      - 波兰_-tg频道:atunivstar_3
+      - 英国_-tg频道:atunivstar_4
+      - 美国_-tg频道:atunivstar_5
+      - 波兰_-tg频道:atunivstar_6
+      - 加拿大_-tg频道:atunivstar_7
+      - 美国_-tg频道:atunivstar_8
+      - 德国_-tg频道:atunivstar_9
+      - 美国_-tg频道:atunivstar_10
+      - 波兰_-tg频道:atunivstar_11
+      - 香港_-tg频道:atbpjzx2_12
+      - 中国_-tg频道:atunivstar_13
+      - 英国_-tg频道:atunivstar_14
+      - 日本_-tg频道:atunivstar_15
+      - 美国_-tg频道:atunivstar_16
+      - 德国_-tg频道:atunivstar_17
+      - 德国_-tg频道:atunivstar_18
+      - 加拿大_-tg频道:atunivstar_19
+      - 美国_-tg频道:atunivstar_20
+      - 波兰_-tg频道:atunivstar_21
+      - 波兰_-tg频道:atunivstar_22
+      - 加拿大_-tg频道:atunivstar_23
+      - 澳大利亚_-tg频道:atunivstar_24
+      - 澳大利亚_-tg频道:atunivstar_25
+      - 美国_-tg频道:atunivstar_26
+      - 澳大利亚_-tg频道:atunivstar_27
+      - 德国_-tg频道:atunivstar_28
+      - 德国_-tg频道:atunivstar_29
+      - 波兰_-tg频道:atunivstar_30
+      - 德国_-tg频道:atunivstar_31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇨🇳_CN_中国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇵🇱_PL_波兰_15
-      - 🇵🇱_PL_波兰_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇩🇪_DE_德国_23
-      - 🇩🇪_DE_德国_24
-      - 🇬🇧_GB_英国_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇩🇪_DE_德国_28
-      - 🇩🇪_DE_德国_29
-      - 🇩🇪_DE_德国_30
-      - 🇩🇪_DE_德国_31
-      - 🇩🇪_DE_德国_32
-      - 🇩🇪_DE_德国_33
-      - 🇩🇪_DE_德国_34
-      - 🇩🇪_DE_德国_35
-      - 🇬🇧_GB_英国_36
-      - 🇬🇧_GB_英国_37
-      - 🇬🇧_GB_英国_38
-      - 🇬🇧_GB_英国_39
-      - 🇬🇧_GB_英国_40
-      - 🇬🇧_GB_英国_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇧🇬_BG_保加利亚_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇳🇱_NL_荷兰_45
-      - 🇷🇴_RO_罗马尼亚_46
-      - 🇵🇱_PL_波兰_47
-      - 🇵🇱_PL_波兰_48
-      - 🇵🇱_PL_波兰_49
-      - 🇵🇱_PL_波兰_50
+      - 加拿大_-tg频道:atunivstar_1
+      - 加拿大_-tg频道:atunivstar_2
+      - 波兰_-tg频道:atunivstar_3
+      - 英国_-tg频道:atunivstar_4
+      - 美国_-tg频道:atunivstar_5
+      - 波兰_-tg频道:atunivstar_6
+      - 加拿大_-tg频道:atunivstar_7
+      - 美国_-tg频道:atunivstar_8
+      - 德国_-tg频道:atunivstar_9
+      - 美国_-tg频道:atunivstar_10
+      - 波兰_-tg频道:atunivstar_11
+      - 香港_-tg频道:atbpjzx2_12
+      - 中国_-tg频道:atunivstar_13
+      - 英国_-tg频道:atunivstar_14
+      - 日本_-tg频道:atunivstar_15
+      - 美国_-tg频道:atunivstar_16
+      - 德国_-tg频道:atunivstar_17
+      - 德国_-tg频道:atunivstar_18
+      - 加拿大_-tg频道:atunivstar_19
+      - 美国_-tg频道:atunivstar_20
+      - 波兰_-tg频道:atunivstar_21
+      - 波兰_-tg频道:atunivstar_22
+      - 加拿大_-tg频道:atunivstar_23
+      - 澳大利亚_-tg频道:atunivstar_24
+      - 澳大利亚_-tg频道:atunivstar_25
+      - 美国_-tg频道:atunivstar_26
+      - 澳大利亚_-tg频道:atunivstar_27
+      - 德国_-tg频道:atunivstar_28
+      - 德国_-tg频道:atunivstar_29
+      - 波兰_-tg频道:atunivstar_30
+      - 德国_-tg频道:atunivstar_31
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇨🇳_CN_中国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇵🇱_PL_波兰_15
-      - 🇵🇱_PL_波兰_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇩🇪_DE_德国_23
-      - 🇩🇪_DE_德国_24
-      - 🇬🇧_GB_英国_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇩🇪_DE_德国_28
-      - 🇩🇪_DE_德国_29
-      - 🇩🇪_DE_德国_30
-      - 🇩🇪_DE_德国_31
-      - 🇩🇪_DE_德国_32
-      - 🇩🇪_DE_德国_33
-      - 🇩🇪_DE_德国_34
-      - 🇩🇪_DE_德国_35
-      - 🇬🇧_GB_英国_36
-      - 🇬🇧_GB_英国_37
-      - 🇬🇧_GB_英国_38
-      - 🇬🇧_GB_英国_39
-      - 🇬🇧_GB_英国_40
-      - 🇬🇧_GB_英国_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇧🇬_BG_保加利亚_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇳🇱_NL_荷兰_45
-      - 🇷🇴_RO_罗马尼亚_46
-      - 🇵🇱_PL_波兰_47
-      - 🇵🇱_PL_波兰_48
-      - 🇵🇱_PL_波兰_49
-      - 🇵🇱_PL_波兰_50
+      - 加拿大_-tg频道:atunivstar_1
+      - 加拿大_-tg频道:atunivstar_2
+      - 波兰_-tg频道:atunivstar_3
+      - 英国_-tg频道:atunivstar_4
+      - 美国_-tg频道:atunivstar_5
+      - 波兰_-tg频道:atunivstar_6
+      - 加拿大_-tg频道:atunivstar_7
+      - 美国_-tg频道:atunivstar_8
+      - 德国_-tg频道:atunivstar_9
+      - 美国_-tg频道:atunivstar_10
+      - 波兰_-tg频道:atunivstar_11
+      - 香港_-tg频道:atbpjzx2_12
+      - 中国_-tg频道:atunivstar_13
+      - 英国_-tg频道:atunivstar_14
+      - 日本_-tg频道:atunivstar_15
+      - 美国_-tg频道:atunivstar_16
+      - 德国_-tg频道:atunivstar_17
+      - 德国_-tg频道:atunivstar_18
+      - 加拿大_-tg频道:atunivstar_19
+      - 美国_-tg频道:atunivstar_20
+      - 波兰_-tg频道:atunivstar_21
+      - 波兰_-tg频道:atunivstar_22
+      - 加拿大_-tg频道:atunivstar_23
+      - 澳大利亚_-tg频道:atunivstar_24
+      - 澳大利亚_-tg频道:atunivstar_25
+      - 美国_-tg频道:atunivstar_26
+      - 澳大利亚_-tg频道:atunivstar_27
+      - 德国_-tg频道:atunivstar_28
+      - 德国_-tg频道:atunivstar_29
+      - 波兰_-tg频道:atunivstar_30
+      - 德国_-tg频道:atunivstar_31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇨🇳_CN_中国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇵🇱_PL_波兰_15
-      - 🇵🇱_PL_波兰_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇩🇪_DE_德国_23
-      - 🇩🇪_DE_德国_24
-      - 🇬🇧_GB_英国_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇩🇪_DE_德国_28
-      - 🇩🇪_DE_德国_29
-      - 🇩🇪_DE_德国_30
-      - 🇩🇪_DE_德国_31
-      - 🇩🇪_DE_德国_32
-      - 🇩🇪_DE_德国_33
-      - 🇩🇪_DE_德国_34
-      - 🇩🇪_DE_德国_35
-      - 🇬🇧_GB_英国_36
-      - 🇬🇧_GB_英国_37
-      - 🇬🇧_GB_英国_38
-      - 🇬🇧_GB_英国_39
-      - 🇬🇧_GB_英国_40
-      - 🇬🇧_GB_英国_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇧🇬_BG_保加利亚_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇳🇱_NL_荷兰_45
-      - 🇷🇴_RO_罗马尼亚_46
-      - 🇵🇱_PL_波兰_47
-      - 🇵🇱_PL_波兰_48
-      - 🇵🇱_PL_波兰_49
-      - 🇵🇱_PL_波兰_50
+      - 加拿大_-tg频道:atunivstar_1
+      - 加拿大_-tg频道:atunivstar_2
+      - 波兰_-tg频道:atunivstar_3
+      - 英国_-tg频道:atunivstar_4
+      - 美国_-tg频道:atunivstar_5
+      - 波兰_-tg频道:atunivstar_6
+      - 加拿大_-tg频道:atunivstar_7
+      - 美国_-tg频道:atunivstar_8
+      - 德国_-tg频道:atunivstar_9
+      - 美国_-tg频道:atunivstar_10
+      - 波兰_-tg频道:atunivstar_11
+      - 香港_-tg频道:atbpjzx2_12
+      - 中国_-tg频道:atunivstar_13
+      - 英国_-tg频道:atunivstar_14
+      - 日本_-tg频道:atunivstar_15
+      - 美国_-tg频道:atunivstar_16
+      - 德国_-tg频道:atunivstar_17
+      - 德国_-tg频道:atunivstar_18
+      - 加拿大_-tg频道:atunivstar_19
+      - 美国_-tg频道:atunivstar_20
+      - 波兰_-tg频道:atunivstar_21
+      - 波兰_-tg频道:atunivstar_22
+      - 加拿大_-tg频道:atunivstar_23
+      - 澳大利亚_-tg频道:atunivstar_24
+      - 澳大利亚_-tg频道:atunivstar_25
+      - 美国_-tg频道:atunivstar_26
+      - 澳大利亚_-tg频道:atunivstar_27
+      - 德国_-tg频道:atunivstar_28
+      - 德国_-tg频道:atunivstar_29
+      - 波兰_-tg频道:atunivstar_30
+      - 德国_-tg频道:atunivstar_31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,56 +277,37 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇨🇳_CN_中国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇵🇱_PL_波兰_15
-      - 🇵🇱_PL_波兰_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇩🇪_DE_德国_23
-      - 🇩🇪_DE_德国_24
-      - 🇬🇧_GB_英国_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇩🇪_DE_德国_28
-      - 🇩🇪_DE_德国_29
-      - 🇩🇪_DE_德国_30
-      - 🇩🇪_DE_德国_31
-      - 🇩🇪_DE_德国_32
-      - 🇩🇪_DE_德国_33
-      - 🇩🇪_DE_德国_34
-      - 🇩🇪_DE_德国_35
-      - 🇬🇧_GB_英国_36
-      - 🇬🇧_GB_英国_37
-      - 🇬🇧_GB_英国_38
-      - 🇬🇧_GB_英国_39
-      - 🇬🇧_GB_英国_40
-      - 🇬🇧_GB_英国_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇧🇬_BG_保加利亚_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇳🇱_NL_荷兰_45
-      - 🇷🇴_RO_罗马尼亚_46
-      - 🇵🇱_PL_波兰_47
-      - 🇵🇱_PL_波兰_48
-      - 🇵🇱_PL_波兰_49
-      - 🇵🇱_PL_波兰_50
+      - 加拿大_-tg频道:atunivstar_1
+      - 加拿大_-tg频道:atunivstar_2
+      - 波兰_-tg频道:atunivstar_3
+      - 英国_-tg频道:atunivstar_4
+      - 美国_-tg频道:atunivstar_5
+      - 波兰_-tg频道:atunivstar_6
+      - 加拿大_-tg频道:atunivstar_7
+      - 美国_-tg频道:atunivstar_8
+      - 德国_-tg频道:atunivstar_9
+      - 美国_-tg频道:atunivstar_10
+      - 波兰_-tg频道:atunivstar_11
+      - 香港_-tg频道:atbpjzx2_12
+      - 中国_-tg频道:atunivstar_13
+      - 英国_-tg频道:atunivstar_14
+      - 日本_-tg频道:atunivstar_15
+      - 美国_-tg频道:atunivstar_16
+      - 德国_-tg频道:atunivstar_17
+      - 德国_-tg频道:atunivstar_18
+      - 加拿大_-tg频道:atunivstar_19
+      - 美国_-tg频道:atunivstar_20
+      - 波兰_-tg频道:atunivstar_21
+      - 波兰_-tg频道:atunivstar_22
+      - 加拿大_-tg频道:atunivstar_23
+      - 澳大利亚_-tg频道:atunivstar_24
+      - 澳大利亚_-tg频道:atunivstar_25
+      - 美国_-tg频道:atunivstar_26
+      - 澳大利亚_-tg频道:atunivstar_27
+      - 德国_-tg频道:atunivstar_28
+      - 德国_-tg频道:atunivstar_29
+      - 波兰_-tg频道:atunivstar_30
+      - 德国_-tg频道:atunivstar_31
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
