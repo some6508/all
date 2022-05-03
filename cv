@@ -638,56 +638,102 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
-  - {name: _SG_新加坡, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.135.70.192]}}, udp: true}
-  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _BG_保加利亚, server: 213.183.63.219, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: _US_美国, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 2, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
-  - {name: _PL_波兰, server: 217.30.10.67, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: _PL_波兰 2, server: 217.30.10.67, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: _US_美国 3, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国, server: 152.89.210.105, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: _CA_加拿大 2, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 3, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 4, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _DE_德国, server: 5.183.179.167, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: _GB_英国 2, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: _GB_英国 3, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: _GB_英国 4, server: 185.167.117.171, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: _GB_英国 5, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: _GB_英国 6, server: 185.167.117.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: _GB_英国 7, server: 185.167.117.171, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: _GB_英国 8, server: 152.89.210.84, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: _GB_英国 9, server: 152.89.210.105, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: _GB_英国 10, server: 185.167.117.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: 152.89.210.105:9045, server: 152.89.210.105, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 45.77.48.44:8099, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: hkchiansax2.msservicevip.pw:9359, server: hkchiansax2.msservicevip.pw, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
+  - {name: 152.89.210.105:9056, server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 152.89.210.105:9064, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
   - {name: 152.89.210.105:9046, server: 152.89.210.105, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: 152.89.210.105:9060, server: 152.89.210.105, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 152.89.210.105:9093, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: _US_美国 4, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 5, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 6, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇲🇾_MY_马来西亚, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, skip-cert-verify: true, udp: true}
-  - {name: _DE_德国 2, server: 5.183.179.145, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: _PL_波兰 3, server: 217.30.10.66, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: _PL_波兰 4, server: 217.30.10.67, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: _US_美国 7, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _GB_英国 11, server: 152.89.210.105, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: _US_美国 8, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国 12, server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: _AU_澳大利亚, server: 185.167.116.253, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: _DE_德国 3, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: _DE_德国 4, server: 5.183.179.167, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: _DE_德国 5, server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: _DE_德国 6, server: 5.183.179.167, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: _DE_德国 7, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: _BG_保加利亚 2, server: 213.183.63.218, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: _BG_保加利亚 3, server: 213.183.63.218, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: _BG_保加利亚 4, server: 213.183.63.218, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: _BG_保加利亚 5, server: 213.183.63.218, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 152.89.210.105:9084, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 152.89.210.105:9045, server: 152.89.210.105, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 152.89.210.105:9050, server: 152.89.210.105, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 152.89.210.105:9032, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: in-am2.eqnode.net:8080, server: in-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 213.183.53.177:9045, server: 213.183.53.177, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 213.183.53.200:9011, server: 213.183.53.200, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 213.183.53.177:9032, server: 213.183.53.177, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 213.183.53.200:9032, server: 213.183.53.200, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 213.183.53.177:9073, server: 213.183.53.177, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: 213.183.53.200:9098, server: 213.183.53.200, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 213.183.53.177:9001, server: 213.183.53.177, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 213.183.53.200:9040, server: 213.183.53.200, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 213.183.53.177:9033, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 213.183.53.200:9043, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 213.183.53.200:9008, server: 213.183.53.200, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 213.183.53.200:9001, server: 213.183.53.200, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 213.183.53.202:9093, server: 213.183.53.202, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 213.183.53.200:9014, server: 213.183.53.200, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 213.183.53.200:9027, server: 213.183.53.200, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 213.183.53.177:9059, server: 213.183.53.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 213.183.53.177:9079, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 213.183.53.200:9060, server: 213.183.53.200, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 213.183.53.202:9064, server: 213.183.53.202, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 213.183.53.200:9045, server: 213.183.53.200, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 213.183.53.200:9010, server: 213.183.53.200, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 213.183.53.200:9046, server: 213.183.53.200, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 213.183.53.200:9020, server: 213.183.53.200, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 213.183.53.200:9037, server: 213.183.53.200, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 213.183.53.200:9064, server: 213.183.53.200, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 213.183.53.202:9038, server: 213.183.53.202, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 213.183.53.202:9018, server: 213.183.53.202, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 213.183.53.200:9057, server: 213.183.53.200, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 213.183.53.200:9097, server: 213.183.53.200, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 213.183.53.177:9060, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 213.183.53.202:9001, server: 213.183.53.202, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 213.183.53.200:9050, server: 213.183.53.200, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 213.183.53.200:9041, server: 213.183.53.200, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 213.183.53.200:9093, server: 213.183.53.200, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 213.183.53.177:9042, server: 213.183.53.177, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 213.183.53.177:9031, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 213.183.53.200:9003, server: 213.183.53.200, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 213.183.53.200:9073, server: 213.183.53.200, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: 213.183.53.177:9005, server: 213.183.53.177, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 213.183.53.200:9084, server: 213.183.53.200, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 213.183.53.177:9003, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 213.183.53.177:9093, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 213.183.53.200:9007, server: 213.183.53.200, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: 213.183.53.200:9006, server: 213.183.53.200, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: 213.183.53.200:9033, server: 213.183.53.200, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 213.183.53.200:9018, server: 213.183.53.200, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 213.183.53.200:9000, server: 213.183.53.200, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 213.183.53.177:9043, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 213.183.53.200:9079, server: 213.183.53.200, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 213.183.53.200:9088, server: 213.183.53.200, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 213.183.53.202:9057, server: 213.183.53.202, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 213.183.53.202:9059, server: 213.183.53.202, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 213.183.53.200:9056, server: 213.183.53.200, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 213.183.53.177:9097, server: 213.183.53.177, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 213.183.53.202:9033, server: 213.183.53.202, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 213.183.53.200:9026, server: 213.183.53.200, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 213.183.53.177:9046, server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 213.183.53.200:9025, server: 213.183.53.200, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 213.183.53.200:9059, server: 213.183.53.200, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 213.183.53.200:9005, server: 213.183.53.200, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 213.183.53.202:9045, server: 213.183.53.202, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 213.183.53.200:9042, server: 213.183.53.200, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 213.183.53.200:9038, server: 213.183.53.200, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 213.183.53.177:9014, server: 213.183.53.177, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 213.183.53.200:9031, server: 213.183.53.200, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 213.183.53.177:9019, server: 213.183.53.177, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 213.183.53.200:9053, server: 213.183.53.200, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 213.183.53.177:9098, server: 213.183.53.177, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 213.183.53.177:9020, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 213.183.53.177:9026, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 213.183.53.200:9070, server: 213.183.53.200, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 213.183.53.177:9088, server: 213.183.53.177, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 213.183.53.177:9010, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 213.183.53.177:9056, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 213.183.53.177:9000, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 213.183.53.177:9008, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 213.183.53.177:9040, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 213.183.53.177:9037, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 213.183.53.177:9050, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 213.183.53.177:9094, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 213.183.53.177:9011, server: 213.183.53.177, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 213.183.53.177:9057, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 213.183.53.177:9018, server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 213.183.53.177:9064, server: 213.183.53.177, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 185.126.116.125:9043, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 103.172.116.9:9070, server: 103.172.116.9, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1754,56 +1800,102 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _SG_新加坡
-      - _CN_中国
-      - _CA_加拿大
-      - _BG_保加利亚
-      - _US_美国
-      - _US_美国 2
-      - _HK_香港
-      - _PL_波兰
-      - _PL_波兰 2
-      - _US_美国 3
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _DE_德国
-      - _GB_英国 2
-      - _GB_英国 3
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - _GB_英国 7
-      - _GB_英国 8
-      - _GB_英国 9
-      - _GB_英国 10
-      - 152.89.210.105:9045
+      - 45.77.48.44:8099
+      - hkchiansax2.msservicevip.pw:9359
+      - 152.89.210.105:9056
+      - 152.89.210.105:9064
       - 152.89.210.105:9046
-      - 152.89.210.105:9060
-      - 152.89.210.105:9093
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - _DE_德国 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - _US_美国 7
-      - _GB_英国 11
-      - _US_美国 8
-      - _GB_英国 12
-      - _AU_澳大利亚
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
-      - _DE_德国 6
-      - _DE_德国 7
-      - _BG_保加利亚 2
-      - _BG_保加利亚 3
-      - _BG_保加利亚 4
-      - _BG_保加利亚 5
+      - 152.89.210.105:9084
+      - 152.89.210.105:9045
+      - 152.89.210.105:9050
+      - 152.89.210.105:9032
+      - in-am2.eqnode.net:8080
+      - 213.183.53.177:9045
+      - 213.183.53.200:9011
+      - 213.183.53.177:9032
+      - 213.183.53.200:9032
+      - 213.183.53.177:9073
+      - 213.183.53.200:9098
+      - 213.183.53.177:9001
+      - 213.183.53.200:9040
+      - 213.183.53.177:9033
+      - 213.183.53.200:9043
+      - 213.183.53.200:9008
+      - 213.183.53.200:9001
+      - 213.183.53.202:9093
+      - 213.183.53.200:9014
+      - 213.183.53.200:9027
+      - 213.183.53.177:9059
+      - 213.183.53.177:9079
+      - 213.183.53.200:9060
+      - 213.183.53.202:9064
+      - 213.183.53.200:9045
+      - 213.183.53.200:9010
+      - 213.183.53.200:9046
+      - 213.183.53.200:9020
+      - 213.183.53.200:9037
+      - 213.183.53.200:9064
+      - 213.183.53.202:9038
+      - 213.183.53.202:9018
+      - 213.183.53.200:9057
+      - 213.183.53.200:9097
+      - 213.183.53.177:9060
+      - 213.183.53.202:9001
+      - 213.183.53.200:9050
+      - 213.183.53.200:9041
+      - 213.183.53.200:9093
+      - 213.183.53.177:9042
+      - 213.183.53.177:9031
+      - 213.183.53.200:9003
+      - 213.183.53.200:9073
+      - 213.183.53.177:9005
+      - 213.183.53.200:9084
+      - 213.183.53.177:9003
+      - 213.183.53.177:9093
+      - 213.183.53.200:9007
+      - 213.183.53.200:9006
+      - 213.183.53.200:9033
+      - 213.183.53.200:9018
+      - 213.183.53.200:9000
+      - 213.183.53.177:9043
+      - 213.183.53.200:9079
+      - 213.183.53.200:9088
+      - 213.183.53.202:9057
+      - 213.183.53.202:9059
+      - 213.183.53.200:9056
+      - 213.183.53.177:9097
+      - 213.183.53.202:9033
+      - 213.183.53.200:9026
+      - 213.183.53.177:9046
+      - 213.183.53.200:9025
+      - 213.183.53.200:9059
+      - 213.183.53.200:9005
+      - 213.183.53.202:9045
+      - 213.183.53.200:9042
+      - 213.183.53.200:9038
+      - 213.183.53.177:9014
+      - 213.183.53.200:9031
+      - 213.183.53.177:9019
+      - 213.183.53.200:9053
+      - 213.183.53.177:9098
+      - 213.183.53.177:9020
+      - 213.183.53.177:9026
+      - 213.183.53.200:9070
+      - 213.183.53.177:9088
+      - 213.183.53.177:9010
+      - 213.183.53.177:9056
+      - 213.183.53.177:9000
+      - 213.183.53.177:9008
+      - 213.183.53.177:9040
+      - 213.183.53.177:9037
+      - 213.183.53.177:9050
+      - 213.183.53.177:9094
+      - 213.183.53.177:9011
+      - 213.183.53.177:9057
+      - 213.183.53.177:9018
+      - 213.183.53.177:9064
+      - 185.126.116.125:9043
+      - 103.172.116.9:9070
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2870,56 +2962,102 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _SG_新加坡
-      - _CN_中国
-      - _CA_加拿大
-      - _BG_保加利亚
-      - _US_美国
-      - _US_美国 2
-      - _HK_香港
-      - _PL_波兰
-      - _PL_波兰 2
-      - _US_美国 3
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _DE_德国
-      - _GB_英国 2
-      - _GB_英国 3
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - _GB_英国 7
-      - _GB_英国 8
-      - _GB_英国 9
-      - _GB_英国 10
-      - 152.89.210.105:9045
+      - 45.77.48.44:8099
+      - hkchiansax2.msservicevip.pw:9359
+      - 152.89.210.105:9056
+      - 152.89.210.105:9064
       - 152.89.210.105:9046
-      - 152.89.210.105:9060
-      - 152.89.210.105:9093
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - _DE_德国 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - _US_美国 7
-      - _GB_英国 11
-      - _US_美国 8
-      - _GB_英国 12
-      - _AU_澳大利亚
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
-      - _DE_德国 6
-      - _DE_德国 7
-      - _BG_保加利亚 2
-      - _BG_保加利亚 3
-      - _BG_保加利亚 4
-      - _BG_保加利亚 5
+      - 152.89.210.105:9084
+      - 152.89.210.105:9045
+      - 152.89.210.105:9050
+      - 152.89.210.105:9032
+      - in-am2.eqnode.net:8080
+      - 213.183.53.177:9045
+      - 213.183.53.200:9011
+      - 213.183.53.177:9032
+      - 213.183.53.200:9032
+      - 213.183.53.177:9073
+      - 213.183.53.200:9098
+      - 213.183.53.177:9001
+      - 213.183.53.200:9040
+      - 213.183.53.177:9033
+      - 213.183.53.200:9043
+      - 213.183.53.200:9008
+      - 213.183.53.200:9001
+      - 213.183.53.202:9093
+      - 213.183.53.200:9014
+      - 213.183.53.200:9027
+      - 213.183.53.177:9059
+      - 213.183.53.177:9079
+      - 213.183.53.200:9060
+      - 213.183.53.202:9064
+      - 213.183.53.200:9045
+      - 213.183.53.200:9010
+      - 213.183.53.200:9046
+      - 213.183.53.200:9020
+      - 213.183.53.200:9037
+      - 213.183.53.200:9064
+      - 213.183.53.202:9038
+      - 213.183.53.202:9018
+      - 213.183.53.200:9057
+      - 213.183.53.200:9097
+      - 213.183.53.177:9060
+      - 213.183.53.202:9001
+      - 213.183.53.200:9050
+      - 213.183.53.200:9041
+      - 213.183.53.200:9093
+      - 213.183.53.177:9042
+      - 213.183.53.177:9031
+      - 213.183.53.200:9003
+      - 213.183.53.200:9073
+      - 213.183.53.177:9005
+      - 213.183.53.200:9084
+      - 213.183.53.177:9003
+      - 213.183.53.177:9093
+      - 213.183.53.200:9007
+      - 213.183.53.200:9006
+      - 213.183.53.200:9033
+      - 213.183.53.200:9018
+      - 213.183.53.200:9000
+      - 213.183.53.177:9043
+      - 213.183.53.200:9079
+      - 213.183.53.200:9088
+      - 213.183.53.202:9057
+      - 213.183.53.202:9059
+      - 213.183.53.200:9056
+      - 213.183.53.177:9097
+      - 213.183.53.202:9033
+      - 213.183.53.200:9026
+      - 213.183.53.177:9046
+      - 213.183.53.200:9025
+      - 213.183.53.200:9059
+      - 213.183.53.200:9005
+      - 213.183.53.202:9045
+      - 213.183.53.200:9042
+      - 213.183.53.200:9038
+      - 213.183.53.177:9014
+      - 213.183.53.200:9031
+      - 213.183.53.177:9019
+      - 213.183.53.200:9053
+      - 213.183.53.177:9098
+      - 213.183.53.177:9020
+      - 213.183.53.177:9026
+      - 213.183.53.200:9070
+      - 213.183.53.177:9088
+      - 213.183.53.177:9010
+      - 213.183.53.177:9056
+      - 213.183.53.177:9000
+      - 213.183.53.177:9008
+      - 213.183.53.177:9040
+      - 213.183.53.177:9037
+      - 213.183.53.177:9050
+      - 213.183.53.177:9094
+      - 213.183.53.177:9011
+      - 213.183.53.177:9057
+      - 213.183.53.177:9018
+      - 213.183.53.177:9064
+      - 185.126.116.125:9043
+      - 103.172.116.9:9070
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
