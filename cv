@@ -5,37 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_47+atpeekfun_1, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_51+atpeekfun_2, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_48+atpeekfun_3, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_53+atpeekfun_4, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_67+atpeekfun_5, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_49+atpeekfun_6, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_66+atpeekfun_7, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_52+atpeekfun_8, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_56+atpeekfun_9, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_843, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: US_840, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
-  - {name: CN_44+_19_38Mb_12, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_65+_17_18Mb_13, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_78_26_28Mb_14, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: TW_430_24_55Mb_15, server: 103.98.73.12, port: 5005, type: vmess, uuid: ecf9bfdf-5fc5-4040-eb9f-eaec282c478b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ythe54}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_77_16_67Mb_16, server: n04.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 312545:qazqaz00, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: CN_63+_20_85Mb_17, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_59+TGatpeekfun_18, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_47+TGatpeekfun_19, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_61+TGatpeekfun_20, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_53+TGatpeekfun_21, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_58+TGatpeekfun_22, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_54+TGatpeekfun_23, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_60+TGatpeekfun_24, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_64+TGatpeekfun_25, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_52+TGatpeekfun_26, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_55+TGatpeekfun_27, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_62+TGatpeekfun_28, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_51+TGatpeekfun_29, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_63+TGatpeekfun_30, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_49+TGatpeekfun_31, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _CN_中国_1, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _HK_香港_2, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CA_加拿大_3, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_4, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大_5, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB_英国_6, server: 152.89.210.105, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: _GB_英国_7, server: 152.89.210.105, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: _CA_加拿大_8, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _DE_德国_9, server: 5.183.179.137, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _JP_日本_10, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_11, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_12, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CN_中国->🇳🇱_NL_荷兰_13, server: 211.91.243.241, port: 60013, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_14, server: 211.91.243.241, port: 60007, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国_15, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: _NL_荷兰_16, server: 5.255.101.50, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: _RO_罗马尼亚_17, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: _PL_波兰_18, server: 217.30.10.65, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: _US_美国_19, server: 198.211.45.184, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_20, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_21, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_22, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_澳大利亚_23, server: 185.167.116.253, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: _US_美国_24, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _HK_香港_25, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CA_加拿大_26, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_27, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_28, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_29, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _DE_德国_30, server: 5.183.179.137, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: _PL_波兰_31, server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: _PL_波兰_32, server: 217.30.10.65, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: _PL_波兰_33, server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _IN_印度_34, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_35, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_36, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _AU_澳大利亚_37, server: 185.167.116.253, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: _BG_保加利亚_38, server: 213.183.63.219, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: _US_美国_39, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_40, server: n119.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 343767:3StTW5, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_41, server: s100.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 343767:3StTW5, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: _AU_澳大利亚_42, server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: _AU_澳大利亚_43, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: _CA_加拿大_44, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _DE_德国_45, server: 5.183.179.145, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: _DE_德国_46, server: 5.183.179.140, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: _GB_英国_47, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: _GB_英国_48, server: 152.89.210.84, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: _GB_英国_49, server: 152.89.210.84, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: _GB_英国_50, server: 152.89.210.105, port: 9064, type: ssr, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 3, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -916,122 +935,194 @@ proxies:
   - {name: github.com/freefq - 美国纽约市DigitalOcean云公司 53, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
   - {name: github.com/freefq - 美国3COM公司企业网 54, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 北美地区  55, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: ahdaeph8.com, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: "@Jsnzkpg", server: azhk5.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 80丨爱看丨香港1Gbps, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ltetp.tv189.com}}, udp: true}
-  - {name: ss丨香港1Gbps丨1, server: azhk6.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: ss丨香港1Gbps丨2, server: azhk5.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 80丨电信停机卡丨香港1Gbps丨1, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 80丨冰激凌畅视丨香港1Gbps丨2, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vali-dns.cp31.ott.cibntv.net}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 24, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 25, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 26, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk3.fdns.cloudlink123.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 27, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 28, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_美国_43, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Ytb:鹏哥分享_香港_92, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: Ytb:鹏哥分享_美国_60, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_美国_37, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_美国_41, server: 38.68.135.19, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Ytb:鹏哥分享_澳大利亚_11, server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_96, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_39, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_62 2, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _DE_德国_10, server: 5.183.179.140, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: _BG_保加利亚_6, server: 213.183.63.218, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: _DE_德国_1, server: 5.183.179.146, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: _PL_波兰_7, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: Morino Relay - Hong Kong1x, server: 18.163.195.14, port: 30226, type: trojan, password: 5deb8b7c-fc20-4b35-b929-41b5e1cad921, sni: certificate.relay.morino.cc, skip-cert-verify: true, udp: true}
+  - {name: Morino Relay - Japan 1x, server: 35.77.121.71, port: 15632, type: trojan, password: 5deb8b7c-fc20-4b35-b929-41b5e1cad921, sni: certificate.relay.morino.cc, skip-cert-verify: true, udp: true}
+  - {name: TW_24079, server: 14.29.124.168, port: 24079, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24087, server: 14.29.124.168, port: 24087, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24024q, server: 14.29.124.168, port: 24024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24082q, server: 14.29.124.168, port: 24082, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24032q, server: 14.29.124.168, port: 24032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24044q, server: 14.29.124.168, port: 24044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24080q, server: 14.29.124.168, port: 24080, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24074q, server: 14.29.124.168, port: 24074, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24033q, server: 14.29.124.168, port: 24033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24059q, server: 14.29.124.168, port: 24059, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24093q, server: 14.29.124.168, port: 24093, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24003q, server: 14.29.124.168, port: 24003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24050q, server: 14.29.124.168, port: 24050, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24090q, server: 14.29.124.168, port: 24090, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 香港HKT-dip, server: 42.2.119.193, port: 4245, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: hkbn2.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: Dubai-Oracle, server: 193.123.82.106, port: 4590, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: hhzx2.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 长沙联通-SG-Contabo, server: 211.91.243.241, port: 60019, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: v2onesgp.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: Santa Clarita-Multacom, server: 198.211.45.184, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: uj.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 长沙联通-Tokyo-FDCservers, server: 211.91.243.241, port: 60052, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: ia2.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: LAX-DediPath, server: 45.61.184.184, port: 6520, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: los3.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 长沙联通-Hanoi-FPT-dip, server: 211.91.243.241, port: 60005, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: vn.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: v2cross.com - 美国  4, server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, skip-cert-verify: true, udp: true}
+  - {name: _200, server: 169.197.142.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB_832, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE_599 |13.33Mb, server: 5.183.179.146, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: DE_523, server: 5.183.179.137, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: DE_539, server: 5.183.179.140, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: DE_532, server: 5.183.179.140, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: DE_534, server: 5.183.179.166, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: ss丨香港1Gbps丨3, server: azhk7.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 80丨冰钉丨香港1Gbps丨3, server: azhk7.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
   - {name: ss丨广西100Mbps丨, server: gx.mayiyun.vip, port: 10014, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
   - {name: 香港中转丨ss丨日本500Mbps丨, server: azzz2.mayiyun.vip, port: 20021, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
   - {name: 80丨电信停机卡丨广西100Mbps丨, server: gx.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 8080丨冰钉丨上海8Mbps, server: 1.15.133.208, port: 8080, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
   - {name: 80丨冰钉丨广西100Mbps, server: gx.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: open.dingtalk.com}}, udp: true}
   - {name: 80丨联通手厅丨北京8Mbps, server: 82.157.63.73, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
-  - {name: ss丨日本500Mbps丨, server: jp5.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 香港中转丨ss丨韩国500Mbps丨, server: azzz2.mayiyun.vip, port: 20004, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
   - {name: 80丨联通手厅丨日本1Gbps丨1, server: jp5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 香港中转丨ss丨香港500Mbps丨, server: azzz2.mayiyun.vip, port: 20002, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
   - {name: 80丨联通手厅丨日本50Mbps丨2, server: jp4.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: ss丨韩国500Mbps丨, server: kr6.mayiyun.vip, port: 10014, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 香港中转丨ss丨英国100Mbps丨, server: azzz2.mayiyun.vip, port: 20007, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
   - {name: 香港中转丨ss丨美国100Mbps丨, server: azzz2.mayiyun.vip, port: 20006, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 香港中转丨ss丨德国100Mbps丨, server: azzz2.mayiyun.vip, port: 20003, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 香港中转丨ss丨英国100Mbps丨, server: azzz2.mayiyun.vip, port: 20007, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
   - {name: 香港中转丨ss丨荷兰500Mbps丨, server: azzz2.mayiyun.vip, port: 20001, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 80丨联通手厅丨韩国1Gbps丨1, server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 80丨联通手厅丨韩国500Mbps丨2, server: kr6.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 香港中转丨ss丨德国100Mbps丨, server: azzz2.mayiyun.vip, port: 20003, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 80丨冰激凌畅视丨香港1Gbps丨2, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vali-dns.cp31.ott.cibntv.net}}, udp: true}
   - {name: 香港中转丨ss丨加拿大100Mbps丨, server: azzz2.mayiyun.vip, port: 20008, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 80丨联通手厅丨加拿大1Gbps丨2, server: can7.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: convergence.chinaunicomvideo.cn}}, udp: true}
-  - {name: 80丨联通手厅丨加拿大1Gbps丨4, server: can4.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 香港中转丨ss丨韩国500Mbps丨, server: azzz2.mayiyun.vip, port: 20004, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 80丨冰钉丨香港1Gbps丨2, server: azhk6.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
   - {name: 80丨联通手厅丨加拿大1Gbps丨1, server: can6.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 80丨冰钉丨香港1Gbps丨1, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
   - {name: 80丨联通手厅丨加拿大1Gbps丨5, server: can5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
   - {name: 80丨联通手厅丨德国50Mbps丨1, server: ger1.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 80丨联通手厅丨德国1Gbps丨2, server: ger4.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 80丨联通手厅丨加拿大1Gbps丨3, server: can3.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 80丨冰钉丨香港1Gbps丨2, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
-  - {name: ss丨加拿大100Mbps丨, server: can6.mayiyun.vip, port: 10010, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
   - {name: 80丨联通手厅丨韩国500Mbps丨1, server: kr5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 15510 @WangCai_1, server: dajbxkr.naikonode.top, port: 15510, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
-  - {name: 香港 06, server: sslhk.guodongssl.xyz, port: 44028, type: trojan, password: 4da6a088-7d1d-4556-9e31-093f16cf62b6, sni: sslhk.guodongssl.xyz, skip-cert-verify: true, udp: true}
-  - {name: Jsnzkpg专线34, server: sslhk.guodongssl.xyz, port: 44023, type: trojan, password: 4da6a088-7d1d-4556-9e31-093f16cf62b6, sni: sslhk.guodongssl.xyz, skip-cert-verify: true, udp: true}
-  - {name: 15507 @WangCai_1, server: 01-hgvhjh.globalrelay.link, port: 15507, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
-  - {name: Jsnzkpg专线46, server: 104.208.86.137, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm.toutiao.com}}, udp: true}
-  - {name: 15509 @WangCai_1, server: 01-hgvhjh.globalrelay.link, port: 15509, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 80丨联通手厅丨德国1Gbps丨2, server: ger4.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 80丨爱看丨香港1Gbps, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ltetp.tv189.com}}, udp: true}
+  - {name: 80丨电信停机卡丨香港1Gbps丨1, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 80丨联通手厅丨加拿大1Gbps丨2, server: can7.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: convergence.chinaunicomvideo.cn}}, udp: true}
+  - {name: 80丨联通手厅丨加拿大1Gbps丨3, server: can3.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 80丨联通手厅丨韩国1Gbps丨1, server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 15502 @WangCai_1, server: 120.233.10.181, port: 15502, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15506 @WangCai_1, server: dajbxus.naikonode.top, port: 15506, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15504 @WangCai_1, server: dajbxkr.naikonode.top, port: 15504, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15504 @WangCai_1 2, server: dajbxtw.naikonode.top, port: 15504, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15502 @WangCai_1 2, server: 01-hgvhjh.globalrelay.link, port: 15502, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15509 @WangCai_1, server: dajbxjp.naikonode.top, port: 15509, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15507 @WangCai_1, server: 02-hgvhjh.globalrelay.link, port: 15507, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15502 @WangCai_1 3, server: 120.233.10.163, port: 15502, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15510 @WangCai_1, server: 120.233.10.163, port: 15510, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15508 @WangCai_1, server: 120.233.10.181, port: 15508, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15501 @WangCai_1, server: dajbxkr.naikonode.top, port: 15501, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15504 @WangCai_1 3, server: 120.233.10.163, port: 15504, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15509 @WangCai_1 2, server: dajbxkr.naikonode.top, port: 15509, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15502 @WangCai_1 4, server: dajbxtw.naikonode.top, port: 15502, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: 15510 @WangCai_1 2, server: dajbxkr.naikonode.top, port: 15510, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
+  - {name: ss丨广西100Mbps丨 2, server: gx.mayiyun.vip, port: 10014, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
   - {name: 15503 @WangCai_1, server: 120.232.215.218, port: 15503, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
-  - {name: 15507 @WangCai_1 2, server: dajbxhk.naikonode.top, port: 15507, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
-  - {name: 15501 @WangCai_1, server: 02-hgvhjh.globalrelay.link, port: 15501, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
-  - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 15506 @WangCai_1, server: 02-hgvhjh.globalrelay.link, port: 15506, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: microsoft.com, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 430hkhk.fans8.xyz, port: 443, type: vmess, uuid: efaeb7b2-bd81-37d7-b3af-5c633570f423, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: "%7B%22Host%22:%22430hkhk.fans8.xyz%22%7D"}}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: YouTube梦歌|Netflix_47, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 13, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: "%7B%22Host%22:%22sxqxj.cn%22%7D"}}, udp: true}
-  - {name: YouTube梦歌|Netflix_60, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: Jsnzkpg专线47, server: 125.59.155.25, port: 443, type: trojan, password: 1b6fb1b9-7ca7-367a-b656-0b0c365bc7d4mielink, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 5 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 80丨电信停机卡丨广西100Mbps丨 2, server: gx.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 香港中转丨ss丨日本500Mbps丨 2, server: azzz2.mayiyun.vip, port: 20021, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 80丨冰钉丨广西100Mbps 2, server: gx.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: open.dingtalk.com}}, udp: true}
   - {name: Jsnzkpg专线38, server: hk02.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22aaa.ssttkk.com%22%7D"}}, udp: true}
-  - {name: KR-SK(1)_9, server: krb.cloudv2.top, port: 443, type: vmess, uuid: 1009EC04-9D1E-49F7-2AB4-1B05050F0DF2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: "%7B%22host%22:%22krb.cloudv2.top%22%7D"}}, udp: true}
-  - {name: 香港03_游戏节点_X5_28, server: hk03.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22aaa.ssttkk.com%22%7D"}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 22 2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 乌克兰(欢迎订阅Youtube破解资源君) 3, server: 176.103.61.162, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: IjBemsAg, udp: true}
-  - {name: Jsnzkpg专线35, server: www.hawtaigroup.com, port: 2086, type: vmess, uuid: 205bcebc-5ace-460e-bf69-af2e53ccca39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@Banyun12138, headers: {Host: lasiweijiazi.jisuxiang.one}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9 2, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: UA_1319 _36_60Mb_26, server: 176.103.61.162, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: IjBemsAg, udp: true}
-  - {name: YouTube梦歌|Netflix_29, server: 430hkhk.fans8.xyz, port: 443, type: vmess, uuid: efaeb7b2-bd81-37d7-b3af-5c633570f423, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 430hkhk.fans8.xyz}}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 12 2, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22120.240.48.19%22%7D"}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3 2, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 25, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 台湾(欢迎订阅Youtube破解资源君) 2 2, server: tw01.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22tw01.nttkk.com%22%7D"}}, udp: true}
-  - {name: HK-HKT-01(1)_11, server: hkb.cloudv2.top, port: 8881, type: vmess, uuid: 1009EC04-9D1E-49F7-2AB4-1B05050F0DF2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Jsnzkpg专线40, server: azhk.f2s.bp2022.top, port: 443, type: trojan, password: d8c36e7c-8fd5-4671-9603-d689784547db, sni: azhk.f2s.bp2022.top, skip-cert-verify: true, udp: true}
-  - {name: 日本11_高速视频_X5_20, server: jp11.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22jp11.ssttkk.com%22%7D"}}, udp: true}
-  - {name: Jsnzkpg专线41, server: kra.cloudv2.top, port: 443, type: vmess, uuid: 1009EC04-9D1E-49F7-2AB4-1B05050F0DF2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: "%7B%22host%22:%22kra.cloudv2.top%22%7D"}}, udp: true}
-  - {name: 香港05_AZ_X3_30, server: hk05.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22aaa.ssttkk.com%22%7D"}}, udp: true}
-  - {name: 香港04_CN2中转_X3_29, server: cn02.nttkk.com, port: 1004, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22hk01.ssttkk.com%22%7D"}}, udp: true}
-  - {name: TG频道@Jsnzk, server: tw02.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw02.nttkk.com}}, udp: true}
-  - {name: Jsnzkpg专线32, server: free.fanqiangvpn.com, port: 443, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /www.fanqiangvpn.com, headers: {Host: free.fanqiangvpn.com}}, udp: true}
-  - {name: CA_191 _160_09Mb_16, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2 2, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2 2, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 13 2, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Jsnzkpg专线45, server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: Jsnzkpg专线33, server: 47.52.59.79, port: 443, type: vmess, uuid: 5273702e-8e3d-4d76-998d-6026affb6f50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nana, headers: {Host: hk1.qingchengjisu.ltd}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 13, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: "%7B%22Host%22:%22sxqxj.cn%22%7D"}}, udp: true}
+  - {name: 80丨联通手厅丨北京8Mbps 2, server: 82.157.63.73, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
+  - {name: Jsnzkpg专线47, server: 125.59.155.25, port: 443, type: trojan, password: 1b6fb1b9-7ca7-367a-b656-0b0c365bc7d4mielink, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: 日本11_高速视频_X5_20, server: jp11.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22jp11.ssttkk.com%22%7D"}}, udp: true}
+  - {name: 香港中转丨ss丨英国100Mbps丨 2, server: azzz2.mayiyun.vip, port: 20007, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 香港05_AZ_X3_30, server: hk05.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22aaa.ssttkk.com%22%7D"}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 5 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: ss丨日本500Mbps丨, server: jp5.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: ss丨加拿大100Mbps丨, server: can6.mayiyun.vip, port: 10010, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 香港03_游戏节点_X5_28, server: hk03.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22aaa.ssttkk.com%22%7D"}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9 2, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 80丨联通手厅丨韩国1Gbps丨1 2, server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 80丨冰钉丨香港1Gbps丨2 2, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 80丨联通手厅丨加拿大1Gbps丨5 2, server: can5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 80丨联通手厅丨加拿大1Gbps丨4, server: can4.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 12 2, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22120.240.48.19%22%7D"}}, udp: true}
+  - {name: 80丨联通手厅丨加拿大1Gbps丨3 2, server: can3.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 80丨联通手厅丨德国50Mbps丨1 2, server: ger1.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: TG频道@Jsnzk, server: tw02.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw02.nttkk.com}}, udp: true}
+  - {name: 80丨电信停机卡丨香港1Gbps丨1 2, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 80丨联通手厅丨日本1Gbps丨1 2, server: jp5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 台湾(欢迎订阅Youtube破解资源君) 2 2, server: tw01.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22tw01.nttkk.com%22%7D"}}, udp: true}
+  - {name: 80丨冰激凌畅视丨香港1Gbps丨2 2, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vali-dns.cp31.ott.cibntv.net}}, udp: true}
+  - {name: 80丨联通手厅丨韩国500Mbps丨1 2, server: kr5.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ss丨韩国500Mbps丨, server: kr6.mayiyun.vip, port: 10014, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 80丨联通手厅丨加拿大1Gbps丨2 2, server: can7.mayiyun.vip, port: 80, type: vmess, uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: convergence.chinaunicomvideo.cn}}, udp: true}
+  - {name: Jsnzkpg专线32, server: free.fanqiangvpn.com, port: 443, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /www.fanqiangvpn.com, headers: {Host: free.fanqiangvpn.com}}, udp: true}
+  - {name: 香港04_CN2中转_X3_29, server: cn02.nttkk.com, port: 1004, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22hk01.ssttkk.com%22%7D"}}, udp: true}
+  - {name: "@Jsnzkpg", server: azhk5.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: CA_191 _160_09Mb_16, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - CN_47+atpeekfun_1
-      - CN_51+atpeekfun_2
-      - CN_48+atpeekfun_3
-      - CN_53+atpeekfun_4
-      - CN_67+atpeekfun_5
-      - CN_49+atpeekfun_6
-      - CN_66+atpeekfun_7
-      - CN_52+atpeekfun_8
-      - CN_56+atpeekfun_9
-      - US_843
-      - US_840
-      - CN_44+_19_38Mb_12
-      - CN_65+_17_18Mb_13
-      - Relay_🇨🇳CN-🇭🇰HK_78_26_28Mb_14
-      - TW_430_24_55Mb_15
-      - Relay_🇨🇳CN-🇹🇼TW_77_16_67Mb_16
-      - CN_63+_20_85Mb_17
-      - CN_59+TGatpeekfun_18
-      - CN_47+TGatpeekfun_19
-      - CN_61+TGatpeekfun_20
-      - CN_53+TGatpeekfun_21
-      - CN_58+TGatpeekfun_22
-      - CN_54+TGatpeekfun_23
-      - CN_60+TGatpeekfun_24
-      - CN_64+TGatpeekfun_25
-      - CN_52+TGatpeekfun_26
-      - CN_55+TGatpeekfun_27
-      - CN_62+TGatpeekfun_28
-      - CN_51+TGatpeekfun_29
-      - CN_63+TGatpeekfun_30
-      - CN_49+TGatpeekfun_31
+      - _CN_中国_1
+      - _HK_香港_2
+      - _CA_加拿大_3
+      - _US_美国_4
+      - _CA_加拿大_5
+      - _GB_英国_6
+      - _GB_英国_7
+      - _CA_加拿大_8
+      - _DE_德国_9
+      - _JP_日本_10
+      - _US_美国_11
+      - _CA_加拿大_12
+      - _CN_中国->🇳🇱_NL_荷兰_13
+      - _CN_中国->🇺🇸_US_美国_14
+      - _DE_德国_15
+      - _NL_荷兰_16
+      - _RO_罗马尼亚_17
+      - _PL_波兰_18
+      - _US_美国_19
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _AU_澳大利亚_23
+      - _US_美国_24
+      - _HK_香港_25
+      - _CA_加拿大_26
+      - _CA_加拿大_27
+      - _CA_加拿大_28
+      - _CA_加拿大_29
+      - _DE_德国_30
+      - _PL_波兰_31
+      - _PL_波兰_32
+      - _PL_波兰_33
+      - _IN_印度_34
+      - _US_美国_35
+      - _US_美国_36
+      - _AU_澳大利亚_37
+      - _BG_保加利亚_38
+      - _US_美国_39
+      - _CN_中国->🇹🇼_TW_台湾_40
+      - _CN_中国->🇹🇼_TW_台湾_41
+      - _AU_澳大利亚_42
+      - _AU_澳大利亚_43
+      - _CA_加拿大_44
+      - _DE_德国_45
+      - _DE_德国_46
+      - _GB_英国_47
+      - _GB_英国_48
+      - _GB_英国_49
+      - _GB_英国_50
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
       - 加拿大(欢迎订阅Youtube破解资源君) 3
@@ -1912,122 +2003,194 @@ proxy-groups:
       - github.com/freefq - 美国纽约市DigitalOcean云公司 53
       - github.com/freefq - 美国3COM公司企业网 54
       - github.com/freefq - 北美地区  55
-      - "@Jsnzkpg"
-      - 80丨爱看丨香港1Gbps
-      - ss丨香港1Gbps丨1
-      - ss丨香港1Gbps丨2
-      - 80丨电信停机卡丨香港1Gbps丨1
-      - 80丨冰激凌畅视丨香港1Gbps丨2
+      - 美国(欢迎订阅Youtube破解资源君) 24
+      - 美国(欢迎订阅Youtube破解资源君) 25
+      - 美国(欢迎订阅Youtube破解资源君) 26
+      - 美国(欢迎订阅Youtube破解资源君) 27
+      - 美国(欢迎订阅Youtube破解资源君) 28
+      - Ytb:鹏哥分享_美国_43
+      - Ytb:鹏哥分享_香港_92
+      - Ytb:鹏哥分享_美国_60
+      - Ytb:鹏哥分享_美国_37
+      - Ytb:鹏哥分享_美国_41
+      - Ytb:鹏哥分享_澳大利亚_11
+      - Ytb:鹏哥分享_加拿大_96
+      - Ytb:鹏哥分享_加拿大_39
+      - Ytb:鹏哥分享_加拿大_62 2
+      - _DE_德国_10
+      - _BG_保加利亚_6
+      - _DE_德国_1
+      - _PL_波兰_7
+      - Morino Relay - Hong Kong1x
+      - Morino Relay - Japan 1x
+      - TW_24079
+      - TW_24087
+      - TW_24024q
+      - TW_24082q
+      - TW_24032q
+      - TW_24044q
+      - TW_24080q
+      - TW_24074q
+      - TW_24033q
+      - TW_24059q
+      - TW_24093q
+      - TW_24003q
+      - TW_24050q
+      - TW_24090q
+      - 香港HKT-dip
+      - Dubai-Oracle
+      - 长沙联通-SG-Contabo
+      - Santa Clarita-Multacom
+      - 长沙联通-Tokyo-FDCservers
+      - LAX-DediPath
+      - 长沙联通-Hanoi-FPT-dip
+      - v2cross.com - 美国  4
+      - _200
+      - GB_832
+      - DE_599 |13.33Mb
+      - DE_523
+      - DE_539
+      - DE_532
+      - DE_534
+      - ss丨香港1Gbps丨3
+      - 80丨冰钉丨香港1Gbps丨3
       - ss丨广西100Mbps丨
       - 香港中转丨ss丨日本500Mbps丨
       - 80丨电信停机卡丨广西100Mbps丨
+      - 8080丨冰钉丨上海8Mbps
       - 80丨冰钉丨广西100Mbps
       - 80丨联通手厅丨北京8Mbps
-      - ss丨日本500Mbps丨
-      - 香港中转丨ss丨韩国500Mbps丨
       - 80丨联通手厅丨日本1Gbps丨1
+      - 香港中转丨ss丨香港500Mbps丨
       - 80丨联通手厅丨日本50Mbps丨2
-      - ss丨韩国500Mbps丨
-      - 香港中转丨ss丨英国100Mbps丨
       - 香港中转丨ss丨美国100Mbps丨
-      - 香港中转丨ss丨德国100Mbps丨
+      - 香港中转丨ss丨英国100Mbps丨
       - 香港中转丨ss丨荷兰500Mbps丨
-      - 80丨联通手厅丨韩国1Gbps丨1
-      - 80丨联通手厅丨韩国500Mbps丨2
+      - 香港中转丨ss丨德国100Mbps丨
+      - 80丨冰激凌畅视丨香港1Gbps丨2
       - 香港中转丨ss丨加拿大100Mbps丨
-      - 80丨联通手厅丨加拿大1Gbps丨2
-      - 80丨联通手厅丨加拿大1Gbps丨4
+      - 香港中转丨ss丨韩国500Mbps丨
+      - 80丨冰钉丨香港1Gbps丨2
       - 80丨联通手厅丨加拿大1Gbps丨1
+      - 80丨冰钉丨香港1Gbps丨1
       - 80丨联通手厅丨加拿大1Gbps丨5
       - 80丨联通手厅丨德国50Mbps丨1
-      - 80丨联通手厅丨德国1Gbps丨2
-      - 80丨联通手厅丨加拿大1Gbps丨3
-      - 80丨冰钉丨香港1Gbps丨2
-      - ss丨加拿大100Mbps丨
       - 80丨联通手厅丨韩国500Mbps丨1
-      - 15510 @WangCai_1
-      - 香港 06
-      - Jsnzkpg专线34
-      - 15507 @WangCai_1
-      - Jsnzkpg专线46
-      - 15509 @WangCai_1
-      - 15503 @WangCai_1
-      - 15507 @WangCai_1 2
-      - 15501 @WangCai_1
-      - jc.ap.fastqvpn.com:29980
+      - 80丨联通手厅丨德国1Gbps丨2
+      - 80丨爱看丨香港1Gbps
+      - 80丨电信停机卡丨香港1Gbps丨1
+      - 80丨联通手厅丨加拿大1Gbps丨2
+      - 80丨联通手厅丨加拿大1Gbps丨3
+      - 80丨联通手厅丨韩国1Gbps丨1
+      - 15502 @WangCai_1
       - 15506 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube梦歌|Netflix_47
-      - 亚洲(欢迎订阅Youtube破解资源君) 13
-      - YouTube梦歌|Netflix_60
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - Jsnzkpg专线47
-      - 亚洲(欢迎订阅Youtube破解资源君) 5 2
+      - 15504 @WangCai_1
+      - 15504 @WangCai_1 2
+      - 15502 @WangCai_1 2
+      - 15509 @WangCai_1
+      - 15507 @WangCai_1
+      - 15502 @WangCai_1 3
+      - 15510 @WangCai_1
+      - 15508 @WangCai_1
+      - 15501 @WangCai_1
+      - 15504 @WangCai_1 3
+      - 15509 @WangCai_1 2
+      - 15502 @WangCai_1 4
+      - 15510 @WangCai_1 2
+      - ss丨广西100Mbps丨 2
+      - 15503 @WangCai_1
+      - 80丨电信停机卡丨广西100Mbps丨 2
+      - 香港中转丨ss丨日本500Mbps丨 2
+      - 80丨冰钉丨广西100Mbps 2
       - Jsnzkpg专线38
-      - KR-SK(1)_9
-      - 香港03_游戏节点_X5_28
-      - 美国(欢迎订阅Youtube破解资源君) 22 2
-      - 乌克兰(欢迎订阅Youtube破解资源君) 3
-      - Jsnzkpg专线35
-      - 欧洲(欢迎订阅Youtube破解资源君) 9 2
-      - UA_1319 _36_60Mb_26
-      - YouTube梦歌|Netflix_29
-      - 亚洲(欢迎订阅Youtube破解资源君) 12 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3 2
-      - 美国(欢迎订阅Youtube破解资源君) 25
-      - 台湾(欢迎订阅Youtube破解资源君) 2 2
-      - HK-HKT-01(1)_11
-      - Jsnzkpg专线40
-      - 日本11_高速视频_X5_20
-      - Jsnzkpg专线41
-      - 香港05_AZ_X3_30
-      - 香港04_CN2中转_X3_29
-      - TG频道@Jsnzk
-      - Jsnzkpg专线32
-      - CA_191 _160_09Mb_16
-      - 欧洲(欢迎订阅Youtube破解资源君) 2 2
-      - 美国(欢迎订阅Youtube破解资源君) 2 2
-      - 美国(欢迎订阅Youtube破解资源君) 13 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - Jsnzkpg专线45
       - Jsnzkpg专线33
+      - 亚洲(欢迎订阅Youtube破解资源君) 13
+      - 80丨联通手厅丨北京8Mbps 2
+      - Jsnzkpg专线47
+      - 日本11_高速视频_X5_20
+      - 香港中转丨ss丨英国100Mbps丨 2
+      - 香港05_AZ_X3_30
+      - 亚洲(欢迎订阅Youtube破解资源君) 5 2
+      - ss丨日本500Mbps丨
+      - ss丨加拿大100Mbps丨
+      - 香港03_游戏节点_X5_28
+      - 欧洲(欢迎订阅Youtube破解资源君) 9 2
+      - 80丨联通手厅丨韩国1Gbps丨1 2
+      - 80丨冰钉丨香港1Gbps丨2 2
+      - 80丨联通手厅丨加拿大1Gbps丨5 2
+      - 80丨联通手厅丨加拿大1Gbps丨4
+      - 亚洲(欢迎订阅Youtube破解资源君) 12 2
+      - 80丨联通手厅丨加拿大1Gbps丨3 2
+      - 80丨联通手厅丨德国50Mbps丨1 2
+      - TG频道@Jsnzk
+      - 80丨电信停机卡丨香港1Gbps丨1 2
+      - 80丨联通手厅丨日本1Gbps丨1 2
+      - 台湾(欢迎订阅Youtube破解资源君) 2 2
+      - 80丨冰激凌畅视丨香港1Gbps丨2 2
+      - 80丨联通手厅丨韩国500Mbps丨1 2
+      - jc.ap.fastqvpn.com:29980
+      - ss丨韩国500Mbps丨
+      - 80丨联通手厅丨加拿大1Gbps丨2 2
+      - Jsnzkpg专线32
+      - 香港04_CN2中转_X3_29
+      - "@Jsnzkpg"
+      - CA_191 _160_09Mb_16
+      - 欧洲(欢迎订阅Youtube破解资源君) 11
   - name: ♻️ 自动选择节点
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - CN_47+atpeekfun_1
-      - CN_51+atpeekfun_2
-      - CN_48+atpeekfun_3
-      - CN_53+atpeekfun_4
-      - CN_67+atpeekfun_5
-      - CN_49+atpeekfun_6
-      - CN_66+atpeekfun_7
-      - CN_52+atpeekfun_8
-      - CN_56+atpeekfun_9
-      - US_843
-      - US_840
-      - CN_44+_19_38Mb_12
-      - CN_65+_17_18Mb_13
-      - Relay_🇨🇳CN-🇭🇰HK_78_26_28Mb_14
-      - TW_430_24_55Mb_15
-      - Relay_🇨🇳CN-🇹🇼TW_77_16_67Mb_16
-      - CN_63+_20_85Mb_17
-      - CN_59+TGatpeekfun_18
-      - CN_47+TGatpeekfun_19
-      - CN_61+TGatpeekfun_20
-      - CN_53+TGatpeekfun_21
-      - CN_58+TGatpeekfun_22
-      - CN_54+TGatpeekfun_23
-      - CN_60+TGatpeekfun_24
-      - CN_64+TGatpeekfun_25
-      - CN_52+TGatpeekfun_26
-      - CN_55+TGatpeekfun_27
-      - CN_62+TGatpeekfun_28
-      - CN_51+TGatpeekfun_29
-      - CN_63+TGatpeekfun_30
-      - CN_49+TGatpeekfun_31
+      - _CN_中国_1
+      - _HK_香港_2
+      - _CA_加拿大_3
+      - _US_美国_4
+      - _CA_加拿大_5
+      - _GB_英国_6
+      - _GB_英国_7
+      - _CA_加拿大_8
+      - _DE_德国_9
+      - _JP_日本_10
+      - _US_美国_11
+      - _CA_加拿大_12
+      - _CN_中国->🇳🇱_NL_荷兰_13
+      - _CN_中国->🇺🇸_US_美国_14
+      - _DE_德国_15
+      - _NL_荷兰_16
+      - _RO_罗马尼亚_17
+      - _PL_波兰_18
+      - _US_美国_19
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _AU_澳大利亚_23
+      - _US_美国_24
+      - _HK_香港_25
+      - _CA_加拿大_26
+      - _CA_加拿大_27
+      - _CA_加拿大_28
+      - _CA_加拿大_29
+      - _DE_德国_30
+      - _PL_波兰_31
+      - _PL_波兰_32
+      - _PL_波兰_33
+      - _IN_印度_34
+      - _US_美国_35
+      - _US_美国_36
+      - _AU_澳大利亚_37
+      - _BG_保加利亚_38
+      - _US_美国_39
+      - _CN_中国->🇹🇼_TW_台湾_40
+      - _CN_中国->🇹🇼_TW_台湾_41
+      - _AU_澳大利亚_42
+      - _AU_澳大利亚_43
+      - _CA_加拿大_44
+      - _DE_德国_45
+      - _DE_德国_46
+      - _GB_英国_47
+      - _GB_英国_48
+      - _GB_英国_49
+      - _GB_英国_50
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
       - 加拿大(欢迎订阅Youtube破解资源君) 3
@@ -2908,86 +3071,139 @@ proxy-groups:
       - github.com/freefq - 美国纽约市DigitalOcean云公司 53
       - github.com/freefq - 美国3COM公司企业网 54
       - github.com/freefq - 北美地区  55
-      - "@Jsnzkpg"
-      - 80丨爱看丨香港1Gbps
-      - ss丨香港1Gbps丨1
-      - ss丨香港1Gbps丨2
-      - 80丨电信停机卡丨香港1Gbps丨1
-      - 80丨冰激凌畅视丨香港1Gbps丨2
+      - 美国(欢迎订阅Youtube破解资源君) 24
+      - 美国(欢迎订阅Youtube破解资源君) 25
+      - 美国(欢迎订阅Youtube破解资源君) 26
+      - 美国(欢迎订阅Youtube破解资源君) 27
+      - 美国(欢迎订阅Youtube破解资源君) 28
+      - Ytb:鹏哥分享_美国_43
+      - Ytb:鹏哥分享_香港_92
+      - Ytb:鹏哥分享_美国_60
+      - Ytb:鹏哥分享_美国_37
+      - Ytb:鹏哥分享_美国_41
+      - Ytb:鹏哥分享_澳大利亚_11
+      - Ytb:鹏哥分享_加拿大_96
+      - Ytb:鹏哥分享_加拿大_39
+      - Ytb:鹏哥分享_加拿大_62 2
+      - _DE_德国_10
+      - _BG_保加利亚_6
+      - _DE_德国_1
+      - _PL_波兰_7
+      - Morino Relay - Hong Kong1x
+      - Morino Relay - Japan 1x
+      - TW_24079
+      - TW_24087
+      - TW_24024q
+      - TW_24082q
+      - TW_24032q
+      - TW_24044q
+      - TW_24080q
+      - TW_24074q
+      - TW_24033q
+      - TW_24059q
+      - TW_24093q
+      - TW_24003q
+      - TW_24050q
+      - TW_24090q
+      - 香港HKT-dip
+      - Dubai-Oracle
+      - 长沙联通-SG-Contabo
+      - Santa Clarita-Multacom
+      - 长沙联通-Tokyo-FDCservers
+      - LAX-DediPath
+      - 长沙联通-Hanoi-FPT-dip
+      - v2cross.com - 美国  4
+      - _200
+      - GB_832
+      - DE_599 |13.33Mb
+      - DE_523
+      - DE_539
+      - DE_532
+      - DE_534
+      - ss丨香港1Gbps丨3
+      - 80丨冰钉丨香港1Gbps丨3
       - ss丨广西100Mbps丨
       - 香港中转丨ss丨日本500Mbps丨
       - 80丨电信停机卡丨广西100Mbps丨
+      - 8080丨冰钉丨上海8Mbps
       - 80丨冰钉丨广西100Mbps
       - 80丨联通手厅丨北京8Mbps
-      - ss丨日本500Mbps丨
-      - 香港中转丨ss丨韩国500Mbps丨
       - 80丨联通手厅丨日本1Gbps丨1
+      - 香港中转丨ss丨香港500Mbps丨
       - 80丨联通手厅丨日本50Mbps丨2
-      - ss丨韩国500Mbps丨
-      - 香港中转丨ss丨英国100Mbps丨
       - 香港中转丨ss丨美国100Mbps丨
-      - 香港中转丨ss丨德国100Mbps丨
+      - 香港中转丨ss丨英国100Mbps丨
       - 香港中转丨ss丨荷兰500Mbps丨
-      - 80丨联通手厅丨韩国1Gbps丨1
-      - 80丨联通手厅丨韩国500Mbps丨2
+      - 香港中转丨ss丨德国100Mbps丨
+      - 80丨冰激凌畅视丨香港1Gbps丨2
       - 香港中转丨ss丨加拿大100Mbps丨
-      - 80丨联通手厅丨加拿大1Gbps丨2
-      - 80丨联通手厅丨加拿大1Gbps丨4
+      - 香港中转丨ss丨韩国500Mbps丨
+      - 80丨冰钉丨香港1Gbps丨2
       - 80丨联通手厅丨加拿大1Gbps丨1
+      - 80丨冰钉丨香港1Gbps丨1
       - 80丨联通手厅丨加拿大1Gbps丨5
       - 80丨联通手厅丨德国50Mbps丨1
-      - 80丨联通手厅丨德国1Gbps丨2
-      - 80丨联通手厅丨加拿大1Gbps丨3
-      - 80丨冰钉丨香港1Gbps丨2
-      - ss丨加拿大100Mbps丨
       - 80丨联通手厅丨韩国500Mbps丨1
-      - 15510 @WangCai_1
-      - 香港 06
-      - Jsnzkpg专线34
-      - 15507 @WangCai_1
-      - Jsnzkpg专线46
-      - 15509 @WangCai_1
-      - 15503 @WangCai_1
-      - 15507 @WangCai_1 2
-      - 15501 @WangCai_1
-      - jc.ap.fastqvpn.com:29980
+      - 80丨联通手厅丨德国1Gbps丨2
+      - 80丨爱看丨香港1Gbps
+      - 80丨电信停机卡丨香港1Gbps丨1
+      - 80丨联通手厅丨加拿大1Gbps丨2
+      - 80丨联通手厅丨加拿大1Gbps丨3
+      - 80丨联通手厅丨韩国1Gbps丨1
+      - 15502 @WangCai_1
       - 15506 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube梦歌|Netflix_47
-      - 亚洲(欢迎订阅Youtube破解资源君) 13
-      - YouTube梦歌|Netflix_60
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - Jsnzkpg专线47
-      - 亚洲(欢迎订阅Youtube破解资源君) 5 2
+      - 15504 @WangCai_1
+      - 15504 @WangCai_1 2
+      - 15502 @WangCai_1 2
+      - 15509 @WangCai_1
+      - 15507 @WangCai_1
+      - 15502 @WangCai_1 3
+      - 15510 @WangCai_1
+      - 15508 @WangCai_1
+      - 15501 @WangCai_1
+      - 15504 @WangCai_1 3
+      - 15509 @WangCai_1 2
+      - 15502 @WangCai_1 4
+      - 15510 @WangCai_1 2
+      - ss丨广西100Mbps丨 2
+      - 15503 @WangCai_1
+      - 80丨电信停机卡丨广西100Mbps丨 2
+      - 香港中转丨ss丨日本500Mbps丨 2
+      - 80丨冰钉丨广西100Mbps 2
       - Jsnzkpg专线38
-      - KR-SK(1)_9
-      - 香港03_游戏节点_X5_28
-      - 美国(欢迎订阅Youtube破解资源君) 22 2
-      - 乌克兰(欢迎订阅Youtube破解资源君) 3
-      - Jsnzkpg专线35
-      - 欧洲(欢迎订阅Youtube破解资源君) 9 2
-      - UA_1319 _36_60Mb_26
-      - YouTube梦歌|Netflix_29
-      - 亚洲(欢迎订阅Youtube破解资源君) 12 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3 2
-      - 美国(欢迎订阅Youtube破解资源君) 25
-      - 台湾(欢迎订阅Youtube破解资源君) 2 2
-      - HK-HKT-01(1)_11
-      - Jsnzkpg专线40
-      - 日本11_高速视频_X5_20
-      - Jsnzkpg专线41
-      - 香港05_AZ_X3_30
-      - 香港04_CN2中转_X3_29
-      - TG频道@Jsnzk
-      - Jsnzkpg专线32
-      - CA_191 _160_09Mb_16
-      - 欧洲(欢迎订阅Youtube破解资源君) 2 2
-      - 美国(欢迎订阅Youtube破解资源君) 2 2
-      - 美国(欢迎订阅Youtube破解资源君) 13 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - Jsnzkpg专线45
       - Jsnzkpg专线33
+      - 亚洲(欢迎订阅Youtube破解资源君) 13
+      - 80丨联通手厅丨北京8Mbps 2
+      - Jsnzkpg专线47
+      - 日本11_高速视频_X5_20
+      - 香港中转丨ss丨英国100Mbps丨 2
+      - 香港05_AZ_X3_30
+      - 亚洲(欢迎订阅Youtube破解资源君) 5 2
+      - ss丨日本500Mbps丨
+      - ss丨加拿大100Mbps丨
+      - 香港03_游戏节点_X5_28
+      - 欧洲(欢迎订阅Youtube破解资源君) 9 2
+      - 80丨联通手厅丨韩国1Gbps丨1 2
+      - 80丨冰钉丨香港1Gbps丨2 2
+      - 80丨联通手厅丨加拿大1Gbps丨5 2
+      - 80丨联通手厅丨加拿大1Gbps丨4
+      - 亚洲(欢迎订阅Youtube破解资源君) 12 2
+      - 80丨联通手厅丨加拿大1Gbps丨3 2
+      - 80丨联通手厅丨德国50Mbps丨1 2
+      - TG频道@Jsnzk
+      - 80丨电信停机卡丨香港1Gbps丨1 2
+      - 80丨联通手厅丨日本1Gbps丨1 2
+      - 台湾(欢迎订阅Youtube破解资源君) 2 2
+      - 80丨冰激凌畅视丨香港1Gbps丨2 2
+      - 80丨联通手厅丨韩国500Mbps丨1 2
+      - jc.ap.fastqvpn.com:29980
+      - ss丨韩国500Mbps丨
+      - 80丨联通手厅丨加拿大1Gbps丨2 2
+      - Jsnzkpg专线32
+      - 香港04_CN2中转_X3_29
+      - "@Jsnzkpg"
+      - CA_191 _160_09Mb_16
+      - 欧洲(欢迎订阅Youtube破解资源君) 11
   - name: Other
     type: select
     proxies:
