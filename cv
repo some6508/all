@@ -620,28 +620,16 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
-  - {name: _AU_1, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 129.154.54.75}}, udp: true}
-  - {name: _CN_2, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: _CN_3, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: _DE_4, server: 78.46.244.34, port: 33655, type: vmess, uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _HU_5, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _KR_6, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _HK_7, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_8, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_9, server: sgaws005.xmrth-node.xyz, port: 13057, type: vmess, uuid: f6d03f94-7d51-3ed2-981a-f3298aedd9b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: _TW_10, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _TW_11, server: tw01.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw01.nttkk.com}}, udp: true}
-  - {name: "", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: " 2", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: _US_14, server: 65.49.214.185, port: 30658, type: vmess, uuid: 351c64c1-2f7d-4900-a2d2-8f09a6501603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_15, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 104.168.13.8}}, udp: true}
-  - {name: _US_16, server: aa.kayalo.com, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wis, headers: {Host: aa.kayalo.com}}, udp: true}
-  - {name: _US_17, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_18, server: 47.241.191.179, port: 46104, type: vmess, uuid: 5b7f1d0e-4821-4108-e4bf-fa765ab28f2e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_19, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_20, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_21, server: 185.202.172.243, port: 40941, type: vmess, uuid: 48537820-14f3-4de7-d26e-a3b88bcf015a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _HK_22, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
+  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
+  - {name: _GB_英国, server: 152.89.210.105, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: _CN_中国->🇳🇱_NL_荷兰, server: 211.91.243.241, port: 60013, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 211.91.243.241, port: 60007, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 198.211.45.184, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
+  - {name: n119.boom.party:17000, server: n119.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 343767:3StTW5, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: s100.boom.party:19000, server: s100.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 343767:3StTW5, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: _AU_澳大利亚, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1691,28 +1679,16 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _AU_1
-      - _CN_2
-      - _CN_3
-      - _DE_4
-      - _HU_5
-      - _KR_6
-      - _HK_7
-      - _SG_8
-      - _SG_9
-      - _TW_10
-      - _TW_11
-      - ""
-      - " 2"
-      - _US_14
-      - _US_15
-      - _US_16
-      - _US_17
-      - _SG_18
-      - _US_19
-      - _NL_20
-      - _US_21
-      - _HK_22
+      - _CN_中国
+      - _HK_香港
+      - _GB_英国
+      - _CN_中国->🇳🇱_NL_荷兰
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - n119.boom.party:17000
+      - s100.boom.party:19000
+      - _AU_澳大利亚
+      - _CA_加拿大
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2762,28 +2738,16 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _AU_1
-      - _CN_2
-      - _CN_3
-      - _DE_4
-      - _HU_5
-      - _KR_6
-      - _HK_7
-      - _SG_8
-      - _SG_9
-      - _TW_10
-      - _TW_11
-      - ""
-      - " 2"
-      - _US_14
-      - _US_15
-      - _US_16
-      - _US_17
-      - _SG_18
-      - _US_19
-      - _NL_20
-      - _US_21
-      - _HK_22
+      - _CN_中国
+      - _HK_香港
+      - _GB_英国
+      - _CN_中国->🇳🇱_NL_荷兰
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - n119.boom.party:17000
+      - s100.boom.party:19000
+      - _AU_澳大利亚
+      - _CA_加拿大
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
