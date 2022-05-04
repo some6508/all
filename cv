@@ -5,7 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: xiumu_1, server: 173.82.255.215, port: 10318, type: ss, cipher: aes-256-cfb, password: !<str> 12345689, udp: true}
+  - {name: _CN_中国_1, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _HK_香港_2, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CA_加拿大_3, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_英国_4, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: _GB_英国_5, server: 152.89.210.105, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CA_加拿大_6, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_7, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_8, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国_9, server: 152.89.210.105, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: _JP_日本_10, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_11, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _BG_保加利亚_12, server: 213.183.63.218, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: _GB_英国_13, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: _CA_加拿大_14, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_英国_15, server: 152.89.210.105, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _PL_波兰_16, server: 217.30.10.65, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: _US_美国_17, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _PL_波兰_18, server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: _US_美国_19, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _PL_波兰_20, server: 217.30.10.65, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: _BG_保加利亚_21, server: 213.183.63.219, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: _SG_新加坡_22, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CA_加拿大_23, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _DE_德国_24, server: 5.183.179.140, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: _GB_英国_25, server: 152.89.210.105, port: 9064, type: ssr, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _BG_保加利亚_26, server: 213.183.63.218, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: _BG_保加利亚_27, server: 213.183.63.218, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: _CH_瑞士_28, server: 185.126.116.117, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: _US_美国_29, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_30, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _DE_德国_31, server: 5.183.179.146, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: _DE_德国_32, server: 5.183.179.146, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: _DE_德国_33, server: 5.183.179.146, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: _DE_德国_34, server: 5.183.179.146, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_35, server: n04.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 312545:qazqaz00, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: _BG_保加利亚_36, server: 213.183.63.218, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: _PL_波兰_37, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: _PL_波兰_38, server: 217.30.10.66, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: _CH_瑞士_39, server: 185.126.116.117, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: _DE_德国_40, server: 5.183.179.140, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: _DE_德国_41, server: 5.183.179.140, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: _DE_德国_42, server: 5.183.179.140, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: _DE_德国_43, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: _DE_德国_44, server: 5.183.179.140, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: _BG_保加利亚_45, server: 213.183.63.218, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: _US_美国_46, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国_47, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_48, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_49, server: 152.89.210.105, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: _GB_英国_50, server: 152.89.210.105, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君), server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 7a0e7d79-47e0-4a81-9fbe-086dc0159533, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -983,7 +1032,56 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - xiumu_1
+      - _CN_中国_1
+      - _HK_香港_2
+      - _CA_加拿大_3
+      - _GB_英国_4
+      - _GB_英国_5
+      - _CA_加拿大_6
+      - _CA_加拿大_7
+      - _CA_加拿大_8
+      - _GB_英国_9
+      - _JP_日本_10
+      - _US_美国_11
+      - _BG_保加利亚_12
+      - _GB_英国_13
+      - _CA_加拿大_14
+      - _GB_英国_15
+      - _PL_波兰_16
+      - _US_美国_17
+      - _PL_波兰_18
+      - _US_美国_19
+      - _PL_波兰_20
+      - _BG_保加利亚_21
+      - _SG_新加坡_22
+      - _CA_加拿大_23
+      - _DE_德国_24
+      - _GB_英国_25
+      - _BG_保加利亚_26
+      - _BG_保加利亚_27
+      - _CH_瑞士_28
+      - _US_美国_29
+      - _CA_加拿大_30
+      - _DE_德国_31
+      - _DE_德国_32
+      - _DE_德国_33
+      - _DE_德国_34
+      - _CN_中国->🇹🇼_TW_台湾_35
+      - _BG_保加利亚_36
+      - _PL_波兰_37
+      - _PL_波兰_38
+      - _CH_瑞士_39
+      - _DE_德国_40
+      - _DE_德国_41
+      - _DE_德国_42
+      - _DE_德国_43
+      - _DE_德国_44
+      - _BG_保加利亚_45
+      - _US_美国_46
+      - _US_美国_47
+      - _US_美国_48
+      - _GB_英国_49
+      - _GB_英国_50
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 韩国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君)
@@ -1961,7 +2059,56 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - xiumu_1
+      - _CN_中国_1
+      - _HK_香港_2
+      - _CA_加拿大_3
+      - _GB_英国_4
+      - _GB_英国_5
+      - _CA_加拿大_6
+      - _CA_加拿大_7
+      - _CA_加拿大_8
+      - _GB_英国_9
+      - _JP_日本_10
+      - _US_美国_11
+      - _BG_保加利亚_12
+      - _GB_英国_13
+      - _CA_加拿大_14
+      - _GB_英国_15
+      - _PL_波兰_16
+      - _US_美国_17
+      - _PL_波兰_18
+      - _US_美国_19
+      - _PL_波兰_20
+      - _BG_保加利亚_21
+      - _SG_新加坡_22
+      - _CA_加拿大_23
+      - _DE_德国_24
+      - _GB_英国_25
+      - _BG_保加利亚_26
+      - _BG_保加利亚_27
+      - _CH_瑞士_28
+      - _US_美国_29
+      - _CA_加拿大_30
+      - _DE_德国_31
+      - _DE_德国_32
+      - _DE_德国_33
+      - _DE_德国_34
+      - _CN_中国->🇹🇼_TW_台湾_35
+      - _BG_保加利亚_36
+      - _PL_波兰_37
+      - _PL_波兰_38
+      - _CH_瑞士_39
+      - _DE_德国_40
+      - _DE_德国_41
+      - _DE_德国_42
+      - _DE_德国_43
+      - _DE_德国_44
+      - _BG_保加利亚_45
+      - _US_美国_46
+      - _US_美国_47
+      - _US_美国_48
+      - _GB_英国_49
+      - _GB_英国_50
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 韩国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君)
