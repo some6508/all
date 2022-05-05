@@ -4,82 +4,47 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"1chuan.top","port":443,"type":"vmess","uuid":"fa8f90e0-2fae-4b05-df7a-ea325bc517d8","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/evo","headers":{"host":"1chuan.top"}}}
-  - {"name":"🇺🇸_US_美国_2","server":"us3.31vpn.com","port":443,"type":"vmess","uuid":"2ef64dc8-ca3c-45b8-ad5f-20871452143b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/fastssh/3102637493qqcom/626cf7d8bd49b/","headers":{"host":"us3.31vpn.com"}}}
-  - {"name":"🇺🇸_US_美国_3","server":"1.ezydfdd.com","port":443,"type":"vmess","uuid":"4ee48ad8-178c-40a2-9c52-a14e90a06e49","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"1.ezydfdd.com"}}}
-  - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_4","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇿_CZ_捷克_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"default_name_5","server":"us02.gogogoo.cyou","port":443,"type":"vmess","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":0,"cipher":"auto","country":"default_name_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/go","headers":{"host":"us02.gogogoo.cyou"}}}
-  - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_6","server":"8.ezydfdd.com","port":443,"type":"vmess","uuid":"dc0887b9-4c05-428c-adce-4235d1636341","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇦_CA_加拿大_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"8.ezydfdd.com"}}}
+proxies: 
+  - {name: '#6_1', server: 'bingchilling.gq', port: 443, type: vmess, uuid: '8916e82e-b9c0-4980-9948-3d062325a5cf', alterId: 0, cipher: auto, country: "#6_1", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/morning'} }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_4
-      - default_name_5
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - #6_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_4
-      - default_name_5
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - #6_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_4
-      - default_name_5
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - #6_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_4
-      - default_name_5
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - #6_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_4
-      - default_name_5
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - #6_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_4
-      - default_name_5
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - #6_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -102,12 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_4
-      - default_name_5
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - #6_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
