@@ -5,179 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇩🇪_DE_德国_1","server":"5.183.179.167","port":9070,"type":"ss","country":"🇩🇪_DE_德国_1","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"name":"🇬🇧_GB_英国_2","server":"152.89.210.105","port":9020,"type":"ss","country":"🇬🇧_GB_英国_2","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"🇺🇸_US_美国_3","server":"169.197.142.99","port":5004,"type":"ss","country":"🇺🇸_US_美国_3","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇦🇺_AU_澳大利亚_4","server":"jgwxn2.gaox.ml","port":443,"type":"trojan","country":"🇦🇺_AU_澳大利亚_4","skip-cert-verify":true,"udp":true,"password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26"}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)8_5","server":"155.248.202.203","port":14564,"type":"vmess","uuid":"4a0da379-a7cc-4389-88d7-45514b896883","alterId":0,"cipher":"auto","country":"美国(欢迎订阅Youtube破解资源君)8_5","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/v2ray","headers":{"host":"154.17.25.49"}}}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"198.57.27.225","port":8009,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)+24_7","server":"www.gomacau.gq","port":443,"type":"trojan","country":"美国(欢迎订阅Youtube破解资源君)+24_7","skip-cert-verify":true,"udp":true,"password":"b5fc9fa9-796d-4185-a316-395ecac04a85"}
-  - {"name":"🇭🇰_HK_香港_8","server":"api.tcpbbr.net","port":443,"type":"trojan","country":"🇭🇰_HK_香港_8","skip-cert-verify":true,"udp":true,"password":"08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9"}
-  - {"name":"🇨🇦_CA_加拿大_9","server":"198.57.27.225","port":5004,"type":"ss","country":"🇨🇦_CA_加拿大_9","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇩🇪_DE_德国_10","server":"5.183.179.167","port":9001,"type":"ss","country":"🇩🇪_DE_德国_10","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
-  - {"name":"🇺🇸_US_美国_11","server":"169.197.142.99","port":9102,"type":"ss","country":"🇺🇸_US_美国_11","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_12","server":"180.163.62.91","port":10065,"type":"ss","country":"🇨🇳_CN_中国->🇰🇷_KR_韩国_12","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"🇬🇧_GB_英国_13","server":"152.89.210.105","port":9006,"type":"ss","country":"🇬🇧_GB_英国_13","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"name":"defaultName_14","server":"213.183.53.200","port":9008,"type":"ssr","country":"defaultName_14","password":"y9VURyNzJWNRYEGQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_15","server":"213.183.53.200","port":9037,"type":"ssr","country":"defaultName_15","password":"TN2YqghxeFDKZfLU","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_16","server":"213.183.53.200","port":9033,"type":"ssr","country":"defaultName_16","password":"UTJA57ypk2XKQpnm","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇩🇪_DE_德国_17","server":"5.183.179.167","port":9031,"type":"ss","country":"🇩🇪_DE_德国_17","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"🇺🇸_US_美国_18","server":"38.68.135.19","port":5004,"type":"ss","country":"🇺🇸_US_美国_18","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_19","server":"198.57.27.225","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_19","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_US_美国_47","server":"169.197.142.99","port":3306,"type":"ss","country":"_US_美国_47","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"198.57.27.225","port":5600,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"198.57.27.225","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_3","server":"198.57.27.225","port":6679,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"198.57.27.225","port":8888,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"198.57.27.225","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"198.57.27.225","port":5500,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇳_CN_中国_7","server":"43.154.77.196","port":38539,"type":"vmess","uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国_7","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.77.196"}}}
+  - {"name":"🇺🇸_US_美国_8","server":"167.88.61.236","port":809,"type":"ss","country":"🇺🇸_US_美国_8","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇬🇧_GB_英国_9","server":"152.89.210.105","port":9032,"type":"ss","country":"🇬🇧_GB_英国_9","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇭🇰_HK_香港_10","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_10","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 美国(欢迎订阅Youtube破解资源君)8_5
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 美国(欢迎订阅Youtube破解资源君)+24_7
-      - 🇭🇰_HK_香港_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇩🇪_DE_德国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_12
-      - 🇬🇧_GB_英国_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - 🇩🇪_DE_德国_17
-      - 🇺🇸_US_美国_18
-      - 🇨🇦_CA_加拿大_19
-      - _US_美国_47
+      - 🇨🇳_CN_中国_7
+      - 🇺🇸_US_美国_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 美国(欢迎订阅Youtube破解资源君)8_5
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 美国(欢迎订阅Youtube破解资源君)+24_7
-      - 🇭🇰_HK_香港_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇩🇪_DE_德国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_12
-      - 🇬🇧_GB_英国_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - 🇩🇪_DE_德国_17
-      - 🇺🇸_US_美国_18
-      - 🇨🇦_CA_加拿大_19
-      - _US_美国_47
+      - 🇨🇳_CN_中国_7
+      - 🇺🇸_US_美国_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 美国(欢迎订阅Youtube破解资源君)8_5
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 美国(欢迎订阅Youtube破解资源君)+24_7
-      - 🇭🇰_HK_香港_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇩🇪_DE_德国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_12
-      - 🇬🇧_GB_英国_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - 🇩🇪_DE_德国_17
-      - 🇺🇸_US_美国_18
-      - 🇨🇦_CA_加拿大_19
-      - _US_美国_47
+      - 🇨🇳_CN_中国_7
+      - 🇺🇸_US_美国_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 美国(欢迎订阅Youtube破解资源君)8_5
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 美国(欢迎订阅Youtube破解资源君)+24_7
-      - 🇭🇰_HK_香港_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇩🇪_DE_德国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_12
-      - 🇬🇧_GB_英国_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - 🇩🇪_DE_德国_17
-      - 🇺🇸_US_美国_18
-      - 🇨🇦_CA_加拿大_19
-      - _US_美国_47
+      - 🇨🇳_CN_中国_7
+      - 🇺🇸_US_美国_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 美国(欢迎订阅Youtube破解资源君)8_5
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 美国(欢迎订阅Youtube破解资源君)+24_7
-      - 🇭🇰_HK_香港_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇩🇪_DE_德国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_12
-      - 🇬🇧_GB_英国_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - 🇩🇪_DE_德国_17
-      - 🇺🇸_US_美国_18
-      - 🇨🇦_CA_加拿大_19
-      - _US_美国_47
+      - 🇨🇳_CN_中国_7
+      - 🇺🇸_US_美国_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 美国(欢迎订阅Youtube破解资源君)8_5
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 美国(欢迎订阅Youtube破解资源君)+24_7
-      - 🇭🇰_HK_香港_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇩🇪_DE_德国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_12
-      - 🇬🇧_GB_英国_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - 🇩🇪_DE_德国_17
-      - 🇺🇸_US_美国_18
-      - 🇨🇦_CA_加拿大_19
-      - _US_美国_47
+      - 🇨🇳_CN_中国_7
+      - 🇺🇸_US_美国_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -200,26 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 美国(欢迎订阅Youtube破解资源君)8_5
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 美国(欢迎订阅Youtube破解资源君)+24_7
-      - 🇭🇰_HK_香港_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇩🇪_DE_德国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_12
-      - 🇬🇧_GB_英国_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - 🇩🇪_DE_德国_17
-      - 🇺🇸_US_美国_18
-      - 🇨🇦_CA_加拿大_19
-      - _US_美国_47
+      - 🇨🇳_CN_中国_7
+      - 🇺🇸_US_美国_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
