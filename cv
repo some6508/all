@@ -640,16 +640,114 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
-  - {name: _US_美国, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 2, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 3, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 4, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 5, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 6, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 7, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 8, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 9, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 10, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: YouTube梦歌|Netflix_1, server: 2.9.0.fuckppppp.today, port: 53942, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_2, server: 2.sg.zz.xxxxx.x-t-fuckword.network, port: 60301, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_3, server: word.13.1.fuckword.club, port: 53127, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_4, server: 5.jp.zz.xxxxx.x-t-fuckword.network, port: 48752, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_5, server: 1.5.1.fuckppppp.today, port: 50010, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_6, server: ygzyd.sub-nthu.com, port: 35001, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: jp-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_7, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_8, server: ygzyd.sub-nthu.com, port: 35006, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: hk-0.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_9, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_10, server: word.2.fuckword.club, port: 36678, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_11, server: lgz.sub-nthu.com, port: 51002, type: ss, cipher: aes-128-gcm, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, udp: true}
+  - {name: YouTube梦歌|Netflix_12, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_13, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_14, server: 2.7.1.fuckppppp.today, port: 50002, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_15, server: 7.hk.zz.xxxxx.x-t-fuckword.network, port: 58416, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_16, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_17, server: in02.dns2333.xyz, port: 62087, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: YouTube梦歌|Netflix_18, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_19, server: hk2.v3.zz.cn.fuckword.club, port: 47835, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_20, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_21, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_22, server: hk1.v3.zz.cn.fuckword.club, port: 47605, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_23, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_24, server: in04.dns2333.xyz, port: 62088, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: tw-balancer.myn1des.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_25, server: word.14.1.fuckword.club, port: 48861, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_26, server: hk1.v2.zz.cn.fuckword.club, port: 49511, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_27, server: in04.dns2333.xyz, port: 62086, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_28, server: in02.dns2333.xyz, port: 62086, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_29, server: in02.dns2333.xyz, port: 62004, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nbsd-kr01.covid19.rip}}, udp: true}
+  - {name: YouTube梦歌|Netflix_30, server: shlt.sub-nthu.com, port: 35001, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: jp-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_31, server: cn2hn.sub-nthu.com, port: 35003, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: sg-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_32, server: cn2hn.sub-nthu.com, port: 35006, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: hk-0.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_33, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_34, server: cn2hn.sub-nthu.com, port: 35005, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: tw-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_35, server: us2.v3.zz.cn.fuckword.club, port: 58420, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_36, server: shlt.sub-nthu.com, port: 35007, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: kr-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_37, server: 1.hk.zz.xxxxx.x-t-fuckword.network, port: 36672, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_38, server: in02.dns2333.xyz, port: 62088, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: tw-balancer.myn1des.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_39, server: cn2hn.sub-nthu.com, port: 35001, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: jp-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_40, server: ygzyd.sub-nthu.com, port: 35000, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: us-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_41, server: cn2hn.sub-nthu.com, port: 35007, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: kr-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_42, server: in02.dns2333.xyz, port: 62051, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls, headers: {Host: nbsd-in01.airport-v2.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_43, server: in04.dns2333.xyz, port: 62069, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nbsd-us03.covid19.rip}}, udp: true}
+  - {name: YouTube梦歌|Netflix_44, server: in02.dns2333.xyz, port: 62078, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_45, server: in01.dns2333.xyz, port: 62087, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: YouTube梦歌|Netflix_46, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_47, server: shlt.sub-nthu.com, port: 35005, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: tw-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_48, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_49, server: shlt.sub-nthu.com, port: 35000, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: us-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_50, server: in02.dns2333.xyz, port: 62014, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: nbsd-us01.covid19.rip}}, udp: true}
+  - {name: YouTube梦歌|Netflix_51, server: 3.8.1.fuckppppp.today, port: 53125, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_52, server: cn2hn.sub-nthu.com, port: 35000, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: us-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_53, server: in01.dns2333.xyz, port: 62069, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nbsd-us03.covid19.rip}}, udp: true}
+  - {name: YouTube梦歌|Netflix_54, server: v2-3.godlight.xyz, port: 39277, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2-3.godlight.xyz, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
+  - {name: YouTube梦歌|Netflix_55, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_56, server: in02.dns2333.xyz, port: 62069, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nbsd-us03.covid19.rip}}, udp: true}
+  - {name: YouTube梦歌|Netflix_57, server: shlt.sub-nthu.com, port: 35003, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: sg-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_58, server: shlt.sub-nthu.com, port: 35002, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: hk-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_59, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_60, server: in02.dns2333.xyz, port: 62028, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nbsd-tr01.covid19.rip}}, udp: true}
+  - {name: YouTube梦歌|Netflix_61, server: in04.dns2333.xyz, port: 62028, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nbsd-tr01.covid19.rip}}, udp: true}
+  - {name: YouTube梦歌|Netflix_62, server: in02.dns2333.xyz, port: 62041, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: nbsd-br01.covid19.rip}}, udp: true}
+  - {name: YouTube梦歌|Netflix_63, server: in05.dns2333.xyz, port: 62088, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: tw-balancer.myn1des.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_64, server: in04.dns2333.xyz, port: 62087, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: YouTube梦歌|Netflix_65, server: in05.dns2333.xyz, port: 62078, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_66, server: 2.1.1.fuckppppp.today, port: 53126, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_67, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_68, server: in05.dns2333.xyz, port: 62021, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk01-cdn.airport-v2.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_69, server: in05.dns2333.xyz, port: 62062, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl01-cdn.tencent.best}}, udp: true}
+  - {name: YouTube梦歌|Netflix_70, server: fr-direct-cdn.node001.xyz, port: 2082, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: fr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: YouTube梦歌|Netflix_71, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_72, server: in05.dns2333.xyz, port: 62086, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_73, server: in05.dns2333.xyz, port: 62077, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pl01-cdn.myn0des.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_74, server: in05.dns2333.xyz, port: 62087, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: YouTube梦歌|Netflix_75, server: in04.dns2333.xyz, port: 62071, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nbsd-ru01.myn1des.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_76, server: jp-direct-cdn.node001.xyz, port: 2082, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: jp-direct-cdn.node001.xyz}}, udp: true}
+  - {name: YouTube梦歌|Netflix_77, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_78, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: YouTube梦歌|Netflix_79, server: v2.godlight.xyz, port: 26938, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2.godlight.xyz, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: YouTube梦歌|Netflix_80, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: YouTube梦歌|Netflix_81, server: ygzyd.sub-nthu.com, port: 35005, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: tw-1.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_82, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: YouTube梦歌|Netflix_83, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
+  - {name: YouTube梦歌|Netflix_84, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: YouTube梦歌|Netflix_85, server: lgz.sub-nthu.com, port: 51003, type: ss, cipher: aes-128-gcm, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, udp: true}
+  - {name: YouTube梦歌|Netflix_86, server: ygzyd.sub-nthu.com, port: 35001, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_87, server: lgz.sub-nthu.com, port: 51001, type: ss, cipher: aes-128-gcm, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, udp: true}
+  - {name: YouTube梦歌|Netflix_88, server: ygzyd.sub-nthu.com, port: 35005, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_89, server: ygzyd.sub-nthu.com, port: 35003, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_90, server: lgz.sub-nthu.com, port: 51005, type: ss, cipher: aes-128-gcm, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, udp: true}
+  - {name: YouTube梦歌|Netflix_91, server: lgz.sub-nthu.com, port: 51004, type: ss, cipher: aes-128-gcm, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, udp: true}
+  - {name: YouTube梦歌|Netflix_92, server: shlt.sub-nthu.com, port: 35003, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_93, server: shlt.sub-nthu.com, port: 35001, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_94, server: cn2hn.sub-nthu.com, port: 35003, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_95, server: shlt.sub-nthu.com, port: 35007, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_96, server: ygzyd.sub-nthu.com, port: 35006, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_97, server: cn2hn.sub-nthu.com, port: 35006, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_98, server: shlt.sub-nthu.com, port: 35006, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_99, server: cn2hn.sub-nthu.com, port: 35001, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_100, server: cn2hn.sub-nthu.com, port: 35002, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_101, server: cn2hn.sub-nthu.com, port: 35005, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_102, server: shlt.sub-nthu.com, port: 35002, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_103, server: cn2hn.sub-nthu.com, port: 35007, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_104, server: cn2hn.sub-nthu.com, port: 35000, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_105, server: ygzyd.sub-nthu.com, port: 35002, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_106, server: shlt.sub-nthu.com, port: 35000, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_107, server: shlt.sub-nthu.com, port: 35005, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_108, server: ygzyd.sub-nthu.com, port: 35007, type: trojan, password: 732667e6-23c0-43f2-9391-14e5fadd56cd, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -909,82 +1007,56 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_134, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_13, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_178, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 1, server: hk05.bibio.top, port: 55215, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk05.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: hk03.bibio.top, port: 55213, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk03.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 3, server: hk04.bibio.top, port: 55214, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk04.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 4, server: hk01.bibio.top, port: 55211, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk01.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 5, server: hk27.bibio.top, port: 22152, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk27.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 6, server: hk26.bibio.top, port: 55215, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk26.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 7, server: hk25.bibio.top, port: 55212, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk25.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 美国  8, server: 150.230.96.106, port: 8888, type: vmess, uuid: f0a33264-687d-49ed-b1b0-d9807f7ba7fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本  9, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 亚太地区  10, server: 103.144.32.36, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home, headers: {Host: tw.academicpapers.eu.org}}, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 11, server: hk10.bibio.top, port: 21782, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk10.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 韩国首尔Amazon数据中心 12, server: v2-4.godlight.xyz, port: 50497, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2-4.godlight.xyz, network: ws, ws-opts: {path: /g1641hvx, headers: {Host: v2-4.godlight.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国  13, server: 150.230.60.59, port: 8888, type: vmess, uuid: 1eb7ee7c-975e-4e06-abc3-d5d3aed50229, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 14, server: hk12.bibio.top, port: 21784, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk12.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 美国  15, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡Amazon数据中心 16, server: sgr3.jjzgy.live, port: 443, type: vmess, uuid: c84f0639-8f50-3cc3-98ee-9ca5b7809705, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cocksucker, headers: {Host: sgr3.jjzgy.live}}, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 17, server: hk14.bibio.top, port: 21786, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk14.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 北美地区  18, server: usmax03.170809.xyz, port: 443, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 19, server: hk13.bibio.top, port: 21785, type: vmess, uuid: 803cdac0-a110-40bb-ac91-8279e571b4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk13.bibio.top}}, udp: true}
-  - {name: github.com/freefq - 美国  20, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省广州市黄埔区珠江宽频 21, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: github.com/freefq - 美国  22, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  23, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 上海市电信 24, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 美国  25, server: usmax01.170809.xyz, port: 444, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Oracle(Zenedge) 26, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 27, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Asq7j5Mb/, headers: {Host: 85.209.159.107}}, udp: true}
-  - {name: github.com/freefq - 乌克兰  28, server: 5.183.179.166, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 29, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省广州市黄埔区珠江宽频 30, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: github.com/freefq - 英国  31, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 荷兰  32, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6129CFHR, headers: {Host: ru1.lolvps.xyz}}, udp: true}
-  - {name: github.com/freefq - 韩国首尔Amazon数据中心 33, server: v2-5.godlight.xyz, port: 39787, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2-5.godlight.xyz, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 34, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/}, udp: true}
-  - {name: github.com/freefq - 北美地区  35, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 36, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: github.com/freefq - 美国  37, server: 168.138.177.112, port: 41239, type: vmess, uuid: f962092f-a5b7-4011-eaaa-ae52200a3740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国麻省理工学院 38, server: v20.emovpn.xyz, port: 1256, type: vmess, uuid: 1d9f2d17-c983-4021-9cc1-fc565f8f260a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
-  - {name: github.com/freefq - 美国麻省理工学院 39, server: v2.emovpn.xyz, port: 1253, type: vmess, uuid: 1d9f2d17-c983-4021-9cc1-fc565f8f260a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
-  - {name: github.com/freefq - 俄罗斯  40, server: 194.87.99.122, port: 62560, type: vmess, uuid: e19c03f6-97b9-4c2b-a42d-19daea18d849, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 41, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡Linode数据中心 42, server: sgmax01.170809.xyz, port: 444, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 43, server: app.ssfree.ru, port: 443, type: vmess, uuid: 6c07cb88-cc8c-11ec-b987-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国  44, server: us01.170809.xyz, port: 443, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 台湾省台中市中华电信 45, server: tw01.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw01.nttkk.com}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 46, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 欧盟  47, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 乌克兰  48, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 49, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国3COM公司企业网 50, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 北美地区  51, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国3COM公司企业网 52, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国3COM公司企业网 53, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 54, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 美国Amazon EC2服务器 55, server: v19.emovpn.xyz, port: 127, type: vmess, uuid: 1d9f2d17-c983-4021-9cc1-fc565f8f260a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 56, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 57, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国纽约市DigitalOcean云公司 58, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
-  - {name: github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 59, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 英国伦敦Oracle云计算数据中心 60, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Linode数据中心 61, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 湖北省武汉市腾讯云 62, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 63, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 8.ezydfdd.com}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 64, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 65, server: kr-direct-cdn.node001.xyz, port: 2082, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 66, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lu1.gogogoo.cyou, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
-  - {name: github.com/freefq - 美国  67, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 北美地区  68, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  69, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: ahdaeph8.com, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 70, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 捷克布拉格Friendhosting有限责任公司 71, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国3COM公司企业网 72, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 英国  73, server: us232.support-putin-kill-all-ukrainians.98848.xyz, port: 443, type: trojan, password: 99b166ff-25ab-4bda-9493-618d491c2a9a, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  74, server: 152.69.204.149, port: 8888, type: vmess, uuid: 024e8b9b-34e9-439d-b1b3-4d82f1053537, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  75, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 英国伦敦Oracle云计算数据中心 76, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 1, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 036bbf92-f490-499e-8a5e-3d14f1644d48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vali-dns.cp31.ott.cibntv.net}}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: azhk6.mayiyun.vip, port: 80, type: vmess, uuid: 036bbf92-f490-499e-8a5e-3d14f1644d48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  3, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 韩国首尔Amazon数据中心 4, server: v2-4.godlight.xyz, port: 50497, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2-4.godlight.xyz, network: ws, ws-opts: {path: /g1641hvx, headers: {Host: v2-4.godlight.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 5, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 亚太地区  6, server: 103.144.32.36, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home, headers: {Host: tw.academicpapers.eu.org}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 7, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  8, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 9, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}, udp: true}
+  - {name: github.com/freefq - 英国  10, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 11, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/}, udp: true}
+  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 12, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Asq7j5Mb/, headers: {Host: 85.209.159.107}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 13, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
+  - {name: github.com/freefq - 英国伦敦Oracle云计算数据中心 14, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 15, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 美国3COM公司企业网 16, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 17, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国麻省理工学院 18, server: v2.emovpn.xyz, port: 1253, type: vmess, uuid: 1d9f2d17-c983-4021-9cc1-fc565f8f260a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: github.com/freefq - 乌克兰  19, server: 5.183.179.166, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 20, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 21, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  22, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国纽约市DigitalOcean云公司 23, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
+  - {name: github.com/freefq - 美国3COM公司企业网 24, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 俄罗斯  25, server: 194.87.99.122, port: 62560, type: vmess, uuid: e19c03f6-97b9-4c2b-a42d-19daea18d849, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省广州市黄埔区珠江宽频 26, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: github.com/freefq - 美国麻省理工学院 27, server: v20.emovpn.xyz, port: 1256, type: vmess, uuid: 1d9f2d17-c983-4021-9cc1-fc565f8f260a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: github.com/freefq - 美国3COM公司企业网 28, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  29, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 30, server: kr-direct-cdn.node001.xyz, port: 2082, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: github.com/freefq - 上海市电信 31, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: github.com/freefq - 台湾省台中市中华电信 32, server: tw01.nttkk.com, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw01.nttkk.com}}, udp: true}
+  - {name: github.com/freefq - 北美地区  33, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 北美地区  34, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: ahdaeph8.com, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: github.com/freefq - 伊朗  35, server: asr-farda.ir, port: 49110, type: vmess, uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pdOa1847/, headers: {Host: asr-farda.ir}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 36, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 河北省石家庄市联通IDC机房 37, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: github.com/freefq - 美国Linode数据中心 38, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 美国  39, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Amazon EC2服务器 40, server: v19.emovpn.xyz, port: 127, type: vmess, uuid: 1d9f2d17-c983-4021-9cc1-fc565f8f260a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: github.com/freefq - 上海市电信 41, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 42, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lu1.gogogoo.cyou, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: github.com/freefq - 乌克兰  43, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 捷克布拉格Friendhosting有限责任公司 44, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 45, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 46, server: app.ssfree.ru, port: 443, type: vmess, uuid: 6c07cb88-cc8c-11ec-b987-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 北美地区  47, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 韩国首尔Amazon数据中心 48, server: v2-5.godlight.xyz, port: 39787, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2-5.godlight.xyz, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
+  - {name: github.com/freefq - 英国  49, server: us232.support-putin-kill-all-ukrainians.98848.xyz, port: 443, type: trojan, password: 99b166ff-25ab-4bda-9493-618d491c2a9a, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  50, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本1, server: jp1.jiantian.xyz, port: 54343, type: ss, cipher: aes-256-gcm, password: a1fdbed3-6fb6-4d1a-aa9e-79041ec281f3, udp: true}
   - {name: 日本2, server: jp2.jiantian.xyz, port: 43543, type: ss, cipher: aes-256-gcm, password: a1fdbed3-6fb6-4d1a-aa9e-79041ec281f3, udp: true}
   - {name: A0 广州1号-香港HKBGP | V2RAY隧道 |, server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22www.ivpnpro.net%22%7D"}}, udp: true}
@@ -996,7 +1068,7 @@ proxies:
   - {name: US美国(yudou66.com 玉豆分享), server: 169.197.142.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 美国(yudou66.com 玉豆分享), server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 美国(yudou66.com 玉豆分享) 2, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 11, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 中转 台湾 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 62088, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: "%7B%22Host%22:%22tw-balancer.myn1des.com%22%7D"}}, udp: true}
   - {name: 中转 香港 多台负载均衡 中继A, server: in01.dns2333.xyz, port: 62078, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk-balancer.airport-v2.com%22%7D"}}, udp: true}
   - {name: 中转 新加坡 多台负载均衡 中继C 1.5x, server: in03.dns2333.xyz, port: 62087, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nbsd, headers: {Host: "%7B%22Host%22:%22sg-balancer.tencent.best%22%7D"}}, udp: true}
@@ -1743,16 +1815,114 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_31
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_35
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_38
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|Netflix_41
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix_49
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_60
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_63
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_70
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_73
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_75
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_81
+      - YouTube梦歌|Netflix_82
+      - YouTube梦歌|Netflix_83
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_87
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_96
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_107
+      - YouTube梦歌|Netflix_108
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2012,82 +2182,56 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 美国Microsoft数据中心 1
       - github.com/freefq - 美国Microsoft数据中心 2
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - github.com/freefq - 香港特别行政区 4
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 美国Microsoft数据中心 6
-      - github.com/freefq - 美国Microsoft数据中心 7
+      - github.com/freefq - 澳大利亚  3
+      - github.com/freefq - 韩国首尔Amazon数据中心 4
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 5
+      - github.com/freefq - 亚太地区  6
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 7
       - github.com/freefq - 美国  8
-      - github.com/freefq - 日本  9
-      - github.com/freefq - 亚太地区  10
-      - github.com/freefq - 香港特别行政区 11
-      - github.com/freefq - 韩国首尔Amazon数据中心 12
-      - github.com/freefq - 美国  13
-      - github.com/freefq - 香港特别行政区 14
-      - github.com/freefq - 美国  15
-      - github.com/freefq - 新加坡Amazon数据中心 16
-      - github.com/freefq - 香港特别行政区 17
-      - github.com/freefq - 北美地区  18
-      - github.com/freefq - 香港特别行政区 19
-      - github.com/freefq - 美国  20
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 21
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 9
+      - github.com/freefq - 英国  10
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 11
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - github.com/freefq - 英国伦敦Oracle云计算数据中心 14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - github.com/freefq - 美国3COM公司企业网 16
+      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 17
+      - github.com/freefq - 美国麻省理工学院 18
+      - github.com/freefq - 乌克兰  19
+      - github.com/freefq - 美国华盛顿Cogent通信公司 20
+      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 21
       - github.com/freefq - 美国  22
-      - github.com/freefq - 美国  23
-      - github.com/freefq - 上海市电信 24
-      - github.com/freefq - 美国  25
-      - github.com/freefq - 美国德克萨斯州达拉斯Oracle(Zenedge) 26
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 27
-      - github.com/freefq - 乌克兰  28
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 29
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
-      - github.com/freefq - 英国  31
-      - github.com/freefq - 荷兰  32
-      - github.com/freefq - 韩国首尔Amazon数据中心 33
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 34
-      - github.com/freefq - 北美地区  35
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - github.com/freefq - 美国  37
-      - github.com/freefq - 美国麻省理工学院 38
-      - github.com/freefq - 美国麻省理工学院 39
-      - github.com/freefq - 俄罗斯  40
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 41
-      - github.com/freefq - 新加坡Linode数据中心 42
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 美国  44
-      - github.com/freefq - 台湾省台中市中华电信 45
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 46
-      - github.com/freefq - 欧盟  47
-      - github.com/freefq - 乌克兰  48
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 49
-      - github.com/freefq - 美国3COM公司企业网 50
-      - github.com/freefq - 北美地区  51
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 美国3COM公司企业网 53
-      - github.com/freefq - 美国华盛顿Cogent通信公司 54
-      - github.com/freefq - 美国Amazon EC2服务器 55
-      - github.com/freefq - 美国CloudFlare节点 56
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 57
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 58
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 59
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 60
-      - github.com/freefq - 美国Linode数据中心 61
-      - github.com/freefq - 湖北省武汉市腾讯云 62
-      - github.com/freefq - 美国CloudFlare公司CDN节点 63
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 64
-      - github.com/freefq - 美国CloudFlare公司CDN节点 65
-      - github.com/freefq - 美国CloudFlare公司CDN节点 66
-      - github.com/freefq - 美国  67
-      - github.com/freefq - 北美地区  68
-      - github.com/freefq - 北美地区  69
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 71
-      - github.com/freefq - 美国3COM公司企业网 72
-      - github.com/freefq - 英国  73
-      - github.com/freefq - 美国  74
-      - github.com/freefq - 美国  75
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 76
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 美国3COM公司企业网 24
+      - github.com/freefq - 俄罗斯  25
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 26
+      - github.com/freefq - 美国麻省理工学院 27
+      - github.com/freefq - 美国3COM公司企业网 28
+      - github.com/freefq - 北美地区  29
+      - github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - github.com/freefq - 上海市电信 31
+      - github.com/freefq - 台湾省台中市中华电信 32
+      - github.com/freefq - 北美地区  33
+      - github.com/freefq - 北美地区  34
+      - github.com/freefq - 伊朗  35
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 36
+      - github.com/freefq - 河北省石家庄市联通IDC机房 37
+      - github.com/freefq - 美国Linode数据中心 38
+      - github.com/freefq - 美国  39
+      - github.com/freefq - 美国Amazon EC2服务器 40
+      - github.com/freefq - 上海市电信 41
+      - github.com/freefq - 美国CloudFlare节点 42
+      - github.com/freefq - 乌克兰  43
+      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 44
+      - github.com/freefq - 美国CloudFlare节点 45
+      - github.com/freefq - 美国CloudFlare节点 46
+      - github.com/freefq - 北美地区  47
+      - github.com/freefq - 韩国首尔Amazon数据中心 48
+      - github.com/freefq - 英国  49
+      - github.com/freefq - 美国  50
       - 日本1
       - 日本2
       - A0 广州1号-香港HKBGP | V2RAY隧道 |
@@ -2099,7 +2243,7 @@ proxy-groups:
       - US美国(yudou66.com 玉豆分享)
       - 美国(yudou66.com 玉豆分享)
       - 美国(yudou66.com 玉豆分享) 2
-      - _US_美国 11
+      - _US_美国
       - 中转 台湾 多台负载均衡 中继B 1.5x
       - 中转 香港 多台负载均衡 中继A
       - 中转 新加坡 多台负载均衡 中继C 1.5x
@@ -2846,16 +2990,114 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_31
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_35
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_38
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|Netflix_41
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix_49
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_60
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_63
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_70
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_73
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_75
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_81
+      - YouTube梦歌|Netflix_82
+      - YouTube梦歌|Netflix_83
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_87
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_96
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_107
+      - YouTube梦歌|Netflix_108
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3115,82 +3357,56 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 美国Microsoft数据中心 1
       - github.com/freefq - 美国Microsoft数据中心 2
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - github.com/freefq - 香港特别行政区 4
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 美国Microsoft数据中心 6
-      - github.com/freefq - 美国Microsoft数据中心 7
+      - github.com/freefq - 澳大利亚  3
+      - github.com/freefq - 韩国首尔Amazon数据中心 4
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 5
+      - github.com/freefq - 亚太地区  6
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 7
       - github.com/freefq - 美国  8
-      - github.com/freefq - 日本  9
-      - github.com/freefq - 亚太地区  10
-      - github.com/freefq - 香港特别行政区 11
-      - github.com/freefq - 韩国首尔Amazon数据中心 12
-      - github.com/freefq - 美国  13
-      - github.com/freefq - 香港特别行政区 14
-      - github.com/freefq - 美国  15
-      - github.com/freefq - 新加坡Amazon数据中心 16
-      - github.com/freefq - 香港特别行政区 17
-      - github.com/freefq - 北美地区  18
-      - github.com/freefq - 香港特别行政区 19
-      - github.com/freefq - 美国  20
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 21
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 9
+      - github.com/freefq - 英国  10
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 11
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - github.com/freefq - 英国伦敦Oracle云计算数据中心 14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - github.com/freefq - 美国3COM公司企业网 16
+      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 17
+      - github.com/freefq - 美国麻省理工学院 18
+      - github.com/freefq - 乌克兰  19
+      - github.com/freefq - 美国华盛顿Cogent通信公司 20
+      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 21
       - github.com/freefq - 美国  22
-      - github.com/freefq - 美国  23
-      - github.com/freefq - 上海市电信 24
-      - github.com/freefq - 美国  25
-      - github.com/freefq - 美国德克萨斯州达拉斯Oracle(Zenedge) 26
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 27
-      - github.com/freefq - 乌克兰  28
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 29
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
-      - github.com/freefq - 英国  31
-      - github.com/freefq - 荷兰  32
-      - github.com/freefq - 韩国首尔Amazon数据中心 33
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 34
-      - github.com/freefq - 北美地区  35
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - github.com/freefq - 美国  37
-      - github.com/freefq - 美国麻省理工学院 38
-      - github.com/freefq - 美国麻省理工学院 39
-      - github.com/freefq - 俄罗斯  40
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 41
-      - github.com/freefq - 新加坡Linode数据中心 42
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 美国  44
-      - github.com/freefq - 台湾省台中市中华电信 45
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 46
-      - github.com/freefq - 欧盟  47
-      - github.com/freefq - 乌克兰  48
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 49
-      - github.com/freefq - 美国3COM公司企业网 50
-      - github.com/freefq - 北美地区  51
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 美国3COM公司企业网 53
-      - github.com/freefq - 美国华盛顿Cogent通信公司 54
-      - github.com/freefq - 美国Amazon EC2服务器 55
-      - github.com/freefq - 美国CloudFlare节点 56
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 57
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 58
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 59
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 60
-      - github.com/freefq - 美国Linode数据中心 61
-      - github.com/freefq - 湖北省武汉市腾讯云 62
-      - github.com/freefq - 美国CloudFlare公司CDN节点 63
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 64
-      - github.com/freefq - 美国CloudFlare公司CDN节点 65
-      - github.com/freefq - 美国CloudFlare公司CDN节点 66
-      - github.com/freefq - 美国  67
-      - github.com/freefq - 北美地区  68
-      - github.com/freefq - 北美地区  69
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 71
-      - github.com/freefq - 美国3COM公司企业网 72
-      - github.com/freefq - 英国  73
-      - github.com/freefq - 美国  74
-      - github.com/freefq - 美国  75
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 76
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 美国3COM公司企业网 24
+      - github.com/freefq - 俄罗斯  25
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 26
+      - github.com/freefq - 美国麻省理工学院 27
+      - github.com/freefq - 美国3COM公司企业网 28
+      - github.com/freefq - 北美地区  29
+      - github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - github.com/freefq - 上海市电信 31
+      - github.com/freefq - 台湾省台中市中华电信 32
+      - github.com/freefq - 北美地区  33
+      - github.com/freefq - 北美地区  34
+      - github.com/freefq - 伊朗  35
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 36
+      - github.com/freefq - 河北省石家庄市联通IDC机房 37
+      - github.com/freefq - 美国Linode数据中心 38
+      - github.com/freefq - 美国  39
+      - github.com/freefq - 美国Amazon EC2服务器 40
+      - github.com/freefq - 上海市电信 41
+      - github.com/freefq - 美国CloudFlare节点 42
+      - github.com/freefq - 乌克兰  43
+      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 44
+      - github.com/freefq - 美国CloudFlare节点 45
+      - github.com/freefq - 美国CloudFlare节点 46
+      - github.com/freefq - 北美地区  47
+      - github.com/freefq - 韩国首尔Amazon数据中心 48
+      - github.com/freefq - 英国  49
+      - github.com/freefq - 美国  50
       - 日本1
       - 日本2
       - A0 广州1号-香港HKBGP | V2RAY隧道 |
@@ -3202,7 +3418,7 @@ proxy-groups:
       - US美国(yudou66.com 玉豆分享)
       - 美国(yudou66.com 玉豆分享)
       - 美国(yudou66.com 玉豆分享) 2
-      - _US_美国 11
+      - _US_美国
       - 中转 台湾 多台负载均衡 中继B 1.5x
       - 中转 香港 多台负载均衡 中继A
       - 中转 新加坡 多台负载均衡 中继C 1.5x
