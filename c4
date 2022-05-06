@@ -1,141 +1,205 @@
 port: 7890
 socks-port: 7891
-allow-lan: false
+allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
-experimental:
-  ignore-resolve-fail: true
-
-proxies:
-  - {name: 🇭🇰深港, server: 120.232.251.206, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰广港01, server: 183.240.9.28, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰广港02, server: 183.240.9.29, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰广港03, server: 183.240.9.30, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰广港04, server: 183.240.9.31, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬深新, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新01, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新02, server: 183.240.9.28, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新03, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新04, server: 183.240.9.28, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新05, server: 183.240.9.28, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新06, server: 183.240.9.28, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新07, server: 183.240.9.29, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新08, server: 183.240.9.29, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新09, server: 183.240.9.29, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新10, server: 183.240.9.29, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新11, server: 183.240.9.29, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新12, server: 183.240.9.29, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新13, server: 183.240.9.30, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新14, server: 183.240.9.30, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新15, server: 183.240.9.30, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新16, server: 183.240.9.30, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新17, server: 183.240.9.30, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新18, server: 183.240.9.30, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新19, server: 183.240.9.31, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新20, server: 183.240.9.31, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新21, server: 183.240.9.31, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新22, server: 183.240.9.31, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新23, server: 183.240.9.31, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬广新24, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-
+external-controller: :9090
+# https://proxies.bihai.cf/clash/proxies?nc=CN,TW,HK,JP,US,CA,SG,GB,FR,KR,CY,ZZ
+# https://ednovas.design/clash/proxies?nc=CN,TW,HK,JP,US,CA,SG,GB,FR,KR,CY,ZZ
+# https://raw.githubusercontent.com/lcx12901/v2ray-/master/sspool.herokuapp.com/bihai.yaml
+# https://raw.githubusercontent.com/lcx12901/v2ray-/master/sspool.herokuapp.com/
+proxy-providers:
+  bihai:
+    type: http
+    url: "https://v2ray-lcx12901.vercel.app/sspool.herokuapp.com/bihai.yaml"
+    path: sspool.herokuapp.com/bihai.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  ednovas:
+    type: http
+    url: "https://v2ray-lcx12901.vercel.app/sspool.herokuapp.com/ednovas.yaml"
+    path: sspool.herokuapp.com/ednovas.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  long:
+    type: http
+    url: "https://v2ray-lcx12901.vercel.app/sspool.herokuapp.com/long.yaml"
+    path: sspool.herokuapp.com/long.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  other:
+    type: http
+    url: "https://v2ray-lcx12901.vercel.app/sspool.herokuapp.com/provider-other.yaml"
+    path: sspool.herokuapp.com/provider-other.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 proxy-groups:
-- name: Apple
-  type: select
-  proxies:
-    - DIRECT
-    - Proxy
-- name: Proxy
-  type: select
-  proxies:
-      - HK
-      - SG
-- name: HK
-  type: select
-  proxies:
-    - 🇭🇰深港
-    - 🇭🇰广港01
-    - 🇭🇰广港01
-    - 🇭🇰广港02
-    - 🇭🇰广港03
-- name: SG
-  type: select
-  proxies:
-    - 🇸🇬深新
-    - 🇸🇬广新01
-    - 🇸🇬广新02
-    - 🇸🇬广新03
-    - 🇸🇬广新04
-    - 🇸🇬广新05
-    - 🇸🇬广新06
-    - 🇸🇬广新07
-    - 🇸🇬广新08
-    - 🇸🇬广新09
-    - 🇸🇬广新10
-    - 🇸🇬广新11
-    - 🇸🇬广新12
-    - 🇸🇬广新13
-    - 🇸🇬广新14
-    - 🇸🇬广新15
-    - 🇸🇬广新16
-    - 🇸🇬广新17
-    - 🇸🇬广新18
-    - 🇸🇬广新19
-    - 🇸🇬广新20
-    - 🇸🇬广新21
-    - 🇸🇬广新22
-    - 🇸🇬广新23
-    - 🇸🇬广新24
-
+  - name: 😜 碧海
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - bihai
+  - name: 💯 ednovas
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - ednovas
+  - name: 💯 long
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - long
+  - name: 💯 other
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - other
+  - name: ♻️ 手动选择
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 😜 碧海
+      - 💯 ednovas
+      - 💯 other
+      - 💯 long
 rule-providers:
-  Unbreak:
+  # github host文件：https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts
+  reject:
     type: http
     behavior: classical
-    path: ./RuleSet/Unbreak.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml"
+    path: ./ruleset/reject.yaml
     interval: 86400
-  Global:
+
+  proxy:
     type: http
     behavior: classical
-    path: ./RuleSet/Global.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical.yaml"
+    path: ./ruleset/proxy.yaml
     interval: 86400
-  Streaming:
+
+  mydirect:
     type: http
-    behavior: classical
-    path: ./RuleSet/Streaming.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    behavior: domain
+    url: "https://v2ray-lcx12901.vercel.app/ruleset/mydirect.yaml"
+    path: ./ruleset/mydirect.yaml
     interval: 86400
-  OneDrive:
+
+  cncidr:
     type: http
-    behavior: classical
-    path: ./RuleSet/OneDrive.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Microsoft/OneDrive.yaml
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
     interval: 86400
-  Apple:
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  proxyme:
     type: http
     behavior: classical
-    path: ./RuleSet/Apple.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Apple/Apple.yaml
+    url: "https://v2ray-lcx12901.vercel.app/ruleset/proxyme.yaml"
+    path: ./ruleset/proxyme.yaml
+    interval: 86400
+  GTAR2:
+    type: http
+    behavior: classical
+    url: "https://v2ray-lcx12901.vercel.app/ruleset/GTA-R.yaml"
+    path: ./ruleset/GTA-R.yaml
+    interval: 86400
+  baha:
+    type: http
+    behavior: classical
+    url: "https://v2ray-lcx12901.vercel.app/ruleset/baha.yaml"
+    path: ./ruleset/baha.yaml
+    interval: 86400
+  Hijacking:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Hijacking/Hijacking_Resolve.yaml"
+    path: ./ruleset/Hijacking.yaml
+    interval: 86400
+  Privacy:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Classical_Resolve.yaml"
+    path: ./ruleset/Privacy.yaml
     interval: 86400
 rules:
-  - DOMAIN-KEYWORD,evernote,Proxy
-  - DOMAIN-KEYWORD,dlercloud,Proxy
-  - DOMAIN-SUFFIX,kurenai.io,Proxy
-  - RULE-SET,Unbreak,DIRECT
-  - RULE-SET,Global,Proxy
-  - RULE-SET,Streaming,Proxy
-  - RULE-SET,OneDrive,Proxy
-  - RULE-SET,Apple,Apple
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,10.1.10.0/8,DIRECT
-  - IP-CIDR,10.1.20.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT
-  - IP-CIDR,224.0.0.0/4,DIRECT
-  - IP-CIDR,119.28.28.28/32,DIRECT
-  - IP-CIDR,182.254.116.0/24,DIRECT
+  - PROCESS-NAME,v2ray,DIRECT
+  - PROCESS-NAME,xray,DIRECT
+  - PROCESS-NAME,naive,DIRECT
+  - PROCESS-NAME,trojan,DIRECT
+  - PROCESS-NAME,trojan-go,DIRECT
+  - PROCESS-NAME,ss-local,DIRECT
+  - PROCESS-NAME,privoxy,DIRECT
+  - PROCESS-NAME,leaf,DIRECT
+  - PROCESS-NAME,v2ray.exe,DIRECT
+  - PROCESS-NAME,xray.exe,DIRECT
+  - PROCESS-NAME,naive.exe,DIRECT
+  - PROCESS-NAME,trojan.exe,DIRECT
+  - PROCESS-NAME,trojan-go.exe,DIRECT
+  - PROCESS-NAME,ss-local.exe,DIRECT
+  - PROCESS-NAME,privoxy.exe,DIRECT
+  - PROCESS-NAME,leaf.exe,DIRECT
+  - PROCESS-NAME,Surge,DIRECT
+  - PROCESS-NAME,Surge 2,DIRECT
+  - PROCESS-NAME,Surge 3,DIRECT
+  - PROCESS-NAME,Surge 4,DIRECT
+  - PROCESS-NAME,Surge%202,DIRECT
+  - PROCESS-NAME,Surge%203,DIRECT
+  - PROCESS-NAME,Surge%204,DIRECT
+  - PROCESS-NAME,Thunder,DIRECT
+  - PROCESS-NAME,DownloadService,DIRECT
+  - PROCESS-NAME,qBittorrent,DIRECT
+  - PROCESS-NAME,Transmission,DIRECT
+  - PROCESS-NAME,fdm,DIRECT
+  - PROCESS-NAME,aria2c,DIRECT
+  - PROCESS-NAME,Folx,DIRECT
+  - PROCESS-NAME,NetTransport,DIRECT
+  - PROCESS-NAME,uTorrent,DIRECT
+  - PROCESS-NAME,WebTorrent,DIRECT
+  - PROCESS-NAME,aria2c.exe,DIRECT
+  - PROCESS-NAME,BitComet.exe,DIRECT
+  - PROCESS-NAME,fdm.exe,DIRECT
+  - PROCESS-NAME,NetTransport.exe,DIRECT
+  - PROCESS-NAME,qbittorrent.exe,DIRECT
+  - PROCESS-NAME,Thunder.exe,DIRECT
+  - PROCESS-NAME,ThunderVIP.exe,DIRECT
+  - PROCESS-NAME,transmission-daemon.exe,DIRECT
+  - PROCESS-NAME,transmission-qt.exe,DIRECT
+  - PROCESS-NAME,uTorrent.exe,DIRECT
+  - PROCESS-NAME,WebTorrent.exe,DIRECT
+  - PROCESS-NAME,Clash for Windows,♻️ 手动选择
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,mydirect,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,Hijacking,REJECT
+  - RULE-SET,Privacy,REJECT
+  - RULE-SET,proxyme,♻️ 手动选择
+  - RULE-SET,proxy,♻️ 手动选择
   - GEOIP,CN,DIRECT
-  - MATCH,Proxy
+  - MATCH,DIRECT

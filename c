@@ -5,81 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"ip_168_138_219_245","server":"168.138.219.245","port":43533,"type":"vmess","uuid":"03b78acf-f658-4057-9a9d-52a2a784080e","alterId":0,"cipher":"auto","country":"ip_168_138_219_245","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"ip_150_230_96_106","server":"150.230.96.106","port":57239,"type":"vmess","uuid":"edf155b8-10e0-4a48-8bfc-6ce2d9f3ff72","alterId":0,"cipher":"auto","country":"ip_150_230_96_106","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"ip_152_69_204_149","server":"152.69.204.149","port":50503,"type":"vmess","uuid":"11b8a8c2-3548-4424-88f8-26cde886230a","alterId":0,"cipher":"auto","country":"ip_152_69_204_149","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"ip_150_230_60_59","server":"150.230.60.59","port":39072,"type":"vmess","uuid":"37e65b6d-fc4a-435f-9f1c-4ec58fec8e13","alterId":0,"cipher":"auto","country":"ip_150_230_60_59","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"ip_152_70_247_226","server":"152.70.247.226","port":63742,"type":"vmess","uuid":"b48db258-b3aa-4913-9905-8ac4cf3e999b","alterId":0,"cipher":"auto","country":"ip_152_70_247_226","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"ip_146_56_143_64","server":"146.56.143.64","port":49903,"type":"vmess","uuid":"67fe349d-f4a8-4661-8dfc-dfce29db2c72","alterId":0,"cipher":"auto","country":"ip_146_56_143_64","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇭🇰_HK_香港_1","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_1","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
+  - {"name":"🇬🇧_GB_英国_2","server":"172.99.190.61","port":8882,"type":"ss","country":"🇬🇧_GB_英国_2","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇵🇱_PL_波兰_3","server":"217.30.10.65","port":9025,"type":"ss","country":"🇵🇱_PL_波兰_3","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip_168_138_219_245
-      - ip_150_230_96_106
-      - ip_152_69_204_149
-      - ip_150_230_60_59
-      - ip_152_70_247_226
-      - ip_146_56_143_64
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇵🇱_PL_波兰_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip_168_138_219_245
-      - ip_150_230_96_106
-      - ip_152_69_204_149
-      - ip_150_230_60_59
-      - ip_152_70_247_226
-      - ip_146_56_143_64
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇵🇱_PL_波兰_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip_168_138_219_245
-      - ip_150_230_96_106
-      - ip_152_69_204_149
-      - ip_150_230_60_59
-      - ip_152_70_247_226
-      - ip_146_56_143_64
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇵🇱_PL_波兰_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip_168_138_219_245
-      - ip_150_230_96_106
-      - ip_152_69_204_149
-      - ip_150_230_60_59
-      - ip_152_70_247_226
-      - ip_146_56_143_64
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇵🇱_PL_波兰_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip_168_138_219_245
-      - ip_150_230_96_106
-      - ip_152_69_204_149
-      - ip_150_230_60_59
-      - ip_152_70_247_226
-      - ip_146_56_143_64
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇵🇱_PL_波兰_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip_168_138_219_245
-      - ip_150_230_96_106
-      - ip_152_69_204_149
-      - ip_150_230_60_59
-      - ip_152_70_247_226
-      - ip_146_56_143_64
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇵🇱_PL_波兰_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -102,12 +81,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip_168_138_219_245
-      - ip_150_230_96_106
-      - ip_152_69_204_149
-      - ip_150_230_60_59
-      - ip_152_70_247_226
-      - ip_146_56_143_64
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇵🇱_PL_波兰_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
