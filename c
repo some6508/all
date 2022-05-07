@@ -5,137 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"v2cross_com_1","server":"85.208.108.58","port":8080,"type":"ss","country":"v2cross_com_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"v2cross_com_2","server":"c23s3.jamjams.net","port":61173,"type":"vmess","uuid":"9d1043a6-e87e-4bb7-8858-c1185e9c0c3b","alterId":8,"cipher":"auto","country":"v2cross_com_2","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"v2cross_com_3","server":"c23s801.jamjams.net","port":61173,"type":"vmess","uuid":"9d1043a6-e87e-4bb7-8858-c1185e9c0c3b","alterId":8,"cipher":"auto","country":"v2cross_com_3","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"v2cross_com_4","server":"38.68.135.19","port":5003,"type":"ss","country":"v2cross_com_4","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"v2cross_com_5","server":"usa-sr-106.mitoption.com","port":443,"type":"trojan","country":"v2cross_com_5","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
-  - {"name":"v2cross_com_6","server":"38.68.135.19","port":2376,"type":"ss","country":"v2cross_com_6","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"v2cross_com_7","server":"hkbn.henyo.us","port":44614,"type":"trojan","country":"v2cross_com_7","skip-cert-verify":true,"udp":true,"password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790"}
-  - {"name":"v2cross_com_8","server":"198.57.27.225","port":8008,"type":"ss","country":"v2cross_com_8","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"v2cross_com_9","server":"198.57.27.225","port":5600,"type":"ss","country":"v2cross_com_9","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"v2cross_com_10","server":"198.57.27.225","port":8118,"type":"ss","country":"v2cross_com_10","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"v2cross_com_11","server":"de-01.fireplay.io","port":443,"type":"trojan","country":"v2cross_com_11","skip-cert-verify":true,"udp":true,"password":"lo3TmsNaLWUXpuoE"}
-  - {"name":"v2cross_com_12","server":"198.57.27.225","port":9102,"type":"ss","country":"v2cross_com_12","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"v2cross_com_13","server":"198.57.27.225","port":6679,"type":"ss","country":"v2cross_com_13","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"v2cross_com_14","server":"172.105.58.152","port":3306,"type":"ss","country":"v2cross_com_14","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇫🇷_FR_法国_1","server":"fr-trojan.bonds.id","port":443,"type":"trojan","country":"🇫🇷_FR_法国_1","skip-cert-verify":true,"udp":true,"password":"e4307a50-9853-11ec-9b4b-1239d0255272"}
+  - {"name":"🇬🇧_GB_英国_2","server":"172.99.190.61","port":8882,"type":"ss","country":"🇬🇧_GB_英国_2","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_3","server":"38.68.135.19","port":7306,"type":"ss","country":"🇺🇸_US_美国_3","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"198.57.27.225","port":8888,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_5","server":"167.88.63.5","port":2375,"type":"ss","country":"🇺🇸_US_美国_5","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_6","server":"38.68.135.19","port":3389,"type":"ss","country":"🇺🇸_US_美国_6","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_GB_英国_7","server":"172.99.190.50","port":7306,"type":"ss","country":"🇬🇧_GB_英国_7","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇯🇵_JP_日本_8","server":"85.208.108.58","port":8080,"type":"ss","country":"🇯🇵_JP_日本_8","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇬🇧_GB_英国_9","server":"172.99.190.61","port":2375,"type":"ss","country":"🇬🇧_GB_英国_9","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇭🇰_HK_香港_10","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_10","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
-      - v2cross_com_14
+      - 🇫🇷_FR_法国_1
+      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_7
+      - 🇯🇵_JP_日本_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
-      - v2cross_com_14
+      - 🇫🇷_FR_法国_1
+      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_7
+      - 🇯🇵_JP_日本_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
-      - v2cross_com_14
+      - 🇫🇷_FR_法国_1
+      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_7
+      - 🇯🇵_JP_日本_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
-      - v2cross_com_14
+      - 🇫🇷_FR_法国_1
+      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_7
+      - 🇯🇵_JP_日本_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
-      - v2cross_com_14
+      - 🇫🇷_FR_法国_1
+      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_7
+      - 🇯🇵_JP_日本_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
-      - v2cross_com_14
+      - 🇫🇷_FR_法国_1
+      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_7
+      - 🇯🇵_JP_日本_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,20 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2cross_com_1
-      - v2cross_com_2
-      - v2cross_com_3
-      - v2cross_com_4
-      - v2cross_com_5
-      - v2cross_com_6
-      - v2cross_com_7
-      - v2cross_com_8
-      - v2cross_com_9
-      - v2cross_com_10
-      - v2cross_com_11
-      - v2cross_com_12
-      - v2cross_com_13
-      - v2cross_com_14
+      - 🇫🇷_FR_法国_1
+      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_7
+      - 🇯🇵_JP_日本_8
+      - 🇬🇧_GB_英国_9
+      - 🇭🇰_HK_香港_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
