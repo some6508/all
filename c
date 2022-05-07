@@ -5,67 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇬🇧_GB_英国_1","server":"172.99.190.61","port":5003,"type":"ss","country":"🇬🇧_GB_英国_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇬🇧_GB_英国_2","server":"172.99.190.61","port":5004,"type":"ss","country":"🇬🇧_GB_英国_2","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇬🇧_GB_英国_3","server":"172.99.190.35","port":6697,"type":"ss","country":"🇬🇧_GB_英国_3","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_4","server":"169.197.142.99","port":9102,"type":"ss","country":"🇺🇸_US_美国_4","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"irFilter_🇭🇰_HK_1","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"irFilter_🇭🇰_HK_1","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
+  - {"name":"irFilter_🇬🇧_GB_2","server":"152.89.210.105","port":9064,"type":"ssr","country":"irFilter_🇬🇧_GB_2","password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"irFilter_🇨🇦_CA_3","server":"198.57.27.225","port":5500,"type":"ss","country":"irFilter_🇨🇦_CA_3","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"irFilter_🇨🇳_CN_4","server":"43.154.77.196","port":38539,"type":"vmess","uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","country":"irFilter_🇨🇳_CN_4","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.77.196"}}}
+  - {"name":"irFilter_🇨🇭_CH_5","server":"185.126.116.125","port":9088,"type":"ss","country":"irFilter_🇨🇭_CH_5","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"name":"irFilter_🇬🇧_GB_6","server":"152.89.210.105","port":9050,"type":"ss","country":"irFilter_🇬🇧_GB_6","cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE"}
+  - {"name":"irFilter_🇦🇺_AU_7","server":"185.167.116.253","port":9057,"type":"ss","country":"irFilter_🇦🇺_AU_7","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
+  - {"name":"irFilter_🇨🇦_CA_8","server":"198.57.27.225","port":6697,"type":"ss","country":"irFilter_🇨🇦_CA_8","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"irFilter_🇬🇧_GB_9","server":"152.89.210.105","port":9014,"type":"ss","country":"irFilter_🇬🇧_GB_9","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"irFilter_🇬🇧_GB_10","server":"185.167.117.171","port":9032,"type":"ss","country":"irFilter_🇬🇧_GB_10","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇺🇸_US_美国_4
+      - irFilter_🇭🇰_HK_1
+      - irFilter_🇬🇧_GB_2
+      - irFilter_🇨🇦_CA_3
+      - irFilter_🇨🇳_CN_4
+      - irFilter_🇨🇭_CH_5
+      - irFilter_🇬🇧_GB_6
+      - irFilter_🇦🇺_AU_7
+      - irFilter_🇨🇦_CA_8
+      - irFilter_🇬🇧_GB_9
+      - irFilter_🇬🇧_GB_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇺🇸_US_美国_4
+      - irFilter_🇭🇰_HK_1
+      - irFilter_🇬🇧_GB_2
+      - irFilter_🇨🇦_CA_3
+      - irFilter_🇨🇳_CN_4
+      - irFilter_🇨🇭_CH_5
+      - irFilter_🇬🇧_GB_6
+      - irFilter_🇦🇺_AU_7
+      - irFilter_🇨🇦_CA_8
+      - irFilter_🇬🇧_GB_9
+      - irFilter_🇬🇧_GB_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇺🇸_US_美国_4
+      - irFilter_🇭🇰_HK_1
+      - irFilter_🇬🇧_GB_2
+      - irFilter_🇨🇦_CA_3
+      - irFilter_🇨🇳_CN_4
+      - irFilter_🇨🇭_CH_5
+      - irFilter_🇬🇧_GB_6
+      - irFilter_🇦🇺_AU_7
+      - irFilter_🇨🇦_CA_8
+      - irFilter_🇬🇧_GB_9
+      - irFilter_🇬🇧_GB_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇺🇸_US_美国_4
+      - irFilter_🇭🇰_HK_1
+      - irFilter_🇬🇧_GB_2
+      - irFilter_🇨🇦_CA_3
+      - irFilter_🇨🇳_CN_4
+      - irFilter_🇨🇭_CH_5
+      - irFilter_🇬🇧_GB_6
+      - irFilter_🇦🇺_AU_7
+      - irFilter_🇨🇦_CA_8
+      - irFilter_🇬🇧_GB_9
+      - irFilter_🇬🇧_GB_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇺🇸_US_美国_4
+      - irFilter_🇭🇰_HK_1
+      - irFilter_🇬🇧_GB_2
+      - irFilter_🇨🇦_CA_3
+      - irFilter_🇨🇳_CN_4
+      - irFilter_🇨🇭_CH_5
+      - irFilter_🇬🇧_GB_6
+      - irFilter_🇦🇺_AU_7
+      - irFilter_🇨🇦_CA_8
+      - irFilter_🇬🇧_GB_9
+      - irFilter_🇬🇧_GB_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇺🇸_US_美国_4
+      - irFilter_🇭🇰_HK_1
+      - irFilter_🇬🇧_GB_2
+      - irFilter_🇨🇦_CA_3
+      - irFilter_🇨🇳_CN_4
+      - irFilter_🇨🇭_CH_5
+      - irFilter_🇬🇧_GB_6
+      - irFilter_🇦🇺_AU_7
+      - irFilter_🇨🇦_CA_8
+      - irFilter_🇬🇧_GB_9
+      - irFilter_🇬🇧_GB_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,10 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇺🇸_US_美国_4
+      - irFilter_🇭🇰_HK_1
+      - irFilter_🇬🇧_GB_2
+      - irFilter_🇨🇦_CA_3
+      - irFilter_🇨🇳_CN_4
+      - irFilter_🇨🇭_CH_5
+      - irFilter_🇬🇧_GB_6
+      - irFilter_🇦🇺_AU_7
+      - irFilter_🇨🇦_CA_8
+      - irFilter_🇬🇧_GB_9
+      - irFilter_🇬🇧_GB_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
