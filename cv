@@ -5,156 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇭🇰HK_164+_10_02Mb_1, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: Relay_🇷🇴RO-🇯🇵JP_952+_+9_89Mb_2, server: jp.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: FR_二爷翻墙+https://1808_ga+节点_53, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 二爷翻墙https://1808_ga节点_392, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar}, udp: true}
-  - {name: CA_二爷翻墙+https://1808_ga+节点_30, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: DE_494+_+5_07Mb_6, server: 5.183.179.137, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: RU_999+_+5_43Mb_7, server: 217.30.10.65, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: DE_351+_+6_30Mb_8, server: 5.183.179.137, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: RO_909+_+6_18Mb_9, server: 185.126.116.117, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: DE_460+_+5_67Mb_10, server: 5.183.179.137, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: DE_493+_+5_76Mb_11, server: 5.183.179.137, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: DE_371+_+6_05Mb_12, server: 5.183.179.137, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: RU_957+_+6_85Mb_13, server: 217.30.10.66, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: GB_576+_+5_04Mb_14, server: 152.89.210.84, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: RU_1030+_+9_78Mb_15, server: 217.30.10.66, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: DE_329+_+5_83Mb_16, server: 5.183.179.137, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: RU_958+_+7_44Mb_17, server: 217.30.10.65, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: RU_985+_+6_83Mb_18, server: 217.30.10.65, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: DE_499+_+5_91Mb_19, server: 5.183.179.137, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: github_com/freefq-美国纽约市DigitalOcean云公司13_20, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
-  - {name: DE_501+_+5_89Mb_21, server: 5.183.179.137, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: RU_1041+_+5_22Mb_22, server: 217.30.10.65, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: PL_二爷翻墙+https://1808_ga+节点_106, server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: RO_910+_+5_26Mb_24, server: 185.126.116.117, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: RU_973+_+8_20Mb_25, server: 217.30.10.65, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: RU_1039+_+6_70Mb_26, server: 217.30.10.66, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: RU_1032+_+6_62Mb_27, server: 217.30.10.66, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: RU_1011+_+7_46Mb_28, server: 217.30.10.66, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: RO_927+_+7_66Mb_29, server: 185.126.116.117, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: RO_934+_+6_55Mb_30, server: 185.126.116.117, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: RU_1017+_+6_31Mb_31, server: 217.30.10.65, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: ZZ_1229+_+7_85Mb_32, server: 103.172.116.6, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: GB_577+_12_43Mb_33, server: 152.89.210.84, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: CN_170+_+6_99Mb_34, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_354, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_346, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_352, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_350, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_349, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ZZ_1204+_+8_52Mb_40, server: 103.172.116.6, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: RO_892+_+5_34Mb_41, server: 185.126.116.117, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: RU_982+_+6_70Mb_42, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: PL_二爷翻墙+https://1808_ga+节点_103, server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_351, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_348, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ZZ_1227+_+6_75Mb_46, server: 103.172.116.6, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_347, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: GB_592+_+9_18Mb_48, server: 152.89.210.84, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: GB_591+_+7_80Mb_49, server: 152.89.210.84, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: ZZ_1245+_+9_12Mb_50, server: 103.172.116.6, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: DE_558+_+8_18Mb_51, server: 5.183.179.137, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_353, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_345, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ZZ_1233+_+6_74Mb_54, server: 103.172.116.6, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: RU_1003+_+5_10Mb_55, server: 217.30.10.66, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: ZZ_1248+_+6_11Mb_56, server: 103.172.116.6, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: ZZ_1224+_+6_04Mb_57, server: 103.172.116.6, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: CA_二爷翻墙+https://1808_ga+节点_23, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA_二爷翻墙+https://1808_ga+节点_28, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_1196+_+6_78Mb_60, server: 103.172.116.6, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: ZZ_1235+_10_24Mb_61, server: 103.172.116.6, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: GB_586+_+5_44Mb_62, server: 152.89.210.84, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: ZZ_1197+_+5_09Mb_63, server: 103.172.116.6, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: DE_430+_+6_79Mb_64, server: 5.183.179.137, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: RO_932+_+9_62Mb_65, server: 185.126.116.117, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: ZZ_1225+_+6_57Mb_66, server: 103.172.116.6, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: ZZ_1242+_+5_43Mb_67, server: 103.172.116.6, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: RU_1002+_+6_42Mb_68, server: 217.30.10.67, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: DE_346+_+7_12Mb_69, server: 5.183.179.137, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: CN_二爷翻墙+https://1808_ga+节点_344, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_138+_+8_75Mb_71, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ZZ_1208+_10_18Mb_72, server: 103.172.116.6, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: ZZ_1250+_+7_26Mb_73, server: 103.172.116.6, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: DE_417+_+5_05Mb_74, server: 5.183.179.137, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: LT_721+_+5_66Mb_75, server: 213.183.63.218, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: DE_562+_+6_56Mb_76, server: 5.183.179.140, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: RU_1010+_+6_06Mb_77, server: 217.30.10.65, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: DE_383+_11_11Mb_78, server: 5.183.179.140, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: DE_386+_+7_61Mb_79, server: 5.183.179.146, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: DE_505+_+7_31Mb_80, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: IN_二爷翻墙+https://1808_ga+节点_73, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: NL_857+_+5_22Mb_82, server: 213.183.51.172, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: DE_332+_+5_20Mb_83, server: 5.183.179.140, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: DE_506+_+6_28Mb_84, server: 5.183.179.140, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: DE_402+_+7_45Mb_85, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: DE_374+_+5_70Mb_86, server: 5.183.179.140, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: DE_471+_+6_12Mb_87, server: 5.183.179.146, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: DE_497+_+5_86Mb_88, server: 5.183.179.146, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: DE_415+_10_05Mb_89, server: 5.183.179.170, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: NL_865+_+7_63Mb_90, server: 213.183.59.229, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: NL_829+_+6_39Mb_91, server: 213.183.59.229, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: DE_344+_+7_46Mb_92, server: 5.183.179.140, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: DE_364+_10_41Mb_93, server: 5.183.179.146, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: DE_二爷翻墙+https://1808_ga+节点_360, server: 5.183.179.166, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: DE_468+_+9_64Mb_95, server: 5.183.179.166, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: DE_370+_+5_83Mb_96, server: 5.183.179.167, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: DE_487+_+8_27Mb_97, server: 5.183.179.170, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: ZZ_1218+_+8_25Mb_98, server: 103.172.116.6, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: DE_408+_+6_69Mb_99, server: 5.183.179.166, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: DE_352+_11_52Mb_100, server: 5.183.179.166, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: DE_二爷翻墙+https://1808_ga+节点_358, server: 5.183.179.166, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: DE_443+_14_58Mb_102, server: 5.183.179.167, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: DE_546+_+5_84Mb_103, server: 5.183.179.167, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: DE_二爷翻墙+https://1808_ga+节点_48, server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: DE_536+_+5_55Mb_105, server: 5.183.179.170, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: DE_412+_+7_52Mb_106, server: 5.183.179.170, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: DE_472+_10_34Mb_107, server: 5.183.179.170, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: NL_804+_+5_26Mb_108, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: NL_827+_+5_15Mb_109, server: 213.183.59.229, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: DE_527+_11_36Mb_110, server: 5.183.179.166, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: DE_429+_+6_22Mb_111, server: 5.183.179.167, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: DE_328+_+5_20Mb_112, server: 5.183.179.167, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: DE_403+_+7_96Mb_113, server: 5.183.179.167, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: DE_435+_+5_55Mb_114, server: 5.183.179.170, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: DE_453+_+6_42Mb_115, server: 5.183.179.170, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: DE_二爷翻墙+https://1808_ga+节点_361, server: 5.183.179.170, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: DE_483+_13_41Mb_117, server: 5.183.179.170, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: NL_790+_+5_89Mb_118, server: 213.183.59.229, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: DE_564+_+5_51Mb_119, server: 5.183.179.167, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: DE_520+_+5_95Mb_120, server: 5.183.179.167, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: DE_350+_+9_56Mb_121, server: 5.183.179.170, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: JP_二爷翻墙+https://1808_ga+节点_355, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: :中国-ss-101_91_121_247:50004-可用-直连-完全不支持NF_123, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: DE_二爷翻墙+https://1808_ga+节点_363, server: 5.183.179.167, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: DE_563+_+5_36Mb_125, server: 5.183.179.167, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: GB_613+_+5_18Mb_126, server: 152.89.210.105, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: NL_843+_+5_73Mb_127, server: 213.183.59.229, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: DE_二爷翻墙+https://1808_ga+节点_364, server: 5.183.179.167, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: DE_340+_+5_04Mb_129, server: 5.183.179.170, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: IN_二爷翻墙+https://1808_ga+节点_237, server: 172.105.58.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: NL_866+_+6_86Mb_131, server: 213.183.59.229, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: JP_二爷翻墙+https://1808_ga+节点_357, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: DE_428+_+8_64Mb_133, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_370, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_335, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_336, server: 213.183.53.177, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_338, server: 213.183.53.177, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_368, server: 213.183.53.200, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_378, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_377, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_339, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_341, server: 213.183.53.200, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_374, server: 213.183.53.200, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_373, server: 213.183.53.200, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_371, server: 213.183.53.200, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_340, server: 213.183.53.200, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_376, server: 213.183.53.200, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: RU_二爷翻墙+https://1808_ga+节点_372, server: 213.183.53.200, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: DE_二爷翻墙+https://1808_ga+节点_366, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, skip-cert-verify: true, udp: true}
-  - {name: GB_二爷翻墙+https://1808_ga+节点_365, server: 185.167.117.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: _JP_日本_1, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君), server: 51.159.30.61, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 51.159.30.61, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君) 3, server: 51.159.30.61, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -344,29 +195,38 @@ proxies:
   - {name: 德国（YouTube资源分享者）, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr, udp: true}
   - {name: 美国（YouTube资源分享者） 33, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__01, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__02, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__03, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__04, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__05, server: 103.201.131.152, port: 47801, type: ss, cipher: chacha20-ietf-poly1305, password: JrxD3AqjmQgF, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__01, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__02, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__03, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__04, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__05, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__06, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__07, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__08, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__09, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__10, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__11, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__12, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G 2, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub", server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub", server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
-  - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
-  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
-  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub", server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub", server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 120.240.48.19}}, udp: true}
-  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub", server: jpaz2.xmrth-node.xyz, port: 10672, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub", server: jpaz2.xmrth-node.xyz, port: 10670, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub", server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: sanfranciscolafayette.club}}, udp: true}
-  - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub", server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 138.197.236.77}}, udp: true}
-  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub", server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 101.230.149.29}}, udp: true}
+  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub", server: 172.67.184.192, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: kr01.ssttkk.com}}, udp: true}
+  - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub", server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub", server: 45.125.64.201, port: 27442, type: vmess, uuid: 3463f354-529a-4f40-9019-b9b10dc08233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub", server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
+  - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub", server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: "@SSRSUB-V14-付费推荐:suo.yt/ssrsub", server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
   - {name: 滥用太厉害不再提供trojan订阅请注册公益机场服务, server: www.cloudflare.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: douyincdn.com, skip-cert-verify: true, udp: true}
   - {name: 公益机场:https://suo.yt/Ypr87uz, server: www.cloudflare.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: douyincdn.com, skip-cert-verify: true, udp: true}
   - {name: 公益机场:https://dlj.tf/SpivhEz, server: www.cloudflare.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: douyincdn.com, skip-cert-verify: true, udp: true}
@@ -890,18 +750,20 @@ proxies:
   - {name: "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub 2", server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub 2", server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub 2", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
-  - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
-  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
-  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub 2", server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub 2", server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 120.240.48.19}}, udp: true}
-  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub 2", server: jpaz2.xmrth-node.xyz, port: 10672, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub 2", server: jpaz2.xmrth-node.xyz, port: 10670, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub 2", server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: sanfranciscolafayette.club}}, udp: true}
-  - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub 2", server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 138.197.236.77}}, udp: true}
-  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2", server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub 2", server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 101.230.149.29}}, udp: true}
+  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub 2", server: 172.67.184.192, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: kr01.ssttkk.com}}, udp: true}
+  - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub 2", server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub 2", server: 45.125.64.201, port: 27442, type: vmess, uuid: 3463f354-529a-4f40-9019-b9b10dc08233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub 2", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub 2", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub 2", server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
+  - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: "@SSRSUB-V14-付费推荐:suo.yt/ssrsub 2", server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
   - {name: Ytb:鹏哥分享_中国_143, server: 113.240.73.12, port: 16216, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_中国_54, server: 113.240.73.12, port: 16228, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_中国_47, server: 120.232.239.51, port: 16223, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1262,156 +1124,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - Relay_🇨🇳CN-🇭🇰HK_164+_10_02Mb_1
-      - Relay_🇷🇴RO-🇯🇵JP_952+_+9_89Mb_2
-      - FR_二爷翻墙+https://1808_ga+节点_53
-      - 二爷翻墙https://1808_ga节点_392
-      - CA_二爷翻墙+https://1808_ga+节点_30
-      - DE_494+_+5_07Mb_6
-      - RU_999+_+5_43Mb_7
-      - DE_351+_+6_30Mb_8
-      - RO_909+_+6_18Mb_9
-      - DE_460+_+5_67Mb_10
-      - DE_493+_+5_76Mb_11
-      - DE_371+_+6_05Mb_12
-      - RU_957+_+6_85Mb_13
-      - GB_576+_+5_04Mb_14
-      - RU_1030+_+9_78Mb_15
-      - DE_329+_+5_83Mb_16
-      - RU_958+_+7_44Mb_17
-      - RU_985+_+6_83Mb_18
-      - DE_499+_+5_91Mb_19
-      - github_com/freefq-美国纽约市DigitalOcean云公司13_20
-      - DE_501+_+5_89Mb_21
-      - RU_1041+_+5_22Mb_22
-      - PL_二爷翻墙+https://1808_ga+节点_106
-      - RO_910+_+5_26Mb_24
-      - RU_973+_+8_20Mb_25
-      - RU_1039+_+6_70Mb_26
-      - RU_1032+_+6_62Mb_27
-      - RU_1011+_+7_46Mb_28
-      - RO_927+_+7_66Mb_29
-      - RO_934+_+6_55Mb_30
-      - RU_1017+_+6_31Mb_31
-      - ZZ_1229+_+7_85Mb_32
-      - GB_577+_12_43Mb_33
-      - CN_170+_+6_99Mb_34
-      - CN_二爷翻墙+https://1808_ga+节点_354
-      - CN_二爷翻墙+https://1808_ga+节点_346
-      - CN_二爷翻墙+https://1808_ga+节点_352
-      - CN_二爷翻墙+https://1808_ga+节点_350
-      - CN_二爷翻墙+https://1808_ga+节点_349
-      - ZZ_1204+_+8_52Mb_40
-      - RO_892+_+5_34Mb_41
-      - RU_982+_+6_70Mb_42
-      - PL_二爷翻墙+https://1808_ga+节点_103
-      - CN_二爷翻墙+https://1808_ga+节点_351
-      - CN_二爷翻墙+https://1808_ga+节点_348
-      - ZZ_1227+_+6_75Mb_46
-      - CN_二爷翻墙+https://1808_ga+节点_347
-      - GB_592+_+9_18Mb_48
-      - GB_591+_+7_80Mb_49
-      - ZZ_1245+_+9_12Mb_50
-      - DE_558+_+8_18Mb_51
-      - CN_二爷翻墙+https://1808_ga+节点_353
-      - CN_二爷翻墙+https://1808_ga+节点_345
-      - ZZ_1233+_+6_74Mb_54
-      - RU_1003+_+5_10Mb_55
-      - ZZ_1248+_+6_11Mb_56
-      - ZZ_1224+_+6_04Mb_57
-      - CA_二爷翻墙+https://1808_ga+节点_23
-      - CA_二爷翻墙+https://1808_ga+节点_28
-      - ZZ_1196+_+6_78Mb_60
-      - ZZ_1235+_10_24Mb_61
-      - GB_586+_+5_44Mb_62
-      - ZZ_1197+_+5_09Mb_63
-      - DE_430+_+6_79Mb_64
-      - RO_932+_+9_62Mb_65
-      - ZZ_1225+_+6_57Mb_66
-      - ZZ_1242+_+5_43Mb_67
-      - RU_1002+_+6_42Mb_68
-      - DE_346+_+7_12Mb_69
-      - CN_二爷翻墙+https://1808_ga+节点_344
-      - CN_138+_+8_75Mb_71
-      - ZZ_1208+_10_18Mb_72
-      - ZZ_1250+_+7_26Mb_73
-      - DE_417+_+5_05Mb_74
-      - LT_721+_+5_66Mb_75
-      - DE_562+_+6_56Mb_76
-      - RU_1010+_+6_06Mb_77
-      - DE_383+_11_11Mb_78
-      - DE_386+_+7_61Mb_79
-      - DE_505+_+7_31Mb_80
-      - IN_二爷翻墙+https://1808_ga+节点_73
-      - NL_857+_+5_22Mb_82
-      - DE_332+_+5_20Mb_83
-      - DE_506+_+6_28Mb_84
-      - DE_402+_+7_45Mb_85
-      - DE_374+_+5_70Mb_86
-      - DE_471+_+6_12Mb_87
-      - DE_497+_+5_86Mb_88
-      - DE_415+_10_05Mb_89
-      - NL_865+_+7_63Mb_90
-      - NL_829+_+6_39Mb_91
-      - DE_344+_+7_46Mb_92
-      - DE_364+_10_41Mb_93
-      - DE_二爷翻墙+https://1808_ga+节点_360
-      - DE_468+_+9_64Mb_95
-      - DE_370+_+5_83Mb_96
-      - DE_487+_+8_27Mb_97
-      - ZZ_1218+_+8_25Mb_98
-      - DE_408+_+6_69Mb_99
-      - DE_352+_11_52Mb_100
-      - DE_二爷翻墙+https://1808_ga+节点_358
-      - DE_443+_14_58Mb_102
-      - DE_546+_+5_84Mb_103
-      - DE_二爷翻墙+https://1808_ga+节点_48
-      - DE_536+_+5_55Mb_105
-      - DE_412+_+7_52Mb_106
-      - DE_472+_10_34Mb_107
-      - NL_804+_+5_26Mb_108
-      - NL_827+_+5_15Mb_109
-      - DE_527+_11_36Mb_110
-      - DE_429+_+6_22Mb_111
-      - DE_328+_+5_20Mb_112
-      - DE_403+_+7_96Mb_113
-      - DE_435+_+5_55Mb_114
-      - DE_453+_+6_42Mb_115
-      - DE_二爷翻墙+https://1808_ga+节点_361
-      - DE_483+_13_41Mb_117
-      - NL_790+_+5_89Mb_118
-      - DE_564+_+5_51Mb_119
-      - DE_520+_+5_95Mb_120
-      - DE_350+_+9_56Mb_121
-      - JP_二爷翻墙+https://1808_ga+节点_355
-      - :中国-ss-101_91_121_247:50004-可用-直连-完全不支持NF_123
-      - DE_二爷翻墙+https://1808_ga+节点_363
-      - DE_563+_+5_36Mb_125
-      - GB_613+_+5_18Mb_126
-      - NL_843+_+5_73Mb_127
-      - DE_二爷翻墙+https://1808_ga+节点_364
-      - DE_340+_+5_04Mb_129
-      - IN_二爷翻墙+https://1808_ga+节点_237
-      - NL_866+_+6_86Mb_131
-      - JP_二爷翻墙+https://1808_ga+节点_357
-      - DE_428+_+8_64Mb_133
-      - RU_二爷翻墙+https://1808_ga+节点_370
-      - RU_二爷翻墙+https://1808_ga+节点_335
-      - RU_二爷翻墙+https://1808_ga+节点_336
-      - RU_二爷翻墙+https://1808_ga+节点_338
-      - RU_二爷翻墙+https://1808_ga+节点_368
-      - RU_二爷翻墙+https://1808_ga+节点_378
-      - RU_二爷翻墙+https://1808_ga+节点_377
-      - RU_二爷翻墙+https://1808_ga+节点_339
-      - RU_二爷翻墙+https://1808_ga+节点_341
-      - RU_二爷翻墙+https://1808_ga+节点_374
-      - RU_二爷翻墙+https://1808_ga+节点_373
-      - RU_二爷翻墙+https://1808_ga+节点_371
-      - RU_二爷翻墙+https://1808_ga+节点_340
-      - RU_二爷翻墙+https://1808_ga+节点_376
-      - RU_二爷翻墙+https://1808_ga+节点_372
-      - DE_二爷翻墙+https://1808_ga+节点_366
-      - GB_二爷翻墙+https://1808_ga+节点_365
+      - _JP_日本_1
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
       - 法国(欢迎订阅Youtube破解资源君) 3
@@ -1606,6 +1319,13 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__03
       - 付费推荐:dlj.tf/ssrsub__04
       - 付费推荐:dlj.tf/ssrsub__05
+      - 付费推荐:dlj.tf/ssrsub__06
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 付费推荐:dlj.tf/ssrsub__08
+      - 付费推荐:dlj.tf/ssrsub__09
+      - 付费推荐:dlj.tf/ssrsub__10
+      - 付费推荐:dlj.tf/ssrsub__11
+      - 付费推荐:dlj.tf/ssrsub__12
       - 公益机场:https://bit.ly/3BPeo5G 2
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
@@ -1624,6 +1344,8 @@ proxy-groups:
       - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V14-付费推荐:suo.yt/ssrsub"
       - 滥用太厉害不再提供trojan订阅请注册公益机场服务
       - 公益机场:https://suo.yt/Ypr87uz
       - 公益机场:https://dlj.tf/SpivhEz
@@ -2159,6 +1881,8 @@ proxy-groups:
       - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V14-付费推荐:suo.yt/ssrsub 2"
       - Ytb:鹏哥分享_中国_143
       - Ytb:鹏哥分享_中国_54
       - Ytb:鹏哥分享_中国_47
@@ -2519,156 +2243,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_164+_10_02Mb_1
-      - Relay_🇷🇴RO-🇯🇵JP_952+_+9_89Mb_2
-      - FR_二爷翻墙+https://1808_ga+节点_53
-      - 二爷翻墙https://1808_ga节点_392
-      - CA_二爷翻墙+https://1808_ga+节点_30
-      - DE_494+_+5_07Mb_6
-      - RU_999+_+5_43Mb_7
-      - DE_351+_+6_30Mb_8
-      - RO_909+_+6_18Mb_9
-      - DE_460+_+5_67Mb_10
-      - DE_493+_+5_76Mb_11
-      - DE_371+_+6_05Mb_12
-      - RU_957+_+6_85Mb_13
-      - GB_576+_+5_04Mb_14
-      - RU_1030+_+9_78Mb_15
-      - DE_329+_+5_83Mb_16
-      - RU_958+_+7_44Mb_17
-      - RU_985+_+6_83Mb_18
-      - DE_499+_+5_91Mb_19
-      - github_com/freefq-美国纽约市DigitalOcean云公司13_20
-      - DE_501+_+5_89Mb_21
-      - RU_1041+_+5_22Mb_22
-      - PL_二爷翻墙+https://1808_ga+节点_106
-      - RO_910+_+5_26Mb_24
-      - RU_973+_+8_20Mb_25
-      - RU_1039+_+6_70Mb_26
-      - RU_1032+_+6_62Mb_27
-      - RU_1011+_+7_46Mb_28
-      - RO_927+_+7_66Mb_29
-      - RO_934+_+6_55Mb_30
-      - RU_1017+_+6_31Mb_31
-      - ZZ_1229+_+7_85Mb_32
-      - GB_577+_12_43Mb_33
-      - CN_170+_+6_99Mb_34
-      - CN_二爷翻墙+https://1808_ga+节点_354
-      - CN_二爷翻墙+https://1808_ga+节点_346
-      - CN_二爷翻墙+https://1808_ga+节点_352
-      - CN_二爷翻墙+https://1808_ga+节点_350
-      - CN_二爷翻墙+https://1808_ga+节点_349
-      - ZZ_1204+_+8_52Mb_40
-      - RO_892+_+5_34Mb_41
-      - RU_982+_+6_70Mb_42
-      - PL_二爷翻墙+https://1808_ga+节点_103
-      - CN_二爷翻墙+https://1808_ga+节点_351
-      - CN_二爷翻墙+https://1808_ga+节点_348
-      - ZZ_1227+_+6_75Mb_46
-      - CN_二爷翻墙+https://1808_ga+节点_347
-      - GB_592+_+9_18Mb_48
-      - GB_591+_+7_80Mb_49
-      - ZZ_1245+_+9_12Mb_50
-      - DE_558+_+8_18Mb_51
-      - CN_二爷翻墙+https://1808_ga+节点_353
-      - CN_二爷翻墙+https://1808_ga+节点_345
-      - ZZ_1233+_+6_74Mb_54
-      - RU_1003+_+5_10Mb_55
-      - ZZ_1248+_+6_11Mb_56
-      - ZZ_1224+_+6_04Mb_57
-      - CA_二爷翻墙+https://1808_ga+节点_23
-      - CA_二爷翻墙+https://1808_ga+节点_28
-      - ZZ_1196+_+6_78Mb_60
-      - ZZ_1235+_10_24Mb_61
-      - GB_586+_+5_44Mb_62
-      - ZZ_1197+_+5_09Mb_63
-      - DE_430+_+6_79Mb_64
-      - RO_932+_+9_62Mb_65
-      - ZZ_1225+_+6_57Mb_66
-      - ZZ_1242+_+5_43Mb_67
-      - RU_1002+_+6_42Mb_68
-      - DE_346+_+7_12Mb_69
-      - CN_二爷翻墙+https://1808_ga+节点_344
-      - CN_138+_+8_75Mb_71
-      - ZZ_1208+_10_18Mb_72
-      - ZZ_1250+_+7_26Mb_73
-      - DE_417+_+5_05Mb_74
-      - LT_721+_+5_66Mb_75
-      - DE_562+_+6_56Mb_76
-      - RU_1010+_+6_06Mb_77
-      - DE_383+_11_11Mb_78
-      - DE_386+_+7_61Mb_79
-      - DE_505+_+7_31Mb_80
-      - IN_二爷翻墙+https://1808_ga+节点_73
-      - NL_857+_+5_22Mb_82
-      - DE_332+_+5_20Mb_83
-      - DE_506+_+6_28Mb_84
-      - DE_402+_+7_45Mb_85
-      - DE_374+_+5_70Mb_86
-      - DE_471+_+6_12Mb_87
-      - DE_497+_+5_86Mb_88
-      - DE_415+_10_05Mb_89
-      - NL_865+_+7_63Mb_90
-      - NL_829+_+6_39Mb_91
-      - DE_344+_+7_46Mb_92
-      - DE_364+_10_41Mb_93
-      - DE_二爷翻墙+https://1808_ga+节点_360
-      - DE_468+_+9_64Mb_95
-      - DE_370+_+5_83Mb_96
-      - DE_487+_+8_27Mb_97
-      - ZZ_1218+_+8_25Mb_98
-      - DE_408+_+6_69Mb_99
-      - DE_352+_11_52Mb_100
-      - DE_二爷翻墙+https://1808_ga+节点_358
-      - DE_443+_14_58Mb_102
-      - DE_546+_+5_84Mb_103
-      - DE_二爷翻墙+https://1808_ga+节点_48
-      - DE_536+_+5_55Mb_105
-      - DE_412+_+7_52Mb_106
-      - DE_472+_10_34Mb_107
-      - NL_804+_+5_26Mb_108
-      - NL_827+_+5_15Mb_109
-      - DE_527+_11_36Mb_110
-      - DE_429+_+6_22Mb_111
-      - DE_328+_+5_20Mb_112
-      - DE_403+_+7_96Mb_113
-      - DE_435+_+5_55Mb_114
-      - DE_453+_+6_42Mb_115
-      - DE_二爷翻墙+https://1808_ga+节点_361
-      - DE_483+_13_41Mb_117
-      - NL_790+_+5_89Mb_118
-      - DE_564+_+5_51Mb_119
-      - DE_520+_+5_95Mb_120
-      - DE_350+_+9_56Mb_121
-      - JP_二爷翻墙+https://1808_ga+节点_355
-      - :中国-ss-101_91_121_247:50004-可用-直连-完全不支持NF_123
-      - DE_二爷翻墙+https://1808_ga+节点_363
-      - DE_563+_+5_36Mb_125
-      - GB_613+_+5_18Mb_126
-      - NL_843+_+5_73Mb_127
-      - DE_二爷翻墙+https://1808_ga+节点_364
-      - DE_340+_+5_04Mb_129
-      - IN_二爷翻墙+https://1808_ga+节点_237
-      - NL_866+_+6_86Mb_131
-      - JP_二爷翻墙+https://1808_ga+节点_357
-      - DE_428+_+8_64Mb_133
-      - RU_二爷翻墙+https://1808_ga+节点_370
-      - RU_二爷翻墙+https://1808_ga+节点_335
-      - RU_二爷翻墙+https://1808_ga+节点_336
-      - RU_二爷翻墙+https://1808_ga+节点_338
-      - RU_二爷翻墙+https://1808_ga+节点_368
-      - RU_二爷翻墙+https://1808_ga+节点_378
-      - RU_二爷翻墙+https://1808_ga+节点_377
-      - RU_二爷翻墙+https://1808_ga+节点_339
-      - RU_二爷翻墙+https://1808_ga+节点_341
-      - RU_二爷翻墙+https://1808_ga+节点_374
-      - RU_二爷翻墙+https://1808_ga+节点_373
-      - RU_二爷翻墙+https://1808_ga+节点_371
-      - RU_二爷翻墙+https://1808_ga+节点_340
-      - RU_二爷翻墙+https://1808_ga+节点_376
-      - RU_二爷翻墙+https://1808_ga+节点_372
-      - DE_二爷翻墙+https://1808_ga+节点_366
-      - GB_二爷翻墙+https://1808_ga+节点_365
+      - _JP_日本_1
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
       - 法国(欢迎订阅Youtube破解资源君) 3
@@ -2863,6 +2438,13 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__03
       - 付费推荐:dlj.tf/ssrsub__04
       - 付费推荐:dlj.tf/ssrsub__05
+      - 付费推荐:dlj.tf/ssrsub__06
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 付费推荐:dlj.tf/ssrsub__08
+      - 付费推荐:dlj.tf/ssrsub__09
+      - 付费推荐:dlj.tf/ssrsub__10
+      - 付费推荐:dlj.tf/ssrsub__11
+      - 付费推荐:dlj.tf/ssrsub__12
       - 公益机场:https://bit.ly/3BPeo5G 2
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
@@ -2881,6 +2463,8 @@ proxy-groups:
       - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V14-付费推荐:suo.yt/ssrsub"
       - 滥用太厉害不再提供trojan订阅请注册公益机场服务
       - 公益机场:https://suo.yt/Ypr87uz
       - 公益机场:https://dlj.tf/SpivhEz
@@ -3416,6 +3000,8 @@ proxy-groups:
       - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V14-付费推荐:suo.yt/ssrsub 2"
       - Ytb:鹏哥分享_中国_143
       - Ytb:鹏哥分享_中国_54
       - Ytb:鹏哥分享_中国_47
