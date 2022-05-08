@@ -5,109 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇯🇵_JP_日本_1","server":"85.208.108.58","port":8080,"type":"ss","country":"🇯🇵_JP_日本_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇭🇰_HK_香港_2","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_2","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
-  - {"name":"🇬🇧_GB_英国_3","server":"172.99.190.61","port":5003,"type":"ss","country":"🇬🇧_GB_英国_3","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇬🇧_GB_英国_4","server":"172.99.190.35","port":6679,"type":"ss","country":"🇬🇧_GB_英国_4","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB_英国_5","server":"172.99.190.50","port":6679,"type":"ss","country":"🇬🇧_GB_英国_5","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"198.57.27.225","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇬🇧_GB_英国_7","server":"172.99.190.61","port":2376,"type":"ss","country":"🇬🇧_GB_英国_7","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇬🇧_GB_英国_8","server":"172.99.190.35","port":5601,"type":"ss","country":"🇬🇧_GB_英国_8","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_9","server":"172.99.190.35","port":443,"type":"ss","country":"🇬🇧_GB_英国_9","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_GB_英国_10","server":"172.99.190.35","port":5001,"type":"ss","country":"🇬🇧_GB_英国_10","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"D_1","server":"185.183.84.60","port":3306,"type":"vmess","uuid":"9b309fbe-4a98-4b15-d853-878d89b18a13","alterId":0,"cipher":"auto","country":"D_1","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"Oracle2-KCP-relay_2","server":"ex-hk2.vxtrans.com","port":2735,"type":"vmess","uuid":"c7451dd9-35c2-4057-9e9b-e61061ad1956","alterId":0,"cipher":"auto","country":"Oracle2-KCP-relay_2","skip-cert-verify":true,"tls":false,"network":"kcp","ws-opts":{"path":"wvqwr1fWKg"}}
+  - {"name":"ZServer-电信_3","server":"mic.vxtrans.com","port":4671,"type":"vmess","uuid":"e307623b-9119-4282-df9d-8a5d023cac20","alterId":0,"cipher":"auto","country":"ZServer-电信_3","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"ZServer-联通_4","server":"mis.vxtrans.com","port":31095,"type":"vmess","uuid":"e307623b-9119-4282-df9d-8a5d023cac20","alterId":0,"cipher":"auto","country":"ZServer-联通_4","skip-cert-verify":true,"tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
+      - D_1
+      - Oracle2-KCP-relay_2
+      - ZServer-电信_3
+      - ZServer-联通_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
+      - D_1
+      - Oracle2-KCP-relay_2
+      - ZServer-电信_3
+      - ZServer-联通_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
+      - D_1
+      - Oracle2-KCP-relay_2
+      - ZServer-电信_3
+      - ZServer-联通_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
+      - D_1
+      - Oracle2-KCP-relay_2
+      - ZServer-电信_3
+      - ZServer-联通_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
+      - D_1
+      - Oracle2-KCP-relay_2
+      - ZServer-电信_3
+      - ZServer-联通_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
+      - D_1
+      - Oracle2-KCP-relay_2
+      - ZServer-电信_3
+      - ZServer-联通_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
+      - D_1
+      - Oracle2-KCP-relay_2
+      - ZServer-电信_3
+      - ZServer-联通_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
