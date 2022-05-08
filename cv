@@ -5,44 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港HGC-1号线路(中转)_1, server: 47.242.199.100, port: 443, type: vmess, uuid: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hkhgc?ed=2048"}, udp: true}
-  - {name: 台湾Hinet-1号线路(中转)_2, server: 47.242.199.100, port: 443, type: vmess, uuid: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048"}, udp: true}
-  - {name: 香港HGC-2号线路(中转)_3, server: 47.52.57.57, port: 443, type: vmess, uuid: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hkhgc?ed=2048"}, udp: true}
-  - {name: 台湾Hinet-2号线路(中转)_4, server: 47.52.57.57, port: 443, type: vmess, uuid: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048"}, udp: true}
-  - {name: 香港HGC-3号线路(中转)_5, server: 35.241.72.154, port: 443, type: vmess, uuid: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hkhgc?ed=2048"}, udp: true}
-  - {name: 台湾Hinet-3号线路(中转)_6, server: 35.241.72.154, port: 443, type: vmess, uuid: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048"}, udp: true}
-  - {name: 香港HGC-4号线路(中转)_7, server: gzyd.xxcv.cc, port: 36660, type: vmess, uuid: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hkhgc?ed=2048", headers: {Host: gzyd.xxcv.cc}}, udp: true}
-  - {name: 台湾Hinet-4号线路(中转)_8, server: gzyd.xxcv.cc, port: 36660, type: vmess, uuid: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: gzyd.xxcv.cc}}, udp: true}
-  - {name: TG:https://t_me/Goguolichengo_10, server: a2e9b941934e4e7d.gia.wiki, port: 10205, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC_11, server: 210.0.159.90, port: 38443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC～广东移动2(中转)_12, server: gzyd.xxcv.cc, port: 20030, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 新加坡DO-1号_13, server: 165.22.53.6, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 新加坡DO-2号_14, server: 206.189.156.88, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 广东移动负载均衡聚合-新加坡DO双线路(中转)_15, server: gdyd.xxcv.cc, port: 42001, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 广东移动4负载均衡聚合-新加坡DO(中转)_16, server: gzyd.xxcv.cc, port: 20010, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: linode日本-1号_17, server: 139.162.124.250, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: linode日本-2号_18, server: 172.104.96.170, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: M247日本-广东移动(中转)_19, server: gzyd.xxcv.cc, port: 20040, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 法国Do1号_20, server: 159.223.29.152, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 法国Do2号_21, server: 165.22.93.103, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 法国Do-广东移动负载聚合双线(中转)_22, server: gzyd.xxcv.cc, port: 20050, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 德国Linode-1号_23, server: 164.92.171.104, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 德国Linode-广东移动负载聚合双线(中转)_24, server: gzyd.xxcv.cc, port: 20060, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 德国-1号_25, server: 80.78.132.177, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet_26, server: hinet.xxcv.cc, port: 38443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet～广东移动(中转)_27, server: gzyd.xxcv.cc, port: 20020, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 香港M247-1号(移动网用户专享)_28, server: 185.126.148.186, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 香港M247-2号(移动网用户专享)_29, server: 185.126.148.209, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 香港M247-3号(移动网用户专享)_30, server: 185.126.148.213, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 香港M247-4号(移动网用户专享)_31, server: 185.126.148.96, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 香港M247-广移负载均衡3线聚合(中转)_32, server: gzyd.xxcv.cc, port: 20090, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-1号_33, server: 52.78.214.93, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-2号_34, server: 3.38.104.32, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-3号_35, server: 13.125.68.66, port: 28443, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 韩国亚马逊-广移负载均衡3线聚合(中转)_36, server: gzyd.xxcv.cc, port: 20080, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: DO新加坡（中转）#_37, server: gzbgp.gia.wiki, port: 30343, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet#广州BGP（中转）_38, server: gzbgp.gia.wiki, port: 30341, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC#（中转）_39, server: gzbgp.gia.wiki, port: 30339, type: trojan, password: 5578d89a-f0c0-4702-a3cb-fd79f595e5ff, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_1, server: 172.99.190.153, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
@@ -1086,44 +1049,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 香港HGC-1号线路(中转)_1
-      - 台湾Hinet-1号线路(中转)_2
-      - 香港HGC-2号线路(中转)_3
-      - 台湾Hinet-2号线路(中转)_4
-      - 香港HGC-3号线路(中转)_5
-      - 台湾Hinet-3号线路(中转)_6
-      - 香港HGC-4号线路(中转)_7
-      - 台湾Hinet-4号线路(中转)_8
-      - TG:https://t_me/Goguolichengo_10
-      - 香港HGC_11
-      - 香港HGC～广东移动2(中转)_12
-      - 新加坡DO-1号_13
-      - 新加坡DO-2号_14
-      - 广东移动负载均衡聚合-新加坡DO双线路(中转)_15
-      - 广东移动4负载均衡聚合-新加坡DO(中转)_16
-      - linode日本-1号_17
-      - linode日本-2号_18
-      - M247日本-广东移动(中转)_19
-      - 法国Do1号_20
-      - 法国Do2号_21
-      - 法国Do-广东移动负载聚合双线(中转)_22
-      - 德国Linode-1号_23
-      - 德国Linode-广东移动负载聚合双线(中转)_24
-      - 德国-1号_25
-      - 台湾Hinet_26
-      - 台湾Hinet～广东移动(中转)_27
-      - 香港M247-1号(移动网用户专享)_28
-      - 香港M247-2号(移动网用户专享)_29
-      - 香港M247-3号(移动网用户专享)_30
-      - 香港M247-4号(移动网用户专享)_31
-      - 香港M247-广移负载均衡3线聚合(中转)_32
-      - 韩国亚马逊-1号_33
-      - 韩国亚马逊-2号_34
-      - 韩国亚马逊-3号_35
-      - 韩国亚马逊-广移负载均衡3线聚合(中转)_36
-      - DO新加坡（中转）#_37
-      - 台湾Hinet#广州BGP（中转）_38
-      - 香港HGC#（中转）_39
+      - _GB_英国_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
@@ -2167,44 +2093,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - 香港HGC-1号线路(中转)_1
-      - 台湾Hinet-1号线路(中转)_2
-      - 香港HGC-2号线路(中转)_3
-      - 台湾Hinet-2号线路(中转)_4
-      - 香港HGC-3号线路(中转)_5
-      - 台湾Hinet-3号线路(中转)_6
-      - 香港HGC-4号线路(中转)_7
-      - 台湾Hinet-4号线路(中转)_8
-      - TG:https://t_me/Goguolichengo_10
-      - 香港HGC_11
-      - 香港HGC～广东移动2(中转)_12
-      - 新加坡DO-1号_13
-      - 新加坡DO-2号_14
-      - 广东移动负载均衡聚合-新加坡DO双线路(中转)_15
-      - 广东移动4负载均衡聚合-新加坡DO(中转)_16
-      - linode日本-1号_17
-      - linode日本-2号_18
-      - M247日本-广东移动(中转)_19
-      - 法国Do1号_20
-      - 法国Do2号_21
-      - 法国Do-广东移动负载聚合双线(中转)_22
-      - 德国Linode-1号_23
-      - 德国Linode-广东移动负载聚合双线(中转)_24
-      - 德国-1号_25
-      - 台湾Hinet_26
-      - 台湾Hinet～广东移动(中转)_27
-      - 香港M247-1号(移动网用户专享)_28
-      - 香港M247-2号(移动网用户专享)_29
-      - 香港M247-3号(移动网用户专享)_30
-      - 香港M247-4号(移动网用户专享)_31
-      - 香港M247-广移负载均衡3线聚合(中转)_32
-      - 韩国亚马逊-1号_33
-      - 韩国亚马逊-2号_34
-      - 韩国亚马逊-3号_35
-      - 韩国亚马逊-广移负载均衡3线聚合(中转)_36
-      - DO新加坡（中转）#_37
-      - 台湾Hinet#广州BGP（中转）_38
-      - 香港HGC#（中转）_39
+      - _GB_英国_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
