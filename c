@@ -5,46 +5,137 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74@","server":"198.57.27.225","port":8009,"name":"🇨🇦_CA_加拿大"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_1","server":"hk.a1.aini.cyou","password":"c488b664-a0a5-4a4e-a7e8-a7a41ba04ae9","port":"45231","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国->🇸🇬_SG_新加坡","server":"azure-hk-1.forwardserver.xyz","password":"c488b664-a0a5-4a4e-a7e8-a7a41ba04ae9","port":"44381","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇹🇼_TW_台湾","server":"guangzhou.kuli888.xyz","password":"54acbfdc-34ec-3d72-8182-3b437e4747eb","port":"52004","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港->🇯🇵_JP_日本_1","port":60013,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国->🇯🇵_JP_日本_1","port":60017,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国->🇯🇵_JP_日本_2","port":50009,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国->🇯🇵_JP_日本_3","port":60010,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国->🇯🇵_JP_日本_4","port":60016,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"173.82.251.240","name":"🇺🇸_US_美国_2","port":2233,"uuid":"1e3847e6-755a-4964-9845-4ac53e39b23c","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_3","server":"us-a.vmess.top","password":"d8f386ac-ebf3-4fd1-9397-5eaca4b5889d","port":"39123","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港->🇯🇵_JP_日本_2","port":60005,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇭🇰_HK_香港","server":"hkbn.okvpn.xyz","password":"cbed95ba-b375-4816-80fb-964f38010dba","port":"12000","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇺🇸_US_美国","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44611","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国_4","server":"free.spcloud.us","password":"fdb6f3a3-9d29-47c3-8c92-5a279626dc5b","port":"10001","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_2
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_2
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_2
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_2
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_2
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_2
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +158,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_2
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
