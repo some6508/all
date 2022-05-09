@@ -6,55 +6,25 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vmess","http-opts":{"path":["/"]},"server":"43.154.77.196","name":"🇨🇳_CN_中国","port":38539,"uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.205","port":5601,"name":"🇨🇦_CA_加拿大_1"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"198.57.27.225","port":8118,"name":"🇨🇦_CA_加拿大_2"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"198.57.27.225","port":8888,"name":"🇨🇦_CA_加拿大_3"}
-  - {"type":"ssr","server":"213.183.53.177","port":9011,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"M3t2ZEQcMGRWBjRa","name":"🇷🇺_RU_俄罗斯联邦_1"}
-  - {"type":"ssr","server":"213.183.53.177","port":9056,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rNBfNuuANFCAk7KB","name":"🇷🇺_RU_俄罗斯联邦_2"}
-  - {"type":"ssr","server":"213.183.53.177","port":9005,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZET59LF6DvCC8KVt","name":"🇷🇺_RU_俄罗斯联邦_3"}
-  - {"type":"ssr","server":"213.183.53.177","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH","name":"🇷🇺_RU_俄罗斯联邦_4"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ","server":"213.183.53.177","port":9094,"name":"🇷🇺_RU_俄罗斯联邦_5"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn","server":"213.183.53.177","port":9088,"name":"🇷🇺_RU_俄罗斯联邦_6"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP","server":"213.183.53.177","port":9003,"name":"🇷🇺_RU_俄罗斯联邦_7"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"198.57.27.225","port":7001,"name":"🇨🇦_CA_加拿大_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"198.57.27.225","port":8009,"name":"🇨🇦_CA_加拿大_5"}
-  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国->🇯🇵_JP_日本_1","port":60028,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"198.57.27.225","port":7002,"name":"🇨🇦_CA_加拿大_6"}
-  - {"type":"trojan","name":"🇹🇼_TW_台湾","server":"tw.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44608","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","server":"185.183.84.60","name":"🇺🇸_US_美国_1","port":3306,"uuid":"9b309fbe-4a98-4b15-d853-878d89b18a13","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国->🇯🇵_JP_日本_2","port":60034,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港->🇯🇵_JP_日本","port":60013,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"198.57.27.225","port":8118,"name":"🇨🇦_CA_加拿大_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"198.57.27.225","port":7001,"name":"🇨🇦_CA_加拿大_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"198.57.27.225","port":8009,"name":"🇨🇦_CA_加拿大_3"}
   - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_1","port":60046,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_2","port":20004,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_3","port":60045,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国_2","port":60014,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"198.57.27.225","port":9102,"name":"🇨🇦_CA_加拿大_7"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"198.57.27.225","port":5500,"name":"🇨🇦_CA_加拿大_8"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"198.57.27.225","port":6697,"name":"🇨🇦_CA_加拿大_9"}
-  - {"type":"ssr","server":"152.89.210.105","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH","name":"🇬🇧_GB_英国_1"}
-  - {"type":"ssr","server":"213.183.53.177","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN","name":"🇷🇺_RU_俄罗斯联邦_8"}
-  - {"type":"ssr","server":"213.183.53.177","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb","name":"🇷🇺_RU_俄罗斯联邦_9"}
-  - {"type":"ssr","server":"213.183.53.177","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ","name":"🇷🇺_RU_俄罗斯联邦_10"}
-  - {"type":"ssr","server":"213.183.53.177","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8","name":"🇷🇺_RU_俄罗斯联邦_11"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj","server":"152.89.210.105","port":9084,"name":"🇬🇧_GB_英国_2"}
+  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_2","port":60045,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"198.57.27.225","port":9102,"name":"🇨🇦_CA_加拿大_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"198.57.27.225","port":5500,"name":"🇨🇦_CA_加拿大_5"}
   - {"type":"trojan","name":"🇧🇷_BR_巴西","server":"fr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44612","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_4","port":60042,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_3","server":"ocikr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44600","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","server":"213.183.53.177","port":9053,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"SBM7R883jBmnqe6C","name":"🇷🇺_RU_俄罗斯联邦_12"}
-  - {"type":"vmess","server":"sg02.xqkj.cloud","name":"🇸🇬_SG_新加坡_1","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"sg04.xqkj.cloud","name":"🇸🇬_SG_新加坡_2","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"sg01.xqkj.cloud","name":"🇸🇬_SG_新加坡_3","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"sg03.xqkj.cloud","name":"🇸🇬_SG_新加坡_4","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"sg05.xqkj.cloud","name":"🇸🇬_SG_新加坡_5","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"198.57.27.225","port":5600,"name":"🇨🇦_CA_加拿大_10"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国->🇩🇪_DE_德国","server":"s2.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM","server":"213.183.53.177","port":9019,"name":"🇷🇺_RU_俄罗斯联邦_13"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt","server":"152.89.210.105","port":9093,"name":"🇬🇧_GB_英国_3"}
-  - {"type":"ssr","server":"213.183.53.177","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ","name":"🇷🇺_RU_俄罗斯联邦_14"}
-  - {"type":"ssr","server":"213.183.53.177","port":9098,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"aLpQtfEZe445QyHk","name":"🇷🇺_RU_俄罗斯联邦_15"}
-  - {"type":"ssr","server":"213.183.53.177","port":9015,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZpNDDKRu9MagNvaf","name":"🇷🇺_RU_俄罗斯联邦_16"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":3306,"name":"🇬🇧_GB_英国_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5601,"name":"🇬🇧_GB_英国_5"}
+  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_3","port":60042,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":3306,"name":"🇬🇧_GB_英国_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5601,"name":"🇬🇧_GB_英国_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":8888,"name":"🇬🇧_GB_英国_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"172.99.190.35","port":9101,"name":"🇬🇧_GB_英国_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"172.99.190.35","port":6697,"name":"🇬🇧_GB_英国_5"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5000,"name":"🇬🇧_GB_英国_6"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5600,"name":"🇬🇧_GB_英国_7"}
+  - {"type":"vmess","http-opts":{"path":["/"]},"server":"43.132.158.232","name":"🇭🇰_HK_香港","port":44350,"uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇺🇸_US_美国","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44611","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"172.99.190.35","port":5004,"name":"🇬🇧_GB_英国_8"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -65,52 +35,22 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
       - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
       - 🇬🇧_GB_英国_4
       - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇬🇧_GB_英国_7
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -121,52 +61,22 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
       - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
       - 🇬🇧_GB_英国_4
       - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇬🇧_GB_英国_7
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国_8
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -177,52 +87,22 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
       - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
       - 🇬🇧_GB_英国_4
       - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇬🇧_GB_英国_7
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国_8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -232,52 +112,22 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
       - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
       - 🇬🇧_GB_英国_4
       - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇬🇧_GB_英国_7
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -287,52 +137,22 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
       - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
       - 🇬🇧_GB_英国_4
       - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇬🇧_GB_英国_7
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国_8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -342,52 +162,22 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
       - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
       - 🇬🇧_GB_英国_4
       - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇬🇧_GB_英国_7
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -414,52 +204,22 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
       - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
       - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
       - 🇬🇧_GB_英国_4
       - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇬🇧_GB_英国_7
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
