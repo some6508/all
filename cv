@@ -5,16 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ‌‌🇨🇦CA_8009 @WangCai_1, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 高速娱乐节点2, server: 129.154.215.121, port: 18409, type: vmess, uuid: eb611f2d-233a-4c86-88f2-02a04419ebe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 高速娱乐娱乐节点, server: 129.154.215.121, port: 46769, type: vmess, uuid: ef519d75-4414-4ac7-f391-98a49e987093, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ‌‌🇨🇦CA_8888 @WangCai_1, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ‌‌🇨🇦CA_8881 @WangCai_1, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ‌‌🇨🇦CA_7002 @WangCai_1, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ‌‌🇨🇦CA_5500 @WangCai_1, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_8008 @WangCai_1, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ‌‌🇨🇦CA_5004 @WangCai_1, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ‌‌🇨🇦CA_6679 @WangCai_1, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CA_加拿大_1, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_2, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_3, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡_1, server: 20.205.11.55, port: 60046, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡_2, server: 20.205.11.55, port: 60045, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CA_加拿大_4, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_5, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _BR_巴西, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡_3, server: 20.205.11.55, port: 60042, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
@@ -587,7 +587,7 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
-  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
+  - {name: _CN_中国 2, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
   - {name: _CA_加拿大, server: 134.195.196.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 2, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _CA_加拿大 3, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -619,7 +619,7 @@ proxies:
   - {name: 213.183.53.177:9008, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
   - {name: 213.183.53.177:9027, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
   - {name: _GB_英国, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: _BR_巴西, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: _BR_巴西 2, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
   - {name: _HK_香港->🇸🇬_SG_新加坡 4, server: 20.205.11.55, port: 60042, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.205.11.55}}, udp: true}
   - {name: _US_美国 3, server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
   - {name: 213.183.53.177:9053, server: 213.183.53.177, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
@@ -1115,16 +1115,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - 高速娱乐节点2
-      - 高速娱乐娱乐节点
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - _CN_中国
+      - _CA_加拿大_1
+      - _CA_加拿大_2
+      - _CA_加拿大_3
+      - _HK_香港->🇸🇬_SG_新加坡_1
+      - _HK_香港->🇸🇬_SG_新加坡_2
+      - _CA_加拿大_4
+      - _CA_加拿大_5
+      - _BR_巴西
+      - _HK_香港->🇸🇬_SG_新加坡_3
       - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
@@ -1697,7 +1697,7 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _CN_中国
+      - _CN_中国 2
       - _CA_加拿大
       - _CA_加拿大 2
       - _CA_加拿大 3
@@ -1729,7 +1729,7 @@ proxy-groups:
       - 213.183.53.177:9008
       - 213.183.53.177:9027
       - _GB_英国
-      - _BR_巴西
+      - _BR_巴西 2
       - _HK_香港->🇸🇬_SG_新加坡 4
       - _US_美国 3
       - 213.183.53.177:9053
@@ -2225,16 +2225,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - 高速娱乐节点2
-      - 高速娱乐娱乐节点
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - _CN_中国
+      - _CA_加拿大_1
+      - _CA_加拿大_2
+      - _CA_加拿大_3
+      - _HK_香港->🇸🇬_SG_新加坡_1
+      - _HK_香港->🇸🇬_SG_新加坡_2
+      - _CA_加拿大_4
+      - _CA_加拿大_5
+      - _BR_巴西
+      - _HK_香港->🇸🇬_SG_新加坡_3
       - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
@@ -2807,7 +2807,7 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
-      - _CN_中国
+      - _CN_中国 2
       - _CA_加拿大
       - _CA_加拿大 2
       - _CA_加拿大 3
@@ -2839,7 +2839,7 @@ proxy-groups:
       - 213.183.53.177:9008
       - 213.183.53.177:9027
       - _GB_英国
-      - _BR_巴西
+      - _BR_巴西 2
       - _HK_香港->🇸🇬_SG_新加坡 4
       - _US_美国 3
       - 213.183.53.177:9053
