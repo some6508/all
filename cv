@@ -5,90 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "俄罗斯|TG@univstar1\r_1", server: dx.yhy520.xyz, port: 58828, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯|TG@univstar2\r_1", server: lt.yhy520.xyz, port: 58813, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印尼|TG@univstar 3\r_1", server: dx.yhy520.xyz, port: 58824, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印尼|TG@univstar 4\r_1", server: lt.yhy520.xyz, port: 58829, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印度|TG@univstar 5\r_1", server: dx.yhy520.xyz, port: 58811, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印度|TG@univstar 6\r_1", server: lt.yhy520.xyz, port: 58812, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "台湾|TG@univstar 7\r_1", server: dx.yhy520.xyz, port: 58821, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "台湾|TG@univstar 8\r_1", server: lt.yhy520.xyz, port: 58827, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "新加坡|TG@univstar9\r_1", server: dx.yhy520.xyz, port: 58807, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "新加坡|TG@univstar10\r_1", server: lt.yhy520.xyz, port: 58808, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "日本|TG@univstar 11\r_1", server: dx.yhy520.xyz, port: 58805, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "日本|TG@univstar 12\r_1", server: lt.yhy520.xyz, port: 58806, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "泰国|TG@univstar 13\r_1", server: dx.yhy520.xyz, port: 58825, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "泰国|TG@univstar 14\r_1", server: lt.yhy520.xyz, port: 58830, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 15\r_1", server: dx.yhy520.xyz, port: 58816, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 16\r_1", server: lt.yhy520.xyz, port: 58832, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 17\r_1", server: dx.yhy520.xyz, port: 58817, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 18\r_1", server: lt.yhy520.xyz, port: 58818, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "越南|TG@univstar 19\r_1", server: dx.yhy520.xyz, port: 58814, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "越南|TG@univstar 20\r_1", server: lt.yhy520.xyz, port: 58831, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "韩国|TG@univstar 21\r_1", server: dx.yhy520.xyz, port: 58809, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "韩国|TG@univstar 22\r_1", server: lt.yhy520.xyz, port: 58810, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 23\r_1", server: dx.yhy520.xyz, port: 58801, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 24\r_1", server: lt.yhy520.xyz, port: 58820, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 25\r_1", server: lt.yhy520.xyz, port: 58819, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 26\r_1", server: dx.yhy520.xyz, port: 58803, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 27\r_1", server: dx.yhy520.xyz, port: 58804, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: 香港|TG@univstar 28_1, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯|TG@univstar1\r_2", server: dx.yhy520.xyz, port: 58828, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯|TG@univstar2\r_2", server: lt.yhy520.xyz, port: 58813, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印尼|TG@univstar 3\r_2", server: dx.yhy520.xyz, port: 58824, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印尼|TG@univstar 4\r_2", server: lt.yhy520.xyz, port: 58829, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印度|TG@univstar 5\r_2", server: dx.yhy520.xyz, port: 58811, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印度|TG@univstar 6\r_2", server: lt.yhy520.xyz, port: 58812, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "台湾|TG@univstar 7\r_2", server: dx.yhy520.xyz, port: 58821, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "台湾|TG@univstar 8\r_2", server: lt.yhy520.xyz, port: 58827, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "新加坡|TG@univstar9\r_2", server: dx.yhy520.xyz, port: 58807, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "新加坡|TG@univstar10\r_2", server: lt.yhy520.xyz, port: 58808, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "日本|TG@univstar 11\r_2", server: dx.yhy520.xyz, port: 58805, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "日本|TG@univstar 12\r_2", server: lt.yhy520.xyz, port: 58806, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "泰国|TG@univstar 13\r_2", server: dx.yhy520.xyz, port: 58825, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "泰国|TG@univstar 14\r_2", server: lt.yhy520.xyz, port: 58830, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 15\r_2", server: dx.yhy520.xyz, port: 58816, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 16\r_2", server: lt.yhy520.xyz, port: 58832, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 17\r_2", server: dx.yhy520.xyz, port: 58817, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 18\r_2", server: lt.yhy520.xyz, port: 58818, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "越南|TG@univstar 19\r_2", server: dx.yhy520.xyz, port: 58814, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "越南|TG@univstar 20\r_2", server: lt.yhy520.xyz, port: 58831, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "韩国|TG@univstar 21\r_2", server: dx.yhy520.xyz, port: 58809, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "韩国|TG@univstar 22\r_2", server: lt.yhy520.xyz, port: 58810, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 23\r_2", server: dx.yhy520.xyz, port: 58801, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 24\r_2", server: lt.yhy520.xyz, port: 58820, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 25\r_2", server: lt.yhy520.xyz, port: 58819, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 26\r_2", server: dx.yhy520.xyz, port: 58803, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 27\r_2", server: dx.yhy520.xyz, port: 58804, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: 香港|TG@univstar 28_2, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯|TG@univstar1\r_3", server: dx.yhy520.xyz, port: 58828, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯|TG@univstar2\r_3", server: lt.yhy520.xyz, port: 58813, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印尼|TG@univstar 3\r_3", server: dx.yhy520.xyz, port: 58824, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印尼|TG@univstar 4\r_3", server: lt.yhy520.xyz, port: 58829, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印度|TG@univstar 5\r_3", server: dx.yhy520.xyz, port: 58811, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "印度|TG@univstar 6\r_3", server: lt.yhy520.xyz, port: 58812, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "台湾|TG@univstar 7\r_3", server: dx.yhy520.xyz, port: 58821, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "台湾|TG@univstar 8\r_3", server: lt.yhy520.xyz, port: 58827, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "新加坡|TG@univstar9\r_3", server: dx.yhy520.xyz, port: 58807, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "新加坡|TG@univstar10\r_3", server: lt.yhy520.xyz, port: 58808, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "日本|TG@univstar 11\r_3", server: dx.yhy520.xyz, port: 58805, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "日本|TG@univstar 12\r_3", server: lt.yhy520.xyz, port: 58806, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "泰国|TG@univstar 13\r_3", server: dx.yhy520.xyz, port: 58825, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "泰国|TG@univstar 14\r_3", server: lt.yhy520.xyz, port: 58830, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 15\r_3", server: dx.yhy520.xyz, port: 58816, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 16\r_3", server: lt.yhy520.xyz, port: 58832, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 17\r_3", server: dx.yhy520.xyz, port: 58817, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "美国|TG@univstar 18\r_3", server: lt.yhy520.xyz, port: 58818, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "越南|TG@univstar 19\r_3", server: dx.yhy520.xyz, port: 58814, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "越南|TG@univstar 20\r_3", server: lt.yhy520.xyz, port: 58831, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "韩国|TG@univstar 21\r_3", server: dx.yhy520.xyz, port: 58809, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "韩国|TG@univstar 22\r_3", server: lt.yhy520.xyz, port: 58810, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 23\r_3", server: dx.yhy520.xyz, port: 58801, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 24\r_3", server: lt.yhy520.xyz, port: 58820, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 25\r_3", server: lt.yhy520.xyz, port: 58819, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 26\r_3", server: dx.yhy520.xyz, port: 58803, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: "香港|TG@univstar 27\r_3", server: dx.yhy520.xyz, port: 58804, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
-  - {name: 香港|TG@univstar 28_3, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾_1, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_1, server: 172.99.190.35, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _GB_英国_2, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_3, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@, udp: true}
+  - {name: _GB_英国_4, server: 172.99.190.35, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.253.134, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_5, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
+  - {name: _GB_英国_6, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM@, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_1, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN@, udp: true}
+  - {name: _GB_英国_7, server: 152.89.210.105, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CA_加拿大_2, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG@, udp: true}
+  - {name: _GB_英国_8, server: 152.89.210.105, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ@, udp: true}
+  - {name: _GB_英国_9, server: 152.89.210.105, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国_1, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_3, server: 20.230.146.155, port: 262, type: vmess, uuid: eec166d5-25d5-42d2-ce7d-83fca85d2610, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CA_加拿大_3, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: _CA_加拿大_4, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@, udp: true}
+  - {name: _CA_加拿大_5, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY@, udp: true}
+  - {name: _CA_加拿大_6, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
+  - {name: _CA_加拿大_7, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_1, server: 213.183.53.177, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9045, type: ssr, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_3, server: 213.183.53.177, port: 9006, type: ssr, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _SG_新加坡_1, server: 157.230.41.220, port: 29596, type: ss, cipher: aes-256-cfb, password: e6c1cf51375c407d92d110881a825acb@, udp: true}
+  - {name: _TW_台湾_2, server: 60.249.3.125, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_10, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY@, udp: true}
+  - {name: _GB_英国_11, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: _GB_英国_12, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: _US_美国_4, server: 169.197.141.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _CA_加拿大_8, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _GB_英国_13, server: 152.89.210.105, port: 9032, type: ssr, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国_5, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾_3, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_6, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_7, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_9, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM@, udp: true}
+  - {name: _SG_新加坡_2, server: sgp02ul.vpnsieure.com, port: 80, type: vmess, uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgp02ul.vpnsieure.com}}, udp: true}
+  - {name: _US_美国_8, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_2, server: trojan.linkdns.xyz, port: 40230, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_3, server: trojan.linkdns.xyz, port: 40203, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_4, server: trojan.linkdns.xyz, port: 40229, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: trojan.linkdns.xyz, port: 40225, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -773,65 +739,44 @@ proxies:
   - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
   - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub 2", server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
   - {name: "@SSRSUB-V14-付费推荐:suo.yt/ssrsub 2", server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 1, server: trojan.linkdns.xyz, port: 40215, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 2, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 3, server: trojan.linkdns.xyz, port: 40212, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 4, server: trojan.linkdns.xyz, port: 40213, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 5, server: trojan.linkdns.xyz, port: 40207, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 6, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 7, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 8, server: trojan.linkdns.xyz, port: 40230, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 9, server: trojan.linkdns.xyz, port: 40221, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 10, server: trojan.linkdns.xyz, port: 40219, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 11, server: trojan.linkdns.xyz, port: 40229, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 12, server: 2.vip341.xyz, port: 443, type: vmess, uuid: ffa9a7b3-3697-3887-a6f3-b02191018941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 2.vip341.xyz}}, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 13, server: trojan.linkdns.xyz, port: 40209, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 14, server: 20.205.125.236, port: 60038, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 15, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 16, server: e-gzcm.linkdns.xyz, port: 40246, type: vmess, uuid: 12f73569-a856-3896-a798-aab097a89432, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: telegram.channel.p2psharing}}, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 17, server: trojan.linkdns.xyz, port: 40201, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 18, server: trojan.linkdns.xyz, port: 40214, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 19, server: jp06-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: f5896503-9069-3967-8979-14af86f5ac96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp06-vm0.entry.ikuuu.casa}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 20, server: jp04-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: f5896503-9069-3967-8979-14af86f5ac96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bf419d5f59f7d0.windowsupdate.com}}, udp: true}
-  - {name: github.com/freefq - 台湾省新北市中华电信 21, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  22, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国圣斯考拉斯蒂卡大学 23, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 24, server: trojan.linkdns.xyz, port: 40225, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 俄罗斯  25, server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm, udp: true}
-  - {name: github.com/freefq - 广东省东莞市移动 26, server: trojan.linkdns.xyz, port: 40203, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港亚太环通(Pacnet)有限公司 27, server: 202.64.1.102, port: 553, type: vmess, uuid: 30ef0f29-da14-349d-9c49-728d5adc4ba8, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 28, server: app.ssfree.ru, port: 443, type: vmess, uuid: aa9a3ee4-d015-11ec-9145-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 保加利亚  29, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 湖北省武汉市电信IDC机房 30, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 美国  31, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港城市电讯有限公司 32, server: hkbn.henyo.us, port: 44614, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 33, server: 158.101.0.204, port: 50203, type: vmess, uuid: b4b57f71-93e7-4faf-9af2-2f9d8629b60e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 34, server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: /t.me/mengge88888888}}, udp: true}
-  - {name: github.com/freefq - 美国  35, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 36, server: krr1.liuwei01.tk, port: 443, type: vmess, uuid: d965d82e-b325-44e8-a472-84721a3ab07c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /liuwei, headers: {Host: krr1.liuwei01.tk}}, udp: true}
-  - {name: github.com/freefq - 上海市电信 37, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 38, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: /t.me/mengge88888888}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 39, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 40, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 美国  41, server: 129.146.246.25, port: 13220, type: vmess, uuid: 76b352ba-b3f1-4109-8c10-bda2881e8cb4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 42, server: weixin.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mp, headers: {Host: weixin.babazhuji.com}}, udp: true}
-  - {name: github.com/freefq - 俄罗斯  43, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 44, server: sg05.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg05.xqkj.cloud}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 45, server: sg-ovh.clown1i.cf, port: 443, type: vmess, uuid: 165af2cb-4bf4-472a-9565-68d55927668e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: sg-ovh.clown1i.cf}}, udp: true}
-  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 46, server: sg01.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg01.xqkj.cloud}}, udp: true}
-  - {name: github.com/freefq - 北美地区  47, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 48, server: 162.159.251.130, port: 443, type: vmess, uuid: 2e385ee8-a129-4c4a-d717-1d3f1c7acd71, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /daa, headers: {Host: da.wodaming.ga}}, udp: true}
-  - {name: github.com/freefq - 美国  49, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 美国3COM公司企业网 50, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 51, server: sg03.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg03.xqkj.cloud}}, udp: true}
-  - {name: github.com/freefq - 欧盟  52, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 53, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 54, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: github.com/freefq - 日本东京Amazon数据中心 55, server: v2.godlight.xyz, port: 26940, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
-  - {name: github.com/freefq - 新加坡Amazon数据中心 56, server: v2-2.godlight.xyz, port: 30540, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
-  - {name: github.com/freefq - 捷克布拉格Friendhosting有限责任公司 57, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 58, server: sg-cf.clown1i.cf, port: 443, type: vmess, uuid: ba2bd5e1-3cd6-4ac5-8234-803b2ca4d4f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: sg-cf.clown1i.cf}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 59, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  1, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡Amazon数据中心 2, server: v2-2.godlight.xyz, port: 30540, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 3, server: app.ssfree.ru, port: 443, type: vmess, uuid: aa9a3ee4-d015-11ec-9145-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  4, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 俄罗斯  5, server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm, udp: true}
+  - {name: github.com/freefq - 香港亚太环通(Pacnet)有限公司 6, server: 202.64.1.102, port: 553, type: vmess, uuid: 30ef0f29-da14-349d-9c49-728d5adc4ba8, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 湖北省武汉市电信IDC机房 7, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: github.com/freefq - 美国  8, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 9, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 10, server: 20.230.146.155, port: 262, type: vmess, uuid: eec166d5-25d5-42d2-ce7d-83fca85d2610, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 11, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 12, server: krr1.liuwei01.tk, port: 443, type: vmess, uuid: d965d82e-b325-44e8-a472-84721a3ab07c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /liuwei, headers: {Host: krr1.liuwei01.tk}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 13, server: 162.159.251.130, port: 443, type: vmess, uuid: 2e385ee8-a129-4c4a-d717-1d3f1c7acd71, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /daa, headers: {Host: da.wodaming.ga}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 14, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 15, server: sg-ovh.clown1i.cf, port: 443, type: vmess, uuid: 165af2cb-4bf4-472a-9565-68d55927668e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: sg-ovh.clown1i.cf}}, udp: true}
+  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 16, server: sg03.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg03.xqkj.cloud}}, udp: true}
+  - {name: github.com/freefq - 北美地区  17, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: github.com/freefq - 美国3COM公司企业网 18, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 保加利亚  19, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港城市电讯有限公司 20, server: hkbn.henyo.us, port: 44614, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 21, server: sg01.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg01.xqkj.cloud}}, udp: true}
+  - {name: github.com/freefq - 美国  22, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港环球全域电讯数据中心 23, server: hk.node.qchwnd.moe, port: 44601, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  24, server: 152.70.247.226, port: 63742, type: vmess, uuid: b48db258-b3aa-4913-9905-8ac4cf3e999b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 25, server: sg-cf.clown1i.cf, port: 443, type: vmess, uuid: ba2bd5e1-3cd6-4ac5-8234-803b2ca4d4f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: sg-cf.clown1i.cf}}, udp: true}
+  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 26, server: sg05.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg05.xqkj.cloud}}, udp: true}
+  - {name: github.com/freefq - 日本东京Amazon数据中心 27, server: v2.godlight.xyz, port: 26940, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国圣斯考拉斯蒂卡大学 28, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 希腊  29, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 上海市电信 30, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 31, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 32, server: 158.101.0.204, port: 50203, type: vmess, uuid: b4b57f71-93e7-4faf-9af2-2f9d8629b60e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 欧盟  33, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国圣斯考拉斯蒂卡大学 34, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 11459, type: vmess, uuid: 7ef159a7-2c15-45ca-f5c3-b9798143afaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bit.ly/36b6iJh, headers: {Host: bai-piao-wang-zhe-iplc.98848.xyz}}, udp: true}
+  - {name: github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 35, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国  36, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 英国伦敦Oracle云计算数据中心 37, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 台湾省新北市中华电信 38, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
   - {name: 香港-IPLC专线-搞鸡玩家 03, server: fliplc.getxlx.com, port: 59913, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港-IPLC专线-搞鸡玩家 01, server: fliplc.getxlx.com, port: 59911, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港-IPLC专线-搞鸡玩家 04, server: fliplc.getxlx.com, port: 59914, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, udp: true}
@@ -996,90 +941,56 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - "俄罗斯|TG@univstar1\r_1"
-      - "俄罗斯|TG@univstar2\r_1"
-      - "印尼|TG@univstar 3\r_1"
-      - "印尼|TG@univstar 4\r_1"
-      - "印度|TG@univstar 5\r_1"
-      - "印度|TG@univstar 6\r_1"
-      - "台湾|TG@univstar 7\r_1"
-      - "台湾|TG@univstar 8\r_1"
-      - "新加坡|TG@univstar9\r_1"
-      - "新加坡|TG@univstar10\r_1"
-      - "日本|TG@univstar 11\r_1"
-      - "日本|TG@univstar 12\r_1"
-      - "泰国|TG@univstar 13\r_1"
-      - "泰国|TG@univstar 14\r_1"
-      - "美国|TG@univstar 15\r_1"
-      - "美国|TG@univstar 16\r_1"
-      - "美国|TG@univstar 17\r_1"
-      - "美国|TG@univstar 18\r_1"
-      - "越南|TG@univstar 19\r_1"
-      - "越南|TG@univstar 20\r_1"
-      - "韩国|TG@univstar 21\r_1"
-      - "韩国|TG@univstar 22\r_1"
-      - "香港|TG@univstar 23\r_1"
-      - "香港|TG@univstar 24\r_1"
-      - "香港|TG@univstar 25\r_1"
-      - "香港|TG@univstar 26\r_1"
-      - "香港|TG@univstar 27\r_1"
-      - 香港|TG@univstar 28_1
-      - "俄罗斯|TG@univstar1\r_2"
-      - "俄罗斯|TG@univstar2\r_2"
-      - "印尼|TG@univstar 3\r_2"
-      - "印尼|TG@univstar 4\r_2"
-      - "印度|TG@univstar 5\r_2"
-      - "印度|TG@univstar 6\r_2"
-      - "台湾|TG@univstar 7\r_2"
-      - "台湾|TG@univstar 8\r_2"
-      - "新加坡|TG@univstar9\r_2"
-      - "新加坡|TG@univstar10\r_2"
-      - "日本|TG@univstar 11\r_2"
-      - "日本|TG@univstar 12\r_2"
-      - "泰国|TG@univstar 13\r_2"
-      - "泰国|TG@univstar 14\r_2"
-      - "美国|TG@univstar 15\r_2"
-      - "美国|TG@univstar 16\r_2"
-      - "美国|TG@univstar 17\r_2"
-      - "美国|TG@univstar 18\r_2"
-      - "越南|TG@univstar 19\r_2"
-      - "越南|TG@univstar 20\r_2"
-      - "韩国|TG@univstar 21\r_2"
-      - "韩国|TG@univstar 22\r_2"
-      - "香港|TG@univstar 23\r_2"
-      - "香港|TG@univstar 24\r_2"
-      - "香港|TG@univstar 25\r_2"
-      - "香港|TG@univstar 26\r_2"
-      - "香港|TG@univstar 27\r_2"
-      - 香港|TG@univstar 28_2
-      - "俄罗斯|TG@univstar1\r_3"
-      - "俄罗斯|TG@univstar2\r_3"
-      - "印尼|TG@univstar 3\r_3"
-      - "印尼|TG@univstar 4\r_3"
-      - "印度|TG@univstar 5\r_3"
-      - "印度|TG@univstar 6\r_3"
-      - "台湾|TG@univstar 7\r_3"
-      - "台湾|TG@univstar 8\r_3"
-      - "新加坡|TG@univstar9\r_3"
-      - "新加坡|TG@univstar10\r_3"
-      - "日本|TG@univstar 11\r_3"
-      - "日本|TG@univstar 12\r_3"
-      - "泰国|TG@univstar 13\r_3"
-      - "泰国|TG@univstar 14\r_3"
-      - "美国|TG@univstar 15\r_3"
-      - "美国|TG@univstar 16\r_3"
-      - "美国|TG@univstar 17\r_3"
-      - "美国|TG@univstar 18\r_3"
-      - "越南|TG@univstar 19\r_3"
-      - "越南|TG@univstar 20\r_3"
-      - "韩国|TG@univstar 21\r_3"
-      - "韩国|TG@univstar 22\r_3"
-      - "香港|TG@univstar 23\r_3"
-      - "香港|TG@univstar 24\r_3"
-      - "香港|TG@univstar 25\r_3"
-      - "香港|TG@univstar 26\r_3"
-      - "香港|TG@univstar 27\r_3"
-      - 香港|TG@univstar 28_3
+      - _HK_香港
+      - _CN_中国->🇩🇪_DE_德国
+      - _TW_台湾_1
+      - _GB_英国_1
+      - _GB_英国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _GB_英国_3
+      - _GB_英国_4
+      - _CN_中国->🇸🇬_SG_新加坡_1
+      - _GB_英国_5
+      - _GB_英国_6
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _CA_加拿大_1
+      - _GB_英国_7
+      - _CA_加拿大_2
+      - _GB_英国_8
+      - _GB_英国_9
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
+      - _CN_中国
+      - _CA_加拿大_3
+      - _CA_加拿大_4
+      - _CA_加拿大_5
+      - _CA_加拿大_6
+      - _CA_加拿大_7
+      - _CN_中国->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SG_新加坡_1
+      - _TW_台湾_2
+      - _GB_英国_10
+      - _GB_英国_11
+      - _GB_英国_12
+      - _US_美国_4
+      - _CA_加拿大_8
+      - _GB_英国_13
+      - _US_美国_5
+      - _TW_台湾_3
+      - _US_美国_6
+      - _US_美国_7
+      - _CA_加拿大_9
+      - _SG_新加坡_2
+      - _US_美国_8
+      - _CN_中国->🇺🇸_US_美国_2
+      - _CN_中国->🇺🇸_US_美国_3
+      - _CN_中国->🇺🇸_US_美国_4
+      - _CN_中国->🇦🇺_AU_澳大利亚
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -1764,65 +1675,44 @@ proxy-groups:
       - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V14-付费推荐:suo.yt/ssrsub 2"
-      - github.com/freefq - 广东省东莞市移动 1
-      - github.com/freefq - 广东省东莞市移动 2
-      - github.com/freefq - 广东省东莞市移动 3
-      - github.com/freefq - 广东省东莞市移动 4
-      - github.com/freefq - 广东省东莞市移动 5
-      - github.com/freefq - 广东省东莞市移动 6
-      - github.com/freefq - 广东省东莞市移动 7
-      - github.com/freefq - 广东省东莞市移动 8
-      - github.com/freefq - 广东省东莞市移动 9
-      - github.com/freefq - 广东省东莞市移动 10
-      - github.com/freefq - 广东省东莞市移动 11
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - github.com/freefq - 广东省东莞市移动 13
-      - github.com/freefq - 美国Microsoft数据中心 14
-      - github.com/freefq - 广东省东莞市移动 15
-      - github.com/freefq - 广东省广州市移动 16
-      - github.com/freefq - 广东省东莞市移动 17
-      - github.com/freefq - 广东省东莞市移动 18
-      - github.com/freefq - 美国Microsoft数据中心 19
-      - github.com/freefq - 美国Microsoft数据中心 20
-      - github.com/freefq - 台湾省新北市中华电信 21
+      - github.com/freefq - 美国  1
+      - github.com/freefq - 新加坡Amazon数据中心 2
+      - github.com/freefq - 美国CloudFlare节点 3
+      - github.com/freefq - 澳大利亚  4
+      - github.com/freefq - 俄罗斯  5
+      - github.com/freefq - 香港亚太环通(Pacnet)有限公司 6
+      - github.com/freefq - 湖北省武汉市电信IDC机房 7
+      - github.com/freefq - 美国  8
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 9
+      - github.com/freefq - 美国Microsoft数据中心 10
+      - github.com/freefq - 美国CloudFlare节点 11
+      - github.com/freefq - 美国CloudFlare节点 12
+      - github.com/freefq - 美国CloudFlare节点 13
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 美国CloudFlare节点 15
+      - github.com/freefq - 新加坡DigitalOcean数据中心 16
+      - github.com/freefq - 北美地区  17
+      - github.com/freefq - 美国3COM公司企业网 18
+      - github.com/freefq - 保加利亚  19
+      - github.com/freefq - 香港城市电讯有限公司 20
+      - github.com/freefq - 新加坡DigitalOcean数据中心 21
       - github.com/freefq - 美国  22
-      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 23
-      - github.com/freefq - 广东省东莞市移动 24
-      - github.com/freefq - 俄罗斯  25
-      - github.com/freefq - 广东省东莞市移动 26
-      - github.com/freefq - 香港亚太环通(Pacnet)有限公司 27
-      - github.com/freefq - 美国CloudFlare节点 28
-      - github.com/freefq - 保加利亚  29
-      - github.com/freefq - 湖北省武汉市电信IDC机房 30
-      - github.com/freefq - 美国  31
-      - github.com/freefq - 香港城市电讯有限公司 32
-      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 33
-      - github.com/freefq - 美国CloudFlare节点 34
-      - github.com/freefq - 美国  35
-      - github.com/freefq - 美国CloudFlare节点 36
-      - github.com/freefq - 上海市电信 37
-      - github.com/freefq - 美国CloudFlare公司CDN节点 38
-      - github.com/freefq - 美国CloudFlare节点 39
-      - github.com/freefq - 美国CloudFlare节点 40
-      - github.com/freefq - 美国  41
-      - github.com/freefq - 美国CloudFlare节点 42
-      - github.com/freefq - 俄罗斯  43
-      - github.com/freefq - 新加坡DigitalOcean数据中心 44
-      - github.com/freefq - 美国CloudFlare公司CDN节点 45
-      - github.com/freefq - 新加坡DigitalOcean数据中心 46
-      - github.com/freefq - 北美地区  47
-      - github.com/freefq - 美国CloudFlare节点 48
-      - github.com/freefq - 美国  49
-      - github.com/freefq - 美国3COM公司企业网 50
-      - github.com/freefq - 新加坡DigitalOcean数据中心 51
-      - github.com/freefq - 欧盟  52
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 53
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 54
-      - github.com/freefq - 日本东京Amazon数据中心 55
-      - github.com/freefq - 新加坡Amazon数据中心 56
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 57
-      - github.com/freefq - 美国CloudFlare公司CDN节点 58
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 59
+      - github.com/freefq - 香港环球全域电讯数据中心 23
+      - github.com/freefq - 美国  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 新加坡DigitalOcean数据中心 26
+      - github.com/freefq - 日本东京Amazon数据中心 27
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 28
+      - github.com/freefq - 希腊  29
+      - github.com/freefq - 上海市电信 30
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 32
+      - github.com/freefq - 欧盟  33
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 34
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 35
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 英国伦敦Oracle云计算数据中心 37
+      - github.com/freefq - 台湾省新北市中华电信 38
       - 香港-IPLC专线-搞鸡玩家 03
       - 香港-IPLC专线-搞鸡玩家 01
       - 香港-IPLC专线-搞鸡玩家 04
@@ -1987,90 +1877,56 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - "俄罗斯|TG@univstar1\r_1"
-      - "俄罗斯|TG@univstar2\r_1"
-      - "印尼|TG@univstar 3\r_1"
-      - "印尼|TG@univstar 4\r_1"
-      - "印度|TG@univstar 5\r_1"
-      - "印度|TG@univstar 6\r_1"
-      - "台湾|TG@univstar 7\r_1"
-      - "台湾|TG@univstar 8\r_1"
-      - "新加坡|TG@univstar9\r_1"
-      - "新加坡|TG@univstar10\r_1"
-      - "日本|TG@univstar 11\r_1"
-      - "日本|TG@univstar 12\r_1"
-      - "泰国|TG@univstar 13\r_1"
-      - "泰国|TG@univstar 14\r_1"
-      - "美国|TG@univstar 15\r_1"
-      - "美国|TG@univstar 16\r_1"
-      - "美国|TG@univstar 17\r_1"
-      - "美国|TG@univstar 18\r_1"
-      - "越南|TG@univstar 19\r_1"
-      - "越南|TG@univstar 20\r_1"
-      - "韩国|TG@univstar 21\r_1"
-      - "韩国|TG@univstar 22\r_1"
-      - "香港|TG@univstar 23\r_1"
-      - "香港|TG@univstar 24\r_1"
-      - "香港|TG@univstar 25\r_1"
-      - "香港|TG@univstar 26\r_1"
-      - "香港|TG@univstar 27\r_1"
-      - 香港|TG@univstar 28_1
-      - "俄罗斯|TG@univstar1\r_2"
-      - "俄罗斯|TG@univstar2\r_2"
-      - "印尼|TG@univstar 3\r_2"
-      - "印尼|TG@univstar 4\r_2"
-      - "印度|TG@univstar 5\r_2"
-      - "印度|TG@univstar 6\r_2"
-      - "台湾|TG@univstar 7\r_2"
-      - "台湾|TG@univstar 8\r_2"
-      - "新加坡|TG@univstar9\r_2"
-      - "新加坡|TG@univstar10\r_2"
-      - "日本|TG@univstar 11\r_2"
-      - "日本|TG@univstar 12\r_2"
-      - "泰国|TG@univstar 13\r_2"
-      - "泰国|TG@univstar 14\r_2"
-      - "美国|TG@univstar 15\r_2"
-      - "美国|TG@univstar 16\r_2"
-      - "美国|TG@univstar 17\r_2"
-      - "美国|TG@univstar 18\r_2"
-      - "越南|TG@univstar 19\r_2"
-      - "越南|TG@univstar 20\r_2"
-      - "韩国|TG@univstar 21\r_2"
-      - "韩国|TG@univstar 22\r_2"
-      - "香港|TG@univstar 23\r_2"
-      - "香港|TG@univstar 24\r_2"
-      - "香港|TG@univstar 25\r_2"
-      - "香港|TG@univstar 26\r_2"
-      - "香港|TG@univstar 27\r_2"
-      - 香港|TG@univstar 28_2
-      - "俄罗斯|TG@univstar1\r_3"
-      - "俄罗斯|TG@univstar2\r_3"
-      - "印尼|TG@univstar 3\r_3"
-      - "印尼|TG@univstar 4\r_3"
-      - "印度|TG@univstar 5\r_3"
-      - "印度|TG@univstar 6\r_3"
-      - "台湾|TG@univstar 7\r_3"
-      - "台湾|TG@univstar 8\r_3"
-      - "新加坡|TG@univstar9\r_3"
-      - "新加坡|TG@univstar10\r_3"
-      - "日本|TG@univstar 11\r_3"
-      - "日本|TG@univstar 12\r_3"
-      - "泰国|TG@univstar 13\r_3"
-      - "泰国|TG@univstar 14\r_3"
-      - "美国|TG@univstar 15\r_3"
-      - "美国|TG@univstar 16\r_3"
-      - "美国|TG@univstar 17\r_3"
-      - "美国|TG@univstar 18\r_3"
-      - "越南|TG@univstar 19\r_3"
-      - "越南|TG@univstar 20\r_3"
-      - "韩国|TG@univstar 21\r_3"
-      - "韩国|TG@univstar 22\r_3"
-      - "香港|TG@univstar 23\r_3"
-      - "香港|TG@univstar 24\r_3"
-      - "香港|TG@univstar 25\r_3"
-      - "香港|TG@univstar 26\r_3"
-      - "香港|TG@univstar 27\r_3"
-      - 香港|TG@univstar 28_3
+      - _HK_香港
+      - _CN_中国->🇩🇪_DE_德国
+      - _TW_台湾_1
+      - _GB_英国_1
+      - _GB_英国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _GB_英国_3
+      - _GB_英国_4
+      - _CN_中国->🇸🇬_SG_新加坡_1
+      - _GB_英国_5
+      - _GB_英国_6
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _CA_加拿大_1
+      - _GB_英国_7
+      - _CA_加拿大_2
+      - _GB_英国_8
+      - _GB_英国_9
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
+      - _CN_中国
+      - _CA_加拿大_3
+      - _CA_加拿大_4
+      - _CA_加拿大_5
+      - _CA_加拿大_6
+      - _CA_加拿大_7
+      - _CN_中国->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SG_新加坡_1
+      - _TW_台湾_2
+      - _GB_英国_10
+      - _GB_英国_11
+      - _GB_英国_12
+      - _US_美国_4
+      - _CA_加拿大_8
+      - _GB_英国_13
+      - _US_美国_5
+      - _TW_台湾_3
+      - _US_美国_6
+      - _US_美国_7
+      - _CA_加拿大_9
+      - _SG_新加坡_2
+      - _US_美国_8
+      - _CN_中国->🇺🇸_US_美国_2
+      - _CN_中国->🇺🇸_US_美国_3
+      - _CN_中国->🇺🇸_US_美国_4
+      - _CN_中国->🇦🇺_AU_澳大利亚
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -2755,65 +2611,44 @@ proxy-groups:
       - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V14-付费推荐:suo.yt/ssrsub 2"
-      - github.com/freefq - 广东省东莞市移动 1
-      - github.com/freefq - 广东省东莞市移动 2
-      - github.com/freefq - 广东省东莞市移动 3
-      - github.com/freefq - 广东省东莞市移动 4
-      - github.com/freefq - 广东省东莞市移动 5
-      - github.com/freefq - 广东省东莞市移动 6
-      - github.com/freefq - 广东省东莞市移动 7
-      - github.com/freefq - 广东省东莞市移动 8
-      - github.com/freefq - 广东省东莞市移动 9
-      - github.com/freefq - 广东省东莞市移动 10
-      - github.com/freefq - 广东省东莞市移动 11
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - github.com/freefq - 广东省东莞市移动 13
-      - github.com/freefq - 美国Microsoft数据中心 14
-      - github.com/freefq - 广东省东莞市移动 15
-      - github.com/freefq - 广东省广州市移动 16
-      - github.com/freefq - 广东省东莞市移动 17
-      - github.com/freefq - 广东省东莞市移动 18
-      - github.com/freefq - 美国Microsoft数据中心 19
-      - github.com/freefq - 美国Microsoft数据中心 20
-      - github.com/freefq - 台湾省新北市中华电信 21
+      - github.com/freefq - 美国  1
+      - github.com/freefq - 新加坡Amazon数据中心 2
+      - github.com/freefq - 美国CloudFlare节点 3
+      - github.com/freefq - 澳大利亚  4
+      - github.com/freefq - 俄罗斯  5
+      - github.com/freefq - 香港亚太环通(Pacnet)有限公司 6
+      - github.com/freefq - 湖北省武汉市电信IDC机房 7
+      - github.com/freefq - 美国  8
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 9
+      - github.com/freefq - 美国Microsoft数据中心 10
+      - github.com/freefq - 美国CloudFlare节点 11
+      - github.com/freefq - 美国CloudFlare节点 12
+      - github.com/freefq - 美国CloudFlare节点 13
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 美国CloudFlare节点 15
+      - github.com/freefq - 新加坡DigitalOcean数据中心 16
+      - github.com/freefq - 北美地区  17
+      - github.com/freefq - 美国3COM公司企业网 18
+      - github.com/freefq - 保加利亚  19
+      - github.com/freefq - 香港城市电讯有限公司 20
+      - github.com/freefq - 新加坡DigitalOcean数据中心 21
       - github.com/freefq - 美国  22
-      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 23
-      - github.com/freefq - 广东省东莞市移动 24
-      - github.com/freefq - 俄罗斯  25
-      - github.com/freefq - 广东省东莞市移动 26
-      - github.com/freefq - 香港亚太环通(Pacnet)有限公司 27
-      - github.com/freefq - 美国CloudFlare节点 28
-      - github.com/freefq - 保加利亚  29
-      - github.com/freefq - 湖北省武汉市电信IDC机房 30
-      - github.com/freefq - 美国  31
-      - github.com/freefq - 香港城市电讯有限公司 32
-      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 33
-      - github.com/freefq - 美国CloudFlare节点 34
-      - github.com/freefq - 美国  35
-      - github.com/freefq - 美国CloudFlare节点 36
-      - github.com/freefq - 上海市电信 37
-      - github.com/freefq - 美国CloudFlare公司CDN节点 38
-      - github.com/freefq - 美国CloudFlare节点 39
-      - github.com/freefq - 美国CloudFlare节点 40
-      - github.com/freefq - 美国  41
-      - github.com/freefq - 美国CloudFlare节点 42
-      - github.com/freefq - 俄罗斯  43
-      - github.com/freefq - 新加坡DigitalOcean数据中心 44
-      - github.com/freefq - 美国CloudFlare公司CDN节点 45
-      - github.com/freefq - 新加坡DigitalOcean数据中心 46
-      - github.com/freefq - 北美地区  47
-      - github.com/freefq - 美国CloudFlare节点 48
-      - github.com/freefq - 美国  49
-      - github.com/freefq - 美国3COM公司企业网 50
-      - github.com/freefq - 新加坡DigitalOcean数据中心 51
-      - github.com/freefq - 欧盟  52
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Choopa数据中心 53
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 54
-      - github.com/freefq - 日本东京Amazon数据中心 55
-      - github.com/freefq - 新加坡Amazon数据中心 56
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 57
-      - github.com/freefq - 美国CloudFlare公司CDN节点 58
-      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 59
+      - github.com/freefq - 香港环球全域电讯数据中心 23
+      - github.com/freefq - 美国  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 新加坡DigitalOcean数据中心 26
+      - github.com/freefq - 日本东京Amazon数据中心 27
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 28
+      - github.com/freefq - 希腊  29
+      - github.com/freefq - 上海市电信 30
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 32
+      - github.com/freefq - 欧盟  33
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 34
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 35
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 英国伦敦Oracle云计算数据中心 37
+      - github.com/freefq - 台湾省新北市中华电信 38
       - 香港-IPLC专线-搞鸡玩家 03
       - 香港-IPLC专线-搞鸡玩家 01
       - 香港-IPLC专线-搞鸡玩家 04
