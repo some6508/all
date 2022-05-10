@@ -5,56 +5,58 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _CN_中国->🇩🇪_DE_德国, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾_1, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_1, server: 172.99.190.35, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
-  - {name: _GB_英国_2, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_1, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_3, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@, udp: true}
-  - {name: _GB_英国_4, server: 172.99.190.35, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.253.134, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_5, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
-  - {name: _GB_英国_6, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM@, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_1, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN@, udp: true}
-  - {name: _GB_英国_7, server: 152.89.210.105, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CA_加拿大_2, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG@, udp: true}
-  - {name: _GB_英国_8, server: 152.89.210.105, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ@, udp: true}
-  - {name: _GB_英国_9, server: 152.89.210.105, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_1, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: 20.230.146.155, port: 262, type: vmess, uuid: eec166d5-25d5-42d2-ce7d-83fca85d2610, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _CA_加拿大_3, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
-  - {name: _CA_加拿大_4, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@, udp: true}
-  - {name: _CA_加拿大_5, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY@, udp: true}
-  - {name: _CA_加拿大_6, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
-  - {name: _CA_加拿大_7, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_1, server: 213.183.53.177, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9045, type: ssr, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_3, server: 213.183.53.177, port: 9006, type: ssr, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _SG_新加坡_1, server: 157.230.41.220, port: 29596, type: ss, cipher: aes-256-cfb, password: e6c1cf51375c407d92d110881a825acb@, udp: true}
-  - {name: _TW_台湾_2, server: 60.249.3.125, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_10, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY@, udp: true}
-  - {name: _GB_英国_11, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
-  - {name: _GB_英国_12, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
-  - {name: _US_美国_4, server: 169.197.141.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
-  - {name: _CA_加拿大_8, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
-  - {name: _GB_英国_13, server: 152.89.210.105, port: 9032, type: ssr, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_5, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾_3, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国_6, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_7, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_9, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM@, udp: true}
-  - {name: _SG_新加坡_2, server: sgp02ul.vpnsieure.com, port: 80, type: vmess, uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgp02ul.vpnsieure.com}}, udp: true}
-  - {name: _US_美国_8, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_2, server: trojan.linkdns.xyz, port: 40230, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_3, server: trojan.linkdns.xyz, port: 40203, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_4, server: trojan.linkdns.xyz, port: 40229, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: trojan.linkdns.xyz, port: 40225, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
+  - {name: "_DE_@wbnet_96\r\r\r", server: 193.108.117.75, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM@@, udp: true}
+  - {name: "_DE_@wbnet_102\r\r\r_1", server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@@, udp: true}
+  - {name: "_DE_@wbnet_1142\r\r\r", server: 37.61.223.23, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3@@, udp: true}
+  - {name: "_DE_@wbnet_783\r\r\r", server: 37.61.223.23, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3@@, udp: true}
+  - {name: "_DE_@wbnet_91\r\r\r", server: 193.108.118.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27@@, udp: true}
+  - {name: "_DE_@wbnet_167\r\r\r", server: 185.104.184.78, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_DE_@wbnet_94\r\r\r_1", server: 193.108.117.75, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4@@, udp: true}
+  - {name: "_DE_@wbnet_109\r\r\r", server: 193.108.117.75, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY@@, udp: true}
+  - {name: "_DE_@wbnet_106\r\r\r", server: 193.108.117.75, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27@@, udp: true}
+  - {name: "_DE_@wbnet_93\r\r\r", server: 193.108.118.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7@@, udp: true}
+  - {name: "_FR_@wbnet_154\r\r\r", server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_DE_@wbnet_105\r\r\r", server: 193.108.118.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27@@, udp: true}
+  - {name: "NL+🇳🇱+@+(3)\r\r\r", server: 178.239.173.23, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3@@, udp: true}
+  - {name: "_NL_@wbnet_170\r\r\r", server: 37.120.192.158, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_DE_@wbnet_102\r\r\r_2", server: 193.108.117.75, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@@, udp: true}
+  - {name: "_DE_@wbnet_146\r\r\r", server: 193.108.117.75, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@@, udp: true}
+  - {name: "_NL_@wbnet_175\r\r\r", server: 37.120.192.158, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_RU_@wbnet_786\r\r\r", server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst@@, udp: true}
+  - {name: "_NL_@wbnet_1032\r\r\r", server: 37.120.192.158, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_FR_@wbnet_178\r\r\r", server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_NL_@wbnet_172\r\r\r", server: 37.120.192.158, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_DE_@wbnet_168\r\r\r", server: 193.108.117.75, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27@@, udp: true}
+  - {name: "_DE_@wbnet_95\r\r\r", server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7@@, udp: true}
+  - {name: "_NL_@wbnet_177\r\r\r", server: 37.120.192.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_NL_@wbnet_176\r\r\r", server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_DE_@wbnet_101\r\r\r_1", server: 193.108.117.75, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7@@, udp: true}
+  - {name: "_DE_@wbnet_103\r\r\r", server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27@@, udp: true}
+  - {name: "_NL_@wbnet_173\r\r\r", server: 37.120.192.158, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_FR_@wbnet_144\r\r\r", server: 54.38.72.170, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@@, udp: true}
+  - {name: "_DE_@wbnet_107\r\r\r", server: 193.108.117.75, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY@@, udp: true}
+  - {name: "_DE_@wbnet_94\r\r\r_2", server: 193.108.117.75, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4@@, udp: true}
+  - {name: "_DE_@wbnet_166\r\r\r", server: 193.108.118.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27@@, udp: true}
+  - {name: "_FR_@wbnet_136\r\r\r", server: 145.239.1.100, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@@, udp: true}
+  - {name: "_IT_@wbnet_154\r\r\r", server: 84.33.193.79, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3@@, udp: true}
+  - {name: "_DE_@wbnet_101\r\r\r_2", server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7@@, udp: true}
+  - {name: "_NL_@wbnet_189\r\r\r", server: 37.120.192.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_RU_@wbnet_801\r\r\r", server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst@@, udp: true}
+  - {name: "_FR_@wbnet_112\r\r\r", server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@@, udp: true}
+  - {name: "_NL_@wbnet_1028\r\r\r", server: 37.120.192.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_NL_@wbnet_1036\r\r\r", server: 37.120.192.158, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_FR_@wbnet_138\r\r\r", server: 54.38.72.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7@@, udp: true}
+  - {name: "_GB_@wbnet_1062\r\r\r", server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@@, udp: true}
+  - {name: "_DE_@wbnet_104\r\r\r", server: 193.108.118.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP@@, udp: true}
+  - {name: "_FR_@wbnet_169\r\r\r", server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_FR_@wbnet_1046\r\r\r", server: 145.239.1.100, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY@@, udp: true}
+  - {name: "_SE_@wbnet_8\r\r\r_1", server: 196.196.156.122, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_FR_@wbnet_142\r\r\r", server: 145.239.1.100, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74@@, udp: true}
+  - {name: "_FR_@wbnet_146\r\r\r", server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_UA_@wbnet_426\r\r\r", server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho@@, udp: true}
+  - {name: "_SE_@wbnet_8\r\r\r_2", server: 196.196.156.122, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_SE_@wbnet_8\r\r\r_3", server: 196.196.156.122, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
+  - {name: "_SE_@wbnet_9\r\r", server: 196.196.156.122, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao@@, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -613,13 +615,13 @@ proxies:
   - {name: _TW_台湾 3, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: 116.129.253.134, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 3, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
   - {name: _US_美国, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国 2, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.46.228]}}, udp: true}
+  - {name: _CN_中国, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.46.228]}}, udp: true}
   - {name: _US_美国 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇩🇪_DE_德国 2, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港 2, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
+  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
   - {name: _US_美国 3, server: 20.230.146.155, port: 262, type: vmess, uuid: eec166d5-25d5-42d2-ce7d-83fca85d2610, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _US_美国 4, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
   - {name: _GB_英国, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
@@ -637,7 +639,7 @@ proxies:
   - {name: _GB_英国 5, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _CA_加拿大, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _GB_英国 6, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚 2, server: trojan.linkdns.xyz, port: 40225, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: trojan.linkdns.xyz, port: 40225, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, skip-cert-verify: true, udp: true}
   - {name: 152.89.210.105:9032, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: _GB_英国 7, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 213.183.53.177:9043, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
@@ -978,56 +980,58 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _HK_香港
-      - _CN_中国->🇩🇪_DE_德国
-      - _TW_台湾_1
-      - _GB_英国_1
-      - _GB_英国_2
-      - _CN_中国->🇺🇸_US_美国_1
-      - _GB_英国_3
-      - _GB_英国_4
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _GB_英国_5
-      - _GB_英国_6
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CA_加拿大_1
-      - _GB_英国_7
-      - _CA_加拿大_2
-      - _GB_英国_8
-      - _GB_英国_9
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _CN_中国
-      - _CA_加拿大_3
-      - _CA_加拿大_4
-      - _CA_加拿大_5
-      - _CA_加拿大_6
-      - _CA_加拿大_7
-      - _CN_中国->🇯🇵_JP_日本
-      - _RU_俄罗斯联邦_1
-      - _RU_俄罗斯联邦_2
-      - _RU_俄罗斯联邦_3
-      - _SG_新加坡_1
-      - _TW_台湾_2
-      - _GB_英国_10
-      - _GB_英国_11
-      - _GB_英国_12
-      - _US_美国_4
-      - _CA_加拿大_8
-      - _GB_英国_13
-      - _US_美国_5
-      - _TW_台湾_3
-      - _US_美国_6
-      - _US_美国_7
-      - _CA_加拿大_9
-      - _SG_新加坡_2
-      - _US_美国_8
-      - _CN_中国->🇺🇸_US_美国_2
-      - _CN_中国->🇺🇸_US_美国_3
-      - _CN_中国->🇺🇸_US_美国_4
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - "_DE_@wbnet_96\r\r\r"
+      - "_DE_@wbnet_102\r\r\r_1"
+      - "_DE_@wbnet_1142\r\r\r"
+      - "_DE_@wbnet_783\r\r\r"
+      - "_DE_@wbnet_91\r\r\r"
+      - "_DE_@wbnet_167\r\r\r"
+      - "_DE_@wbnet_94\r\r\r_1"
+      - "_DE_@wbnet_109\r\r\r"
+      - "_DE_@wbnet_106\r\r\r"
+      - "_DE_@wbnet_93\r\r\r"
+      - "_FR_@wbnet_154\r\r\r"
+      - "_DE_@wbnet_105\r\r\r"
+      - "NL+🇳🇱+@+(3)\r\r\r"
+      - "_NL_@wbnet_170\r\r\r"
+      - "_DE_@wbnet_102\r\r\r_2"
+      - "_DE_@wbnet_146\r\r\r"
+      - "_NL_@wbnet_175\r\r\r"
+      - "_RU_@wbnet_786\r\r\r"
+      - "_NL_@wbnet_1032\r\r\r"
+      - "_FR_@wbnet_178\r\r\r"
+      - "_NL_@wbnet_172\r\r\r"
+      - "_DE_@wbnet_168\r\r\r"
+      - "_DE_@wbnet_95\r\r\r"
+      - "_NL_@wbnet_177\r\r\r"
+      - "_NL_@wbnet_176\r\r\r"
+      - "_DE_@wbnet_101\r\r\r_1"
+      - "_DE_@wbnet_103\r\r\r"
+      - "_NL_@wbnet_173\r\r\r"
+      - "_FR_@wbnet_144\r\r\r"
+      - "_DE_@wbnet_107\r\r\r"
+      - "_DE_@wbnet_94\r\r\r_2"
+      - "_DE_@wbnet_166\r\r\r"
+      - "_FR_@wbnet_136\r\r\r"
+      - "_IT_@wbnet_154\r\r\r"
+      - "_DE_@wbnet_101\r\r\r_2"
+      - "_NL_@wbnet_189\r\r\r"
+      - "_RU_@wbnet_801\r\r\r"
+      - "_FR_@wbnet_112\r\r\r"
+      - "_NL_@wbnet_1028\r\r\r"
+      - "_NL_@wbnet_1036\r\r\r"
+      - "_FR_@wbnet_138\r\r\r"
+      - "_GB_@wbnet_1062\r\r\r"
+      - "_DE_@wbnet_104\r\r\r"
+      - "_FR_@wbnet_169\r\r\r"
+      - "_FR_@wbnet_1046\r\r\r"
+      - "_SE_@wbnet_8\r\r\r_1"
+      - "_FR_@wbnet_142\r\r\r"
+      - "_FR_@wbnet_146\r\r\r"
+      - "_UA_@wbnet_426\r\r\r"
+      - "_SE_@wbnet_8\r\r\r_2"
+      - "_SE_@wbnet_8\r\r\r_3"
+      - "_SE_@wbnet_9\r\r"
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -1586,13 +1590,13 @@ proxy-groups:
       - _TW_台湾 3
       - _CN_中国->🇸🇬_SG_新加坡 2
       - _CN_中国->🇸🇬_SG_新加坡 3
-      - _CN_中国->🇯🇵_JP_日本 2
+      - _CN_中国->🇯🇵_JP_日本
       - _US_美国
-      - _CN_中国 2
+      - _CN_中国
       - _US_美国 2
-      - _CN_中国->🇩🇪_DE_德国 2
+      - _CN_中国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国
-      - _HK_香港 2
+      - _HK_香港
       - _US_美国 3
       - _US_美国 4
       - _GB_英国
@@ -1610,7 +1614,7 @@ proxy-groups:
       - _GB_英国 5
       - _CA_加拿大
       - _GB_英国 6
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
+      - _CN_中国->🇦🇺_AU_澳大利亚
       - 152.89.210.105:9032
       - _GB_英国 7
       - 213.183.53.177:9043
@@ -1951,56 +1955,58 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _HK_香港
-      - _CN_中国->🇩🇪_DE_德国
-      - _TW_台湾_1
-      - _GB_英国_1
-      - _GB_英国_2
-      - _CN_中国->🇺🇸_US_美国_1
-      - _GB_英国_3
-      - _GB_英国_4
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _GB_英国_5
-      - _GB_英国_6
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CA_加拿大_1
-      - _GB_英国_7
-      - _CA_加拿大_2
-      - _GB_英国_8
-      - _GB_英国_9
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _CN_中国
-      - _CA_加拿大_3
-      - _CA_加拿大_4
-      - _CA_加拿大_5
-      - _CA_加拿大_6
-      - _CA_加拿大_7
-      - _CN_中国->🇯🇵_JP_日本
-      - _RU_俄罗斯联邦_1
-      - _RU_俄罗斯联邦_2
-      - _RU_俄罗斯联邦_3
-      - _SG_新加坡_1
-      - _TW_台湾_2
-      - _GB_英国_10
-      - _GB_英国_11
-      - _GB_英国_12
-      - _US_美国_4
-      - _CA_加拿大_8
-      - _GB_英国_13
-      - _US_美国_5
-      - _TW_台湾_3
-      - _US_美国_6
-      - _US_美国_7
-      - _CA_加拿大_9
-      - _SG_新加坡_2
-      - _US_美国_8
-      - _CN_中国->🇺🇸_US_美国_2
-      - _CN_中国->🇺🇸_US_美国_3
-      - _CN_中国->🇺🇸_US_美国_4
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - "_DE_@wbnet_96\r\r\r"
+      - "_DE_@wbnet_102\r\r\r_1"
+      - "_DE_@wbnet_1142\r\r\r"
+      - "_DE_@wbnet_783\r\r\r"
+      - "_DE_@wbnet_91\r\r\r"
+      - "_DE_@wbnet_167\r\r\r"
+      - "_DE_@wbnet_94\r\r\r_1"
+      - "_DE_@wbnet_109\r\r\r"
+      - "_DE_@wbnet_106\r\r\r"
+      - "_DE_@wbnet_93\r\r\r"
+      - "_FR_@wbnet_154\r\r\r"
+      - "_DE_@wbnet_105\r\r\r"
+      - "NL+🇳🇱+@+(3)\r\r\r"
+      - "_NL_@wbnet_170\r\r\r"
+      - "_DE_@wbnet_102\r\r\r_2"
+      - "_DE_@wbnet_146\r\r\r"
+      - "_NL_@wbnet_175\r\r\r"
+      - "_RU_@wbnet_786\r\r\r"
+      - "_NL_@wbnet_1032\r\r\r"
+      - "_FR_@wbnet_178\r\r\r"
+      - "_NL_@wbnet_172\r\r\r"
+      - "_DE_@wbnet_168\r\r\r"
+      - "_DE_@wbnet_95\r\r\r"
+      - "_NL_@wbnet_177\r\r\r"
+      - "_NL_@wbnet_176\r\r\r"
+      - "_DE_@wbnet_101\r\r\r_1"
+      - "_DE_@wbnet_103\r\r\r"
+      - "_NL_@wbnet_173\r\r\r"
+      - "_FR_@wbnet_144\r\r\r"
+      - "_DE_@wbnet_107\r\r\r"
+      - "_DE_@wbnet_94\r\r\r_2"
+      - "_DE_@wbnet_166\r\r\r"
+      - "_FR_@wbnet_136\r\r\r"
+      - "_IT_@wbnet_154\r\r\r"
+      - "_DE_@wbnet_101\r\r\r_2"
+      - "_NL_@wbnet_189\r\r\r"
+      - "_RU_@wbnet_801\r\r\r"
+      - "_FR_@wbnet_112\r\r\r"
+      - "_NL_@wbnet_1028\r\r\r"
+      - "_NL_@wbnet_1036\r\r\r"
+      - "_FR_@wbnet_138\r\r\r"
+      - "_GB_@wbnet_1062\r\r\r"
+      - "_DE_@wbnet_104\r\r\r"
+      - "_FR_@wbnet_169\r\r\r"
+      - "_FR_@wbnet_1046\r\r\r"
+      - "_SE_@wbnet_8\r\r\r_1"
+      - "_FR_@wbnet_142\r\r\r"
+      - "_FR_@wbnet_146\r\r\r"
+      - "_UA_@wbnet_426\r\r\r"
+      - "_SE_@wbnet_8\r\r\r_2"
+      - "_SE_@wbnet_8\r\r\r_3"
+      - "_SE_@wbnet_9\r\r"
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -2559,13 +2565,13 @@ proxy-groups:
       - _TW_台湾 3
       - _CN_中国->🇸🇬_SG_新加坡 2
       - _CN_中国->🇸🇬_SG_新加坡 3
-      - _CN_中国->🇯🇵_JP_日本 2
+      - _CN_中国->🇯🇵_JP_日本
       - _US_美国
-      - _CN_中国 2
+      - _CN_中国
       - _US_美国 2
-      - _CN_中国->🇩🇪_DE_德国 2
+      - _CN_中国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国
-      - _HK_香港 2
+      - _HK_香港
       - _US_美国 3
       - _US_美国 4
       - _GB_英国
@@ -2583,7 +2589,7 @@ proxy-groups:
       - _GB_英国 5
       - _CA_加拿大
       - _GB_英国 6
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
+      - _CN_中国->🇦🇺_AU_澳大利亚
       - 152.89.210.105:9032
       - _GB_英国 7
       - 213.183.53.177:9043
