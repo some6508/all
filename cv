@@ -5,85 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇺🇸US-🇺🇸US_3532, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇹🇼TW_1612, server: 60.249.3.125, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_872, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: TW_1607, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: JP_973, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_973 2, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3513, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇹🇼TW_1617, server: 60.249.3.125, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇹🇼TW_1613, server: 60.249.3.125, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇹🇼TW_1616, server: 211.72.35.153, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇹🇼TW_1614, server: 60.249.3.125, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: AU_122, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇰🇷KR-🇰🇷KR_979, server: v2-4.godlight.xyz, port: 50497, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /g1641hvx, headers: {Host: v2-4.godlight.xyz}}, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_972, server: v2.godlight.xyz, port: 26940, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_976, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇹🇼TW-🇹🇼TW_1610, server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇰🇷KR-🇰🇷KR_980, server: v2-5.godlight.xyz, port: 39787, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇸🇬SG_3502, server: 20.205.125.236, port: 50019, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3457, server: 20.205.125.236, port: 60012, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3454, server: 20.205.125.236, port: 60038, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Pool_🇹🇼TW_1609, server: 60.249.3.125, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3444, server: 20.24.77.204, port: 60015, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3433, server: 1.v2tk.tk, port: 443, type: vmess, uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: 1.v2tk.tk}}, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3485, server: 20.24.77.204, port: 60017, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇹🇼TW-🇹🇼TW_1611, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3484, server: 20.24.77.204, port: 60010, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3471, server: 20.24.77.204, port: 50009, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇹🇼TW-🇹🇼TW_1608, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: CN_453, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3483, server: weixin.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mp, headers: {Host: weixin.babazhuji.com}}, udp: true}
-  - {name: US_2280, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: US_3451, server: 152.67.214.146, port: 50, type: vmess, uuid: e307623b-9119-4282-df9d-8a5d023cac20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇨🇳CN_449, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3495, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 11459, type: vmess, uuid: 7ef159a7-2c15-45ca-f5c3-b9798143afaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bit.ly/36b6iJh, headers: {Host: bai-piao-wang-zhe-iplc.98848.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3466, server: 20.24.77.204, port: 60016, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3467, server: 172.67.167.103, port: 443, type: vmess, uuid: df0a43ca-19b2-5a69-5213-9cba4f2e2c5e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kgnpvws}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3463, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3522, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, skip-cert-verify: true, udp: true}
-  - {name: US_3455, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/}, udp: true}
-  - {name: Relay_🇧🇬BG-🇧🇬BG_180, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3527, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: US_3481, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_869, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_463, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3491, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3505, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇫🇷FR_3459_1, server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: fr-direct-cdn.node001.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3504, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_871, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3531, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3472, server: 20.205.125.236, port: 60041, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3441, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1596, server: sg05.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg05.xqkj.cloud}}, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1584, server: sg02.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg02.xqkj.cloud}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3508, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: true, udp: true}
-  - {name: CA_348, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CA_318, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA_384, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_3714, server: 134.195.196.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇺🇸US-🇫🇷FR_3459_2, server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: fr-direct-cdn.node001.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3499, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
-  - {name: CA_339, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_3488, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 8.ezydfdd.com}}, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3482, server: 20.24.77.204, port: 60031, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇨🇳CN-🇧🇬BG_465, server: hncu.relay.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_464, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1592, server: sg03.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg03.xqkj.cloud}}, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1585, server: sg04.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg04.xqkj.cloud}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3486, server: tls2.xxac.cc, port: 443, type: vmess, uuid: d4955e7f-ad04-4d80-b469-a7c77f1ad5bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tls, headers: {Host: tls2.xxac.cc}}, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1590, server: sg01.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg01.xqkj.cloud}}, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_127, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3476, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3506, server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_467, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_126, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_125, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1600, server: us232.support-putin-kill-all-ukrainians.98848.xyz, port: 443, type: trojan, password: 99b166ff-25ab-4bda-9493-618d491c2a9a, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_450, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i2.onebox6.org}}, udp: true}
-  - {name: Pool_🇹🇼TW_1615, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_1, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03@, udp: true}
+  - {name: _CA_加拿大_1, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG@, udp: true}
+  - {name: _GB_英国_1, server: 152.89.210.105, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ@, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾_1, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本_1, server: 20.24.77.204, port: 60016, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本_2, server: 20.24.77.204, port: 60015, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本_3, server: 20.24.77.204, port: 50009, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本_4, server: 20.24.77.204, port: 60017, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CA_加拿大_2, server: 134.195.196.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@, udp: true}
+  - {name: _CA_加拿大_3, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
+  - {name: _CA_加拿大_4, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74@, udp: true}
+  - {name: _GB_英国_2, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY@, udp: true}
+  - {name: _GB_英国_3, server: 172.99.190.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _GB_英国_4, server: 172.99.190.35, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _GB_英国_5, server: 172.99.190.35, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _GB_英国_6, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM@, udp: true}
+  - {name: _GB_英国_7, server: 172.99.190.35, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _GB_英国_8, server: 172.99.190.35, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _GB_英国_9, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _GB_英国_10, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: _GB_英国_11, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: _US_美国_2, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_5, server: 134.195.196.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _CA_加拿大_6, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: _GB_英国_12, server: 152.89.210.105, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL@, udp: true}
+  - {name: _US_美国_3, server: 104.243.30.59, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr05@, udp: true}
+  - {name: _TW_台湾_2, server: 60.249.3.125, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_2, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_13, server: 152.89.210.105, port: 9073, type: ssr, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RO_罗马尼亚, server: 185.225.19.64, port: 50003, type: ss, cipher: aes-256-cfb, password: 8460400130@, udp: true}
+  - {name: _TW_台湾_3, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_14, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
+  - {name: _GB_英国_15, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@, udp: true}
+  - {name: _US_美国_4, server: 167.172.135.97, port: 25453, type: ss, cipher: aes-256-cfb, password: a40ff797db5c4b948cfe5a5234a0e74c@, udp: true}
+  - {name: _HK_香港->🇯🇵_JP_日本_1, server: 20.205.125.236, port: 60038, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _HK_香港->🇯🇵_JP_日本_2, server: 20.205.125.236, port: 60012, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _HK_香港->🇯🇵_JP_日本_3, server: 20.205.125.236, port: 60041, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本_5, server: 20.24.77.204, port: 60010, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _HK_香港->🇺🇸_US_美国, server: 20.205.125.236, port: 60026, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡, server: 20.205.125.236, port: 50019, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_5, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: _IN_印度, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_7, server: 134.195.196.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _CA_加拿大_8, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _KR_韩国, server: 152.67.214.146, port: 50, type: vmess, uuid: e307623b-9119-4282-df9d-8a5d023cac20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 134.195.196.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -655,13 +626,13 @@ proxies:
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
   - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
-  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
+  - {name: _HK_香港 2, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
   - {name: _CA_加拿大, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CN_中国->🇩🇪_DE_德国, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国 2, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
   - {name: _US_美国, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
   - {name: _CA_加拿大 2, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: _GB_英国, server: 152.89.210.105, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本 2, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
   - {name: _TW_台湾, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: _US_美国->🇯🇵_JP_日本, server: 20.24.77.204, port: 60016, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.24.77.204}}, udp: true}
   - {name: _US_美国->🇯🇵_JP_日本 2, server: 20.24.77.204, port: 60015, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.24.77.204}}, udp: true}
@@ -682,7 +653,7 @@ proxies:
   - {name: _GB_英国 9, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _GB_英国 10, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _GB_英国 11, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _KR_韩国, server: 158.247.224.121, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _KR_韩国 2, server: 158.247.224.121, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国 2, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, skip-cert-verify: true, udp: true}
   - {name: _CA_加拿大 7, server: 134.195.196.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: _CA_加拿大 8, server: 134.195.196.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
@@ -694,9 +665,9 @@ proxies:
   - {name: _TW_台湾 2, server: 60.249.3.125, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
   - {name: _CN_中国 2, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.46.228]}}, udp: true}
   - {name: _CA_加拿大 11, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
   - {name: 152.89.210.105:9073, server: 152.89.210.105, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: _RO_罗马尼亚, server: 185.225.19.64, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: _RO_罗马尼亚 2, server: 185.225.19.64, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
   - {name: _TW_台湾 3, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, skip-cert-verify: true, udp: true}
   - {name: _GB_英国 14, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _GB_英国 15, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -1045,85 +1016,56 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - Relay_🇺🇸US-🇺🇸US_3532
-      - Pool_🇹🇼TW_1612
-      - Relay_🇬🇧GB-🇬🇧GB_872
-      - TW_1607
-      - JP_973
-      - JP_973 2
-      - Relay_🇺🇸US-🇺🇸US_3513
-      - Pool_🇹🇼TW_1617
-      - Pool_🇹🇼TW_1613
-      - Pool_🇹🇼TW_1616
-      - Pool_🇹🇼TW_1614
-      - AU_122
-      - Relay_🇰🇷KR-🇰🇷KR_979
-      - Relay_🇯🇵JP-🇯🇵JP_972
-      - Relay_🇯🇵JP-🇯🇵JP_976
-      - Relay_🇹🇼TW-🇹🇼TW_1610
-      - Relay_🇰🇷KR-🇰🇷KR_980
-      - Relay_🇺🇸US-🇸🇬SG_3502
-      - Relay_🇺🇸US-🇯🇵JP_3457
-      - Relay_🇺🇸US-🇯🇵JP_3454
-      - Pool_🇹🇼TW_1609
-      - Relay_🇺🇸US-🇺🇸US_3444
-      - Relay_🇺🇸US-🇺🇸US_3433
-      - Relay_🇺🇸US-🇯🇵JP_3485
-      - Relay_🇹🇼TW-🇹🇼TW_1611
-      - Relay_🇺🇸US-🇯🇵JP_3484
-      - Relay_🇺🇸US-🇯🇵JP_3471
-      - Relay_🇹🇼TW-🇹🇼TW_1608
-      - CN_453
-      - Relay_🇺🇸US-🇺🇸US_3483
-      - US_2280
-      - US_3451
-      - Relay_🇨🇳CN-🇨🇳CN_449
-      - Relay_🇺🇸US-🇺🇸US_3495
-      - Relay_🇺🇸US-🇯🇵JP_3466
-      - Relay_🇺🇸US-🇺🇸US_3467
-      - Relay_🇺🇸US-🇺🇸US_3463
-      - Relay_🇺🇸US-🇺🇸US_3522
-      - US_3455
-      - Relay_🇧🇬BG-🇧🇬BG_180
-      - Relay_🇺🇸US-🇺🇸US_3527
-      - US_3481
-      - Relay_🇬🇧GB-🇬🇧GB_869
-      - Relay_🇨🇳CN-🇺🇸US_463
-      - Relay_🇺🇸US-🇺🇸US_3491
-      - Relay_🇺🇸US-🇺🇸US_3505
-      - Relay_🇺🇸US-🇫🇷FR_3459_1
-      - Relay_🇺🇸US-🇺🇸US_3504
-      - Relay_🇬🇧GB-🇬🇧GB_871
-      - Relay_🇺🇸US-🇺🇸US_3531
-      - Relay_🇺🇸US-🇯🇵JP_3472
-      - Relay_🇺🇸US-🇯🇵JP_3441
-      - Relay_🇸🇬SG-🇸🇬SG_1596
-      - Relay_🇸🇬SG-🇸🇬SG_1584
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - CA_348
-      - CA_318
-      - CA_384
-      - ZZ_3714
-      - Relay_🇺🇸US-🇫🇷FR_3459_2
-      - Relay_🇺🇸US-🇺🇸US_3499
-      - CA_339
-      - Relay_🇺🇸US-🇨🇦CA_3488
-      - Relay_🇺🇸US-🇯🇵JP_3482
-      - Relay_🇨🇳CN-🇧🇬BG_465
-      - Relay_🇨🇳CN-🇬🇧GB_464
-      - Relay_🇸🇬SG-🇸🇬SG_1592
-      - Relay_🇸🇬SG-🇸🇬SG_1585
-      - Relay_🇺🇸US-🇺🇸US_3486
-      - Relay_🇸🇬SG-🇸🇬SG_1590
-      - Relay_🇦🇺AU-🇦🇺AU_127
-      - Relay_🇺🇸US-🇷🇺RU_3476
-      - Relay_🇺🇸US-🇺🇸US_3506
-      - Relay_🇨🇳CN-🇬🇧GB_467
-      - Relay_🇦🇺AU-🇦🇺AU_126
-      - Relay_🇦🇺AU-🇦🇺AU_125
-      - Relay_🇸🇬SG-🇸🇬SG_1600
-      - Relay_🇨🇳CN-🇺🇸US_450
-      - Pool_🇹🇼TW_1615
+      - _CN_中国_1
+      - _HK_香港
+      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_1
+      - _CA_加拿大_1
+      - _GB_英国_1
+      - _CN_中国->🇯🇵_JP_日本
+      - _TW_台湾_1
+      - _US_美国->🇯🇵_JP_日本_1
+      - _US_美国->🇯🇵_JP_日本_2
+      - _US_美国->🇯🇵_JP_日本_3
+      - _US_美国->🇯🇵_JP_日本_4
+      - _CA_加拿大_2
+      - _CA_加拿大_3
+      - _CA_加拿大_4
+      - _GB_英国_2
+      - _GB_英国_3
+      - _GB_英国_4
+      - _GB_英国_5
+      - _GB_英国_6
+      - _GB_英国_7
+      - _GB_英国_8
+      - _GB_英国_9
+      - _GB_英国_10
+      - _GB_英国_11
+      - _US_美国_2
+      - _CA_加拿大_5
+      - _CA_加拿大_6
+      - _GB_英国_12
+      - _US_美国_3
+      - _TW_台湾_2
+      - _CN_中国_2
+      - _CN_中国->🇺🇸_US_美国
+      - _GB_英国_13
+      - _RO_罗马尼亚
+      - _TW_台湾_3
+      - _GB_英国_14
+      - _GB_英国_15
+      - _US_美国_4
+      - _HK_香港->🇯🇵_JP_日本_1
+      - _HK_香港->🇯🇵_JP_日本_2
+      - _HK_香港->🇯🇵_JP_日本_3
+      - _US_美国->🇯🇵_JP_日本_5
+      - _HK_香港->🇺🇸_US_美国
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _US_美国_5
+      - _IN_印度
+      - _CA_加拿大_7
+      - _CA_加拿大_8
+      - _KR_韩国
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -1695,13 +1637,13 @@ proxy-groups:
       - 挪威
       - 电信一区(广东)
       - _CN_中国
-      - _HK_香港
+      - _HK_香港 2
       - _CA_加拿大
-      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇩🇪_DE_德国 2
       - _US_美国
       - _CA_加拿大 2
       - _GB_英国
-      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇯🇵_JP_日本 2
       - _TW_台湾
       - _US_美国->🇯🇵_JP_日本
       - _US_美国->🇯🇵_JP_日本 2
@@ -1722,7 +1664,7 @@ proxy-groups:
       - _GB_英国 9
       - _GB_英国 10
       - _GB_英国 11
-      - _KR_韩国
+      - _KR_韩国 2
       - _US_美国 2
       - _CA_加拿大 7
       - _CA_加拿大 8
@@ -1734,9 +1676,9 @@ proxy-groups:
       - _TW_台湾 2
       - _CN_中国 2
       - _CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
       - 152.89.210.105:9073
-      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
       - _TW_台湾 3
       - _GB_英国 14
       - _GB_英国 15
@@ -2085,85 +2027,56 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_3532
-      - Pool_🇹🇼TW_1612
-      - Relay_🇬🇧GB-🇬🇧GB_872
-      - TW_1607
-      - JP_973
-      - JP_973 2
-      - Relay_🇺🇸US-🇺🇸US_3513
-      - Pool_🇹🇼TW_1617
-      - Pool_🇹🇼TW_1613
-      - Pool_🇹🇼TW_1616
-      - Pool_🇹🇼TW_1614
-      - AU_122
-      - Relay_🇰🇷KR-🇰🇷KR_979
-      - Relay_🇯🇵JP-🇯🇵JP_972
-      - Relay_🇯🇵JP-🇯🇵JP_976
-      - Relay_🇹🇼TW-🇹🇼TW_1610
-      - Relay_🇰🇷KR-🇰🇷KR_980
-      - Relay_🇺🇸US-🇸🇬SG_3502
-      - Relay_🇺🇸US-🇯🇵JP_3457
-      - Relay_🇺🇸US-🇯🇵JP_3454
-      - Pool_🇹🇼TW_1609
-      - Relay_🇺🇸US-🇺🇸US_3444
-      - Relay_🇺🇸US-🇺🇸US_3433
-      - Relay_🇺🇸US-🇯🇵JP_3485
-      - Relay_🇹🇼TW-🇹🇼TW_1611
-      - Relay_🇺🇸US-🇯🇵JP_3484
-      - Relay_🇺🇸US-🇯🇵JP_3471
-      - Relay_🇹🇼TW-🇹🇼TW_1608
-      - CN_453
-      - Relay_🇺🇸US-🇺🇸US_3483
-      - US_2280
-      - US_3451
-      - Relay_🇨🇳CN-🇨🇳CN_449
-      - Relay_🇺🇸US-🇺🇸US_3495
-      - Relay_🇺🇸US-🇯🇵JP_3466
-      - Relay_🇺🇸US-🇺🇸US_3467
-      - Relay_🇺🇸US-🇺🇸US_3463
-      - Relay_🇺🇸US-🇺🇸US_3522
-      - US_3455
-      - Relay_🇧🇬BG-🇧🇬BG_180
-      - Relay_🇺🇸US-🇺🇸US_3527
-      - US_3481
-      - Relay_🇬🇧GB-🇬🇧GB_869
-      - Relay_🇨🇳CN-🇺🇸US_463
-      - Relay_🇺🇸US-🇺🇸US_3491
-      - Relay_🇺🇸US-🇺🇸US_3505
-      - Relay_🇺🇸US-🇫🇷FR_3459_1
-      - Relay_🇺🇸US-🇺🇸US_3504
-      - Relay_🇬🇧GB-🇬🇧GB_871
-      - Relay_🇺🇸US-🇺🇸US_3531
-      - Relay_🇺🇸US-🇯🇵JP_3472
-      - Relay_🇺🇸US-🇯🇵JP_3441
-      - Relay_🇸🇬SG-🇸🇬SG_1596
-      - Relay_🇸🇬SG-🇸🇬SG_1584
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - CA_348
-      - CA_318
-      - CA_384
-      - ZZ_3714
-      - Relay_🇺🇸US-🇫🇷FR_3459_2
-      - Relay_🇺🇸US-🇺🇸US_3499
-      - CA_339
-      - Relay_🇺🇸US-🇨🇦CA_3488
-      - Relay_🇺🇸US-🇯🇵JP_3482
-      - Relay_🇨🇳CN-🇧🇬BG_465
-      - Relay_🇨🇳CN-🇬🇧GB_464
-      - Relay_🇸🇬SG-🇸🇬SG_1592
-      - Relay_🇸🇬SG-🇸🇬SG_1585
-      - Relay_🇺🇸US-🇺🇸US_3486
-      - Relay_🇸🇬SG-🇸🇬SG_1590
-      - Relay_🇦🇺AU-🇦🇺AU_127
-      - Relay_🇺🇸US-🇷🇺RU_3476
-      - Relay_🇺🇸US-🇺🇸US_3506
-      - Relay_🇨🇳CN-🇬🇧GB_467
-      - Relay_🇦🇺AU-🇦🇺AU_126
-      - Relay_🇦🇺AU-🇦🇺AU_125
-      - Relay_🇸🇬SG-🇸🇬SG_1600
-      - Relay_🇨🇳CN-🇺🇸US_450
-      - Pool_🇹🇼TW_1615
+      - _CN_中国_1
+      - _HK_香港
+      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_1
+      - _CA_加拿大_1
+      - _GB_英国_1
+      - _CN_中国->🇯🇵_JP_日本
+      - _TW_台湾_1
+      - _US_美国->🇯🇵_JP_日本_1
+      - _US_美国->🇯🇵_JP_日本_2
+      - _US_美国->🇯🇵_JP_日本_3
+      - _US_美国->🇯🇵_JP_日本_4
+      - _CA_加拿大_2
+      - _CA_加拿大_3
+      - _CA_加拿大_4
+      - _GB_英国_2
+      - _GB_英国_3
+      - _GB_英国_4
+      - _GB_英国_5
+      - _GB_英国_6
+      - _GB_英国_7
+      - _GB_英国_8
+      - _GB_英国_9
+      - _GB_英国_10
+      - _GB_英国_11
+      - _US_美国_2
+      - _CA_加拿大_5
+      - _CA_加拿大_6
+      - _GB_英国_12
+      - _US_美国_3
+      - _TW_台湾_2
+      - _CN_中国_2
+      - _CN_中国->🇺🇸_US_美国
+      - _GB_英国_13
+      - _RO_罗马尼亚
+      - _TW_台湾_3
+      - _GB_英国_14
+      - _GB_英国_15
+      - _US_美国_4
+      - _HK_香港->🇯🇵_JP_日本_1
+      - _HK_香港->🇯🇵_JP_日本_2
+      - _HK_香港->🇯🇵_JP_日本_3
+      - _US_美国->🇯🇵_JP_日本_5
+      - _HK_香港->🇺🇸_US_美国
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _US_美国_5
+      - _IN_印度
+      - _CA_加拿大_7
+      - _CA_加拿大_8
+      - _KR_韩国
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -2735,13 +2648,13 @@ proxy-groups:
       - 挪威
       - 电信一区(广东)
       - _CN_中国
-      - _HK_香港
+      - _HK_香港 2
       - _CA_加拿大
-      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇩🇪_DE_德国 2
       - _US_美国
       - _CA_加拿大 2
       - _GB_英国
-      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇯🇵_JP_日本 2
       - _TW_台湾
       - _US_美国->🇯🇵_JP_日本
       - _US_美国->🇯🇵_JP_日本 2
@@ -2762,7 +2675,7 @@ proxy-groups:
       - _GB_英国 9
       - _GB_英国 10
       - _GB_英国 11
-      - _KR_韩国
+      - _KR_韩国 2
       - _US_美国 2
       - _CA_加拿大 7
       - _CA_加拿大 8
@@ -2774,9 +2687,9 @@ proxy-groups:
       - _TW_台湾 2
       - _CN_中国 2
       - _CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
       - 152.89.210.105:9073
-      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
       - _TW_台湾 3
       - _GB_英国 14
       - _GB_英国 15
