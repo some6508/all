@@ -585,6 +585,19 @@ proxies:
   - {name: 摩尔多瓦, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.26184263.xyz}}, udp: true}
   - {name: 挪威, server: 23.224.2.214, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.81690929.xyz}}, udp: true}
   - {name: 电信一区(广东), server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.45043834.xyz}}, udp: true}
+  - {name: _US美国, server: 169.197.141.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _US美国 2, server: 169.197.141.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: _US美国 3, server: 169.197.141.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: "_GB英国\r", server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: "_GB英国\r 2", server: 172.99.190.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: "_GB英国\r 3", server: 172.99.190.35, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
+  - {name: "_GB英国\r 4", server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS@, udp: true}
+  - {name: "_GB英国\r 5", server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm@, udp: true}
+  - {name: "_GB英国\r 6", server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
+  - {name: "_CA加拿大\r", server: 134.195.196.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP@, udp: true}
+  - {name: "_CA加拿大\r 2", server: 134.195.196.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
+  - {name: "_CA加拿大\r 3", server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId@, udp: true}
+  - {name: _US美国 4, server: 169.197.141.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC@, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1507,6 +1520,19 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
+      - _US美国
+      - _US美国 2
+      - _US美国 3
+      - "_GB英国\r"
+      - "_GB英国\r 2"
+      - "_GB英国\r 3"
+      - "_GB英国\r 4"
+      - "_GB英国\r 5"
+      - "_GB英国\r 6"
+      - "_CA加拿大\r"
+      - "_CA加拿大\r 2"
+      - "_CA加拿大\r 3"
+      - _US美国 4
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2429,6 +2455,19 @@ proxy-groups:
       - 摩尔多瓦
       - 挪威
       - 电信一区(广东)
+      - _US美国
+      - _US美国 2
+      - _US美国 3
+      - "_GB英国\r"
+      - "_GB英国\r 2"
+      - "_GB英国\r 3"
+      - "_GB英国\r 4"
+      - "_GB英国\r 5"
+      - "_GB英国\r 6"
+      - "_CA加拿大\r"
+      - "_CA加拿大\r 2"
+      - "_CA加拿大\r 3"
+      - _US美国 4
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
