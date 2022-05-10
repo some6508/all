@@ -5,711 +5,389 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇷🇺
-    俄罗斯|TG@univstar1\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58828","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇷🇺
-    俄罗斯|TG@univstar2\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58813","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇩 印尼|TG@univstar 
-    3\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58824","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇩 印尼|TG@univstar 
-    4\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58829","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇳 印度|TG@univstar 
-    5\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58811","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇳 印度|TG@univstar 
-    6\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58812","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇨🇳 台湾|TG@univstar 
-    7\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58821","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇨🇳 台湾|TG@univstar 
-    8\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58827","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇸🇬
-    新加坡|TG@univstar9\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58807","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇸🇬
-    新加坡|TG@univstar10\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58808","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇯🇵 日本|TG@univstar 
-    11\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58805","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇯🇵 日本|TG@univstar 
-    12\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58806","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇹🇭 泰国|TG@univstar 
-    13\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58825","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇹🇭 泰国|TG@univstar 
-    14\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58830","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    15\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58816","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    16\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58832","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    17\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58817","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    18\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58818","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇻🇳 越南|TG@univstar 
-    19\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58814","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇻🇳 越南|TG@univstar 
-    20\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58831","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇰🇷 韩国|TG@univstar 
-    21\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58809","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇰🇷 韩国|TG@univstar 
-    22\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58810","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    23\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58801","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    24\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58820","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    25\r_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58819","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    26\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58803","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    27\r_1","server":"dx.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58804","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    28_1","server":"lt.yhy520.xyz","password":"17afa1ae-78c3-3dbc-9522-f4e69e274707","port":"58802","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇷🇺
-    俄罗斯|TG@univstar1\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58828","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇷🇺
-    俄罗斯|TG@univstar2\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58813","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇩 印尼|TG@univstar 
-    3\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58824","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇩 印尼|TG@univstar 
-    4\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58829","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇳 印度|TG@univstar 
-    5\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58811","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇳 印度|TG@univstar 
-    6\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58812","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇨🇳 台湾|TG@univstar 
-    7\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58821","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇨🇳 台湾|TG@univstar 
-    8\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58827","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇸🇬
-    新加坡|TG@univstar9\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58807","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇸🇬
-    新加坡|TG@univstar10\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58808","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇯🇵 日本|TG@univstar 
-    11\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58805","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇯🇵 日本|TG@univstar 
-    12\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58806","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇹🇭 泰国|TG@univstar 
-    13\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58825","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇹🇭 泰国|TG@univstar 
-    14\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58830","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    15\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58816","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    16\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58832","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    17\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58817","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    18\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58818","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇻🇳 越南|TG@univstar 
-    19\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58814","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇻🇳 越南|TG@univstar 
-    20\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58831","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇰🇷 韩国|TG@univstar 
-    21\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58809","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇰🇷 韩国|TG@univstar 
-    22\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58810","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    23\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58801","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    24\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58820","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    25\r_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58819","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    26\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58803","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    27\r_2","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58804","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    28_2","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58802","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇷🇺
-    俄罗斯|TG@univstar1\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58828","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇷🇺
-    俄罗斯|TG@univstar2\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58813","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇩 印尼|TG@univstar 
-    3\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58824","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇩 印尼|TG@univstar 
-    4\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58829","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇳 印度|TG@univstar 
-    5\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58811","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇮🇳 印度|TG@univstar 
-    6\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58812","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇨🇳 台湾|TG@univstar 
-    7\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58821","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇨🇳 台湾|TG@univstar 
-    8\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58827","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇸🇬
-    新加坡|TG@univstar9\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58807","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇸🇬
-    新加坡|TG@univstar10\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58808","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇯🇵 日本|TG@univstar 
-    11\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58805","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇯🇵 日本|TG@univstar 
-    12\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58806","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇹🇭 泰国|TG@univstar 
-    13\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58825","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇹🇭 泰国|TG@univstar 
-    14\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58830","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    15\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58816","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    16\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58832","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    17\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58817","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇺🇸 美国|TG@univstar 
-    18\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58818","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇻🇳 越南|TG@univstar 
-    19\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58814","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇻🇳 越南|TG@univstar 
-    20\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58831","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇰🇷 韩国|TG@univstar 
-    21\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58809","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇰🇷 韩国|TG@univstar 
-    22\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58810","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    23\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58801","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    24\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58820","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    25\r_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58819","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    26\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58803","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    27\r_3","server":"dx.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58804","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
-  - {"type":"trojan","name":"🇭🇰 香港|TG@univstar 
-    28_3","server":"lt.yhy520.xyz","password":"43684d6c-8d9a-3ab5-b6d2-3d6017733358","port":"58802","udp":true,"skip-cert-verify":true,"sni":"telegram.channel.univstar"}
+  - {"type":"vmess","http-opts":{"path":["/"]},"server":"43.132.158.232","name":"🇭🇰_HK_香港","port":44350,"uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇩🇪_DE_德国","server":"s1.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾_1","server":"211.72.35.153","password":"cd39f62aed7b90f6","port":"3389","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"172.99.190.35","port":5601,"name":"🇬🇧_GB_英国_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"172.99.190.35","port":5001,"name":"🇬🇧_GB_英国_2"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44611","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm@","server":"172.99.190.35","port":5500,"name":"🇬🇧_GB_英国_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"172.99.190.35","port":5600,"name":"🇬🇧_GB_英国_4"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"116.129.253.134","password":"c3c448da2363a6f7","port":"3389","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId@","server":"172.99.190.35","port":5004,"name":"🇬🇧_GB_英国_5"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM@","server":"172.99.190.35","port":443,"name":"🇬🇧_GB_英国_6"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"116.129.253.191","password":"e37c6d7efa845d60","port":"3389","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","server":"116.129.253.227","password":"e37c6d7efa845d60","port":"3389","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN@","server":"198.57.27.225","port":8118,"name":"🇨🇦_CA_加拿大_1"}
+  - {"type":"ssr","server":"152.89.210.105","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ","name":"🇬🇧_GB_英国_7"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG@","server":"198.57.27.225","port":7001,"name":"🇨🇦_CA_加拿大_2"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ@","server":"152.89.210.105","port":9060,"name":"🇬🇧_GB_英国_8"}
+  - {"type":"ssr","server":"152.89.210.105","port":9050,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FG5ddLsMPbV5CutE","name":"🇬🇧_GB_英国_9"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_1","server":"trojan2.free4444.xyz","password":"dongtaiwang.com","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"fhcamd2.gaox.ml","password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","server":"20.230.146.155","name":"🇺🇸_US_美国_3","port":262,"uuid":"eec166d5-25d5-42d2-ce7d-83fca85d2610","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","http-opts":{"path":["/"]},"server":"43.154.46.228","name":"🇨🇳_CN_中国","port":49930,"uuid":"051088e3-f62e-4cf6-a199-ab98adcb822b","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS@","server":"198.57.27.225","port":6679,"name":"🇨🇦_CA_加拿大_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm@","server":"198.57.27.225","port":5500,"name":"🇨🇦_CA_加拿大_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY@","server":"198.57.27.225","port":9102,"name":"🇨🇦_CA_加拿大_5"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId@","server":"198.57.27.225","port":5004,"name":"🇨🇦_CA_加拿大_6"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS@","server":"198.57.27.225","port":6697,"name":"🇨🇦_CA_加拿大_7"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇯🇵_JP_日本","server":"s2.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","server":"213.183.53.177","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF","name":"🇷🇺_RU_俄罗斯联邦_1"}
+  - {"type":"ssr","server":"213.183.53.177","port":9045,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"Lp27rqyJq72bZsqX","name":"🇷🇺_RU_俄罗斯联邦_2"}
+  - {"type":"ssr","server":"213.183.53.177","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq","name":"🇷🇺_RU_俄罗斯联邦_3"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"e6c1cf51375c407d92d110881a825acb@","server":"157.230.41.220","port":29596,"name":"🇸🇬_SG_新加坡_1"}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾_2","server":"60.249.3.125","password":"e37c6d7efa845d60","port":"3389","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY@","server":"172.99.190.35","port":9101,"name":"🇬🇧_GB_英国_10"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS@","server":"172.99.190.35","port":6679,"name":"🇬🇧_GB_英国_11"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS@","server":"172.99.190.35","port":6697,"name":"🇬🇧_GB_英国_12"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"169.197.141.109","port":8888,"name":"🇺🇸_US_美国_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"198.57.27.225","port":8888,"name":"🇨🇦_CA_加拿大_8"}
+  - {"type":"ssr","server":"152.89.210.105","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq","name":"🇬🇧_GB_英国_13"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_5","server":"trojan33.free4444.xyz","password":"dongtaiwang.com","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","server":"61.222.202.140","name":"🇹🇼_TW_台湾_3","port":33792,"uuid":"e55cd182-01b0-4fb7-a510-363701a491c5","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_6","server":"jgwdj4.gaox.ml","password":"c09eb137-bf68-4658-84e0-102d94b74168","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国_7","server":"fhcarm1.gaox.ml","password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM@","server":"198.57.27.225","port":443,"name":"🇨🇦_CA_加拿大_9"}
+  - {"type":"vmess","server":"sgp02ul.vpnsieure.com","name":"🇸🇬_SG_新加坡_2","port":80,"uuid":"330efbdb-7171-4fd1-a524-d7b7d8e76732","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_8","server":"fhcarm2.gaox.ml","password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","server":"trojan.linkdns.xyz","password":"12f73569-a856-3896-a798-aab097a89432","port":"40230","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇺🇸_US_美国_3","server":"trojan.linkdns.xyz","password":"12f73569-a856-3896-a798-aab097a89432","port":"40203","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇺🇸_US_美国_4","server":"trojan.linkdns.xyz","password":"12f73569-a856-3896-a798-aab097a89432","port":"40229","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇦🇺_AU_澳大利亚","server":"trojan.linkdns.xyz","password":"12f73569-a856-3896-a798-aab097a89432","port":"40225","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "🇷🇺 俄罗斯|TG@univstar1\r_1"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_1"
-      - "🇮🇩 印尼|TG@univstar  3\r_1"
-      - "🇮🇩 印尼|TG@univstar  4\r_1"
-      - "🇮🇳 印度|TG@univstar  5\r_1"
-      - "🇮🇳 印度|TG@univstar  6\r_1"
-      - "🇨🇳 台湾|TG@univstar  7\r_1"
-      - "🇨🇳 台湾|TG@univstar  8\r_1"
-      - "🇸🇬 新加坡|TG@univstar9\r_1"
-      - "🇸🇬 新加坡|TG@univstar10\r_1"
-      - "🇯🇵 日本|TG@univstar  11\r_1"
-      - "🇯🇵 日本|TG@univstar  12\r_1"
-      - "🇹🇭 泰国|TG@univstar  13\r_1"
-      - "🇹🇭 泰国|TG@univstar  14\r_1"
-      - "🇺🇸 美国|TG@univstar  15\r_1"
-      - "🇺🇸 美国|TG@univstar  16\r_1"
-      - "🇺🇸 美国|TG@univstar  17\r_1"
-      - "🇺🇸 美国|TG@univstar  18\r_1"
-      - "🇻🇳 越南|TG@univstar  19\r_1"
-      - "🇻🇳 越南|TG@univstar  20\r_1"
-      - "🇰🇷 韩国|TG@univstar  21\r_1"
-      - "🇰🇷 韩国|TG@univstar  22\r_1"
-      - "🇭🇰 香港|TG@univstar  23\r_1"
-      - "🇭🇰 香港|TG@univstar  24\r_1"
-      - "🇭🇰 香港|TG@univstar  25\r_1"
-      - "🇭🇰 香港|TG@univstar  26\r_1"
-      - "🇭🇰 香港|TG@univstar  27\r_1"
-      - 🇭🇰 香港|TG@univstar  28_1
-      - "🇷🇺 俄罗斯|TG@univstar1\r_2"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_2"
-      - "🇮🇩 印尼|TG@univstar  3\r_2"
-      - "🇮🇩 印尼|TG@univstar  4\r_2"
-      - "🇮🇳 印度|TG@univstar  5\r_2"
-      - "🇮🇳 印度|TG@univstar  6\r_2"
-      - "🇨🇳 台湾|TG@univstar  7\r_2"
-      - "🇨🇳 台湾|TG@univstar  8\r_2"
-      - "🇸🇬 新加坡|TG@univstar9\r_2"
-      - "🇸🇬 新加坡|TG@univstar10\r_2"
-      - "🇯🇵 日本|TG@univstar  11\r_2"
-      - "🇯🇵 日本|TG@univstar  12\r_2"
-      - "🇹🇭 泰国|TG@univstar  13\r_2"
-      - "🇹🇭 泰国|TG@univstar  14\r_2"
-      - "🇺🇸 美国|TG@univstar  15\r_2"
-      - "🇺🇸 美国|TG@univstar  16\r_2"
-      - "🇺🇸 美国|TG@univstar  17\r_2"
-      - "🇺🇸 美国|TG@univstar  18\r_2"
-      - "🇻🇳 越南|TG@univstar  19\r_2"
-      - "🇻🇳 越南|TG@univstar  20\r_2"
-      - "🇰🇷 韩国|TG@univstar  21\r_2"
-      - "🇰🇷 韩国|TG@univstar  22\r_2"
-      - "🇭🇰 香港|TG@univstar  23\r_2"
-      - "🇭🇰 香港|TG@univstar  24\r_2"
-      - "🇭🇰 香港|TG@univstar  25\r_2"
-      - "🇭🇰 香港|TG@univstar  26\r_2"
-      - "🇭🇰 香港|TG@univstar  27\r_2"
-      - 🇭🇰 香港|TG@univstar  28_2
-      - "🇷🇺 俄罗斯|TG@univstar1\r_3"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_3"
-      - "🇮🇩 印尼|TG@univstar  3\r_3"
-      - "🇮🇩 印尼|TG@univstar  4\r_3"
-      - "🇮🇳 印度|TG@univstar  5\r_3"
-      - "🇮🇳 印度|TG@univstar  6\r_3"
-      - "🇨🇳 台湾|TG@univstar  7\r_3"
-      - "🇨🇳 台湾|TG@univstar  8\r_3"
-      - "🇸🇬 新加坡|TG@univstar9\r_3"
-      - "🇸🇬 新加坡|TG@univstar10\r_3"
-      - "🇯🇵 日本|TG@univstar  11\r_3"
-      - "🇯🇵 日本|TG@univstar  12\r_3"
-      - "🇹🇭 泰国|TG@univstar  13\r_3"
-      - "🇹🇭 泰国|TG@univstar  14\r_3"
-      - "🇺🇸 美国|TG@univstar  15\r_3"
-      - "🇺🇸 美国|TG@univstar  16\r_3"
-      - "🇺🇸 美国|TG@univstar  17\r_3"
-      - "🇺🇸 美国|TG@univstar  18\r_3"
-      - "🇻🇳 越南|TG@univstar  19\r_3"
-      - "🇻🇳 越南|TG@univstar  20\r_3"
-      - "🇰🇷 韩国|TG@univstar  21\r_3"
-      - "🇰🇷 韩国|TG@univstar  22\r_3"
-      - "🇭🇰 香港|TG@univstar  23\r_3"
-      - "🇭🇰 香港|TG@univstar  24\r_3"
-      - "🇭🇰 香港|TG@univstar  25\r_3"
-      - "🇭🇰 香港|TG@univstar  26\r_3"
-      - "🇭🇰 香港|TG@univstar  27\r_3"
-      - 🇭🇰 香港|TG@univstar  28_3
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇹🇼_TW_台湾_1
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇬🇧_GB_英国_7
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_8
+      - 🇬🇧_GB_英国_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇸🇬_SG_新加坡_1
+      - 🇹🇼_TW_台湾_2
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - 🇬🇧_GB_英国_12
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_8
+      - 🇬🇧_GB_英国_13
+      - 🇺🇸_US_美国_5
+      - 🇹🇼_TW_台湾_3
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_9
+      - 🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "🇷🇺 俄罗斯|TG@univstar1\r_1"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_1"
-      - "🇮🇩 印尼|TG@univstar  3\r_1"
-      - "🇮🇩 印尼|TG@univstar  4\r_1"
-      - "🇮🇳 印度|TG@univstar  5\r_1"
-      - "🇮🇳 印度|TG@univstar  6\r_1"
-      - "🇨🇳 台湾|TG@univstar  7\r_1"
-      - "🇨🇳 台湾|TG@univstar  8\r_1"
-      - "🇸🇬 新加坡|TG@univstar9\r_1"
-      - "🇸🇬 新加坡|TG@univstar10\r_1"
-      - "🇯🇵 日本|TG@univstar  11\r_1"
-      - "🇯🇵 日本|TG@univstar  12\r_1"
-      - "🇹🇭 泰国|TG@univstar  13\r_1"
-      - "🇹🇭 泰国|TG@univstar  14\r_1"
-      - "🇺🇸 美国|TG@univstar  15\r_1"
-      - "🇺🇸 美国|TG@univstar  16\r_1"
-      - "🇺🇸 美国|TG@univstar  17\r_1"
-      - "🇺🇸 美国|TG@univstar  18\r_1"
-      - "🇻🇳 越南|TG@univstar  19\r_1"
-      - "🇻🇳 越南|TG@univstar  20\r_1"
-      - "🇰🇷 韩国|TG@univstar  21\r_1"
-      - "🇰🇷 韩国|TG@univstar  22\r_1"
-      - "🇭🇰 香港|TG@univstar  23\r_1"
-      - "🇭🇰 香港|TG@univstar  24\r_1"
-      - "🇭🇰 香港|TG@univstar  25\r_1"
-      - "🇭🇰 香港|TG@univstar  26\r_1"
-      - "🇭🇰 香港|TG@univstar  27\r_1"
-      - 🇭🇰 香港|TG@univstar  28_1
-      - "🇷🇺 俄罗斯|TG@univstar1\r_2"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_2"
-      - "🇮🇩 印尼|TG@univstar  3\r_2"
-      - "🇮🇩 印尼|TG@univstar  4\r_2"
-      - "🇮🇳 印度|TG@univstar  5\r_2"
-      - "🇮🇳 印度|TG@univstar  6\r_2"
-      - "🇨🇳 台湾|TG@univstar  7\r_2"
-      - "🇨🇳 台湾|TG@univstar  8\r_2"
-      - "🇸🇬 新加坡|TG@univstar9\r_2"
-      - "🇸🇬 新加坡|TG@univstar10\r_2"
-      - "🇯🇵 日本|TG@univstar  11\r_2"
-      - "🇯🇵 日本|TG@univstar  12\r_2"
-      - "🇹🇭 泰国|TG@univstar  13\r_2"
-      - "🇹🇭 泰国|TG@univstar  14\r_2"
-      - "🇺🇸 美国|TG@univstar  15\r_2"
-      - "🇺🇸 美国|TG@univstar  16\r_2"
-      - "🇺🇸 美国|TG@univstar  17\r_2"
-      - "🇺🇸 美国|TG@univstar  18\r_2"
-      - "🇻🇳 越南|TG@univstar  19\r_2"
-      - "🇻🇳 越南|TG@univstar  20\r_2"
-      - "🇰🇷 韩国|TG@univstar  21\r_2"
-      - "🇰🇷 韩国|TG@univstar  22\r_2"
-      - "🇭🇰 香港|TG@univstar  23\r_2"
-      - "🇭🇰 香港|TG@univstar  24\r_2"
-      - "🇭🇰 香港|TG@univstar  25\r_2"
-      - "🇭🇰 香港|TG@univstar  26\r_2"
-      - "🇭🇰 香港|TG@univstar  27\r_2"
-      - 🇭🇰 香港|TG@univstar  28_2
-      - "🇷🇺 俄罗斯|TG@univstar1\r_3"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_3"
-      - "🇮🇩 印尼|TG@univstar  3\r_3"
-      - "🇮🇩 印尼|TG@univstar  4\r_3"
-      - "🇮🇳 印度|TG@univstar  5\r_3"
-      - "🇮🇳 印度|TG@univstar  6\r_3"
-      - "🇨🇳 台湾|TG@univstar  7\r_3"
-      - "🇨🇳 台湾|TG@univstar  8\r_3"
-      - "🇸🇬 新加坡|TG@univstar9\r_3"
-      - "🇸🇬 新加坡|TG@univstar10\r_3"
-      - "🇯🇵 日本|TG@univstar  11\r_3"
-      - "🇯🇵 日本|TG@univstar  12\r_3"
-      - "🇹🇭 泰国|TG@univstar  13\r_3"
-      - "🇹🇭 泰国|TG@univstar  14\r_3"
-      - "🇺🇸 美国|TG@univstar  15\r_3"
-      - "🇺🇸 美国|TG@univstar  16\r_3"
-      - "🇺🇸 美国|TG@univstar  17\r_3"
-      - "🇺🇸 美国|TG@univstar  18\r_3"
-      - "🇻🇳 越南|TG@univstar  19\r_3"
-      - "🇻🇳 越南|TG@univstar  20\r_3"
-      - "🇰🇷 韩国|TG@univstar  21\r_3"
-      - "🇰🇷 韩国|TG@univstar  22\r_3"
-      - "🇭🇰 香港|TG@univstar  23\r_3"
-      - "🇭🇰 香港|TG@univstar  24\r_3"
-      - "🇭🇰 香港|TG@univstar  25\r_3"
-      - "🇭🇰 香港|TG@univstar  26\r_3"
-      - "🇭🇰 香港|TG@univstar  27\r_3"
-      - 🇭🇰 香港|TG@univstar  28_3
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇹🇼_TW_台湾_1
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇬🇧_GB_英国_7
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_8
+      - 🇬🇧_GB_英国_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇸🇬_SG_新加坡_1
+      - 🇹🇼_TW_台湾_2
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - 🇬🇧_GB_英国_12
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_8
+      - 🇬🇧_GB_英国_13
+      - 🇺🇸_US_美国_5
+      - 🇹🇼_TW_台湾_3
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_9
+      - 🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇷🇺 俄罗斯|TG@univstar1\r_1"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_1"
-      - "🇮🇩 印尼|TG@univstar  3\r_1"
-      - "🇮🇩 印尼|TG@univstar  4\r_1"
-      - "🇮🇳 印度|TG@univstar  5\r_1"
-      - "🇮🇳 印度|TG@univstar  6\r_1"
-      - "🇨🇳 台湾|TG@univstar  7\r_1"
-      - "🇨🇳 台湾|TG@univstar  8\r_1"
-      - "🇸🇬 新加坡|TG@univstar9\r_1"
-      - "🇸🇬 新加坡|TG@univstar10\r_1"
-      - "🇯🇵 日本|TG@univstar  11\r_1"
-      - "🇯🇵 日本|TG@univstar  12\r_1"
-      - "🇹🇭 泰国|TG@univstar  13\r_1"
-      - "🇹🇭 泰国|TG@univstar  14\r_1"
-      - "🇺🇸 美国|TG@univstar  15\r_1"
-      - "🇺🇸 美国|TG@univstar  16\r_1"
-      - "🇺🇸 美国|TG@univstar  17\r_1"
-      - "🇺🇸 美国|TG@univstar  18\r_1"
-      - "🇻🇳 越南|TG@univstar  19\r_1"
-      - "🇻🇳 越南|TG@univstar  20\r_1"
-      - "🇰🇷 韩国|TG@univstar  21\r_1"
-      - "🇰🇷 韩国|TG@univstar  22\r_1"
-      - "🇭🇰 香港|TG@univstar  23\r_1"
-      - "🇭🇰 香港|TG@univstar  24\r_1"
-      - "🇭🇰 香港|TG@univstar  25\r_1"
-      - "🇭🇰 香港|TG@univstar  26\r_1"
-      - "🇭🇰 香港|TG@univstar  27\r_1"
-      - 🇭🇰 香港|TG@univstar  28_1
-      - "🇷🇺 俄罗斯|TG@univstar1\r_2"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_2"
-      - "🇮🇩 印尼|TG@univstar  3\r_2"
-      - "🇮🇩 印尼|TG@univstar  4\r_2"
-      - "🇮🇳 印度|TG@univstar  5\r_2"
-      - "🇮🇳 印度|TG@univstar  6\r_2"
-      - "🇨🇳 台湾|TG@univstar  7\r_2"
-      - "🇨🇳 台湾|TG@univstar  8\r_2"
-      - "🇸🇬 新加坡|TG@univstar9\r_2"
-      - "🇸🇬 新加坡|TG@univstar10\r_2"
-      - "🇯🇵 日本|TG@univstar  11\r_2"
-      - "🇯🇵 日本|TG@univstar  12\r_2"
-      - "🇹🇭 泰国|TG@univstar  13\r_2"
-      - "🇹🇭 泰国|TG@univstar  14\r_2"
-      - "🇺🇸 美国|TG@univstar  15\r_2"
-      - "🇺🇸 美国|TG@univstar  16\r_2"
-      - "🇺🇸 美国|TG@univstar  17\r_2"
-      - "🇺🇸 美国|TG@univstar  18\r_2"
-      - "🇻🇳 越南|TG@univstar  19\r_2"
-      - "🇻🇳 越南|TG@univstar  20\r_2"
-      - "🇰🇷 韩国|TG@univstar  21\r_2"
-      - "🇰🇷 韩国|TG@univstar  22\r_2"
-      - "🇭🇰 香港|TG@univstar  23\r_2"
-      - "🇭🇰 香港|TG@univstar  24\r_2"
-      - "🇭🇰 香港|TG@univstar  25\r_2"
-      - "🇭🇰 香港|TG@univstar  26\r_2"
-      - "🇭🇰 香港|TG@univstar  27\r_2"
-      - 🇭🇰 香港|TG@univstar  28_2
-      - "🇷🇺 俄罗斯|TG@univstar1\r_3"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_3"
-      - "🇮🇩 印尼|TG@univstar  3\r_3"
-      - "🇮🇩 印尼|TG@univstar  4\r_3"
-      - "🇮🇳 印度|TG@univstar  5\r_3"
-      - "🇮🇳 印度|TG@univstar  6\r_3"
-      - "🇨🇳 台湾|TG@univstar  7\r_3"
-      - "🇨🇳 台湾|TG@univstar  8\r_3"
-      - "🇸🇬 新加坡|TG@univstar9\r_3"
-      - "🇸🇬 新加坡|TG@univstar10\r_3"
-      - "🇯🇵 日本|TG@univstar  11\r_3"
-      - "🇯🇵 日本|TG@univstar  12\r_3"
-      - "🇹🇭 泰国|TG@univstar  13\r_3"
-      - "🇹🇭 泰国|TG@univstar  14\r_3"
-      - "🇺🇸 美国|TG@univstar  15\r_3"
-      - "🇺🇸 美国|TG@univstar  16\r_3"
-      - "🇺🇸 美国|TG@univstar  17\r_3"
-      - "🇺🇸 美国|TG@univstar  18\r_3"
-      - "🇻🇳 越南|TG@univstar  19\r_3"
-      - "🇻🇳 越南|TG@univstar  20\r_3"
-      - "🇰🇷 韩国|TG@univstar  21\r_3"
-      - "🇰🇷 韩国|TG@univstar  22\r_3"
-      - "🇭🇰 香港|TG@univstar  23\r_3"
-      - "🇭🇰 香港|TG@univstar  24\r_3"
-      - "🇭🇰 香港|TG@univstar  25\r_3"
-      - "🇭🇰 香港|TG@univstar  26\r_3"
-      - "🇭🇰 香港|TG@univstar  27\r_3"
-      - 🇭🇰 香港|TG@univstar  28_3
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇹🇼_TW_台湾_1
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇬🇧_GB_英国_7
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_8
+      - 🇬🇧_GB_英国_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇸🇬_SG_新加坡_1
+      - 🇹🇼_TW_台湾_2
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - 🇬🇧_GB_英国_12
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_8
+      - 🇬🇧_GB_英国_13
+      - 🇺🇸_US_美国_5
+      - 🇹🇼_TW_台湾_3
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_9
+      - 🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "🇷🇺 俄罗斯|TG@univstar1\r_1"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_1"
-      - "🇮🇩 印尼|TG@univstar  3\r_1"
-      - "🇮🇩 印尼|TG@univstar  4\r_1"
-      - "🇮🇳 印度|TG@univstar  5\r_1"
-      - "🇮🇳 印度|TG@univstar  6\r_1"
-      - "🇨🇳 台湾|TG@univstar  7\r_1"
-      - "🇨🇳 台湾|TG@univstar  8\r_1"
-      - "🇸🇬 新加坡|TG@univstar9\r_1"
-      - "🇸🇬 新加坡|TG@univstar10\r_1"
-      - "🇯🇵 日本|TG@univstar  11\r_1"
-      - "🇯🇵 日本|TG@univstar  12\r_1"
-      - "🇹🇭 泰国|TG@univstar  13\r_1"
-      - "🇹🇭 泰国|TG@univstar  14\r_1"
-      - "🇺🇸 美国|TG@univstar  15\r_1"
-      - "🇺🇸 美国|TG@univstar  16\r_1"
-      - "🇺🇸 美国|TG@univstar  17\r_1"
-      - "🇺🇸 美国|TG@univstar  18\r_1"
-      - "🇻🇳 越南|TG@univstar  19\r_1"
-      - "🇻🇳 越南|TG@univstar  20\r_1"
-      - "🇰🇷 韩国|TG@univstar  21\r_1"
-      - "🇰🇷 韩国|TG@univstar  22\r_1"
-      - "🇭🇰 香港|TG@univstar  23\r_1"
-      - "🇭🇰 香港|TG@univstar  24\r_1"
-      - "🇭🇰 香港|TG@univstar  25\r_1"
-      - "🇭🇰 香港|TG@univstar  26\r_1"
-      - "🇭🇰 香港|TG@univstar  27\r_1"
-      - 🇭🇰 香港|TG@univstar  28_1
-      - "🇷🇺 俄罗斯|TG@univstar1\r_2"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_2"
-      - "🇮🇩 印尼|TG@univstar  3\r_2"
-      - "🇮🇩 印尼|TG@univstar  4\r_2"
-      - "🇮🇳 印度|TG@univstar  5\r_2"
-      - "🇮🇳 印度|TG@univstar  6\r_2"
-      - "🇨🇳 台湾|TG@univstar  7\r_2"
-      - "🇨🇳 台湾|TG@univstar  8\r_2"
-      - "🇸🇬 新加坡|TG@univstar9\r_2"
-      - "🇸🇬 新加坡|TG@univstar10\r_2"
-      - "🇯🇵 日本|TG@univstar  11\r_2"
-      - "🇯🇵 日本|TG@univstar  12\r_2"
-      - "🇹🇭 泰国|TG@univstar  13\r_2"
-      - "🇹🇭 泰国|TG@univstar  14\r_2"
-      - "🇺🇸 美国|TG@univstar  15\r_2"
-      - "🇺🇸 美国|TG@univstar  16\r_2"
-      - "🇺🇸 美国|TG@univstar  17\r_2"
-      - "🇺🇸 美国|TG@univstar  18\r_2"
-      - "🇻🇳 越南|TG@univstar  19\r_2"
-      - "🇻🇳 越南|TG@univstar  20\r_2"
-      - "🇰🇷 韩国|TG@univstar  21\r_2"
-      - "🇰🇷 韩国|TG@univstar  22\r_2"
-      - "🇭🇰 香港|TG@univstar  23\r_2"
-      - "🇭🇰 香港|TG@univstar  24\r_2"
-      - "🇭🇰 香港|TG@univstar  25\r_2"
-      - "🇭🇰 香港|TG@univstar  26\r_2"
-      - "🇭🇰 香港|TG@univstar  27\r_2"
-      - 🇭🇰 香港|TG@univstar  28_2
-      - "🇷🇺 俄罗斯|TG@univstar1\r_3"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_3"
-      - "🇮🇩 印尼|TG@univstar  3\r_3"
-      - "🇮🇩 印尼|TG@univstar  4\r_3"
-      - "🇮🇳 印度|TG@univstar  5\r_3"
-      - "🇮🇳 印度|TG@univstar  6\r_3"
-      - "🇨🇳 台湾|TG@univstar  7\r_3"
-      - "🇨🇳 台湾|TG@univstar  8\r_3"
-      - "🇸🇬 新加坡|TG@univstar9\r_3"
-      - "🇸🇬 新加坡|TG@univstar10\r_3"
-      - "🇯🇵 日本|TG@univstar  11\r_3"
-      - "🇯🇵 日本|TG@univstar  12\r_3"
-      - "🇹🇭 泰国|TG@univstar  13\r_3"
-      - "🇹🇭 泰国|TG@univstar  14\r_3"
-      - "🇺🇸 美国|TG@univstar  15\r_3"
-      - "🇺🇸 美国|TG@univstar  16\r_3"
-      - "🇺🇸 美国|TG@univstar  17\r_3"
-      - "🇺🇸 美国|TG@univstar  18\r_3"
-      - "🇻🇳 越南|TG@univstar  19\r_3"
-      - "🇻🇳 越南|TG@univstar  20\r_3"
-      - "🇰🇷 韩国|TG@univstar  21\r_3"
-      - "🇰🇷 韩国|TG@univstar  22\r_3"
-      - "🇭🇰 香港|TG@univstar  23\r_3"
-      - "🇭🇰 香港|TG@univstar  24\r_3"
-      - "🇭🇰 香港|TG@univstar  25\r_3"
-      - "🇭🇰 香港|TG@univstar  26\r_3"
-      - "🇭🇰 香港|TG@univstar  27\r_3"
-      - 🇭🇰 香港|TG@univstar  28_3
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇹🇼_TW_台湾_1
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇬🇧_GB_英国_7
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_8
+      - 🇬🇧_GB_英国_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇸🇬_SG_新加坡_1
+      - 🇹🇼_TW_台湾_2
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - 🇬🇧_GB_英国_12
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_8
+      - 🇬🇧_GB_英国_13
+      - 🇺🇸_US_美国_5
+      - 🇹🇼_TW_台湾_3
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_9
+      - 🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "🇷🇺 俄罗斯|TG@univstar1\r_1"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_1"
-      - "🇮🇩 印尼|TG@univstar  3\r_1"
-      - "🇮🇩 印尼|TG@univstar  4\r_1"
-      - "🇮🇳 印度|TG@univstar  5\r_1"
-      - "🇮🇳 印度|TG@univstar  6\r_1"
-      - "🇨🇳 台湾|TG@univstar  7\r_1"
-      - "🇨🇳 台湾|TG@univstar  8\r_1"
-      - "🇸🇬 新加坡|TG@univstar9\r_1"
-      - "🇸🇬 新加坡|TG@univstar10\r_1"
-      - "🇯🇵 日本|TG@univstar  11\r_1"
-      - "🇯🇵 日本|TG@univstar  12\r_1"
-      - "🇹🇭 泰国|TG@univstar  13\r_1"
-      - "🇹🇭 泰国|TG@univstar  14\r_1"
-      - "🇺🇸 美国|TG@univstar  15\r_1"
-      - "🇺🇸 美国|TG@univstar  16\r_1"
-      - "🇺🇸 美国|TG@univstar  17\r_1"
-      - "🇺🇸 美国|TG@univstar  18\r_1"
-      - "🇻🇳 越南|TG@univstar  19\r_1"
-      - "🇻🇳 越南|TG@univstar  20\r_1"
-      - "🇰🇷 韩国|TG@univstar  21\r_1"
-      - "🇰🇷 韩国|TG@univstar  22\r_1"
-      - "🇭🇰 香港|TG@univstar  23\r_1"
-      - "🇭🇰 香港|TG@univstar  24\r_1"
-      - "🇭🇰 香港|TG@univstar  25\r_1"
-      - "🇭🇰 香港|TG@univstar  26\r_1"
-      - "🇭🇰 香港|TG@univstar  27\r_1"
-      - 🇭🇰 香港|TG@univstar  28_1
-      - "🇷🇺 俄罗斯|TG@univstar1\r_2"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_2"
-      - "🇮🇩 印尼|TG@univstar  3\r_2"
-      - "🇮🇩 印尼|TG@univstar  4\r_2"
-      - "🇮🇳 印度|TG@univstar  5\r_2"
-      - "🇮🇳 印度|TG@univstar  6\r_2"
-      - "🇨🇳 台湾|TG@univstar  7\r_2"
-      - "🇨🇳 台湾|TG@univstar  8\r_2"
-      - "🇸🇬 新加坡|TG@univstar9\r_2"
-      - "🇸🇬 新加坡|TG@univstar10\r_2"
-      - "🇯🇵 日本|TG@univstar  11\r_2"
-      - "🇯🇵 日本|TG@univstar  12\r_2"
-      - "🇹🇭 泰国|TG@univstar  13\r_2"
-      - "🇹🇭 泰国|TG@univstar  14\r_2"
-      - "🇺🇸 美国|TG@univstar  15\r_2"
-      - "🇺🇸 美国|TG@univstar  16\r_2"
-      - "🇺🇸 美国|TG@univstar  17\r_2"
-      - "🇺🇸 美国|TG@univstar  18\r_2"
-      - "🇻🇳 越南|TG@univstar  19\r_2"
-      - "🇻🇳 越南|TG@univstar  20\r_2"
-      - "🇰🇷 韩国|TG@univstar  21\r_2"
-      - "🇰🇷 韩国|TG@univstar  22\r_2"
-      - "🇭🇰 香港|TG@univstar  23\r_2"
-      - "🇭🇰 香港|TG@univstar  24\r_2"
-      - "🇭🇰 香港|TG@univstar  25\r_2"
-      - "🇭🇰 香港|TG@univstar  26\r_2"
-      - "🇭🇰 香港|TG@univstar  27\r_2"
-      - 🇭🇰 香港|TG@univstar  28_2
-      - "🇷🇺 俄罗斯|TG@univstar1\r_3"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_3"
-      - "🇮🇩 印尼|TG@univstar  3\r_3"
-      - "🇮🇩 印尼|TG@univstar  4\r_3"
-      - "🇮🇳 印度|TG@univstar  5\r_3"
-      - "🇮🇳 印度|TG@univstar  6\r_3"
-      - "🇨🇳 台湾|TG@univstar  7\r_3"
-      - "🇨🇳 台湾|TG@univstar  8\r_3"
-      - "🇸🇬 新加坡|TG@univstar9\r_3"
-      - "🇸🇬 新加坡|TG@univstar10\r_3"
-      - "🇯🇵 日本|TG@univstar  11\r_3"
-      - "🇯🇵 日本|TG@univstar  12\r_3"
-      - "🇹🇭 泰国|TG@univstar  13\r_3"
-      - "🇹🇭 泰国|TG@univstar  14\r_3"
-      - "🇺🇸 美国|TG@univstar  15\r_3"
-      - "🇺🇸 美国|TG@univstar  16\r_3"
-      - "🇺🇸 美国|TG@univstar  17\r_3"
-      - "🇺🇸 美国|TG@univstar  18\r_3"
-      - "🇻🇳 越南|TG@univstar  19\r_3"
-      - "🇻🇳 越南|TG@univstar  20\r_3"
-      - "🇰🇷 韩国|TG@univstar  21\r_3"
-      - "🇰🇷 韩国|TG@univstar  22\r_3"
-      - "🇭🇰 香港|TG@univstar  23\r_3"
-      - "🇭🇰 香港|TG@univstar  24\r_3"
-      - "🇭🇰 香港|TG@univstar  25\r_3"
-      - "🇭🇰 香港|TG@univstar  26\r_3"
-      - "🇭🇰 香港|TG@univstar  27\r_3"
-      - 🇭🇰 香港|TG@univstar  28_3
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇹🇼_TW_台湾_1
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇬🇧_GB_英国_7
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_8
+      - 🇬🇧_GB_英国_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇸🇬_SG_新加坡_1
+      - 🇹🇼_TW_台湾_2
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - 🇬🇧_GB_英国_12
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_8
+      - 🇬🇧_GB_英国_13
+      - 🇺🇸_US_美国_5
+      - 🇹🇼_TW_台湾_3
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_9
+      - 🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "🇷🇺 俄罗斯|TG@univstar1\r_1"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_1"
-      - "🇮🇩 印尼|TG@univstar  3\r_1"
-      - "🇮🇩 印尼|TG@univstar  4\r_1"
-      - "🇮🇳 印度|TG@univstar  5\r_1"
-      - "🇮🇳 印度|TG@univstar  6\r_1"
-      - "🇨🇳 台湾|TG@univstar  7\r_1"
-      - "🇨🇳 台湾|TG@univstar  8\r_1"
-      - "🇸🇬 新加坡|TG@univstar9\r_1"
-      - "🇸🇬 新加坡|TG@univstar10\r_1"
-      - "🇯🇵 日本|TG@univstar  11\r_1"
-      - "🇯🇵 日本|TG@univstar  12\r_1"
-      - "🇹🇭 泰国|TG@univstar  13\r_1"
-      - "🇹🇭 泰国|TG@univstar  14\r_1"
-      - "🇺🇸 美国|TG@univstar  15\r_1"
-      - "🇺🇸 美国|TG@univstar  16\r_1"
-      - "🇺🇸 美国|TG@univstar  17\r_1"
-      - "🇺🇸 美国|TG@univstar  18\r_1"
-      - "🇻🇳 越南|TG@univstar  19\r_1"
-      - "🇻🇳 越南|TG@univstar  20\r_1"
-      - "🇰🇷 韩国|TG@univstar  21\r_1"
-      - "🇰🇷 韩国|TG@univstar  22\r_1"
-      - "🇭🇰 香港|TG@univstar  23\r_1"
-      - "🇭🇰 香港|TG@univstar  24\r_1"
-      - "🇭🇰 香港|TG@univstar  25\r_1"
-      - "🇭🇰 香港|TG@univstar  26\r_1"
-      - "🇭🇰 香港|TG@univstar  27\r_1"
-      - 🇭🇰 香港|TG@univstar  28_1
-      - "🇷🇺 俄罗斯|TG@univstar1\r_2"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_2"
-      - "🇮🇩 印尼|TG@univstar  3\r_2"
-      - "🇮🇩 印尼|TG@univstar  4\r_2"
-      - "🇮🇳 印度|TG@univstar  5\r_2"
-      - "🇮🇳 印度|TG@univstar  6\r_2"
-      - "🇨🇳 台湾|TG@univstar  7\r_2"
-      - "🇨🇳 台湾|TG@univstar  8\r_2"
-      - "🇸🇬 新加坡|TG@univstar9\r_2"
-      - "🇸🇬 新加坡|TG@univstar10\r_2"
-      - "🇯🇵 日本|TG@univstar  11\r_2"
-      - "🇯🇵 日本|TG@univstar  12\r_2"
-      - "🇹🇭 泰国|TG@univstar  13\r_2"
-      - "🇹🇭 泰国|TG@univstar  14\r_2"
-      - "🇺🇸 美国|TG@univstar  15\r_2"
-      - "🇺🇸 美国|TG@univstar  16\r_2"
-      - "🇺🇸 美国|TG@univstar  17\r_2"
-      - "🇺🇸 美国|TG@univstar  18\r_2"
-      - "🇻🇳 越南|TG@univstar  19\r_2"
-      - "🇻🇳 越南|TG@univstar  20\r_2"
-      - "🇰🇷 韩国|TG@univstar  21\r_2"
-      - "🇰🇷 韩国|TG@univstar  22\r_2"
-      - "🇭🇰 香港|TG@univstar  23\r_2"
-      - "🇭🇰 香港|TG@univstar  24\r_2"
-      - "🇭🇰 香港|TG@univstar  25\r_2"
-      - "🇭🇰 香港|TG@univstar  26\r_2"
-      - "🇭🇰 香港|TG@univstar  27\r_2"
-      - 🇭🇰 香港|TG@univstar  28_2
-      - "🇷🇺 俄罗斯|TG@univstar1\r_3"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_3"
-      - "🇮🇩 印尼|TG@univstar  3\r_3"
-      - "🇮🇩 印尼|TG@univstar  4\r_3"
-      - "🇮🇳 印度|TG@univstar  5\r_3"
-      - "🇮🇳 印度|TG@univstar  6\r_3"
-      - "🇨🇳 台湾|TG@univstar  7\r_3"
-      - "🇨🇳 台湾|TG@univstar  8\r_3"
-      - "🇸🇬 新加坡|TG@univstar9\r_3"
-      - "🇸🇬 新加坡|TG@univstar10\r_3"
-      - "🇯🇵 日本|TG@univstar  11\r_3"
-      - "🇯🇵 日本|TG@univstar  12\r_3"
-      - "🇹🇭 泰国|TG@univstar  13\r_3"
-      - "🇹🇭 泰国|TG@univstar  14\r_3"
-      - "🇺🇸 美国|TG@univstar  15\r_3"
-      - "🇺🇸 美国|TG@univstar  16\r_3"
-      - "🇺🇸 美国|TG@univstar  17\r_3"
-      - "🇺🇸 美国|TG@univstar  18\r_3"
-      - "🇻🇳 越南|TG@univstar  19\r_3"
-      - "🇻🇳 越南|TG@univstar  20\r_3"
-      - "🇰🇷 韩国|TG@univstar  21\r_3"
-      - "🇰🇷 韩国|TG@univstar  22\r_3"
-      - "🇭🇰 香港|TG@univstar  23\r_3"
-      - "🇭🇰 香港|TG@univstar  24\r_3"
-      - "🇭🇰 香港|TG@univstar  25\r_3"
-      - "🇭🇰 香港|TG@univstar  26\r_3"
-      - "🇭🇰 香港|TG@univstar  27\r_3"
-      - 🇭🇰 香港|TG@univstar  28_3
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇹🇼_TW_台湾_1
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇬🇧_GB_英国_7
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_8
+      - 🇬🇧_GB_英国_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇸🇬_SG_新加坡_1
+      - 🇹🇼_TW_台湾_2
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - 🇬🇧_GB_英国_12
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_8
+      - 🇬🇧_GB_英国_13
+      - 🇺🇸_US_美国_5
+      - 🇹🇼_TW_台湾_3
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_9
+      - 🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -732,90 +410,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇷🇺 俄罗斯|TG@univstar1\r_1"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_1"
-      - "🇮🇩 印尼|TG@univstar  3\r_1"
-      - "🇮🇩 印尼|TG@univstar  4\r_1"
-      - "🇮🇳 印度|TG@univstar  5\r_1"
-      - "🇮🇳 印度|TG@univstar  6\r_1"
-      - "🇨🇳 台湾|TG@univstar  7\r_1"
-      - "🇨🇳 台湾|TG@univstar  8\r_1"
-      - "🇸🇬 新加坡|TG@univstar9\r_1"
-      - "🇸🇬 新加坡|TG@univstar10\r_1"
-      - "🇯🇵 日本|TG@univstar  11\r_1"
-      - "🇯🇵 日本|TG@univstar  12\r_1"
-      - "🇹🇭 泰国|TG@univstar  13\r_1"
-      - "🇹🇭 泰国|TG@univstar  14\r_1"
-      - "🇺🇸 美国|TG@univstar  15\r_1"
-      - "🇺🇸 美国|TG@univstar  16\r_1"
-      - "🇺🇸 美国|TG@univstar  17\r_1"
-      - "🇺🇸 美国|TG@univstar  18\r_1"
-      - "🇻🇳 越南|TG@univstar  19\r_1"
-      - "🇻🇳 越南|TG@univstar  20\r_1"
-      - "🇰🇷 韩国|TG@univstar  21\r_1"
-      - "🇰🇷 韩国|TG@univstar  22\r_1"
-      - "🇭🇰 香港|TG@univstar  23\r_1"
-      - "🇭🇰 香港|TG@univstar  24\r_1"
-      - "🇭🇰 香港|TG@univstar  25\r_1"
-      - "🇭🇰 香港|TG@univstar  26\r_1"
-      - "🇭🇰 香港|TG@univstar  27\r_1"
-      - 🇭🇰 香港|TG@univstar  28_1
-      - "🇷🇺 俄罗斯|TG@univstar1\r_2"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_2"
-      - "🇮🇩 印尼|TG@univstar  3\r_2"
-      - "🇮🇩 印尼|TG@univstar  4\r_2"
-      - "🇮🇳 印度|TG@univstar  5\r_2"
-      - "🇮🇳 印度|TG@univstar  6\r_2"
-      - "🇨🇳 台湾|TG@univstar  7\r_2"
-      - "🇨🇳 台湾|TG@univstar  8\r_2"
-      - "🇸🇬 新加坡|TG@univstar9\r_2"
-      - "🇸🇬 新加坡|TG@univstar10\r_2"
-      - "🇯🇵 日本|TG@univstar  11\r_2"
-      - "🇯🇵 日本|TG@univstar  12\r_2"
-      - "🇹🇭 泰国|TG@univstar  13\r_2"
-      - "🇹🇭 泰国|TG@univstar  14\r_2"
-      - "🇺🇸 美国|TG@univstar  15\r_2"
-      - "🇺🇸 美国|TG@univstar  16\r_2"
-      - "🇺🇸 美国|TG@univstar  17\r_2"
-      - "🇺🇸 美国|TG@univstar  18\r_2"
-      - "🇻🇳 越南|TG@univstar  19\r_2"
-      - "🇻🇳 越南|TG@univstar  20\r_2"
-      - "🇰🇷 韩国|TG@univstar  21\r_2"
-      - "🇰🇷 韩国|TG@univstar  22\r_2"
-      - "🇭🇰 香港|TG@univstar  23\r_2"
-      - "🇭🇰 香港|TG@univstar  24\r_2"
-      - "🇭🇰 香港|TG@univstar  25\r_2"
-      - "🇭🇰 香港|TG@univstar  26\r_2"
-      - "🇭🇰 香港|TG@univstar  27\r_2"
-      - 🇭🇰 香港|TG@univstar  28_2
-      - "🇷🇺 俄罗斯|TG@univstar1\r_3"
-      - "🇷🇺 俄罗斯|TG@univstar2\r_3"
-      - "🇮🇩 印尼|TG@univstar  3\r_3"
-      - "🇮🇩 印尼|TG@univstar  4\r_3"
-      - "🇮🇳 印度|TG@univstar  5\r_3"
-      - "🇮🇳 印度|TG@univstar  6\r_3"
-      - "🇨🇳 台湾|TG@univstar  7\r_3"
-      - "🇨🇳 台湾|TG@univstar  8\r_3"
-      - "🇸🇬 新加坡|TG@univstar9\r_3"
-      - "🇸🇬 新加坡|TG@univstar10\r_3"
-      - "🇯🇵 日本|TG@univstar  11\r_3"
-      - "🇯🇵 日本|TG@univstar  12\r_3"
-      - "🇹🇭 泰国|TG@univstar  13\r_3"
-      - "🇹🇭 泰国|TG@univstar  14\r_3"
-      - "🇺🇸 美国|TG@univstar  15\r_3"
-      - "🇺🇸 美国|TG@univstar  16\r_3"
-      - "🇺🇸 美国|TG@univstar  17\r_3"
-      - "🇺🇸 美国|TG@univstar  18\r_3"
-      - "🇻🇳 越南|TG@univstar  19\r_3"
-      - "🇻🇳 越南|TG@univstar  20\r_3"
-      - "🇰🇷 韩国|TG@univstar  21\r_3"
-      - "🇰🇷 韩国|TG@univstar  22\r_3"
-      - "🇭🇰 香港|TG@univstar  23\r_3"
-      - "🇭🇰 香港|TG@univstar  24\r_3"
-      - "🇭🇰 香港|TG@univstar  25\r_3"
-      - "🇭🇰 香港|TG@univstar  26\r_3"
-      - "🇭🇰 香港|TG@univstar  27\r_3"
-      - 🇭🇰 香港|TG@univstar  28_3
+      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇹🇼_TW_台湾_1
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇬🇧_GB_英国_7
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_8
+      - 🇬🇧_GB_英国_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇸🇬_SG_新加坡_1
+      - 🇹🇼_TW_台湾_2
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - 🇬🇧_GB_英国_12
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_8
+      - 🇬🇧_GB_英国_13
+      - 🇺🇸_US_美国_5
+      - 🇹🇼_TW_台湾_3
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_9
+      - 🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

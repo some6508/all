@@ -5,61 +5,90 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HKG+CM.A/01+x1.0, server: in1a18ba11dfa254.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.B/01+x1.0, server: in2f9636e3484ffa.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CN2/01+x1.0, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.A+HKT負載均衡+x1.0x, server: in1a18ba11dfa254.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.B+HKT負載均衡+x1.0x, server: in2f9636e3484ffa.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CN2/02+x1.0, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.A/03+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.B/03+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CN2/03+x1.0, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.A/04+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.B/04+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CN2/04+x1.0, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.A/05+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CM.B/05+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+CN2/05+x1.0, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/01+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/02+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/03+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/04+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/05+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/06+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/07+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/08+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/09+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: HKG+IEPL.A/10+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CM.A/01+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CM.B/01+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CN2/01+x1.0, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CM.A/02+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CM.B/02+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CN2/02+x1.0, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CM.A/03+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CM.B/03+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+CN2/03+x1.0, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+IEPL.A/01+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+IEPL.A/02+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: JPN+IEPL.A/03+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: USA+IEPL.A/01+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: USA+IEPL.A/02+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: USA+IEPL.A/03+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: TWN+CM.A/01+x3.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: TWN+CM.A/02+x3.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: TWN+CM.A/03+x3.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: TWN+IEPL.A/01+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: TWN+IEPL.A/02+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: TWN+IEPL.A/03+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+CM.A/01+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+CM.B/01+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+CM.A/02+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+CM.B/02+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+CM.A/03+x1.0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+CM.B/03+x1.0, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+IEPL.A/01+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+IEPL.A/02+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
-  - {name: SGP+IEPL.A/03+x3.0, server: ie1a2b8d9a3cd9c8d.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: d171fa50-bc99-45bc-84f9-069e7ae6cb82@, udp: true}
+  - {name: "俄罗斯|TG@univstar1\r_1", server: dx.yhy520.xyz, port: 58828, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "俄罗斯|TG@univstar2\r_1", server: lt.yhy520.xyz, port: 58813, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印尼|TG@univstar 3\r_1", server: dx.yhy520.xyz, port: 58824, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印尼|TG@univstar 4\r_1", server: lt.yhy520.xyz, port: 58829, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印度|TG@univstar 5\r_1", server: dx.yhy520.xyz, port: 58811, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印度|TG@univstar 6\r_1", server: lt.yhy520.xyz, port: 58812, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "台湾|TG@univstar 7\r_1", server: dx.yhy520.xyz, port: 58821, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "台湾|TG@univstar 8\r_1", server: lt.yhy520.xyz, port: 58827, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "新加坡|TG@univstar9\r_1", server: dx.yhy520.xyz, port: 58807, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "新加坡|TG@univstar10\r_1", server: lt.yhy520.xyz, port: 58808, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "日本|TG@univstar 11\r_1", server: dx.yhy520.xyz, port: 58805, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "日本|TG@univstar 12\r_1", server: lt.yhy520.xyz, port: 58806, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "泰国|TG@univstar 13\r_1", server: dx.yhy520.xyz, port: 58825, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "泰国|TG@univstar 14\r_1", server: lt.yhy520.xyz, port: 58830, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 15\r_1", server: dx.yhy520.xyz, port: 58816, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 16\r_1", server: lt.yhy520.xyz, port: 58832, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 17\r_1", server: dx.yhy520.xyz, port: 58817, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 18\r_1", server: lt.yhy520.xyz, port: 58818, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "越南|TG@univstar 19\r_1", server: dx.yhy520.xyz, port: 58814, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "越南|TG@univstar 20\r_1", server: lt.yhy520.xyz, port: 58831, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "韩国|TG@univstar 21\r_1", server: dx.yhy520.xyz, port: 58809, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "韩国|TG@univstar 22\r_1", server: lt.yhy520.xyz, port: 58810, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 23\r_1", server: dx.yhy520.xyz, port: 58801, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 24\r_1", server: lt.yhy520.xyz, port: 58820, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 25\r_1", server: lt.yhy520.xyz, port: 58819, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 26\r_1", server: dx.yhy520.xyz, port: 58803, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 27\r_1", server: dx.yhy520.xyz, port: 58804, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: 香港|TG@univstar 28_1, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "俄罗斯|TG@univstar1\r_2", server: dx.yhy520.xyz, port: 58828, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "俄罗斯|TG@univstar2\r_2", server: lt.yhy520.xyz, port: 58813, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印尼|TG@univstar 3\r_2", server: dx.yhy520.xyz, port: 58824, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印尼|TG@univstar 4\r_2", server: lt.yhy520.xyz, port: 58829, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印度|TG@univstar 5\r_2", server: dx.yhy520.xyz, port: 58811, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印度|TG@univstar 6\r_2", server: lt.yhy520.xyz, port: 58812, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "台湾|TG@univstar 7\r_2", server: dx.yhy520.xyz, port: 58821, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "台湾|TG@univstar 8\r_2", server: lt.yhy520.xyz, port: 58827, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "新加坡|TG@univstar9\r_2", server: dx.yhy520.xyz, port: 58807, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "新加坡|TG@univstar10\r_2", server: lt.yhy520.xyz, port: 58808, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "日本|TG@univstar 11\r_2", server: dx.yhy520.xyz, port: 58805, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "日本|TG@univstar 12\r_2", server: lt.yhy520.xyz, port: 58806, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "泰国|TG@univstar 13\r_2", server: dx.yhy520.xyz, port: 58825, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "泰国|TG@univstar 14\r_2", server: lt.yhy520.xyz, port: 58830, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 15\r_2", server: dx.yhy520.xyz, port: 58816, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 16\r_2", server: lt.yhy520.xyz, port: 58832, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 17\r_2", server: dx.yhy520.xyz, port: 58817, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 18\r_2", server: lt.yhy520.xyz, port: 58818, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "越南|TG@univstar 19\r_2", server: dx.yhy520.xyz, port: 58814, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "越南|TG@univstar 20\r_2", server: lt.yhy520.xyz, port: 58831, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "韩国|TG@univstar 21\r_2", server: dx.yhy520.xyz, port: 58809, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "韩国|TG@univstar 22\r_2", server: lt.yhy520.xyz, port: 58810, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 23\r_2", server: dx.yhy520.xyz, port: 58801, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 24\r_2", server: lt.yhy520.xyz, port: 58820, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 25\r_2", server: lt.yhy520.xyz, port: 58819, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 26\r_2", server: dx.yhy520.xyz, port: 58803, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 27\r_2", server: dx.yhy520.xyz, port: 58804, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: 香港|TG@univstar 28_2, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "俄罗斯|TG@univstar1\r_3", server: dx.yhy520.xyz, port: 58828, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "俄罗斯|TG@univstar2\r_3", server: lt.yhy520.xyz, port: 58813, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印尼|TG@univstar 3\r_3", server: dx.yhy520.xyz, port: 58824, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印尼|TG@univstar 4\r_3", server: lt.yhy520.xyz, port: 58829, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印度|TG@univstar 5\r_3", server: dx.yhy520.xyz, port: 58811, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "印度|TG@univstar 6\r_3", server: lt.yhy520.xyz, port: 58812, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "台湾|TG@univstar 7\r_3", server: dx.yhy520.xyz, port: 58821, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "台湾|TG@univstar 8\r_3", server: lt.yhy520.xyz, port: 58827, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "新加坡|TG@univstar9\r_3", server: dx.yhy520.xyz, port: 58807, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "新加坡|TG@univstar10\r_3", server: lt.yhy520.xyz, port: 58808, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "日本|TG@univstar 11\r_3", server: dx.yhy520.xyz, port: 58805, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "日本|TG@univstar 12\r_3", server: lt.yhy520.xyz, port: 58806, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "泰国|TG@univstar 13\r_3", server: dx.yhy520.xyz, port: 58825, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "泰国|TG@univstar 14\r_3", server: lt.yhy520.xyz, port: 58830, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 15\r_3", server: dx.yhy520.xyz, port: 58816, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 16\r_3", server: lt.yhy520.xyz, port: 58832, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 17\r_3", server: dx.yhy520.xyz, port: 58817, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "美国|TG@univstar 18\r_3", server: lt.yhy520.xyz, port: 58818, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "越南|TG@univstar 19\r_3", server: dx.yhy520.xyz, port: 58814, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "越南|TG@univstar 20\r_3", server: lt.yhy520.xyz, port: 58831, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "韩国|TG@univstar 21\r_3", server: dx.yhy520.xyz, port: 58809, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "韩国|TG@univstar 22\r_3", server: lt.yhy520.xyz, port: 58810, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 23\r_3", server: dx.yhy520.xyz, port: 58801, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 24\r_3", server: lt.yhy520.xyz, port: 58820, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 25\r_3", server: lt.yhy520.xyz, port: 58819, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 26\r_3", server: dx.yhy520.xyz, port: 58803, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: "香港|TG@univstar 27\r_3", server: dx.yhy520.xyz, port: 58804, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
+  - {name: 香港|TG@univstar 28_3, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 43684d6c-8d9a-3ab5-b6d2-3d6017733358, sni: telegram.channel.univstar, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -967,61 +996,90 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - HKG+CM.A/01+x1.0
-      - HKG+CM.B/01+x1.0
-      - HKG+CN2/01+x1.0
-      - HKG+CM.A+HKT負載均衡+x1.0x
-      - HKG+CM.B+HKT負載均衡+x1.0x
-      - HKG+CN2/02+x1.0
-      - HKG+CM.A/03+x1.0
-      - HKG+CM.B/03+x1.0
-      - HKG+CN2/03+x1.0
-      - HKG+CM.A/04+x1.0
-      - HKG+CM.B/04+x1.0
-      - HKG+CN2/04+x1.0
-      - HKG+CM.A/05+x1.0
-      - HKG+CM.B/05+x1.0
-      - HKG+CN2/05+x1.0
-      - HKG+IEPL.A/01+x3.0
-      - HKG+IEPL.A/02+x3.0
-      - HKG+IEPL.A/03+x3.0
-      - HKG+IEPL.A/04+x3.0
-      - HKG+IEPL.A/05+x3.0
-      - HKG+IEPL.A/06+x3.0
-      - HKG+IEPL.A/07+x3.0
-      - HKG+IEPL.A/08+x3.0
-      - HKG+IEPL.A/09+x3.0
-      - HKG+IEPL.A/10+x3.0
-      - JPN+CM.A/01+x1.0
-      - JPN+CM.B/01+x1.0
-      - JPN+CN2/01+x1.0
-      - JPN+CM.A/02+x1.0
-      - JPN+CM.B/02+x1.0
-      - JPN+CN2/02+x1.0
-      - JPN+CM.A/03+x1.0
-      - JPN+CM.B/03+x1.0
-      - JPN+CN2/03+x1.0
-      - JPN+IEPL.A/01+x3.0
-      - JPN+IEPL.A/02+x3.0
-      - JPN+IEPL.A/03+x3.0
-      - USA+IEPL.A/01+x3.0
-      - USA+IEPL.A/02+x3.0
-      - USA+IEPL.A/03+x3.0
-      - TWN+CM.A/01+x3.0
-      - TWN+CM.A/02+x3.0
-      - TWN+CM.A/03+x3.0
-      - TWN+IEPL.A/01+x3.0
-      - TWN+IEPL.A/02+x3.0
-      - TWN+IEPL.A/03+x3.0
-      - SGP+CM.A/01+x1.0
-      - SGP+CM.B/01+x1.0
-      - SGP+CM.A/02+x1.0
-      - SGP+CM.B/02+x1.0
-      - SGP+CM.A/03+x1.0
-      - SGP+CM.B/03+x1.0
-      - SGP+IEPL.A/01+x3.0
-      - SGP+IEPL.A/02+x3.0
-      - SGP+IEPL.A/03+x3.0
+      - "俄罗斯|TG@univstar1\r_1"
+      - "俄罗斯|TG@univstar2\r_1"
+      - "印尼|TG@univstar 3\r_1"
+      - "印尼|TG@univstar 4\r_1"
+      - "印度|TG@univstar 5\r_1"
+      - "印度|TG@univstar 6\r_1"
+      - "台湾|TG@univstar 7\r_1"
+      - "台湾|TG@univstar 8\r_1"
+      - "新加坡|TG@univstar9\r_1"
+      - "新加坡|TG@univstar10\r_1"
+      - "日本|TG@univstar 11\r_1"
+      - "日本|TG@univstar 12\r_1"
+      - "泰国|TG@univstar 13\r_1"
+      - "泰国|TG@univstar 14\r_1"
+      - "美国|TG@univstar 15\r_1"
+      - "美国|TG@univstar 16\r_1"
+      - "美国|TG@univstar 17\r_1"
+      - "美国|TG@univstar 18\r_1"
+      - "越南|TG@univstar 19\r_1"
+      - "越南|TG@univstar 20\r_1"
+      - "韩国|TG@univstar 21\r_1"
+      - "韩国|TG@univstar 22\r_1"
+      - "香港|TG@univstar 23\r_1"
+      - "香港|TG@univstar 24\r_1"
+      - "香港|TG@univstar 25\r_1"
+      - "香港|TG@univstar 26\r_1"
+      - "香港|TG@univstar 27\r_1"
+      - 香港|TG@univstar 28_1
+      - "俄罗斯|TG@univstar1\r_2"
+      - "俄罗斯|TG@univstar2\r_2"
+      - "印尼|TG@univstar 3\r_2"
+      - "印尼|TG@univstar 4\r_2"
+      - "印度|TG@univstar 5\r_2"
+      - "印度|TG@univstar 6\r_2"
+      - "台湾|TG@univstar 7\r_2"
+      - "台湾|TG@univstar 8\r_2"
+      - "新加坡|TG@univstar9\r_2"
+      - "新加坡|TG@univstar10\r_2"
+      - "日本|TG@univstar 11\r_2"
+      - "日本|TG@univstar 12\r_2"
+      - "泰国|TG@univstar 13\r_2"
+      - "泰国|TG@univstar 14\r_2"
+      - "美国|TG@univstar 15\r_2"
+      - "美国|TG@univstar 16\r_2"
+      - "美国|TG@univstar 17\r_2"
+      - "美国|TG@univstar 18\r_2"
+      - "越南|TG@univstar 19\r_2"
+      - "越南|TG@univstar 20\r_2"
+      - "韩国|TG@univstar 21\r_2"
+      - "韩国|TG@univstar 22\r_2"
+      - "香港|TG@univstar 23\r_2"
+      - "香港|TG@univstar 24\r_2"
+      - "香港|TG@univstar 25\r_2"
+      - "香港|TG@univstar 26\r_2"
+      - "香港|TG@univstar 27\r_2"
+      - 香港|TG@univstar 28_2
+      - "俄罗斯|TG@univstar1\r_3"
+      - "俄罗斯|TG@univstar2\r_3"
+      - "印尼|TG@univstar 3\r_3"
+      - "印尼|TG@univstar 4\r_3"
+      - "印度|TG@univstar 5\r_3"
+      - "印度|TG@univstar 6\r_3"
+      - "台湾|TG@univstar 7\r_3"
+      - "台湾|TG@univstar 8\r_3"
+      - "新加坡|TG@univstar9\r_3"
+      - "新加坡|TG@univstar10\r_3"
+      - "日本|TG@univstar 11\r_3"
+      - "日本|TG@univstar 12\r_3"
+      - "泰国|TG@univstar 13\r_3"
+      - "泰国|TG@univstar 14\r_3"
+      - "美国|TG@univstar 15\r_3"
+      - "美国|TG@univstar 16\r_3"
+      - "美国|TG@univstar 17\r_3"
+      - "美国|TG@univstar 18\r_3"
+      - "越南|TG@univstar 19\r_3"
+      - "越南|TG@univstar 20\r_3"
+      - "韩国|TG@univstar 21\r_3"
+      - "韩国|TG@univstar 22\r_3"
+      - "香港|TG@univstar 23\r_3"
+      - "香港|TG@univstar 24\r_3"
+      - "香港|TG@univstar 25\r_3"
+      - "香港|TG@univstar 26\r_3"
+      - "香港|TG@univstar 27\r_3"
+      - 香港|TG@univstar 28_3
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -1929,61 +1987,90 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - HKG+CM.A/01+x1.0
-      - HKG+CM.B/01+x1.0
-      - HKG+CN2/01+x1.0
-      - HKG+CM.A+HKT負載均衡+x1.0x
-      - HKG+CM.B+HKT負載均衡+x1.0x
-      - HKG+CN2/02+x1.0
-      - HKG+CM.A/03+x1.0
-      - HKG+CM.B/03+x1.0
-      - HKG+CN2/03+x1.0
-      - HKG+CM.A/04+x1.0
-      - HKG+CM.B/04+x1.0
-      - HKG+CN2/04+x1.0
-      - HKG+CM.A/05+x1.0
-      - HKG+CM.B/05+x1.0
-      - HKG+CN2/05+x1.0
-      - HKG+IEPL.A/01+x3.0
-      - HKG+IEPL.A/02+x3.0
-      - HKG+IEPL.A/03+x3.0
-      - HKG+IEPL.A/04+x3.0
-      - HKG+IEPL.A/05+x3.0
-      - HKG+IEPL.A/06+x3.0
-      - HKG+IEPL.A/07+x3.0
-      - HKG+IEPL.A/08+x3.0
-      - HKG+IEPL.A/09+x3.0
-      - HKG+IEPL.A/10+x3.0
-      - JPN+CM.A/01+x1.0
-      - JPN+CM.B/01+x1.0
-      - JPN+CN2/01+x1.0
-      - JPN+CM.A/02+x1.0
-      - JPN+CM.B/02+x1.0
-      - JPN+CN2/02+x1.0
-      - JPN+CM.A/03+x1.0
-      - JPN+CM.B/03+x1.0
-      - JPN+CN2/03+x1.0
-      - JPN+IEPL.A/01+x3.0
-      - JPN+IEPL.A/02+x3.0
-      - JPN+IEPL.A/03+x3.0
-      - USA+IEPL.A/01+x3.0
-      - USA+IEPL.A/02+x3.0
-      - USA+IEPL.A/03+x3.0
-      - TWN+CM.A/01+x3.0
-      - TWN+CM.A/02+x3.0
-      - TWN+CM.A/03+x3.0
-      - TWN+IEPL.A/01+x3.0
-      - TWN+IEPL.A/02+x3.0
-      - TWN+IEPL.A/03+x3.0
-      - SGP+CM.A/01+x1.0
-      - SGP+CM.B/01+x1.0
-      - SGP+CM.A/02+x1.0
-      - SGP+CM.B/02+x1.0
-      - SGP+CM.A/03+x1.0
-      - SGP+CM.B/03+x1.0
-      - SGP+IEPL.A/01+x3.0
-      - SGP+IEPL.A/02+x3.0
-      - SGP+IEPL.A/03+x3.0
+      - "俄罗斯|TG@univstar1\r_1"
+      - "俄罗斯|TG@univstar2\r_1"
+      - "印尼|TG@univstar 3\r_1"
+      - "印尼|TG@univstar 4\r_1"
+      - "印度|TG@univstar 5\r_1"
+      - "印度|TG@univstar 6\r_1"
+      - "台湾|TG@univstar 7\r_1"
+      - "台湾|TG@univstar 8\r_1"
+      - "新加坡|TG@univstar9\r_1"
+      - "新加坡|TG@univstar10\r_1"
+      - "日本|TG@univstar 11\r_1"
+      - "日本|TG@univstar 12\r_1"
+      - "泰国|TG@univstar 13\r_1"
+      - "泰国|TG@univstar 14\r_1"
+      - "美国|TG@univstar 15\r_1"
+      - "美国|TG@univstar 16\r_1"
+      - "美国|TG@univstar 17\r_1"
+      - "美国|TG@univstar 18\r_1"
+      - "越南|TG@univstar 19\r_1"
+      - "越南|TG@univstar 20\r_1"
+      - "韩国|TG@univstar 21\r_1"
+      - "韩国|TG@univstar 22\r_1"
+      - "香港|TG@univstar 23\r_1"
+      - "香港|TG@univstar 24\r_1"
+      - "香港|TG@univstar 25\r_1"
+      - "香港|TG@univstar 26\r_1"
+      - "香港|TG@univstar 27\r_1"
+      - 香港|TG@univstar 28_1
+      - "俄罗斯|TG@univstar1\r_2"
+      - "俄罗斯|TG@univstar2\r_2"
+      - "印尼|TG@univstar 3\r_2"
+      - "印尼|TG@univstar 4\r_2"
+      - "印度|TG@univstar 5\r_2"
+      - "印度|TG@univstar 6\r_2"
+      - "台湾|TG@univstar 7\r_2"
+      - "台湾|TG@univstar 8\r_2"
+      - "新加坡|TG@univstar9\r_2"
+      - "新加坡|TG@univstar10\r_2"
+      - "日本|TG@univstar 11\r_2"
+      - "日本|TG@univstar 12\r_2"
+      - "泰国|TG@univstar 13\r_2"
+      - "泰国|TG@univstar 14\r_2"
+      - "美国|TG@univstar 15\r_2"
+      - "美国|TG@univstar 16\r_2"
+      - "美国|TG@univstar 17\r_2"
+      - "美国|TG@univstar 18\r_2"
+      - "越南|TG@univstar 19\r_2"
+      - "越南|TG@univstar 20\r_2"
+      - "韩国|TG@univstar 21\r_2"
+      - "韩国|TG@univstar 22\r_2"
+      - "香港|TG@univstar 23\r_2"
+      - "香港|TG@univstar 24\r_2"
+      - "香港|TG@univstar 25\r_2"
+      - "香港|TG@univstar 26\r_2"
+      - "香港|TG@univstar 27\r_2"
+      - 香港|TG@univstar 28_2
+      - "俄罗斯|TG@univstar1\r_3"
+      - "俄罗斯|TG@univstar2\r_3"
+      - "印尼|TG@univstar 3\r_3"
+      - "印尼|TG@univstar 4\r_3"
+      - "印度|TG@univstar 5\r_3"
+      - "印度|TG@univstar 6\r_3"
+      - "台湾|TG@univstar 7\r_3"
+      - "台湾|TG@univstar 8\r_3"
+      - "新加坡|TG@univstar9\r_3"
+      - "新加坡|TG@univstar10\r_3"
+      - "日本|TG@univstar 11\r_3"
+      - "日本|TG@univstar 12\r_3"
+      - "泰国|TG@univstar 13\r_3"
+      - "泰国|TG@univstar 14\r_3"
+      - "美国|TG@univstar 15\r_3"
+      - "美国|TG@univstar 16\r_3"
+      - "美国|TG@univstar 17\r_3"
+      - "美国|TG@univstar 18\r_3"
+      - "越南|TG@univstar 19\r_3"
+      - "越南|TG@univstar 20\r_3"
+      - "韩国|TG@univstar 21\r_3"
+      - "韩国|TG@univstar 22\r_3"
+      - "香港|TG@univstar 23\r_3"
+      - "香港|TG@univstar 24\r_3"
+      - "香港|TG@univstar 25\r_3"
+      - "香港|TG@univstar 26\r_3"
+      - "香港|TG@univstar 27\r_3"
+      - 香港|TG@univstar 28_3
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
