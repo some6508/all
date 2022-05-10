@@ -5,109 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"193.9.114.34","port":802,"name":"irFilter_BE_1"}
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"193.9.114.34","port":810,"name":"irFilter_BE_2"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"4ejJ8n5ddLuYDUHGXJre2ufJ","server":"185.99.3.102","port":48938,"name":"irFilter_BA_3"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"YyCBeDdYX4cadHpCkkmdJLq8","server":"185.99.3.102","port":43893,"name":"irFilter_BA_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"BdRWC38L5JUDMTYNNxJGcUwB","server":"185.99.3.102","port":49396,"name":"irFilter_BA_5"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"suucSeVLmt6PQKAP77NtGw9x","server":"185.212.111.59","port":49339,"name":"irFilter_BA_6"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"212.38.189.174","port":8881,"name":"irFilter_GB_7"}
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"193.9.114.34","port":803,"name":"irFilter_BE_8"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"134.195.196.147","port":8091,"name":"irFilter_CA_9"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.36","port":8888,"name":"irFilter_CA_10"}
+  - {"type":"vmess","server":"202.64.1.102","name":"🇭🇰_HK_香港","port":553,"uuid":"30ef0f29-da14-349d-9c49-728d5adc4ba8","alterId":8,"cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"134.195.196.16","port":2376,"name":"🇨🇦_CA_加拿大"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"167.88.63.59","port":6697,"name":"🇺🇸_US_美国"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5001,"name":"🇬🇧_GB_英国"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - irFilter_BE_1
-      - irFilter_BE_2
-      - irFilter_BA_3
-      - irFilter_BA_4
-      - irFilter_BA_5
-      - irFilter_BA_6
-      - irFilter_GB_7
-      - irFilter_BE_8
-      - irFilter_CA_9
-      - irFilter_CA_10
+      - 🇭🇰_HK_香港
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - irFilter_BE_1
-      - irFilter_BE_2
-      - irFilter_BA_3
-      - irFilter_BA_4
-      - irFilter_BA_5
-      - irFilter_BA_6
-      - irFilter_GB_7
-      - irFilter_BE_8
-      - irFilter_CA_9
-      - irFilter_CA_10
+      - 🇭🇰_HK_香港
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - irFilter_BE_1
-      - irFilter_BE_2
-      - irFilter_BA_3
-      - irFilter_BA_4
-      - irFilter_BA_5
-      - irFilter_BA_6
-      - irFilter_GB_7
-      - irFilter_BE_8
-      - irFilter_CA_9
-      - irFilter_CA_10
+      - 🇭🇰_HK_香港
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - irFilter_BE_1
-      - irFilter_BE_2
-      - irFilter_BA_3
-      - irFilter_BA_4
-      - irFilter_BA_5
-      - irFilter_BA_6
-      - irFilter_GB_7
-      - irFilter_BE_8
-      - irFilter_CA_9
-      - irFilter_CA_10
+      - 🇭🇰_HK_香港
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - irFilter_BE_1
-      - irFilter_BE_2
-      - irFilter_BA_3
-      - irFilter_BA_4
-      - irFilter_BA_5
-      - irFilter_BA_6
-      - irFilter_GB_7
-      - irFilter_BE_8
-      - irFilter_CA_9
-      - irFilter_CA_10
+      - 🇭🇰_HK_香港
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - irFilter_BE_1
-      - irFilter_BE_2
-      - irFilter_BA_3
-      - irFilter_BA_4
-      - irFilter_BA_5
-      - irFilter_BA_6
-      - irFilter_GB_7
-      - irFilter_BE_8
-      - irFilter_CA_9
-      - irFilter_CA_10
+      - 🇭🇰_HK_香港
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - irFilter_BE_1
-      - irFilter_BE_2
-      - irFilter_BA_3
-      - irFilter_BA_4
-      - irFilter_BA_5
-      - irFilter_BA_6
-      - irFilter_GB_7
-      - irFilter_BE_8
-      - irFilter_CA_9
-      - irFilter_CA_10
+      - 🇭🇰_HK_香港
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
