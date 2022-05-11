@@ -5,226 +5,389 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇸🇬
-    【tg@freevpn8】_🇸🇬SG-🇸🇬SG_1593","server":"us232.support-putin-kill-all-ukrainians.98848.xyz","password":"99b166ff-25ab-4bda-9493-618d491c2a9a","port":"443/","udp":true,"skip-cert-verify":true,"sni":"us232.support-putin-kill-all-ukrainians.98848.xyz"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"158.247.224.121","port":8009,"name":"🇺🇸US_1680"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj","server":"213.183.53.177","port":9084,"name":"🇱🇹
-    LT_854"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.205","port":5601,"name":"🏁ZZ_3625"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"198.57.27.225","port":7002,"name":"CA-v2cross.com_1"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y","server":"185.167.117.171","port":9001,"name":"🇬🇧
-    GB_852 |11.68Mb"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ","server":"152.89.210.105","port":9038,"name":"🇬🇧
-    GB_62 TG@peekfun"}
-  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":24010,"name":"🇨🇳
-    【tg@freevpn8】_🇨🇳CN-🇹🇼TW_416"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"172.99.190.35","port":6697,"name":"GB-v2cross.com_1"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM","server":"213.183.53.177","port":9019,"name":"🇱🇹
-    LT_91 TG@peekfun"}
-  - {"type":"vmess","ws-opts":{"path":"/ssrsub"},"server":"v5.ssrsub.com","name":"v2cross.com
-    - 美国CloudFlare节点
-    28","port":"8443","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"198.57.27.225","port":8118,"name":"CA-v2cross.com_2"}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"20.24.77.204"}},"server":"20.24.77.204","name":"US-v2cross.com","port":"60015","uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"v2cross.com - 美国 
-    7","server":"free.spcloud.us","password":"fdb6f3a3-9d29-47c3-8c92-5a279626dc5b","port":"10001","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"us03.xqkj.cloud"}},"server":"us03.xqkj.cloud","name":"v2cross.com
-    - 美国 
-    11","port":"1113","uuid":"02fb79cc-d0d4-4429-8a2d-abce3746855e","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"172.99.190.35","port":5004,"name":"GB-v2cross.com_2"}
-  - {"type":"trojan","name":"v2cross.com_1","server":"v2cross.com.02.v2ce.com","password":"3gLlCYBipVwr6Y5F","port":"443","udp":true,"skip-cert-verify":true,"sni":"v2cross.com.02.v2ce.com"}
-  - {"type":"trojan","name":"v2cross.com_2","server":"cd.rutracker-cn.com","password":"ukMzuFSmIXDvgW0h","port":"443","udp":true,"skip-cert-verify":true,"sni":"cd.rutracker-cn.com"}
-  - {"type":"vmess","ws-opts":{"path":"/ray","headers":{"host":"54sg.fans8.xyz"}},"server":"54sg.fans8.xyz","name":"CN-v2cross.com","port":"443","uuid":"dc09c9a0-1697-3f39-8ba9-65f2985e00ec","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"134.195.196.205","port":6379,"name":"CA-v2cross.com_3"}
-  - {"type":"vmess","server":"150.230.96.106","name":"v2cross.com - 美国 
-    4","port":57239,"uuid":"edf155b8-10e0-4a48-8bfc-6ce2d9f3ff72","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ","server":"185.167.117.171","port":9094,"name":"🇬🇧GB_806"}
-  - {"name":"HK-v2cross.com","type":"vless","server":"47.242.74.2","port":21002,"uuid":"58ca1c55-5c3d-4add-92c4-a109bbfd20b6","skip-cert-verify":true,"servername":"47.242.74.2"}
-  - {"type":"trojan","name":"v2cross.com_3","server":"los1.v2ce.com","password":"fIYU5DCiWZ6uYOou","port":"443","udp":true,"skip-cert-verify":true,"sni":"los1.v2ce.com"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.205","port":8119,"name":"CA-v2cross.com_4"}
+  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.132.158.232"]}},"server":"43.132.158.232","name":"🇭🇰_HK_香港","port":44350,"uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"167.88.63.60","port":2376,"name":"🇺🇸_US_美国_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.64","port":3389,"name":"🇨🇦_CA_加拿大_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"134.195.196.16","port":7002,"name":"🇨🇦_CA_加拿大_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"134.195.196.16","port":2376,"name":"🇨🇦_CA_加拿大_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"134.195.196.79","port":7307,"name":"🇨🇦_CA_加拿大_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.64","port":5601,"name":"🇨🇦_CA_加拿大_5"}
+  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.77.196"]}},"server":"43.154.77.196","name":"🇨🇳_CN_中国_1","port":38539,"uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"167.88.63.60","port":8091,"name":"🇺🇸_US_美国_2"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"116.129.253.191","password":"a170b44c2dfac9e6","port":"3389","udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","server":"152.89.210.105","port":9073,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"daFYagqDdBdA6VTX","name":"🇬🇧_GB_英国_1"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"116.129.253.227","password":"a170b44c2dfac9e6","port":"3389","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE","server":"217.30.10.63","port":9050,"name":"🇵🇱_PL_波兰_1"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX","server":"152.89.210.105","port":9073,"name":"🇬🇧_GB_英国_2"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇭🇰_HK_香港","server":"hl1.liuliangzhuanfa.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"45379","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国->🇮🇳_IN_印度","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"33346","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国->🇭🇰_HK_香港","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"22818","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国->🇹🇼_TW_台湾","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"39675","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"72.140.224.197","port":806,"name":"🇨🇦_CA_加拿大_6"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk","server":"217.30.10.63","port":9098,"name":"🇵🇱_PL_波兰_2"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH","server":"217.30.10.64","port":9070,"name":"🇵🇱_PL_波兰_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"134.195.196.64","port":6379,"name":"🇨🇦_CA_加拿大_7"}
+  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.46.228"]}},"server":"43.154.46.228","name":"🇨🇳_CN_中国_2","port":49930,"uuid":"051088e3-f62e-4cf6-a199-ab98adcb822b","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.196.41","port":4444,"name":"🇨🇦_CA_加拿大_8"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"72.140.224.197","port":800,"name":"🇨🇦_CA_加拿大_9"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"72.140.224.197","port":811,"name":"🇨🇦_CA_加拿大_10"}
+  - {"type":"trojan","name":"🇭🇰_HK_香港->🇺🇸_US_美国","server":"az.az-bgp.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"22818","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇭🇰_HK_香港->🇮🇳_IN_印度","server":"az.az-bgp.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"33346","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE","server":"152.89.210.105","port":9050,"name":"🇬🇧_GB_英国_3"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU","server":"152.89.210.105","port":9037,"name":"🇬🇧_GB_英国_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"198.57.27.225","port":8008,"name":"🇨🇦_CA_加拿大_11"}
+  - {"type":"ssr","server":"152.89.210.105","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ","name":"🇬🇧_GB_英国_5"}
+  - {"type":"ssr","server":"152.89.210.105","port":9050,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FG5ddLsMPbV5CutE","name":"🇬🇧_GB_英国_6"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"72.140.224.197","port":801,"name":"🇨🇦_CA_加拿大_12"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","server":"116.129.253.134","password":"e37c6d7efa845d60","port":"3389","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z","server":"5.183.179.139","port":9057,"name":"🇩🇪_DE_德国"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"62.210.113.98","port":6679,"name":"🇫🇷_FR_法国"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ","server":"213.183.63.217","port":9008,"name":"🇧🇬_BG_保加利亚"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY","server":"213.183.59.229","port":9007,"name":"🇳🇱_NL_荷兰"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C","server":"217.30.10.65","port":9053,"name":"🇵🇱_PL_波兰_4"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX","server":"217.30.10.65","port":9045,"name":"🇵🇱_PL_波兰_5"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ","server":"217.30.10.65","port":9038,"name":"🇵🇱_PL_波兰_6"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa","server":"217.30.10.65","port":9011,"name":"🇵🇱_PL_波兰_7"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn","server":"217.30.10.65","port":9088,"name":"🇵🇱_PL_波兰_8"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ","server":"217.30.10.63","port":9094,"name":"🇵🇱_PL_波兰_9"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf","server":"217.30.10.65","port":9015,"name":"🇵🇱_PL_波兰_10"}
+  - {"type":"trojan","name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"41535","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"134.195.196.79","port":2376,"name":"🇨🇦_CA_加拿大_13"}
+  - {"type":"trojan","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡","server":"az.az-bgp.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"30484","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga","server":"103.172.116.9","port":9042,"name":"default_name"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 【tg@freevpn8】_🇸🇬SG-🇸🇬SG_1593
-      - 🇺🇸US_1680
-      - 🇱🇹 LT_854
-      - 🏁ZZ_3625
-      - CA-v2cross.com_1
-      - 🇬🇧 GB_852 |11.68Mb
-      - 🇬🇧 GB_62 TG@peekfun
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_416
-      - GB-v2cross.com_1
-      - 🇱🇹 LT_91 TG@peekfun
-      - v2cross.com - 美国CloudFlare节点 28
-      - CA-v2cross.com_2
-      - US-v2cross.com
-      - v2cross.com - 美国  7
-      - v2cross.com - 美国  11
-      - GB-v2cross.com_2
-      - v2cross.com_1
-      - v2cross.com_2
-      - CN-v2cross.com
-      - CA-v2cross.com_3
-      - v2cross.com - 美国  4
-      - 🇬🇧GB_806
-      - HK-v2cross.com
-      - v2cross.com_3
-      - CA-v2cross.com_4
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇱_PL_波兰_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇹🇼_TW_台湾
+      - 🇨🇦_CA_加拿大_6
+      - 🇵🇱_PL_波兰_2
+      - 🇵🇱_PL_波兰_3
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国_2
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇭🇰_HK_香港->🇺🇸_US_美国
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇦_CA_加拿大_11
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰
+      - 🇵🇱_PL_波兰_4
+      - 🇵🇱_PL_波兰_5
+      - 🇵🇱_PL_波兰_6
+      - 🇵🇱_PL_波兰_7
+      - 🇵🇱_PL_波兰_8
+      - 🇵🇱_PL_波兰_9
+      - 🇵🇱_PL_波兰_10
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦_CA_加拿大_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
+      - default_name
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 【tg@freevpn8】_🇸🇬SG-🇸🇬SG_1593
-      - 🇺🇸US_1680
-      - 🇱🇹 LT_854
-      - 🏁ZZ_3625
-      - CA-v2cross.com_1
-      - 🇬🇧 GB_852 |11.68Mb
-      - 🇬🇧 GB_62 TG@peekfun
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_416
-      - GB-v2cross.com_1
-      - 🇱🇹 LT_91 TG@peekfun
-      - v2cross.com - 美国CloudFlare节点 28
-      - CA-v2cross.com_2
-      - US-v2cross.com
-      - v2cross.com - 美国  7
-      - v2cross.com - 美国  11
-      - GB-v2cross.com_2
-      - v2cross.com_1
-      - v2cross.com_2
-      - CN-v2cross.com
-      - CA-v2cross.com_3
-      - v2cross.com - 美国  4
-      - 🇬🇧GB_806
-      - HK-v2cross.com
-      - v2cross.com_3
-      - CA-v2cross.com_4
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇱_PL_波兰_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇹🇼_TW_台湾
+      - 🇨🇦_CA_加拿大_6
+      - 🇵🇱_PL_波兰_2
+      - 🇵🇱_PL_波兰_3
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国_2
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇭🇰_HK_香港->🇺🇸_US_美国
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇦_CA_加拿大_11
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰
+      - 🇵🇱_PL_波兰_4
+      - 🇵🇱_PL_波兰_5
+      - 🇵🇱_PL_波兰_6
+      - 🇵🇱_PL_波兰_7
+      - 🇵🇱_PL_波兰_8
+      - 🇵🇱_PL_波兰_9
+      - 🇵🇱_PL_波兰_10
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦_CA_加拿大_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
+      - default_name
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 【tg@freevpn8】_🇸🇬SG-🇸🇬SG_1593
-      - 🇺🇸US_1680
-      - 🇱🇹 LT_854
-      - 🏁ZZ_3625
-      - CA-v2cross.com_1
-      - 🇬🇧 GB_852 |11.68Mb
-      - 🇬🇧 GB_62 TG@peekfun
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_416
-      - GB-v2cross.com_1
-      - 🇱🇹 LT_91 TG@peekfun
-      - v2cross.com - 美国CloudFlare节点 28
-      - CA-v2cross.com_2
-      - US-v2cross.com
-      - v2cross.com - 美国  7
-      - v2cross.com - 美国  11
-      - GB-v2cross.com_2
-      - v2cross.com_1
-      - v2cross.com_2
-      - CN-v2cross.com
-      - CA-v2cross.com_3
-      - v2cross.com - 美国  4
-      - 🇬🇧GB_806
-      - HK-v2cross.com
-      - v2cross.com_3
-      - CA-v2cross.com_4
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇱_PL_波兰_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇹🇼_TW_台湾
+      - 🇨🇦_CA_加拿大_6
+      - 🇵🇱_PL_波兰_2
+      - 🇵🇱_PL_波兰_3
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国_2
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇭🇰_HK_香港->🇺🇸_US_美国
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇦_CA_加拿大_11
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰
+      - 🇵🇱_PL_波兰_4
+      - 🇵🇱_PL_波兰_5
+      - 🇵🇱_PL_波兰_6
+      - 🇵🇱_PL_波兰_7
+      - 🇵🇱_PL_波兰_8
+      - 🇵🇱_PL_波兰_9
+      - 🇵🇱_PL_波兰_10
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦_CA_加拿大_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
+      - default_name
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 【tg@freevpn8】_🇸🇬SG-🇸🇬SG_1593
-      - 🇺🇸US_1680
-      - 🇱🇹 LT_854
-      - 🏁ZZ_3625
-      - CA-v2cross.com_1
-      - 🇬🇧 GB_852 |11.68Mb
-      - 🇬🇧 GB_62 TG@peekfun
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_416
-      - GB-v2cross.com_1
-      - 🇱🇹 LT_91 TG@peekfun
-      - v2cross.com - 美国CloudFlare节点 28
-      - CA-v2cross.com_2
-      - US-v2cross.com
-      - v2cross.com - 美国  7
-      - v2cross.com - 美国  11
-      - GB-v2cross.com_2
-      - v2cross.com_1
-      - v2cross.com_2
-      - CN-v2cross.com
-      - CA-v2cross.com_3
-      - v2cross.com - 美国  4
-      - 🇬🇧GB_806
-      - HK-v2cross.com
-      - v2cross.com_3
-      - CA-v2cross.com_4
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇱_PL_波兰_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇹🇼_TW_台湾
+      - 🇨🇦_CA_加拿大_6
+      - 🇵🇱_PL_波兰_2
+      - 🇵🇱_PL_波兰_3
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国_2
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇭🇰_HK_香港->🇺🇸_US_美国
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇦_CA_加拿大_11
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰
+      - 🇵🇱_PL_波兰_4
+      - 🇵🇱_PL_波兰_5
+      - 🇵🇱_PL_波兰_6
+      - 🇵🇱_PL_波兰_7
+      - 🇵🇱_PL_波兰_8
+      - 🇵🇱_PL_波兰_9
+      - 🇵🇱_PL_波兰_10
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦_CA_加拿大_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
+      - default_name
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 【tg@freevpn8】_🇸🇬SG-🇸🇬SG_1593
-      - 🇺🇸US_1680
-      - 🇱🇹 LT_854
-      - 🏁ZZ_3625
-      - CA-v2cross.com_1
-      - 🇬🇧 GB_852 |11.68Mb
-      - 🇬🇧 GB_62 TG@peekfun
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_416
-      - GB-v2cross.com_1
-      - 🇱🇹 LT_91 TG@peekfun
-      - v2cross.com - 美国CloudFlare节点 28
-      - CA-v2cross.com_2
-      - US-v2cross.com
-      - v2cross.com - 美国  7
-      - v2cross.com - 美国  11
-      - GB-v2cross.com_2
-      - v2cross.com_1
-      - v2cross.com_2
-      - CN-v2cross.com
-      - CA-v2cross.com_3
-      - v2cross.com - 美国  4
-      - 🇬🇧GB_806
-      - HK-v2cross.com
-      - v2cross.com_3
-      - CA-v2cross.com_4
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇱_PL_波兰_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇹🇼_TW_台湾
+      - 🇨🇦_CA_加拿大_6
+      - 🇵🇱_PL_波兰_2
+      - 🇵🇱_PL_波兰_3
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国_2
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇭🇰_HK_香港->🇺🇸_US_美国
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇦_CA_加拿大_11
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰
+      - 🇵🇱_PL_波兰_4
+      - 🇵🇱_PL_波兰_5
+      - 🇵🇱_PL_波兰_6
+      - 🇵🇱_PL_波兰_7
+      - 🇵🇱_PL_波兰_8
+      - 🇵🇱_PL_波兰_9
+      - 🇵🇱_PL_波兰_10
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦_CA_加拿大_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
+      - default_name
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 【tg@freevpn8】_🇸🇬SG-🇸🇬SG_1593
-      - 🇺🇸US_1680
-      - 🇱🇹 LT_854
-      - 🏁ZZ_3625
-      - CA-v2cross.com_1
-      - 🇬🇧 GB_852 |11.68Mb
-      - 🇬🇧 GB_62 TG@peekfun
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_416
-      - GB-v2cross.com_1
-      - 🇱🇹 LT_91 TG@peekfun
-      - v2cross.com - 美国CloudFlare节点 28
-      - CA-v2cross.com_2
-      - US-v2cross.com
-      - v2cross.com - 美国  7
-      - v2cross.com - 美国  11
-      - GB-v2cross.com_2
-      - v2cross.com_1
-      - v2cross.com_2
-      - CN-v2cross.com
-      - CA-v2cross.com_3
-      - v2cross.com - 美国  4
-      - 🇬🇧GB_806
-      - HK-v2cross.com
-      - v2cross.com_3
-      - CA-v2cross.com_4
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇱_PL_波兰_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇹🇼_TW_台湾
+      - 🇨🇦_CA_加拿大_6
+      - 🇵🇱_PL_波兰_2
+      - 🇵🇱_PL_波兰_3
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国_2
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇭🇰_HK_香港->🇺🇸_US_美国
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇦_CA_加拿大_11
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰
+      - 🇵🇱_PL_波兰_4
+      - 🇵🇱_PL_波兰_5
+      - 🇵🇱_PL_波兰_6
+      - 🇵🇱_PL_波兰_7
+      - 🇵🇱_PL_波兰_8
+      - 🇵🇱_PL_波兰_9
+      - 🇵🇱_PL_波兰_10
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦_CA_加拿大_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
+      - default_name
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -247,31 +410,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 【tg@freevpn8】_🇸🇬SG-🇸🇬SG_1593
-      - 🇺🇸US_1680
-      - 🇱🇹 LT_854
-      - 🏁ZZ_3625
-      - CA-v2cross.com_1
-      - 🇬🇧 GB_852 |11.68Mb
-      - 🇬🇧 GB_62 TG@peekfun
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_416
-      - GB-v2cross.com_1
-      - 🇱🇹 LT_91 TG@peekfun
-      - v2cross.com - 美国CloudFlare节点 28
-      - CA-v2cross.com_2
-      - US-v2cross.com
-      - v2cross.com - 美国  7
-      - v2cross.com - 美国  11
-      - GB-v2cross.com_2
-      - v2cross.com_1
-      - v2cross.com_2
-      - CN-v2cross.com
-      - CA-v2cross.com_3
-      - v2cross.com - 美国  4
-      - 🇬🇧GB_806
-      - HK-v2cross.com
-      - v2cross.com_3
-      - CA-v2cross.com_4
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇱_PL_波兰_1
+      - 🇬🇧_GB_英国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇹🇼_TW_台湾
+      - 🇨🇦_CA_加拿大_6
+      - 🇵🇱_PL_波兰_2
+      - 🇵🇱_PL_波兰_3
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国_2
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇭🇰_HK_香港->🇺🇸_US_美国
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
+      - 🇨🇦_CA_加拿大_11
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰
+      - 🇵🇱_PL_波兰_4
+      - 🇵🇱_PL_波兰_5
+      - 🇵🇱_PL_波兰_6
+      - 🇵🇱_PL_波兰_7
+      - 🇵🇱_PL_波兰_8
+      - 🇵🇱_PL_波兰_9
+      - 🇵🇱_PL_波兰_10
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦_CA_加拿大_13
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
+      - default_name
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
