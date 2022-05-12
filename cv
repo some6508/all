@@ -5,8 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇰🇷_KR_韩国, server: 120.240.168.118, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _HK_香港, server: 20.205.125.236, port: 50019, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_397, server: shlt.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_396, server: hnlt.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: US_1308, server: 150.230.96.106, port: 57239, type: vmess, uuid: edf155b8-10e0-4a48-8bfc-6ce2d9f3ff72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_261, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: f7818bd7-36cf-42f2-bf06-8ae7ddc94514, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_395, server: ygzyd.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_402, server: ygzyd.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3047, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
+  - {name: KR-高速节点购买：v1.mk/vip（浏览器打开）, server: v2-4.godlight.xyz, port: 50441, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /g1641hvx, headers: {Host: v2-4.godlight.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_385, server: 120.240.168.118, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_410, server: shlt.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: AU_72, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇺🇸US_577, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇳IN_258, server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3049, server: an011.oioav.com, port: 52306, type: trojan, password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_403, server: hnlt.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_1213, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: f422be13-9143-4266-b355-ff004658853e, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_409, server: cn2hn.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3035, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3039, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3002, server: hkdx.v2yun.vip, port: 80, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkdx.v2yun.vip}}, udp: true}
+  - {name: CN_406, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇪SE_394, server: ygzyd.sub-nthu.com, port: 35003, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇳CN_381, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: SG_1193, server: 172.104.35.84, port: 2771, type: vmess, uuid: f06560c3-e6e8-4ed5-fb6c-67068dfa9c78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1365, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3037, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_269, server: 123.59.72.193, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_405, server: hnlt.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3041, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_401, server: szdx.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: US_1327, server: 93.179.112.142, port: 54317, type: vmess, uuid: faeb79e5-6549-4b08-8e87-3d7c5457930d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2996, server: rn.102498.eu.org, port: 2053, type: vmess, uuid: a1c43fac-d637-3da4-8081-5757854ffc48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: rn.102498.eu.org}}, udp: true}
+  - {name: US_2999, server: 20.79.186.124, port: 103, type: vmess, uuid: 8826e489-7cab-433d-dd18-c9489c1b7e7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_404, server: cn2hn.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_621, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: ZZ_1741, server: 104.128.190.115, port: 44771, type: vmess, uuid: a4aa83d4-db1c-42a6-844d-135d6635b463, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇯🇵JP_1324, server: jp-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: jp-direct-cdn.node001.xyz}}, udp: true}
+  - {name: Relay_🇳🇱NL-🇳🇱NL_754, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_722, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1346, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_398, server: cn2hn.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_60, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3015, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_285, server: 106.75.154.24, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1313, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_59, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_548, server: hkbn.okvpn.xyz, port: 12000, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇯🇵JP_2984, server: 20.205.125.236, port: 60013, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2990, server: 20.205.125.236, port: 60026, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君), server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君) 2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: ygzyd.sub-nthu.com, port: 35003, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
@@ -947,8 +994,55 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇰🇷_KR_韩国
-      - _HK_香港
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - Relay_🇨🇳CN-🇺🇸US_396
+      - US_1308
+      - Relay_🇨🇳CN-🇹🇼TW_261
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇺🇸US-🇺🇸US_3047
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - Relay_🇨🇳CN-🇺🇸US_385
+      - Relay_🇨🇳CN-🇺🇸US_410
+      - AU_72
+      - Relay_🇯🇵JP-🇺🇸US_577
+      - Relay_🇨🇳CN-🇮🇳IN_258
+      - Relay_🇺🇸US-🇺🇸US_3049
+      - Relay_🇨🇳CN-🇹🇼TW_403
+      - Relay_🇹🇼TW-🇹🇼TW_1213
+      - Relay_🇨🇳CN-🇯🇵JP_409
+      - Relay_🇺🇸US-🇺🇸US_3035
+      - Relay_🇺🇸US-🇺🇸US_3039
+      - Relay_🇺🇸US-🇺🇸US_3002
+      - CN_406
+      - Relay_🇨🇳CN-🇸🇪SE_394
+      - Relay_🇨🇳CN-🇨🇳CN_381
+      - SG_1193
+      - Relay_🇺🇸US-🇺🇸US_1365
+      - Relay_🇺🇸US-🇺🇸US_3037
+      - Relay_🇨🇳CN-🇹🇼TW_269
+      - Relay_🇨🇳CN-🇯🇵JP_405
+      - Relay_🇺🇸US-🇺🇸US_3041
+      - Relay_🇨🇳CN-🇹🇼TW_401
+      - US_1327
+      - Relay_🇺🇸US-🇺🇸US_2996
+      - US_2999
+      - Relay_🇨🇳CN-🇺🇸US_404
+      - Relay_🇫🇷FR-🇫🇷FR_621
+      - ZZ_1741
+      - Relay_🇺🇸US-🇯🇵JP_1324
+      - Relay_🇳🇱NL-🇳🇱NL_754
+      - Relay_🇯🇵JP-🇯🇵JP_722
+      - Relay_🇺🇸US-🇺🇸US_1346
+      - Relay_🇨🇳CN-🇹🇼TW_398
+      - Relay_🇦🇺AU-🇦🇺AU_60
+      - Relay_🇺🇸US-🇺🇸US_3015
+      - Relay_🇨🇳CN-🇹🇼TW_285
+      - Relay_🇺🇸US-🇺🇸US_1313
+      - Relay_🇦🇺AU-🇦🇺AU_59
+      - Relay_🇭🇰HK-🇭🇰HK_548
+      - Relay_🇺🇸US-🇯🇵JP_2984
+      - Relay_🇺🇸US-🇺🇸US_2990
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
@@ -1889,8 +1983,55 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇰🇷_KR_韩国
-      - _HK_香港
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - Relay_🇨🇳CN-🇺🇸US_396
+      - US_1308
+      - Relay_🇨🇳CN-🇹🇼TW_261
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇺🇸US-🇺🇸US_3047
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - Relay_🇨🇳CN-🇺🇸US_385
+      - Relay_🇨🇳CN-🇺🇸US_410
+      - AU_72
+      - Relay_🇯🇵JP-🇺🇸US_577
+      - Relay_🇨🇳CN-🇮🇳IN_258
+      - Relay_🇺🇸US-🇺🇸US_3049
+      - Relay_🇨🇳CN-🇹🇼TW_403
+      - Relay_🇹🇼TW-🇹🇼TW_1213
+      - Relay_🇨🇳CN-🇯🇵JP_409
+      - Relay_🇺🇸US-🇺🇸US_3035
+      - Relay_🇺🇸US-🇺🇸US_3039
+      - Relay_🇺🇸US-🇺🇸US_3002
+      - CN_406
+      - Relay_🇨🇳CN-🇸🇪SE_394
+      - Relay_🇨🇳CN-🇨🇳CN_381
+      - SG_1193
+      - Relay_🇺🇸US-🇺🇸US_1365
+      - Relay_🇺🇸US-🇺🇸US_3037
+      - Relay_🇨🇳CN-🇹🇼TW_269
+      - Relay_🇨🇳CN-🇯🇵JP_405
+      - Relay_🇺🇸US-🇺🇸US_3041
+      - Relay_🇨🇳CN-🇹🇼TW_401
+      - US_1327
+      - Relay_🇺🇸US-🇺🇸US_2996
+      - US_2999
+      - Relay_🇨🇳CN-🇺🇸US_404
+      - Relay_🇫🇷FR-🇫🇷FR_621
+      - ZZ_1741
+      - Relay_🇺🇸US-🇯🇵JP_1324
+      - Relay_🇳🇱NL-🇳🇱NL_754
+      - Relay_🇯🇵JP-🇯🇵JP_722
+      - Relay_🇺🇸US-🇺🇸US_1346
+      - Relay_🇨🇳CN-🇹🇼TW_398
+      - Relay_🇦🇺AU-🇦🇺AU_60
+      - Relay_🇺🇸US-🇺🇸US_3015
+      - Relay_🇨🇳CN-🇹🇼TW_285
+      - Relay_🇺🇸US-🇺🇸US_1313
+      - Relay_🇦🇺AU-🇦🇺AU_59
+      - Relay_🇭🇰HK-🇭🇰HK_548
+      - Relay_🇺🇸US-🇯🇵JP_2984
+      - Relay_🇺🇸US-🇺🇸US_2990
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
