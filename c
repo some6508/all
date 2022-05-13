@@ -6,6 +6,10 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.132.158.232"]}},"server":"43.132.158.232","name":"🇭🇰_HK_香港","port":44350,"uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇯🇵_JP_日本","server":"free-jp-sd.vmess.top","password":"8067a01e-b77d-4b35-aee6-1b7082b60f27","port":"39191","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇭🇰_HK_香港","server":"free-hk-sd.vmess.top","password":"8067a01e-b77d-4b35-aee6-1b7082b60f27","port":"31709","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_JP_日本_1","server":"ty2-1.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_JP_日本_2","server":"ty2-8.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":"443","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +17,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵_JP_日本_1
+      - 🇯🇵_JP_日本_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +28,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵_JP_日本_1
+      - 🇯🇵_JP_日本_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +39,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵_JP_日本_1
+      - 🇯🇵_JP_日本_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵_JP_日本_1
+      - 🇯🇵_JP_日本_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵_JP_日本_1
+      - 🇯🇵_JP_日本_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵_JP_日本_1
+      - 🇯🇵_JP_日本_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -68,6 +96,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵_JP_日本_1
+      - 🇯🇵_JP_日本_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
