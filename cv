@@ -5,6 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: _CZ_捷克, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）_1, server: aa.houdinix.space, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wis, headers: {Host: aa.houdinix.space}}, udp: true}
+  - {name: github.com/v2rayfree - 美国CloudFlare节点 7, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /movies, headers: {Host: douban.babazhuji.com}}, udp: true}
+  - {name: "+Hồ+Chí+Minh+[TLS]", server: 0001.hcm.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: dl.ops.kgvn.garenanow.com.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: TW-Openit.ml_1, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享)_1, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: Hà Nội, server: 0001.hn.genzpn.com, port: 80, type: vmess, uuid: 4f4418cd-385c-4203-a323-1b4d2be8e495, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0001.hn.genzpn.com}}, udp: true}
+  - {name: TW-Openit.ml_2, server: a33.v2.gay, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a33.v2.gay}}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）_2, server: xr-3.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-3.herokuapp.com}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享)_1 2, server: xr-4.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-4.herokuapp.com}}, udp: true}
+  - {name: _RU_俄罗斯联邦_1, server: 213.183.53.177, port: 9015, type: ssr, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_5, server: 213.183.53.177, port: 9097, type: ssr, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: SG-Openit.ml_1, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml_1, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK-Openit.ml_1, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW-Openit.ml_3, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK-Openit.ml_2, server: 45.125.64.201, port: 27442, type: vmess, uuid: 3463f354-529a-4f40-9019-b9b10dc08233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_5, server: 152.89.210.105, port: 9032, type: ssr, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _GB_英国_2, server: 152.89.210.105, port: 9046, type: ssr, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 美国(yudou66.com 玉豆分享)_2, server: xr-1.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-1.herokuapp.com}}, udp: true}
+  - {name: AU-Openit.ml_1, server: an010.oioav.com, port: 25123, type: vmess, uuid: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oioav, headers: {Host: an010.oioav.com}}, udp: true}
+  - {name: US-Openit.ml_2, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU-Openit.ml_2, server: an010.oioav.com, port: 32011, type: trojan, password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）_3, server: krr1.liuwei01.tk, port: 443, type: vmess, uuid: d965d82e-b325-44e8-a472-84721a3ab07c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /liuwei, headers: {Host: krr1.liuwei01.tk}}, udp: true}
+  - {name: DE-Openit.ml, server: 78.46.244.34, port: 33655, type: vmess, uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL-Openit.ml, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r", server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1, server: www.sysucc.ga, port: 443, type: vmess, uuid: cb288a2d-5c57-4545-9400-1012f3632963, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmbfvws, headers: {Host: www.sysucc.ga}}, udp: true}
+  - {name: IN-Openit.ml, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit.ml_2, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit.ml_3, server: v2-3.godlight.xyz, port: 39241, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
+  - {name: KR-Openit.ml_1, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: KR-Openit.ml_2, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml_3, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: zzcm08.bdate.xyz, port: 2840, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm08.bdate.xyz}}, udp: true}
+  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9042, type: ssr, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: KR-Openit.ml_3, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享)_2 2, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: "Trojan|台湾HiNet01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, skip-cert-verify: true, udp: true}
+  - {name: "Trojan|新加坡Singtel01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml, server: 152.69.204.149, port: 50503, type: vmess, uuid: 11b8a8c2-3548-4424-88f8-26cde886230a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_2, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）_4, server: xr-5.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-5.herokuapp.com}}, udp: true}
+  - {name: US-Openit.ml_4, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 韩国-tg频道:@ripaojiedian, server: 129.154.201.58, port: 80, type: vmess, uuid: 667fee21-5c16-452e-9c51-2af3f4d01205, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
+  - {name: _GB_英国, server: 152.89.210.105, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: github.com/v2rayfree - 美国 25, server: 168.138.177.112, port: 41239, type: vmess, uuid: f962092f-a5b7-4011-eaaa-ae52200a3740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR_65+TG@peekfun, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml_5, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: _RU_俄罗斯联邦_3, server: 213.183.53.177, port: 9070, type: ssr, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: SG-Openit.ml_4, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml_6, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml_7, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: VTuber联合制作发布www.vtblh.com, server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm, udp: true}
+  - {name: US-Openit.ml_8, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_4, server: 213.183.53.177, port: 9037, type: ssr, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: US-Openit.ml_9, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}, udp: true}
+  - {name: US-Openit.ml_10, server: 185.202.172.243, port: 40941, type: vmess, uuid: 48537820-14f3-4de7-d26e-a3b88bcf015a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "+Hà+Nội+[TLS]", server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: dl.ops.kgvn.garenanow.com.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 法国(yudou66.com 玉豆分享), server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: fr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: 英国（TG@阿伟科技/油管）, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml_11, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: VN-Openit.ml, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君), server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君) 2, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: ygzyd.sub-nthu.com, port: 35003, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
@@ -852,13 +917,13 @@ proxies:
   - {name: 美国-圣何塞3【1x】|TG@p2psharing, server: us24053.cloudmatrix.xyz, port: 24053, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
   - {name: 英国-伦敦1【1x】 2|TG@p2psharing, server: uk2901.cloudmatrix.xyz, port: 2901, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
   - {name: _HK_香港->🇸🇬_SG_新加坡_2, server: 20.205.125.236, port: 20004, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国_2, server: 20.24.77.204, port: 60014, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_2 2, server: 20.24.77.204, port: 60014, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _HK_香港->🇯🇵_JP_日本, server: 20.205.125.236, port: 60013, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇯🇵_JP_日本_1, server: 20.24.77.204, port: 60028, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇯🇵_JP_日本_2, server: 20.24.77.204, port: 60034, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _RU_俄罗斯联邦_2 2, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
   - {name: _RU_俄罗斯联邦_10, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: _GB_英国_2, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: _GB_英国_2 2, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: "美国✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: mg3.meiguo01.xyz, skip-cert-verify: true, udp: true}
   - {name: "印度✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 33346, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
   - {name: "台湾✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 39675, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: aa1.liumeit.xyz, skip-cert-verify: true, udp: true}
@@ -942,6 +1007,71 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
+      - _CZ_捷克
+      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
+      - github.com/v2rayfree - 美国CloudFlare节点 7
+      - +Hồ+Chí+Minh+[TLS]
+      - TW-Openit.ml_1
+      - 美国(yudou66.com 玉豆分享)_1
+      - Hà Nội
+      - TW-Openit.ml_2
+      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
+      - 美国(yudou66.com 玉豆分享)_1 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_5
+      - SG-Openit.ml_1
+      - US-Openit.ml_1
+      - HK-Openit.ml_1
+      - TW-Openit.ml_3
+      - HK-Openit.ml_2
+      - _GB_英国_5
+      - _GB_英国_2
+      - 美国(yudou66.com 玉豆分享)_2
+      - AU-Openit.ml_1
+      - US-Openit.ml_2
+      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
+      - AU-Openit.ml_2
+      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
+      - DE-Openit.ml
+      - NL-Openit.ml
+      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
+      - _US_美国_1
+      - IN-Openit.ml
+      - SG-Openit.ml_2
+      - SG-Openit.ml_3
+      - KR-Openit.ml_1
+      - KR-Openit.ml_2
+      - US-Openit.ml_3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - _RU_俄罗斯联邦_2
+      - KR-Openit.ml_3
+      - 美国(yudou66.com 玉豆分享)_2 2
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - JP-Openit.ml
+      - _US_美国_2
+      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
+      - US-Openit.ml_4
+      - 韩国-tg频道:@ripaojiedian
+      - RELAY-Openit.ml
+      - _GB_英国
+      - github.com/v2rayfree - 美国 25
+      - FR_65+TG@peekfun
+      - US-Openit.ml_5
+      - _RU_俄罗斯联邦_3
+      - SG-Openit.ml_4
+      - US-Openit.ml_6
+      - US-Openit.ml_7
+      - VTuber联合制作发布www.vtblh.com
+      - US-Openit.ml_8
+      - _RU_俄罗斯联邦_4
+      - US-Openit.ml_9
+      - US-Openit.ml_10
+      - +Hà+Nội+[TLS]
+      - 法国(yudou66.com 玉豆分享)
+      - 英国（TG@阿伟科技/油管）
+      - US-Openit.ml_11
+      - VN-Openit.ml
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
@@ -1789,13 +1919,13 @@ proxy-groups:
       - 美国-圣何塞3【1x】|TG@p2psharing
       - 英国-伦敦1【1x】 2|TG@p2psharing
       - _HK_香港->🇸🇬_SG_新加坡_2
-      - _US_美国_2
+      - _US_美国_2 2
       - _HK_香港->🇯🇵_JP_日本
       - _US_美国->🇯🇵_JP_日本_1
       - _US_美国->🇯🇵_JP_日本_2
-      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_2 2
       - _RU_俄罗斯联邦_10
-      - _GB_英国_2
+      - _GB_英国_2 2
       - 美国✈️中转 [香港Azure]
       - 印度✈️中转 [香港Azure]
       - 台湾✈️中转 [香港Azure]
@@ -1879,6 +2009,71 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
+      - _CZ_捷克
+      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
+      - github.com/v2rayfree - 美国CloudFlare节点 7
+      - +Hồ+Chí+Minh+[TLS]
+      - TW-Openit.ml_1
+      - 美国(yudou66.com 玉豆分享)_1
+      - Hà Nội
+      - TW-Openit.ml_2
+      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
+      - 美国(yudou66.com 玉豆分享)_1 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_5
+      - SG-Openit.ml_1
+      - US-Openit.ml_1
+      - HK-Openit.ml_1
+      - TW-Openit.ml_3
+      - HK-Openit.ml_2
+      - _GB_英国_5
+      - _GB_英国_2
+      - 美国(yudou66.com 玉豆分享)_2
+      - AU-Openit.ml_1
+      - US-Openit.ml_2
+      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
+      - AU-Openit.ml_2
+      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
+      - DE-Openit.ml
+      - NL-Openit.ml
+      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
+      - _US_美国_1
+      - IN-Openit.ml
+      - SG-Openit.ml_2
+      - SG-Openit.ml_3
+      - KR-Openit.ml_1
+      - KR-Openit.ml_2
+      - US-Openit.ml_3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - _RU_俄罗斯联邦_2
+      - KR-Openit.ml_3
+      - 美国(yudou66.com 玉豆分享)_2 2
+      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
+      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
+      - JP-Openit.ml
+      - _US_美国_2
+      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
+      - US-Openit.ml_4
+      - 韩国-tg频道:@ripaojiedian
+      - RELAY-Openit.ml
+      - _GB_英国
+      - github.com/v2rayfree - 美国 25
+      - FR_65+TG@peekfun
+      - US-Openit.ml_5
+      - _RU_俄罗斯联邦_3
+      - SG-Openit.ml_4
+      - US-Openit.ml_6
+      - US-Openit.ml_7
+      - VTuber联合制作发布www.vtblh.com
+      - US-Openit.ml_8
+      - _RU_俄罗斯联邦_4
+      - US-Openit.ml_9
+      - US-Openit.ml_10
+      - +Hà+Nội+[TLS]
+      - 法国(yudou66.com 玉豆分享)
+      - 英国（TG@阿伟科技/油管）
+      - US-Openit.ml_11
+      - VN-Openit.ml
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
@@ -2726,13 +2921,13 @@ proxy-groups:
       - 美国-圣何塞3【1x】|TG@p2psharing
       - 英国-伦敦1【1x】 2|TG@p2psharing
       - _HK_香港->🇸🇬_SG_新加坡_2
-      - _US_美国_2
+      - _US_美国_2 2
       - _HK_香港->🇯🇵_JP_日本
       - _US_美国->🇯🇵_JP_日本_1
       - _US_美国->🇯🇵_JP_日本_2
-      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_2 2
       - _RU_俄罗斯联邦_10
-      - _GB_英国_2
+      - _GB_英国_2 2
       - 美国✈️中转 [香港Azure]
       - 印度✈️中转 [香港Azure]
       - 台湾✈️中转 [香港Azure]
