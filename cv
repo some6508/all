@@ -5,16 +5,57 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: free.spcloud.us, port: 20010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本, server: ty2-8.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
-  - {name: _GB_英国, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港, server: 0001.hk.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, skip-cert-verify: true, udp: true}
-  - {name: _CH_瑞士, server: 185.126.116.125, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: _US_美国_2, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: _VN_越南, server: 0001.hcm.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇪🇪EE-🇯🇵JP_644, server: ty2-8.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇪🇪+EE-🇯🇵JP_641, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3178, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇪🇪EE-🇯🇵JP_643, server: ty2-1.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_427, server: 116.129.254.47, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_426, server: 116.129.253.227, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_431, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_434, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_418, server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_421, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_428, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_74, server: 183.240.124.200, port: 44820, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_77, server: 183.240.124.200, port: 44823, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_422, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_420, server: 116.129.254.29, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_433, server: 116.129.253.227, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_178, server: gg04.nfeng6.pp.ua, port: 63088, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: gg04.nfeng6.pp.ua}}, udp: true}
+  - {name: Relay_🇪🇪+EE-🇯🇵JP_642, server: ty2-6.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3190, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_88, server: gg05.nfeng6.pp.ua, port: 63088, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: gg05.nfeng6.pp.ua}}, udp: true}
+  - {name: YouTube梦歌|Netflix_25, server: gg04.nfeng6.pp.ua, port: 63087, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: gg04.nfeng6.pp.ua}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇳CN_408, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3172, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: CN_404, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3171, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_114, server: gg05.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gg05.nfeng6.pp.ua}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3138, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 11459, type: vmess, uuid: 7ef159a7-2c15-45ca-f5c3-b9798143afaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bit.ly/36b6iJh, headers: {Host: bai-piao-wang-zhe-iplc.98848.xyz}}, udp: true}
+  - {name: US_3159, server: 45.76.173.250, port: 65340, type: vmess, uuid: b620d78a-d3a7-496f-af32-565185473eb8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /5Ci3h6YB/}, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_848, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3170, server: free.spcloud.us, port: 20010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_148, server: gg05.nfeng6.pp.ua, port: 63078, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gg05.nfeng6.pp.ua}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3187, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇯🇵JP_3168, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_66, server: gg04.nfeng6.pp.ua, port: 63078, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gg04.nfeng6.pp.ua}}, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_849, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3179, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3157, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}, udp: true}
+  - {name: YouTube梦歌|Netflix_104, server: gg03.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gg03.nfeng6.pp.ua}}, udp: true}
+  - {name: Relay_🇬🇧+GB-🇬🇧GB_740, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, skip-cert-verify: true, udp: true}
+  - {name: US_3151, server: 104.160.43.43, port: 443, type: vmess, uuid: a307a6f7-b697-400e-bc7e-e6356de877c2, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /asdfaszzsdfa}, udp: true}
+  - {name: Relay_🇺🇸US-🇯🇵JP_3164, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_846, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_739, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_188, server: gg04.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gg04.nfeng6.pp.ua}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3145, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: Relay_🇺🇸US-🇫🇷FR_3146, server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: fr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3169, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_67, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3177, server: us-ny-rn.licom.ga, port: 62007, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, skip-cert-verify: true, udp: true}
+  - {name: US_3121, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_64, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: 206.119.125.39, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: zzcm08.bdate.xyz, port: 2570, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
@@ -627,9 +668,9 @@ proxies:
   - {name: 广新24, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: free-hk-sd.vmess.top, port: 31709, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本, server: free-jp-sd.vmess.top, port: 39191, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本 2, server: ty2-1.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本 3, server: ty2-8.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港 2, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
+  - {name: _JP_日本, server: ty2-1.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 2, server: ty2-8.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -885,16 +926,57 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _US_美国_1
-      - _JP_日本
-      - _CN_中国
-      - _GB_英国
-      - _NL_荷兰
-      - _HK_香港
-      - _CH_瑞士
-      - _US_美国_2
-      - _VN_越南
-      - _CN_中国->🇰🇷_KR_韩国
+      - Relay_🇪🇪EE-🇯🇵JP_644
+      - Relay_🇪🇪+EE-🇯🇵JP_641
+      - Relay_🇺🇸US-🇺🇸US_3178
+      - Relay_🇪🇪EE-🇯🇵JP_643
+      - Relay_🇨🇳CN-🇹🇼TW_427
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_431
+      - Relay_🇨🇳CN-🇹🇼TW_434
+      - Relay_🇨🇳CN-🇹🇼TW_418
+      - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇹🇼TW_428
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_77
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_433
+      - YouTube梦歌|Netflix_178
+      - Relay_🇪🇪+EE-🇯🇵JP_642
+      - Relay_🇺🇸US-🇺🇸US_3190
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_25
+      - Relay_🇨🇳CN-🇨🇳CN_408
+      - Relay_🇺🇸US-🇺🇸US_3172
+      - CN_404
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - YouTube梦歌|Netflix_114
+      - Relay_🇺🇸US-🇺🇸US_3138
+      - US_3159
+      - Relay_🇬🇧GB-🇬🇧GB_848
+      - Relay_🇺🇸US-🇺🇸US_3170
+      - YouTube梦歌|Netflix_148
+      - Relay_🇺🇸US-🇺🇸US_3187
+      - Relay_🇺🇸US-🇯🇵JP_3168
+      - YouTube梦歌|Netflix_66
+      - Relay_🇬🇧GB-🇬🇧GB_849
+      - Relay_🇺🇸US-🇺🇸US_3179
+      - Relay_🇺🇸US-🇺🇸US_3157
+      - YouTube梦歌|Netflix_104
+      - Relay_🇬🇧+GB-🇬🇧GB_740
+      - US_3151
+      - Relay_🇺🇸US-🇯🇵JP_3164
+      - Relay_🇬🇧GB-🇬🇧GB_846
+      - Relay_🇫🇷FR-🇫🇷FR_739
+      - YouTube梦歌|Netflix_188
+      - Relay_🇺🇸US-🇺🇸US_3145
+      - Relay_🇺🇸US-🇫🇷FR_3146
+      - Relay_🇺🇸US-🇺🇸US_3169
+      - Relay_🇦🇺AU-🇦🇺AU_67
+      - Relay_🇺🇸US-🇺🇸US_3177
+      - US_3121
+      - Relay_🇦🇺AU-🇦🇺AU_64
       - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
@@ -1507,9 +1589,9 @@ proxy-groups:
       - 广新24
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇯🇵_JP_日本
+      - _JP_日本
       - _JP_日本 2
-      - _JP_日本 3
-      - _HK_香港 2
+      - _HK_香港
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -1765,16 +1847,57 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _US_美国_1
-      - _JP_日本
-      - _CN_中国
-      - _GB_英国
-      - _NL_荷兰
-      - _HK_香港
-      - _CH_瑞士
-      - _US_美国_2
-      - _VN_越南
-      - _CN_中国->🇰🇷_KR_韩国
+      - Relay_🇪🇪EE-🇯🇵JP_644
+      - Relay_🇪🇪+EE-🇯🇵JP_641
+      - Relay_🇺🇸US-🇺🇸US_3178
+      - Relay_🇪🇪EE-🇯🇵JP_643
+      - Relay_🇨🇳CN-🇹🇼TW_427
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_431
+      - Relay_🇨🇳CN-🇹🇼TW_434
+      - Relay_🇨🇳CN-🇹🇼TW_418
+      - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇹🇼TW_428
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_77
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_433
+      - YouTube梦歌|Netflix_178
+      - Relay_🇪🇪+EE-🇯🇵JP_642
+      - Relay_🇺🇸US-🇺🇸US_3190
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_25
+      - Relay_🇨🇳CN-🇨🇳CN_408
+      - Relay_🇺🇸US-🇺🇸US_3172
+      - CN_404
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - YouTube梦歌|Netflix_114
+      - Relay_🇺🇸US-🇺🇸US_3138
+      - US_3159
+      - Relay_🇬🇧GB-🇬🇧GB_848
+      - Relay_🇺🇸US-🇺🇸US_3170
+      - YouTube梦歌|Netflix_148
+      - Relay_🇺🇸US-🇺🇸US_3187
+      - Relay_🇺🇸US-🇯🇵JP_3168
+      - YouTube梦歌|Netflix_66
+      - Relay_🇬🇧GB-🇬🇧GB_849
+      - Relay_🇺🇸US-🇺🇸US_3179
+      - Relay_🇺🇸US-🇺🇸US_3157
+      - YouTube梦歌|Netflix_104
+      - Relay_🇬🇧+GB-🇬🇧GB_740
+      - US_3151
+      - Relay_🇺🇸US-🇯🇵JP_3164
+      - Relay_🇬🇧GB-🇬🇧GB_846
+      - Relay_🇫🇷FR-🇫🇷FR_739
+      - YouTube梦歌|Netflix_188
+      - Relay_🇺🇸US-🇺🇸US_3145
+      - Relay_🇺🇸US-🇫🇷FR_3146
+      - Relay_🇺🇸US-🇺🇸US_3169
+      - Relay_🇦🇺AU-🇦🇺AU_67
+      - Relay_🇺🇸US-🇺🇸US_3177
+      - US_3121
+      - Relay_🇦🇺AU-🇦🇺AU_64
       - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
@@ -2387,9 +2510,9 @@ proxy-groups:
       - 广新24
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇯🇵_JP_日本
+      - _JP_日本
       - _JP_日本 2
-      - _JP_日本 3
-      - _HK_香港 2
+      - _HK_香港
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
