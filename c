@@ -5,517 +5,88 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","server":"github.com","name":"https://github.com/mianfeifq/share
-    更新时间：
-    2022-05-13T14:06:38+08:00","port":"443","uuid":"0d854b46-15ac-452a-8c09-35e1d0141efb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇨🇿_CZ_捷克","server":"ce.rutracker-cn.com","password":"5y8y3CwxRVYhyfSY","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/wis","headers":{"host":"aa.houdinix.space"}},"server":"aa.houdinix.space","name":"US-高速节点购买：v1.mk/vip（浏览器打开）_1","port":"26267","uuid":"9757cdba-c75b-4b94-9e31-7956dc7d852a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/movies"},"server":"douban.babazhuji.com","name":"github.com/v2rayfree
-    - 美国CloudFlare节点
-    7","port":"443","uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇻🇳+Hồ+Chí+Minh+[TLS]","server":"0001.hcm.genzpn.com","password":"4f4418cd-385c-4203-a323-1b4d2be8e495","port":"443","udp":true,"skip-cert-verify":true,"sni":"dl.ops.kgvn.garenanow.com.akamaized.net"}
-  - {"type":"vmess","server":"61.222.202.140","name":"🇹🇼TW-Openit.ml_1","port":15789,"uuid":"4535e708-5988-4377-a083-755ed60d8068","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","ws-opts":{"path":"/go","headers":{"host":"lu1.gogogoo.cyou"}},"server":"lu1.gogogoo.cyou","name":"美国(yudou66.com
-    玉豆分享)_1","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"dl.ops.kgvn.garenanow.com.akamaized.net"}},"server":"0001.hn.genzpn.com","name":"🇻🇳
-    Hà
-    Nội","port":"80","uuid":"4f4418cd-385c-4203-a323-1b4d2be8e495","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"a33.v2.gay"}},"server":"a33.v2.gay","name":"🇹🇼TW-Openit.ml_2","port":33792,"uuid":"e55cd182-01b0-4fb7-a510-363701a491c5","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess","headers":{"host":"xr-3.herokuapp.com"}},"server":"xr-3.herokuapp.com","name":"US-高速节点购买：v1.mk/vip（浏览器打开）_2","port":"443","uuid":"17af76e1-a5d7-41ab-ae87-b48f185075d1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess","headers":{"host":"xr-4.herokuapp.com"}},"server":"xr-4.herokuapp.com","name":"🇺🇸美国(yudou66.com
-    玉豆分享)_1","port":"443","uuid":"17af76e1-a5d7-41ab-ae87-b48f185075d1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ssr","server":"213.183.53.177","port":9015,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZpNDDKRu9MagNvaf","name":"🇷🇺_RU_俄罗斯联邦_1"}
-  - {"type":"ssr","server":"213.183.53.177","port":9097,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"Sn5B7jTqr76aCJT8","name":"🇷🇺_RU_俄罗斯联邦_5"}
-  - {"type":"vmess","server":"81.90.188.59","name":"🇸🇬SG-Openit.ml_1","port":41657,"uuid":"930a425e-2fc8-4930-8735-141f6b237755","alterId":64,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"150.230.43.65","name":"🇺🇸US-Openit.ml_1","port":14564,"uuid":"1556e040-31d3-4c47-b0d2-ddf888010b4e","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"8.210.127.214","name":"🇭🇰HK-Openit.ml_1","port":443,"uuid":"5b00bd34-a2a7-4471-8b17-3f4768ac0330","alterId":64,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"61.222.202.140"}},"server":"61.222.202.140","name":"🇹🇼TW-Openit.ml_3","port":33792,"uuid":"e55cd182-01b0-4fb7-a510-363701a491c5","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"45.125.64.201","name":"🇭🇰HK-Openit.ml_2","port":27442,"uuid":"3463f354-529a-4f40-9019-b9b10dc08233","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"ssr","server":"152.89.210.105","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq","name":"🇬🇧_GB_英国_5"}
-  - {"type":"ssr","server":"152.89.210.105","port":9046,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"NvS8N4Vf8qAGPSCL","name":"🇬🇧_GB_英国_2"}
-  - {"type":"vmess","ws-opts":{"path":"/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess","headers":{"host":"xr-1.herokuapp.com"}},"server":"xr-1.herokuapp.com","name":"🇺🇸美国(yudou66.com
-    玉豆分享)_2","port":"443","uuid":"17af76e1-a5d7-41ab-ae87-b48f185075d1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/oioav","headers":{"host":"an010.oioav.com"}},"server":"an010.oioav.com","name":"🇦🇺AU-Openit.ml_1","port":25123,"uuid":"55af954a-7634-4f28-8acf-8a64ca9fc4cd","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"usa-washington.lvuft.com"}},"server":"usa-washington.lvuft.com","name":"🇺🇸US-Openit.ml_2","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"152.70.49.174","name":"github.com/v2rayfree -
-    美国德克萨斯州达拉斯Oracle(Zenedge)
-    41","port":"55988","uuid":"2c644a6a-5817-40b2-b149-2f3ac7eb2447","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇦🇺AU-Openit.ml_2","server":"an010.oioav.com","password":"55af954a-7634-4f28-8acf-8a64ca9fc4cd","port":"32011","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/liuwei","headers":{"host":"krr1.liuwei01.tk"}},"server":"krr1.liuwei01.tk","name":"US-高速节点购买：v1.mk/vip（浏览器打开）_3","port":"443","uuid":"d965d82e-b325-44e8-a472-84721a3ab07c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","server":"78.46.244.34","name":"🇩🇪DE-Openit.ml","port":33655,"uuid":"b41303b4-e2c8-4771-cb6c-ef62244a7621","alterId":64,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"20.123.187.212","name":"🇳🇱NL-Openit.ml","port":27931,"uuid":"256eae41-0b8f-4faa-bce8-6366011dc19f","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司
-    13\r","server":"usa-sr-105.mitoption.com","password":"e5d46365e25e31d94279c2bcf93390a2","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/vmbfvws","headers":{"host":"www.sysucc.ga"}},"server":"www.sysucc.ga","name":"🇺🇸_US_美国_1","port":"443","uuid":"cb288a2d-5c57-4545-9400-1012f3632963","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇮🇳IN-Openit.ml","server":"jgwhdlb4.gaox.ml","password":"081a4198-d664-4bc5-a7c6-e35982da964b","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇸🇬SG-Openit.ml_2","server":"sg-sr-114.mitoption.com","password":"e5d46365e25e31d94279c2bcf93390a2","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/f45361465j175","headers":{"host":"v2-3.godlight.xyz"}},"server":"v2-3.godlight.xyz","name":"🇸🇬SG-Openit.ml_3","port":39241,"uuid":"6a52f259-4367-468c-a828-7b8283c2f059","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"129.154.54.75"}},"server":"129.154.54.75","name":"🇰🇷KR-Openit.ml_1","port":33004,"uuid":"4f14695c-31b9-45bf-ca34-1d82170fc100","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"150.230.249.169","name":"🇰🇷KR-Openit.ml_2","port":8888,"uuid":"f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"155.248.202.203","name":"🇺🇸US-Openit.ml_3","port":14564,"uuid":"4a0da379-a7cc-4389-88d7-45514b896883","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm08.bdate.xyz"}},"server":"zzcm08.bdate.xyz","name":"CN-高速节点购买：v1.mk/vip（浏览器打开）","port":"2840","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ssr","server":"213.183.53.177","port":9042,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"S7KwUu7yBy58S3Ga","name":"🇷🇺_RU_俄罗斯联邦_2"}
-  - {"type":"vmess","server":"146.56.99.245","name":"🇰🇷KR-Openit.ml_3","port":25135,"uuid":"5893f7e5-9695-45af-f65e-bd2958ba93fa","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"/t.me/mengge88888888"}},"server":"kr-direct-cdn.node001.xyz","name":"美国(yudou66.com
-    玉豆分享)_2","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"Trojan|台湾HiNet01|华南隧道[流媒体解锁]","server":"cm-jm.okvpn.xyz","password":"508c98e6-aa9b-4afc-b97a-3151fe5860dd","port":"20003","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Trojan|新加坡Singtel01|华南隧道[流媒体解锁]","server":"cm-jm.okvpn.xyz","password":"508c98e6-aa9b-4afc-b97a-3151fe5860dd","port":"20005","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","server":"152.69.204.149","name":"🇯🇵JP-Openit.ml","port":50503,"uuid":"11b8a8c2-3548-4424-88f8-26cde886230a","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"bai-piao-wang-zhe-iplc.98848.xyz","password":"a97edd5e-f9c9-4320-a8aa-753dd99d74d4","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess","headers":{"host":"xr-5.herokuapp.com"}},"server":"xr-5.herokuapp.com","name":"US-高速节点购买：v1.mk/vip（浏览器打开）_4","port":"443","uuid":"17af76e1-a5d7-41ab-ae87-b48f185075d1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇺🇸US-Openit.ml_4","server":"ussc.scsevers.cf","password":"sharecentre","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","server":"129.154.201.58","name":"韩国-tg频道:@ripaojiedian","port":"80","uuid":"667fee21-5c16-452e-9c51-2af3f4d01205","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"node.774.gs"}},"server":"node.774.gs","name":"RELAY-Openit.ml","port":8443,"uuid":"28f6159e-ed46-4bfe-b893-0e7531c28143","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"ssr","server":"152.89.210.105","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ","name":"🇬🇧_GB_英国"}
-  - {"type":"vmess","server":"168.138.177.112","name":"github.com/v2rayfree -
-    美国 
-    25","port":41239,"uuid":"f962092f-a5b7-4011-eaaa-ae52200a3740","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"FR_65+TG@peekfun","server":"fr-trojan.bonds.id","password":"e4307a50-9853-11ec-9b4b-1239d0255272","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"iesei1ei.com"}},"server":"iesei1ei.com","name":"🇺🇸US-Openit.ml_5","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws"}
-  - {"type":"ssr","server":"213.183.53.177","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH","name":"🇷🇺_RU_俄罗斯联邦_3"}
-  - {"type":"trojan","name":"🇸🇬SG-Openit.ml_4","server":"sg.sharecentrepro.tk","password":"sharecentre","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸US-Openit.ml_6","server":"fhcamd1.gaox.ml","password":"e23f408a-012e-4030-8b31-02022031cb50","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}},"server":"usa-dallas.lvuft.com","name":"🇺🇸US-Openit.ml_7","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"zidKl2rcLVBm","server":"92.38.184.228","port":55231,"name":"VTuber联合制作发布www.vtblh.com"}
-  - {"type":"trojan","name":"🇺🇸US-Openit.ml_8","server":"o7cx6bd6t4yjiqsm.xiongsonglin.com","password":"e5d46365e25e31d94279c2bcf93390a2","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","server":"213.183.53.177","port":9037,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TN2YqghxeFDKZfLU","name":"🇷🇺_RU_俄罗斯联邦_4"}
-  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"lvuft.com"}},"server":"lvuft.com","name":"🇺🇸US-Openit.ml_9","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"185.202.172.243","name":"🇺🇸US-Openit.ml_10","port":40941,"uuid":"48537820-14f3-4de7-d26e-a3b88bcf015a","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇻🇳+Hà+Nội+[TLS]","server":"0001.hn.genzpn.com","password":"4f4418cd-385c-4203-a323-1b4d2be8e495","port":"443","udp":true,"skip-cert-verify":true,"sni":"dl.ops.kgvn.garenanow.com.akamaized.net"}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"fr-direct-cdn.node001.xyz"}},"server":"fr-direct-cdn.node001.xyz","name":"法国(yudou66.com
-    玉豆分享)","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"144.24.88.101","name":"🇬🇧英国（TG@阿伟科技/油管）","port":"16833","uuid":"f5425ccf-3946-4fb4-eb24-5393d78a392f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"104.168.13.8"}},"server":"104.168.13.8","name":"🇺🇸US-Openit.ml_11","port":41342,"uuid":"3aa90670-6d21-4287-eec5-0cd0b21d579a","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"usa-buffalo.lvuft.com"}},"server":"usa-buffalo.lvuft.com","name":"🇻🇳VN-Openit.ml","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.77.196"]}},"server":"43.154.77.196","name":"🇨🇳_CN_中国","port":38539,"uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.132.158.232"]}},"server":"43.132.158.232","name":"🇭🇰_HK_香港","port":44350,"uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"172.99.190.84","port":8090,"name":"🇬🇧_GB_英国"}
+  - {"type":"vmess","server":"20.222.101.175","name":"🇺🇸_US_美国_1","port":80,"uuid":"fa0702f4-8ec9-48e5-9b53-a0afb7c3717e","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"an011.oioav.com","password":"55af954a-7634-4f28-8acf-8a64ca9fc4cd","port":"52306","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇰🇷_KR_韩国->🇺🇸_US_美国","server":"free.spcloud.us","password":"118fc04e-fb8c-4154-9092-352cf1958fcd","port":"20009","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_JP_日本","server":"jgwdb4.gaox.ml","password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","port":"443","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - https://github.com/mianfeifq/share 更新时间： 2022-05-13T14:06:38+08:00
-      - 🇨🇿_CZ_捷克
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
-      - github.com/v2rayfree - 美国CloudFlare节点 7
-      - 🇻🇳+Hồ+Chí+Minh+[TLS]
-      - 🇹🇼TW-Openit.ml_1
-      - 美国(yudou66.com 玉豆分享)_1
-      - 🇻🇳 Hà Nội
-      - 🇹🇼TW-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇸🇬SG-Openit.ml_1
-      - 🇺🇸US-Openit.ml_1
-      - 🇭🇰HK-Openit.ml_1
-      - 🇹🇼TW-Openit.ml_3
-      - 🇭🇰HK-Openit.ml_2
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_2
-      - 🇦🇺AU-Openit.ml_1
-      - 🇺🇸US-Openit.ml_2
-      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
-      - 🇦🇺AU-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
-      - 🇩🇪DE-Openit.ml
-      - 🇳🇱NL-Openit.ml
-      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
-      - 🇺🇸_US_美国_1
-      - 🇮🇳IN-Openit.ml
-      - 🇸🇬SG-Openit.ml_2
-      - 🇸🇬SG-Openit.ml_3
-      - 🇰🇷KR-Openit.ml_1
-      - 🇰🇷KR-Openit.ml_2
-      - 🇺🇸US-Openit.ml_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇰🇷KR-Openit.ml_3
-      - 美国(yudou66.com 玉豆分享)_2
-      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
-      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
-      - 🇯🇵JP-Openit.ml
-      - 🇺🇸_US_美国_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
-      - 🇺🇸US-Openit.ml_4
-      - 韩国-tg频道:@ripaojiedian
-      - RELAY-Openit.ml
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港
       - 🇬🇧_GB_英国
-      - github.com/v2rayfree - 美国  25
-      - FR_65+TG@peekfun
-      - 🇺🇸US-Openit.ml_5
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇸🇬SG-Openit.ml_4
-      - 🇺🇸US-Openit.ml_6
-      - 🇺🇸US-Openit.ml_7
-      - VTuber联合制作发布www.vtblh.com
-      - 🇺🇸US-Openit.ml_8
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇺🇸US-Openit.ml_9
-      - 🇺🇸US-Openit.ml_10
-      - 🇻🇳+Hà+Nội+[TLS]
-      - 法国(yudou66.com 玉豆分享)
-      - 🇬🇧英国（TG@阿伟科技/油管）
-      - 🇺🇸US-Openit.ml_11
-      - 🇻🇳VN-Openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇯🇵_JP_日本
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - https://github.com/mianfeifq/share 更新时间： 2022-05-13T14:06:38+08:00
-      - 🇨🇿_CZ_捷克
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
-      - github.com/v2rayfree - 美国CloudFlare节点 7
-      - 🇻🇳+Hồ+Chí+Minh+[TLS]
-      - 🇹🇼TW-Openit.ml_1
-      - 美国(yudou66.com 玉豆分享)_1
-      - 🇻🇳 Hà Nội
-      - 🇹🇼TW-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇸🇬SG-Openit.ml_1
-      - 🇺🇸US-Openit.ml_1
-      - 🇭🇰HK-Openit.ml_1
-      - 🇹🇼TW-Openit.ml_3
-      - 🇭🇰HK-Openit.ml_2
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_2
-      - 🇦🇺AU-Openit.ml_1
-      - 🇺🇸US-Openit.ml_2
-      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
-      - 🇦🇺AU-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
-      - 🇩🇪DE-Openit.ml
-      - 🇳🇱NL-Openit.ml
-      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
-      - 🇺🇸_US_美国_1
-      - 🇮🇳IN-Openit.ml
-      - 🇸🇬SG-Openit.ml_2
-      - 🇸🇬SG-Openit.ml_3
-      - 🇰🇷KR-Openit.ml_1
-      - 🇰🇷KR-Openit.ml_2
-      - 🇺🇸US-Openit.ml_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇰🇷KR-Openit.ml_3
-      - 美国(yudou66.com 玉豆分享)_2
-      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
-      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
-      - 🇯🇵JP-Openit.ml
-      - 🇺🇸_US_美国_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
-      - 🇺🇸US-Openit.ml_4
-      - 韩国-tg频道:@ripaojiedian
-      - RELAY-Openit.ml
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港
       - 🇬🇧_GB_英国
-      - github.com/v2rayfree - 美国  25
-      - FR_65+TG@peekfun
-      - 🇺🇸US-Openit.ml_5
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇸🇬SG-Openit.ml_4
-      - 🇺🇸US-Openit.ml_6
-      - 🇺🇸US-Openit.ml_7
-      - VTuber联合制作发布www.vtblh.com
-      - 🇺🇸US-Openit.ml_8
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇺🇸US-Openit.ml_9
-      - 🇺🇸US-Openit.ml_10
-      - 🇻🇳+Hà+Nội+[TLS]
-      - 法国(yudou66.com 玉豆分享)
-      - 🇬🇧英国（TG@阿伟科技/油管）
-      - 🇺🇸US-Openit.ml_11
-      - 🇻🇳VN-Openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇯🇵_JP_日本
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://github.com/mianfeifq/share 更新时间： 2022-05-13T14:06:38+08:00
-      - 🇨🇿_CZ_捷克
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
-      - github.com/v2rayfree - 美国CloudFlare节点 7
-      - 🇻🇳+Hồ+Chí+Minh+[TLS]
-      - 🇹🇼TW-Openit.ml_1
-      - 美国(yudou66.com 玉豆分享)_1
-      - 🇻🇳 Hà Nội
-      - 🇹🇼TW-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇸🇬SG-Openit.ml_1
-      - 🇺🇸US-Openit.ml_1
-      - 🇭🇰HK-Openit.ml_1
-      - 🇹🇼TW-Openit.ml_3
-      - 🇭🇰HK-Openit.ml_2
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_2
-      - 🇦🇺AU-Openit.ml_1
-      - 🇺🇸US-Openit.ml_2
-      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
-      - 🇦🇺AU-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
-      - 🇩🇪DE-Openit.ml
-      - 🇳🇱NL-Openit.ml
-      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
-      - 🇺🇸_US_美国_1
-      - 🇮🇳IN-Openit.ml
-      - 🇸🇬SG-Openit.ml_2
-      - 🇸🇬SG-Openit.ml_3
-      - 🇰🇷KR-Openit.ml_1
-      - 🇰🇷KR-Openit.ml_2
-      - 🇺🇸US-Openit.ml_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇰🇷KR-Openit.ml_3
-      - 美国(yudou66.com 玉豆分享)_2
-      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
-      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
-      - 🇯🇵JP-Openit.ml
-      - 🇺🇸_US_美国_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
-      - 🇺🇸US-Openit.ml_4
-      - 韩国-tg频道:@ripaojiedian
-      - RELAY-Openit.ml
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港
       - 🇬🇧_GB_英国
-      - github.com/v2rayfree - 美国  25
-      - FR_65+TG@peekfun
-      - 🇺🇸US-Openit.ml_5
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇸🇬SG-Openit.ml_4
-      - 🇺🇸US-Openit.ml_6
-      - 🇺🇸US-Openit.ml_7
-      - VTuber联合制作发布www.vtblh.com
-      - 🇺🇸US-Openit.ml_8
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇺🇸US-Openit.ml_9
-      - 🇺🇸US-Openit.ml_10
-      - 🇻🇳+Hà+Nội+[TLS]
-      - 法国(yudou66.com 玉豆分享)
-      - 🇬🇧英国（TG@阿伟科技/油管）
-      - 🇺🇸US-Openit.ml_11
-      - 🇻🇳VN-Openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇯🇵_JP_日本
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://github.com/mianfeifq/share 更新时间： 2022-05-13T14:06:38+08:00
-      - 🇨🇿_CZ_捷克
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
-      - github.com/v2rayfree - 美国CloudFlare节点 7
-      - 🇻🇳+Hồ+Chí+Minh+[TLS]
-      - 🇹🇼TW-Openit.ml_1
-      - 美国(yudou66.com 玉豆分享)_1
-      - 🇻🇳 Hà Nội
-      - 🇹🇼TW-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇸🇬SG-Openit.ml_1
-      - 🇺🇸US-Openit.ml_1
-      - 🇭🇰HK-Openit.ml_1
-      - 🇹🇼TW-Openit.ml_3
-      - 🇭🇰HK-Openit.ml_2
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_2
-      - 🇦🇺AU-Openit.ml_1
-      - 🇺🇸US-Openit.ml_2
-      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
-      - 🇦🇺AU-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
-      - 🇩🇪DE-Openit.ml
-      - 🇳🇱NL-Openit.ml
-      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
-      - 🇺🇸_US_美国_1
-      - 🇮🇳IN-Openit.ml
-      - 🇸🇬SG-Openit.ml_2
-      - 🇸🇬SG-Openit.ml_3
-      - 🇰🇷KR-Openit.ml_1
-      - 🇰🇷KR-Openit.ml_2
-      - 🇺🇸US-Openit.ml_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇰🇷KR-Openit.ml_3
-      - 美国(yudou66.com 玉豆分享)_2
-      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
-      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
-      - 🇯🇵JP-Openit.ml
-      - 🇺🇸_US_美国_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
-      - 🇺🇸US-Openit.ml_4
-      - 韩国-tg频道:@ripaojiedian
-      - RELAY-Openit.ml
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港
       - 🇬🇧_GB_英国
-      - github.com/v2rayfree - 美国  25
-      - FR_65+TG@peekfun
-      - 🇺🇸US-Openit.ml_5
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇸🇬SG-Openit.ml_4
-      - 🇺🇸US-Openit.ml_6
-      - 🇺🇸US-Openit.ml_7
-      - VTuber联合制作发布www.vtblh.com
-      - 🇺🇸US-Openit.ml_8
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇺🇸US-Openit.ml_9
-      - 🇺🇸US-Openit.ml_10
-      - 🇻🇳+Hà+Nội+[TLS]
-      - 法国(yudou66.com 玉豆分享)
-      - 🇬🇧英国（TG@阿伟科技/油管）
-      - 🇺🇸US-Openit.ml_11
-      - 🇻🇳VN-Openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇯🇵_JP_日本
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - https://github.com/mianfeifq/share 更新时间： 2022-05-13T14:06:38+08:00
-      - 🇨🇿_CZ_捷克
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
-      - github.com/v2rayfree - 美国CloudFlare节点 7
-      - 🇻🇳+Hồ+Chí+Minh+[TLS]
-      - 🇹🇼TW-Openit.ml_1
-      - 美国(yudou66.com 玉豆分享)_1
-      - 🇻🇳 Hà Nội
-      - 🇹🇼TW-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇸🇬SG-Openit.ml_1
-      - 🇺🇸US-Openit.ml_1
-      - 🇭🇰HK-Openit.ml_1
-      - 🇹🇼TW-Openit.ml_3
-      - 🇭🇰HK-Openit.ml_2
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_2
-      - 🇦🇺AU-Openit.ml_1
-      - 🇺🇸US-Openit.ml_2
-      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
-      - 🇦🇺AU-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
-      - 🇩🇪DE-Openit.ml
-      - 🇳🇱NL-Openit.ml
-      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
-      - 🇺🇸_US_美国_1
-      - 🇮🇳IN-Openit.ml
-      - 🇸🇬SG-Openit.ml_2
-      - 🇸🇬SG-Openit.ml_3
-      - 🇰🇷KR-Openit.ml_1
-      - 🇰🇷KR-Openit.ml_2
-      - 🇺🇸US-Openit.ml_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇰🇷KR-Openit.ml_3
-      - 美国(yudou66.com 玉豆分享)_2
-      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
-      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
-      - 🇯🇵JP-Openit.ml
-      - 🇺🇸_US_美国_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
-      - 🇺🇸US-Openit.ml_4
-      - 韩国-tg频道:@ripaojiedian
-      - RELAY-Openit.ml
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港
       - 🇬🇧_GB_英国
-      - github.com/v2rayfree - 美国  25
-      - FR_65+TG@peekfun
-      - 🇺🇸US-Openit.ml_5
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇸🇬SG-Openit.ml_4
-      - 🇺🇸US-Openit.ml_6
-      - 🇺🇸US-Openit.ml_7
-      - VTuber联合制作发布www.vtblh.com
-      - 🇺🇸US-Openit.ml_8
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇺🇸US-Openit.ml_9
-      - 🇺🇸US-Openit.ml_10
-      - 🇻🇳+Hà+Nội+[TLS]
-      - 法国(yudou66.com 玉豆分享)
-      - 🇬🇧英国（TG@阿伟科技/油管）
-      - 🇺🇸US-Openit.ml_11
-      - 🇻🇳VN-Openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇯🇵_JP_日本
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://github.com/mianfeifq/share 更新时间： 2022-05-13T14:06:38+08:00
-      - 🇨🇿_CZ_捷克
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
-      - github.com/v2rayfree - 美国CloudFlare节点 7
-      - 🇻🇳+Hồ+Chí+Minh+[TLS]
-      - 🇹🇼TW-Openit.ml_1
-      - 美国(yudou66.com 玉豆分享)_1
-      - 🇻🇳 Hà Nội
-      - 🇹🇼TW-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇸🇬SG-Openit.ml_1
-      - 🇺🇸US-Openit.ml_1
-      - 🇭🇰HK-Openit.ml_1
-      - 🇹🇼TW-Openit.ml_3
-      - 🇭🇰HK-Openit.ml_2
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_2
-      - 🇦🇺AU-Openit.ml_1
-      - 🇺🇸US-Openit.ml_2
-      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
-      - 🇦🇺AU-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
-      - 🇩🇪DE-Openit.ml
-      - 🇳🇱NL-Openit.ml
-      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
-      - 🇺🇸_US_美国_1
-      - 🇮🇳IN-Openit.ml
-      - 🇸🇬SG-Openit.ml_2
-      - 🇸🇬SG-Openit.ml_3
-      - 🇰🇷KR-Openit.ml_1
-      - 🇰🇷KR-Openit.ml_2
-      - 🇺🇸US-Openit.ml_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇰🇷KR-Openit.ml_3
-      - 美国(yudou66.com 玉豆分享)_2
-      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
-      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
-      - 🇯🇵JP-Openit.ml
-      - 🇺🇸_US_美国_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
-      - 🇺🇸US-Openit.ml_4
-      - 韩国-tg频道:@ripaojiedian
-      - RELAY-Openit.ml
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港
       - 🇬🇧_GB_英国
-      - github.com/v2rayfree - 美国  25
-      - FR_65+TG@peekfun
-      - 🇺🇸US-Openit.ml_5
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇸🇬SG-Openit.ml_4
-      - 🇺🇸US-Openit.ml_6
-      - 🇺🇸US-Openit.ml_7
-      - VTuber联合制作发布www.vtblh.com
-      - 🇺🇸US-Openit.ml_8
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇺🇸US-Openit.ml_9
-      - 🇺🇸US-Openit.ml_10
-      - 🇻🇳+Hà+Nội+[TLS]
-      - 法国(yudou66.com 玉豆分享)
-      - 🇬🇧英国（TG@阿伟科技/油管）
-      - 🇺🇸US-Openit.ml_11
-      - 🇻🇳VN-Openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇯🇵_JP_日本
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -538,72 +109,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://github.com/mianfeifq/share 更新时间： 2022-05-13T14:06:38+08:00
-      - 🇨🇿_CZ_捷克
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_1
-      - github.com/v2rayfree - 美国CloudFlare节点 7
-      - 🇻🇳+Hồ+Chí+Minh+[TLS]
-      - 🇹🇼TW-Openit.ml_1
-      - 美国(yudou66.com 玉豆分享)_1
-      - 🇻🇳 Hà Nội
-      - 🇹🇼TW-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇸🇬SG-Openit.ml_1
-      - 🇺🇸US-Openit.ml_1
-      - 🇭🇰HK-Openit.ml_1
-      - 🇹🇼TW-Openit.ml_3
-      - 🇭🇰HK-Openit.ml_2
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸美国(yudou66.com 玉豆分享)_2
-      - 🇦🇺AU-Openit.ml_1
-      - 🇺🇸US-Openit.ml_2
-      - github.com/v2rayfree - 美国德克萨斯州达拉斯Oracle(Zenedge) 41
-      - 🇦🇺AU-Openit.ml_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_3
-      - 🇩🇪DE-Openit.ml
-      - 🇳🇱NL-Openit.ml
-      - "github.com/v2rayfree - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 13\r"
-      - 🇺🇸_US_美国_1
-      - 🇮🇳IN-Openit.ml
-      - 🇸🇬SG-Openit.ml_2
-      - 🇸🇬SG-Openit.ml_3
-      - 🇰🇷KR-Openit.ml_1
-      - 🇰🇷KR-Openit.ml_2
-      - 🇺🇸US-Openit.ml_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇰🇷KR-Openit.ml_3
-      - 美国(yudou66.com 玉豆分享)_2
-      - Trojan|台湾HiNet01|华南隧道[流媒体解锁]
-      - Trojan|新加坡Singtel01|华南隧道[流媒体解锁]
-      - 🇯🇵JP-Openit.ml
-      - 🇺🇸_US_美国_2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）_4
-      - 🇺🇸US-Openit.ml_4
-      - 韩国-tg频道:@ripaojiedian
-      - RELAY-Openit.ml
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港
       - 🇬🇧_GB_英国
-      - github.com/v2rayfree - 美国  25
-      - FR_65+TG@peekfun
-      - 🇺🇸US-Openit.ml_5
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇸🇬SG-Openit.ml_4
-      - 🇺🇸US-Openit.ml_6
-      - 🇺🇸US-Openit.ml_7
-      - VTuber联合制作发布www.vtblh.com
-      - 🇺🇸US-Openit.ml_8
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇺🇸US-Openit.ml_9
-      - 🇺🇸US-Openit.ml_10
-      - 🇻🇳+Hà+Nội+[TLS]
-      - 法国(yudou66.com 玉豆分享)
-      - 🇬🇧英国（TG@阿伟科技/油管）
-      - 🇺🇸US-Openit.ml_11
-      - 🇻🇳VN-Openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇯🇵_JP_日本
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
