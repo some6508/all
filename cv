@@ -649,10 +649,31 @@ proxies:
   - {name: 广新22, server: 183.240.9.31, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 广新23, server: 183.240.9.31, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 广新24, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: 0001.jp.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 117.28.242.137, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
-  - {name: _CN_中国 2, server: n67.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 421983:wPIiy0, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: _CN_中国->_null_null, server: nm1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 421983:wPIiy0, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: ★★ 本站网址为q88q.site ★★, server: gz1.52168.xyz, port: 15003, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 乌克兰 Ukraine★, server: gz2.52168.xyz, port: 12110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 俄罗斯 Russia★, server: gz2.52168.xyz, port: 12103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 保加利亚 Bulgaria●, server: gz1.52168.xyz, port: 11102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 印度尼西亚 Indonesia(VIP)●, server: gz1.52168.xyz, port: 11103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 台湾 Taiwan★, server: gz2.52168.xyz, port: 12105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 土耳其 Turkey★, server: gz2.52168.xyz, port: 12104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 德国 Germany★, server: gz2.52168.xyz, port: 12101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 新加坡 Singapore(VIP)★, server: gz2.52168.xyz, port: 12106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 日本 Japan(VIP)★, server: gz2.52168.xyz, port: 12107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 泰国 Thailand★, server: gz2.52168.xyz, port: 12109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 澳大利亚 Australia●, server: gz1.52168.xyz, port: 11111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 瑞士 Switzerland●, server: gz1.52168.xyz, port: 11116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 美国 America(VIP)★, server: gz2.52168.xyz, port: 12108, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 美国 America●, server: gz1.52168.xyz, port: 11109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 英国 England★, server: gz2.52168.xyz, port: 12102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 荷兰 Netherlands●, server: gz1.52168.xyz, port: 11117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 菲律宾 Philippine●, server: gz1.52168.xyz, port: 11101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 越南 Vietnam(VIP)●, server: gz1.52168.xyz, port: 11107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 韩国 Korea(VIP)●, server: gz1.52168.xyz, port: 11115, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 香港 Hongkong (AZ)●, server: gz1.52168.xyz, port: 11114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 香港 Hongkong HKBGP(VIP)●, server: gz1.52168.xyz, port: 11106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 香港 Hongkong HKBN(VIP)●, server: gz1.52168.xyz, port: 11113, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 香港 Hongkong HKT(VIP)●, server: gz1.52168.xyz, port: 11112, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
+  - {name: 马来西亚 Malaysia(VIP)●, server: gz1.52168.xyz, port: 11105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: MTQ5Omd0OWltZzBkMmpw, obfs-param: ZWU4MjExNDkuYmFpZHUuY29t, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1570,10 +1591,31 @@ proxy-groups:
       - 广新22
       - 广新23
       - 广新24
-      - _US_美国 2
-      - _CN_中国
-      - _CN_中国 2
-      - _CN_中国->_null_null
+      - ★★ 本站网址为q88q.site ★★
+      - 乌克兰 Ukraine★
+      - 俄罗斯 Russia★
+      - 保加利亚 Bulgaria●
+      - 印度尼西亚 Indonesia(VIP)●
+      - 台湾 Taiwan★
+      - 土耳其 Turkey★
+      - 德国 Germany★
+      - 新加坡 Singapore(VIP)★
+      - 日本 Japan(VIP)★
+      - 泰国 Thailand★
+      - 澳大利亚 Australia●
+      - 瑞士 Switzerland●
+      - 美国 America(VIP)★
+      - 美国 America●
+      - 英国 England★
+      - 荷兰 Netherlands●
+      - 菲律宾 Philippine●
+      - 越南 Vietnam(VIP)●
+      - 韩国 Korea(VIP)●
+      - 香港 Hongkong (AZ)●
+      - 香港 Hongkong HKBGP(VIP)●
+      - 香港 Hongkong HKBN(VIP)●
+      - 香港 Hongkong HKT(VIP)●
+      - 马来西亚 Malaysia(VIP)●
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2491,10 +2533,31 @@ proxy-groups:
       - 广新22
       - 广新23
       - 广新24
-      - _US_美国 2
-      - _CN_中国
-      - _CN_中国 2
-      - _CN_中国->_null_null
+      - ★★ 本站网址为q88q.site ★★
+      - 乌克兰 Ukraine★
+      - 俄罗斯 Russia★
+      - 保加利亚 Bulgaria●
+      - 印度尼西亚 Indonesia(VIP)●
+      - 台湾 Taiwan★
+      - 土耳其 Turkey★
+      - 德国 Germany★
+      - 新加坡 Singapore(VIP)★
+      - 日本 Japan(VIP)★
+      - 泰国 Thailand★
+      - 澳大利亚 Australia●
+      - 瑞士 Switzerland●
+      - 美国 America(VIP)★
+      - 美国 America●
+      - 英国 England★
+      - 荷兰 Netherlands●
+      - 菲律宾 Philippine●
+      - 越南 Vietnam(VIP)●
+      - 韩国 Korea(VIP)●
+      - 香港 Hongkong (AZ)●
+      - 香港 Hongkong HKBGP(VIP)●
+      - 香港 Hongkong HKBN(VIP)●
+      - 香港 Hongkong HKT(VIP)●
+      - 马来西亚 Malaysia(VIP)●
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
