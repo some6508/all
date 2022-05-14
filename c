@@ -5,109 +5,54 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇦🇺_AU_澳大利亚_1","server":"jgwxn3.gaox.ml","password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","port":443,"udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇦🇺_AU_澳大利亚_2","server":"jgwxn2.gaox.ml","password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","port":443,"udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.77.196"]}},"server":"43.154.77.196","name":"🇨🇳_CN_中国","port":38539,"uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44825,"name":"🇨🇳_CN_中国->🇬🇧_GB_英国"}
-  - {"type":"vmess","server":"hz.bgp.rx.naiun.pw","name":"🇨🇳_CN_中国->🇭🇰_HK_香港","port":45250,"uuid":"e1d838ec-2500-42a7-b291-e4c37e71e634","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44818,"name":"🇨🇳_CN_中国->🇭🇺_HU_匈牙利"}
-  - {"type":"vmess","server":"hz.bgp.rx.naiun.pw","name":"🇨🇳_CN_中国->🇯🇵_JP_日本","port":45184,"uuid":"e1d838ec-2500-42a7-b291-e4c37e71e634","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"hz.bgp.rx.naiun.pw","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","port":45149,"uuid":"e1d838ec-2500-42a7-b291-e4c37e71e634","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-128-gcm","password":"015c28b8-13ba-4b69-a068-0d81139fe794","server":"sssg03.wangyiyunniubi.com","port":12011,"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","server":"116.129.253.227","password":"e37c6d7efa845d60","port":3389,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"gaofumei.net_🇿🇦ZA_421","server":"cera.doubledou.win","password":"3c91d857-2d40-39b9-81c0-f6adde8037ff","port":4586,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"172.105.58.152","port":8119,"name":"gaofumei.net_美国Linode数据中心
+    61"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - gaofumei.net_🇿🇦ZA_421
+      - gaofumei.net_美国Linode数据中心 61
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - gaofumei.net_🇿🇦ZA_421
+      - gaofumei.net_美国Linode数据中心 61
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - gaofumei.net_🇿🇦ZA_421
+      - gaofumei.net_美国Linode数据中心 61
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - gaofumei.net_🇿🇦ZA_421
+      - gaofumei.net_美国Linode数据中心 61
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - gaofumei.net_🇿🇦ZA_421
+      - gaofumei.net_美国Linode数据中心 61
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - gaofumei.net_🇿🇦ZA_421
+      - gaofumei.net_美国Linode数据中心 61
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +75,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - gaofumei.net_🇿🇦ZA_421
+      - gaofumei.net_美国Linode数据中心 61
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
