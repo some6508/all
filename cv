@@ -5,8 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: gaofumei.net_🇿🇦ZA_421, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true, udp: true}
-  - {name: gaofumei.net_美国Linode数据中心 61, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国, server: free.spcloud.us, port: 20010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_1, server: 183.240.124.200, port: 44823, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: 116.129.253.245, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_1, server: 183.240.124.200, port: 44811, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_2, server: 183.240.124.200, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_2, server: 183.240.124.200, port: 44812, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_3, server: 183.240.124.200, port: 44820, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: 206.119.125.39, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: zzcm08.bdate.xyz, port: 2570, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
@@ -618,7 +627,7 @@ proxies:
   - {name: 广新23, server: 183.240.9.31, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 广新24, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: free-hk-sd.vmess.top, port: 31709, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: free-jp-sd.vmess.top, port: 39191, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本 2, server: free-jp-sd.vmess.top, port: 39191, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, skip-cert-verify: true, udp: true}
   - {name: _JP_日本, server: ty2-1.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
   - {name: _JP_日本 2, server: ty2-8.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
   - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
@@ -877,8 +886,17 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - gaofumei.net_🇿🇦ZA_421
-      - gaofumei.net_美国Linode数据中心 61
+      - _US_美国
+      - _CN_中国->🇸🇬_SG_新加坡_1
+      - _FR_法国
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇯🇵_JP_日本
+      - _GB_英国
+      - _CN_中国->🇹🇼_TW_台湾_1
+      - _CN_中国->🇹🇼_TW_台湾_2
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇭🇰_HK_香港_3
       - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
@@ -1490,7 +1508,7 @@ proxy-groups:
       - 广新23
       - 广新24
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇯🇵_JP_日本 2
       - _JP_日本
       - _JP_日本 2
       - _HK_香港
@@ -1749,8 +1767,17 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - gaofumei.net_🇿🇦ZA_421
-      - gaofumei.net_美国Linode数据中心 61
+      - _US_美国
+      - _CN_中国->🇸🇬_SG_新加坡_1
+      - _FR_法国
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇯🇵_JP_日本
+      - _GB_英国
+      - _CN_中国->🇹🇼_TW_台湾_1
+      - _CN_中国->🇹🇼_TW_台湾_2
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇭🇰_HK_香港_3
       - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
@@ -2362,7 +2389,7 @@ proxy-groups:
       - 广新23
       - 广新24
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇯🇵_JP_日本 2
       - _JP_日本
       - _JP_日本 2
       - _HK_香港
