@@ -5,19 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: 183.240.124.200, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
-  - {name: _CN_中国->_null_null_1, server: ntemp18.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDE4ODExOlZQVjNlWg==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->_null_null_2, server: nm1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->_null_null_3, server: n57.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->_null_null_4, server: n43.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->🇲🇾_MY_马来西亚, server: s101.boom.party, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: nm2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_1, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _FR_法国, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: an011.oioav.com, port: 52306, type: trojan, password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国_2, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 183.240.124.200, port: 44811, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 183.240.124.200, port: 44820, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 183.240.124.200, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
@@ -658,7 +646,7 @@ proxies:
   - {name: 广新22, server: 183.240.9.31, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 广新23, server: 183.240.9.31, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 广新24, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: free-hk-sd.vmess.top, port: 31709, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: free-hk-sd.vmess.top, port: 31709, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本, server: free-jp-sd.vmess.top, port: 39191, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, skip-cert-verify: true, udp: true}
   - {name: _JP_日本, server: ty2-1.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
   - {name: _JP_日本 2, server: ty2-8.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
@@ -919,19 +907,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国
-      - _CN_中国->_null_null_1
-      - _CN_中国->_null_null_2
-      - _CN_中国->_null_null_3
-      - _CN_中国->_null_null_4
-      - _CN_中国->🇲🇾_MY_马来西亚
       - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇰🇷_KR_韩国_1
-      - _FR_法国
-      - _US_美国
-      - _CN_中国->🇰🇷_KR_韩国_2
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -1572,7 +1548,7 @@ proxy-groups:
       - 广新22
       - 广新23
       - 广新24
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇯🇵_JP_日本
       - _JP_日本
       - _JP_日本 2
@@ -1833,19 +1809,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国
-      - _CN_中国->_null_null_1
-      - _CN_中国->_null_null_2
-      - _CN_中国->_null_null_3
-      - _CN_中国->_null_null_4
-      - _CN_中国->🇲🇾_MY_马来西亚
       - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇰🇷_KR_韩国_1
-      - _FR_法国
-      - _US_美国
-      - _CN_中国->🇰🇷_KR_韩国_2
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -2486,7 +2450,7 @@ proxy-groups:
       - 广新22
       - 广新23
       - 广新24
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇯🇵_JP_日本
       - _JP_日本
       - _JP_日本 2
