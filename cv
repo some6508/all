@@ -5,56 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇭🇰_HK_香港_1, server: nm6.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->_null_null_1, server: n74.boom.party, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->_null_null_2, server: n43.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _CN_中国->_null_null_3, server: n57.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _JP_日本_1, server: ty2-4.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_2, server: game.tcpbbr.net, port: 5228, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: _RO_罗马尼亚->🇯🇵_JP_日本, server: jp.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_2, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾, server: tw.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_3, server: ty2-1.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇲🇾_MY_马来西亚, server: s101.boom.party, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
-  - {name: _JP_日本_4, server: ty2-5.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_5, server: ty2-7.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: _US_美国_1, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇲🇾_MY_马来西亚, server: s101.boom.party, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
+  - {name: _IN_印度, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
-  - {name: _US_美国_2, server: 185.202.172.243, port: 40941, type: vmess, uuid: 48537820-14f3-4de7-d26e-a3b88bcf015a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_1, server: game.tcpbbr.net, port: 5228, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡_1, server: 45.118.133.251, port: 1080, type: vmess, uuid: 3d6fa91a-6186-4d7f-e0b3-a6d2a23f575e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->_null_null_1, server: n57.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
+  - {name: _GB_英国_1, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_1, server: ty2-5.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_2, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->_null_null_2, server: n43.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
+  - {name: _JP_日本_2, server: ty2-1.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_3, server: ty2-7.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_4, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_5, server: ty2-6.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_6, server: ty2-4.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_3, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
+  - {name: _RO_罗马尼亚->🇯🇵_JP_日本, server: jp.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾, server: tw.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_3, server: 185.202.172.243, port: 40941, type: vmess, uuid: 48537820-14f3-4de7-d26e-a3b88bcf015a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡_2, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_1, server: 213.183.53.177, port: 9024, type: ssr, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国_4, server: us.aqvpn.me, port: 80, type: vmess, uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.aqvpn.me}}, udp: true}
+  - {name: _AU_澳大利亚, server: 185.167.116.252, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: _CN_中国->_null_null_3, server: n74.boom.party, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_2, server: nm6.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NDIxOTgzOndQSWl5MA==, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=, udp: true}
+  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: _RU_俄罗斯联邦_3, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: _RU_俄罗斯联邦_4, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: _RU_俄罗斯联邦_5, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: _CH_瑞士, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: _KR_韩国, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
   - {name: _RO_罗马尼亚, server: 62.216.91.229, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: _US_美国_4, server: us.aqvpn.me, port: 80, type: vmess, uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.aqvpn.me}}, udp: true}
-  - {name: _GB_英国_1, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_2, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: _CH_瑞士, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
-  - {name: _AU_澳大利亚, server: 185.167.116.252, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
-  - {name: _GB_英国_3, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_6, server: ty2-6.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_1, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9031, type: ssr, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_3, server: 213.183.53.177, port: 9079, type: ssr, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_4, server: 213.183.53.177, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_5, server: 213.183.53.177, port: 9057, type: ssr, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_6, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: _SG_新加坡_1, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_7, server: 213.183.53.177, port: 9088, type: ssr, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _IN_印度, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_8, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: _RU_俄罗斯联邦_9, server: 213.183.53.177, port: 9011, type: ssr, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_10, server: 213.183.53.177, port: 9070, type: ssr, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _SG_新加坡_2, server: 45.118.133.251, port: 1080, type: vmess, uuid: 3d6fa91a-6186-4d7f-e0b3-a6d2a23f575e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦_11, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: _RU_俄罗斯联邦_12, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_13, server: 213.183.53.177, port: 9024, type: ssr, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_14, server: 213.183.53.177, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_15, server: 213.183.53.177, port: 9026, type: ssr, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_16, server: 213.183.53.177, port: 9042, type: ssr, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_6, server: 213.183.53.177, port: 9011, type: ssr, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_7, server: 213.183.53.177, port: 9031, type: ssr, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_8, server: 213.183.53.177, port: 9088, type: ssr, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_9, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_10, server: 213.183.53.177, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_11, server: 213.183.53.177, port: 9026, type: ssr, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_12, server: 213.183.53.177, port: 9057, type: ssr, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_13, server: 213.183.53.177, port: 9079, type: ssr, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_14, server: 213.183.53.177, port: 9070, type: ssr, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_15, server: 213.183.53.177, port: 9042, type: ssr, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_16, server: 213.183.53.177, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 183.240.124.200, port: 44811, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 183.240.124.200, port: 44820, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 183.240.124.200, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
@@ -984,50 +984,50 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->_null_null_1
-      - _CN_中国->_null_null_2
-      - _CN_中国->_null_null_3
-      - _JP_日本_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _RO_罗马尼亚->🇯🇵_JP_日本
-      - _JP_日本_2
-      - _TW_台湾
-      - _JP_日本_3
+      - _US_美国_1
       - _CN_中国->🇲🇾_MY_马来西亚
-      - _JP_日本_4
-      - _JP_日本_5
+      - _IN_印度
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _SG_新加坡_1
+      - _CN_中国->_null_null_1
+      - _GB_英国_1
+      - _JP_日本_1
       - _CN_中国->🇸🇬_SG_新加坡_1
       - _CN_中国->🇸🇬_SG_新加坡_2
       - _CN_中国->🇸🇬_SG_新加坡_3
-      - _US_美国_1
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国_2
-      - _US_美国_3
-      - _KR_韩国
-      - _RO_罗马尼亚
-      - _US_美国_4
-      - _GB_英国_1
       - _GB_英国_2
-      - _CH_瑞士
-      - _CN_中国->🇺🇸_US_美国
-      - _AU_澳大利亚
-      - _CN_中国->🇯🇵_JP_日本
-      - _GB_英国_3
+      - _US_美国_2
+      - _CN_中国->_null_null_2
+      - _JP_日本_2
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
       - _JP_日本_6
+      - _GB_英国_3
+      - _RO_罗马尼亚->🇯🇵_JP_日本
+      - _TW_台湾
+      - _US_美国_3
+      - _SG_新加坡_2
       - _RU_俄罗斯联邦_1
+      - _US_美国_4
+      - _AU_澳大利亚
+      - _CN_中国->_null_null_3
+      - _CN_中国->🇭🇰_HK_香港_2
       - _RU_俄罗斯联邦_2
       - _RU_俄罗斯联邦_3
       - _RU_俄罗斯联邦_4
       - _RU_俄罗斯联邦_5
+      - _CH_瑞士
+      - _KR_韩国
+      - _RO_罗马尼亚
       - _RU_俄罗斯联邦_6
-      - _SG_新加坡_1
       - _RU_俄罗斯联邦_7
-      - _IN_印度
       - _RU_俄罗斯联邦_8
       - _RU_俄罗斯联邦_9
       - _RU_俄罗斯联邦_10
-      - _SG_新加坡_2
       - _RU_俄罗斯联邦_11
       - _RU_俄罗斯联邦_12
       - _RU_俄罗斯联邦_13
@@ -1963,50 +1963,50 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->_null_null_1
-      - _CN_中国->_null_null_2
-      - _CN_中国->_null_null_3
-      - _JP_日本_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _RO_罗马尼亚->🇯🇵_JP_日本
-      - _JP_日本_2
-      - _TW_台湾
-      - _JP_日本_3
+      - _US_美国_1
       - _CN_中国->🇲🇾_MY_马来西亚
-      - _JP_日本_4
-      - _JP_日本_5
+      - _IN_印度
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _SG_新加坡_1
+      - _CN_中国->_null_null_1
+      - _GB_英国_1
+      - _JP_日本_1
       - _CN_中国->🇸🇬_SG_新加坡_1
       - _CN_中国->🇸🇬_SG_新加坡_2
       - _CN_中国->🇸🇬_SG_新加坡_3
-      - _US_美国_1
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国_2
-      - _US_美国_3
-      - _KR_韩国
-      - _RO_罗马尼亚
-      - _US_美国_4
-      - _GB_英国_1
       - _GB_英国_2
-      - _CH_瑞士
-      - _CN_中国->🇺🇸_US_美国
-      - _AU_澳大利亚
-      - _CN_中国->🇯🇵_JP_日本
-      - _GB_英国_3
+      - _US_美国_2
+      - _CN_中国->_null_null_2
+      - _JP_日本_2
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
       - _JP_日本_6
+      - _GB_英国_3
+      - _RO_罗马尼亚->🇯🇵_JP_日本
+      - _TW_台湾
+      - _US_美国_3
+      - _SG_新加坡_2
       - _RU_俄罗斯联邦_1
+      - _US_美国_4
+      - _AU_澳大利亚
+      - _CN_中国->_null_null_3
+      - _CN_中国->🇭🇰_HK_香港_2
       - _RU_俄罗斯联邦_2
       - _RU_俄罗斯联邦_3
       - _RU_俄罗斯联邦_4
       - _RU_俄罗斯联邦_5
+      - _CH_瑞士
+      - _KR_韩国
+      - _RO_罗马尼亚
       - _RU_俄罗斯联邦_6
-      - _SG_新加坡_1
       - _RU_俄罗斯联邦_7
-      - _IN_印度
       - _RU_俄罗斯联邦_8
       - _RU_俄罗斯联邦_9
       - _RU_俄罗斯联邦_10
-      - _SG_新加坡_2
       - _RU_俄罗斯联邦_11
       - _RU_俄罗斯联邦_12
       - _RU_俄罗斯联邦_13
