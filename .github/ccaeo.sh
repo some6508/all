@@ -73,6 +73,7 @@ eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="htt
 case "$href" in
 *.txt) CURL v "$href" ;;
 *.yaml) CURL c "$href" ;;
+*.yml) CURL c "$href" ;;
 *) ec "! 链接错误	$href" ;;
 esac
 CURL v 'https://raw.githubusercontent.com/freefq/free/master/v2'
@@ -82,6 +83,7 @@ eval "`curl -s 'https://api.github.com/repos/moneyfly1/sublist/commits' | grep -
 eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/moneyfly1/sublist/main/|p' | sed 's|</a>|"|g'`"
 case "$href" in
 *.yml) CURL c "$href" ;;
+*/ss) CURL v "$href" ;;
 *) ec "! 链接错误	$href" ;;
 esac
 #a='https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9'
