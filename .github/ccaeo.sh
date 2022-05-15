@@ -8,10 +8,10 @@ cd $home
 ec() { echo "$(date '+%M分%S秒.%3N毫秒')	$@"; }
 CURL() {
 curl -s -I --connect-timeout 10 "$2" | egrep -q '^HTTP.*200' || return 1
-if [[ $1 = v* ]]; then
+if [[ $1 = v ]]; then
 	((v++))
 	n=$1$v
-elif [[ $1 = c* ]]; then
+elif [[ $1 = c ]]; then
 	((c++))
 	n=$1$c
 fi
