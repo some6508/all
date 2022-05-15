@@ -5,17 +5,17 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"116.129.254.29","password":"a170b44c2dfac9e6","port":3389,"udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","server":"game.tcpbbr.net","password":"280a1162-00cb-11ec-a8bf-f23c91cfbbc9","port":5228,"udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"116.129.253.130","password":"f6f2072a2e4cfc91","port":3389,"udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","server":"116.129.254.47","password":"e37c6d7efa845d60","port":3389,"udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国","server":"jgwdj4.gaox.ml","password":"c09eb137-bf68-4658-84e0-102d94b74168","port":443,"udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","server":"hkchiansax2.msservicevip.pw","port":9359,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"73117962","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ","server":"217.30.10.64","port":9038,"name":"🇵🇱_PL_波兰_1"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX","server":"217.30.10.64","port":9014,"name":"🇵🇱_PL_波兰_2"}
-  - {"type":"ssr","server":"213.183.53.177","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA","name":"🇷🇺_RU_俄罗斯联邦_1"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"116.129.254.47","password":"e37c6d7efa845d60","port":3389,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"116.129.254.29","password":"a170b44c2dfac9e6","port":3389,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","server":"116.129.253.130","password":"f6f2072a2e4cfc91","port":3389,"udp":true,"skip-cert-verify":true}
   - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.72.145"]}},"server":"43.154.72.145","name":"🇨🇳_CN_中国","port":27091,"uuid":"2f1e82e4-5319-4278-92aa-74d49c04683f","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX","server":"217.30.10.64","port":9014,"name":"🇵🇱_PL_波兰_1"}
+  - {"type":"ssr","server":"213.183.53.177","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA","name":"🇷🇺_RU_俄罗斯联邦_1"}
   - {"type":"ssr","server":"213.183.53.177","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF","name":"🇷🇺_RU_俄罗斯联邦_2"}
+  - {"type":"ssr","server":"hkchiansax2.msservicevip.pw","port":9359,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"73117962","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"game.tcpbbr.net","password":"280a1162-00cb-11ec-a8bf-f23c91cfbbc9","port":5228,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ","server":"217.30.10.64","port":9038,"name":"🇵🇱_PL_波兰_2"}
+  - {"type":"trojan","name":"🇺🇸_US_美国","server":"jgwdj4.gaox.ml","password":"c09eb137-bf68-4658-84e0-102d94b74168","port":443,"udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,16 +23,16 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇵🇱_PL_波兰_1
-      - 🇵🇱_PL_波兰_2
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇨🇳_CN_中国
+      - 🇵🇱_PL_波兰_1
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇵🇱_PL_波兰_2
+      - 🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -40,16 +40,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇵🇱_PL_波兰_1
-      - 🇵🇱_PL_波兰_2
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇨🇳_CN_中国
+      - 🇵🇱_PL_波兰_1
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇵🇱_PL_波兰_2
+      - 🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -57,64 +57,64 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇵🇱_PL_波兰_1
-      - 🇵🇱_PL_波兰_2
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇨🇳_CN_中国
+      - 🇵🇱_PL_波兰_1
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇵🇱_PL_波兰_2
+      - 🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇵🇱_PL_波兰_1
-      - 🇵🇱_PL_波兰_2
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇨🇳_CN_中国
+      - 🇵🇱_PL_波兰_1
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇵🇱_PL_波兰_2
+      - 🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇵🇱_PL_波兰_1
-      - 🇵🇱_PL_波兰_2
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇨🇳_CN_中国
+      - 🇵🇱_PL_波兰_1
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇵🇱_PL_波兰_2
+      - 🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇵🇱_PL_波兰_1
-      - 🇵🇱_PL_波兰_2
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇨🇳_CN_中国
+      - 🇵🇱_PL_波兰_1
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇵🇱_PL_波兰_2
+      - 🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +138,16 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇵🇱_PL_波兰_1
-      - 🇵🇱_PL_波兰_2
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇨🇳_CN_中国
+      - 🇵🇱_PL_波兰_1
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇵🇱_PL_波兰_2
+      - 🇺🇸_US_美国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
