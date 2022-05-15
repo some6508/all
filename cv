@@ -5,17 +5,30 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇸🇬_SG_新加坡_1, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
   - {name: _CN_中国, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.72.145]}}, udp: true}
-  - {name: _PL_波兰_1, server: 217.30.10.64, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: _RU_俄罗斯联邦_1, server: 213.183.53.177, port: 9026, type: ssr, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_1, server: hkchiansax2.msservicevip.pw, port: 9359, type: ssr, cipher: aes-256-cfb, password: !<str> 73117962, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_2, server: game.tcpbbr.net, port: 5228, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: _PL_波兰_2, server: 217.30.10.64, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: _US_美国, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_2, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_3, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_4, server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_5, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_6, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_7, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_8, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_9, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_10, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_11, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_12, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_13, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_14, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_15, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_16, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_17, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_18, server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_19, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_20, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_21, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_22, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_23, server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: ru1.qiushi.buzz, port: 5858, type: vmess, uuid: 78213db6-516e-35db-9577-18789a761a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru1.qiushi.buzz}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: ru1.qiushi.buzz, port: 5858, type: vmess, uuid: 78213db6-516e-35db-9577-18789a761a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru1.qiushi.buzz}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 162.159.251.130, port: 443, type: vmess, uuid: 2e385ee8-a129-4c4a-d717-1d3f1c7acd71, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /daa, headers: {Host: da.wodaming.ga}}, udp: true}
@@ -630,29 +643,29 @@ proxies:
   - {name: 广新23, server: 183.240.9.31, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 广新24, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: _CN_中国 2, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.72.145]}}, udp: true}
-  - {name: _US_美国 2, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 6, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 7, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 8, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 9, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 10, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 11, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 12, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 13, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 14, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国 15, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 16, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 17, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 18, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 19, server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 20, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 21, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 22, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 23, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 24, server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 6, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 7, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 8, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 9, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 10, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 11, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 12, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 13, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 14, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 15, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 16, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 17, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 18, server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 19, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 20, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 21, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 22, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 23, server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -943,17 +956,30 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
       - _CN_中国
-      - _PL_波兰_1
-      - _RU_俄罗斯联邦_1
-      - _RU_俄罗斯联邦_2
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _PL_波兰_2
-      - _US_美国
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -1568,6 +1594,7 @@ proxy-groups:
       - 广新23
       - 广新24
       - _CN_中国 2
+      - _US_美国
       - _US_美国 2
       - _US_美国 3
       - _US_美国 4
@@ -1590,7 +1617,6 @@ proxy-groups:
       - _US_美国 21
       - _US_美国 22
       - _US_美国 23
-      - _US_美国 24
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -1881,17 +1907,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇸🇬_SG_新加坡_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
       - _CN_中国
-      - _PL_波兰_1
-      - _RU_俄罗斯联邦_1
-      - _RU_俄罗斯联邦_2
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _PL_波兰_2
-      - _US_美国
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -2506,6 +2545,7 @@ proxy-groups:
       - 广新23
       - 广新24
       - _CN_中国 2
+      - _US_美国
       - _US_美国 2
       - _US_美国 3
       - _US_美国 4
@@ -2528,7 +2568,6 @@ proxy-groups:
       - _US_美国 21
       - _US_美国 22
       - _US_美国 23
-      - _US_美国 24
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
