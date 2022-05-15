@@ -5,6 +5,7 @@ exec 2>$home/.ccaeo.log
 set -x
 PS4='$LINENO:	'
 cd $home
+rm -rf $home/c* $home/v*
 ec() { echo "$(date '+%M分%S秒.%3N毫秒')	$@"; }
 CURL() {
 curl -s -I --connect-timeout 10 "$2" | egrep -q '^HTTP.*200' || return 1
