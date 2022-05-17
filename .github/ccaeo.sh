@@ -15,15 +15,17 @@ if [[ $1 = v ]]; then
 elif [[ $1 = c ]]; then
 	((c++))
 	n=$1$c
+else
+	x=$1
 fi
 echo --------------------------------------------------
 ec "- 下载文件	$n"
 ec "- 连接链接	$2"
-curl -s --connect-timeout 10 -o "$home/$n" "$2"
+curl -s --connect-timeout 10 -o "$home/${x:-$n}" "$2"
 CURL=$?
 [[ $CURL != 0 ]] && ec "! 下载失败	$CURL" && return $CURL
 ec "- 下载完成	$CURL"
-echo -n "https://raw.githubusercontent.com/some6508/all/master/$n|" >>$home/url
+[[ -z $x ]] && echo -n "https://raw.githubusercontent.com/some6508/all/master/$n|" >>$home/url
 return $?
 }
 AAA() {
