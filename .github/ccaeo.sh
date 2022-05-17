@@ -5,7 +5,7 @@ exec 2>$home/.ccaeo.log
 set -x
 PS4='$LINENO:	'
 cd $home
-rm -rf $home/c* $home/v*
+rm -rf $home/c* $home/v* $home/url
 ec() { echo "$(date '+%M分%S秒.%3N毫秒')	$@"; }
 CURL() {
 curl -s -I --connect-timeout 10 "$2" | egrep -q '^HTTP.*200' || return 1
@@ -21,8 +21,10 @@ ec "- 下载文件	$n"
 ec "- 连接链接	$2"
 curl -s --connect-timeout 10 -o "$home/$n" "$2"
 CURL=$?
-[[ $CURL = 0 ]] && ec "- 下载完成	$CURL" || ec "! 下载失败	$CURL"
-return $CURL
+[[ $CURL != 0 ]] && ec "! 下载失败	$CURL" && return $CURL
+ec "- 下载完成	$CURL"
+echo "https://raw.githubusercontent.com/some6508/all/master/$n|" >>$home/url
+return $?
 }
 AAA() {
 curl -s 'https://github.com/some6508/all/actions' | sed -n '/<span class="color-fg-muted">$/,/<\/span>/p' | sed 's/.*">//g; s/<\/a>//g' | while read i; do
@@ -86,7 +88,7 @@ case "$href" in
 */ss) CURL v "$href" ;;
 *) ec "! 链接错误	$href" ;;
 esac
-a='https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5'
+a="`cat $home/url`"
 CURL cv1 "https://api.v1.mk/sub?target=clash&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
 CURL vc1 "https://api.v1.mk/sub?target=v2ray&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
 if grep -q '</html>' $home/cv1
