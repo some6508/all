@@ -23,7 +23,7 @@ curl -s --connect-timeout 10 -o "$home/$n" "$2"
 CURL=$?
 [[ $CURL != 0 ]] && ec "! 下载失败	$CURL" && return $CURL
 ec "- 下载完成	$CURL"
-echo "https://raw.githubusercontent.com/some6508/all/master/$n|" >>$home/url
+echo -n "https://raw.githubusercontent.com/some6508/all/master/$n|" >>$home/url
 return $?
 }
 AAA() {
