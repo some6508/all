@@ -24,7 +24,7 @@ ec "- 连接链接	$2"
 curl -s --connect-timeout 10 -o "$home/${x:-$n}" "$2"
 CURL=$?
 [[ $CURL != 0 ]] && ec "! 下载失败	$CURL" && return $CURL
-ec "- 下载完成	$CURL"
+ec "- 下载完成"
 [[ -z $x ]] && echo -n "https://raw.githubusercontent.com/some6508/all/master/$n|" >>$home/url
 return $?
 }
@@ -91,13 +91,14 @@ case "$href" in
 *) ec "! 链接错误	$href" ;;
 esac
 a="`cat $home/url`"
-CURL cv1 "https://api.v1.mk/sub?target=clash&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
-CURL vc1 "https://api.v1.mk/sub?target=v2ray&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
-if grep -q '</html>' $home/cv1
-then rm -rf $home/cv1 $home/vc1
-else
-mv -f $home/cv1 $home/cv
-mv -f $home/vc1 $home/vc
+CURL tmp_clash "https://api.v1.mk/sub?target=clash&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
+CURL tmp_v2ray "https://api.v1.mk/sub?target=v2ray&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
+CURL tmp_surfboard "https://api.v1.mk/sub?target=surfboard&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
+if ! grep -q '</html>' $home/tmp_clash
+then 
+mv -f $home/tmp_clash $home/clash
+mv -f $home/tmp_v2ray $home/v2ray
+mv -f $home/tmp_surfboard $home/surfboard
 fi
 AAA="`AAA`"
 sed -i "/^> /c> $AAA" $home/README.md
