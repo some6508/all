@@ -91,9 +91,9 @@ case "$href" in
 *) ec "! 链接错误	$href" ;;
 esac
 a="`cat $home/url`"
-CURL tmp_clash "https://api.v1.mk/sub?target=clash&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
-CURL tmp_v2ray "https://api.v1.mk/sub?target=v2ray&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
-CURL tmp_surfboard "https://api.v1.mk/sub?target=surfboard&url=$a&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
+CURL tmp_clash "https://sub.feng666.tk/sub?target=clash&url=$a&insert=false&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&sort=false"
+CURL tmp_v2ray "https://sub.feng666.tk/sub?target=v2ray&url=$a&insert=false&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&sort=false"
+CURL tmp_surfboard "https://sub.feng666.tk/sub?target=surfboard&url=$a&insert=false&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&sort=false"
 if ! grep -q '</html>' $home/tmp_clash
 then 
 mv -f $home/tmp_clash $home/clash
