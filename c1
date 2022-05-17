@@ -5,298 +5,557 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"bb01.nfeng6.pp.ua","port":16030,"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1"}
-  - {"type":"vmess","server":"c6s5.jamjams.net","name":"🇳🇱_NL_荷兰","port":27620,"uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"c6s801.jamjams.net","name":"🇺🇸_US_美国_1","port":27620,"uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"c6s4.jamjams.net","name":"🇯🇵_JP_日本","port":27620,"uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"c6s3.jamjams.net","name":"🇺🇸_US_美国_2","port":27620,"uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"bb01.nfeng6.pp.ua","port":16010,"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1"}
-  - {"type":"ssr","server":"shallaz4.dnsflix.com","port":568,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2"}
-  - {"type":"ssr","server":"curelayhk.dnsflix.com","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1"}
-  - {"type":"ssr","server":"usastart.proconcn.xyz","port":564,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_2"}
-  - {"type":"ssr","server":"shusa.proconcn.xyz","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_3"}
-  - {"type":"ssr","server":"shusa.proconcn.xyz","port":563,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_4"}
-  - {"type":"ssr","server":"shusa.proconcn.xyz","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_5"}
-  - {"type":"ssr","server":"usastart.proconcn.xyz","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_6"}
-  - {"type":"ssr","server":"shallaz.proconcn.xyz","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3"}
-  - {"type":"ssr","server":"usastart.proconcn.xyz","port":569,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_7"}
-  - {"type":"ssr","server":"shusacu.proconcn.xyz","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2"}
-  - {"type":"ssr","server":"usastart.proconcn.xyz","port":566,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_8"}
-  - {"type":"ssr","server":"shallaz.proconcn.xyz","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_1"}
-  - {"type":"ssr","server":"usastart.proconcn.xyz","port":567,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_9"}
-  - {"type":"ssr","server":"shusacu.proconcn.xyz","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_3"}
-  - {"type":"ssr","server":"shusacu.proconcn.xyz","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_4"}
-  - {"type":"ssr","server":"usastart.proconcn.xyz","port":568,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇺🇸_US_美国_10"}
-  - {"type":"vmess","server":"oz.moonfree.top","name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦","port":443,"uuid":"0a4de18d-aba9-4392-9fd8-9f52bdaf1db0","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"y5xwyhitdtq","server":"x.gotout.work","port":30051,"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_2"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"y5xwyhitdtq","server":"x.gotout.work","port":30011,"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_5"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"y5xwyhitdtq","server":"x.gotout.work","port":30041,"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"y5xwyhitdtq","server":"x.gotout.work","port":30012,"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_6"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"y5xwyhitdtq","server":"x.gotout.work","port":30031,"name":"🇨🇳_CN_中国->🇯🇵_JP_日本"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"y5xwyhitdtq","server":"x.gotout.work","port":30561,"name":"🇨🇳_CN_中国->🇺🇸_US_美国_11"}
-  - {"type":"vmess","server":"proxy.skazcmdl1314520.top","name":"🇺🇸_US_美国_3","port":34567,"uuid":"f8a7f3d3-00c3-4108-e034-63dbdaf8b5b3","alterId":0,"cipher":"auto","network":"tcp","tls":true}
-  - {"type":"ssr","server":"csdynhkt.proconcn.xyz","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_7"}
-  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"bb01.nfeng6.pp.ua","port":26230,"name":"🇨🇳_CN_中国->🇿🇦_ZA_南非"}
-  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"bb01.nfeng6.pp.ua","port":26250,"name":"🇨🇳_CN_中国->🇦🇷_AR_阿根廷"}
-  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"bb01.nfeng6.pp.ua","port":16040,"name":"🇨🇳_CN_中国"}
-  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"bb01.nfeng6.pp.ua","port":26240,"name":"🇨🇳_CN_中国->🇧🇩_BD_孟加拉国"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsgz1.ggbbba.xyz","port":45786,"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_3"}
-  - {"type":"ssr","server":"curelayhk.dnsflix.com","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"Mzk0NDk6cWF6MTIzMzIx","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_8"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ","server":"103.172.116.9","port":9038,"name":"(Youtube技术分享室)+11\r\r"}
+  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":25252,"name":":中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF\r\r"}
+  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":25256,"name":":中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF\r\r"}
+  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":25259,"name":":中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF\r\r"}
+  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":25283,"name":":中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF\r\r"}
+  - {"type":"vmess","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v2.ssrsub.com"}},"server":"v2.ssrsub.com","name":"@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v5.ssrsub.com"}},"server":"v5.ssrsub.com","name":"@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":25235,"name":"_商店：8du.shop\r_1\r"}
+  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":25238,"name":"_商店：8du.shop\r_2\r"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm04.bdate.xyz"}},"server":"zzcm04.bdate.xyz","name":"Relay_🇨🇳CN-🇭🇰HK_07","port":"1020","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm08.bdate.xyz"}},"server":"zzcm08.bdate.xyz","name":"Relay_🇨🇳CN-🇭🇰HK_10","port":"2840","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","name":"Relay_🇨🇳CN-🇹🇼TW_06","port":"1510","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v3.ssrsub.com"}},"server":"v3.ssrsub.com","name":"Relay_🇺🇸US-🇷🇺RU_36","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"jp2802.cloudmatrix.xyz"}},"server":"jp2802.cloudmatrix.xyz","name":"Relay_中国-罗马尼亚_22","port":"2802","uuid":"479a9dbc-b896-3fc7-8f68-c26c92f3ae2a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","name":"Relay_中国-未知_431","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","name":"RELAY-120.232.214.143-076","port":"1150","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","name":"RELAY-120.232.214.143-125","port":"1420","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","name":"RELAY-120.232.214.143-157","port":"1370","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm01.bdate.xyz"}},"server":"zzcm01.bdate.xyz","name":"RELAY-120.232.214.248-063","port":"2000","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm07.bdate.xyz"}},"server":"zzcm07.bdate.xyz","name":"RELAY-120.232.214.248-081","port":"1360","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm01.bdate.xyz"}},"server":"zzcm01.bdate.xyz","name":"RELAY-120.232.214.248-082","port":"1260","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm01.bdate.xyz"}},"server":"zzcm01.bdate.xyz","name":"RELAY-120.232.214.248-107","port":"1030","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm01.bdate.xyz"}},"server":"zzcm01.bdate.xyz","name":"RELAY-120.232.214.248-116","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm07.bdate.xyz"}},"server":"zzcm07.bdate.xyz","name":"RELAY-120.232.214.248-119","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm07.bdate.xyz"}},"server":"zzcm07.bdate.xyz","name":"RELAY-120.232.214.248-145","port":"1350","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm04.bdate.xyz"}},"server":"zzcm04.bdate.xyz","name":"RELAY-120.232.214.8-069","port":"1350","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm04.bdate.xyz"}},"server":"zzcm04.bdate.xyz","name":"RELAY-120.232.214.8-074","port":"1370","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm04.bdate.xyz"}},"server":"zzcm04.bdate.xyz","name":"RELAY-120.232.215.170-080","port":"1260","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"s4.mine.com.cn","name":"RELAY-120.79.75.120-155","port":"3333","uuid":"5eea1f96-6e33-4409-b8b4-a8d3596ec991","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm06.bdate.xyz"}},"server":"zzcm06.bdate.xyz","name":"RELAY-125.94.37.119-106","port":"1040","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm06.bdate.xyz"}},"server":"zzcm06.bdate.xyz","name":"RELAY-125.94.37.119-117","port":"1030","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm06.bdate.xyz"}},"server":"zzcm06.bdate.xyz","name":"RELAY-125.94.37.119-137","port":"1360","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm06.bdate.xyz"}},"server":"zzcm06.bdate.xyz","name":"RELAY-125.94.37.119-140","port":"1370","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"211.91.243.240","name":"RELAY-211.91.243.240-143","port":"31203","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","server":"211.91.243.240","name":"RELAY-211.91.243.240-144","port":"31204","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","server":"211.91.243.240","name":"RELAY-211.91.243.240-145","port":"31225","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","server":"211.91.243.240","name":"RELAY-211.91.243.240-156_1","port":"31215","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","server":"211.91.243.240","name":"RELAY-211.91.243.240-156_2","port":"31201","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH","server":"217.30.10.63","port":9070,"name":"RU_1196\r\r"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y","server":"217.30.10.64","port":9001,"name":"RU_1254\r\r"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB","server":"217.30.10.63","port":9056,"name":"RU_1287\r\r"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN","server":"217.30.10.63","port":9031,"name":"RU_1357+|39.12Mb\r\r"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ","server":"217.30.10.63","port":9024,"name":"RU_1379+|75.30Mb\r\r"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX","server":"217.30.10.63","port":9073,"name":"RU_1389+|+5.31Mb\r\r"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf","server":"217.30.10.64","port":9015,"name":"RU_862\r\r"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk","server":"217.30.10.63","port":9098,"name":"RU_886\r\r"}
+  - {"type":"vmess","ws-opts":{"path":"/v2ray","headers":{"host":"50.114.56.20"}},"server":"50.114.56.20","name":"US_.com01","port":"4440","uuid":"8d13dc0f-c4c9-3f66-b8de-d9a5d432842a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/YouTube-bai-piao-wang-zhe_vws","headers":{"host":"bai-piao-wang-zhe.98848.xyz"}},"server":"bai-piao-wang-zhe.98848.xyz","name":"US-高速节点推荐：v1.mk/vip","port":"443","uuid":"f4a6a397-0007-4e45-800c-16d8a7a587ed","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44822,"name":"YouTube梦歌|Netflix_108\r\r"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_141\r\r","server":"bai-piao-wang-zhe-iplc.98848.xyz","password":"a97edd5e-f9c9-4320-a8aa-753dd99d74d4","port":443,"udp":true,"skip-cert-verify":true,"sni":"bai-piao-wang-zhe-iplc.98848.xyz"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44823,"name":"YouTube梦歌|Netflix_52\r\r"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8","server":"103.172.116.6","port":9097,"name":"ZZ_3669\r\r"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"aulin001.xmrth-node.xyz"}},"server":"aulin001.xmrth-node.xyz","name":"澳大利亚001","port":"13963","uuid":"49d42ad5-5bd2-3a08-9662-b08e3b666c1f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"104.166.135.10"}},"server":"104.166.135.10","name":"美国","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"inap006.xmrth-node.xyz"}},"server":"inap006.xmrth-node.xyz","name":"美国006","port":"11865","uuid":"49d42ad5-5bd2-3a08-9662-b08e3b666c1f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"hkaz2.xmrth-node.xyz"}},"server":"hkaz2.xmrth-node.xyz","name":"美国050","port":"14017","uuid":"53ad95b1-8693-34e3-98d7-2010ad24aaf9","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"us-03.licom.ga"}},"server":"us-03.licom.ga","name":"美国-45.86.77.196-229","port":"8080","uuid":"f81e990e-1283-48f9-9eff-acacad6fb661","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"V2-NODE-1.GFWAIRPORT.NET"}},"server":"V2-NODE-1.GFWAIRPORT.NET","name":"日本_691","port":"50001","uuid":"d3bd4f04-f99b-4905-9916-bac87c728277","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"jpaws002.xmrth-node.xyz"}},"server":"jpaws002.xmrth-node.xyz","name":"日本002","port":"15262","uuid":"49d42ad5-5bd2-3a08-9662-b08e3b666c1f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"jpaws006.xmrth-node.xyz"}},"server":"jpaws006.xmrth-node.xyz","name":"日本006","port":"14433","uuid":"49d42ad5-5bd2-3a08-9662-b08e3b666c1f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/images","headers":{"host":"194.156.231.35"}},"server":"194.156.231.35","name":"日本008","port":"80","uuid":"60180597-d25b-4373-a7b9-3e36249b4192","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"hkaz3.xmrth-node.xyz"}},"server":"hkaz3.xmrth-node.xyz","name":"香港103","port":"14138","uuid":"49d42ad5-5bd2-3a08-9662-b08e3b666c1f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"cn-5-2.netflixssr.com"}},"server":"cn-5-2.netflixssr.com","name":"香港专线V2ray_1","port":"10643","uuid":"d736a7a6-7250-3035-be96-0edc45d7fcbd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"cn-5-1.netflixssr.com"}},"server":"cn-5-1.netflixssr.com","name":"香港专线V2ray_2","port":"10643","uuid":"d736a7a6-7250-3035-be96-0edc45d7fcbd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","server":"45.118.133.251","name":"新加坡003","port":"1080","uuid":"3d6fa91a-6186-4d7f-e0b3-a6d2a23f575e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"sgaws006.xmrth-node.xyz"}},"server":"sgaws006.xmrth-node.xyz","name":"新加坡006","port":"14510","uuid":"49d42ad5-5bd2-3a08-9662-b08e3b666c1f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"180.215.196.10"}},"server":"180.215.196.10","name":"新加坡-180.215.196.10-226","port":"39043","uuid":"1b2f44e4-a810-48a8-b620-a4567b46c9b7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"117.28.242.156"}},"server":"117.28.242.156","name":"亚洲","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50300,"name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)\r\r"}
+  - {"type":"vmess","ws-opts":{"path":"/vmess-share/?ed=2048","headers":{"host":"ruvds.testx.eu.org"}},"server":"ruvds.testx.eu.org","name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1","port":"443","uuid":"0e7036c1-6de1-4a83-ef4f-e0d56c67fa10","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_3","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm01.bdate.xyz"}},"server":"zzcm01.bdate.xyz","name":"中国_357","port":"1980","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm04.bdate.xyz"}},"server":"zzcm04.bdate.xyz","name":"中国_431","port":"2000","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/dahjwuh","headers":{"host":"cdn-cn.nekocloud.cn"}},"server":"cdn-cn.nekocloud.cn","name":"中国8度商店：8du.shop","port":"19040","uuid":"c1e94a4a-ba05-3ef9-ab0e-1148539af86b","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
-      - 🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇧🇩_BD_孟加拉国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - "(Youtube技术分享室)+11\r\r"
+      - ":中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF\r\r"
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
+      - "_商店：8du.shop\r_1\r"
+      - "_商店：8du.shop\r_2\r"
+      - Relay_🇨🇳CN-🇭🇰HK_07
+      - Relay_🇨🇳CN-🇭🇰HK_10
+      - Relay_🇨🇳CN-🇹🇼TW_06
+      - Relay_🇺🇸US-🇷🇺RU_36
+      - Relay_中国-罗马尼亚_22
+      - Relay_中国-未知_431
+      - RELAY-120.232.214.143-076
+      - RELAY-120.232.214.143-125
+      - RELAY-120.232.214.143-157
+      - RELAY-120.232.214.248-063
+      - RELAY-120.232.214.248-081
+      - RELAY-120.232.214.248-082
+      - RELAY-120.232.214.248-107
+      - RELAY-120.232.214.248-116
+      - RELAY-120.232.214.248-119
+      - RELAY-120.232.214.248-145
+      - RELAY-120.232.214.8-069
+      - RELAY-120.232.214.8-074
+      - RELAY-120.232.215.170-080
+      - RELAY-120.79.75.120-155
+      - RELAY-125.94.37.119-106
+      - RELAY-125.94.37.119-117
+      - RELAY-125.94.37.119-137
+      - RELAY-125.94.37.119-140
+      - RELAY-211.91.243.240-143
+      - RELAY-211.91.243.240-144
+      - RELAY-211.91.243.240-145
+      - RELAY-211.91.243.240-156_1
+      - RELAY-211.91.243.240-156_2
+      - "RU_1196\r\r"
+      - "RU_1254\r\r"
+      - "RU_1287\r\r"
+      - "RU_1357+|39.12Mb\r\r"
+      - "RU_1379+|75.30Mb\r\r"
+      - "RU_1389+|+5.31Mb\r\r"
+      - "RU_862\r\r"
+      - "RU_886\r\r"
+      - US_.com01
+      - US-高速节点推荐：v1.mk/vip
+      - "YouTube梦歌|Netflix_108\r\r"
+      - "YouTube梦歌|Netflix_141\r\r"
+      - "YouTube梦歌|Netflix_52\r\r"
+      - "ZZ_3669\r\r"
+      - 澳大利亚001
+      - 美国
+      - 美国006
+      - 美国050
+      - 美国-45.86.77.196-229
+      - 日本_691
+      - 日本002
+      - 日本006
+      - 日本008
+      - 香港103
+      - 香港专线V2ray_1
+      - 香港专线V2ray_2
+      - 新加坡003
+      - 新加坡006
+      - 新加坡-180.215.196.10-226
+      - 亚洲
+      - "这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)\r\r"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_3
+      - 中国_357
+      - 中国_431
+      - 中国8度商店：8du.shop
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
-      - 🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇧🇩_BD_孟加拉国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - "(Youtube技术分享室)+11\r\r"
+      - ":中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF\r\r"
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
+      - "_商店：8du.shop\r_1\r"
+      - "_商店：8du.shop\r_2\r"
+      - Relay_🇨🇳CN-🇭🇰HK_07
+      - Relay_🇨🇳CN-🇭🇰HK_10
+      - Relay_🇨🇳CN-🇹🇼TW_06
+      - Relay_🇺🇸US-🇷🇺RU_36
+      - Relay_中国-罗马尼亚_22
+      - Relay_中国-未知_431
+      - RELAY-120.232.214.143-076
+      - RELAY-120.232.214.143-125
+      - RELAY-120.232.214.143-157
+      - RELAY-120.232.214.248-063
+      - RELAY-120.232.214.248-081
+      - RELAY-120.232.214.248-082
+      - RELAY-120.232.214.248-107
+      - RELAY-120.232.214.248-116
+      - RELAY-120.232.214.248-119
+      - RELAY-120.232.214.248-145
+      - RELAY-120.232.214.8-069
+      - RELAY-120.232.214.8-074
+      - RELAY-120.232.215.170-080
+      - RELAY-120.79.75.120-155
+      - RELAY-125.94.37.119-106
+      - RELAY-125.94.37.119-117
+      - RELAY-125.94.37.119-137
+      - RELAY-125.94.37.119-140
+      - RELAY-211.91.243.240-143
+      - RELAY-211.91.243.240-144
+      - RELAY-211.91.243.240-145
+      - RELAY-211.91.243.240-156_1
+      - RELAY-211.91.243.240-156_2
+      - "RU_1196\r\r"
+      - "RU_1254\r\r"
+      - "RU_1287\r\r"
+      - "RU_1357+|39.12Mb\r\r"
+      - "RU_1379+|75.30Mb\r\r"
+      - "RU_1389+|+5.31Mb\r\r"
+      - "RU_862\r\r"
+      - "RU_886\r\r"
+      - US_.com01
+      - US-高速节点推荐：v1.mk/vip
+      - "YouTube梦歌|Netflix_108\r\r"
+      - "YouTube梦歌|Netflix_141\r\r"
+      - "YouTube梦歌|Netflix_52\r\r"
+      - "ZZ_3669\r\r"
+      - 澳大利亚001
+      - 美国
+      - 美国006
+      - 美国050
+      - 美国-45.86.77.196-229
+      - 日本_691
+      - 日本002
+      - 日本006
+      - 日本008
+      - 香港103
+      - 香港专线V2ray_1
+      - 香港专线V2ray_2
+      - 新加坡003
+      - 新加坡006
+      - 新加坡-180.215.196.10-226
+      - 亚洲
+      - "这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)\r\r"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_3
+      - 中国_357
+      - 中国_431
+      - 中国8度商店：8du.shop
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
-      - 🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇧🇩_BD_孟加拉国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - "(Youtube技术分享室)+11\r\r"
+      - ":中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF\r\r"
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
+      - "_商店：8du.shop\r_1\r"
+      - "_商店：8du.shop\r_2\r"
+      - Relay_🇨🇳CN-🇭🇰HK_07
+      - Relay_🇨🇳CN-🇭🇰HK_10
+      - Relay_🇨🇳CN-🇹🇼TW_06
+      - Relay_🇺🇸US-🇷🇺RU_36
+      - Relay_中国-罗马尼亚_22
+      - Relay_中国-未知_431
+      - RELAY-120.232.214.143-076
+      - RELAY-120.232.214.143-125
+      - RELAY-120.232.214.143-157
+      - RELAY-120.232.214.248-063
+      - RELAY-120.232.214.248-081
+      - RELAY-120.232.214.248-082
+      - RELAY-120.232.214.248-107
+      - RELAY-120.232.214.248-116
+      - RELAY-120.232.214.248-119
+      - RELAY-120.232.214.248-145
+      - RELAY-120.232.214.8-069
+      - RELAY-120.232.214.8-074
+      - RELAY-120.232.215.170-080
+      - RELAY-120.79.75.120-155
+      - RELAY-125.94.37.119-106
+      - RELAY-125.94.37.119-117
+      - RELAY-125.94.37.119-137
+      - RELAY-125.94.37.119-140
+      - RELAY-211.91.243.240-143
+      - RELAY-211.91.243.240-144
+      - RELAY-211.91.243.240-145
+      - RELAY-211.91.243.240-156_1
+      - RELAY-211.91.243.240-156_2
+      - "RU_1196\r\r"
+      - "RU_1254\r\r"
+      - "RU_1287\r\r"
+      - "RU_1357+|39.12Mb\r\r"
+      - "RU_1379+|75.30Mb\r\r"
+      - "RU_1389+|+5.31Mb\r\r"
+      - "RU_862\r\r"
+      - "RU_886\r\r"
+      - US_.com01
+      - US-高速节点推荐：v1.mk/vip
+      - "YouTube梦歌|Netflix_108\r\r"
+      - "YouTube梦歌|Netflix_141\r\r"
+      - "YouTube梦歌|Netflix_52\r\r"
+      - "ZZ_3669\r\r"
+      - 澳大利亚001
+      - 美国
+      - 美国006
+      - 美国050
+      - 美国-45.86.77.196-229
+      - 日本_691
+      - 日本002
+      - 日本006
+      - 日本008
+      - 香港103
+      - 香港专线V2ray_1
+      - 香港专线V2ray_2
+      - 新加坡003
+      - 新加坡006
+      - 新加坡-180.215.196.10-226
+      - 亚洲
+      - "这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)\r\r"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_3
+      - 中国_357
+      - 中国_431
+      - 中国8度商店：8du.shop
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
-      - 🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇧🇩_BD_孟加拉国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - "(Youtube技术分享室)+11\r\r"
+      - ":中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF\r\r"
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
+      - "_商店：8du.shop\r_1\r"
+      - "_商店：8du.shop\r_2\r"
+      - Relay_🇨🇳CN-🇭🇰HK_07
+      - Relay_🇨🇳CN-🇭🇰HK_10
+      - Relay_🇨🇳CN-🇹🇼TW_06
+      - Relay_🇺🇸US-🇷🇺RU_36
+      - Relay_中国-罗马尼亚_22
+      - Relay_中国-未知_431
+      - RELAY-120.232.214.143-076
+      - RELAY-120.232.214.143-125
+      - RELAY-120.232.214.143-157
+      - RELAY-120.232.214.248-063
+      - RELAY-120.232.214.248-081
+      - RELAY-120.232.214.248-082
+      - RELAY-120.232.214.248-107
+      - RELAY-120.232.214.248-116
+      - RELAY-120.232.214.248-119
+      - RELAY-120.232.214.248-145
+      - RELAY-120.232.214.8-069
+      - RELAY-120.232.214.8-074
+      - RELAY-120.232.215.170-080
+      - RELAY-120.79.75.120-155
+      - RELAY-125.94.37.119-106
+      - RELAY-125.94.37.119-117
+      - RELAY-125.94.37.119-137
+      - RELAY-125.94.37.119-140
+      - RELAY-211.91.243.240-143
+      - RELAY-211.91.243.240-144
+      - RELAY-211.91.243.240-145
+      - RELAY-211.91.243.240-156_1
+      - RELAY-211.91.243.240-156_2
+      - "RU_1196\r\r"
+      - "RU_1254\r\r"
+      - "RU_1287\r\r"
+      - "RU_1357+|39.12Mb\r\r"
+      - "RU_1379+|75.30Mb\r\r"
+      - "RU_1389+|+5.31Mb\r\r"
+      - "RU_862\r\r"
+      - "RU_886\r\r"
+      - US_.com01
+      - US-高速节点推荐：v1.mk/vip
+      - "YouTube梦歌|Netflix_108\r\r"
+      - "YouTube梦歌|Netflix_141\r\r"
+      - "YouTube梦歌|Netflix_52\r\r"
+      - "ZZ_3669\r\r"
+      - 澳大利亚001
+      - 美国
+      - 美国006
+      - 美国050
+      - 美国-45.86.77.196-229
+      - 日本_691
+      - 日本002
+      - 日本006
+      - 日本008
+      - 香港103
+      - 香港专线V2ray_1
+      - 香港专线V2ray_2
+      - 新加坡003
+      - 新加坡006
+      - 新加坡-180.215.196.10-226
+      - 亚洲
+      - "这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)\r\r"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_3
+      - 中国_357
+      - 中国_431
+      - 中国8度商店：8du.shop
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
-      - 🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇧🇩_BD_孟加拉国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - "(Youtube技术分享室)+11\r\r"
+      - ":中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF\r\r"
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
+      - "_商店：8du.shop\r_1\r"
+      - "_商店：8du.shop\r_2\r"
+      - Relay_🇨🇳CN-🇭🇰HK_07
+      - Relay_🇨🇳CN-🇭🇰HK_10
+      - Relay_🇨🇳CN-🇹🇼TW_06
+      - Relay_🇺🇸US-🇷🇺RU_36
+      - Relay_中国-罗马尼亚_22
+      - Relay_中国-未知_431
+      - RELAY-120.232.214.143-076
+      - RELAY-120.232.214.143-125
+      - RELAY-120.232.214.143-157
+      - RELAY-120.232.214.248-063
+      - RELAY-120.232.214.248-081
+      - RELAY-120.232.214.248-082
+      - RELAY-120.232.214.248-107
+      - RELAY-120.232.214.248-116
+      - RELAY-120.232.214.248-119
+      - RELAY-120.232.214.248-145
+      - RELAY-120.232.214.8-069
+      - RELAY-120.232.214.8-074
+      - RELAY-120.232.215.170-080
+      - RELAY-120.79.75.120-155
+      - RELAY-125.94.37.119-106
+      - RELAY-125.94.37.119-117
+      - RELAY-125.94.37.119-137
+      - RELAY-125.94.37.119-140
+      - RELAY-211.91.243.240-143
+      - RELAY-211.91.243.240-144
+      - RELAY-211.91.243.240-145
+      - RELAY-211.91.243.240-156_1
+      - RELAY-211.91.243.240-156_2
+      - "RU_1196\r\r"
+      - "RU_1254\r\r"
+      - "RU_1287\r\r"
+      - "RU_1357+|39.12Mb\r\r"
+      - "RU_1379+|75.30Mb\r\r"
+      - "RU_1389+|+5.31Mb\r\r"
+      - "RU_862\r\r"
+      - "RU_886\r\r"
+      - US_.com01
+      - US-高速节点推荐：v1.mk/vip
+      - "YouTube梦歌|Netflix_108\r\r"
+      - "YouTube梦歌|Netflix_141\r\r"
+      - "YouTube梦歌|Netflix_52\r\r"
+      - "ZZ_3669\r\r"
+      - 澳大利亚001
+      - 美国
+      - 美国006
+      - 美国050
+      - 美国-45.86.77.196-229
+      - 日本_691
+      - 日本002
+      - 日本006
+      - 日本008
+      - 香港103
+      - 香港专线V2ray_1
+      - 香港专线V2ray_2
+      - 新加坡003
+      - 新加坡006
+      - 新加坡-180.215.196.10-226
+      - 亚洲
+      - "这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)\r\r"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_3
+      - 中国_357
+      - 中国_431
+      - 中国8度商店：8du.shop
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
-      - 🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇧🇩_BD_孟加拉国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - "(Youtube技术分享室)+11\r\r"
+      - ":中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF\r\r"
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
+      - "_商店：8du.shop\r_1\r"
+      - "_商店：8du.shop\r_2\r"
+      - Relay_🇨🇳CN-🇭🇰HK_07
+      - Relay_🇨🇳CN-🇭🇰HK_10
+      - Relay_🇨🇳CN-🇹🇼TW_06
+      - Relay_🇺🇸US-🇷🇺RU_36
+      - Relay_中国-罗马尼亚_22
+      - Relay_中国-未知_431
+      - RELAY-120.232.214.143-076
+      - RELAY-120.232.214.143-125
+      - RELAY-120.232.214.143-157
+      - RELAY-120.232.214.248-063
+      - RELAY-120.232.214.248-081
+      - RELAY-120.232.214.248-082
+      - RELAY-120.232.214.248-107
+      - RELAY-120.232.214.248-116
+      - RELAY-120.232.214.248-119
+      - RELAY-120.232.214.248-145
+      - RELAY-120.232.214.8-069
+      - RELAY-120.232.214.8-074
+      - RELAY-120.232.215.170-080
+      - RELAY-120.79.75.120-155
+      - RELAY-125.94.37.119-106
+      - RELAY-125.94.37.119-117
+      - RELAY-125.94.37.119-137
+      - RELAY-125.94.37.119-140
+      - RELAY-211.91.243.240-143
+      - RELAY-211.91.243.240-144
+      - RELAY-211.91.243.240-145
+      - RELAY-211.91.243.240-156_1
+      - RELAY-211.91.243.240-156_2
+      - "RU_1196\r\r"
+      - "RU_1254\r\r"
+      - "RU_1287\r\r"
+      - "RU_1357+|39.12Mb\r\r"
+      - "RU_1379+|75.30Mb\r\r"
+      - "RU_1389+|+5.31Mb\r\r"
+      - "RU_862\r\r"
+      - "RU_886\r\r"
+      - US_.com01
+      - US-高速节点推荐：v1.mk/vip
+      - "YouTube梦歌|Netflix_108\r\r"
+      - "YouTube梦歌|Netflix_141\r\r"
+      - "YouTube梦歌|Netflix_52\r\r"
+      - "ZZ_3669\r\r"
+      - 澳大利亚001
+      - 美国
+      - 美国006
+      - 美国050
+      - 美国-45.86.77.196-229
+      - 日本_691
+      - 日本002
+      - 日本006
+      - 日本008
+      - 香港103
+      - 香港专线V2ray_1
+      - 香港专线V2ray_2
+      - 新加坡003
+      - 新加坡006
+      - 新加坡-180.215.196.10-226
+      - 亚洲
+      - "这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)\r\r"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_3
+      - 中国_357
+      - 中国_431
+      - 中国8度商店：8du.shop
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -319,43 +578,80 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
-      - 🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇧🇩_BD_孟加拉国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - "(Youtube技术分享室)+11\r\r"
+      - ":中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF\r\r"
+      - ":中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF\r\r"
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
+      - "_商店：8du.shop\r_1\r"
+      - "_商店：8du.shop\r_2\r"
+      - Relay_🇨🇳CN-🇭🇰HK_07
+      - Relay_🇨🇳CN-🇭🇰HK_10
+      - Relay_🇨🇳CN-🇹🇼TW_06
+      - Relay_🇺🇸US-🇷🇺RU_36
+      - Relay_中国-罗马尼亚_22
+      - Relay_中国-未知_431
+      - RELAY-120.232.214.143-076
+      - RELAY-120.232.214.143-125
+      - RELAY-120.232.214.143-157
+      - RELAY-120.232.214.248-063
+      - RELAY-120.232.214.248-081
+      - RELAY-120.232.214.248-082
+      - RELAY-120.232.214.248-107
+      - RELAY-120.232.214.248-116
+      - RELAY-120.232.214.248-119
+      - RELAY-120.232.214.248-145
+      - RELAY-120.232.214.8-069
+      - RELAY-120.232.214.8-074
+      - RELAY-120.232.215.170-080
+      - RELAY-120.79.75.120-155
+      - RELAY-125.94.37.119-106
+      - RELAY-125.94.37.119-117
+      - RELAY-125.94.37.119-137
+      - RELAY-125.94.37.119-140
+      - RELAY-211.91.243.240-143
+      - RELAY-211.91.243.240-144
+      - RELAY-211.91.243.240-145
+      - RELAY-211.91.243.240-156_1
+      - RELAY-211.91.243.240-156_2
+      - "RU_1196\r\r"
+      - "RU_1254\r\r"
+      - "RU_1287\r\r"
+      - "RU_1357+|39.12Mb\r\r"
+      - "RU_1379+|75.30Mb\r\r"
+      - "RU_1389+|+5.31Mb\r\r"
+      - "RU_862\r\r"
+      - "RU_886\r\r"
+      - US_.com01
+      - US-高速节点推荐：v1.mk/vip
+      - "YouTube梦歌|Netflix_108\r\r"
+      - "YouTube梦歌|Netflix_141\r\r"
+      - "YouTube梦歌|Netflix_52\r\r"
+      - "ZZ_3669\r\r"
+      - 澳大利亚001
+      - 美国
+      - 美国006
+      - 美国050
+      - 美国-45.86.77.196-229
+      - 日本_691
+      - 日本002
+      - 日本006
+      - 日本008
+      - 香港103
+      - 香港专线V2ray_1
+      - 香港专线V2ray_2
+      - 新加坡003
+      - 新加坡006
+      - 新加坡-180.215.196.10-226
+      - 亚洲
+      - "这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)\r\r"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_3
+      - 中国_357
+      - 中国_431
+      - 中国8度商店：8du.shop
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
