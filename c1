@@ -5,46 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","server":"gtr.ghz1.nodeg.cloud","port":20016,"protocol":"auth_aes128_md5","cipher":"aes-128-ctr","obfs":"tls1.2_ticket_auth","password":"v0nxhydtt4","protocol-param":"MTUzMDczOk1CM2ZXWQ","name":"Singapore03"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"198.57.27.218","port":5004,"name":"v2rayse_test_1"}
+  - {"type":"vmess","server":"154.23.190.162","name":"v2rayse_test_2","port":443,"uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ssr","server":"20.239.49.44","port":59814,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"3df57276-03ef-45cf-bdd4-4edb6dfaa0ef","name":"v2rayse_test_3"}
+  - {"type":"trojan","name":"v2rayse_test_4","server":"ca-trojan.bonds.id","password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","port":443,"udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Singapore03
+      - v2rayse_test_1
+      - v2rayse_test_2
+      - v2rayse_test_3
+      - v2rayse_test_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Singapore03
+      - v2rayse_test_1
+      - v2rayse_test_2
+      - v2rayse_test_3
+      - v2rayse_test_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Singapore03
+      - v2rayse_test_1
+      - v2rayse_test_2
+      - v2rayse_test_3
+      - v2rayse_test_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Singapore03
+      - v2rayse_test_1
+      - v2rayse_test_2
+      - v2rayse_test_3
+      - v2rayse_test_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Singapore03
+      - v2rayse_test_1
+      - v2rayse_test_2
+      - v2rayse_test_3
+      - v2rayse_test_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Singapore03
+      - v2rayse_test_1
+      - v2rayse_test_2
+      - v2rayse_test_3
+      - v2rayse_test_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Singapore03
+      - v2rayse_test_1
+      - v2rayse_test_2
+      - v2rayse_test_3
+      - v2rayse_test_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
