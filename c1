@@ -5,186 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇸🇬_SG_新加坡","server":"sg1.qingyun123.xyz","password":"b5baea55-e768-4d65-bbe5-62cb473b29ad","port":10001,"udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_1","server":"jgwcc3.gaox.ml","password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","port":443,"udp":true,"skip-cert-verify":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"38.91.102.86","port":5500,"name":"🇺🇸_US_美国_2"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.91.102.86","port":9102,"name":"🇺🇸_US_美国_3"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"38.91.102.86","port":8882,"name":"🇺🇸_US_美国_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"38.91.102.86","port":7001,"name":"🇺🇸_US_美国_5"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"38.91.102.86","port":6379,"name":"🇺🇸_US_美国_6"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.91.102.86","port":8009,"name":"🇺🇸_US_美国_7"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"38.91.102.86","port":8090,"name":"🇺🇸_US_美国_8"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.91.102.86","port":8008,"name":"🇺🇸_US_美国_9"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"38.91.102.86","port":8881,"name":"🇺🇸_US_美国_10"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.91.102.86","port":9101,"name":"🇺🇸_US_美国_11"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":8888,"name":"🇺🇸_US_美国_12"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"38.91.102.86","port":8118,"name":"🇺🇸_US_美国_13"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":5000,"name":"🇺🇸_US_美国_14"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":3389,"name":"🇺🇸_US_美国_15"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"38.91.102.86","port":7307,"name":"🇺🇸_US_美国_16"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":5600,"name":"🇺🇸_US_美国_17"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":3306,"name":"🇺🇸_US_美国_18"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"38.91.102.86","port":5003,"name":"🇺🇸_US_美国_19"}
-  - {"type":"trojan","name":"🇮🇳_IN_印度","server":"jgwhdlb3.gaox.ml","password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国3","server":"ty2-6.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn","server":"185.126.116.125","port":9088,"name":"github.com/freefq-罗马尼亚5"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu","server":"217.30.10.63","port":9020,"name":"github.com/freefq-俄罗斯7"}
+  - {"type":"trojan","name":"github.com/freefq-美国3COM公司企业网9","server":"neteasy.ga","password":"MnROfwtPYa","port":28931,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国10","server":"ty2-4.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国12","server":"sg1.qingyun123.xyz","password":"b5baea55-e768-4d65-bbe5-62cb473b29ad","port":10001,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt","server":"nl1.poduv.tk","port":9005,"name":"github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心13"}
+  - {"type":"trojan","name":"github.com/freefq-美国21","server":"jgwdb4.gaox.ml","password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"E4DNMf73kHPrd8Qq7aqGPf7f","server":"fkgfw-prod.i.sxl.cn","port":443,"name":"github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点23"}
+  - {"type":"trojan","name":"github.com/freefq-澳大利亚悉尼Oracle云计算数据中心24","server":"neteasy.cf","password":"2XWUtOT64u","port":45929,"udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇮🇳_IN_印度
+      - github.com/freefq-美国3
+      - github.com/freefq-罗马尼亚5
+      - github.com/freefq-俄罗斯7
+      - github.com/freefq-美国3COM公司企业网9
+      - github.com/freefq-美国10
+      - github.com/freefq-美国12
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心13
+      - github.com/freefq-美国21
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点23
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇮🇳_IN_印度
+      - github.com/freefq-美国3
+      - github.com/freefq-罗马尼亚5
+      - github.com/freefq-俄罗斯7
+      - github.com/freefq-美国3COM公司企业网9
+      - github.com/freefq-美国10
+      - github.com/freefq-美国12
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心13
+      - github.com/freefq-美国21
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点23
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇮🇳_IN_印度
+      - github.com/freefq-美国3
+      - github.com/freefq-罗马尼亚5
+      - github.com/freefq-俄罗斯7
+      - github.com/freefq-美国3COM公司企业网9
+      - github.com/freefq-美国10
+      - github.com/freefq-美国12
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心13
+      - github.com/freefq-美国21
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点23
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇮🇳_IN_印度
+      - github.com/freefq-美国3
+      - github.com/freefq-罗马尼亚5
+      - github.com/freefq-俄罗斯7
+      - github.com/freefq-美国3COM公司企业网9
+      - github.com/freefq-美国10
+      - github.com/freefq-美国12
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心13
+      - github.com/freefq-美国21
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点23
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇮🇳_IN_印度
+      - github.com/freefq-美国3
+      - github.com/freefq-罗马尼亚5
+      - github.com/freefq-俄罗斯7
+      - github.com/freefq-美国3COM公司企业网9
+      - github.com/freefq-美国10
+      - github.com/freefq-美国12
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心13
+      - github.com/freefq-美国21
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点23
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇮🇳_IN_印度
+      - github.com/freefq-美国3
+      - github.com/freefq-罗马尼亚5
+      - github.com/freefq-俄罗斯7
+      - github.com/freefq-美国3COM公司企业网9
+      - github.com/freefq-美国10
+      - github.com/freefq-美国12
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心13
+      - github.com/freefq-美国21
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点23
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -207,27 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇮🇳_IN_印度
+      - github.com/freefq-美国3
+      - github.com/freefq-罗马尼亚5
+      - github.com/freefq-俄罗斯7
+      - github.com/freefq-美国3COM公司企业网9
+      - github.com/freefq-美国10
+      - github.com/freefq-美国12
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心13
+      - github.com/freefq-美国21
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点23
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心24
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
