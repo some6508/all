@@ -5,242 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"登录网站和更新订阅请挂代理","server":"t01.tgfaka.com","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub","server":"t02.tgfaka.com","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"@SSRSUB-加拿大T02-付费推荐:dlj.tf/ssrsub","server":"t03.tgfaka.com","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V301-1X-Chuncheon","server":"o01.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V302-1X-Chuncheon","server":"o02.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V303-1X-Seoul","server":"o03.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V304-1X-Seoul","server":"o04.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V305-1X-Tokyo","server":"o05.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V306-1X-Tokyo","server":"o06.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V307-1X-Osaka","server":"o07.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V308-1X-Singapore","server":"o08.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V309-1X-Singapore","server":"o09.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V310-1X-Sanjose","server":"o10.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V311-1.5X-Chuncheon","server":"o11.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V312-1.5X-Chuncheon","server":"o12.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V313-1.5X-Seoul","server":"o13.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V314-1.5X-Seoul","server":"o14.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V315-1.5X-Tokyo","server":"o15.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V316-1.5X-Tokyo","server":"o16.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V317-1.5X-Osaka","server":"o17.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V318-1.5X-Singapore","server":"o18.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V319-1.5X-Singapore","server":"o19.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V320-1.5X-Sanjose","server":"o20.trojan.tel","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V321-0.2X-LasVegas","server":"t06.tgfaka.com","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V322-0.2X-Russia","server":"t07.tgfaka.com","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V323-3X-Tokyo","server":"t08.tgfaka.com","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":38443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V324-0.2X-Canada","server":"t04.tgfaka.com","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"trojan","name":"V325-0.2X-Canada","server":"t05.tgfaka.com","password":"c0fbf9f7-70a8-4b8d-8fa8-b892ed9b443c","port":18443,"udp":true,"skip-cert-verify":true,"sni":"douyincdn.com"}
-  - {"type":"ssr","server":"iepl-gz.safetelescope.cc","port":10804,"protocol":"auth_aes128_md5","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"hGkQ6915tD","obfs-param":"YWpheC5taWNyb3NvZnQuY29t","protocol-param":"Njc5MTU6REhBaHRGUXBhTw","name":"default_name"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.198.252","port":4444,"name":"加拿大-2.35MB/s(Youtube:不良林)"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"nas5.travelerv2.xyz"}},"server":"nas5.travelerv2.xyz","name":"中国-181.0KB/s(Youtube:不良林)","port":21871,"uuid":"b69f3735-a1a1-3dbf-889b-4594d140752f","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","server":"cm1-tw.jflashfal.xyz","port":18555,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"plain","password":"DXpeG4IEEFY5LQyw","obfs-param":"M2M1NWUxMDk2Lm1pY3Jvc29mdC5jb20","protocol-param":"MTA5NjpKa0g5bU94OWRLbm9sbXdn","name":"中国-1.15MB/s(Youtube:不良林)"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"VP8ZPxQpJtZRCjfZ","server":"62.216.91.229","port":9080,"name":"美国-1.62MB/s(Youtube:不良林)"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 登录网站和更新订阅请挂代理
-      - '@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub'
-      - '@SSRSUB-加拿大T02-付费推荐:dlj.tf/ssrsub'
-      - V301-1X-Chuncheon
-      - V302-1X-Chuncheon
-      - V303-1X-Seoul
-      - V304-1X-Seoul
-      - V305-1X-Tokyo
-      - V306-1X-Tokyo
-      - V307-1X-Osaka
-      - V308-1X-Singapore
-      - V309-1X-Singapore
-      - V310-1X-Sanjose
-      - V311-1.5X-Chuncheon
-      - V312-1.5X-Chuncheon
-      - V313-1.5X-Seoul
-      - V314-1.5X-Seoul
-      - V315-1.5X-Tokyo
-      - V316-1.5X-Tokyo
-      - V317-1.5X-Osaka
-      - V318-1.5X-Singapore
-      - V319-1.5X-Singapore
-      - V320-1.5X-Sanjose
-      - V321-0.2X-LasVegas
-      - V322-0.2X-Russia
-      - V323-3X-Tokyo
-      - V324-0.2X-Canada
-      - V325-0.2X-Canada
-      - default_name
+      - 加拿大-2.35MB/s(Youtube:不良林)
+      - 中国-181.0KB/s(Youtube:不良林)
+      - 中国-1.15MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 登录网站和更新订阅请挂代理
-      - '@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub'
-      - '@SSRSUB-加拿大T02-付费推荐:dlj.tf/ssrsub'
-      - V301-1X-Chuncheon
-      - V302-1X-Chuncheon
-      - V303-1X-Seoul
-      - V304-1X-Seoul
-      - V305-1X-Tokyo
-      - V306-1X-Tokyo
-      - V307-1X-Osaka
-      - V308-1X-Singapore
-      - V309-1X-Singapore
-      - V310-1X-Sanjose
-      - V311-1.5X-Chuncheon
-      - V312-1.5X-Chuncheon
-      - V313-1.5X-Seoul
-      - V314-1.5X-Seoul
-      - V315-1.5X-Tokyo
-      - V316-1.5X-Tokyo
-      - V317-1.5X-Osaka
-      - V318-1.5X-Singapore
-      - V319-1.5X-Singapore
-      - V320-1.5X-Sanjose
-      - V321-0.2X-LasVegas
-      - V322-0.2X-Russia
-      - V323-3X-Tokyo
-      - V324-0.2X-Canada
-      - V325-0.2X-Canada
-      - default_name
+      - 加拿大-2.35MB/s(Youtube:不良林)
+      - 中国-181.0KB/s(Youtube:不良林)
+      - 中国-1.15MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 登录网站和更新订阅请挂代理
-      - '@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub'
-      - '@SSRSUB-加拿大T02-付费推荐:dlj.tf/ssrsub'
-      - V301-1X-Chuncheon
-      - V302-1X-Chuncheon
-      - V303-1X-Seoul
-      - V304-1X-Seoul
-      - V305-1X-Tokyo
-      - V306-1X-Tokyo
-      - V307-1X-Osaka
-      - V308-1X-Singapore
-      - V309-1X-Singapore
-      - V310-1X-Sanjose
-      - V311-1.5X-Chuncheon
-      - V312-1.5X-Chuncheon
-      - V313-1.5X-Seoul
-      - V314-1.5X-Seoul
-      - V315-1.5X-Tokyo
-      - V316-1.5X-Tokyo
-      - V317-1.5X-Osaka
-      - V318-1.5X-Singapore
-      - V319-1.5X-Singapore
-      - V320-1.5X-Sanjose
-      - V321-0.2X-LasVegas
-      - V322-0.2X-Russia
-      - V323-3X-Tokyo
-      - V324-0.2X-Canada
-      - V325-0.2X-Canada
-      - default_name
+      - 加拿大-2.35MB/s(Youtube:不良林)
+      - 中国-181.0KB/s(Youtube:不良林)
+      - 中国-1.15MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 登录网站和更新订阅请挂代理
-      - '@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub'
-      - '@SSRSUB-加拿大T02-付费推荐:dlj.tf/ssrsub'
-      - V301-1X-Chuncheon
-      - V302-1X-Chuncheon
-      - V303-1X-Seoul
-      - V304-1X-Seoul
-      - V305-1X-Tokyo
-      - V306-1X-Tokyo
-      - V307-1X-Osaka
-      - V308-1X-Singapore
-      - V309-1X-Singapore
-      - V310-1X-Sanjose
-      - V311-1.5X-Chuncheon
-      - V312-1.5X-Chuncheon
-      - V313-1.5X-Seoul
-      - V314-1.5X-Seoul
-      - V315-1.5X-Tokyo
-      - V316-1.5X-Tokyo
-      - V317-1.5X-Osaka
-      - V318-1.5X-Singapore
-      - V319-1.5X-Singapore
-      - V320-1.5X-Sanjose
-      - V321-0.2X-LasVegas
-      - V322-0.2X-Russia
-      - V323-3X-Tokyo
-      - V324-0.2X-Canada
-      - V325-0.2X-Canada
-      - default_name
+      - 加拿大-2.35MB/s(Youtube:不良林)
+      - 中国-181.0KB/s(Youtube:不良林)
+      - 中国-1.15MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 登录网站和更新订阅请挂代理
-      - '@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub'
-      - '@SSRSUB-加拿大T02-付费推荐:dlj.tf/ssrsub'
-      - V301-1X-Chuncheon
-      - V302-1X-Chuncheon
-      - V303-1X-Seoul
-      - V304-1X-Seoul
-      - V305-1X-Tokyo
-      - V306-1X-Tokyo
-      - V307-1X-Osaka
-      - V308-1X-Singapore
-      - V309-1X-Singapore
-      - V310-1X-Sanjose
-      - V311-1.5X-Chuncheon
-      - V312-1.5X-Chuncheon
-      - V313-1.5X-Seoul
-      - V314-1.5X-Seoul
-      - V315-1.5X-Tokyo
-      - V316-1.5X-Tokyo
-      - V317-1.5X-Osaka
-      - V318-1.5X-Singapore
-      - V319-1.5X-Singapore
-      - V320-1.5X-Sanjose
-      - V321-0.2X-LasVegas
-      - V322-0.2X-Russia
-      - V323-3X-Tokyo
-      - V324-0.2X-Canada
-      - V325-0.2X-Canada
-      - default_name
+      - 加拿大-2.35MB/s(Youtube:不良林)
+      - 中国-181.0KB/s(Youtube:不良林)
+      - 中国-1.15MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 登录网站和更新订阅请挂代理
-      - '@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub'
-      - '@SSRSUB-加拿大T02-付费推荐:dlj.tf/ssrsub'
-      - V301-1X-Chuncheon
-      - V302-1X-Chuncheon
-      - V303-1X-Seoul
-      - V304-1X-Seoul
-      - V305-1X-Tokyo
-      - V306-1X-Tokyo
-      - V307-1X-Osaka
-      - V308-1X-Singapore
-      - V309-1X-Singapore
-      - V310-1X-Sanjose
-      - V311-1.5X-Chuncheon
-      - V312-1.5X-Chuncheon
-      - V313-1.5X-Seoul
-      - V314-1.5X-Seoul
-      - V315-1.5X-Tokyo
-      - V316-1.5X-Tokyo
-      - V317-1.5X-Osaka
-      - V318-1.5X-Singapore
-      - V319-1.5X-Singapore
-      - V320-1.5X-Sanjose
-      - V321-0.2X-LasVegas
-      - V322-0.2X-Russia
-      - V323-3X-Tokyo
-      - V324-0.2X-Canada
-      - V325-0.2X-Canada
-      - default_name
+      - 加拿大-2.35MB/s(Youtube:不良林)
+      - 中国-181.0KB/s(Youtube:不良林)
+      - 中国-1.15MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -263,35 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 登录网站和更新订阅请挂代理
-      - '@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub'
-      - '@SSRSUB-加拿大T02-付费推荐:dlj.tf/ssrsub'
-      - V301-1X-Chuncheon
-      - V302-1X-Chuncheon
-      - V303-1X-Seoul
-      - V304-1X-Seoul
-      - V305-1X-Tokyo
-      - V306-1X-Tokyo
-      - V307-1X-Osaka
-      - V308-1X-Singapore
-      - V309-1X-Singapore
-      - V310-1X-Sanjose
-      - V311-1.5X-Chuncheon
-      - V312-1.5X-Chuncheon
-      - V313-1.5X-Seoul
-      - V314-1.5X-Seoul
-      - V315-1.5X-Tokyo
-      - V316-1.5X-Tokyo
-      - V317-1.5X-Osaka
-      - V318-1.5X-Singapore
-      - V319-1.5X-Singapore
-      - V320-1.5X-Sanjose
-      - V321-0.2X-LasVegas
-      - V322-0.2X-Russia
-      - V323-3X-Tokyo
-      - V324-0.2X-Canada
-      - V325-0.2X-Canada
-      - default_name
+      - 加拿大-2.35MB/s(Youtube:不良林)
+      - 中国-181.0KB/s(Youtube:不良林)
+      - 中国-1.15MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
