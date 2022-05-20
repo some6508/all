@@ -5,74 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"b10.v2.gay","name":"免费梯子https://t.me/mftizi_1","port":"1930","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"b21.v2.gay","name":"免费梯子https://t.me/mftizi_2","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm07.bdate.xyz"}},"server":"b22.v2.gay","name":"关注电报https://t.me/mftizi_1","port":"1350","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm07.bdate.xyz"}},"server":"b23.v2.gay","name":"关注电报https://t.me/mftizi_2","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm01.bdate.xyz"}},"server":"b24.v2.gay","name":"TG@mftizi","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"116.129.253.134","password":"e37c6d7efa845d60","port":3389,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"116.129.253.191","password":"e37c6d7efa845d60","port":3389,"udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","server":"112.65.95.60","port":11420,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"Fhbe0z","protocol-param":"MTMzNzA6RHFHRGZF","name":"🇨🇳_CN_中国->🇭🇰_HK_香港"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5e04bdc6-6f09-4f5e-a3c7-edf4d3220ad3","server":"164.92.121.170","port":61598,"name":"🇺🇸_US_美国"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","server":"116.129.253.227","password":"f6f2072a2e4cfc91","port":3389,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.198.252","port":4444,"name":"🇨🇦_CA_加拿大"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 免费梯子https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_2
-      - 关注电报https://t.me/mftizi_1
-      - 关注电报https://t.me/mftizi_2
-      - TG@mftizi
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 免费梯子https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_2
-      - 关注电报https://t.me/mftizi_1
-      - 关注电报https://t.me/mftizi_2
-      - TG@mftizi
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费梯子https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_2
-      - 关注电报https://t.me/mftizi_1
-      - 关注电报https://t.me/mftizi_2
-      - TG@mftizi
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 免费梯子https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_2
-      - 关注电报https://t.me/mftizi_1
-      - 关注电报https://t.me/mftizi_2
-      - TG@mftizi
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 免费梯子https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_2
-      - 关注电报https://t.me/mftizi_1
-      - 关注电报https://t.me/mftizi_2
-      - TG@mftizi
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 免费梯子https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_2
-      - 关注电报https://t.me/mftizi_1
-      - 关注电报https://t.me/mftizi_2
-      - TG@mftizi
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 免费梯子https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_2
-      - 关注电报https://t.me/mftizi_1
-      - 关注电报https://t.me/mftizi_2
-      - TG@mftizi
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
+      - 🇨🇦_CA_加拿大
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
