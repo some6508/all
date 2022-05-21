@@ -5,67 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"🇬🇧_GB_英国_1","server":"167.172.56.225","port":54141,"cipher":"chacha20-ietf-poly1305","password":"1c0e4a18-4d7a-4231-a55d-1dee0fe6732a"}
-  - {"type":"trojan","name":"🇬🇧_GB_英国_2","server":"jgwld1.gaox.ml","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇭🇰_HK_香港","server":"hk-iv.sserver.top","port":80,"uuid":"8d0ceab5-1008-300f-996f-0751e11038f1","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇺🇸_US_美国","server":"azurejapaneast.158801.xyz","port":34003,"password":"1cb75a72-5c60-49bf-8640-a7f0374a47a5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇦🇺_AU_澳大利亚","server":"jgwxn2.gaox.ml","port":443,"password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇭🇰_HK_香港
-      - 🇺🇸_US_美国
+      - 🇦🇺_AU_澳大利亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇭🇰_HK_香港
-      - 🇺🇸_US_美国
+      - 🇦🇺_AU_澳大利亚
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇭🇰_HK_香港
-      - 🇺🇸_US_美国
+      - 🇦🇺_AU_澳大利亚
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇭🇰_HK_香港
-      - 🇺🇸_US_美国
+      - 🇦🇺_AU_澳大利亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇭🇰_HK_香港
-      - 🇺🇸_US_美国
+      - 🇦🇺_AU_澳大利亚
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇭🇰_HK_香港
-      - 🇺🇸_US_美国
+      - 🇦🇺_AU_澳大利亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,10 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
-      - 🇬🇧_GB_英国_2
-      - 🇭🇰_HK_香港
-      - 🇺🇸_US_美国
+      - 🇦🇺_AU_澳大利亚
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
