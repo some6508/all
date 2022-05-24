@@ -90,9 +90,9 @@ case "$href" in
 */ss) CURL v "$href" ;;
 *) ec "! 链接错误	$href" ;;
 esac
-a="`cat $home/url | sed 's/\|$//g'`"
+a="`cat $home/url`"
 for i in clash v2ray surfboard 
-do CURL tmp_$i "https://api.v1.mk/sub?target=${i}&url=${a}config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
+do CURL tmp_$i "https://api.v1.mk/sub?target=${i}&url=${a%\|*}&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
 done
 if ! grep -q '</html>' $home/tmp_clash
 then 
