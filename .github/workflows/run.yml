@@ -37,9 +37,9 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: 安装 curl sed
+      - name: 安装 curl wget
         run: |
-          sudo apt-get install -y curl sed
+          sudo apt-get install -y curl wget
 
       - name: 运行脚本
         run: |
