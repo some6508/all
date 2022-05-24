@@ -8,7 +8,7 @@ cd $home
 rm -rf $home/c* $home/v* $home/url
 ec() { echo "$(date '+%M分%S秒.%3N毫秒')	$@"; }
 CURL() {
-curl -s --connect-timeout 10 "$2" | egrep -qi '</html>$|^404' && return 1
+curl -s -k -L "$2" | egrep -qi '</html>$|^404' && return 1
 if [[ $1 = v ]]; then
 	((v++))
 	n=$1$v
@@ -21,7 +21,7 @@ fi
 echo --------------------------------------------------
 ec "- 下载文件	$n"
 ec "- 连接链接	$2"
-curl -s --connect-timeout 10 -o "$home/${x:-$n}" "$2"
+curl -s -k -L -o "$home/${x:-$n}" "$2"
 CURL=$?
 [[ $CURL != 0 ]] && ec "! 下载失败	$CURL" && return $CURL
 ec "- 下载完成"
@@ -29,7 +29,7 @@ ec "- 下载完成"
 return $?
 }
 AAA() {
-curl -s 'https://github.com/some6508/all/actions' | sed -n '/<span class="color-fg-muted">$/,/<\/span>/p' | sed 's/.*">//g; s/<\/a>//g' | while read i; do
+curl -s -k -L 'https://github.com/some6508/all/actions' | sed -n '/<span class="color-fg-muted">$/,/<\/span>/p' | sed 's/.*">//g; s/<\/a>//g' | while read i; do
 [[ -z $i ]] && continue
 if [[ $i = *"</span>" ]]; then
 	break
@@ -39,16 +39,16 @@ fi
 done
 }
 echo $(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')
-setsid curl -sI 'some6508.ccaeo.com'
-eval "`curl -s 'https://api.github.com/repos/changfengoss/pub/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p' | sed 's|</a>|"|g'`"
+setsid curl -s -I -k -L 'some6508.ccaeo.com'
+eval "`curl -s -k -L 'https://api.github.com/repos/changfengoss/pub/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s -k -L "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p' | sed 's|</a>|"|g'`"
 case "$href" in
 *.txt) CURL v "$href" ;;
 *.yaml) CURL c "$href" ;;
 *) ec "! 链接错误	$href" ;;
 esac
-eval "`curl -s 'https://api.github.com/repos/pojiezhiyuanjun/freev2/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/|p' | sed 's|</a>|"|g'`"
+eval "`curl -s -k -L 'https://api.github.com/repos/pojiezhiyuanjun/freev2/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s -k -L "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/|p' | sed 's|</a>|"|g'`"
 case "$href" in
 *.txt) CURL v "$href" ;;
 *.yml) CURL c "$href" ;;
@@ -58,22 +58,22 @@ case "$href" in
 #rm -rf $home/vc.zip ;;
 *) ec "! 链接错误	$href" ;;
 esac
-eval "`curl -s 'https://api.github.com/repos/zyfxz/V2Ray/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/zyfxz/V2Ray/main/|p' | sed 's|</a>|"|g'`"
+eval "`curl -s -k -L 'https://api.github.com/repos/zyfxz/V2Ray/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s -k -L "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/zyfxz/V2Ray/main/|p' | sed 's|</a>|"|g'`"
 CURL v "$href"
-eval "`curl -s 'https://api.github.com/repos/zyfxz/clash/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/zyfxz/clash/main/|p' | sed 's|</a>|"|g'`"
+eval "`curl -s -k -L 'https://api.github.com/repos/zyfxz/clash/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s -k -L "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/zyfxz/clash/main/|p' | sed 's|</a>|"|g'`"
 CURL c "$href"
-eval "`curl -s 'https://api.github.com/repos/FMYC2015/V2ray/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/FMYC2015/V2ray/main/|p' | sed 's|</a>|"|g'`"
+eval "`curl -s -k -L 'https://api.github.com/repos/FMYC2015/V2ray/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s -k -L "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/FMYC2015/V2ray/main/|p' | sed 's|</a>|"|g'`"
 CURL v "$href"
-eval "`curl -s 'https://api.github.com/repos/FMYC2015/Clash/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/FMYC2015/Clash/main/|p' | sed 's|</a>|"|g'`"
+eval "`curl -s -k -L 'https://api.github.com/repos/FMYC2015/Clash/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s -k -L "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/FMYC2015/Clash/main/|p' | sed 's|</a>|"|g'`"
 CURL c "$href"
 CURL v 'https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
 CURL c 'https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
-eval "`curl -s 'https://api.github.com/repos/bhqz/bhqz/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/bhqz/bhqz/main/|p' | sed 's|</a>|"|g; s|{.* → ||g; s|}||g'`"
+eval "`curl -s -k -L 'https://api.github.com/repos/bhqz/bhqz/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s -k -L "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/bhqz/bhqz/main/|p' | sed 's|</a>|"|g; s|{.* → ||g; s|}||g'`"
 case "$href" in
 *.txt) CURL v "$href" ;;
 *.yaml) CURL c "$href" ;;
@@ -83,8 +83,8 @@ esac
 CURL v 'https://raw.githubusercontent.com/freefq/free/master/v2'
 CURL v 'https://raw.githubusercontent.com/freefq/free/master/ssr'
 CURL v 'https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
-eval "`curl -s 'https://api.github.com/repos/moneyfly1/sublist/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/moneyfly1/sublist/main/|p' | sed 's|</a>|"|g'`"
+eval "`curl -s -k -L 'https://api.github.com/repos/moneyfly1/sublist/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s -k -L "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/moneyfly1/sublist/main/|p' | sed 's|</a>|"|g'`"
 case "$href" in
 *.yml) CURL c "$href" ;;
 */ss) CURL v "$href" ;;
