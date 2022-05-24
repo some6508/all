@@ -25,7 +25,7 @@ curl -s -k -L -o "$home/${x:-$n}" "$2"
 CURL=$?
 [[ $CURL != 0 ]] && ec "! 下载失败	$CURL" && return $CURL
 ec "- 下载完成"
-[[ -z $x ]] && echo -n "https://raw.githubusercontent.com/some6508/all/master/$n|" >>$home/url
+[[ -z $x ]] && [[ -s "$home/${x:-$n}" ]] && echo -n "https://raw.githubusercontent.com/some6508/all/master/$n|" >>$home/url
 return $?
 }
 AAA() {
@@ -90,7 +90,7 @@ case "$href" in
 */ss) CURL v "$href" ;;
 *) ec "! 链接错误	$href" ;;
 esac
-a="`cat $home/url`"
+a="`cat $home/url | sed 's/\|$//g'`"
 for i in clash v2ray surfboard 
 do CURL tmp_$i "https://api.v1.mk/sub?target=${i}&url=${a}config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini"
 done
