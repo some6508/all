@@ -39,7 +39,7 @@ jobs:
 
       - name: 安装 curl sed
         run: |
-        sudo apt-get install -y curl sed
+          sudo apt-get install -y curl sed
 
       - name: 运行脚本
         run: |
