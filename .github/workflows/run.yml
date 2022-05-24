@@ -22,7 +22,13 @@ env:
 jobs:
 
   build:
-    runs-on: ubuntu-latest
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    if: ${{ !startsWith(github.event.head_commit.message, '[skip ci]') }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest ]
 
     steps:
       - name: 运行操作
