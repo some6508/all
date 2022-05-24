@@ -37,6 +37,10 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
+      - name: 安装 curl sed
+        run: |
+        sudo apt-get install -y curl sed
+
       - name: 运行脚本
         run: |
           bash ./.github/ccaeo.sh
@@ -54,23 +58,29 @@ jobs:
           git status
           git commit -m "$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')" -a
 
-      - name: 上传 log
+      - name: 上传调试日志
         uses: actions/upload-artifact@v2
         with:
           name: ccaeo.log
           path: './.ccaeo.log'
 
-      - name: 上传 cv
+      - name: 上传文件clash
         uses: actions/upload-artifact@v2
         with:
-          name: cv
-          path: './cv'
+          name: clash
+          path: './clash'
 
-      - name: 上传 vc
+      - name: 上传文件v2ray
         uses: actions/upload-artifact@v2
         with:
-          name: vc
-          path: './vc'
+          name: v2ray
+          path: './v2ray'
+
+      - name: 上传文件surfboard
+        uses: actions/upload-artifact@v2
+        with:
+          name: surfboard
+          path: './surfboard'
 
       - name: 开始上传到仓库
         uses: ad-m/github-push-action@master
