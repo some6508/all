@@ -5,8 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CA_加拿大, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _KR_韩国, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
+  - {name: 韩国-431.8KB/s(Youtube:不良林), server: 3.38.116.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 波兰-583.6KB/s(Youtube:不良林), server: 217.30.10.63, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 美国-352.4KB/s(Youtube:不良林), server: 20.24.227.29, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 波兰-419.5KB/s(Youtube:不良林), server: 217.30.10.63, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 日本-250.2KB/s(Youtube:不良林), server: 52.253.119.192, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 波兰-616.8KB/s(Youtube:不良林), server: 217.30.10.63, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 波兰-475.8KB/s(Youtube:不良林), server: 217.30.10.63, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 波兰-414.3KB/s(Youtube:不良林), server: 217.30.10.64, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 乌克兰-881.4KB/s(Youtube:不良林), server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}, udp: true}
+  - {name: 韩国-2.57MB/s(Youtube:不良林), server: 3.36.93.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
@@ -572,8 +580,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CA_加拿大
-      - _KR_韩国
+      - 韩国-431.8KB/s(Youtube:不良林)
+      - 波兰-583.6KB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 波兰-419.5KB/s(Youtube:不良林)
+      - 日本-250.2KB/s(Youtube:不良林)
+      - 波兰-616.8KB/s(Youtube:不良林)
+      - 波兰-475.8KB/s(Youtube:不良林)
+      - 波兰-414.3KB/s(Youtube:不良林)
+      - 乌克兰-881.4KB/s(Youtube:不良林)
+      - 韩国-2.57MB/s(Youtube:不良林)
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -1139,8 +1155,16 @@ proxy-groups:
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 150
     proxies:
-      - _CA_加拿大
-      - _KR_韩国
+      - 韩国-431.8KB/s(Youtube:不良林)
+      - 波兰-583.6KB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 波兰-419.5KB/s(Youtube:不良林)
+      - 日本-250.2KB/s(Youtube:不良林)
+      - 波兰-616.8KB/s(Youtube:不良林)
+      - 波兰-475.8KB/s(Youtube:不良林)
+      - 波兰-414.3KB/s(Youtube:不良林)
+      - 乌克兰-881.4KB/s(Youtube:不良林)
+      - 韩国-2.57MB/s(Youtube:不良林)
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
