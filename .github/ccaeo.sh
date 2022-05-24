@@ -8,7 +8,7 @@ cd $home
 rm -rf $home/c* $home/v* $home/url
 ec() { echo "$(date '+%M分%S秒.%3N毫秒')	$@"; }
 CURL() {
-curl -s --connect-timeout 10 "$2" | egrep -qi '</html>$' && return 1
+curl -s --connect-timeout 10 "$2" | egrep -qi '</html>$|^404' && return 1
 if [[ $1 = v ]]; then
 	((v++))
 	n=$1$v
