@@ -5,74 +5,72 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"🇨🇳_CN_中国->🇨🇭_CH_瑞士","server":"nn2.boom.party","port":41000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"d3d3LmJhaWR1LmNvbQ==","protocol-param":"Mjk3OTMwOm5LdEkxTg=="}
   - {"type":"ssr","name":"🇨🇳_CN_中国->_null_null","server":"nk7.boom.party","port":17000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=","protocol-param":"Mzg4MTM3OlphNXNTWA=="}
-  - {"type":"ssr","name":"🇨🇳_CN_中国","server":"nmb.boom.party","port":21000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"d3d3LmJhaWR1LmNvbQ==","protocol-param":"Mjk3OTMwOm5LdEkxTg=="}
-  - {"type":"vmess","name":"🇭🇰_HK_香港","server":"c03.v2.gay","port":60011,"uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇮🇳_IN_印度","server":"jgwhdlb1.gaox.ml","port":443,"password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇷🇺_RU_俄罗斯联邦_1","server":"185.4.65.6","port":21247,"cipher":"aes-256-cfb","password":"vDS9G2p"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_1","server":"213.183.59.214","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_2","server":"213.183.59.214","port":9000,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"a3GFYt36Sm82Vys9"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_3","server":"213.183.59.206","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_4","server":"213.183.59.214","port":9056,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rNBfNuuANFCAk7KB"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_5","server":"213.183.59.206","port":9005,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZET59LF6DvCC8KVt"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_6","server":"213.183.59.214","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_7","server":"213.183.59.214","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_8","server":"213.183.59.214","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_9","server":"213.183.59.214","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_10","server":"213.183.59.206","port":9059,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"9XwYyZsK8SNzQDtY"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_11","server":"213.183.59.214","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_12","server":"213.183.59.214","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_13","server":"213.183.59.214","port":9042,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"S7KwUu7yBy58S3Ga"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_14","server":"213.183.59.206","port":9073,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"daFYagqDdBdA6VTX"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_15","server":"213.183.59.214","port":9061,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"4R3hUfZ2FHhDmNcP"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_16","server":"213.183.59.214","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_17","server":"213.183.59.214","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_18","server":"213.183.59.214","port":9059,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"9XwYyZsK8SNzQDtY"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_19","server":"213.183.59.214","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_20","server":"213.183.59.206","port":9030,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"GeregetR8cvQHzYr"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_1","server":"213.183.59.214","port":9000,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"a3GFYt36Sm82Vys9"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_2","server":"213.183.59.206","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_3","server":"213.183.59.214","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_4","server":"213.183.59.206","port":9042,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"S7KwUu7yBy58S3Ga"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_5","server":"213.183.59.206","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH"}
   - {"type":"ss","name":"🇨🇦_CA_加拿大","server":"134.195.198.252","port":4444,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_21","server":"213.183.59.206","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_22","server":"213.183.59.206","port":9042,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"S7KwUu7yBy58S3Ga"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_23","server":"213.183.59.206","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_24","server":"213.183.59.214","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_25","server":"213.183.59.214","port":9098,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"aLpQtfEZe445QyHk"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_26","server":"213.183.59.214","port":9058,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"dML2sfhbVwvtfNPe"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_6","server":"213.183.59.206","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN"}
+  - {"type":"ssr","name":"🇨🇳_CN_中国->🇨🇭_CH_瑞士","server":"nn2.boom.party","port":41000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"d3d3LmJhaWR1LmNvbQ==","protocol-param":"Mjk3OTMwOm5LdEkxTg=="}
+  - {"type":"ssr","name":"🇨🇳_CN_中国","server":"nmb.boom.party","port":21000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"d3d3LmJhaWR1LmNvbQ==","protocol-param":"Mjk3OTMwOm5LdEkxTg=="}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_7","server":"213.183.59.214","port":9025,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"XPtzA9sCug3SPR4c"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_8","server":"213.183.59.214","port":9056,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rNBfNuuANFCAk7KB"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_9","server":"213.183.59.214","port":9073,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"daFYagqDdBdA6VTX"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_10","server":"213.183.59.206","port":9005,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZET59LF6DvCC8KVt"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_11","server":"213.183.59.214","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_12","server":"213.183.59.214","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_13","server":"213.183.59.206","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_14","server":"213.183.59.206","port":9030,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"GeregetR8cvQHzYr"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_15","server":"213.183.59.214","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_16","server":"213.183.59.214","port":9042,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"S7KwUu7yBy58S3Ga"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_17","server":"213.183.59.214","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_18","server":"213.183.59.206","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_19","server":"213.183.59.206","port":9000,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"a3GFYt36Sm82Vys9"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_20","server":"213.183.59.206","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_21","server":"213.183.59.206","port":9058,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"dML2sfhbVwvtfNPe"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_22","server":"213.183.59.206","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_23","server":"213.183.59.206","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_24","server":"213.183.59.206","port":9059,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"9XwYyZsK8SNzQDtY"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_25","server":"213.183.59.214","port":9003,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"JdmRK9gMEqFgs8nP"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_26","server":"213.183.59.206","port":9073,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"daFYagqDdBdA6VTX"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_27","server":"213.183.59.214","port":9061,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"4R3hUfZ2FHhDmNcP"}
+  - {"type":"ss","name":"🇷🇺_RU_俄罗斯联邦_1","server":"185.4.65.6","port":21247,"cipher":"aes-256-cfb","password":"vDS9G2p"}
+  - {"type":"ss","name":"🇳🇱_NL_荷兰_28","server":"213.183.59.206","port":9059,"cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
   - {"type":"trojan","name":"🇺🇸_US_美国->🇸🇬_SG_新加坡","server":"s2.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_27","server":"213.183.59.206","port":9000,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"a3GFYt36Sm82Vys9"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_28","server":"213.183.59.214","port":9073,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"daFYagqDdBdA6VTX"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_29","server":"213.183.59.214","port":9025,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"XPtzA9sCug3SPR4c"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_30","server":"213.183.59.206","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8"}
-  - {"type":"ss","name":"🇳🇱_NL_荷兰_31","server":"213.183.59.206","port":9059,"cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_32","server":"213.183.59.206","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_33","server":"213.183.59.206","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_34","server":"213.183.59.214","port":9046,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"NvS8N4Vf8qAGPSCL"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_35","server":"213.183.59.214","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_36","server":"213.183.59.214","port":9003,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"JdmRK9gMEqFgs8nP"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_37","server":"213.183.59.214","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_38","server":"213.183.59.206","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_39","server":"213.183.59.206","port":9058,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"dML2sfhbVwvtfNPe"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_29","server":"213.183.59.214","port":9058,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"dML2sfhbVwvtfNPe"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_30","server":"213.183.59.214","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
   - {"type":"ssr","name":"🇷🇺_RU_俄罗斯联邦_2","server":"213.183.53.177","port":9005,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZET59LF6DvCC8KVt"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_40","server":"213.183.59.214","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_41","server":"213.183.59.206","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_31","server":"213.183.59.214","port":9098,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"aLpQtfEZe445QyHk"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_32","server":"213.183.59.214","port":9046,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"NvS8N4Vf8qAGPSCL"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_33","server":"213.183.59.214","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_34","server":"213.183.59.214","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_35","server":"213.183.59.214","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_36","server":"213.183.59.214","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_37","server":"213.183.59.214","port":9059,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"9XwYyZsK8SNzQDtY"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_38","server":"213.183.59.214","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_39","server":"213.183.59.214","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_40","server":"213.183.59.214","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_41","server":"213.183.59.214","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN"}
+  - {"type":"trojan","name":"🇮🇳_IN_印度","server":"jgwhdlb1.gaox.ml","port":443,"password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇭🇰_HK_香港","server":"c03.v2.gay","port":60011,"uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":2,"cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
       - 🇨🇳_CN_中国->_null_null
-      - 🇨🇳_CN_中国
-      - 🇭🇰_HK_香港
-      - 🇮🇳_IN_印度
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_1
       - 🇳🇱_NL_荷兰_2
       - 🇳🇱_NL_荷兰_3
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_6
+      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
+      - 🇨🇳_CN_中国
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
       - 🇳🇱_NL_荷兰_9
@@ -87,18 +85,19 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_18
       - 🇳🇱_NL_荷兰_19
       - 🇳🇱_NL_荷兰_20
-      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_21
       - 🇳🇱_NL_荷兰_22
       - 🇳🇱_NL_荷兰_23
       - 🇳🇱_NL_荷兰_24
       - 🇳🇱_NL_荷兰_25
       - 🇳🇱_NL_荷兰_26
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_27
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_28
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_29
       - 🇳🇱_NL_荷兰_30
+      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_31
       - 🇳🇱_NL_荷兰_32
       - 🇳🇱_NL_荷兰_33
@@ -108,27 +107,26 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_37
       - 🇳🇱_NL_荷兰_38
       - 🇳🇱_NL_荷兰_39
-      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_40
       - 🇳🇱_NL_荷兰_41
+      - 🇮🇳_IN_印度
+      - 🇭🇰_HK_香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
       - 🇨🇳_CN_中国->_null_null
-      - 🇨🇳_CN_中国
-      - 🇭🇰_HK_香港
-      - 🇮🇳_IN_印度
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_1
       - 🇳🇱_NL_荷兰_2
       - 🇳🇱_NL_荷兰_3
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_6
+      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
+      - 🇨🇳_CN_中国
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
       - 🇳🇱_NL_荷兰_9
@@ -143,18 +141,19 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_18
       - 🇳🇱_NL_荷兰_19
       - 🇳🇱_NL_荷兰_20
-      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_21
       - 🇳🇱_NL_荷兰_22
       - 🇳🇱_NL_荷兰_23
       - 🇳🇱_NL_荷兰_24
       - 🇳🇱_NL_荷兰_25
       - 🇳🇱_NL_荷兰_26
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_27
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_28
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_29
       - 🇳🇱_NL_荷兰_30
+      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_31
       - 🇳🇱_NL_荷兰_32
       - 🇳🇱_NL_荷兰_33
@@ -164,27 +163,26 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_37
       - 🇳🇱_NL_荷兰_38
       - 🇳🇱_NL_荷兰_39
-      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_40
       - 🇳🇱_NL_荷兰_41
+      - 🇮🇳_IN_印度
+      - 🇭🇰_HK_香港
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
       - 🇨🇳_CN_中国->_null_null
-      - 🇨🇳_CN_中国
-      - 🇭🇰_HK_香港
-      - 🇮🇳_IN_印度
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_1
       - 🇳🇱_NL_荷兰_2
       - 🇳🇱_NL_荷兰_3
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_6
+      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
+      - 🇨🇳_CN_中国
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
       - 🇳🇱_NL_荷兰_9
@@ -199,18 +197,19 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_18
       - 🇳🇱_NL_荷兰_19
       - 🇳🇱_NL_荷兰_20
-      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_21
       - 🇳🇱_NL_荷兰_22
       - 🇳🇱_NL_荷兰_23
       - 🇳🇱_NL_荷兰_24
       - 🇳🇱_NL_荷兰_25
       - 🇳🇱_NL_荷兰_26
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_27
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_28
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_29
       - 🇳🇱_NL_荷兰_30
+      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_31
       - 🇳🇱_NL_荷兰_32
       - 🇳🇱_NL_荷兰_33
@@ -220,26 +219,25 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_37
       - 🇳🇱_NL_荷兰_38
       - 🇳🇱_NL_荷兰_39
-      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_40
       - 🇳🇱_NL_荷兰_41
+      - 🇮🇳_IN_印度
+      - 🇭🇰_HK_香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
       - 🇨🇳_CN_中国->_null_null
-      - 🇨🇳_CN_中国
-      - 🇭🇰_HK_香港
-      - 🇮🇳_IN_印度
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_1
       - 🇳🇱_NL_荷兰_2
       - 🇳🇱_NL_荷兰_3
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_6
+      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
+      - 🇨🇳_CN_中国
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
       - 🇳🇱_NL_荷兰_9
@@ -254,18 +252,19 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_18
       - 🇳🇱_NL_荷兰_19
       - 🇳🇱_NL_荷兰_20
-      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_21
       - 🇳🇱_NL_荷兰_22
       - 🇳🇱_NL_荷兰_23
       - 🇳🇱_NL_荷兰_24
       - 🇳🇱_NL_荷兰_25
       - 🇳🇱_NL_荷兰_26
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_27
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_28
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_29
       - 🇳🇱_NL_荷兰_30
+      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_31
       - 🇳🇱_NL_荷兰_32
       - 🇳🇱_NL_荷兰_33
@@ -275,26 +274,25 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_37
       - 🇳🇱_NL_荷兰_38
       - 🇳🇱_NL_荷兰_39
-      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_40
       - 🇳🇱_NL_荷兰_41
+      - 🇮🇳_IN_印度
+      - 🇭🇰_HK_香港
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
       - 🇨🇳_CN_中国->_null_null
-      - 🇨🇳_CN_中国
-      - 🇭🇰_HK_香港
-      - 🇮🇳_IN_印度
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_1
       - 🇳🇱_NL_荷兰_2
       - 🇳🇱_NL_荷兰_3
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_6
+      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
+      - 🇨🇳_CN_中国
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
       - 🇳🇱_NL_荷兰_9
@@ -309,18 +307,19 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_18
       - 🇳🇱_NL_荷兰_19
       - 🇳🇱_NL_荷兰_20
-      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_21
       - 🇳🇱_NL_荷兰_22
       - 🇳🇱_NL_荷兰_23
       - 🇳🇱_NL_荷兰_24
       - 🇳🇱_NL_荷兰_25
       - 🇳🇱_NL_荷兰_26
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_27
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_28
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_29
       - 🇳🇱_NL_荷兰_30
+      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_31
       - 🇳🇱_NL_荷兰_32
       - 🇳🇱_NL_荷兰_33
@@ -330,26 +329,25 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_37
       - 🇳🇱_NL_荷兰_38
       - 🇳🇱_NL_荷兰_39
-      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_40
       - 🇳🇱_NL_荷兰_41
+      - 🇮🇳_IN_印度
+      - 🇭🇰_HK_香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
       - 🇨🇳_CN_中国->_null_null
-      - 🇨🇳_CN_中国
-      - 🇭🇰_HK_香港
-      - 🇮🇳_IN_印度
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_1
       - 🇳🇱_NL_荷兰_2
       - 🇳🇱_NL_荷兰_3
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_6
+      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
+      - 🇨🇳_CN_中国
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
       - 🇳🇱_NL_荷兰_9
@@ -364,18 +362,19 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_18
       - 🇳🇱_NL_荷兰_19
       - 🇳🇱_NL_荷兰_20
-      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_21
       - 🇳🇱_NL_荷兰_22
       - 🇳🇱_NL_荷兰_23
       - 🇳🇱_NL_荷兰_24
       - 🇳🇱_NL_荷兰_25
       - 🇳🇱_NL_荷兰_26
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_27
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_28
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_29
       - 🇳🇱_NL_荷兰_30
+      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_31
       - 🇳🇱_NL_荷兰_32
       - 🇳🇱_NL_荷兰_33
@@ -385,9 +384,10 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_37
       - 🇳🇱_NL_荷兰_38
       - 🇳🇱_NL_荷兰_39
-      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_40
       - 🇳🇱_NL_荷兰_41
+      - 🇮🇳_IN_印度
+      - 🇭🇰_HK_香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,18 +410,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
       - 🇨🇳_CN_中国->_null_null
-      - 🇨🇳_CN_中国
-      - 🇭🇰_HK_香港
-      - 🇮🇳_IN_印度
-      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_1
       - 🇳🇱_NL_荷兰_2
       - 🇳🇱_NL_荷兰_3
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_6
+      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
+      - 🇨🇳_CN_中国
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
       - 🇳🇱_NL_荷兰_9
@@ -436,18 +434,19 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_18
       - 🇳🇱_NL_荷兰_19
       - 🇳🇱_NL_荷兰_20
-      - 🇨🇦_CA_加拿大
       - 🇳🇱_NL_荷兰_21
       - 🇳🇱_NL_荷兰_22
       - 🇳🇱_NL_荷兰_23
       - 🇳🇱_NL_荷兰_24
       - 🇳🇱_NL_荷兰_25
       - 🇳🇱_NL_荷兰_26
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_27
+      - 🇷🇺_RU_俄罗斯联邦_1
       - 🇳🇱_NL_荷兰_28
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇳🇱_NL_荷兰_29
       - 🇳🇱_NL_荷兰_30
+      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_31
       - 🇳🇱_NL_荷兰_32
       - 🇳🇱_NL_荷兰_33
@@ -457,9 +456,10 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_37
       - 🇳🇱_NL_荷兰_38
       - 🇳🇱_NL_荷兰_39
-      - 🇷🇺_RU_俄罗斯联邦_2
       - 🇳🇱_NL_荷兰_40
       - 🇳🇱_NL_荷兰_41
+      - 🇮🇳_IN_印度
+      - 🇭🇰_HK_香港
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
