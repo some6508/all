@@ -15,15 +15,6 @@ proxies:
   - {"type":"ssr","name":"🇳🇱_NL_荷兰_6","server":"213.183.59.214","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq"}
   - {"type":"ssr","name":"🇳🇱_NL_荷兰_7","server":"213.183.59.214","port":9042,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"S7KwUu7yBy58S3Ga"}
   - {"type":"ss","name":"🇳🇱_NL_荷兰_8","server":"213.183.59.214","port":9070,"cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"type":"ssr","name":"🇷🇺_RU_俄罗斯联邦_1","server":"213.183.53.177","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
-  - {"type":"ssr","name":"🇷🇺_RU_俄罗斯联邦_2","server":"213.183.53.177","port":9046,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"NvS8N4Vf8qAGPSCL"}
-  - {"type":"ssr","name":"🇷🇺_RU_俄罗斯联邦_3","server":"213.183.53.177","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ssr","name":"🇷🇺_RU_俄罗斯联邦_4","server":"213.183.53.177","port":9098,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"aLpQtfEZe445QyHk"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_9","server":"213.183.59.214","port":9007,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"kSPmvwdFzGMMW5pY"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_10","server":"213.183.59.211","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_11","server":"213.183.59.211","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb"}
-  - {"type":"trojan","name":"🇮🇳_IN_印度","server":"jgwhdlb3.gaox.ml","port":443,"password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国","server":"s162.s2022.xyz","port":23802,"password":"d724e4d0-841b-3b92-ac0d-70fcbbb7e934","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -40,15 +31,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_6
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇳🇱_NL_荷兰_9
-      - 🇳🇱_NL_荷兰_10
-      - 🇳🇱_NL_荷兰_11
-      - 🇮🇳_IN_印度
-      - 🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -65,15 +47,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_6
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇳🇱_NL_荷兰_9
-      - 🇳🇱_NL_荷兰_10
-      - 🇳🇱_NL_荷兰_11
-      - 🇮🇳_IN_印度
-      - 🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -90,15 +63,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_6
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇳🇱_NL_荷兰_9
-      - 🇳🇱_NL_荷兰_10
-      - 🇳🇱_NL_荷兰_11
-      - 🇮🇳_IN_印度
-      - 🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -114,15 +78,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_6
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇳🇱_NL_荷兰_9
-      - 🇳🇱_NL_荷兰_10
-      - 🇳🇱_NL_荷兰_11
-      - 🇮🇳_IN_印度
-      - 🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -138,15 +93,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_6
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇳🇱_NL_荷兰_9
-      - 🇳🇱_NL_荷兰_10
-      - 🇳🇱_NL_荷兰_11
-      - 🇮🇳_IN_印度
-      - 🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -162,15 +108,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_6
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇳🇱_NL_荷兰_9
-      - 🇳🇱_NL_荷兰_10
-      - 🇳🇱_NL_荷兰_11
-      - 🇮🇳_IN_印度
-      - 🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,15 +140,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰_6
       - 🇳🇱_NL_荷兰_7
       - 🇳🇱_NL_荷兰_8
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇳🇱_NL_荷兰_9
-      - 🇳🇱_NL_荷兰_10
-      - 🇳🇱_NL_荷兰_11
-      - 🇮🇳_IN_印度
-      - 🇺🇸_US_美国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
