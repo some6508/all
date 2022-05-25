@@ -5,15 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 ★美国加州A★年付专线, server: 142.4.120.9, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.55004117.xyz}}}
-  - {name: 🇭🇰 ★中国香港A★年付专线, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.52833977.xyz}}}
-  - {name: 🇬🇧 英国伦敦B, server: 23.224.69.21, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.73788846.xyz}}}
-  - {name: 🇸🇪 瑞典, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.52833977.xyz}}}
-  - {name: 🇫🇮 芬兰, server: 154.84.1.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.05222027.xyz}}}
-  - {name: 🇱🇺 卢森堡, server: 154.84.1.195, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.57556953.xyz}}}
-  - {name: 🇧🇪 比利时, server: 198.2.200.116, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.68478520.xyz}}}
-  - {name: 🇪🇬 埃及开罗, server: 23.224.69.21, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.73788846.xyz}}}
-  - {name: 🇲🇩 摩尔多瓦, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.52833977.xyz}}}
+  - {name: "🇰🇷 KR, Incheon", server: 13.212.83.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇺🇸 US, Dallas 2", server: 54.213.250.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇭🇰 HK, Kowloon", server: 54.238.232.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇺🇸 US, Houston", server: 15.165.18.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇯🇵 JP, Tokyo", server: 3.38.253.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇺🇸 US, Los Angeles", server: 65.49.193.51, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: "🇨🇦 CA, Vancouver", server: 13.125.218.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇺🇸 US, Dallas", server: 97.64.28.52, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: "🇺🇸 US, California", server: 172.96.192.100, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
+  - {name: "🇯🇵 JP, Tokyo 2", server: 13.125.228.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇭🇰 HK, New Territories", server: 3.39.236.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇨🇳 TW, Taipei", server: 54.248.212.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇸🇬 SG, Singapore", server: 13.230.223.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇯🇵 JP, Osaka", server: 43.200.6.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,59 +27,79 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇺🇸 ★美国加州A★年付专线
-      - 🇭🇰 ★中国香港A★年付专线
-      - 🇬🇧 英国伦敦B
-      - 🇸🇪 瑞典
-      - 🇫🇮 芬兰
-      - 🇱🇺 卢森堡
-      - 🇧🇪 比利时
-      - 🇪🇬 埃及开罗
-      - 🇲🇩 摩尔多瓦
+      - 🇰🇷 KR, Incheon
+      - 🇺🇸 US, Dallas 2
+      - 🇭🇰 HK, Kowloon
+      - 🇺🇸 US, Houston
+      - 🇯🇵 JP, Tokyo
+      - 🇺🇸 US, Los Angeles
+      - 🇨🇦 CA, Vancouver
+      - 🇺🇸 US, Dallas
+      - 🇺🇸 US, California
+      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 HK, New Territories
+      - 🇨🇳 TW, Taipei
+      - 🇸🇬 SG, Singapore
+      - 🇯🇵 JP, Osaka
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 ★美国加州A★年付专线
-      - 🇭🇰 ★中国香港A★年付专线
-      - 🇬🇧 英国伦敦B
-      - 🇸🇪 瑞典
-      - 🇫🇮 芬兰
-      - 🇱🇺 卢森堡
-      - 🇧🇪 比利时
-      - 🇪🇬 埃及开罗
-      - 🇲🇩 摩尔多瓦
+      - 🇰🇷 KR, Incheon
+      - 🇺🇸 US, Dallas 2
+      - 🇭🇰 HK, Kowloon
+      - 🇺🇸 US, Houston
+      - 🇯🇵 JP, Tokyo
+      - 🇺🇸 US, Los Angeles
+      - 🇨🇦 CA, Vancouver
+      - 🇺🇸 US, Dallas
+      - 🇺🇸 US, California
+      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 HK, New Territories
+      - 🇨🇳 TW, Taipei
+      - 🇸🇬 SG, Singapore
+      - 🇯🇵 JP, Osaka
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 ★美国加州A★年付专线
-      - 🇭🇰 ★中国香港A★年付专线
-      - 🇬🇧 英国伦敦B
-      - 🇸🇪 瑞典
-      - 🇫🇮 芬兰
-      - 🇱🇺 卢森堡
-      - 🇧🇪 比利时
-      - 🇪🇬 埃及开罗
-      - 🇲🇩 摩尔多瓦
+      - 🇰🇷 KR, Incheon
+      - 🇺🇸 US, Dallas 2
+      - 🇭🇰 HK, Kowloon
+      - 🇺🇸 US, Houston
+      - 🇯🇵 JP, Tokyo
+      - 🇺🇸 US, Los Angeles
+      - 🇨🇦 CA, Vancouver
+      - 🇺🇸 US, Dallas
+      - 🇺🇸 US, California
+      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 HK, New Territories
+      - 🇨🇳 TW, Taipei
+      - 🇸🇬 SG, Singapore
+      - 🇯🇵 JP, Osaka
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 ★美国加州A★年付专线
-      - 🇭🇰 ★中国香港A★年付专线
-      - 🇬🇧 英国伦敦B
-      - 🇸🇪 瑞典
-      - 🇫🇮 芬兰
-      - 🇱🇺 卢森堡
-      - 🇧🇪 比利时
-      - 🇪🇬 埃及开罗
-      - 🇲🇩 摩尔多瓦
+      - 🇰🇷 KR, Incheon
+      - 🇺🇸 US, Dallas 2
+      - 🇭🇰 HK, Kowloon
+      - 🇺🇸 US, Houston
+      - 🇯🇵 JP, Tokyo
+      - 🇺🇸 US, Los Angeles
+      - 🇨🇦 CA, Vancouver
+      - 🇺🇸 US, Dallas
+      - 🇺🇸 US, California
+      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 HK, New Territories
+      - 🇨🇳 TW, Taipei
+      - 🇸🇬 SG, Singapore
+      - 🇯🇵 JP, Osaka
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -94,15 +119,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇺🇸 ★美国加州A★年付专线
-      - 🇭🇰 ★中国香港A★年付专线
-      - 🇬🇧 英国伦敦B
-      - 🇸🇪 瑞典
-      - 🇫🇮 芬兰
-      - 🇱🇺 卢森堡
-      - 🇧🇪 比利时
-      - 🇪🇬 埃及开罗
-      - 🇲🇩 摩尔多瓦
+      - 🇰🇷 KR, Incheon
+      - 🇺🇸 US, Dallas 2
+      - 🇭🇰 HK, Kowloon
+      - 🇺🇸 US, Houston
+      - 🇯🇵 JP, Tokyo
+      - 🇺🇸 US, Los Angeles
+      - 🇨🇦 CA, Vancouver
+      - 🇺🇸 US, Dallas
+      - 🇺🇸 US, California
+      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 HK, New Territories
+      - 🇨🇳 TW, Taipei
+      - 🇸🇬 SG, Singapore
+      - 🇯🇵 JP, Osaka
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1466,7 +1496,6 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,🛑 全球拦截
  - DOMAIN-SUFFIX,ybp.yahoo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,sugar.zhihu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shrek.6.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,simba.6.cn,🛑 全球拦截
@@ -1904,6 +1933,9 @@ rules:
  - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
  - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
  - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
+ - DOMAIN-SUFFIX,disco-api.com,🚀 节点选择
+ - DOMAIN-SUFFIX,discovery.com,🚀 节点选择
+ - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
  - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
  - DOMAIN-SUFFIX,adobedtm.com,🚀 节点选择
  - DOMAIN-SUFFIX,bam.nr-data.net,🚀 节点选择
@@ -1991,6 +2023,7 @@ rules:
  - DOMAIN-SUFFIX,kkbox.com,🚀 节点选择
  - DOMAIN-SUFFIX,kkbox.com.tw,🚀 节点选择
  - DOMAIN,kktv-theater.kk.stream,🚀 节点选择
+ - DOMAIN,theater-kktv.cdn.hinet.net,🚀 节点选择
  - DOMAIN-SUFFIX,kktv.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,kktv.me,🚀 节点选择
  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🚀 节点选择
@@ -2647,13 +2680,29 @@ rules:
  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
+ - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,byted-static.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytedance.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytedance.net,🎯 全球直连
  - DOMAIN-SUFFIX,bytedns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bytednsdoc.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytegoofy.com,🎯 全球直连
  - DOMAIN-SUFFIX,byteimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytescm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
+ - DOMAIN-SUFFIX,feelgood.cn,🎯 全球直连
  - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
  - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
  - DOMAIN-SUFFIX,huoshan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huoshanzhibo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ibytedapm.com,🎯 全球直连
  - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
  - DOMAIN-SUFFIX,ixigua.com,🎯 全球直连
  - DOMAIN-SUFFIX,kspkg.com,🎯 全球直连
