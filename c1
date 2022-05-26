@@ -5,109 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_1","server":"213.183.59.206","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_2","server":"213.183.59.214","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_3","server":"213.183.59.214","port":9025,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"XPtzA9sCug3SPR4c"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_4","server":"213.183.59.206","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_5","server":"213.183.59.206","port":9015,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZpNDDKRu9MagNvaf"}
-  - {"type":"ss","name":"🇳🇱_NL_荷兰_6","server":"213.183.59.214","port":9007,"cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_7","server":"213.183.59.206","port":9056,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rNBfNuuANFCAk7KB"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_8","server":"213.183.59.214","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_9","server":"213.183.59.206","port":9097,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"Sn5B7jTqr76aCJT8"}
-  - {"type":"ss","name":"🇨🇭_CH_瑞士","server":"185.126.116.125","port":9088,"cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"type":"ssr","name":"www.dongtaiwang.com免费ssr节点","server":"ssrfree10.free4444.xyz","port":443,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
-      - 🇳🇱_NL_荷兰_8
-      - 🇳🇱_NL_荷兰_9
-      - 🇨🇭_CH_瑞士
+      - www.dongtaiwang.com免费ssr节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
-      - 🇳🇱_NL_荷兰_8
-      - 🇳🇱_NL_荷兰_9
-      - 🇨🇭_CH_瑞士
+      - www.dongtaiwang.com免费ssr节点
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
-      - 🇳🇱_NL_荷兰_8
-      - 🇳🇱_NL_荷兰_9
-      - 🇨🇭_CH_瑞士
+      - www.dongtaiwang.com免费ssr节点
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
-      - 🇳🇱_NL_荷兰_8
-      - 🇳🇱_NL_荷兰_9
-      - 🇨🇭_CH_瑞士
+      - www.dongtaiwang.com免费ssr节点
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
-      - 🇳🇱_NL_荷兰_8
-      - 🇳🇱_NL_荷兰_9
-      - 🇨🇭_CH_瑞士
+      - www.dongtaiwang.com免费ssr节点
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
-      - 🇳🇱_NL_荷兰_8
-      - 🇳🇱_NL_荷兰_9
-      - 🇨🇭_CH_瑞士
+      - www.dongtaiwang.com免费ssr节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
-      - 🇳🇱_NL_荷兰_8
-      - 🇳🇱_NL_荷兰_9
-      - 🇨🇭_CH_瑞士
+      - www.dongtaiwang.com免费ssr节点
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
