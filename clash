@@ -5,24 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _NL_荷兰_1, server: 213.183.59.206, port: 9018, type: ssr, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_2, server: 213.183.59.214, port: 9001, type: ssr, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_3, server: 213.183.59.214, port: 9025, type: ssr, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_4, server: 213.183.59.206, port: 9008, type: ssr, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_5, server: 213.183.59.206, port: 9015, type: ssr, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_6, server: 213.183.59.214, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: _NL_荷兰_7, server: 213.183.59.206, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_8, server: 213.183.59.214, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_9, server: 213.183.59.206, port: 9097, type: ssr, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CH_瑞士, server: 185.126.116.125, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: _AU_澳大利亚, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_10, server: 213.183.59.214, port: 9031, type: ssr, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_11, server: 213.183.59.206, port: 9070, type: ssr, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _NL_荷兰_12, server: 213.183.59.206, port: 9027, type: ssr, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国_1, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_13, server: 213.183.59.214, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: _US_美国_2, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: v2rayse_test, server: 198.57.27.218, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: v2rayse_test 2, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: v2rayse_test 3, server: 20.239.49.44, port: 59814, type: ssr, cipher: dummy, password: 3df57276-03ef-45cf-bdd4-4edb6dfaa0ef, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: v2rayse_test 4, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君), server: de-03.fireplay.io, port: 443, type: trojan, password: 63X7Dg58EII2qt6f, sni: de-03.fireplay.io, skip-cert-verify: true, udp: true}
   - {name: 英国(欢迎订阅Youtube破解资源君) 2, server: de-02.fireplay.io, port: 443, type: trojan, password: YrnU2nhCTrx7aPLU, sni: de-02.fireplay.io, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
@@ -551,24 +537,10 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _NL_荷兰_1
-      - _NL_荷兰_2
-      - _NL_荷兰_3
-      - _NL_荷兰_4
-      - _NL_荷兰_5
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _CH_瑞士
-      - _AU_澳大利亚
-      - _NL_荷兰_10
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _US_美国_1
-      - _KR_韩国
-      - _NL_荷兰_13
-      - _US_美国_2
+      - v2rayse_test
+      - v2rayse_test 2
+      - v2rayse_test 3
+      - v2rayse_test 4
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
@@ -1097,24 +1069,10 @@ proxy-groups:
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 150
     proxies:
-      - _NL_荷兰_1
-      - _NL_荷兰_2
-      - _NL_荷兰_3
-      - _NL_荷兰_4
-      - _NL_荷兰_5
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _CH_瑞士
-      - _AU_澳大利亚
-      - _NL_荷兰_10
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _US_美国_1
-      - _KR_韩国
-      - _NL_荷兰_13
-      - _US_美国_2
+      - v2rayse_test
+      - v2rayse_test 2
+      - v2rayse_test 3
+      - v2rayse_test 4
       - 英国(欢迎订阅Youtube破解资源君)
       - 英国(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君)
