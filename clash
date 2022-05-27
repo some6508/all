@@ -5,92 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡(ios小火箭软件|ioskaka.com)+5, server: sg3.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg3.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+4, server: 43.200.6.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _油管频道：全网最强白嫖+18, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖+2, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国(ios小火箭软件|ioskaka.com)+4, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君)2, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
-  - {name: _油管频道：全网最强白嫖+20, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: 54.214.170.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _油管频道：全网最强白嫖+5, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖+19, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国+13, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _油管频道：全网最强白嫖, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖+7, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇺🇸US-🇩🇪DE_2894, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: _油管频道：全网最强白嫖+16, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: SG-高速节点推荐：v1.mk/vip, server: v2ray3.bonds.id, port: 443, type: vmess, uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray3.bonds.id}}, udp: true}
-  - {name: 新加坡+04, server: cmccctcu.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: cmccctcu.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: ｜US｜26, server: 34.217.215.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君)+4, server: sg1.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)7, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾(nodefree.org日更免费节点), server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)18, server: 172.64.94.238, port: 2053, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: xxX3}, udp: true}
-  - {name: 新加坡05, server: 18.136.196.90, port: 80, type: vmess, uuid: 121b663a-9127-4854-8161-c3dbb0ff5556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+8, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, sni: neteasy.ga, skip-cert-verify: true, udp: true}
-  - {name: _油管频道：全网最强白嫖17, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+6, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub", server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: 俄罗斯(欢迎订阅Youtube破解资源君)2, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: LT_744+|33.26Mb, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)+6, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: :荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧, server: 213.183.59.214, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
-  - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: LT_781+|+3.89Mb, server: 213.183.53.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: _NL_荷兰_24, server: 213.183.59.214, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: _油管频道：全网最强白嫖+6, server: 213.183.59.190, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)+3, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr05.wangxd.life, skip-cert-verify: true, udp: true}
-  - {name: 美国_0526420, server: 50.114.56.20, port: 4440, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: _油管频道：全网最强白嫖+4, server: 213.183.59.190, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: Relay_🇩🇪DE-🇩🇪DE_508, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)4, server: 172.66.47.44, port: 2053, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: xxX2}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)+5, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)8, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管频道：全网最强白嫖+3, server: 213.183.59.190, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: CA_03, server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: LT_782+|43.41Mb, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: NL_1265, server: 213.183.59.214, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)10, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)11, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国(nodefree.org日更免费节点), server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: :荷兰-ss-213.183.59.214:9025-可用-直连-仅支持荷兰地区NF自制剧, server: 213.183.59.214, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: github.com/freefq-美国10, server: 45.61.174.36, port: 31325, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 亚洲2, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管频道：全网最强白嫖+9, server: 213.183.59.190, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
-  - {name: _油管频道：全网最强白嫖+11, server: 213.183.59.190, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: _油管频道：全网最强白嫖+14, server: 213.183.59.190, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: _油管频道：全网最强白嫖+15, server: 213.183.59.190, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: NL_908+|+5.84Mb, server: 213.183.59.190, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: DE-高速节点推荐：v1.mk/vip, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 德国_0526022, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: :美国-ss-147.182.151.24:20110-可用-直连-解锁加拿大地区NF非自制剧, server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9, udp: true}
-  - {name: 美国_0526683, server: 50.114.56.20, port: 4440, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: _油管频道：全网最强白嫖+8, server: 213.183.59.190, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: _油管频道：全网最强白嫖+12, server: 213.183.59.190, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: SG_19, server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)+17, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 巴西_0526001, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _油管频道：全网最强白嫖+13, server: 213.183.59.190, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: US_26, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)+9, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君)+14, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 香港_0526094, server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: :荷兰-ss-213.183.59.214:9094-可用-直连-仅支持荷兰地区NF自制剧, server: 213.183.59.214, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君)+5, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君)+7, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君)8, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2 2, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_1, server: 14.152.92.78, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_2, server: 14.152.92.76, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1, server: 42.157.195.242, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_2, server: 42.157.195.229, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_3, server: 42.157.195.241, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国_1, server: 14.152.92.72, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_4, server: 42.157.195.236, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_3, server: 42.157.195.243, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_5, server: 42.157.195.230, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_6, server: 42.157.195.231, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_7, server: 42.157.195.233, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_4, server: 14.152.92.75, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_5, server: 42.157.195.246, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_6, server: 14.152.92.79, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_7, server: 42.157.195.245, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _SG_新加坡, server: sg3.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港, server: jupiter.hk.v4.e1dns.com, port: 443, type: vmess, uuid: 4a9e6b6e-ec2c-4b89-9df6-5118fa07f1d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _AU_澳大利亚_1, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国, server: 45.82.78.151, port: 80, type: vmess, uuid: 61dab065-7fc7-4d57-a952-58b41250d766, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国, server: mplsjs1.ggbbba.xyz, port: 56714, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_8, server: 42.157.195.239, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国_2, server: 14.152.92.74, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_9, server: 42.157.195.228, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _RU_俄罗斯联邦_1, server: 213.183.53.177, port: 9008, type: ssr, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_2, server: 213.183.53.177, port: 9015, type: ssr, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_3, server: 213.183.53.177, port: 9079, type: ssr, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _SG_新加坡->🇺🇸_US_美国, server: sg1.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, skip-cert-verify: true, udp: true}
+  - {name: _IN_印度, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_4, server: 213.183.53.177, port: 9024, type: ssr, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_5, server: 213.183.53.177, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_6, server: 213.183.53.177, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_7, server: 213.183.53.177, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _AU_澳大利亚_2, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_10, server: 14.152.92.73, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_11, server: 14.152.92.70, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_12, server: 14.152.92.71, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: NjAwNzc3OjE1NFQ4Yg==, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=, udp: true}
+  - {name: _AU_澳大利亚_3, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国, server: 3.38.253.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_1, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_8, server: 213.183.53.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: _RU_俄罗斯联邦_9, server: 213.183.53.177, port: 9098, type: ssr, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_10, server: 213.183.53.177, port: 9018, type: ssr, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_11, server: 213.183.53.177, port: 9005, type: ssr, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_12, server: 213.183.53.177, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _RU_俄罗斯联邦_13, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: _US_美国_2, server: 35.87.97.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_3, server: 172.96.194.114, port: 252, type: ss, cipher: aes-256-cfb, password: bwhskrskr06, udp: true}
+  - {name: _US_美国_4, server: 54.214.170.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_5, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_6, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 4, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 5, server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /api/v3/download.getFile, host: [v2.ssrsub.com]}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 172.64.147.71, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xxX8, headers: {Host: sg.wweblog.pw}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2 2, server: 172.64.93.136, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xxX4, headers: {Host: sg.wweblog.pw}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 172.64.147.71, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xxX8, headers: {Host: sg.wweblog.pw}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 172.64.93.136, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xxX4, headers: {Host: sg.wweblog.pw}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 20.24.66.53, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 20.243.75.205, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 205.185.124.145, port: 85, type: vmess, uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 205.185.124.145}}, udp: true}
@@ -119,8 +90,8 @@ proxies:
   - {name: 美国(欢迎订阅Youtube破解资源君) 28, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 29, server: sg1.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg1.v2yyds.cc, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 30, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2 2, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 120.232.239.6, port: 31220, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: zhizun22.jafiyun.club, port: 21186, type: vmess, uuid: 4c348c16-6c18-3ee6-81d3-052c7f4d4b65, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 51jp1.fans8.xyz}}, udp: true}
@@ -172,8 +143,8 @@ proxies:
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 139.162.59.41, port: 80, type: vmess, uuid: 326e1c01-dfd7-4265-a086-be64e17c63e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /giare, headers: {Host: Livestream2.tv360.vn}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: 521sg.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 521sg.fans8.xyz}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: sg2.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg2.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 2 2, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 4, server: gy.moonfree.top, port: 17253, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb2.moonfree.top}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 5, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
@@ -379,7 +350,7 @@ proxies:
   - {name: 美国（YouTube资源分享者） 33 2, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2", server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub", server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub", server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub", server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v5.ssrsub.com}}, udp: true}
@@ -426,7 +397,7 @@ proxies:
   - {name: 付费推荐:dlj.tf/ssrsub__08, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G 2 2, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 3", server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2", server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub 2", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub 2", server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub 2", server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v5.ssrsub.com}}, udp: true}
@@ -604,92 +575,63 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 新加坡(ios小火箭软件|ioskaka.com)+5
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+4
-      - _油管频道：全网最强白嫖+18
-      - _油管频道：全网最强白嫖+2
-      - 美国(ios小火箭软件|ioskaka.com)+4
-      - 美国(欢迎订阅Youtube破解资源君)2
-      - _油管频道：全网最强白嫖+20
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - _油管频道：全网最强白嫖+5
-      - _油管频道：全网最强白嫖+19
-      - (Youtube技术分享室)🇨🇳中国+13
-      - 美国(欢迎订阅Youtube破解资源君)
-      - _油管频道：全网最强白嫖
-      - _油管频道：全网最强白嫖+7
-      - Relay_🇺🇸US-🇩🇪DE_2894
-      - _油管频道：全网最强白嫖+16
-      - SG-高速节点推荐：v1.mk/vip
-      - 新加坡+04
-      - ｜US｜26
-      - 美国(欢迎订阅Youtube破解资源君)+4
-      - 欧洲(欢迎订阅Youtube破解资源君)7
-      - 台湾(nodefree.org日更免费节点)
-      - 欧洲(欢迎订阅Youtube破解资源君)18
-      - 新加坡05
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+8
-      - _油管频道：全网最强白嫖17
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+6
-      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
-      - 俄罗斯(欢迎订阅Youtube破解资源君)2
-      - LT_744+|33.26Mb
-      - 欧洲(欢迎订阅Youtube破解资源君)+6
-      - :荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - _CN_中国->🇯🇵_JP_日本_1
+      - _CN_中国->🇯🇵_JP_日本_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_2
+      - _CN_中国->🇺🇸_US_美国_3
+      - _CN_中国_1
+      - _CN_中国->🇺🇸_US_美国_4
+      - _CN_中国->🇯🇵_JP_日本_3
+      - _CN_中国->🇺🇸_US_美国_5
+      - _CN_中国->🇺🇸_US_美国_6
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇯🇵_JP_日本_4
+      - _CN_中国->🇯🇵_JP_日本_5
+      - _CN_中国->🇯🇵_JP_日本_6
+      - _CN_中国->🇯🇵_JP_日本_7
+      - _SG_新加坡
+      - _HK_香港
+      - _AU_澳大利亚_1
+      - _DE_德国
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇺🇸_US_美国_8
+      - _CN_中国_2
+      - _CN_中国->🇺🇸_US_美国_9
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IN_印度
+      - _RU_俄罗斯联邦_4
+      - _RU_俄罗斯联邦_5
+      - _RU_俄罗斯联邦_6
+      - _RU_俄罗斯联邦_7
+      - _AU_澳大利亚_2
+      - _CN_中国->🇺🇸_US_美国_10
+      - _CN_中国->🇺🇸_US_美国_11
+      - _CN_中国->🇺🇸_US_美国_12
+      - _AU_澳大利亚_3
+      - _KR_韩国
+      - _US_美国_1
+      - _RU_俄罗斯联邦_8
+      - _RU_俄罗斯联邦_9
+      - _RU_俄罗斯联邦_10
+      - _RU_俄罗斯联邦_11
+      - _RU_俄罗斯联邦_12
+      - _RU_俄罗斯联邦_13
+      - _US_美国_2
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
       - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - LT_781+|+3.89Mb
-      - _NL_荷兰_24
-      - _油管频道：全网最强白嫖+6
-      - 欧洲(欢迎订阅Youtube破解资源君)+3
-      - 美国_0526420
-      - _油管频道：全网最强白嫖+4
-      - Relay_🇩🇪DE-🇩🇪DE_508
-      - 欧洲(欢迎订阅Youtube破解资源君)4
-      - 欧洲(欢迎订阅Youtube破解资源君)+5
-      - 欧洲(欢迎订阅Youtube破解资源君)8
-      - _油管频道：全网最强白嫖+3
-      - CA_03
-      - LT_782+|43.41Mb
-      - NL_1265
-      - 欧洲(欢迎订阅Youtube破解资源君)10
-      - 欧洲(欢迎订阅Youtube破解资源君)11
-      - _CN_中国->🇯🇵_JP_日本
-      - 英国(nodefree.org日更免费节点)
-      - :荷兰-ss-213.183.59.214:9025-可用-直连-仅支持荷兰地区NF自制剧
-      - github.com/freefq-美国10
-      - 亚洲2
-      - _油管频道：全网最强白嫖+9
-      - _油管频道：全网最强白嫖+11
-      - _油管频道：全网最强白嫖+14
-      - _油管频道：全网最强白嫖+15
-      - NL_908+|+5.84Mb
-      - DE-高速节点推荐：v1.mk/vip
-      - 德国_0526022
-      - :美国-ss-147.182.151.24:20110-可用-直连-解锁加拿大地区NF非自制剧
-      - 美国_0526683
-      - _油管频道：全网最强白嫖+8
-      - _油管频道：全网最强白嫖+12
-      - SG_19
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)+17
-      - 巴西_0526001
-      - _油管频道：全网最强白嫖+13
-      - US_26
-      - 欧洲(欢迎订阅Youtube破解资源君)+9
-      - 欧洲(欢迎订阅Youtube破解资源君)+14
-      - 香港_0526094
-      - :荷兰-ss-213.183.59.214:9094-可用-直连-仅支持荷兰地区NF自制剧
-      - 美国(欢迎订阅Youtube破解资源君)+5
-      - 美国(欢迎订阅Youtube破解资源君)+7
-      - 美国(欢迎订阅Youtube破解资源君)8
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
       - 俄罗斯(欢迎订阅Youtube破解资源君) 4
       - 俄罗斯(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2 2
       - 美国(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
@@ -718,8 +660,8 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 28
       - 美国(欢迎订阅Youtube破解资源君) 29
       - 美国(欢迎订阅Youtube破解资源君) 30
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 2 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 5
@@ -771,8 +713,8 @@ proxy-groups:
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 亚洲(欢迎订阅Youtube破解资源君) 2 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 4
       - 亚洲(欢迎订阅Youtube破解资源君) 5
@@ -978,7 +920,7 @@ proxy-groups:
       - 美国（YouTube资源分享者） 33 2
       - 公益机场:https://bit.ly/3BPeo5G
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
@@ -1025,7 +967,7 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__08
       - 公益机场:https://bit.ly/3BPeo5G 2 2
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2"
-      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 3"
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub 2"
@@ -1203,92 +1145,63 @@ proxy-groups:
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 150
     proxies:
-      - 新加坡(ios小火箭软件|ioskaka.com)+5
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+4
-      - _油管频道：全网最强白嫖+18
-      - _油管频道：全网最强白嫖+2
-      - 美国(ios小火箭软件|ioskaka.com)+4
-      - 美国(欢迎订阅Youtube破解资源君)2
-      - _油管频道：全网最强白嫖+20
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - _油管频道：全网最强白嫖+5
-      - _油管频道：全网最强白嫖+19
-      - (Youtube技术分享室)🇨🇳中国+13
-      - 美国(欢迎订阅Youtube破解资源君)
-      - _油管频道：全网最强白嫖
-      - _油管频道：全网最强白嫖+7
-      - Relay_🇺🇸US-🇩🇪DE_2894
-      - _油管频道：全网最强白嫖+16
-      - SG-高速节点推荐：v1.mk/vip
-      - 新加坡+04
-      - ｜US｜26
-      - 美国(欢迎订阅Youtube破解资源君)+4
-      - 欧洲(欢迎订阅Youtube破解资源君)7
-      - 台湾(nodefree.org日更免费节点)
-      - 欧洲(欢迎订阅Youtube破解资源君)18
-      - 新加坡05
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+8
-      - _油管频道：全网最强白嫖17
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)+6
-      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
-      - 俄罗斯(欢迎订阅Youtube破解资源君)2
-      - LT_744+|33.26Mb
-      - 欧洲(欢迎订阅Youtube破解资源君)+6
-      - :荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - _CN_中国->🇯🇵_JP_日本_1
+      - _CN_中国->🇯🇵_JP_日本_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_2
+      - _CN_中国->🇺🇸_US_美国_3
+      - _CN_中国_1
+      - _CN_中国->🇺🇸_US_美国_4
+      - _CN_中国->🇯🇵_JP_日本_3
+      - _CN_中国->🇺🇸_US_美国_5
+      - _CN_中国->🇺🇸_US_美国_6
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇯🇵_JP_日本_4
+      - _CN_中国->🇯🇵_JP_日本_5
+      - _CN_中国->🇯🇵_JP_日本_6
+      - _CN_中国->🇯🇵_JP_日本_7
+      - _SG_新加坡
+      - _HK_香港
+      - _AU_澳大利亚_1
+      - _DE_德国
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇺🇸_US_美国_8
+      - _CN_中国_2
+      - _CN_中国->🇺🇸_US_美国_9
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IN_印度
+      - _RU_俄罗斯联邦_4
+      - _RU_俄罗斯联邦_5
+      - _RU_俄罗斯联邦_6
+      - _RU_俄罗斯联邦_7
+      - _AU_澳大利亚_2
+      - _CN_中国->🇺🇸_US_美国_10
+      - _CN_中国->🇺🇸_US_美国_11
+      - _CN_中国->🇺🇸_US_美国_12
+      - _AU_澳大利亚_3
+      - _KR_韩国
+      - _US_美国_1
+      - _RU_俄罗斯联邦_8
+      - _RU_俄罗斯联邦_9
+      - _RU_俄罗斯联邦_10
+      - _RU_俄罗斯联邦_11
+      - _RU_俄罗斯联邦_12
+      - _RU_俄罗斯联邦_13
+      - _US_美国_2
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
       - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - LT_781+|+3.89Mb
-      - _NL_荷兰_24
-      - _油管频道：全网最强白嫖+6
-      - 欧洲(欢迎订阅Youtube破解资源君)+3
-      - 美国_0526420
-      - _油管频道：全网最强白嫖+4
-      - Relay_🇩🇪DE-🇩🇪DE_508
-      - 欧洲(欢迎订阅Youtube破解资源君)4
-      - 欧洲(欢迎订阅Youtube破解资源君)+5
-      - 欧洲(欢迎订阅Youtube破解资源君)8
-      - _油管频道：全网最强白嫖+3
-      - CA_03
-      - LT_782+|43.41Mb
-      - NL_1265
-      - 欧洲(欢迎订阅Youtube破解资源君)10
-      - 欧洲(欢迎订阅Youtube破解资源君)11
-      - _CN_中国->🇯🇵_JP_日本
-      - 英国(nodefree.org日更免费节点)
-      - :荷兰-ss-213.183.59.214:9025-可用-直连-仅支持荷兰地区NF自制剧
-      - github.com/freefq-美国10
-      - 亚洲2
-      - _油管频道：全网最强白嫖+9
-      - _油管频道：全网最强白嫖+11
-      - _油管频道：全网最强白嫖+14
-      - _油管频道：全网最强白嫖+15
-      - NL_908+|+5.84Mb
-      - DE-高速节点推荐：v1.mk/vip
-      - 德国_0526022
-      - :美国-ss-147.182.151.24:20110-可用-直连-解锁加拿大地区NF非自制剧
-      - 美国_0526683
-      - _油管频道：全网最强白嫖+8
-      - _油管频道：全网最强白嫖+12
-      - SG_19
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)+17
-      - 巴西_0526001
-      - _油管频道：全网最强白嫖+13
-      - US_26
-      - 欧洲(欢迎订阅Youtube破解资源君)+9
-      - 欧洲(欢迎订阅Youtube破解资源君)+14
-      - 香港_0526094
-      - :荷兰-ss-213.183.59.214:9094-可用-直连-仅支持荷兰地区NF自制剧
-      - 美国(欢迎订阅Youtube破解资源君)+5
-      - 美国(欢迎订阅Youtube破解资源君)+7
-      - 美国(欢迎订阅Youtube破解资源君)8
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
       - 俄罗斯(欢迎订阅Youtube破解资源君) 4
       - 俄罗斯(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2 2
       - 美国(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
@@ -1317,8 +1230,8 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 28
       - 美国(欢迎订阅Youtube破解资源君) 29
       - 美国(欢迎订阅Youtube破解资源君) 30
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 2 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 5
@@ -1370,8 +1283,8 @@ proxy-groups:
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 亚洲(欢迎订阅Youtube破解资源君) 2 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 4
       - 亚洲(欢迎订阅Youtube破解资源君) 5
@@ -1577,7 +1490,7 @@ proxy-groups:
       - 美国（YouTube资源分享者） 33 2
       - 公益机场:https://bit.ly/3BPeo5G
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
@@ -1624,7 +1537,7 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__08
       - 公益机场:https://bit.ly/3BPeo5G 2 2
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2"
-      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 3"
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub 2"
