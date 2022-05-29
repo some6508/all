@@ -15,8 +15,6 @@ proxies:
   - {"type":"vmess","name":"🇹🇼_TW_台湾","server":"vpot.giize.com","port":80,"uuid":"7ea0f0d4-2f7d-405e-acd6-8bfffa528194","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇰🇷_KR_韩国_1","server":"kr.dsaver.site","port":80,"uuid":"7ea0f0d4-2f7d-405e-acd6-8bfffa528194","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇰🇷_KR_韩国_2","server":"3.38.140.92","port":46794,"uuid":"7ea0f0d4-2f7d-405e-acd6-8bfffa528194","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇰🇷_KR_韩国_3","server":"kr.dsaver.site","port":443,"uuid":"7ea0f0d4-2f7d-405e-acd6-8bfffa528194","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇯🇵_JP_日本_4","server":"jp.dsaver.site","port":443,"uuid":"7ea0f0d4-2f7d-405e-acd6-8bfffa528194","alterId":0,"cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,8 +31,6 @@ proxy-groups:
       - 🇹🇼_TW_台湾
       - 🇰🇷_KR_韩国_1
       - 🇰🇷_KR_韩国_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -51,8 +47,6 @@ proxy-groups:
       - 🇹🇼_TW_台湾
       - 🇰🇷_KR_韩国_1
       - 🇰🇷_KR_韩国_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -69,8 +63,6 @@ proxy-groups:
       - 🇹🇼_TW_台湾
       - 🇰🇷_KR_韩国_1
       - 🇰🇷_KR_韩国_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -86,8 +78,6 @@ proxy-groups:
       - 🇹🇼_TW_台湾
       - 🇰🇷_KR_韩国_1
       - 🇰🇷_KR_韩国_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -103,8 +93,6 @@ proxy-groups:
       - 🇹🇼_TW_台湾
       - 🇰🇷_KR_韩国_1
       - 🇰🇷_KR_韩国_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -120,8 +108,6 @@ proxy-groups:
       - 🇹🇼_TW_台湾
       - 🇰🇷_KR_韩国_1
       - 🇰🇷_KR_韩国_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,8 +140,6 @@ proxy-groups:
       - 🇹🇼_TW_台湾
       - 🇰🇷_KR_韩国_1
       - 🇰🇷_KR_韩国_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
