@@ -15,8 +15,6 @@ proxies:
   - {name: _TW_台湾, server: vpot.giize.com, port: 80, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vpot.giize.com}}, udp: true}
   - {name: _KR_韩国_1, server: kr.dsaver.site, port: 80, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr.dsaver.site}}, udp: true}
   - {name: _KR_韩国_2, server: 3.38.140.92, port: 46794, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _KR_韩国_3, server: kr.dsaver.site, port: 443, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr.dsaver.site}}, udp: true}
-  - {name: _JP_日本_4, server: jp.dsaver.site, port: 443, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.dsaver.site}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 138.2.76.156, port: 46452, type: vmess, uuid: aeb5106c-3494-489b-9386-e67e5f575cb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: zhizun22.jafiyun.club, port: 21186, type: vmess, uuid: 4c348c16-6c18-3ee6-81d3-052c7f4d4b65, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -602,8 +600,6 @@ proxy-groups:
       - _TW_台湾
       - _KR_韩国_1
       - _KR_韩国_2
-      - _KR_韩国_3
-      - _JP_日本_4
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -1189,8 +1185,6 @@ proxy-groups:
       - _TW_台湾
       - _KR_韩国_1
       - _KR_韩国_2
-      - _KR_韩国_3
-      - _JP_日本_4
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
