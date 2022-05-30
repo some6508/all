@@ -5,95 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇸🇬_SG_新加坡_1","server":"129.226.217.153","port":15184,"uuid":"bb02fa5b-1d15-46f4-fa47-053c6db61e39","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"ssr","name":"🇷🇺_RU_俄罗斯联邦","server":"213.183.53.177","port":9093,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"wfLC2y7rzZyCmuyt"}
-  - {"type":"vmess","name":"🇸🇬_SG_新加坡_2","server":"129.226.95.71","port":56916,"uuid":"29d4cfd8-9aea-4796-9320-b2b9234fc141","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇸🇬_SG_新加坡_3","server":"3.0.54.98","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"trojan","name":"🇺🇸_US_美国","server":"jgwdb2.gaox.ml","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇸🇬_SG_新加坡_4","server":"129.226.215.95","port":43613,"uuid":"9e1be3ad-911d-4dcc-822f-f8f8e79f62e2","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰_HK_香港","server":"165.154.225.230","port":33080,"uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":0,"cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇸🇬_SG_新加坡_5","server":"129.226.214.101","port":51332,"uuid":"6951282c-94d5-4f5d-cbc5-1e97f90bfe39","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_US_美国","server":"au2-4.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬_SG_新加坡_1
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国
-      - 🇸🇬_SG_新加坡_4
-      - 🇭🇰_HK_香港
-      - 🇸🇬_SG_新加坡_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬_SG_新加坡_1
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国
-      - 🇸🇬_SG_新加坡_4
-      - 🇭🇰_HK_香港
-      - 🇸🇬_SG_新加坡_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国
-      - 🇸🇬_SG_新加坡_4
-      - 🇭🇰_HK_香港
-      - 🇸🇬_SG_新加坡_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国
-      - 🇸🇬_SG_新加坡_4
-      - 🇭🇰_HK_香港
-      - 🇸🇬_SG_新加坡_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国
-      - 🇸🇬_SG_新加坡_4
-      - 🇭🇰_HK_香港
-      - 🇸🇬_SG_新加坡_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国
-      - 🇸🇬_SG_新加坡_4
-      - 🇭🇰_HK_香港
-      - 🇸🇬_SG_新加坡_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国
-      - 🇸🇬_SG_新加坡_4
-      - 🇭🇰_HK_香港
-      - 🇸🇬_SG_新加坡_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
