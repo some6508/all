@@ -220,7 +220,7 @@ proxies:
   - {name: github.com/freefq - 新加坡腾讯云 125, server: 129.226.94.247, port: 15301, type: vmess, uuid: 16844453-6154-4808-bdda-a26741ebe677, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 美国华盛顿Cogent通信公司 126, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: github.com/freefq - 英国  127, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 128, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 128, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
   - {name: github.com/freefq - 瑞典  129, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 香港BGP.NET数据中心 130, server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: github.com/freefq - 北美地区  131, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
@@ -230,11 +230,11 @@ proxies:
   - {name: github.com/freefq - 湖南省联通 135, server: cmi.db-link.in, port: 21154, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: cmi.db-link.in}}, udp: true}
   - {name: github.com/freefq - 加拿大  136, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 331tw.fans8.xyz}}, udp: true}
   - {name: github.com/freefq - 新加坡腾讯云 137, server: 129.226.216.4, port: 35562, type: vmess, uuid: 48409bbd-a9ee-4d9e-f725-4c81cc0d5009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 138, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 138, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
   - {name: github.com/freefq - 新加坡腾讯云 139, server: 129.226.95.108, port: 58681, type: vmess, uuid: 758c6c64-e7bc-4bbf-dd58-cbd21c09c75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 美国加州 140, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 乌克兰  141, server: 5.183.179.166, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 142, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 142, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: github.com/freefq - 新加坡腾讯云 143, server: 129.226.214.101, port: 51332, type: vmess, uuid: 6951282c-94d5-4f5d-cbc5-1e97f90bfe39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 新加坡腾讯云 144, server: 129.226.215.211, port: 49981, type: vmess, uuid: 876631b4-3f5c-4289-f266-3c7afa5b9e70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 广东省广州市移动 145, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -526,7 +526,7 @@ proxy-groups:
       - github.com/freefq - 新加坡腾讯云 125
       - github.com/freefq - 美国华盛顿Cogent通信公司 126
       - github.com/freefq - 英国  127
-      - github.com/freefq - 美国CloudFlare节点 128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 128
       - github.com/freefq - 瑞典  129
       - github.com/freefq - 香港BGP.NET数据中心 130
       - github.com/freefq - 北美地区  131
@@ -536,11 +536,11 @@ proxy-groups:
       - github.com/freefq - 湖南省联通 135
       - github.com/freefq - 加拿大  136
       - github.com/freefq - 新加坡腾讯云 137
-      - github.com/freefq - 美国CloudFlare节点 138
+      - github.com/freefq - 美国CloudFlare公司CDN节点 138
       - github.com/freefq - 新加坡腾讯云 139
       - github.com/freefq - 美国加州 140
       - github.com/freefq - 乌克兰  141
-      - github.com/freefq - 美国CloudFlare节点 142
+      - github.com/freefq - 美国CloudFlare公司CDN节点 142
       - github.com/freefq - 新加坡腾讯云 143
       - github.com/freefq - 新加坡腾讯云 144
       - github.com/freefq - 广东省广州市移动 145
@@ -832,7 +832,7 @@ proxy-groups:
       - github.com/freefq - 新加坡腾讯云 125
       - github.com/freefq - 美国华盛顿Cogent通信公司 126
       - github.com/freefq - 英国  127
-      - github.com/freefq - 美国CloudFlare节点 128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 128
       - github.com/freefq - 瑞典  129
       - github.com/freefq - 香港BGP.NET数据中心 130
       - github.com/freefq - 北美地区  131
@@ -842,11 +842,11 @@ proxy-groups:
       - github.com/freefq - 湖南省联通 135
       - github.com/freefq - 加拿大  136
       - github.com/freefq - 新加坡腾讯云 137
-      - github.com/freefq - 美国CloudFlare节点 138
+      - github.com/freefq - 美国CloudFlare公司CDN节点 138
       - github.com/freefq - 新加坡腾讯云 139
       - github.com/freefq - 美国加州 140
       - github.com/freefq - 乌克兰  141
-      - github.com/freefq - 美国CloudFlare节点 142
+      - github.com/freefq - 美国CloudFlare公司CDN节点 142
       - github.com/freefq - 新加坡腾讯云 143
       - github.com/freefq - 新加坡腾讯云 144
       - github.com/freefq - 广东省广州市移动 145
