@@ -5,130 +5,142 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 公益机场:https://bit.ly/3BPeo5G, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub", server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub", server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub", server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub", server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub", server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub", server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub", server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub", server: zzcm09.bdate.xyz, port: 1510, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub", server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 99591e4d-b11e-4488-b366-53f3b6787bba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hinet04, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub", server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub", server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
-  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub", server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub", server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub", server: 51.103.172.68, port: 120, type: vmess, uuid: 4d358310-efdf-4622-9d7e-c067935e7ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V14-付费推荐:suo.yt/ssrsub", server: zzcm07.bdate.xyz, port: 1030, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm07.bdate.xyz}}, udp: true}
-  - {name: "@SSRSUB-V15-付费推荐:suo.yt/ssrsub", server: zzcm04.bdate.xyz, port: 1020, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: "@SSRSUB-V16-付费推荐:suo.yt/ssrsub", server: zzcm08.bdate.xyz, port: 1280, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: "@SSRSUB-V17-付费推荐:suo.yt/ssrsub", server: zzcm08.bdate.xyz, port: 2840, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm08.bdate.xyz}}, udp: true}
-  - {name: "@SSRSUB-V18-付费推荐:suo.yt/ssrsub", server: 161.8.149.7, port: 38822, type: vmess, uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ZXfq8Vm7/, headers: {Host: 161.8.149.7}}, udp: true}
-  - {name: "@SSRSUB-V19-付费推荐:suo.yt/ssrsub", server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V20-付费推荐:suo.yt/ssrsub", server: 18.138.255.0, port: 80, type: vmess, uuid: f778539f-5954-4b0e-987b-94a6081c1af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
-  - {name: "@SSRSUB-V21-付费推荐:suo.yt/ssrsub", server: node.gkddd.buzz, port: 23312, type: vmess, uuid: a6f34df0-6e9e-4522-80ff-a41517803f17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: node.gkddd.buzz}}, udp: true}
-  - {name: "@SSRSUB-V22-付费推荐:suo.yt/ssrsub", server: app.ssfree.ru, port: 443, type: vmess, uuid: 52aa8660-d7f1-11ec-9cb7-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: "@SSRSUB-V23-付费推荐:suo.yt/ssrsub", server: 125.94.37.107, port: 13413, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V24-付费推荐:suo.yt/ssrsub", server: zzcm08.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: "@SSRSUB-V25-付费推荐:suo.yt/ssrsub", server: shouer.tk15.tk, port: 26122, type: vmess, uuid: c19949fe-e5ca-4aa7-b577-f9aed2c97c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V26-付费推荐:suo.yt/ssrsub", server: 172.64.94.238, port: 2053, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: xxX3, headers: {Host: web1.wweblog.pw}}, udp: true}
-  - {name: "@SSRSUB-WS日本V01-付费推荐:dlj.tf/ssrsub", server: jp1.trojan.tel, port: 18443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d85bb25696.laowanxiang.com}}, udp: true}
-  - {name: "@SSRSUB-WS日本V02-付费推荐:dlj.tf/ssrsub", server: jp2.trojan.tel, port: 18443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d85bb25696.laowanxiang.com}}, udp: true}
-  - {name: "@SSRSUB-WS加拿大V03-付费推荐:dlj.tf/ssrsub", server: ca1.trojan.tel, port: 18443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d85bb25696.laowanxiang.com}}, udp: true}
-  - {name: "@SSRSUB-TLS日本V04-付费推荐:dlj.tf/ssrsub", server: jp1.trojan.tel, port: 48443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: jp1.trojan.tel}}, udp: true}
-  - {name: "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub", server: jp2.trojan.tel, port: 48443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: jp2.trojan.tel}}, udp: true}
-  - {name: "@SSRSUB-TLS加拿大V06-付费推荐:dlj.tf/ssrsub", server: ca1.trojan.tel, port: 48443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ca1.trojan.tel}}, udp: true}
+  - {name: HK19, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: e1bff6e4-5adf-4bdf-9863-5b2318b96017, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: 以太坊, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: e1bff6e4-5adf-4bdf-9863-5b2318b96017, udp: true}
+  - {name: 比特币, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: e1bff6e4-5adf-4bdf-9863-5b2318b96017, udp: true}
+  - {name: HK18, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: nf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: HK13, server: 3.says.cloud, port: 10006, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK14, server: 3.says.cloud, port: 10001, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK15, server: 3.says.cloud, port: 10009, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK16, server: 3.says.cloud, port: 10003, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK17, server: 3.says.cloud, port: 10005, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK7, server: 123456789.158801.xyz, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK8, server: 20.247.0.239, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK9, server: 123456789.158801.xyz, port: 40001, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, sni: 123456789.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK10, server: 123456789.158801.xyz, port: 40005, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, sni: 123456789.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK11, server: 123456789.158801.xyz, port: 40002, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, sni: 123456789.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK12, server: 123456789.158801.xyz, port: 40003, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, sni: 123456789.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent, server: 129.226.217.153, port: 15184, type: vmess, uuid: bb02fa5b-1d15-46f4-fa47-053c6db61e39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent 2, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Alibaba, server: 161.117.224.49, port: 29235, type: vmess, uuid: 71090d6b-ae98-4b7e-8367-bc1c700a75c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent 3, server: 129.226.216.81, port: 40952, type: vmess, uuid: d65aa42c-4102-48d7-d055-b24ea0c8fe91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent 4, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本1, server: jp3.bpyun.live, port: 443, type: trojan, password: 9b209d34-0f5b-307d-b8d1-a63c8cc47303, sni: jp3.bpyun.live, skip-cert-verify: true, udp: true}
+  - {name: HK5, server: 18.163.37.30, port: 30274, type: vmess, uuid: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK6, server: 18.163.37.30, port: 30272, type: vmess, uuid: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK4, server: 103.233.251.211, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 127ed1400716, udp: true}
+  - {name: HK2, server: 18.163.37.30, port: 80, type: vmess, uuid: 121b663a-9127-4854-8161-c3dbb0ff5556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK3, server: 18.163.37.30, port: 30272, type: vmess, uuid: 121b663a-9127-4854-8161-c3dbb0ff5556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港, server: 20.205.32.135, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: HK, server: 20.239.162.124, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: HK1, server: 523hk2.fans8.xyz, port: 443, type: trojan, password: c6799a1d-4a74-4683-919f-98b0a5046591, sni: 523hk2.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG1, server: zh01lv5sgp02.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc, udp: true}
+  - {name: 韩国, server: 20.249.59.141, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: JP1, server: 13.215.203.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 台湾, server: 14.29.124.168, port: 24016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW, server: 14.29.124.168, port: 24026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 弯弯, server: 14.29.124.168, port: 24008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 蛙蛙, server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 蛙, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: JP, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: cdn2.myuuusss.com, port: 32022, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 日本, server: cdn2.myuuusss.com, port: 37004, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 公益机场:https://bit.ly/3BPeo5G
-      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V06-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V14-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V15-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V17-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V18-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V20-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-WS日本V01-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-WS日本V02-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-WS加拿大V03-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-TLS日本V04-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-TLS加拿大V06-付费推荐:dlj.tf/ssrsub"
+      - HK19
+      - 以太坊
+      - 比特币
+      - HK18
+      - HK13
+      - HK14
+      - HK15
+      - HK16
+      - HK17
+      - HK7
+      - HK8
+      - HK9
+      - HK10
+      - HK11
+      - HK12
+      - Singapore-Tencent
+      - Singapore-Tencent 2
+      - Singapore-Alibaba
+      - Singapore-Tencent 3
+      - Singapore-Tencent 4
+      - 日本1
+      - HK5
+      - HK6
+      - HK4
+      - HK2
+      - HK3
+      - 香港
+      - HK
+      - HK1
+      - SG1
+      - 韩国
+      - JP1
+      - 台湾
+      - TW
+      - 弯弯
+      - 蛙蛙
+      - 蛙
+      - JP
+      - US
+      - 美国
+      - 新加坡
+      - 日本
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 150
     proxies:
-      - 公益机场:https://bit.ly/3BPeo5G
-      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V06-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V14-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V15-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V17-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V18-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V20-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-WS日本V01-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-WS日本V02-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-WS加拿大V03-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-TLS日本V04-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-TLS加拿大V06-付费推荐:dlj.tf/ssrsub"
+      - HK19
+      - 以太坊
+      - 比特币
+      - HK18
+      - HK13
+      - HK14
+      - HK15
+      - HK16
+      - HK17
+      - HK7
+      - HK8
+      - HK9
+      - HK10
+      - HK11
+      - HK12
+      - Singapore-Tencent
+      - Singapore-Tencent 2
+      - Singapore-Alibaba
+      - Singapore-Tencent 3
+      - Singapore-Tencent 4
+      - 日本1
+      - HK5
+      - HK6
+      - HK4
+      - HK2
+      - HK3
+      - 香港
+      - HK
+      - HK1
+      - SG1
+      - 韩国
+      - JP1
+      - 台湾
+      - TW
+      - 弯弯
+      - 蛙蛙
+      - 蛙
+      - JP
+      - US
+      - 美国
+      - 新加坡
+      - 日本
   - name: Other
     type: select
     proxies:
