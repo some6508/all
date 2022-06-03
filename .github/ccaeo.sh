@@ -8,6 +8,7 @@ cd $home
 rm -rf $home/c* $home/v* $home/url
 ec() { echo "$(date '+%M分%S秒.%3N毫秒')	$@"; }
 CURL() {
+[[ -z $2 ]] && ec '！没有下载链接' && return 1
 curl -s -k -L "$2" | egrep -qi '</html>$|^404' && return 1
 if [[ $1 = v ]]; then
 	((v++))
