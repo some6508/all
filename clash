@@ -453,7 +453,7 @@ proxy-groups:
       - TW_24002
       - 台湾2-三网优化-强加密
       - 台湾1-三网优化-强加密
-  - name: Other
+  - name: 其他设置
     type: select
     proxies:
       - 全局设置
@@ -7853,4 +7853,4 @@ rules:
  - DOMAIN-SUFFIX,flzbcdn.xyz,全局设置
  - DOMAIN-SUFFIX,ocnttv.com,全局设置
  - GEOIP,CN,DIRECT
- - MATCH,Other
+ - MATCH,其他设置
