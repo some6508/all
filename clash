@@ -123,56 +123,58 @@ proxies:
   - {name: github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 28, server: cm01.db-link.in, port: 13302, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: cm01.db-link.in}}, udp: true}
   - {name: github.com/freefq - 伊朗  29, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 英国  30, server: cmi.db-link.in, port: 21154, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: cmi.db-link.in}}, udp: true}
-  - {name: JP01, server: kr01.bosaidong.buzz, port: 8080, type: vmess, uuid: 25a65a80-c9d8-4450-ae6b-f3555950d649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP02, server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: HK001, server: 20.187.100.205, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: hk, server: 20.187.90.46, port: 80, type: vmess, uuid: 8d6da924-bf74-375b-af4c-b444dfbe2a50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shr, headers: {Host: baidu.com}}, udp: true}
-  - {name: 未知01, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 未知02, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: JP009, server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: HK008, server: 20.187.100.205, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: JP008, server: 20.210.229.72, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: HK007, server: 20.187.100.205, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: US009, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
-  - {name: US008, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, skip-cert-verify: true, udp: true}
-  - {name: SG9, server: 13.229.83.62, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3b320e-9ce8-44cd-81e2-03ea394a1b57, udp: true}
-  - {name: HK0, server: 18.167.41.123, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3b320e-9ce8-44cd-81e2-03ea394a1b57, udp: true}
-  - {name: Tokyo, server: 54.168.13.72, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3b320e-9ce8-44cd-81e2-03ea394a1b57, udp: true}
-  - {name: Tokyo1, server: 52.197.220.164, port: 50001, type: vmess, uuid: 9f3b320e-9ce8-44cd-81e2-03ea394a1b57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国9, server: 54.168.13.72, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3b320e-9ce8-44cd-81e2-03ea394a1b57, udp: true}
-  - {name: 免费, server: jp02-vm0.entry.rwesdhytjuftyhdafsdgfrh.club, port: 446, type: vmess, uuid: e9952831-ac54-3b51-9a0b-b2ddc3ff235d, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp02-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}, udp: true}
-  - {name: HK9, server: az.az-bgp.chuangshi999.xyz, port: 22818, type: trojan, password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb, sni: xg1.xianggang1.xyz, skip-cert-verify: true, udp: true}
-  - {name: US4, server: zhilian-us-k.cmy-dns.com, port: 443, type: trojan, password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw, sni: zhilian-us-k.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: US2, server: kaizen-us-17.cmy-dns.com, port: 443, type: trojan, password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw, sni: kaizen-us-17.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: US3, server: kaizen-us-19.cmy-dns.com, port: 443, type: trojan, password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw, sni: kaizen-us-19.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: US5, server: kaizen-us-14.cmy-dns.com, port: 443, type: trojan, password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw, sni: kaizen-us-14.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: US6, server: zhilian-us-a.cmy-dns.com, port: 443, type: trojan, password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw, sni: zhilian-us-a.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: US7, server: l2-us-e.cmy-dns.com, port: 443, type: trojan, password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw, sni: l2-us-e.cmy-dns.com, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11545, server: h63956.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11545, server: h890361.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: HK88, server: hnyd.xxcv.cc, port: 20030, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: HK99, server: 120.241.236.150, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: US01-V2-直连, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 83f5d4f1-49b2-4ace-a5ad-48df58f4da53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
+  - {name: 美国11, server: 164.92.107.59, port: 1645, type: ss, cipher: chacha20-ietf-poly1305, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
+  - {name: 美国12, server: 164.92.115.89, port: 3125, type: ss, cipher: chacha20-ietf-poly1305, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
+  - {name: 美国13, server: 164.92.99.255, port: 4649, type: ss, cipher: aes-256-gcm, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
+  - {name: 「🇭🇰」, server: 20.239.86.179, port: 80, type: vmess, uuid: 3f687afe-0a88-4ea1-8277-65309a7cb10e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: HK 79, server: 20.205.63.134, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: JP 137, server: 18.183.213.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 147, server: 52.199.193.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 66, server: 175.41.237.24, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: JP 18, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: HK 81, server: www.anlocl.gq, port: 30521, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
+  - {name: JP 4, server: 35.78.118.63, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: HK 93, server: www.anlocl.gq, port: 20521, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
+  - {name: US 142, server: 13.125.150.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 148, server: 141.147.168.238, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: KR 110, server: 144.24.77.154, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: JP 7, server: 139.162.124.250, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: KR 96, server: 144.24.87.99, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: KR 102, server: 144.24.69.60, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: JP 91, server: 54.199.133.35, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: US 227, server: 23.225.77.187, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: US 117, server: 23.225.77.192, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: JP 8, server: nat-jp.pyhdxy.com, port: 30020, type: trojan, password: 7aa38620-8330-40ee-a994-3a7ab2ed89b1, skip-cert-verify: true, udp: true}
+  - {name: 韩国🇰🇷春川-解锁Netflix, server: jgwcc.356930.xyz, port: 10021, type: vmess, uuid: 0d19129c-a925-4f21-8252-849838959a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jgwcc.356930.xyz}}, udp: true}
+  - {name: 美肤, server: 141.147.168.238, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: 美国-专线, server: gy.ziqiyun.xyz, port: 17565, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57, udp: true}
+  - {name: 香港3, server: 20.239.76.79, port: 23234, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港4, server: 20.239.76.79, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港5, server: 20.239.76.79, port: 23233, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港6, server: 20.239.76.79, port: 23235, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港, server: zc.9900.sd20211007.xyz, port: 32001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本, server: zc.9900.sd20211007.xyz, port: 32004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: 20.214.201.191, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 韩国, server: 13.125.150.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 香港1, server: 527hk5.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: 527hk5.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港2, server: v1hugang4.kuli888.xyz, port: 11151, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: hg05dcwjdjdanc.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: 美国1, server: shsh.8800.zsclouddns.club, port: 17004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾1, server: vip2shentai.kuli888.xyz, port: 32103, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: taiwjing.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾2, server: 116.129.254.212, port: 48611, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1062:tLkKEk, obfs-param: 1466f1062.microsoft.com, udp: true}
+  - {name: 日本1, server: changsha.kulime.space, port: 52011, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: gujspaskjnc.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: hk64.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国2, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: 107.167.24.6, skip-cert-verify: true, udp: true}
   - {name: TW, server: ieplszhk-sz.cctelescope.xyz, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: JP5, server: 20.222.22.62, port: 23232, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: JP6, server: 20.222.22.62, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: JP7, server: 20.222.22.62, port: 23233, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: HK4, server: 104.208.98.143, port: 23234, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: HK5, server: 104.208.98.143, port: 23232, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 韩国3, server: apollo.cn.v4.hdsky.org, port: 50491, type: ss, cipher: chacha20-ietf-poly1305, password: e1cb3dc5-4855-44e9-ae18-647dc443674e, udp: true}
-  - {name: JP3, server: vesta.jp.v4.hdsky.org, port: 443, type: trojan, password: e1cb3dc5-4855-44e9-ae18-647dc443674e, sni: vesta.jp.v4.e1dns.com, skip-cert-verify: true, udp: true}
-  - {name: JP4, server: neptunus.jp.v4.hdsky.org, port: 443, type: trojan, password: e1cb3dc5-4855-44e9-ae18-647dc443674e, sni: neptunus.jp.v4.e1dns.com, skip-cert-verify: true, udp: true}
-  - {name: HK2, server: neptunus.hk.v4.hdsky.org, port: 443, type: trojan, password: e1cb3dc5-4855-44e9-ae18-647dc443674e, sni: apollo.hk.v4.e1dns.com, skip-cert-verify: true, udp: true}
-  - {name: HK3, server: 36.133.220.231, port: 28000, type: ss, cipher: chacha20-ietf-poly1305, password: e1cb3dc5-4855-44e9-ae18-647dc443674e, udp: true}
-  - {name: SG, server: vusig02.xiaohouzi.club, port: 10050, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: HK, server: 523hk2.fans8.xyz, port: 443, type: trojan, password: c4a031e7-27a0-4a43-9952-7420bc2b8894, sni: 523hk2.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP1, server: 52.253.106.247, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: JP2, server: 20.210.241.241, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 韩国, server: 20.214.204.246, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 韩国1, server: mc.xiaohouzi.club, port: 28321, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: SG1, server: hk64.fans8.xyz, port: 443, type: trojan, password: c4a031e7-27a0-4a43-9952-7420bc2b8894, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: US, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: 107.167.24.6, skip-cert-verify: true, udp: true}
-  - {name: H k 1, server: mc.xiaohouzi.club, port: 27820, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
+  - {name: 未知02, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 台湾08, server: 61.220.179.26, port: 4433, type: ss, cipher: aes-256-gcm, password: 03378e208106, udp: true}
   - {name: 台湾05, server: 118.163.91.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 299eaaada2f2, udp: true}
-  - {name: JP, server: cdn2.myuuusss.com, port: 21111, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: US009, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
+  - {name: US, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: 107.167.24.6, skip-cert-verify: true, udp: true}
+  - {name: h890361.strongpipe.live:11545, server: h890361.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: h63956.strongpipe.live:11545, server: h63956.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 全局设置
     type: select
@@ -296,56 +298,58 @@ proxy-groups:
       - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 28
       - github.com/freefq - 伊朗  29
       - github.com/freefq - 英国  30
-      - JP01
-      - JP02
-      - HK001
-      - hk
-      - 未知01
-      - 未知02
-      - JP009
-      - HK008
-      - JP008
-      - HK007
-      - US009
-      - US008
-      - SG9
-      - HK0
-      - Tokyo
-      - Tokyo1
-      - 韩国9
-      - 免费
-      - HK9
-      - US4
-      - US2
-      - US3
-      - US5
-      - US6
-      - US7
-      - h63956.strongpipe.live:11545
-      - h890361.strongpipe.live:11545
-      - TW
-      - JP5
-      - JP6
-      - JP7
-      - HK4
-      - HK5
-      - 韩国3
-      - JP3
-      - JP4
-      - HK2
-      - HK3
-      - SG
-      - HK
-      - JP1
-      - JP2
+      - HK88
+      - HK99
+      - US01-V2-直连
+      - 美国11
+      - 美国12
+      - 美国13
+      - 「🇭🇰」
+      - HK 79
+      - JP 137
+      - JP 147
+      - JP 66
+      - JP 18
+      - HK 81
+      - JP 4
+      - HK 93
+      - US 142
+      - JP 148
+      - KR 110
+      - JP 7
+      - KR 96
+      - KR 102
+      - JP 91
+      - US 227
+      - US 117
+      - JP 8
+      - 韩国🇰🇷春川-解锁Netflix
+      - 美肤
+      - 美国-专线
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港
+      - 日本
+      - 美国
       - 韩国
-      - 韩国1
-      - SG1
-      - US
-      - H k 1
+      - 香港1
+      - 香港2
+      - 美国1
+      - 台湾1
+      - 台湾2
+      - 日本1
+      - 新加坡
+      - 美国2
+      - TW
+      - 未知02
       - 台湾08
       - 台湾05
-      - JP
+      - US009
+      - US
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11545
   - name: 自动选择
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
@@ -469,56 +473,58 @@ proxy-groups:
       - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 28
       - github.com/freefq - 伊朗  29
       - github.com/freefq - 英国  30
-      - JP01
-      - JP02
-      - HK001
-      - hk
-      - 未知01
-      - 未知02
-      - JP009
-      - HK008
-      - JP008
-      - HK007
-      - US009
-      - US008
-      - SG9
-      - HK0
-      - Tokyo
-      - Tokyo1
-      - 韩国9
-      - 免费
-      - HK9
-      - US4
-      - US2
-      - US3
-      - US5
-      - US6
-      - US7
-      - h63956.strongpipe.live:11545
-      - h890361.strongpipe.live:11545
-      - TW
-      - JP5
-      - JP6
-      - JP7
-      - HK4
-      - HK5
-      - 韩国3
-      - JP3
-      - JP4
-      - HK2
-      - HK3
-      - SG
-      - HK
-      - JP1
-      - JP2
+      - HK88
+      - HK99
+      - US01-V2-直连
+      - 美国11
+      - 美国12
+      - 美国13
+      - 「🇭🇰」
+      - HK 79
+      - JP 137
+      - JP 147
+      - JP 66
+      - JP 18
+      - HK 81
+      - JP 4
+      - HK 93
+      - US 142
+      - JP 148
+      - KR 110
+      - JP 7
+      - KR 96
+      - KR 102
+      - JP 91
+      - US 227
+      - US 117
+      - JP 8
+      - 韩国🇰🇷春川-解锁Netflix
+      - 美肤
+      - 美国-专线
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港
+      - 日本
+      - 美国
       - 韩国
-      - 韩国1
-      - SG1
-      - US
-      - H k 1
+      - 香港1
+      - 香港2
+      - 美国1
+      - 台湾1
+      - 台湾2
+      - 日本1
+      - 新加坡
+      - 美国2
+      - TW
+      - 未知02
       - 台湾08
       - 台湾05
-      - JP
+      - US009
+      - US
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11545
   - name: 其他设置
     type: select
     proxies:
