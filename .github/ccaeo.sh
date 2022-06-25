@@ -105,6 +105,6 @@ AAA="`AAA`"
 sed -i "/^> /c> $AAA" $home/README.md
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒' -d '+1 hour')" $home/README.md
-[[ -f $home/surfboard ]] && sed -i 's|https.*fengguo-sjgz.ini|https://raw.githubusercontent.com/some6508/all/master/surfboard/g' $home/surfboard
+[[ -f $home/surfboard ]] && sed -i 's|https.*fengguo-sjgz.ini|https://raw.githubusercontent.com/some6508/all/master/surfboard|g' $home/surfboard
 echo --------------------------------------------------
 echo $(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')
