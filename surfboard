@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://api.v1.mk/sub?target=surfboard&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini interval=86400 strict=false
+#!MANAGED-CONFIG https://raw.githubusercontent.com/some6508/all/master/surfboard interval=86400 strict=false
 
 [General]
 loglevel = notify
