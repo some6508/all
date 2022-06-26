@@ -78,45 +78,54 @@ proxies:
   - {name: github.com/freefq - 台湾省宜兰县中华电信 12, server: 111.241.109.247, port: 39998, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 广东省移动 13, server: 120.233.7.221, port: 32006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 14, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be, skip-cert-verify: true, udp: true}
-  - {name: 香港_R_316, server: iepl-zh.safetelescope.cc, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 美国 G51 | 直连 | 0x, server: 141.98.168.251, port: 443, type: trojan, password: LiX1tV, sni: cdnu2.ft2.us, skip-cert-verify: true, udp: true}
+  - {name: "台湾 I5 | IEPL,限时体验8小时 | 0x", server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
+  - {name: 21, server: 36.139.153.214, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 87e5ef91-0cae-4454-9f95-a402c75c0dfa, udp: true}
+  - {name: 22, server: 36.139.154.162, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 87e5ef91-0cae-4454-9f95-a402c75c0dfa, udp: true}
+  - {name: 1, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: f6f51e72-46a6-385b-9947-db5e448ea9b8, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 2, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: 97808a17-2e97-3840-8a36-b7bc5203200c, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 3, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: 367d94ea-f0b8-328e-8257-8a099b45d272, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 4, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: 367d94ea-f0b8-328e-8257-8a099b45d272, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 5, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: 97808a17-2e97-3840-8a36-b7bc5203200c, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 6, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: f6f51e72-46a6-385b-9947-db5e448ea9b8, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 7, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: 551dc041-3fa0-3cdc-81cd-25720c382630, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 8, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: 367d94ea-f0b8-328e-8257-8a099b45d272, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 9, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: 97808a17-2e97-3840-8a36-b7bc5203200c, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 10, server: HJ001.xiba1.xyz, port: 20769, type: trojan, password: 367d94ea-f0b8-328e-8257-8a099b45d272, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 11, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: 551dc041-3fa0-3cdc-81cd-25720c382630, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 12, server: 36.139.154.162, port: 45149, type: vmess, uuid: 25066212-3c68-4f60-9845-80632aa27a20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 13, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: f6f51e72-46a6-385b-9947-db5e448ea9b8, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 16, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 551dc041-3fa0-3cdc-81cd-25720c382630, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 17, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: f6f51e72-46a6-385b-9947-db5e448ea9b8, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 14, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: 551dc041-3fa0-3cdc-81cd-25720c382630, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 15, server: 36.139.154.17, port: 45184, type: vmess, uuid: 11d24df8-4651-4db7-97d7-b0bb70b73ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18, server: 36.134.116.212, port: 45149, type: vmess, uuid: 60ee343c-6574-43ba-9f89-26ba2a154999, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 19, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: 20, server: 36.139.154.17, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 438eb205-b45d-48bf-aec1-c1587b581ea0, udp: true}
+  - {name: 日本05 | 测试 | 流媒体, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: 日本06 | 测试 | 流媒体, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32342, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: 韩国03 | 测试 | 流媒体, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
   - {name: 香港_R_334, server: iepl-hn.cctelescope.xyz, port: 44702, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 香港亿速云-dip, server: 154.221.22.201, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a11a783e60ec, udp: true}
-  - {name: 这是教程赠送免费节点, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 全球直连①, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11545, server: h63956.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h3816tw.strongpipe.live:20443, server: h3816tw.strongpipe.live, port: 20443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet～广州移动(中转) | 解锁流媒体, server: 183.232.230.214, port: 49870, type: ss, cipher: chacha20-ietf-poly1305, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, udp: true}
-  - {name: 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 越南 | 广州移动(中转), server: gzyd1.52147.top, port: 20110, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |, server: HJ001.xiba1.xyz, port: 20770, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |, server: HJ001.xiba1.xyz, port: 20767, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t", server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |, server: HJ001.xiba1.xyz, port: 20768, type: trojan, password: ce62702b-a659-3b26-a274-38695ee9c1ff, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港杨枝甘露 03-D, server: 104.208.84.160, port: 12369, type: trojan, password: 9ff4a104-d00e-4867-96e7-6f5f63070005, skip-cert-verify: true, udp: true}
-  - {name: 香港煎酿三宝 04-D, server: 20.239.179.123, port: 12388, type: trojan, password: 9ff4a104-d00e-4867-96e7-6f5f63070005, skip-cert-verify: true, udp: true}
-  - {name: 台湾 0x, server: 120.232.132.71, port: 25680, type: trojan, password: 3b4a79d, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
-  - {name: 台湾1, server: 36.139.154.17, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: c0a4c4d8-50ff-40fe-9120-18501874364e, udp: true}
-  - {name: 台湾2, server: 36.139.154.17, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 46c4efd6-50bc-45e0-becd-5d96f759ae76, udp: true}
   - {name: 日本1, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: 香港3, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 香港4, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: 日本3, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 日本4, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 香港亿速云-dip, server: 154.221.22.201, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a11a783e60ec, udp: true}
+  - {name: 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾 0x, server: 120.232.132.71, port: 25680, type: trojan, password: 3b4a79d, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
   - {name: 韩国3, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: 美国1, server: 36.139.154.17, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: afd78a4e-b0ff-4e30-acd5-3a88ff6cac25, udp: true}
+  - {name: 香港杨枝甘露 03-D, server: 104.208.84.160, port: 12369, type: trojan, password: 9ff4a104-d00e-4867-96e7-6f5f63070005, skip-cert-verify: true, udp: true}
+  - {name: 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 日本5, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: 625hk05.ok365.cyou, port: 443, type: trojan, password: 2523fe1a-1295-4525-be2c-d78ff1465d2a, sni: 625hk05.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 全球直连①, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 日本4, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 日本3, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 香港3, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: 这是教程赠送免费节点, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
   - {name: 美国, server: 625us.ok365.cyou, port: 443, type: trojan, password: 2523fe1a-1295-4525-be2c-d78ff1465d2a, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 香港_R_316, server: iepl-zh.safetelescope.cc, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港, server: 625hk05.ok365.cyou, port: 443, type: trojan, password: 2523fe1a-1295-4525-be2c-d78ff1465d2a, sni: 625hk05.ok365.cyou, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 全局设置
     type: select
@@ -195,45 +204,54 @@ proxy-groups:
       - github.com/freefq - 台湾省宜兰县中华电信 12
       - github.com/freefq - 广东省移动 13
       - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 14
-      - 香港_R_316
+      - 美国 G51 | 直连 | 0x
+      - 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 21
+      - 22
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 16
+      - 17
+      - 14
+      - 15
+      - 18
+      - 19
+      - 20
+      - 日本05 | 测试 | 流媒体
+      - 日本06 | 测试 | 流媒体
+      - 韩国03 | 测试 | 流媒体
       - 香港_R_334
-      - 香港亿速云-dip
-      - 这是教程赠送免费节点
-      - 全球直连①
-      - h63956.strongpipe.live:11545
-      - h3816tw.strongpipe.live:20443
-      - 台湾Hinet～广州移动(中转) | 解锁流媒体
-      - 越南-4号
-      - 越南-2号
-      - 越南-1号
       - 越南 | 广州移动(中转)
-      - 台湾Hinet | 解锁流媒体
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
-      - 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 台湾 0x
-      - 台湾1
-      - 台湾2
       - 日本1
-      - 香港3
+      - 越南-1号
       - 香港4
-      - 日本3
-      - 日本4
+      - 香港亿速云-dip
+      - 越南-4号
+      - 台湾 0x
       - 韩国3
-      - 美国1
+      - 香港杨枝甘露 03-D
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
       - 日本5
-      - 香港
+      - 全球直连①
+      - 日本4
+      - 日本3
+      - 香港3
+      - 这是教程赠送免费节点
       - 美国
+      - 香港_R_316
+      - 香港
   - name: 自动选择
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
@@ -312,45 +330,54 @@ proxy-groups:
       - github.com/freefq - 台湾省宜兰县中华电信 12
       - github.com/freefq - 广东省移动 13
       - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 14
-      - 香港_R_316
+      - 美国 G51 | 直连 | 0x
+      - 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 21
+      - 22
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 16
+      - 17
+      - 14
+      - 15
+      - 18
+      - 19
+      - 20
+      - 日本05 | 测试 | 流媒体
+      - 日本06 | 测试 | 流媒体
+      - 韩国03 | 测试 | 流媒体
       - 香港_R_334
-      - 香港亿速云-dip
-      - 这是教程赠送免费节点
-      - 全球直连①
-      - h63956.strongpipe.live:11545
-      - h3816tw.strongpipe.live:20443
-      - 台湾Hinet～广州移动(中转) | 解锁流媒体
-      - 越南-4号
-      - 越南-2号
-      - 越南-1号
       - 越南 | 广州移动(中转)
-      - 台湾Hinet | 解锁流媒体
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
-      - 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 台湾 0x
-      - 台湾1
-      - 台湾2
       - 日本1
-      - 香港3
+      - 越南-1号
       - 香港4
-      - 日本3
-      - 日本4
+      - 香港亿速云-dip
+      - 越南-4号
+      - 台湾 0x
       - 韩国3
-      - 美国1
+      - 香港杨枝甘露 03-D
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
       - 日本5
-      - 香港
+      - 全球直连①
+      - 日本4
+      - 日本3
+      - 香港3
+      - 这是教程赠送免费节点
       - 美国
+      - 香港_R_316
+      - 香港
   - name: 其他设置
     type: select
     proxies:
