@@ -64,98 +64,121 @@ proxies:
   - {name: "@SSRSUB-T07-付费推荐:dlj.tf/ssrsub", server: tw02.170809.xyz, port: 11170, type: trojan, password: 8a1ba481-948f-4a4d-86e7-1eda9e822091, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-T08-付费推荐:dlj.tf/ssrsub", server: scloud53.jafiyun.life, port: 22053, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-T09-付费推荐:dlj.tf/ssrsub", server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省佛山市电信 1, server: ink-gzzf-hk.inkiwike.com, port: 45457, type: vmess, uuid: 820aa5e5-4df6-4aaa-90a5-1cf80e32f238, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iQiyi.com}}, udp: true}
-  - {name: github.com/freefq - 香港rackip.com 2, server: 180.215.130.123, port: 11584, type: vmess, uuid: 181472ed-0bb7-43be-dccb-74aca2b33ed5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 180.215.130.123}}, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 3, server: iplc.wenzhoucloud.trojanv2ray.online, port: 20005, type: vmess, uuid: 820aa5e5-4df6-4aaa-90a5-1cf80e32f238, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iQiyi.com}}, udp: true}
-  - {name: github.com/freefq - 香港腾讯云 4, server: 626sg.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 5, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 北美地区  6, server: 104.255.65.112, port: 30718, type: vmess, uuid: f0f63386-d747-4d44-8d16-6e2d254f0ed3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省佛山市移动 7, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
+  - {name: github.com/freefq - 香港电讯盈科有限公司 1, server: 116.49.76.103, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省佛山市电信 2, server: ink-gzzf-hk.inkiwike.com, port: 45457, type: vmess, uuid: 820aa5e5-4df6-4aaa-90a5-1cf80e32f238, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iQiyi.com}}, udp: true}
+  - {name: github.com/freefq - 香港NETSEC公司 3, server: 148.66.56.99, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  5, server: 104.255.65.112, port: 30718, type: vmess, uuid: f0f63386-d747-4d44-8d16-6e2d254f0ed3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国DXC Technology 6, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国惠普HP 7, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 美国  8, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港rackip.com 9, server: 180.215.130.123, port: 46452, type: vmess, uuid: c5414fe0-018b-473a-aa3b-f210f2ba42f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: github.com/freefq - 美国惠普HP 10, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本  11, server: 146.56.47.161, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 146.56.47.161}}, udp: true}
-  - {name: github.com/freefq - 美国  12, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  13, server: v04.ssrsub.com, port: 153, type: vmess, uuid: 8fefb1b5-bee7-4736-8e00-cad32ab113d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v04.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 14, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 15, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.v2dns.bar}}, udp: true}
-  - {name: github.com/freefq - 加拿大  16, server: 625tw.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港电讯盈科有限公司 17, server: 42.3.19.58, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港香港城市电讯(香港宽频) 18, server: hkbn-home-a.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  9, server: 625us.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  10, server: v04.ssrsub.com, port: 153, type: vmess, uuid: 8fefb1b5-bee7-4736-8e00-cad32ab113d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v04.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 11, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.v2dns.bar}}, udp: true}
+  - {name: github.com/freefq - 美国  12, server: 150.230.43.106, port: 54829, type: vmess, uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡  13, server: 194.124.35.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 香港腾讯云 14, server: 626sg.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  15, server: 625tw.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省广州市电信 16, server: iplc.wenzhoucloud.trojanv2ray.online, port: 20005, type: vmess, uuid: 820aa5e5-4df6-4aaa-90a5-1cf80e32f238, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iQiyi.com}}, udp: true}
+  - {name: github.com/freefq - 新加坡  17, server: 194.124.35.40, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 韩国首尔Choopa数据中心 18, server: vu-kr01-direct01.vu-kr01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vu-kr01-direct01.vu-kr01.lc-node.com}}, udp: true}
   - {name: github.com/freefq - 法国OVH数据中心 19, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}, udp: true}
-  - {name: github.com/freefq - 香港BGP.NET数据中心 20, server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 180.215.196.10}}, udp: true}
-  - {name: github.com/freefq - 韩国首尔Choopa数据中心 21, server: vu-kr01-direct01.vu-kr01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vu-kr01-direct01.vu-kr01.lc-node.com}}, udp: true}
-  - {name: github.com/freefq - 香港电讯盈科有限公司 22, server: 116.49.76.103, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡  23, server: singapore2.shopvpn.net, port: 80, type: vmess, uuid: 77a81e4d-2f3d-4005-857e-4ba60140a539, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shopvpn.net, headers: {Host: singapore2.shopvpn.net}}, udp: true}
-  - {name: 俄罗斯Q, server: 194.50.170.229, port: 9116, type: ssr, cipher: rc4, password: lncn.org m6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯P, server: 194.156.121.174, port: 9116, type: ssr, cipher: rc4, password: lncn.org k5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯S, server: 2.56.240.162, port: 9116, type: ssr, cipher: rc4, password: lncn.org m6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯R, server: 194.156.121.250, port: 9116, type: ssr, cipher: rc4, password: lncn.org m6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯U, server: 185.143.221.163, port: 9116, type: ssr, cipher: rc4, password: lncn.org t2, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯M, server: 194.50.171.214, port: 9116, type: ssr, cipher: rc4, password: lncn.org k5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯X, server: 194.87.196.232, port: 9116, type: ssr, cipher: rc4, password: lncn.org t2, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯T, server: 45.8.159.129, port: 9116, type: ssr, cipher: rc4, password: lncn.org m6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯O, server: 194.5.78.96, port: 9116, type: ssr, cipher: rc4, password: lncn.org k5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯N, server: 91.206.92.68, port: 9116, type: ssr, cipher: rc4, password: lncn.org k5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: xfvhthn, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: bnkvnk, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: jkjgjkm, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: vbjfhjn, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: ghjhjm, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  20, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港BGP.NET数据中心 21, server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 180.215.196.10}}, udp: true}
+  - {name: github.com/freefq - 香港香港城市电讯(香港宽频) 22, server: hkbn-home-a.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港电讯盈科有限公司 23, server: 42.3.19.58, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 24, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省移动 25, server: zc.9900.sd20211007.xyz, port: 32001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯S, server: 2.56.240.162, port: 9335, type: ssr, cipher: rc4, password: lncn.org j7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯N, server: 91.206.92.68, port: 9335, type: ssr, cipher: rc4, password: lncn.org o5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯P, server: 194.156.121.174, port: 9335, type: ssr, cipher: rc4, password: lncn.org o5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯O, server: 194.5.78.96, port: 9335, type: ssr, cipher: rc4, password: lncn.org o5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯Q, server: 194.50.170.229, port: 9335, type: ssr, cipher: rc4, password: lncn.org j7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯T, server: 45.8.159.129, port: 9335, type: ssr, cipher: rc4, password: lncn.org j7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯M, server: 194.50.171.214, port: 9335, type: ssr, cipher: rc4, password: lncn.org o5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯V, server: 45.135.135.233, port: 9335, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯W, server: 185.22.152.90, port: 9335, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯U, server: 185.143.221.163, port: 9335, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯X, server: 194.87.196.232, port: 9335, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯R, server: 194.156.121.250, port: 9335, type: ssr, cipher: rc4, password: lncn.org j7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: BGP5, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP8, server: data-us-v1.shwjfkw.cn, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP7, server: data-jp-v1.heisey.cn, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP6, server: data-tw-v1.shwjfkw.cn, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP1, server: data-hk-v2.heisey.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP4, server: data-hk-v1.heisey.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: 专线|广播|亚洲|马来西亚01, server: iplc.wenzhoucloud.trojanv2ray.online, port: 20002, type: vmess, uuid: ccc52a75-4968-4d61-9672-7057b2002ced, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /iqiyi, headers: {Host: iQiyi.com}}, udp: true}
+  - {name: 专线|广播|亚洲|马来西亚02, server: iplc.wenzhoucloud.trojanv2ray.online, port: 20005, type: vmess, uuid: ccc52a75-4968-4d61-9672-7057b2002ced, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /iqiyi, headers: {Host: iQiyi.com}}, udp: true}
+  - {name: USA🇺🇸, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusa.fovi.tk}}, udp: true}
+  - {name: GBR🇬🇧, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}, udp: true}
+  - {name: 随机节点, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxany.fovi.tk}}, udp: true}
+  - {name: GER3🇩🇪, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz3.fovi.tk}}, udp: true}
+  - {name: SGP🇸🇬, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxsg.fovi.tk}}, udp: true}
+  - {name: POL🇵🇱, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true}
+  - {name: GER2🇩🇪, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz2.fovi.tk}}, udp: true}
+  - {name: vhhnjjnn, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: gvvghhhhhh, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: bnnjcyhnj, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: ytgvbjuub, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: lkjgvbbjh, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: bbbnbffrth, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: ccbnhyhj, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: bbnjgbjj, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 多台负载均衡 A 1.5x, server: 112.64.98.133, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22jp-balancer.myn1des.com%22%7D"}}, udp: true}
+  - {name: 台湾 多台负载均衡 A 1.5x, server: 112.64.98.133, port: 63088, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22tw-load-balancer.myn1des.com%22%7D"}}, udp: true}
+  - {name: 日本 多台负载均衡 B 1.5x, server: 116.129.254.65, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22jp-balancer.myn1des.com%22%7D"}}, udp: true}
+  - {name: "新加坡 多台负载均衡 A 1.5x\t", server: 112.64.98.133, port: 63087, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22sg-balancer.tencent.best%22%7D"}}, udp: true}
+  - {name: ggnnnnnnj, server: 626sg.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 626sg.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: dfhbijhh, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
+  - {name: kgfrybnjj, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: fdchuhbnj, server: 625tw.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: vvbntfjj, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: llgfvbjhh, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
   - {name: fdtjuduhyjh, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: gdvjgjj, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: eevhikbb, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
   - {name: nvecunkk, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32342, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: hgjkghnj, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: bhfstfgyhh, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: vhjhgnn, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: gnk, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: 0a8f3ff8-eb06-3384-85b2-e093d46f4368, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: rthjbbb, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: kjfbnkn, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: csebnn, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: wryucbn, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: 0a8f3ff8-eb06-3384-85b2-e093d46f4368, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: dhkbkm, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 0a8f3ff8-eb06-3384-85b2-e093d46f4368, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: rrrbbn, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: 0a8f3ff8-eb06-3384-85b2-e093d46f4368, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: gandfubjjk, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: jgbkhkm, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: erhvjb, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: efbjkkkk, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: kui, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾原生IP, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: e718e845-f776-4491-889d-788449383661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scloudhinet06, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: gghjbnj, server: 626hk02.ok365.cyou, port: 80, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 626hk02.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: gvnjnm, server: 626sg.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 626sg.ok365.cyou, skip-cert-verify: true, udp: true}
   - {name: ihbjou, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: fdbkhm, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
-  - {name: hngjjjjjk, server: 625us.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: hhjjjkk, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: 35, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: 0a8f3ff8-eb06-3384-85b2-e093d46f4368, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 5, server: 626hk02.ok365.cyou, port: 80, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 626hk02.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 37, server: 20.24.200.112, port: 12377, type: trojan, password: 9ff4a104-d00e-4867-96e7-6f5f63070005, skip-cert-verify: true, udp: true}
-  - {name: 44, server: 103.173.255.21, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 42, server: 103.173.255.127, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 20, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32342, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
   - {name: 46, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: 3, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
-  - {name: 4, server: 626sg.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 626sg.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: eevhikbb, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
   - {name: 24, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: hgjkghnj, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: 20, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32342, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
   - {name: 43, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
   - {name: 41, server: gzyd1.52147.top, port: 20110, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: fdbkhm, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
   - {name: 45, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 33340, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: 47, server: 120.232.132.71, port: 25680, type: trojan, password: 3b4a79d, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
-  - {name: 56, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: 48, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
-  - {name: 55, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 50, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 52, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 54, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 53, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 57, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: 51, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 关注TG频道@Jsnzk, server: hinet.52147.top, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 49, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
   - {name: 1, server: 625tw.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 40, server: 45.8.159.129, port: 9116, type: ssr, cipher: rc4, password: lncn.org m6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 39, server: 194.5.78.96, port: 9116, type: ssr, cipher: rc4, password: lncn.org k5, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 47, server: 120.232.132.71, port: 25680, type: trojan, password: 3b4a79d, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
+  - {name: 42, server: 103.173.255.127, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 48, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
+  - {name: 44, server: 103.173.255.21, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 56, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: 3, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
+  - {name: 关注TG频道@Jsnzk, server: hinet.52147.top, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 57, server: xy114x236x205x89xy.mcdn.bilivideo.life, port: 32341, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: bhfstfgyhh, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: erhvjb, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: bnkvnk, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: csebnn, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: jkjgjkm, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: ghjhjm, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: efbjkkkk, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: jgbkhkm, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: 00301563-a02b-30b9-a17a-8ba7db573dea, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: rthjbbb, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: vhjhgnn, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: vbjfhjn, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: gandfubjjk, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 55, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 54, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: kjfbnkn, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: xfvhthn, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 52, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 49, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 50, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: kui, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: gvnjnm, server: 626sg.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 626sg.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: hngjjjjjk, server: 625us.ok365.cyou, port: 443, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: hhjjjkk, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: gghjbnj, server: 626hk02.ok365.cyou, port: 80, type: trojan, password: ef6c7fc6-6551-472b-921c-8f28606785de, sni: 626hk02.ok365.cyou, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 全局设置
     type: select
@@ -220,98 +243,121 @@ proxy-groups:
       - "@SSRSUB-T07-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-T08-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-T09-付费推荐:dlj.tf/ssrsub"
-      - github.com/freefq - 广东省佛山市电信 1
-      - github.com/freefq - 香港rackip.com 2
-      - github.com/freefq - 广东省广州市电信 3
-      - github.com/freefq - 香港腾讯云 4
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 5
-      - github.com/freefq - 北美地区  6
-      - github.com/freefq - 广东省佛山市移动 7
+      - github.com/freefq - 香港电讯盈科有限公司 1
+      - github.com/freefq - 广东省佛山市电信 2
+      - github.com/freefq - 香港NETSEC公司 3
+      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
+      - github.com/freefq - 北美地区  5
+      - github.com/freefq - 美国DXC Technology 6
+      - github.com/freefq - 美国惠普HP 7
       - github.com/freefq - 美国  8
-      - github.com/freefq - 香港rackip.com 9
-      - github.com/freefq - 美国惠普HP 10
-      - github.com/freefq - 日本  11
+      - github.com/freefq - 加拿大  9
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国CloudFlare节点 11
       - github.com/freefq - 美国  12
-      - github.com/freefq - 美国  13
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 14
-      - github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - github.com/freefq - 加拿大  16
-      - github.com/freefq - 香港电讯盈科有限公司 17
-      - github.com/freefq - 香港香港城市电讯(香港宽频) 18
+      - github.com/freefq - 新加坡  13
+      - github.com/freefq - 香港腾讯云 14
+      - github.com/freefq - 加拿大  15
+      - github.com/freefq - 广东省广州市电信 16
+      - github.com/freefq - 新加坡  17
+      - github.com/freefq - 韩国首尔Choopa数据中心 18
       - github.com/freefq - 法国OVH数据中心 19
-      - github.com/freefq - 香港BGP.NET数据中心 20
-      - github.com/freefq - 韩国首尔Choopa数据中心 21
-      - github.com/freefq - 香港电讯盈科有限公司 22
-      - github.com/freefq - 新加坡  23
-      - 俄罗斯Q
-      - 俄罗斯P
+      - github.com/freefq - 美国  20
+      - github.com/freefq - 香港BGP.NET数据中心 21
+      - github.com/freefq - 香港香港城市电讯(香港宽频) 22
+      - github.com/freefq - 香港电讯盈科有限公司 23
+      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 24
+      - github.com/freefq - 广东省移动 25
       - 俄罗斯S
-      - 俄罗斯R
-      - 俄罗斯U
-      - 俄罗斯M
-      - 俄罗斯X
-      - 俄罗斯T
-      - 俄罗斯O
       - 俄罗斯N
-      - xfvhthn
-      - bnkvnk
-      - jkjgjkm
-      - vbjfhjn
-      - ghjhjm
+      - 俄罗斯P
+      - 俄罗斯O
+      - 俄罗斯Q
+      - 俄罗斯T
+      - 俄罗斯M
+      - 俄罗斯V
+      - 俄罗斯W
+      - 俄罗斯U
+      - 俄罗斯X
+      - 俄罗斯R
+      - BGP5
+      - BGP8
+      - BGP7
+      - BGP6
+      - BGP1
+      - BGP4
+      - 专线|广播|亚洲|马来西亚01
+      - 专线|广播|亚洲|马来西亚02
+      - USA🇺🇸
+      - GBR🇬🇧
+      - 随机节点
+      - GER3🇩🇪
+      - SGP🇸🇬
+      - POL🇵🇱
+      - GER2🇩🇪
+      - vhhnjjnn
+      - gvvghhhhhh
+      - bnnjcyhnj
+      - ytgvbjuub
+      - lkjgvbbjh
+      - bbbnbffrth
+      - ccbnhyhj
+      - bbnjgbjj
+      - 日本 多台负载均衡 A 1.5x
+      - 台湾 多台负载均衡 A 1.5x
+      - 日本 多台负载均衡 B 1.5x
+      - "新加坡 多台负载均衡 A 1.5x\t"
+      - ggnnnnnnj
+      - dfhbijhh
+      - kgfrybnjj
+      - fdchuhbnj
+      - vvbntfjj
+      - llgfvbjhh
       - fdtjuduhyjh
-      - gdvjgjj
-      - eevhikbb
       - nvecunkk
-      - hgjkghnj
-      - bhfstfgyhh
-      - vhjhgnn
-      - gnk
-      - rthjbbb
-      - kjfbnkn
-      - csebnn
-      - wryucbn
-      - dhkbkm
-      - rrrbbn
-      - gandfubjjk
-      - jgbkhkm
-      - erhvjb
-      - efbjkkkk
-      - kui
-      - 台湾原生IP
-      - gghjbnj
-      - gvnjnm
       - ihbjou
-      - fdbkhm
-      - hngjjjjjk
-      - hhjjjkk
-      - 35
-      - 5
-      - 37
-      - 44
-      - 42
-      - 20
       - 46
-      - 3
-      - 4
+      - eevhikbb
       - 24
+      - hgjkghnj
+      - 20
       - 43
       - 41
+      - fdbkhm
       - 45
-      - 47
-      - 56
-      - 48
-      - 55
-      - 50
-      - 52
-      - 54
-      - 53
-      - 57
-      - 51
-      - 关注TG频道@Jsnzk
-      - 49
       - 1
-      - 40
-      - 39
+      - 47
+      - 42
+      - 48
+      - 44
+      - 56
+      - 3
+      - 关注TG频道@Jsnzk
+      - 57
+      - bhfstfgyhh
+      - erhvjb
+      - bnkvnk
+      - csebnn
+      - jkjgjkm
+      - ghjhjm
+      - efbjkkkk
+      - jgbkhkm
+      - rthjbbb
+      - vhjhgnn
+      - vbjfhjn
+      - gandfubjjk
+      - 55
+      - 54
+      - kjfbnkn
+      - xfvhthn
+      - 52
+      - 49
+      - 50
+      - kui
+      - gvnjnm
+      - hngjjjjjk
+      - hhjjjkk
+      - gghjbnj
   - name: 自动选择
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
@@ -376,98 +422,121 @@ proxy-groups:
       - "@SSRSUB-T07-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-T08-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-T09-付费推荐:dlj.tf/ssrsub"
-      - github.com/freefq - 广东省佛山市电信 1
-      - github.com/freefq - 香港rackip.com 2
-      - github.com/freefq - 广东省广州市电信 3
-      - github.com/freefq - 香港腾讯云 4
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 5
-      - github.com/freefq - 北美地区  6
-      - github.com/freefq - 广东省佛山市移动 7
+      - github.com/freefq - 香港电讯盈科有限公司 1
+      - github.com/freefq - 广东省佛山市电信 2
+      - github.com/freefq - 香港NETSEC公司 3
+      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
+      - github.com/freefq - 北美地区  5
+      - github.com/freefq - 美国DXC Technology 6
+      - github.com/freefq - 美国惠普HP 7
       - github.com/freefq - 美国  8
-      - github.com/freefq - 香港rackip.com 9
-      - github.com/freefq - 美国惠普HP 10
-      - github.com/freefq - 日本  11
+      - github.com/freefq - 加拿大  9
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国CloudFlare节点 11
       - github.com/freefq - 美国  12
-      - github.com/freefq - 美国  13
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 14
-      - github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - github.com/freefq - 加拿大  16
-      - github.com/freefq - 香港电讯盈科有限公司 17
-      - github.com/freefq - 香港香港城市电讯(香港宽频) 18
+      - github.com/freefq - 新加坡  13
+      - github.com/freefq - 香港腾讯云 14
+      - github.com/freefq - 加拿大  15
+      - github.com/freefq - 广东省广州市电信 16
+      - github.com/freefq - 新加坡  17
+      - github.com/freefq - 韩国首尔Choopa数据中心 18
       - github.com/freefq - 法国OVH数据中心 19
-      - github.com/freefq - 香港BGP.NET数据中心 20
-      - github.com/freefq - 韩国首尔Choopa数据中心 21
-      - github.com/freefq - 香港电讯盈科有限公司 22
-      - github.com/freefq - 新加坡  23
-      - 俄罗斯Q
-      - 俄罗斯P
+      - github.com/freefq - 美国  20
+      - github.com/freefq - 香港BGP.NET数据中心 21
+      - github.com/freefq - 香港香港城市电讯(香港宽频) 22
+      - github.com/freefq - 香港电讯盈科有限公司 23
+      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 24
+      - github.com/freefq - 广东省移动 25
       - 俄罗斯S
-      - 俄罗斯R
-      - 俄罗斯U
-      - 俄罗斯M
-      - 俄罗斯X
-      - 俄罗斯T
-      - 俄罗斯O
       - 俄罗斯N
-      - xfvhthn
-      - bnkvnk
-      - jkjgjkm
-      - vbjfhjn
-      - ghjhjm
+      - 俄罗斯P
+      - 俄罗斯O
+      - 俄罗斯Q
+      - 俄罗斯T
+      - 俄罗斯M
+      - 俄罗斯V
+      - 俄罗斯W
+      - 俄罗斯U
+      - 俄罗斯X
+      - 俄罗斯R
+      - BGP5
+      - BGP8
+      - BGP7
+      - BGP6
+      - BGP1
+      - BGP4
+      - 专线|广播|亚洲|马来西亚01
+      - 专线|广播|亚洲|马来西亚02
+      - USA🇺🇸
+      - GBR🇬🇧
+      - 随机节点
+      - GER3🇩🇪
+      - SGP🇸🇬
+      - POL🇵🇱
+      - GER2🇩🇪
+      - vhhnjjnn
+      - gvvghhhhhh
+      - bnnjcyhnj
+      - ytgvbjuub
+      - lkjgvbbjh
+      - bbbnbffrth
+      - ccbnhyhj
+      - bbnjgbjj
+      - 日本 多台负载均衡 A 1.5x
+      - 台湾 多台负载均衡 A 1.5x
+      - 日本 多台负载均衡 B 1.5x
+      - "新加坡 多台负载均衡 A 1.5x\t"
+      - ggnnnnnnj
+      - dfhbijhh
+      - kgfrybnjj
+      - fdchuhbnj
+      - vvbntfjj
+      - llgfvbjhh
       - fdtjuduhyjh
-      - gdvjgjj
-      - eevhikbb
       - nvecunkk
-      - hgjkghnj
-      - bhfstfgyhh
-      - vhjhgnn
-      - gnk
-      - rthjbbb
-      - kjfbnkn
-      - csebnn
-      - wryucbn
-      - dhkbkm
-      - rrrbbn
-      - gandfubjjk
-      - jgbkhkm
-      - erhvjb
-      - efbjkkkk
-      - kui
-      - 台湾原生IP
-      - gghjbnj
-      - gvnjnm
       - ihbjou
-      - fdbkhm
-      - hngjjjjjk
-      - hhjjjkk
-      - 35
-      - 5
-      - 37
-      - 44
-      - 42
-      - 20
       - 46
-      - 3
-      - 4
+      - eevhikbb
       - 24
+      - hgjkghnj
+      - 20
       - 43
       - 41
+      - fdbkhm
       - 45
-      - 47
-      - 56
-      - 48
-      - 55
-      - 50
-      - 52
-      - 54
-      - 53
-      - 57
-      - 51
-      - 关注TG频道@Jsnzk
-      - 49
       - 1
-      - 40
-      - 39
+      - 47
+      - 42
+      - 48
+      - 44
+      - 56
+      - 3
+      - 关注TG频道@Jsnzk
+      - 57
+      - bhfstfgyhh
+      - erhvjb
+      - bnkvnk
+      - csebnn
+      - jkjgjkm
+      - ghjhjm
+      - efbjkkkk
+      - jgbkhkm
+      - rthjbbb
+      - vhjhgnn
+      - vbjfhjn
+      - gandfubjjk
+      - 55
+      - 54
+      - kjfbnkn
+      - xfvhthn
+      - 52
+      - 49
+      - 50
+      - kui
+      - gvnjnm
+      - hngjjjjjk
+      - hhjjjkk
+      - gghjbnj
   - name: 其他设置
     type: select
     proxies:
