@@ -2,21 +2,21 @@
 7:	cd /home/runner/work/all/all
 8:	rm -rf /home/runner/work/all/all/c1 /home/runner/work/all/all/clash /home/runner/work/all/all/v1 /home/runner/work/all/all/v2 /home/runner/work/all/all/v2ray /home/runner/work/all/all/v3 /home/runner/work/all/all/url
 442:	date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-42:	echo 2022年07月11日·周1·21点46分01秒.243毫秒
+42:	echo 2022年07月11日·周1·22点21分54秒.229毫秒
 43:	setsid curl -s -I -k -L some6508.ccaeo.com
 444:	curl -s -L https://api.github.com/repos/changfengoss/pub/commits
 444:	sed 's/.*"html_url": /html_url=/g'
 444:	grep -m 1 html_url
-44:	eval 'html_url="https://github.com/changfengoss/pub/commit/cd58a051ff45f0afb0befe86f30b862e5985b6f6",'
-444:	html_url=https://github.com/changfengoss/pub/commit/cd58a051ff45f0afb0befe86f30b862e5985b6f6,
+44:	eval 'html_url="https://github.com/changfengoss/pub/commit/4889250fe96d590c330f8b1e369b5146e9de4e8a",'
+444:	html_url=https://github.com/changfengoss/pub/commit/4889250fe96d590c330f8b1e369b5146e9de4e8a,
 445:	sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
 445:	sed 's|</a>|"|g'
-445:	curl -s -L https://github.com/changfengoss/pub/commit/cd58a051ff45f0afb0befe86f30b862e5985b6f6
+445:	curl -s -L https://github.com/changfengoss/pub/commit/4889250fe96d590c330f8b1e369b5146e9de4e8a
 45:	eval ''
 46:	case "$href" in
 49:	ec '! 链接错误	'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分02秒.648毫秒	! 链接错误	'
+9:	echo '21分55秒.515毫秒	! 链接错误	'
 551:	curl -s -L https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
 551:	sed 's/.*"html_url": /html_url=/g'
 551:	grep -m 1 html_url
@@ -29,7 +29,7 @@
 53:	case "$href" in
 60:	ec '! 链接错误	'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分03秒.020毫秒	! 链接错误	'
+9:	echo '21分56秒.148毫秒	! 链接错误	'
 662:	curl -s -L https://api.github.com/repos/zyfxz/V2Ray/commits
 662:	sed 's/.*"html_url": /html_url=/g'
 662:	grep -m 1 html_url
@@ -43,7 +43,7 @@
 11:	[[ -z '' ]]
 11:	ec ！没有下载链接
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分03秒.397毫秒	！没有下载链接'
+9:	echo '21分56秒.776毫秒	！没有下载链接'
 11:	return 1
 665:	curl -s -L https://api.github.com/repos/zyfxz/clash/commits
 665:	sed 's/.*"html_url": /html_url=/g'
@@ -58,7 +58,7 @@
 11:	[[ -z '' ]]
 11:	ec ！没有下载链接
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分03秒.754毫秒	！没有下载链接'
+9:	echo '21分57秒.405毫秒	！没有下载链接'
 11:	return 1
 668:	curl -s -L https://api.github.com/repos/FMYC2015/V2ray/commits
 668:	sed 's/.*"html_url": /html_url=/g'
@@ -73,7 +73,7 @@
 11:	[[ -z '' ]]
 11:	ec ！没有下载链接
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分04秒.166毫秒	！没有下载链接'
+9:	echo '21分58秒.101毫秒	！没有下载链接'
 11:	return 1
 771:	curl -s -L https://api.github.com/repos/FMYC2015/Clash/commits
 771:	sed 's/.*"html_url": /html_url=/g'
@@ -88,7 +88,7 @@
 11:	[[ -z '' ]]
 11:	ec ！没有下载链接
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分04秒.579毫秒	！没有下载链接'
+9:	echo '21分58秒.719毫秒	！没有下载链接'
 11:	return 1
 74:	CURL v https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 11:	[[ -z https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray ]]
@@ -100,24 +100,24 @@
 22:	echo --------------------------------------------------
 23:	ec '- 下载文件	v1'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分04秒.612毫秒	- 下载文件	v1'
+9:	echo '21分58秒.837毫秒	- 下载文件	v1'
 24:	ec '- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分04秒.614毫秒	- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
+9:	echo '21分58秒.838毫秒	- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
 25:	curl -s -L -o /home/runner/work/all/all/v1 https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 26:	CURL=0
 27:	[[ 0 != 0 ]]
 28:	ec '- 下载完成'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分04秒.642毫秒	- 下载完成'
+9:	echo '21分58秒.888毫秒	- 下载完成'
 29:	[[ -z '' ]]
 29:	[[ -s /home/runner/work/all/all/v1 ]]
 29:	echo -n 'https://raw.githubusercontent.com/some6508/all/master/v1|'
 30:	return 0
 75:	CURL c https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 11:	[[ -z https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml ]]
-12:	curl -s -L https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 12:	egrep -qi '</html>$|^404'
+12:	curl -s -L https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 13:	[[ c = v ]]
 16:	[[ c = c ]]
 17:	(( c++ ))
@@ -125,16 +125,16 @@
 22:	echo --------------------------------------------------
 23:	ec '- 下载文件	c1'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分04秒.733毫秒	- 下载文件	c1'
+9:	echo '21分59秒.083毫秒	- 下载文件	c1'
 24:	ec '- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分04秒.735毫秒	- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
+9:	echo '21分59秒.084毫秒	- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
 25:	curl -s -L -o /home/runner/work/all/all/c1 https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 26:	CURL=0
 27:	[[ 0 != 0 ]]
 28:	ec '- 下载完成'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分04秒.773毫秒	- 下载完成'
+9:	echo '21分59秒.173毫秒	- 下载完成'
 29:	[[ -z '' ]]
 29:	[[ -s /home/runner/work/all/all/c1 ]]
 29:	echo -n 'https://raw.githubusercontent.com/some6508/all/master/c1|'
@@ -151,7 +151,7 @@
 78:	case "$href" in
 82:	ec '! 链接错误	'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分05秒.154毫秒	! 链接错误	'
+9:	echo '21分59秒.755毫秒	! 链接错误	'
 84:	CURL v https://raw.githubusercontent.com/freefq/free/master/v2
 11:	[[ -z https://raw.githubusercontent.com/freefq/free/master/v2 ]]
 12:	curl -s -L https://raw.githubusercontent.com/freefq/free/master/v2
@@ -162,16 +162,16 @@
 22:	echo --------------------------------------------------
 23:	ec '- 下载文件	v2'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分05秒.179毫秒	- 下载文件	v2'
+9:	echo '21分59秒.846毫秒	- 下载文件	v2'
 24:	ec '- 连接链接	https://raw.githubusercontent.com/freefq/free/master/v2'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分05秒.181毫秒	- 连接链接	https://raw.githubusercontent.com/freefq/free/master/v2'
+9:	echo '21分59秒.847毫秒	- 连接链接	https://raw.githubusercontent.com/freefq/free/master/v2'
 25:	curl -s -L -o /home/runner/work/all/all/v2 https://raw.githubusercontent.com/freefq/free/master/v2
 26:	CURL=0
 27:	[[ 0 != 0 ]]
 28:	ec '- 下载完成'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分05秒.209毫秒	- 下载完成'
+9:	echo '21分59秒.898毫秒	- 下载完成'
 29:	[[ -z '' ]]
 29:	[[ -s /home/runner/work/all/all/v2 ]]
 29:	echo -n 'https://raw.githubusercontent.com/some6508/all/master/v2|'
@@ -191,16 +191,16 @@
 22:	echo --------------------------------------------------
 23:	ec '- 下载文件	v3'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分05秒.264毫秒	- 下载文件	v3'
+9:	echo '22分00秒.279毫秒	- 下载文件	v3'
 24:	ec '- 连接链接	https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分05秒.266毫秒	- 连接链接	https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
+9:	echo '22分00秒.280毫秒	- 连接链接	https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
 25:	curl -s -L -o /home/runner/work/all/all/v3 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 26:	CURL=0
 27:	[[ 0 != 0 ]]
 28:	ec '- 下载完成'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分05秒.291毫秒	- 下载完成'
+9:	echo '22分00秒.328毫秒	- 下载完成'
 29:	[[ -z '' ]]
 29:	[[ -s /home/runner/work/all/all/v3 ]]
 29:	echo -n 'https://raw.githubusercontent.com/some6508/all/master/v3|'
@@ -210,14 +210,14 @@
 887:	grep -m 1 html_url
 87:	eval 'html_url="https://github.com/moneyfly1/sublist/commit/bde7f17a4ff231a4953e28c0dd6b3f17ee32c7f8",'
 887:	html_url=https://github.com/moneyfly1/sublist/commit/bde7f17a4ff231a4953e28c0dd6b3f17ee32c7f8,
-888:	curl -s -L https://github.com/moneyfly1/sublist/commit/bde7f17a4ff231a4953e28c0dd6b3f17ee32c7f8
 888:	sed 's|</a>|"|g'
+888:	curl -s -L https://github.com/moneyfly1/sublist/commit/bde7f17a4ff231a4953e28c0dd6b3f17ee32c7f8
 888:	sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/moneyfly1/sublist/main/|p'
 88:	eval ''
 89:	case "$href" in
 92:	ec '! 链接错误	'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分05秒.765毫秒	! 链接错误	'
+9:	echo '22分01秒.001毫秒	! 链接错误	'
 994:	cat /home/runner/work/all/all/url
 94:	a='https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|'
 95:	for i in clash v2ray surfboard
@@ -231,16 +231,16 @@
 22:	echo --------------------------------------------------
 23:	ec '- 下载文件	tmp_clash'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分08秒.914毫秒	- 下载文件	tmp_clash'
+9:	echo '22分04秒.270毫秒	- 下载文件	tmp_clash'
 24:	ec '- 连接链接	https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分08秒.916毫秒	- 连接链接	https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
+9:	echo '22分04秒.271毫秒	- 连接链接	https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 25:	curl -s -L -o /home/runner/work/all/all/tmp_clash 'https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 26:	CURL=0
 27:	[[ 0 != 0 ]]
 28:	ec '- 下载完成'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分10秒.160毫秒	- 下载完成'
+9:	echo '22分04秒.880毫秒	- 下载完成'
 29:	[[ -z tmp_clash ]]
 30:	return 1
 95:	for i in clash v2ray surfboard
@@ -254,39 +254,39 @@
 22:	echo --------------------------------------------------
 23:	ec '- 下载文件	tmp_v2ray'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分10秒.944毫秒	- 下载文件	tmp_v2ray'
+9:	echo '22分05秒.544毫秒	- 下载文件	tmp_v2ray'
 24:	ec '- 连接链接	https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分10秒.946毫秒	- 连接链接	https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
+9:	echo '22分05秒.546毫秒	- 连接链接	https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 25:	curl -s -L -o /home/runner/work/all/all/tmp_v2ray 'https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 26:	CURL=0
 27:	[[ 0 != 0 ]]
 28:	ec '- 下载完成'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分11秒.710毫秒	- 下载完成'
+9:	echo '22分05秒.799毫秒	- 下载完成'
 29:	[[ -z tmp_v2ray ]]
 30:	return 1
 95:	for i in clash v2ray surfboard
 96:	CURL tmp_surfboard 'https://api.v1.mk/sub?target=surfboard&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 11:	[[ -z https://api.v1.mk/sub?target=surfboard&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini ]]
-12:	egrep -qi '</html>$|^404'
 12:	curl -s -L 'https://api.v1.mk/sub?target=surfboard&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
+12:	egrep -qi '</html>$|^404'
 13:	[[ tmp_surfboard = v ]]
 16:	[[ tmp_surfboard = c ]]
 20:	x=tmp_surfboard
 22:	echo --------------------------------------------------
 23:	ec '- 下载文件	tmp_surfboard'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分12秒.413毫秒	- 下载文件	tmp_surfboard'
+9:	echo '22分06秒.613毫秒	- 下载文件	tmp_surfboard'
 24:	ec '- 连接链接	https://api.v1.mk/sub?target=surfboard&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分12秒.415毫秒	- 连接链接	https://api.v1.mk/sub?target=surfboard&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
+9:	echo '22分06秒.615毫秒	- 连接链接	https://api.v1.mk/sub?target=surfboard&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 25:	curl -s -L -o /home/runner/work/all/all/tmp_surfboard 'https://api.v1.mk/sub?target=surfboard&url=https://raw.githubusercontent.com/some6508/all/master/v1|https://raw.githubusercontent.com/some6508/all/master/c1|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3&config=https://raw.githubusercontent.com/some6508/all/master/fengguo-sjgz.ini'
 26:	CURL=0
 27:	[[ 0 != 0 ]]
 28:	ec '- 下载完成'
 99:	date +%M分%S秒.%3N毫秒
-9:	echo '46分13秒.378毫秒	- 下载完成'
+9:	echo '22分07秒.422毫秒	- 下载完成'
 29:	[[ -z tmp_surfboard ]]
 30:	return 1
 98:	grep -q '</html>' /home/runner/work/all/all/tmp_clash
@@ -314,11 +314,11 @@
 104:	AAA='Scheduled	'
 105:	sed -i '/^> /c> Scheduled	' /home/runner/work/all/all/README.md
 1106:	date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-106:	sed -i '/^|20/c|2022年07月11日·周1·21点46分13秒.818毫秒|' /home/runner/work/all/all/README.md
+106:	sed -i '/^|20/c|2022年07月11日·周1·22点22分08秒.103毫秒|' /home/runner/work/all/all/README.md
 1107:	date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-107:	sed -i '/^20/c2022年07月11日·周1·22点46分13秒.821毫秒' /home/runner/work/all/all/README.md
+107:	sed -i '/^20/c2022年07月11日·周1·23点22分08秒.106毫秒' /home/runner/work/all/all/README.md
 108:	[[ -f /home/runner/work/all/all/surfboard ]]
 108:	sed -i 's|https.*fengguo-sjgz.ini|https://raw.githubusercontent.com/some6508/all/master/surfboard|g' /home/runner/work/all/all/surfboard
 109:	echo --------------------------------------------------
 1110:	date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-110:	echo 2022年07月11日·周1·21点46分13秒.827毫秒
+110:	echo 2022年07月11日·周1·22点22分08秒.114毫秒
