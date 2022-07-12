@@ -117,50 +117,42 @@ proxies:
   - {name: github.com/freefq - 美国  34, server: taobao.babazhuji.com, port: 443, type: vmess, uuid: 36712be8-f2ff-4875-8c67-95efd66ac994, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /didi, headers: {Host: taobao.babazhuji.com}}, udp: true}
   - {name: github.com/freefq - 广东省移动 35, server: 120.233.7.221, port: 32006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 新加坡  36, server: sg-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: 全球直连③, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 香港10|原生解锁, server: cn05.downloadmovie.cn, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn05.downloadmovie.cn}}, udp: true}
+  - {name: jdstj, server: 111.45.22.136, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: ldrhbn, server: cn05.downloadmovie.cn, port: 65026, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%257B%2522Host%2522:%2522cn05.downloadmovie.cn%2522%257D"}}, udp: true}
+  - {name: uewcj, server: 116.129.254.177, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: 台湾10|原生解锁, server: cn05.downloadmovie.cn, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn05.downloadmovie.cn}}, udp: true}
+  - {name: mswyh, server: 116.129.254.177, port: 65063, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: uuwsc, server: 116.129.254.177, port: 65034, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: ywzbjn, server: 36.134.156.5, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: uzmgc, server: 36.134.156.5, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: 台湾07|原生解锁, server: cn02.downloadmovie.cn, port: 65034, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn02.downloadmovie.cn}}, udp: true}
+  - {name: lauvn, server: 36.134.154.119, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: ywcvnk, server: 111.45.22.136, port: 65062, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: pqznk, server: 36.134.154.119, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: whcmmd, server: 36.134.156.5, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: ywxm, server: 116.129.254.177, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: ★自动选择04|台湾最优线路, server: auto-moble.downloadmovie.cn, port: 65023, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: auto-moble.downloadmovie.cn}}, udp: true}
+  - {name: "香港 [直连D] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20944, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连B] 1x 2", server: dnsfree01.theworkpc.com, port: 20942, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [免流] 0.1x 2", server: dnsfree01.theworkpc.com, port: 80, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 台湾-优化2, server: m.mjmjmjmj.cyou, port: 16616, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.mjmjmjmj.cyou}}, udp: true}
+  - {name: 马来西亚-优化3, server: m.mjmjmjmj.cyou, port: 26623, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.mjmjmjmj.cyou}}, udp: true}
+  - {name: 柬埔寨-优化, server: u.mjmjmjmj.cyou, port: 16634, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: u.mjmjmjmj.cyou}}, udp: true}
+  - {name: 台湾-智能, server: g.mjmjmjmj.cyou, port: 16616, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: g.mjmjmjmj.cyou}}, udp: true}
+  - {name: 印度-智能, server: g.mjmjmjmj.cyou, port: 16626, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: g.mjmjmjmj.cyou}}, udp: true}
+  - {name: 马来西亚-优化2, server: m.mjmjmjmj.cyou, port: 26623, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.mjmjmjmj.cyou}}, udp: true}
   - {name: 稳定高速可购买付费节点↓, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet ～广州移动(中转) | 解锁流媒体, server: gzyd1.52147.top, port: 20020, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-1号, server: 203.138.98.199, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet～河南移动(中转) | 解锁流媒体, server: hnyd.52147.top, port: 20020, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾Sky | 解锁流媒体, server: 103.186.187.52, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 越南-2号 2, server: 103.173.255.127, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet | 解锁流媒体 2, server: hinet.52147.top, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 越南-4号 2, server: 103.173.255.234, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet-广州移动 | 解锁流媒体, server: gzyd1.52147.top, port: 30010, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet-广移2 | 解锁流媒体, server: gzyd2.52147.top, port: 30010, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 距离下次重置剩余：5 天, server: 164.70.68.67, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 越南-3号 2, server: 103.173.255.228, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 越南 | 广州移动, server: gzyd1.52147.top, port: 30120, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 香港✈️60, server: 60.72img.xyz, port: 443, type: trojan, password: b605dc8f-249f-4f08-9793-571acf746dab, sni: 60.72img.xyz, skip-cert-verify: true, udp: true}
-  - {name: 洛杉矶11, server: 11.72img.xyz, port: 443, type: vmess, uuid: b605dc8f-249f-4f08-9793-571acf746dab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.72img.xyz}}, udp: true}
-  - {name: 凤凰城35, server: 35.72img.xyz, port: 443, type: vmess, uuid: b605dc8f-249f-4f08-9793-571acf746dab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 35.72img.xyz}}, udp: true}
-  - {name: 凤凰城33, server: 33.72img.xyz, port: 443, type: vmess, uuid: b605dc8f-249f-4f08-9793-571acf746dab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 33.72img.xyz}}, udp: true}
-  - {name: 圣何塞7, server: 7.72img.xyz, port: 443, type: vmess, uuid: b605dc8f-249f-4f08-9793-571acf746dab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7.72img.xyz}}, udp: true}
-  - {name: 凤凰城36, server: 36.72img.xyz, port: 443, type: vmess, uuid: b605dc8f-249f-4f08-9793-571acf746dab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 36.72img.xyz}}, udp: true}
-  - {name: 新加坡✈️31, server: 31.72img.xyz, port: 443, type: trojan, password: b605dc8f-249f-4f08-9793-571acf746dab, skip-cert-verify: true, udp: true}
-  - {name: 凤凰城34, server: 34.72img.xyz, port: 443, type: vmess, uuid: b605dc8f-249f-4f08-9793-571acf746dab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 34.72img.xyz}}, udp: true}
-  - {name: :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: :冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧, server: 37.235.49.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: "[家宽]台湾08|动态IP 1x", server: hinet.xn--z4q48lcvp.com, port: 30248, type: trojan, password: 3c3c1285-303a-4a91-b97f-6fbf48ea998d, sni: hinet.xn--z4q48lcvp.com, skip-cert-verify: true, udp: true}
-  - {name: 80-日本1号, server: jp1.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1.chaoxn.top}}, udp: true}
-  - {name: 80-美国3号, server: su11.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: su11.chaoxn.top}}, udp: true}
-  - {name: 80-美国2号, server: su10.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: su10.chaoxn.top}}, udp: true}
-  - {name: 80-美国6号, server: su6.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: su6.chaoxn.top}}, udp: true}
   - {name: 80-美国4号, server: su4.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: su4.chaoxn.top}}, udp: true}
-  - {name: 香港|TG专用, server: 47.91.207.96, port: 443, type: vmess, uuid: a12e496e-f89a-434a-8011-108846f0e412, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk.pengui.xyz, headers: {Host: hk.pengui.xyz}}, udp: true}
-  - {name: 日本|TG专用, server: 139.162.108.240, port: 443, type: vmess, uuid: a12e496e-f89a-434a-8011-108846f0e412, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azjp.pengui.xyz, headers: {Host: azjp.pengui.xyz}}, udp: true}
-  - {name: lffcinm, server: 85.208.108.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: kfdrhbnn, server: 194.124.35.23, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: iduxkh, server: cn01.downloadmovie.cn, port: 65062, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn01.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: ldajv, server: cn01.downloadmovie.cn, port: 65015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn01.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: kdjck, server: cn01.downloadmovie.cn, port: 65033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn01.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: kstkv, server: cn02.downloadmovie.cn, port: 65005, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn02.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: nxtuvn, server: cn05.downloadmovie.cn, port: 65026, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn05.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: iadnbj, server: cn01.downloadmovie.cn, port: 65042, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn01.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: 80-美国1号, server: su1.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: su1.chaoxn.top}}, udp: true}
+  - {name: 80-美国6号, server: su6.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: su6.chaoxn.top}}, udp: true}
+  - {name: 80-美国2号, server: su10.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: su10.chaoxn.top}}, udp: true}
+  - {name: jchnbn, server: 73hk01.ok365.cyou, port: 443, type: trojan, password: 1d2a8749-001e-4809-b767-cb04a54bdf7f, sni: 73hk01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: kddbb, server: 73hk02.ok365.cyou, port: 443, type: trojan, password: 1d2a8749-001e-4809-b767-cb04a54bdf7f, sni: 73hk02.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: jdfnbm, server: 120.233.7.225, port: 100, type: trojan, password: 7dp3vF, sni: iep225.t4v.fun, skip-cert-verify: true, udp: true}
+  - {name: kddhb, server: hnyd.52147.top, port: 20170, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: ttudm, server: 85.208.108.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: xhhvm, server: 626sg05.ok365.cyou, port: 80, type: trojan, password: 1d2a8749-001e-4809-b767-cb04a54bdf7f, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 全局设置
     type: select
@@ -268,50 +260,42 @@ proxy-groups:
       - github.com/freefq - 美国  34
       - github.com/freefq - 广东省移动 35
       - github.com/freefq - 新加坡  36
-      - 全球直连③
+      - 香港10|原生解锁
+      - jdstj
+      - ldrhbn
+      - uewcj
+      - 台湾10|原生解锁
+      - mswyh
+      - uuwsc
+      - ywzbjn
+      - uzmgc
+      - 台湾07|原生解锁
+      - lauvn
+      - ywcvnk
+      - pqznk
+      - whcmmd
+      - ywxm
+      - ★自动选择04|台湾最优线路
+      - 香港 [直连D] 1x
+      - 香港 [直连B] 1x 2
+      - 香港 [免流] 0.1x 2
+      - 台湾-优化2
+      - 马来西亚-优化3
+      - 柬埔寨-优化
+      - 台湾-智能
+      - 印度-智能
+      - 马来西亚-优化2
       - 稳定高速可购买付费节点↓
-      - 越南-4号
-      - 台湾Hinet ～广州移动(中转) | 解锁流媒体
-      - 台湾Hinet | 解锁流媒体
-      - 越南-2号
-      - 日本NTT-1号
-      - 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 越南-3号
-      - 台湾Sky | 解锁流媒体
-      - 越南-2号 2
-      - 台湾Hinet | 解锁流媒体 2
-      - 越南-4号 2
-      - 台湾Hinet-广州移动 | 解锁流媒体
-      - 台湾Hinet-广移2 | 解锁流媒体
-      - 距离下次重置剩余：5 天
-      - 越南-3号 2
-      - 越南 | 广州移动
-      - 香港✈️60
-      - 洛杉矶11
-      - 凤凰城35
-      - 凤凰城33
-      - 圣何塞7
-      - 凤凰城36
-      - 新加坡✈️31
-      - 凤凰城34
-      - :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - :冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
-      - "[家宽]台湾08|动态IP 1x"
-      - 80-日本1号
-      - 80-美国3号
-      - 80-美国2号
-      - 80-美国6号
       - 80-美国4号
-      - 香港|TG专用
-      - 日本|TG专用
-      - lffcinm
-      - kfdrhbnn
-      - iduxkh
-      - ldajv
-      - kdjck
-      - kstkv
-      - nxtuvn
-      - iadnbj
+      - 80-美国1号
+      - 80-美国6号
+      - 80-美国2号
+      - jchnbn
+      - kddbb
+      - jdfnbm
+      - kddhb
+      - ttudm
+      - xhhvm
   - name: 自动选择
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
@@ -419,50 +403,42 @@ proxy-groups:
       - github.com/freefq - 美国  34
       - github.com/freefq - 广东省移动 35
       - github.com/freefq - 新加坡  36
-      - 全球直连③
+      - 香港10|原生解锁
+      - jdstj
+      - ldrhbn
+      - uewcj
+      - 台湾10|原生解锁
+      - mswyh
+      - uuwsc
+      - ywzbjn
+      - uzmgc
+      - 台湾07|原生解锁
+      - lauvn
+      - ywcvnk
+      - pqznk
+      - whcmmd
+      - ywxm
+      - ★自动选择04|台湾最优线路
+      - 香港 [直连D] 1x
+      - 香港 [直连B] 1x 2
+      - 香港 [免流] 0.1x 2
+      - 台湾-优化2
+      - 马来西亚-优化3
+      - 柬埔寨-优化
+      - 台湾-智能
+      - 印度-智能
+      - 马来西亚-优化2
       - 稳定高速可购买付费节点↓
-      - 越南-4号
-      - 台湾Hinet ～广州移动(中转) | 解锁流媒体
-      - 台湾Hinet | 解锁流媒体
-      - 越南-2号
-      - 日本NTT-1号
-      - 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 越南-3号
-      - 台湾Sky | 解锁流媒体
-      - 越南-2号 2
-      - 台湾Hinet | 解锁流媒体 2
-      - 越南-4号 2
-      - 台湾Hinet-广州移动 | 解锁流媒体
-      - 台湾Hinet-广移2 | 解锁流媒体
-      - 距离下次重置剩余：5 天
-      - 越南-3号 2
-      - 越南 | 广州移动
-      - 香港✈️60
-      - 洛杉矶11
-      - 凤凰城35
-      - 凤凰城33
-      - 圣何塞7
-      - 凤凰城36
-      - 新加坡✈️31
-      - 凤凰城34
-      - :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - :冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
-      - "[家宽]台湾08|动态IP 1x"
-      - 80-日本1号
-      - 80-美国3号
-      - 80-美国2号
-      - 80-美国6号
       - 80-美国4号
-      - 香港|TG专用
-      - 日本|TG专用
-      - lffcinm
-      - kfdrhbnn
-      - iduxkh
-      - ldajv
-      - kdjck
-      - kstkv
-      - nxtuvn
-      - iadnbj
+      - 80-美国1号
+      - 80-美国6号
+      - 80-美国2号
+      - jchnbn
+      - kddbb
+      - jdfnbm
+      - kddhb
+      - ttudm
+      - xhhvm
   - name: 其他设置
     type: select
     proxies:
