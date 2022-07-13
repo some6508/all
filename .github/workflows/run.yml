@@ -4,16 +4,12 @@ name: all
 on:
   push:
     branches: [ master ]
-    paths-ignore:
-      - 'README.md'
   pull_request:
     branches: [ master ]
-    paths-ignore:
-      - 'README.md'
   watch:
     types: [started]
-  schedule:
-    - cron: '0 */1 * * *'
+#  schedule:
+#    - cron: '0 */1 * * *'
   workflow_dispatch:
 
 env:
