@@ -420,10 +420,16 @@ DOMAIN-SUFFIX,yangkeduo.com,DIRECT
 DOMAIN-SUFFIX,leju.com,DIRECT
 DOMAIN-SUFFIX,miaopai.com,DIRECT
 DOMAIN-SUFFIX,sina.com,DIRECT
+DOMAIN-SUFFIX,sina.com.cn,DIRECT
+DOMAIN-SUFFIX,sina.cn,DIRECT
 DOMAIN-SUFFIX,sinaapp.com,DIRECT
+DOMAIN-SUFFIX,sinaapp.cn,DIRECT
 DOMAIN-SUFFIX,sinaimg.com,DIRECT
+DOMAIN-SUFFIX,sinaimg.cn,DIRECT
 DOMAIN-SUFFIX,weibo.com,DIRECT
+DOMAIN-SUFFIX,weibo.cn,DIRECT
 DOMAIN-SUFFIX,weibocdn.com,DIRECT
+DOMAIN-SUFFIX,weibocdn.cn,DIRECT
 DOMAIN-SUFFIX,xiaoka.tv,DIRECT
 DOMAIN-SUFFIX,go2map.com,DIRECT
 DOMAIN-SUFFIX,sogo.com,DIRECT
@@ -1017,6 +1023,7 @@ IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
 DOMAIN-SUFFIX,acl4.ssr,DIRECT
 DOMAIN-SUFFIX,ip6-localhost,DIRECT
 DOMAIN-SUFFIX,ip6-loopback,DIRECT
+DOMAIN-SUFFIX,lan,DIRECT
 DOMAIN-SUFFIX,local,DIRECT
 DOMAIN-SUFFIX,localhost,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
@@ -3407,6 +3414,7 @@ DOMAIN-SUFFIX,gongmeng.info,全局设置
 DOMAIN-SUFFIX,gongminliliang.com,全局设置
 DOMAIN-SUFFIX,gongwt.com,全局设置
 DOMAIN-SUFFIX,goo.gl,全局设置
+DOMAIN-SUFFIX,goo.gle,全局设置
 DOMAIN-SUFFIX,goo.ne.jp,全局设置
 DOMAIN-SUFFIX,gooday.xyz,全局设置
 DOMAIN-SUFFIX,gooddns.info,全局设置
@@ -4248,6 +4256,7 @@ DOMAIN-SUFFIX,joinbbs.net,全局设置
 DOMAIN-SUFFIX,joinclubhouse.com,全局设置
 DOMAIN-SUFFIX,joinmastodon.org,全局设置
 DOMAIN-SUFFIX,joins.com,全局设置
+DOMAIN-SUFFIX,jornaldacidadeonline.com.br,全局设置
 DOMAIN-SUFFIX,journalchretien.net,全局设置
 DOMAIN-SUFFIX,journalofdemocracy.org,全局设置
 DOMAIN-SUFFIX,joymiihub.com,全局设置
@@ -4255,6 +4264,7 @@ DOMAIN-SUFFIX,joyourself.com,全局设置
 DOMAIN-SUFFIX,jp.net,全局设置
 DOMAIN-SUFFIX,jpopforum.net,全局设置
 DOMAIN-SUFFIX,jqueryui.com,全局设置
+DOMAIN-SUFFIX,jsdelivr.net,全局设置
 DOMAIN-SUFFIX,jshell.net,全局设置
 DOMAIN-SUFFIX,jtvnw.net,全局设置
 DOMAIN-SUFFIX,jubushoushen.com,全局设置
@@ -4624,7 +4634,8 @@ DOMAIN-SUFFIX,megaproxy.com,全局设置
 DOMAIN-SUFFIX,megarotic.com,全局设置
 DOMAIN-SUFFIX,megavideo.com,全局设置
 DOMAIN-SUFFIX,megurineluka.com,全局设置
-DOMAIN-SUFFIX,meirixiaochao.com,全局设置
+DOMAIN-SUFFIX,meizhong.blog,全局设置
+DOMAIN-SUFFIX,meizhong.report,全局设置
 DOMAIN-SUFFIX,meltoday.com,全局设置
 DOMAIN-SUFFIX,memehk.com,全局设置
 DOMAIN-SUFFIX,memorybbs.com,全局设置
@@ -4912,6 +4923,7 @@ DOMAIN-SUFFIX,netflav.com,全局设置
 DOMAIN-SUFFIX,netflix.com,全局设置
 DOMAIN-SUFFIX,netflix.net,全局设置
 DOMAIN-SUFFIX,netme.cc,全局设置
+DOMAIN-SUFFIX,netsarang.com,全局设置
 DOMAIN-SUFFIX,netsneak.com,全局设置
 DOMAIN-SUFFIX,network54.com,全局设置
 DOMAIN-SUFFIX,networkedblogs.com,全局设置
@@ -5126,6 +5138,7 @@ DOMAIN-SUFFIX,onapp.com,全局设置
 DOMAIN-SUFFIX,onedumb.com,全局设置
 DOMAIN-SUFFIX,onejav.com,全局设置
 DOMAIN-SUFFIX,onion.city,全局设置
+DOMAIN-SUFFIX,onion.ly,全局设置
 DOMAIN-SUFFIX,onlinecha.com,全局设置
 DOMAIN-SUFFIX,onlineyoutube.com,全局设置
 DOMAIN-SUFFIX,onlygayvideo.com,全局设置
@@ -5147,6 +5160,7 @@ DOMAIN-SUFFIX,opendn.xyz,全局设置
 DOMAIN-SUFFIX,openervpn.in,全局设置
 DOMAIN-SUFFIX,openid.net,全局设置
 DOMAIN-SUFFIX,openleaks.org,全局设置
+DOMAIN-SUFFIX,opensea.io,全局设置
 DOMAIN-SUFFIX,opensource.google,全局设置
 DOMAIN-SUFFIX,opentech.fund,全局设置
 DOMAIN-SUFFIX,openvpn.net,全局设置
@@ -5162,6 +5176,7 @@ DOMAIN-SUFFIX,organharvestinvestigation.net,全局设置
 DOMAIN-SUFFIX,organiccrap.com,全局设置
 DOMAIN-SUFFIX,orgasm.com,全局设置
 DOMAIN-SUFFIX,orgfree.com,全局设置
+DOMAIN-SUFFIX,oricon.co.jp,全局设置
 DOMAIN-SUFFIX,orient-doll.com,全局设置
 DOMAIN-SUFFIX,orientaldaily.com.my,全局设置
 DOMAIN-SUFFIX,orn.jp,全局设置
@@ -5179,6 +5194,7 @@ DOMAIN-SUFFIX,oursteps.com.au,全局设置
 DOMAIN-SUFFIX,oursweb.net,全局设置
 DOMAIN-SUFFIX,ourtv.hk,全局设置
 DOMAIN-SUFFIX,over-blog.com,全局设置
+DOMAIN-SUFFIX,overcast.fm,全局设置
 DOMAIN-SUFFIX,overdaily.org,全局设置
 DOMAIN-SUFFIX,overplay.net,全局设置
 DOMAIN-SUFFIX,ovi.com,全局设置
@@ -5920,6 +5936,7 @@ DOMAIN-SUFFIX,sohfrance.org,全局设置
 DOMAIN-SUFFIX,soifind.com,全局设置
 DOMAIN-SUFFIX,sokamonline.com,全局设置
 DOMAIN-SUFFIX,sokmil.com,全局设置
+DOMAIN-SUFFIX,solana.com,全局设置
 DOMAIN-SUFFIX,solidaritetibet.org,全局设置
 DOMAIN-SUFFIX,solidfiles.com,全局设置
 DOMAIN-SUFFIX,solv.finance,全局设置
@@ -6219,6 +6236,7 @@ DOMAIN-SUFFIX,theconversation.com,全局设置
 DOMAIN-SUFFIX,thedalailamamovie.com,全局设置
 DOMAIN-SUFFIX,thediplomat.com,全局设置
 DOMAIN-SUFFIX,thedw.us,全局设置
+DOMAIN-SUFFIX,theepochtimes.com,全局设置
 DOMAIN-SUFFIX,thefacebook.com,全局设置
 DOMAIN-SUFFIX,thefrontier.hk,全局设置
 DOMAIN-SUFFIX,thegay.com,全局设置
@@ -6678,6 +6696,7 @@ DOMAIN-SUFFIX,us.to,全局设置
 DOMAIN-SUFFIX,usacn.com,全局设置
 DOMAIN-SUFFIX,usaip.eu,全局设置
 DOMAIN-SUFFIX,usc.edu,全局设置
+DOMAIN-SUFFIX,uscnpm.org,全局设置
 DOMAIN-SUFFIX,usembassy.gov,全局设置
 DOMAIN-SUFFIX,usfk.mil,全局设置
 DOMAIN-SUFFIX,usma.edu,全局设置
@@ -6882,6 +6901,7 @@ DOMAIN-SUFFIX,waveprotocol.org,全局设置
 DOMAIN-SUFFIX,waymo.com,全局设置
 DOMAIN-SUFFIX,wda.gov.tw,全局设置
 DOMAIN-SUFFIX,wdf5.com,全局设置
+DOMAIN-SUFFIX,wealth.com.tw,全局设置
 DOMAIN-SUFFIX,wearehairy.com,全局设置
 DOMAIN-SUFFIX,wearn.com,全局设置
 DOMAIN-SUFFIX,weather.com.hk,全局设置
@@ -7009,6 +7029,7 @@ DOMAIN-SUFFIX,wordpress.com,全局设置
 DOMAIN-SUFFIX,workatruna.com,全局设置
 DOMAIN-SUFFIX,workerdemo.org.hk,全局设置
 DOMAIN-SUFFIX,workerempowerment.org,全局设置
+DOMAIN-SUFFIX,workers.dev,全局设置
 DOMAIN-SUFFIX,workersthebig.net,全局设置
 DOMAIN-SUFFIX,workflow.is,全局设置
 DOMAIN-SUFFIX,worldcat.org,全局设置
@@ -7084,6 +7105,7 @@ DOMAIN-SUFFIX,xihua.es,全局设置
 DOMAIN-SUFFIX,xinbao.de,全局设置
 DOMAIN-SUFFIX,xing.com,全局设置
 DOMAIN-SUFFIX,xinhuanet.org,全局设置
+DOMAIN-SUFFIX,xinjiangpolicefiles.org,全局设置
 DOMAIN-SUFFIX,xinmiao.com.hk,全局设置
 DOMAIN-SUFFIX,xinsheng.net,全局设置
 DOMAIN-SUFFIX,xinshijue.com,全局设置
